@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.8
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Jan 25, 2014 at 01:58 PM
+- Server version: 5.1.72-cll
+- PHP Version: 5.3.17
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="jeffr306_wodeham" collation="latin1_general_ci" charset="latin1">
+            <pma:table name="text_list">
+                CREATE TABLE `text_list` (
+                  `ID` int(11) NOT NULL AUTO_INCREMENT,
+                  `Book` varchar(3) DEFAULT NULL,
+                  `section` varchar(50) DEFAULT NULL,
+                  `folios` varchar(11) DEFAULT NULL,
+                  `Question_text` varchar(338) DEFAULT NULL,
+                  `link_address` varchar(100) DEFAULT NULL,
+                  `assignededitor` varchar(10) DEFAULT NULL,
+                  `status` set('','In preparation','Working draft posted','Final draft posted') DEFAULT NULL,
+                  UNIQUE KEY `ID` (`ID`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=80 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'jeffr306_wodeham'
+    -->
+    <database name="jeffr306_wodeham">
+        <!-- Table text_list -->
+        <table name="text_list">
+            <column name="ID">1</column>
+            <column name="Book">I</column>
+            <column name="section">Collatio</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>3ra-3va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Collatio</questionTitle>
+            <column name="link_address">icolS</column>
+            <column name="assignededitor">Brown</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">2</column>
+            <column name="Book">I</column>
+            <column name="section">Prol., q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>3va-7rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum, secundum quod tactum est in collatione, studium sacrae theologiae sit meritorium vitae aeternae. </questionTitle>
+            <column name="link_address">ipq1S.xml</column>
+            <column name="assignededitor">Brown</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">3</column>
+            <column name="Book">I</column>
+            <column name="section">Prol., q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>7rb-12vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum studium Sacrae Scripturae impositum alicui in foro poenitentiae pro omissione contraria sit meritorium.</questionTitle>
+            <column name="link_address">ipq2S.xml</column>
+            <column name="assignededitor">Brown</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">4</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>12vb-16rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debeatur pro mercede visio Dei et eius fruitio.</questionTitle>
+            <column name="link_address">id1q1S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">5</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>16rb-18ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum fruitio bearifica differat ab ipsa anima.</questionTitle>
+            <column name="link_address">id1q2S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">6</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 3</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>18ra-20ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum fruitio realiter distinguatur ab omni cognitione.</questionTitle>
+            <column name="link_address">id1q3S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">7</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 4</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>20ra-23rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum fruitio realiter distinguatur a delectatione.</questionTitle>
+            <column name="link_address">id1q4S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">8</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 5</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>23rb-24rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum generaliter omnis delectatio sit dilectio vel odium, seu volitio aut nolitio.</questionTitle>
+            <column name="link_address">id1q5S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">9</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 6</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>24rb-35rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum voluntas necessario vel libere principiet actus suos.</questionTitle>
+            <column name="link_address">id1q6S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">10</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 7</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>35rb-37vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum voluntas sola sit causa effectiva suae volitionis liberae supposita communi Dei influentia vel concausatione.</questionTitle>
+            <column name="link_address">id1q7S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">11</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 8</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>37vb-44ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum voluntas possit simul et subito producere actum voluntarium meritorie et libere dilectionis.</questionTitle>
+            <column name="link_address">id1q8S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">12</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 9</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>44ra-48rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum voluntas libere possit subito suspendere actum suum sive ab actu habito cessare.</questionTitle>
+            <column name="link_address">id1q9S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">13</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 10</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>48rb-58ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum creatura rationalis clare videns Deum necessario diligat ipsum.</questionTitle>
+            <column name="link_address">id1q10S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">14</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 11</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>58ra-64ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Undecimo circa distinctionem primam quaero: Utrum solus Deus sit licite a creatura rationali ultimate fruibilis.</questionTitle>
+            <column name="link_address">id1q11S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">15</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, 12</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>64ra-69va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum haec sit possibilis: creatura rationalis fruitur una persona divina non fruendo alia.</questionTitle>
+            <column name="link_address">id1q12S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">16</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 13</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>69va-72va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum liceat filium Dei plus diligere vel frui eo quam patrem vel spiritum sanctum.</questionTitle>
+            <column name="link_address">id1q13S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">17</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 1, q. 14</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>72va-74va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum fruitio beatifica sit actus intellectus.</questionTitle>
+            <column name="link_address">id1q14S.xml</column>
+            <column name="assignededitor">Kitanov</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">18</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 2, q. un.</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>74va-79rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum in entibus sit tantum unus Deus.</questionTitle>
+            <column name="link_address">id2qunS.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">Working draft posted</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">19</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 3, q. un.</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>79rb-85va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis.</questionTitle>
+            <column name="link_address">id3qunS.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">Working draft posted</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">25</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 6, q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>85va-87va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et voluntatem divinam et ita de ceteris perfectionibus quae ponuntur in Deo vel Deus nec moveat quod pluraliter loquar antequam habeatur quod ibi sit pluralitas, sine enim hac improprietate loquendi non potest homo in hac materia leviter exprimere illud quod vellet.</questionTitle>
+            <column name="link_address">id6q1S.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">Working draft posted</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">26</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 6, q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>87va-91ra)</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic de similibus. </questionTitle>
+            <column name="link_address">id6q2S.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">27</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 8, q. un.</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>91ra-94ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum solus Deus sit immutabilis.</questionTitle>
+            <column name="link_address">id8qunS.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">28</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 17, q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>94ra-99ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum gratia seu caritas sit viatori necessaria ad salutem.</questionTitle>
+            <column name="link_address">id17q1S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">29</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 17, q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>99ra-102vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum caritas seu gratia increata sine alio possit sufficere ad salutem.</questionTitle>
+            <column name="link_address">id17q2S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">30</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 17, q. 3</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>102vb-106va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum de peccatore possit fieri non peccator et acceptus Deo sine tali habitu sibi infuso per gratiam increatam. </questionTitle>
+            <column name="link_address">id17q3S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">31</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 17, q. 4</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>106va-110rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum caritas vel alia forma augmentabilis augmentetur per deminutionem contrarii sui.</questionTitle>
+            <column name="link_address">id17q4S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">32</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 17, q. 5</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>110rb-112va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle> Utrum in augmentatione caritatis vel alterius formae gradus omnis praeexistens corrumpatur cum novus gradus inducitur ita videlicet intelligendo quod in omni instanti sit totaliter nova forma.</questionTitle>
+            <column name="link_address">id17q5S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">33</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 17, q. 6</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>112va-116rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle> Utrum omnis bonus motus voluntatis meritorie augmentatius caritatis ad quem homo tenetur debeat vel possit ex caritate procedere collata ex merito redemptoris.</questionTitle>
+            <column name="link_address">id17q6S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">34</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>116rb-122ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Deus essentialiter unus sit personaliter trinus.</questionTitle>
+            <column name="link_address">id33q1S.xml</column>
+            <column name="assignededitor">Vaura</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">35</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>122ra-124vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Deus genuerit Deum.</questionTitle>
+            <column name="link_address">id33q2S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">36</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 3</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>124vb-128vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum aliqua sit certa regula vel ars per quam solvi possint communiter paralogismi facti et talibus similes circa materiam Trinitatis.</questionTitle>
+            <column name="link_address">id33q3S.xml</column>
+            <column name="assignededitor">Hallamaa</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">37</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 4</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>128vb-132rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum divina essentia generet vel generetur.</questionTitle>
+            <column name="link_address">id33q4S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">38</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 5</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>132rb-134va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum potentia generandi possit communicari filio in divinis.</questionTitle>
+            <column name="link_address">id33q5S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">39</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 6</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>134va-135rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Spiritus Sanctus posset distingui a Filio si non procederet ab eo.</questionTitle>
+            <column name="link_address">id33q6S.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">40</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 7</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>135rb-136vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Pater et Filius sint unum principium spirans Spiritum Sanctum.</questionTitle>
+            <column name="link_address">id33q7S.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">41</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 8</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>136vb-138vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum personae divinae primo et adaequate distinguantur ab invicem semetipsis. </questionTitle>
+            <column name="link_address">id33q8S.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">42</column>
+            <column name="Book">I</column>
+            <column name="section">Dist. 33, q. 9</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>138vb-139ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum omne idem Patri sit omnibus modis idem Patri.</questionTitle>
+            <column name="link_address">id33q9S.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">In preparation</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">43</column>
+            <column name="Book">II</column>
+            <column name="section">Collatio</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>139ra-139rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Hic est liber generationis Adam. Solent inquiri tituli lobrorum in principiis lectionum . . .</questionTitle>
+            <column name="link_address">iicolS.xml</column>
+            <column name="assignededitor">Brown</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">44</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>139rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum creatura rationalis meritorie serviendo Deo proficiat ad augmentum gratiae seu caritatis, sine omni novo addito gratiae praecedenti.</questionTitle>
+            <column name="link_address">iiq1S.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">45</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>142va-147ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum profectus vel augmentum gratiae fiat per compositionem gratiae novae cum gratia praecedenti.</questionTitle>
+            <column name="link_address">iiq2S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">46</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 3</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>147ra-151vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum creatura rationalis habens gratiam possit mereri suam gratiam augmentari.</questionTitle>
+            <column name="link_address">iiq3S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">47</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 4</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>151vb-153vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum viator operibus meritoriis insistendo ex hiis carior Deo fiat.</questionTitle>
+            <column name="link_address">iiq4S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">48</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 5</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>153vb-161va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum praesupposita gratia baptismali viator per merita sua possit pertingere ad gratiam maximam viae sibi possibilem.</questionTitle>
+            <column name="link_address">iiq5S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">49</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 6</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>161va-164rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum viator existens in gratia ultra omnem gratiam habitam vel habendam possit proficere ad maiorem per instantaneas causationes actuum volendi omnia pro futuro peccata venialia devirare.</questionTitle>
+            <column name="link_address">iiq6S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">50</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 7</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>164rb-166rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Deus possit creare finitam caritatem aliquam qua non possit creare maiorem vel aliquam aliam ita magnam secundum extensionem quod non possit maiorem illa producere, et sic de similibus.</questionTitle>
+            <column name="link_address">iiq7S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">51</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 8</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>166rb-169rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum secundum proportionem caritatis viae succedat pro praemio proportionaliter magnitudo gloriae.</questionTitle>
+            <column name="link_address">iiq8S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">52</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 9</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>169rb-172rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum, scilicet propter demerita, minuatur.</questionTitle>
+            <column name="link_address">iiq9S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">53</column>
+            <column name="Book">II</column>
+            <column name="section">Q. 10</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>172rb-174rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum caritas decrescat ad decrementum cupiditatis.</questionTitle>
+            <column name="link_address">iiq10S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">54</column>
+            <column name="Book">III</column>
+            <column name="section">Collatio</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>174rb-174vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>In funiculis Adam traham eos. Osee 11 Inttellectualis oculi naturale desiderium sed ignorantiae tenebris odumbrati licet impossibile legibus obligati caligantis aciei circumfert obtuitus . . . </questionTitle>
+            <column name="link_address">iiicolS.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">55</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>174vb-179ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum anima Christi habuerit et habeat sapientiam aequalem Deo.</questionTitle>
+            <column name="link_address">iiiq1.xml</column>
+            <column name="assignededitor">Vaura</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">56</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>179ra-181vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum ipsum verbum Dei sit sibi ipsi quamvis non animae sibi unitae scientia futurorum contingentium.</questionTitle>
+            <column name="link_address">iiiq2.xml</column>
+            <column name="assignededitor">Vaura</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">57</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 3</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>181vb-186ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum cum determinata verbi praescientia stet quod futura praescita sint ad utrumlibet contingentia.</questionTitle>
+            <column name="link_address">iiiq3.xml</column>
+            <column name="assignededitor">Vaura</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">58</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 4</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>186ra-187vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum anima Christi vel angeli sciant futura aliqua contingentia per revelationem sibi possibilem fieri ab ipso verbo vel etiam scire possint.</questionTitle>
+            <column name="link_address">iiiq4.xml</column>
+            <column name="assignededitor">Vaura</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">59</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 5</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>187vb-188va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum alicuius contingentis futuri absoluta revelatio sequens tollat contingentiam.</questionTitle>
+            <column name="link_address">iiiq5.xml</column>
+            <column name="assignededitor">Vaura</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">60</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 6</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>188va-193vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Deus vel verbum Dei existenti in gratia possit revelare quod talis finaliter sit damnandus.</questionTitle>
+            <column name="link_address">iiiq6.xml</column>
+            <column name="assignededitor">Witt</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">61</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 7</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>193vb-195rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum animae Christi vel angelo beato possit in verbo revelari aeternitas suae beatitudinis.</questionTitle>
+            <column name="link_address">iiiq7.xml</column>
+            <column name="assignededitor">Ainonen</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">62</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 8</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>195rb-197ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum Gabrieli potuerit in verbo verbi incarnatio revelari.</questionTitle>
+            <column name="link_address">iiiq8.xml</column>
+            <column name="assignededitor">Ainonen</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">63</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 9</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>197ra-198va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum per revelationes possibiles fieri in verbo posset aliquis sufficienter dirigi in volendis.</questionTitle>
+            <column name="link_address">iiiq9.xml</column>
+            <column name="assignededitor">Ainonen</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">64</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 10</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>198va-203ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum anima Christi in verbo Dei cui unitur distincte videre valeat infinita</questionTitle>
+            <column name="link_address">iiiq10.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">65</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 11</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>203ra-205va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum anima Christi possit in verbo cui unitur distincte cognoscere minimas partium sibi inhaerentium vel minimas particulas corporis quod informat.</questionTitle>
+            <column name="link_address">iiiq11.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">66</column>
+            <column name="Book">III</column>
+            <column name="section">Q. 12</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>205va-207vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum per unionem ad verbum ipsa sit omnipotens.</questionTitle>
+            <column name="link_address">iiiq12S.xml</column>
+            <column name="assignededitor">Slotemaker</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">67</column>
+            <column name="Book">IV</column>
+            <column name="section">Collatio</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>NULL</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>NULL</questionTitle>
+            <column name="link_address">ivcolS.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">68</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 1</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>207vb-211va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum aliqua creatura possit in effectum sacramenti praecise productibilem per creationem. Et hoc est expressius quaerere: Utrum aliqua creatura possit creare caritatem vel gratiam vel aliam creaturam.</questionTitle>
+            <column name="link_address">ivq1S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">69</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 2</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>211va-214va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum posse creare gratiam vel aliquid aliud repugnet propter virtutis activae insufficientiam cuilibet creaturae.</questionTitle>
+            <column name="link_address">ivq2S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">70</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 3</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>214va-215vb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis conferatur gratia salutaris.</questionTitle>
+            <column name="link_address">ivq3S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">71</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 4</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>215vb-217rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum corpus Christi realiter sub speciebus quae fuerunt panis et vini contineatur.</questionTitle>
+            <column name="link_address">ivq4S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">72</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 5</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>217rb-221rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam distincta realiter a substantia et qualitate cuius est.</questionTitle>
+            <column name="link_address">ivq5S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">73</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 6</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>221rb-223va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum sacramentum poenitentiae sit necessarium ad delendum peccatum mortale post baptismum commissum.</questionTitle>
+            <column name="link_address">ivq6S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">74</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 7</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>223va-224va</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum actus paenitentiae requisitus ad deletionem culpae mortalis sit meritorius vitae aeternae.</questionTitle>
+            <column name="link_address">ivq7S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">75</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 8</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>227va-229rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum quilibet qui commisit peccatum mortale teneatur secundum legem Dei communem de illo conteri.</questionTitle>
+            <column name="link_address">ivq8S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">76</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 9</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>227rb-229rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum vera poenitentia sit formaliter vel virtualiter velle cavere peccatum quodlibet in futuro.</questionTitle>
+            <column name="link_address">ivq9S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">77</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 10</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>229rb-231rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum ille qui peccaverit mortaliter in opere exteriori teneatur plus poenitere de opere exteriori et interiori simul quam de interiori solo.</questionTitle>
+            <column name="link_address">ivq10S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">78</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 11</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>231rb-232rb</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum aliqua poena infernalis possit esse insensibilis in damnato.</questionTitle>
+            <column name="link_address">ivq11S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+        <table name="text_list">
+            <column name="ID">79</column>
+            <column name="Book">IV</column>
+            <column name="section">Q. 12</column>
+            <hasParts>
+              <part>
+               <slug>sorb</slug>
+               <title>Sorbonne</title>
+                <initial>S</initial>
+                <folios>232rb-233ra</folios>
+                 </part>
+              </hasParts>
+            <questionTitle>Utrum sit maxima gloria possibilis in beato?</questionTitle>
+            <column name="link_address">ivq12S.xml</column>
+            <column name="assignededitor">NULL</column>
+            <column name="status">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>

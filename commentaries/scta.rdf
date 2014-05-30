@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:role="http://www.loc.gov/loc.terms/relators/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:scta="http://scta.org"
+    xmlns:collex="http://www.collex.org/schema#" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <scta:project rdf:about="http://scta.info/scta">
+        <dc:title>Sentences Commentary Text Archive</dc:title>
+        <dcterms:hasPart rdf:resource="http://scta.info/commentaries/plaoulcommentary"/>
+        <dcterms:hasPart rdf:resource="http://scta.info/commentaries/wodehamordinatio"/>
+        <dcterms:hasPart rdf:resource="http://scta.info/commentaries/graciliscommentary"/>
+        <dcterms:hasPart rdf:resource="http://scta.info/commentaries/lambertuscommentary"/>
+    </scta:project>
+</rdf:RDF>

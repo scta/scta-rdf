@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+    <head>
+        <authorName>Adam Wodeham</authorName>
+        <commentaryName>Wodeham Ordinatio</commentaryName>
+        <authorUri>http://scta.info/names/Wodeham</authorUri>
+        <parentUri>http://scta.info/commentaries/wodehamordinatio</parentUri>
+        <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/adamwodeham/WodehamProjectFiles/Textfiles/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+        <webbase>http://adamwodeham.org/</webbase>
+    </head>
+    <div id="body">
+    <div id="book1" class="toplevel" type="book">
+        <head>Book I</head>
+        <div id="b1-col" type="distinction">
+            <head>Collatio</head>
+        <item live="false">
+            <fileName filestem="b1-col-qun">Collatio 3ra-3va</fileName>
+            <title>Collatio</title>
+        </item>
+        </div>
+        
+        <div id="b1-prol" type="distinction">
+            <head>Prologue</head>
+        <item live="false">
+            <fileName filestem="b1-prol-q1">b1-prol-q1.xml</fileName>
+            <title>Prologue, q. 1</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-prol-q2">b1-prol-q2.xml</fileName>
+            <title>Prologue, q. 2</title>
+        </item>
+        </div>
+        
+        <div id="b1-d1" type="distinction">
+            <head>Distinctio 1</head>
+        <item live="false">
+            <fileName filestem="b1-d1-q1">b1-d1-q1.xml</fileName>
+            <title>Dist. 1, q. 1</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q2">b1-d1-q2.xml</fileName>
+            <title>Dist. 1, q. 2</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q3">b1-d1-q3.xml</fileName>
+            <title>Dist. 1, q. 3</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q4">b1-d1-q4.xml</fileName>
+            <title>Dist. 1, q. 4</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q5">b1-d1-q5.xml</fileName>
+            <title>Dist. 1, q. 5</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q6">b1-d1-q6.xml</fileName>
+            <title>Dist. 1, q. 6</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q7">b1-d1-q7.xml</fileName>
+            <title>Dist. 1, q. 7</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q8">b1-d1-q8.xml</fileName>
+            <title>Dist. 1, q. 8</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q9">b1-d1-q9.xml</fileName>
+            <title>Dist. 1, q. 9</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q10">b1-d1-q10.xml</fileName>
+            <title>Dist. 1, q. 10</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q11">b1-d1-q11.xml</fileName>
+            <title>Dist. 1, q. 11</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q12">b1-d1-q12.xml</fileName>
+            <title>Dist. 1, q. 12</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b1-d1-q13">b1-d1-q13.xml</fileName>
+            <title>Dist. 1, q. 13</title>
+        </item>
+        <item live="true">
+            <fileName filestem="b1-d1-q14">b1-d1-q14.xml</fileName>
+            <title>Dist. 1, q. 14</title>
+        </item>
+        </div>
+        <div id="b1-d2" type="distinction">
+            <head>Distinctio 2</head>
+            <item live="false">
+                <fileName filestem="b1-d2-qun">b1-d2-qun.xml</fileName>
+                <title>Dist. 2, q. un.</title>
+            </item>
+        </div>
+        <div id="b1-d3" type="distinction">
+            <head>Distinctio 3</head>
+            <item live="true">
+                <fileName filestem="b1-d3-qun">b1-d3-qun.xml</fileName>
+                <title>Dist. 3, q. un.</title>
+                <hasParts>
+                    <part>
+                        <slug>sorb</slug>
+                        <title>Sorbonne</title>
+                        <initial>S</initial>
+                    </part>
+                </hasParts>  
+
+            </item>
+        </div>
+        <div id="b1-d6" type="distinction">
+            <head>Distinctio 6</head>
+            <item live="false">
+                <fileName filestem="b1-d6-q1">b1-d6-q1.xml</fileName>
+                <title>Dist. 6, q. 1</title>
+            </item>
+            <item live="true">
+                <fileName filestem="b1-d6-q2">b1-d6-q2.xml</fileName>
+                <title>Dist. 6, q. 2</title>
+            </item>
+        </div>
+        <div id="b1-d8" type="distinction">
+            <head>Distinctio 8</head>
+            <item live="false">
+                <fileName filestem="b1-d8-qun">b1-d6-qun.xml</fileName>
+                <title>Dist. 3, q. un.</title>
+            </item>
+        </div>
+        <div id="b1-d17" type="distinction">
+            <head>Distinctio 17</head>
+            <item live="false">
+                <fileName filestem="b1-d17-q1">b1-d17-q1.xml</fileName>
+                <title>Dist. 17, q. 1</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d17-q2">b1-d17-q2.xml</fileName>
+                <title>Dist. 17, q. 2</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d17-q3">b1-d17-q3.xml</fileName>
+                <title>Dist. 17, q. 3</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d17-q4">b1-d17-q4.xml</fileName>
+                <title>Dist. 17, q. 4</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d17-q5">b1-d17-q5.xml</fileName>
+                <title>Dist. 17, q. 5</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d17-q6">b1-d17-q6.xml</fileName>
+                <title>Dist. 17, q. 6</title>
+            </item>
+        </div>
+        <div id="b1-d33" type="distinction">
+            <head>Distinctio 33</head>
+            <item live="false">
+                <fileName filestem="b1-d33-q1">b1-d33-q1.xml</fileName>
+                <title>Dist. 33, q. 1</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q2">b1-d33-q2.xml</fileName>
+                <title>Dist. 33, q. 2</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q3">b1-d33-q3.xml</fileName>
+                <title>Dist. 33, q. 3</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q4">b1-d33-q4.xml</fileName>
+                <title>Dist. 33, q. 4</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q5">b1-d33-q5.xml</fileName>
+                <title>Dist. 33, q. 5</title>
+            </item>
+            <item live="true">
+                <fileName filestem="b1-d33-q6">b1-d33-q6.xml</fileName>
+                <title>Dist. 33, q. 6</title>
+                <hasPart>
+                    <part>
+                        <slug>sorb</slug>
+                        <title>Sorbonne</title>
+                        <initial>S</initial>
+                    </part>
+                </hasPart>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q7">b1-d33-q7.xml</fileName>
+                <title>Dist. 33, q. 7</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q8">b1-d33-q8.xml</fileName>
+                <title>Dist. 33, q. 8</title>
+            </item>
+            <item live="false">
+                <fileName filestem="b1-d33-q9">b1-d33-q9.xml</fileName>
+                <title>Dist. 33, q. 9</title>
+            </item>
+        </div>
+    </div>
+    <div id="book2" class="toplevel" type="book">
+        <head>Book II</head>
+        <item live="false">
+            <fileName filestem="b2-q1">b2-q1.xml</fileName>
+            <title>Question 1</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q2">b2-q2.xml</fileName>
+            <title>Question 2</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q3">b2-q3.xml</fileName>
+            <title>Question 3</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q4">b2-q4.xml</fileName>
+            <title>Question 4</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q5">b2-q5.xml</fileName>
+            <title>Question 5</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q6">b2-q6.xml</fileName>
+            <title>Question 6</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q7">b2-q7.xml</fileName>
+            <title>Question 7</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q8">b2-q8.xml</fileName>
+            <title>Question 8</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q9">b2-q9.xml</fileName>
+            <title>Question 9</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b2-q10">b2-q10.xml</fileName>
+            <title>Question 10</title>
+        </item>
+    </div>
+    
+    <div id="book3" class="toplevel" type="book">
+        <head>Book III</head>
+        <item live="false">
+            <fileName filestem="b3-q1">b3-q1.xml</fileName>
+            <title>Question 1</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q2">b3-q2.xml</fileName>
+            <title>Question 2</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q3">b3-q3.xml</fileName>
+            <title>Question 3</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q4">b3-q4.xml</fileName>
+            <title>Question 4</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q5">b3-q5.xml</fileName>
+            <title>Question 5</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q6">b3-q6.xml</fileName>
+            <title>Question 6</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q7">b3-q7.xml</fileName>
+            <title>Question 7</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q8">b3-q8.xml</fileName>
+            <title>Question 8</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q9">b3-q9.xml</fileName>
+            <title>Question 9</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q10">b3-q10.xml</fileName>
+            <title>Question 10</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q11">b3-q11.xml</fileName>
+            <title>Question 11</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b3-q12">b3-q12.xml</fileName>
+            <title>Question 12</title>
+        </item>
+    </div>
+    
+    <div id="book4" class="toplevel" type="book">
+        <head>Book IV</head>
+        <item live="false">
+            <fileName filestem="b4-q1">b4-q1.xml</fileName>
+            <title>Question 1</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q2">b4-q2.xml</fileName>
+            <title>Question 2</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q3">b4-q3.xml</fileName>
+            <title>Question 3</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q4">b4-q4.xml</fileName>
+            <title>Question 4</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q5">b4-q5.xml</fileName>
+            <title>Question 5</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q6">b4-q6.xml</fileName>
+            <title>Question 6</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q7">b4-q7.xml</fileName>
+            <title>Question 7</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q8">b4-q8.xml</fileName>
+            <title>Question 8</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q9">b4-q9.xml</fileName>
+            <title>Question 9</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q10">b4-q10.xml</fileName>
+            <title>Question 10</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q11">b4-q11.xml</fileName>
+            <title>Question 11</title>
+        </item>
+        <item live="false">
+            <fileName filestem="b4-q12">b4-q12.xml</fileName>
+            <title>Question 12</title>
+        </item>
+    </div>
+    </div>    
+</listofFileNames>

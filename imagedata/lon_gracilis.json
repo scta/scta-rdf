@@ -1,0 +1,384 @@
+{
+	//Metadata about this Manifest file
+	
+	"@context":"http://www.shared-canvas.org/ns/context.json",
+	"@id": "http://scta.info/iiif/pg-lon/manifest.json",
+	"@type":"sc:Manifest",
+	//Metadata about the physical object/intellectual work
+	"label":"Gracilis Commentary",
+	"metadata": [
+		{"label":"Author", "value": "Petrus Gracilis"},
+		{"label":"Published", "value": [
+		{"@value": "Paris, circa 1400", "@language": "la"}
+			]
+		}	
+	],
+	"description":"The commentary of Peter Gracilis.",
+
+	//Rights MetaData
+	"license": "Bristish Library Stuff",
+	"attribution": "British Library Stuff",
+
+	//Linking MetaData
+	"service": "??",
+	"seeAlso": "petrusgracilis.lombardpress.org",
+	"within": "???",
+
+	//List of Sequences
+	"sequences":[
+		{
+		"@id": "http://scta.info/iiif/pg-lon/sequence/normal.json",
+		"@type": "sc:Sequence",
+		"label": "Current page order"
+		"viewingDirection": "left-to-right",
+		"viewingHint": "paged",
+
+		//The order of canvases
+		"canvases": [
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L1r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 1 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L1r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L1r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L1r.json"
+					}
+			  	]	
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L1v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 1 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L1v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L1v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L1v.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L2r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 2 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L2r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L2r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L2r.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L2v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 2 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L2v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L2v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L2v.json"
+					}
+			  	]	
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L3r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 3 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L3r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L3r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L3r.json"
+					}
+			  	]	
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L3v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 3 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L3v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L3v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L3v.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L4r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 4 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L4r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L4r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L4r.json"
+					}
+			  	]
+					
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L4v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 4 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L4v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L4v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L4v.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L5r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 5 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L5r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L5r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L5r.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L5v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 5 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L5v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L5v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L5v.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L6r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 6 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L6r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L6r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L6r.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L6v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 6 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L6v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L6v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L6v.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L7r.json",
+			"@type":"sc:Canvas",
+			"label": "folio 7 recto",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L7r-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L7r.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iif/pg-lon/canvas/L7r.json"
+					}
+			  	]
+			}
+			//more canvases go here.
+		]
+		}
+	]
+
+}
+
+

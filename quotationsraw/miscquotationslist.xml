@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Quote List</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="AugDeTrin14_1">
+               <quote>fides saluberrima gignitur defenditur et roboratur</quote>
+               <bibl>
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#deTrinitate">de Trinitate</title>
+                  <biblScope type="book">14</biblScope>
+                  <biblScope type="chapter">1</biblScope>
+               </bibl>
+            </item>
+            <item xml:id="AugConManFun-5_6-a">
+               <quote>euangelio non crederem nisi auctoritas ecclesiae ad hoc me compelleret</quote>
+               <!-- dbcheck source -->
+               <bibl>
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#deTrinitate">Against the Fundamental Epistle of Manichaeus</title>
+                  <!-- Contra epistulam Manichaei quam uocant fundamenti -->
+                  <biblScope type="chapter">5</biblScope>
+                  <biblScope type="number">6</biblScope>
+               </bibl>
+               
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>

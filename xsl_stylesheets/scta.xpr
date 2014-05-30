@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="14.2">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="14.2" xml:space="preserve">
+                <map>
+                    <entry>
+                        <String>validation.scenarios</String>
+                        <validationScenario-array/>
+                    </entry>
+                </map>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="scta.xpr">
+        <folder path="../commentaries/"/>
+        <folder path="../names/"/>
+        <folder path="../projectfiles/"/>
+        <folder path="../quotations/"/>
+        <folder path="../works/"/>
+        <folder path="."/>
+        <folder path="../../../Documents/auctoritatesAristotelis/XMLFiles/"/>
+    </projectTree>
+</project>
