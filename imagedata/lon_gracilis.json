@@ -57,7 +57,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L1r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L1r.json"
 					}
 			  	]	
 			},
@@ -83,7 +83,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L1v.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L1v.json"
 					}
 			  	]
 			},
@@ -109,7 +109,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L2r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L2r.json"
 					}
 			  	]
 			},
@@ -135,7 +135,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L2v.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L2v.json"
 					}
 			  	]	
 			},
@@ -161,7 +161,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L3r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L3r.json"
 					}
 			  	]	
 			},
@@ -187,7 +187,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L3v.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L3v.json"
 					}
 			  	]
 			},
@@ -213,7 +213,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L4r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L4r.json"
 					}
 			  	]
 					
@@ -240,7 +240,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L4v.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L4v.json"
 					}
 			  	]
 			},
@@ -266,7 +266,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L5r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L5r.json"
 					}
 			  	]
 			},
@@ -292,7 +292,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L5v.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L5v.json"
 					}
 			  	]
 			},
@@ -318,7 +318,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L6r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L6r.json"
 					}
 			  	]
 			},
@@ -344,7 +344,7 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L6v.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L6v.json"
 					}
 			  	]
 			},
@@ -370,10 +370,62 @@
 						"height":2800,
 						"width":2000,
 						},
-					"on": "http://scta.info/iif/pg-lon/canvas/L7r.json"
+					"on": "http://scta.info/iiif/pg-lon/canvas/L7r.json"
 					}
 			  	]
 			}
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L7v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 7 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L7v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L7v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iiif/pg-lon/canvas/L7v.json"
+					}
+			  	]
+			},
+			{
+			"@id":"http://scta.info/iiif/pg-lon/canvas/L6v.json",
+			"@type":"sc:Canvas",
+			"label": "folio 6 verso",
+			"height":2800,
+			"width":2000,
+			"images":[
+				{
+					"@type": "http://www.shared-canvas.org/ns/context.json",
+					"@id": "http://scta.info/iiif/pg-lon/annotation/L6v-image.json",
+					"@type": "oa:Annotation",
+					"motivation": "sc:painting",
+					"resource": {
+						"@id" : "http://scta.info/iiif/pg-lon/res/L6v.jpg",
+						"@type": "dctypes:Image",
+						"format": "image/jpeg",
+						"service": {
+							//pointer to image server goes here
+							},
+						"height":2800,
+						"width":2000,
+						},
+					"on": "http://scta.info/iiif/pg-lon/canvas/L6v.json"
+					}
+			  	]
+			},
 			//more canvases go here.
 		]
 		}

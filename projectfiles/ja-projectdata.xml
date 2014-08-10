@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listofFileNames>
-    <head>
+    <header>
         <authorName>Jacobus de Altavilla</authorName>
         <commentaryName>Jacobus de Altavila Commentary</commentaryName>
-        <authorUri>http://scta.info/names/JacobusDeAltavilla</authorUri>
-        <parentUri>http://scta.info/commentaries/altavillacommentary</parentUri>
+        <commentaryid>altavillacommentary</commentaryid>
+        <authorUri>http://scta.info/resource/person/JacobusDeAltavilla</authorUri>
+        <parentUri>http://scta.info/text/altavillacommentary/commentary</parentUri>
         <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/JacobusDeAltavilla/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
-    </head>
+    </header>
     <div id="body">
-        <div id="ja-book1" class="toplevel" type="book">
+        <div id="ja-book1" class="toplevel" type="librum">
             <head>Book I</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item1">ja-item1.xml</fileName>
                 <title>Circa prologum, q. 1</title>
                 <questionTitle>Utrum veritates theologicae scientiae contrarientur veritatibus principiorum naturalis luminis et sensualis experientiae.</questionTitle>
@@ -30,7 +31,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item2">ja-item2.xml</fileName>
                 <title>Circa prologum, q. 2</title>
                 <questionTitle>Utrum studens in sacra scriptura non credens sicut sancta ecclesia credit erret</questionTitle>
@@ -49,7 +50,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item3">ja-item3.xml</fileName>
                 <title>Circa dist. primam</title>
                 <questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debetur pro mercede visio Dei et eius fruitio</questionTitle>
@@ -68,7 +69,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item4">ja-item4.xml</fileName>
                 <title>Circa dist. 1am, 2am et 3am</title>
                 <questionTitle>Utrum inter creaturae totius usum et Dei solius fruitionem natum sit rationali creaturae facere aliquimodo commutationem</questionTitle>
@@ -87,7 +88,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item5">ja-item5.xml</fileName>
                 <title>Circa dist. 2am</title>
                 <questionTitle>Utrum creatura rationalis viatrix et beatrix ineffabilem habere possit notitiam de divina essentia.</questionTitle>
@@ -106,7 +107,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item6">ja-item6.xml</fileName>
                 <title>Circa dist. 2am et 3am</title>
                 <questionTitle>Utrum in entibus fore unum primum seu Deum unicum possit a viatore efficaciter esse scitum</questionTitle>
@@ -125,7 +126,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item7">ja-item7.xml</fileName>
                 <title>Circa dist. 2am-8am</title>
                 <questionTitle>Utrum in Deo sit omnimoda simplicitas et ex natura rei a divina perfectione excludens pluralitatem</questionTitle>
@@ -144,7 +145,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item8">ja-item8.xml</fileName>
                 <title>Circa dist. 2am, 3am</title>
                 <questionTitle>Utrum trinitas increata per rationes a viatore non ... per viam vestigii aut imaginis sit investigabilis</questionTitle>
@@ -163,7 +164,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item9">ja-item9.xml</fileName>
                 <title>Circa dist. 4am, 5am, 6am</title>
                 <questionTitle>Utrum generationis qua Deus genuit Deum essentia divina sit terminus formalis aut materiale principium.</questionTitle>
@@ -182,7 +183,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item10">ja-item10.xml</fileName>
                 <title>Circa dist. 7am</title>
                 <questionTitle>Utrum potentia generativa existens in Filio Dei possit exire in actum generandi.</questionTitle>
@@ -201,7 +202,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item11">ja-item11.xml</fileName>
                 <title>Circa dist. 8am</title>
                 <questionTitle>Utrum sola immensa natura deitatis alietatem excludit cuiuslibet mutabilitatis.</questionTitle>
@@ -220,7 +221,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item12">ja-item12.xml</fileName>
                 <title>Circa dist 9am, 10am</title>
                 <questionTitle>Utrum a Patre et Filio coaeternus Spiritus Sanctus procedat per modum voluntatis.</questionTitle>
@@ -239,7 +240,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item13">ja-item13.xml</fileName>
                 <title>Circa dist. 11am, 12am, 13am, 14am</title>
                 <questionTitle>Utrum spiritus sanctus taliter a Patre et Filio tamquam ab unico principio procedat, ut nec genitus nec ingenitus dici debeat.</questionTitle>
@@ -258,7 +259,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item14">ja-item14.xml</fileName>
                 <title>Circa dist. 14am, 15am, 16am</title>
                 <questionTitle>Utrum Spiritus Sancti diffusio in mente viatoris rationali sit temporalis processio distincta a sua spiratione aeterna.</questionTitle>
@@ -277,7 +278,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item15">ja-item15.xml</fileName>
                 <title>Circa dist. 17am</title>
                 <questionTitle>Utrum ad Deum et proximum meritorie diligendum Spiritus Sanctus sufficit absque eo quod aliquis creatus habitus rationali mente inhaereat.</questionTitle>
@@ -296,7 +297,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item16">ja-item16.xml</fileName>
                 <title>Circa dist. 17am</title>
                 <questionTitle>Utrum caritas creata augmentum suscipere valeat in iusti viatoris anima</questionTitle>
@@ -315,7 +316,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item17">ja-item17.xml</fileName>
                 <title>Circa dist.19am et 20am</title>
                 <questionTitle>Utrum personae divinae summe coaequales circumincessivae in invicem sunt existentes</questionTitle>
@@ -334,7 +335,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item18">ja-item18.xml</fileName>
                 <title>Circa dist. 35am</title>
                 <questionTitle>Utrum Deus per sui ipsius comprehensivam scientiam omnium entium et possibilium distinctam habeat notitiam</questionTitle>
@@ -353,7 +354,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item19">ja-item19.xml</fileName>
                 <title>de contingentia</title>
                 <questionTitle>Utrum divinae scientiae et quod actu quorandam futurorum ineffabilis certitudo ipsorum, quae non necessitas sed contingentia, sint ad aliquam contradictionem antecedentis.</questionTitle>
@@ -366,7 +367,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item20">ja-item20.xml</fileName>
                 <title>de praedistinatione</title>
                 <questionTitle>Utrum quaelibet intellectualis creatura sit absque quocumque, cur divina voluntate antecedente aeternaliter praedestinata vel reprobata</questionTitle>
@@ -379,7 +380,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item21">ja-item21.xml</fileName>
                 <title>Circa dist. 42am, 43am et 44am</title>
                 <questionTitle>Utrum immensus vigor simpliciter divinae essentiae existens ratio formalis convertibiliter adaequata omnipotentiae possit res meliores quam sunt efficere</questionTitle>
@@ -398,7 +399,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item22">ja-item22.xml</fileName>
                 <title>Circa dist. 45am, 46am, 47am et 48am</title>
                 <questionTitle>Utrum divinum velle infrustrabile quodlibet possibile bonum et solum tale possit efficere ("circa distinctiones ultimas de divina voluntate")</questionTitle>
@@ -417,7 +418,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="ja-item23">ja-item23.xml</fileName>
                 <title>Circa dist. 45am, 46am, 47am et 48am</title>
                 <questionTitle>Utrum divina voluntas, respectu omni iusta sit cunctorum entium et motionum metrum primum et regula.</questionTitle>

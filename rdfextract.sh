@@ -6,7 +6,7 @@ do
 	filename=$(basename "$f");
 	extension="${filename##*.}";
 	filename="${filename%.*}";
-	saxon "-warnings:silent -s:$base/projectfiles/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_conversion_one_file.xsl" "-o:$base/commentaries/$filename.rdf";
+	saxon "-warnings:silent -s:$base/projectfiles/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/commentaries/$filename.rdf";
 done
 
 echo "Projectfiles meta data created";

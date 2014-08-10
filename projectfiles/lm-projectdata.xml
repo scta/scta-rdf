@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listofFileNames xmlns:scta-rel="http://scta.info/relations/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <head>
+<listofFileNames xmlns:sctap="http://scta.info/properties/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <header>
         <authorName>Lambertus de Monte</authorName>
         <commentaryName>Lambertus Commentary</commentaryName>
-        <authorUri>http://scta.info/names/LambertusDeMonte</authorUri>
-        <parentUri>http://scta.info/commentaries/lambertuscommentary</parentUri>
-        <textfilesdir>/Users/JCWitt/Documents/PlaoulProjectFiles/Textfiles/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+        <commentaryid>lambertuscommentary</commentaryid>
+        <authorUri>http://scta.info/resource/person/LambertusDeMonte</authorUri>
+        <parentUri>http://scta.info/text/lambertuscommentary/commentary</parentUri>
+        <textfilesdir/> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
-    </head>
+    </header>
 <div id="body">
-    <div id="lm-book1" type="book">
+    <div id="lm-book1" type="librum">
         <head>Book I</head>
         <div id="lm-b1-prol" type="distinction">
             <head>Prologue</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-prol-q1">lm-b1-prol-q1.xml</fileName>
                 <title>Book 1, prologue, question 1</title>
                 <questionTitle>Utrum theologia sit scientia</questionTitle>
@@ -27,10 +28,10 @@
                     </part>
                 </hasParts>
                 <manualRDFs>
-                    <scta-rel:mentions rdf:resource="http://scta.info/names/peter-plaoul"/>
+                    <sctap:mentions rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
                 </manualRDFs>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-prol-q2">lm-b1-prol-q2.xml</fileName>
                 <title>Book 1, prologue, question 2</title>
                 <questionTitle>De quo est tamquam de subiecto</questionTitle>
@@ -47,7 +48,7 @@
         </div>
         <div id="lm-b1-d1" type="distinction">
             <head>Distinction 1</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d1-q1">lm-b1-d1-q1.xml</fileName>
                 <title>Book 1, distinction 1, question 1</title>
                 <questionTitle>Utrum solo Deo sit fruendum et omnibus aliis utendum</questionTitle>
@@ -64,7 +65,7 @@
         </div>
         <div id="lm-b1-d2" type="distinction">
             <head>Distinction 2</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d2-q1">lm-b1-d2-q1.xml</fileName>
                 <title>Book 1, distinction 2, question 1</title>
                 <questionTitle>Utrum Deus sit cognoscibilis</questionTitle>
@@ -81,7 +82,7 @@
         </div>
         <div id="lm-b1-d3" type="distinction">
             <head>Distinction 3</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d3-q1">lm-b1-d3-q1.xml</fileName>
                 <title>Book 1, distinction 3, question 1</title>
                 <questionTitle>Utrum vestigium creatoris sit in omni creatura</questionTitle>
@@ -95,7 +96,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d3-q2">lm-b1-d3-q2.xml</fileName>
                 <title>Book 1, distinction 3, question 2</title>
                 <questionTitle>De medio quod est imago, secundum quod in homine imago Dei reperitur</questionTitle>
@@ -109,13 +110,13 @@
                     </part>
                 </hasParts>
                 <manualRDFs>
-                    <scta-rel:mentions rdf:resource="http://scta.info/names/peter-plaoul"/>
+                    <sctap:mentions rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
                 </manualRDFs>
             </item>
         </div>
         <div id="lm-b1-d5" type="distinction">
             <head>Distinction 5</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d5-q1">lm-b1-d5-q1.xml</fileName>
                 <title>Book 1, distinction 5, question 1</title>
                 <questionTitle>Utrum divinae generationis essentia potest esse terminus a quo vel ad quem</questionTitle>
@@ -129,13 +130,13 @@
                     </part>
                 </hasParts>
                 <manualRDFs>
-                    <scta-rel:mentions rdf:resource="http://scta.info/names/peter-plaoul"/>
+                    <sctap:mentions rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
                 </manualRDFs>
             </item>
         </div>
         <div id="lm-b1-d6and7" type="distinction">
             <head>Distinction 6 and 7</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d6and7-q1">lm-b1-d6and7-q1.xml</fileName>
                 <title>Book 1, distinction 6-7, question 1</title>
                 <questionTitle>Utrum potentia qua Pater generat sit in Filio</questionTitle>
@@ -152,7 +153,7 @@
         </div>
         <div id="lm-b1-d8" type="distinction">
             <head>Utrum divina essentia sit summe simplex et in fine simplicitatis</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d8-q1">lm-b1-d8-q1.xml</fileName>
                 <title>Book 1, distinction 8, question 1</title>
                 <questionTitle>Utrum divina essentia sit summe simplex et in fine simplicitatis</questionTitle>
@@ -168,7 +169,7 @@
             </item>
         </div><div id="lm-b1-d9" type="distinction">
             <head>Distinction 9</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-b1-d9-q1">lm-b1-d9-q1.xml</fileName>
                 <title>Book 1, distinction 9, question 1</title>
                 <questionTitle>Utrum aeternitas reperitur in Deo</questionTitle>
@@ -185,7 +186,7 @@
         </div>
         <div id="lm-b1-d9and10and11" type="distinction">
             <head>Distinction 9, 10, and 11</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio11">lm-quaestio11.xml</fileName>
                 <title>Book 1, distiontion 9-11 question 1</title>
                 <questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio per modum amoris</questionTitle>
@@ -202,7 +203,7 @@
         </div>
         <div id="lm-b1-d14and15" type="distinction">
             <head>Distinction 14-15</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio12">lm-quaestio12.xml</fileName>
                 <title>Book 1, distinction 14-15, question 1</title>
                 <questionTitle>Utrum Spiritus Sanctus temporaliter procedit solum a Patre et Filio</questionTitle>
@@ -219,7 +220,7 @@
         </div>
         <div id="lm-b1-d17" type="distinction">
             <head>Distinction 17</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio13">lm-quaestio13.xml</fileName>
                 <title>Book 1, distinction 17, question 1</title>
                 <questionTitle>Utrum caritas qua diligimus Deum et proximum sit Spiritus Sanctus</questionTitle>
@@ -233,7 +234,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio14">lm-quaestio14.xml</fileName>
                 <title>Book 1, distinction 17, question 2</title>
                 <questionTitle>Utrum caritas potest augeri et minui</questionTitle>
@@ -250,7 +251,7 @@
         </div>
         <div id="lm-b1-d19and20" type="distinction">
             <head>Distinction 19-20</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio15">lm-quaestio15.xml</fileName>
                 <title>Book 1, distinction 19-20, question 1</title>
                 <questionTitle>Utrum in divinis sit aequalitas</questionTitle>
@@ -267,7 +268,7 @@
         </div>
         <div id="lm-b1-d22" type="distinction">
             <head>Distinction 22</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio16">lm-quaestio16.xml</fileName>
                 <title>Book 1, distinction 22, question 1</title>
                 <questionTitle></questionTitle>
@@ -284,7 +285,7 @@
         </div>
         <div id="lm-b1-d23" type="distinction">
             <head>Distinction 23</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio17">lm-quaestio17.xml</fileName>
                 <title>Book 1, distinction 23, question 1</title>
                 <questionTitle>Utrum persona significet substantiam vel proprietatem in divinis</questionTitle>
@@ -301,7 +302,7 @@
         </div>
         <div id="lm-b1-d24and25" type="distinction">
             <head>Distinction 24-25</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio18">lm-quaestio18.xml</fileName>
                 <title>Book 1, distinction 24-25, question 1</title>
                 <questionTitle>Utrum in divinis personis sit numerus</questionTitle>
@@ -318,7 +319,7 @@
         </div>
         <div id="lm-b1-d26" type="distinction">
             <head>Distinction 26</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio19">lm-quaestio19.xml</fileName>
                 <title>Book 1, distinction 26, question 1</title>
                 <questionTitle>Utrum in divinis sit relatio</questionTitle>
@@ -335,7 +336,7 @@
         </div>
         <div id="lm-b1-d28and29" type="distinction">
             <head>Distinction 28-29</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio20">lm-quaestio20.xml</fileName>
                 <title>Book 1, distinction 28-29, question 1</title>
                 <questionTitle>Utrum tantum quinque sunt notiones scilicet innascibilitas, paternitas, filiatio, spiratio activa et
@@ -353,7 +354,7 @@
         </div>
         <div id="lm-b1-d30" type="distinction">
             <head>Distinction 30</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio21">lm-quaestio21.xml</fileName>
                 <title>Book 1, distinction 30, question 1</title>
                 <questionTitle>Utrum temporaliter aliquid de Deo dicatur</questionTitle>
@@ -370,7 +371,7 @@
         </div>
         <div id="lm-b1-d32" type="distinction">
             <head>Distinction 32</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio22">lm-quaestio22.xml</fileName>
                 <title>Book 1, distinction 32, question 1</title>
                 <questionTitle>Utrum Pater sapiens sit sapientia genita</questionTitle>
@@ -387,7 +388,7 @@
         </div>
         <div id="lm-b1-d33and34" type="distinction">
             <head>Distinction 33-34</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio23">lm-quaestio23.xml</fileName>
                 <title>Book 1, distinction 33-34, question 1</title>
                 <questionTitle>Utrum notiones sive proprietates similiter personae sint divina essentia</questionTitle>
@@ -404,7 +405,7 @@
         </div>
         <div id="lm-b1-d35" type="distinction">
             <head>Distinction 35</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio24">lm-quaestio24.xml</fileName>
                 <title>Book 1, distinction 35, question 1</title>
                 <questionTitle>Utrum scientia Dei sit univoca scientiae nostrae</questionTitle>
@@ -421,7 +422,7 @@
         </div>
         <div id="lm-b1-d37" type="distinction">
             <head>Distinction 37</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio25">lm-quaestio25.xml</fileName>
                 <title>Book 1, distinction 37, question 1</title>
                 <questionTitle>Utrum Deus sit in omnibus rebus essentialiter, potentialiter et praesentialiter</questionTitle>
@@ -438,7 +439,7 @@
         </div>
         <div id="lm-b1-d38and39" type="distinction">
             <head>Distinction 38-39</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio26">lm-quaestio26.xml</fileName>
                 <title>Book 1, distinction 38-39, question 1</title>
                 <questionTitle>Utrum praescientia Dei infallibilis sit causa rerum</questionTitle>
@@ -455,7 +456,7 @@
         </div>
         <div id="lm-b1-d40and41" type="distinction">
             <head>Distinction 40-41</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio27">lm-quaestio27.xml</fileName>
                 <title>Book 1, distinction 40-41, question 1</title>
                 <questionTitle>Utrum praedestinatio habeat aliquam causam meritoriam</questionTitle>
@@ -469,13 +470,13 @@
                     </part>
                 </hasParts>
                 <manualRDFs>
-                    <scta-rel:mentions rdf:resource="http://scta.info/names/peter-plaoul"/>
+                    <sctap:mentions rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
                 </manualRDFs>
             </item>
         </div>
         <div id="lm-b1-d37" type="distinction">
             <head>Distinction 42</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio28">lm-quaestio28.xml</fileName>
                 <title>Book 1, distinction 42, question 1</title>
                 <questionTitle>Utrum Deus dicitur omnipotens quia universaliter omnia potest aut quia potest efficere
@@ -493,7 +494,7 @@
         </div>
         <div id="lm-b1-d43" type="distinction">
             <head>Distinction 43</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio29">lm-quaestio29.xml</fileName>
                 <title>Book 1, distinction 43, question 1</title>
                 <questionTitle>Utrum potentia Dei sit infinita aut limitanda aut coartanda</questionTitle>
@@ -510,7 +511,7 @@
         </div>
         <div id="lm-b1-d44" type="distinction">
             <head>Distinction 44</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio30">lm-quaestio30.xml</fileName>
                 <title>Book 1, distinction 44, question 1</title>
                 <questionTitle>Utrum bonitatem quae resultat ex ordine universi Deus potuit meliorem facere</questionTitle>
@@ -527,7 +528,7 @@
         </div>
         <div id="lm-b1-d45" type="distinction">
             <head>Distinction 45</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio31">lm-quaestio31.xml</fileName>
                 <title>Book 1, distinction 45, question 1</title>
                 <questionTitle>Utrum voluntas Dei sit causa rerum</questionTitle>
@@ -544,7 +545,7 @@
         </div>
         <div id="lm-b1-d46" type="distinction">
             <head>Distinction 46</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio32">lm-quaestio32.xml</fileName>
                 <title>Book 1, distinction 46, question 1</title>
                 <questionTitle>Utrum malum sit expediens universo et conferens ad completum universi</questionTitle>
@@ -561,7 +562,7 @@
         </div>
         <div id="lm-b1-d48" type="distinction">
             <head>Distinction 48</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio33">lm-quaestio33.xml</fileName>
                 <title>Book 1, distinction 48, question 1</title>
                 <questionTitle>Utrum omnes teneamur conformare voluntatem nostram voluntati divinae</questionTitle>
@@ -577,11 +578,11 @@
             </item>
         </div>
     </div>
-    <div id="lb-book2" type="book">
+    <div id="lb-book2" type="librum">
         <head>Book 2</head>
         <div id="lm-b2-d1" type="distinction">
             <head>Distinction 1</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio34">lm-quaestio34.xml</fileName>
                 <title>Book 2, distinction 1, question 1</title>
                 <questionTitle>Utrum mundus sit aeternus</questionTitle>
@@ -598,7 +599,7 @@
         </div>
         <div id="lm-b2-d2" type="distinction">
             <head>Distinction 2</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio35">lm-quaestio35.xml</fileName>
                 <title>Book 2, distinction 2, question 1</title>
                 <questionTitle>Utrum caelum empireum sit corpus</questionTitle>
@@ -615,7 +616,7 @@
         </div>
         <div id="lm-b2-d3" type="distinction">
             <head>Distinction 3</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio36">lm-quaestio36.xml</fileName>
                 <title>Book 2, distinction 3, question 1</title>
                 <questionTitle>Utrum angeli fuerint creati in gratia</questionTitle>
@@ -629,7 +630,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio37">lm-quaestio37.xml</fileName>
                 <title>Book 2, distinction 3, question 2</title>
                 <questionTitle>Utrum angeli intelligant per species</questionTitle>
@@ -646,7 +647,7 @@
         </div>
         <div id="lm-b2-d5" type="distinction">
             <head>Distinction 5</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio38">lm-quaestio38.xml</fileName>
                 <title>Book 2, distinction 5, question 2</title>
                 <questionTitle>Utrum angeli boni sint confirmati in bono, et mali in malo</questionTitle>
@@ -663,7 +664,7 @@
         </div>
         <div id="lm-b2-d6" type="distinction">
             <head>Distinction 6</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio39">lm-quaestio39.xml</fileName>
                 <title>Book 2, distinction 6, question 1</title>
                 <questionTitle>Utrum in angelis tam bonis quam malis sit praelatio</questionTitle>
@@ -680,7 +681,7 @@
         </div>
         <div id="lm-b2-d7" type="distinction">
             <head>Distinction 7</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio40">lm-quaestio39.xml</fileName>
                 <title>Book 2, distinction 7, question 1</title>
                 <questionTitle>Utrum demones possunt transmutare corpora</questionTitle>
@@ -697,7 +698,7 @@
         </div>
         <div id="lm-b2-d8" type="distinction">
             <head>Distinction 8</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio41">lm-quaestio41.xml</fileName>
                 <title>Book 2, distinction 8, question 1</title>
                 <questionTitle>Utrum substantialiter demones et etiam angeli boni intrent corpora nostra</questionTitle>
@@ -714,7 +715,7 @@
         </div>
         <div id="lm-b2-d9and10" type="distinction">
             <head>Distinction 9-10</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio42">lm-quaestio42.xml</fileName>
                 <title>Book 2, distinction 9-10, question 1</title>
                 <questionTitle>Utrum angeli loquantur</questionTitle>
@@ -731,7 +732,7 @@
         </div>
         <div id="lm-b2-d11" type="distinction">
             <head>Distinction 11</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio43">lm-quaestio43.xml</fileName>
                 <title>Book 2, distinction 11, question 1</title>
                 <questionTitle>Utrum custodia angelorum in via sit homini necessaria</questionTitle>
@@ -748,7 +749,7 @@
         </div>
         <div id="lm-b2-d12and13" type="distinction">
             <head>Distinction 12-13</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio44">lm-quaestio44.xml</fileName>
                 <title>Book 2, distinction 12-13, question 1</title>
                 <questionTitle>Utrum omnia creata sunt simul in materia et specie</questionTitle>
@@ -765,7 +766,7 @@
         </div>
         <div id="lm-b2-d14" type="distinction">
             <head>Distinction 14</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio45">lm-quaestio45.xml</fileName>
                 <title>Book 2, distinction 14, question 1</title>
                 <questionTitle>A quo movetur caelum et praecipue primum caelum</questionTitle>
@@ -782,7 +783,7 @@
         </div>
         <div id="lm-b2-d16and17" type="distinction">
             <head>Distinction 16-17</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio46">lm-quaestio46.xml</fileName>
                 <title>Book 2, distinction 16-17, question 1</title>
                 <questionTitle>Utrum anima rationalis sit ex traduce, hoc est educta de potentia materiae, ita quod anima sit ex
@@ -800,7 +801,7 @@
         </div>
         <div id="lm-b2-d18and19" type="distinction">
             <head>Distinction 18-19</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio47">lm-quaestio47.xml</fileName>
                 <title>Book 2, distinction 18-19, question 1</title>
                 <questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</questionTitle>
@@ -817,7 +818,7 @@
         </div>
         <div id="lm-b2-d18and19" type="distinction">
             <head>Distinction 18-19</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio47">lm-quaestio47.xml</fileName>
                 <title>Book 2, distinction 18-19, question 1</title>
                 <questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</questionTitle>
@@ -834,7 +835,7 @@
         </div>
         <div id="lm-b2-d21" type="distinction">
             <head>Distinction 21</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio48">lm-quaestio48.xml</fileName>
                 <title>Book 2, distinction 21, question 1</title>
                 <questionTitle>Utrum temptatio una sola fuerit qua temptatus fuit primus homo vel plures</questionTitle>
@@ -851,7 +852,7 @@
         </div>
         <div id="lm-b2-d23" type="distinction">
             <head>Distinction 23</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio49">lm-quaestio49.xml</fileName>
                 <title>Book 2, distinction 23, question 1</title>
                 <questionTitle>Utrum primus homo ante peccatum habuit suae creationis claram cognitionem</questionTitle>
@@ -869,7 +870,7 @@
         
         <div id="lm-b2-d24and25" type="distinction">
             <head>Distinction 24-25</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio50">lm-quaestio50.xml</fileName>
                 <title>Book 2, distinction 24-25, question 1</title>
                 <questionTitle>Utrum liberum arbitrium una ratione reperitur in omni intellectuali natura</questionTitle>
@@ -886,7 +887,7 @@
         </div>
         <div id="lm-b2-d26" type="distinction">
             <head>Distinction 26</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio51">lm-quaestio51.xml</fileName>
                 <title>Book 2, distinction 26, question 1</title>
                 <questionTitle>Utrum gratia qua Deo grati sumus sit creatura</questionTitle>
@@ -903,7 +904,7 @@
         </div>
         <div id="lm-b2-d28and29" type="distinction">
             <head>Distinction 28-29</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio52">lm-quaestio52.xml</fileName>
                 <title>Book 2, distinction 28-29, question 1</title>
                 <questionTitle>Utrum voluntas et ratio sine gratia possint non peccare damnabiliter, aut necesse sit
@@ -921,7 +922,7 @@
         </div>
         <div id="lm-b2-d30" type="distinction">
             <head>Distinction 30</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio53">lm-quaestio53.xml</fileName>
                 <title>Book 2, distinction 30, question 1</title>
                 <questionTitle>Quid sit peccatum originale, an fomes, an culpa, an concupiscentia, an reatus, an pena</questionTitle>
@@ -938,7 +939,7 @@
         </div>
         <div id="lm-b2-d32" type="distinction">
             <head>Distinction 32</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio54">lm-quaestio54.xml</fileName>
                 <title>Book 2, distinction 32, question 1</title>
                 <questionTitle>Utrum tota veritas humanae naturae quae propagata est in omnes homines fuit in Adam
@@ -956,7 +957,7 @@
         </div>
         <div id="lm-b2-d33" type="distinction">
             <head>Distinction 33</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio55">lm-quaestio55.xml</fileName>
                 <title>Book 2, distinction 33, question 1</title>
                 <questionTitle>Utrum omnium praecedentium peccata traiciantur in parvulos</questionTitle>
@@ -973,7 +974,7 @@
         </div>
         <div id="lm-b2-d34" type="distinction">
             <head>Distinction 34</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio56">lm-quaestio56.xml</fileName>
                 <title>Book 2, distinction 34, question 1</title>
                 <questionTitle>An malum sit</questionTitle>
@@ -990,7 +991,7 @@
         </div>
         <div id="lm-b2-d35" type="distinction">
             <head>Distinction 35</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio57">lm-quaestio57.xml</fileName>
                 <title>Book 2, distinction 35, question 1</title>
                 <questionTitle>Utrum peccatum bene diffiniatur secundum Augustinum: peccatum est dictum vel factum vel
@@ -1008,7 +1009,7 @@
         </div>
         <div id="lm-b2-d36and37" type="distinction">
             <head>Distinction 36-37</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio58">lm-quaestio58.xml</fileName>
                 <title>Book 2, distinction 36-37, question 1</title>
                 <questionTitle>Utrum omnis actus sive actio sit a Deo</questionTitle>
@@ -1025,7 +1026,7 @@
         </div>
         <div id="lm-b2-d38and39" type="distinction">
             <head>Distinction 38-39</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio59">lm-quaestio59.xml</fileName>
                 <title>Book 2, distinction 38-39, question 1</title>
                 <questionTitle>Utrum voluntatis qualitas pensetur ex fine</questionTitle>
@@ -1042,7 +1043,7 @@
         </div>
         <div id="lm-b2-d40and41" type="distinction">
             <head>Distinction 40-41</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio60">lm-quaestio60.xml</fileName>
                 <title>Book 2, distinction 40-41, question 1</title>
                 <questionTitle>Utrum secundum theologum aliquid sit indifferens in operibus voluntatis deliberativae</questionTitle>
@@ -1059,7 +1060,7 @@
         </div>
         <div id="lm-b2-d42" type="distinction">
             <head>Distinction 42</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio61">lm-quaestio61.xml</fileName>
                 <title>Book 2, distinction 42, question 1</title>
                 <questionTitle>In quo fundatur reatus sicut in causa</questionTitle>
@@ -1076,7 +1077,7 @@
         </div>
         <div id="lm-b2-d43" type="distinction">
             <head>Distinction 43</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio62">lm-quaestio62.xml</fileName>
                 <title>Book 2, distinction 43, question 1</title>
                 <questionTitle>Utrum peccatum in Spiritum Sanctum sit spirituale peccatum et distinctum contra alia peccata</questionTitle>
@@ -1093,11 +1094,11 @@
         </div>
     </div>
     <!-- book 3 -->
-    <div id="lb-book3" type="book">
+    <div id="lb-book3" type="librum">
         <head>Book 3</head>
         <div id="lm-b3-d1" type="distinction">
             <head>Distinction 1</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio63">lm-quaestio63.xml</fileName>
                 <title>Book 3, distinction 1, question 1</title>
                 <questionTitle>Utrum conveniebat Deum incarnari</questionTitle>
@@ -1114,7 +1115,7 @@
         </div>
         <div id="lm-b3-d2" type="distinction">
             <head>Distinction 3</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio64">lm-quaestio64.xml</fileName>
                 <title>Book 3, distinction 2, question 1</title>
                 <questionTitle>Utrum sola natura rationalis sit assumptibilis prout natura rationalis distincta contra naturam
@@ -1132,7 +1133,7 @@
         </div>
         <div id="lm-b3-d3" type="distinction">
             <head>Distinction 3</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio65">lm-quaestio65.xml</fileName>
                 <title>Book 3, distinction 3, question 1</title>
                 <questionTitle>Utrum Christus fuit in lumbis Abrahae sicut et alii homines</questionTitle>
@@ -1149,7 +1150,7 @@
         </div>
         <div id="lm-b3-d4" type="distinction">
             <head>Distinction 4</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio66">lm-quaestio66.xml</fileName>
                 <title>Book 3, distinction 4, question 1</title>
                 <questionTitle>Utrum virgo gloriosa fuerit vere mater Christi</questionTitle>
@@ -1166,7 +1167,7 @@
         </div>
         <div id="lm-b3-d5" type="distinction">
             <head>Distinction 5</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio67">lm-quaestio67.xml</fileName>
                 <title>Book 3, distinction 5, question 1</title>
                 <questionTitle>Utrum assumere primo convenit divinae personae aut naturae</questionTitle>
@@ -1183,7 +1184,7 @@
         </div>
         <div id="lm-b3-d6" type="distinction">
             <head>Distinction 6</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio68">lm-quaestio68.xml</fileName>
                 <title>Book 3, distinction 6, question 1</title>
                 <questionTitle>Utrum iste propositiones sint vere: Filius Dei factus est homo; Deus factus est homo; similiter,
@@ -1201,7 +1202,7 @@
         </div>
         <div id="lm-b3-d6and7" type="distinction">
             <head>Distinction 6-7</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio69">lm-quaestio69.xml</fileName>
                 <title>Book 3, distinction 6-7, question 1</title>
                 <questionTitle>Utrum Christus sit unum tantum aut duo</questionTitle>
@@ -1218,7 +1219,7 @@
         </div>
         <div id="lm-b2-d9and10" type="distinction">
             <head>Distinction 9-10</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio70">lm-quaestio70.xml</fileName>
                 <title>Book 3, distinction 8, question 1</title>
                 <questionTitle>Utrum in Christo sit tantum una filiatio vel plures</questionTitle>
@@ -1235,7 +1236,7 @@
         </div>
         <div id="lm-b3-d9" type="distinction">
             <head>Distinction 9</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio71">lm-quaestio71.xml</fileName>
                 <title>Book 3, distinction 9, question 1</title>
                 <questionTitle>Utrum Christi humanitas adoranda sit latria</questionTitle>
@@ -1252,7 +1253,7 @@
         </div>
         <div id="lm-b3-d10" type="distinction">
             <head>Distinction 10</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio72">lm-quaestio72.xml</fileName>
                 <title>Book 3, distinction 10, question 1</title>
                 <questionTitle>Utrum Christi secundum quod homo sit persona</questionTitle>
@@ -1269,7 +1270,7 @@
         </div>
         <div id="lm-b3-d12" type="distinction">
             <head>Distinction 12</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio73">lm-quaestio73.xml</fileName>
                 <title>Book 3, distinction 12, question 1</title>
                 <questionTitle>Utrum Christus potuit peccare</questionTitle>
@@ -1286,7 +1287,7 @@
         </div>
         <div id="lm-b3-d13" type="distinction">
             <head>Distinction 13</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio74">lm-quaestio74.xml</fileName>
                 <title>Book 3, distinction 13, question 1</title>
                 <questionTitle>Utrum Christus a conceptione habuit plenitudinem sapientiae et gratiae</questionTitle>
@@ -1303,7 +1304,7 @@
         </div>
         <div id="lm-b3-d14" type="distinction">
             <head>Distinction 14</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio75">lm-quaestio75.xml</fileName>
                 <title>Book 3, distinction 14, question 1</title>
                 <questionTitle>Utrum anima Christi scit omnia quae Deus scit</questionTitle>
@@ -1320,7 +1321,7 @@
         </div>
         <div id="lm-b3-d15" type="distinction">
             <head>Distinction 15</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio76">lm-quaestio76.xml</fileName>
                 <title>Book 3, distinction 15, question 1</title>
                 <questionTitle>Utrum Christus assumpsit omnes defectus nostros</questionTitle>
@@ -1337,7 +1338,7 @@
         </div>
         <div id="lm-b3-d16" type="distinction">
             <head>Distinction 16</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio77">lm-quaestio77.xml</fileName>
                 <title>Book 3, distinction 16, question 1</title>
                 <questionTitle>Utrum Christi passio omnes passiones omnium excesserit</questionTitle>
@@ -1354,7 +1355,7 @@
         </div>
         <div id="lm-b3-d17" type="distinction">
             <head>Distinction 17</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio49">lm-quaestio78.xml</fileName>
                 <title>Book 3, distinction 17, question 1</title>
                 <questionTitle>Utrum in Christi voluntatibus fuerit contrarietas</questionTitle>
@@ -1372,7 +1373,7 @@
         
         <div id="lm-b3-d18" type="distinction">
             <head>Distinction 18</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio79">lm-quaestio79.xml</fileName>
                 <title>Book 3, distinction 18, question 1</title>
                 <questionTitle>Utrum Christus sibi mereri aliquid potuit</questionTitle>
@@ -1389,7 +1390,7 @@
         </div>
         <div id="lm-b3-d19" type="distinction">
             <head>Distinction 19</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio80">lm-quaestio80.xml</fileName>
                 <title>Book 3, distinction 19, question 1</title>
                 <questionTitle>Utrum iustificatio nostra a peccato sit opus passionis Christi</questionTitle>
@@ -1406,7 +1407,7 @@
         </div>
         <div id="lm-b3-d20" type="distinction">
             <head>Distinction 20</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio81">lm-quaestio81.xml</fileName>
                 <title>Book 2, distinction 28-29, question 1</title>
                 <questionTitle>Utrum nostrae redemptionis alius modus sit possibilis</questionTitle>
@@ -1423,7 +1424,7 @@
         </div>
         <div id="lm-b3-d21" type="distinction">
             <head>Distinction 21</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio82">lm-quaestio82.xml</fileName>
                 <title>Book 3, distinction 21, question 1</title>
                 <questionTitle>Utrum Christus in triduo fuerit homo</questionTitle>
@@ -1440,7 +1441,7 @@
         </div>
         <div id="lm-b3-d23" type="distinction">
             <head>Distinction 23</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio83">lm-quaestio83.xml</fileName>
                 <title>Book 3, distinction 23, question 1</title>
                 <questionTitle>Utrum fides sit virtus</questionTitle>
@@ -1457,7 +1458,7 @@
         </div>
         <div id="lm-b3-d24" type="distinction">
             <head>Distinction 24</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio84">lm-quaestio84.xml</fileName>
                 <title>Book 3, distinction 24, question 1</title>
                 <questionTitle>Utrum idem possit esse simul scitum et creditum</questionTitle>
@@ -1474,7 +1475,7 @@
         </div>
         <div id="lm-b3-d25" type="distinction">
             <head>Distinction 25</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio85">lm-quaestio85.xml</fileName>
                 <title>Book 3, distinction 25, question 1</title>
                 <questionTitle>Utrum umquam suffecerit credere de Deo quia Deus est et inquerentibus se remunerator sit</questionTitle>
@@ -1491,7 +1492,7 @@
         </div>
         <div id="lm-b3-d26" type="distinction">
             <head>Distinction 26</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio86">lm-quaestio86.xml</fileName>
                 <title>Book 3, distinction 26, question 1</title>
                 <questionTitle>Utrum spes sit virtus specialis</questionTitle>
@@ -1508,7 +1509,7 @@
         </div>
         <div id="lm-b3-27" type="distinction">
             <head>Distinction 27</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio87">lm-quaestio87.xml</fileName>
                 <title>Book 3, distinction 27, question 1</title>
                 <questionTitle>Utrum caritas sit forma omnium virtutum</questionTitle>
@@ -1525,7 +1526,7 @@
         </div>
         <div id="lm-b3-d28" type="distinction">
             <head>Distinction 28</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio88">lm-quaestio88.xml</fileName>
                 <title>Book 3, distinction 28, question 1</title>
                 <questionTitle>Utrum omnia sint diligenda ex caritate</questionTitle>
@@ -1542,7 +1543,7 @@
         </div>
         <div id="lm-b3-d32" type="distinction">
             <head>Distinction 32</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio89">lm-quaestio89.xml</fileName>
                 <title>Book 3, distinction 32, question 1</title>
                 <questionTitle>Utrum aliquis scriptus in libro vitae possit deleri</questionTitle>
@@ -1559,7 +1560,7 @@
         </div>
         <div id="lm-b3-d33" type="distinction">
             <head>Distinction 33</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio61">lm-quaestio61.xml</fileName>
                 <title>Book 3, distinction 33, question 1</title>
                 <questionTitle>Utrum quatuor sunt virtutes cardinales, scilicet prudentia, iustitia, fortitudo et temperantia</questionTitle>
@@ -1576,7 +1577,7 @@
         </div>
         <div id="lm-b3-d34" type="distinction">
             <head>Distinction 34</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio91">lm-quaestio91.xml</fileName>
                 <title>Book 3, distinction 34, question 1</title>
                 <questionTitle>Utrum dona sint virtutes</questionTitle>
@@ -1593,7 +1594,7 @@
         </div>
         <div id="lm-b3-d35" type="distinction">
             <head>Distinction 35</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio92">lm-quaestio92.xml</fileName>
                 <title>Book 3, distinction 35, question 1</title>
                 <questionTitle>Utrum donum sapientiae sit distinctum ab aliis donis et virtutibus, et specialiter a fide et
@@ -1611,7 +1612,7 @@
         </div>
         <div id="lm-b3-d35" type="distinction">
             <head>Distinction 36</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio93">lm-quaestio93.xml</fileName>
                 <title>Book 3, distinction 36, question 1</title>
                 <questionTitle>Utrum virtutes theologicae sint adinvicem connexae, ita quod qui habet unam, habeat omnes</questionTitle>
@@ -1628,7 +1629,7 @@
         </div>
         <div id="lm-b3-d37" type="distinction">
             <head>Distinction 37</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio94">lm-quaestio94.xml</fileName>
                 <title>Book 3, distinction 37, question 1</title>
                 <questionTitle>Utrum tantum decem sint praecepta</questionTitle>
@@ -1645,7 +1646,7 @@
         </div>
         <div id="lm-b3-d38" type="distinction">
             <head>Distinction 38</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio95">lm-quaestio95.xml</fileName>
                 <title>Book 3, distinction 38, question 1</title>
                 <questionTitle>Utrum omne mendacium sit peccatum mortale</questionTitle>
@@ -1662,7 +1663,7 @@
         </div>
         <div id="lm-b3-d38" type="distinction">
             <head>Distinction 39</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio96">lm-quaestio96.xml</fileName>
                 <title>Book 3, distinction 39, question 1</title>
                 <questionTitle>Utrum omne periurium sit peccatum mortale</questionTitle>
@@ -1678,11 +1679,11 @@
             </item>
         </div>
         <!-- book 4 -->
-        <div id="lb-book4" type="book">
+        <div id="lb-book4" type="librum">
         <head>Book 4</head>
         <div id="lm-b4-d1" type="distinction">
             <head>Distinction 1</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio97">lm-quaestio97.xml</fileName>
                 <title>Book 4, distinction 1, question 1</title>
                 <questionTitle>Utrum sacramenta novae legis efficiant quod significant, hoc est conferant gratiam quam
@@ -1700,7 +1701,7 @@
         </div>
         <div id="lm-b4-d3" type="distinction">
             <head>Distinction 3</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio98">lm-quaestio98.xml</fileName>
                 <title>Book 4, distinction 3, question 1</title>
                 <questionTitle>Utrum baptismus essentialiter constat tamquam ex materiali et formali, ex aqua et verbo per
@@ -1718,7 +1719,7 @@
         </div>
         <div id="lm-b4-d4" type="distinction">
             <head>Distinction 4</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio65">lm-quaestio99.xml</fileName>
                 <title>Book 4, distinction 4, question 1</title>
                 <questionTitle>Quare magis virtute baptismi remittitur pena culpae actualis quam originalis</questionTitle>
@@ -1735,7 +1736,7 @@
         </div>
         <div id="lm-b4-d5" type="distinction">
             <head>Distinction 5</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio100">lm-quaestio100.xml</fileName>
                 <title>Book 4, distinction 5, question 1</title>
                 <questionTitle>De potestate baptismi, quam retinuit et dare potuit, utrum fuerit potestas purgandi a peccato</questionTitle>
@@ -1752,7 +1753,7 @@
         </div>
         <div id="lm-b4-d6" type="distinction">
             <head>Distinction 6</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio101">lm-quaestio101.xml</fileName>
                 <title>Book 4, distinction 6, question 1</title>
                 <questionTitle>Utrum intentio baptizantis necessario requiratur in baptismo</questionTitle>
@@ -1769,7 +1770,7 @@
         </div>
         <div id="lm-b4-d7" type="distinction">
             <head>Distinction 7</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio102">lm-quaestio102.xml</fileName>
                 <title>Book 4, distinction 7, question 1</title>
                 <questionTitle>Utrum ad hoc quod roboretur gratia baptisimalis requiritur gratia confirmationis, vel gratia
@@ -1787,7 +1788,7 @@
         </div>
         <div id="lm-b4-d8" type="distinction">
             <head>Distinction 8</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio103">lm-quaestio103.xml</fileName>
                 <title>Book 4, distinction 8, question 1</title>
                 <questionTitle>Utrum in consecratione corporis Christi huius sacramenti eucharistiae forma sit conveniens:
@@ -1805,7 +1806,7 @@
         </div>
         <div id="lm-b4-10" type="distinction">
             <head>Distinction 10</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio104">lm-quaestio104.xml</fileName>
                 <title>Book 3, distinction 10, question 1</title>
                 <questionTitle>Utrum Christus totus, scilicet Deus et homo, in tota quantitate sua sit sub forma totali et totus
@@ -1823,7 +1824,7 @@
         </div>
         <div id="lm-b4-d12" type="distinction">
             <head>Distinction 12</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio105">lm-quaestio105.xml</fileName>
                 <title>Book 4, distinction 12, question 1</title>
                 <questionTitle>Utrum in sacramento eucharistiae accidentia sint sine subiecto</questionTitle>
@@ -1840,7 +1841,7 @@
         </div>
         <div id="lm-b4-d14" type="distinction">
             <head>Distinction 14</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio106">lm-quaestio106.xml</fileName>
                 <title>Book 4, distinction 14, question 1</title>
                 <questionTitle>Utrum poenitentia sit virtus specialis</questionTitle>
@@ -1857,7 +1858,7 @@
         </div>
         <div id="lm-b4-d16an17" type="distinction">
             <head>Distinction 16-17</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio107">lm-quaestio107.xml</fileName>
                 <title>Book 3, distinction 16-17, question 1</title>
                 <questionTitle>Utrum sacramentum poenitentiae habeat partes et quales</questionTitle>
@@ -1874,7 +1875,7 @@
         </div>
         <div id="lm-b4-d18" type="distinction">
             <head>Distinction 18</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio108">lm-quaestio108.xml</fileName>
                 <title>Book 4, distinction 18, question 1</title>
                 <questionTitle>Utrum in Ecclesia Dei sint claves</questionTitle>
@@ -1888,7 +1889,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio109">lm-quaestio109.xml</fileName>
                 <title>Book 4, distinction 18, question 2</title>
                 <questionTitle>Utrum tantum duae sunt claves</questionTitle>
@@ -1902,7 +1903,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio110">lm-quaestio110.xml</fileName>
                 <title>Book 4, distinction 18, question 3</title>
                 <questionTitle>Utrum relaxatio sive indulgentia habeat effectum an non</questionTitle>
@@ -1916,7 +1917,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio111">lm-quaestio111.xml</fileName>
                 <title>Book 4, distinction 18, question 4</title>
                 <questionTitle>Utrum in aliquem ferenda sit excommunicatio</questionTitle>
@@ -1933,7 +1934,7 @@
         </div>
         <div id="lm-b4-d23" type="distinction">
             <head>Distinction 23</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestin112">lm-quaestio112.xml</fileName>
                 <title>Book 4, distinction 23, question 1</title>
                 <questionTitle>Utrum extrema unctio sit sacramentum</questionTitle>
@@ -1950,7 +1951,7 @@
         </div>
         <div id="lm-b4-d24" type="distinction">
             <head>Distinction 24</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio113">lm-quaestio113.xml</fileName>
                 <title>Book 4, distinction 24, question 1</title>
                 <questionTitle>Utrum ordo sit sacramentum unum vel plura</questionTitle>
@@ -1967,7 +1968,7 @@
         </div>
         <div id="lm-b4-d25" type="distinction">
             <head>Distinction 25</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio114">lm-quaestio114.xml</fileName>
                 <title>Book 4, distinction 25, question 1</title>
                 <questionTitle>Utrum haeretici ab ecclesia recisi sacros ordines conferre possunt</questionTitle>
@@ -1984,7 +1985,7 @@
         </div>
         <div id="lm-b4-d26" type="distinction">
             <head>Distinction 26</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio115">lm-quaestio115.xml</fileName>
                 <title>Book 3, distinction 26, question 1</title>
                 <questionTitle>Utrum matrimonium sit infirmis in remedium</questionTitle>
@@ -2002,7 +2003,7 @@
         
         <div id="lm-b4-d29" type="distinction">
             <head>Distinction 29</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio116">lm-quaestio116.xml</fileName>
                 <title>Book 4, distinction 29, question 1</title>
                 <questionTitle>Utrum consensus efficiens matrimonium sit in copulationem carnalem</questionTitle>
@@ -2019,7 +2020,7 @@
         </div>
         <div id="lm-b4-d31" type="distinction">
             <head>Distinction 31</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio117">lm-quaestio117.xml</fileName>
                 <title>Book 4, distinction 31, question 1</title>
                 <questionTitle>Utrum bona matrimonii, scilicet proles, fides et sacramentum, conveniunt sibi inquantum est
@@ -2037,7 +2038,7 @@
         </div>
         <div id="lm-b4-d32" type="distinction">
             <head>Distinction 32</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio118">lm-quaestio118.xml</fileName>
                 <title>Book 4, distinction 32, question 1</title>
                 <questionTitle>Utrum petenti semper solvendum sit debitum</questionTitle>
@@ -2054,7 +2055,7 @@
         </div>
         <div id="lm-b4-d35" type="distinction">
             <head>Distinction 35</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio119">lm-quaestio119.xml</fileName>
                 <title>Book 4, distinction 35, question 1</title>
                 <questionTitle>Utrum causa fornicationis liceat viro uxorem dimittere</questionTitle>
@@ -2071,7 +2072,7 @@
         </div>
         <div id="lm-b4-d38" type="distinction">
             <head>Distinction 38</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio120">lm-quaestio120.xml</fileName>
                 <title>Book 4, distinction 38, question 1</title>
                 <questionTitle>De quibus est votum, an de hiis quae cadunt sub praecepto, an de hiis quae cadunt sub consilio</questionTitle>
@@ -2085,7 +2086,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio121">lm-quaestio121.xml</fileName>
                 <title>Book 4, distinction 38, question 2</title>
                 <questionTitle>Utrum votum continentiae respicit dispensationem</questionTitle>
@@ -2102,7 +2103,7 @@
         </div>
         <div id="lm-b4-d42" type="distinction">
             <head>Distinction 42</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio122">lm-quaestio122.xml</fileName>
                 <title>Book 4, distinction 42, question 1</title>
                 <questionTitle>Utrum cognatio spiritualis impedit matrimonium</questionTitle>
@@ -2119,7 +2120,7 @@
         </div>
         <div id="lm-b4-d43" type="distinction">
             <head>Distinction 43</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio123">lm-quaestio123.xml</fileName>
                 <title>Book 4, distinction 43, question 1</title>
                 <questionTitle>Utrum resurrectio mortuorum erit</questionTitle>
@@ -2133,7 +2134,7 @@
                     </part>
                 </hasParts>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="lm-quaestio124">lm-quaestio124.xml</fileName>
                 <title>Book 4, distinction 43, question 2</title>
                 <questionTitle>Utrum corporum gloriosorum sint quatuor dotes, scilicet impassiiblitas, claritas, subtilitas et

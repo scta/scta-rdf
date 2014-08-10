@@ -16,9 +16,9 @@
   <text>
       <body>
          <list>
-            <item xml:id="AugDeTrin14_1">
+            <item xml:id="AugDeTrin14_1-a">
                <quote>fides saluberrima gignitur defenditur et roboratur</quote>
-               <bibl>
+               <bibl type="deTrinitate">
                   <author ref="#Augustine">Augustine</author>
                   <title ref="#deTrinitate">de Trinitate</title>
                   <biblScope type="book">14</biblScope>
@@ -28,14 +28,57 @@
             <item xml:id="AugConManFun-5_6-a">
                <quote>euangelio non crederem nisi auctoritas ecclesiae ad hoc me compelleret</quote>
                <!-- dbcheck source -->
-               <bibl>
+               <bibl type="contraEpistulamManichaei">
                   <author ref="#Augustine">Augustine</author>
-                  <title ref="#deTrinitate">Against the Fundamental Epistle of Manichaeus</title>
+                  <title ref="#contraEpistulamManichaei">Against the Fundamental Epistle of Manichaeus</title>
                   <!-- Contra epistulam Manichaei quam uocant fundamenti -->
                   <biblScope type="chapter">5</biblScope>
                   <biblScope type="number">6</biblScope>
                </bibl>
-               
+            </item>
+            <item xml:id="pl-b1prol-a">
+               <quote></quote>
+               <bibl type="Lombard">
+                  <author ref="#Lombard">Lombard</author>
+                  <title ref="#Sententia">Sentences</title>
+                  <biblScope type="librum" ana="#pl-book1">1</biblScope>
+                  <biblScope type="distinctio" ana="#pl-b1prol">Prologus</biblScope>
+                  <biblScope type="capitulus" ana="#pl-b1prol">Prologus</biblScope>
+               </bibl>
+            </item>
+            <item xml:id="pl-b4d22c2-a">
+               <quote>nam et in aliis Sacramentis, quae efficiunt quod figurant, hoc saepe contingit</quote>
+               <bibl type="Lombard">
+                  <author ref="#Lombard">Lombard</author>
+                  <title ref="#Sententia">Sentences</title>
+                  <biblScope type="librum" ana="#pl-book4">4</biblScope>
+                  <biblScope type="distinctio" ana="#pl-b4d22">22</biblScope>
+                  <biblScope type="capitulus" ana="#pl-b4d22c2">2</biblScope>
+               </bibl>
+               <note type="citation">II:888</note>
+            </item>
+            <item xml:id="pl-b3d14c2-a">
+               <quote>Scit igitur anima Christi omnia, quae Deus, in Verbo Dei, quod liquidius et praesentius omni creatura contemplatur, ut ei unita, in quo etiam Angeli et quae Dei sunt et quae futura sunt, cognoscunt</quote>
+               <bibl type="Lombard">
+                  <author ref="#Lombard">Lombard</author>
+                  <title ref="#Sententia">Sentences</title>
+                  <biblScope type="librum" ana="#pl-book3">3</biblScope>
+                  <biblScope type="distinctio" ana="#pl-b3d14">14</biblScope>
+                  <biblScope type="capitulus" ana="#pl-b3d14c2">2</biblScope>
+               </bibl>
+               <note type="citation">II:609</note>
+            </item>
+            <item xml:id="pl-b2d1c4-a">
+               <quote>“Et sicut factus est homo propter Deum, id est, ut ei serviret, ita
+                  mundus factus est propter hominem, scilicet ut ei serviret.”</quote>
+               <bibl type="Lombard">
+                  <author ref="#Lombard">Lombard</author>
+                  <title ref="#Sententia">Sentences</title>
+                  <biblScope type="librum" ana="#pl-book2">2</biblScope>
+                  <biblScope type="distinctio" ana="#pl-b2d1">1</biblScope>
+                  <biblScope type="capitulus" ana="#pl-b1d1c4">4</biblScope>
+               </bibl>
+               <note type="citation">I:310</note>
             </item>
          </list>
       </body>

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listofFileNames>
-    <head>
+    <header>
         <authorName>Peter Gracilis</authorName>
         <commentaryName>Peter Gracilis Commentary</commentaryName>
-        <authorUri>http://scta.info/names/PetrusGracilis</authorUri>
-        <parentUri>http://scta.info/commentaries/graciliscommentary</parentUri>
+        <commentaryid>graciliscommentary</commentaryid>
+        <authorUri>http://scta.info/resource/person/PetrusGracilis</authorUri>
+        <parentUri>http://scta.info/text/graciliscommentary/commentary</parentUri>
         <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/PetrusGracilis/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
-    </head>
+    </header>
     <div id="body">
-        <div id="pg-book1" class="toplevel" type="book">
+        <div id="pg-book1" class="toplevel" type="librum">
             <head>Book I</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-principium1">pg-principium1.xml</fileName>
                 <title>Principium 1</title>
             </item>
@@ -23,244 +24,244 @@
                 <fileName filestem="pg-b1-q2">pg-b1-q2.xml</fileName>
                 <title>Quaestio 2</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q3">pg-b1q3.xml</fileName>
                 <title>Quaestio 3</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q4">pg-b1q4.xml</fileName>
                 <title>Quaestio 4</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q5">pg-b1q5.xml</fileName>
                 <title>Quaestio 5</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q6">pg-b1q6.xml</fileName>
                 <title>Quaestio 6</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q7">pg-b1q7.xml</fileName>
                 <title>Quaestio 7</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q8">pg-b1q8.xml</fileName>
                 <title>Quaestio 8</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q9">pg-b1q9.xml</fileName>
                 <title>Quaestio 9</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q10">pg-b1q10.xml</fileName>
                 <title>Quaestio 10</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q11">pg-b1q11.xml</fileName>
                 <title>Quaestio 11</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q12">pg-b1q12.xml</fileName>
                 <title>Quaestio 12</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q13">pg-b1q13.xml</fileName>
                 <title>Quaestio 13</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q14">pg-b1q14.xml</fileName>
                 <title>Quaestio 14</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q15">pg-b1q15.xml</fileName>
                 <title>Quaestio 15</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q16">pg-b1q16.xml</fileName>
                 <title>Quaestio 16</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q17">pg-b1q17.xml</fileName>
                 <title>Quaestio 17</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q18">pg-b1q18.xml</fileName>
                 <title>Quaestio 18</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q19">pg-b1q19.xml</fileName>
                 <title>Quaestio 19</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q20">pg-b1q20.xml</fileName>
                 <title>Quaestio 20</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q21">pg-b1q21.xml</fileName>
                 <title>Quaestio 21</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q22">pg-b1q22.xml</fileName>
                 <title>Quaestio 22</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q123">pg-b1q23.xml</fileName>
                 <title>Quaestio 23</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q24">pg-b1q24.xml</fileName>
                 <title>Quaestio 24</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q25">pg-b1q25.xml</fileName>
                 <title>Quaestio 25</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q26">pg-b1q26.xml</fileName>
                 <title>Quaestio 26</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q27">pg-b1q27.xml</fileName>
                 <title>Quaestio 27</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q28">pg-b1q28.xml</fileName>
                 <title>Quaestio 28</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q29">pg-b1q29.xml</fileName>
                 <title>Quaestio 29</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q30">pg-b1q30.xml</fileName>
                 <title>Quaestio 30</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q31">pg-b1q31.xml</fileName>
                 <title>Quaestio 31</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q32">pg-b1q32.xml</fileName>
                 <title>Quaestio 32</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q33">pg-b1q33.xml</fileName>
                 <title>Quaestio 33</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q34">pg-b1q34.xml</fileName>
                 <title>Quaestio 34</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q35">pg-b1q35.xml</fileName>
                 <title>Quaestio 35</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q36">pg-b1q36.xml</fileName>
                 <title>Quaestio 36</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q37">pg-b1q37.xml</fileName>
                 <title>Quaestio 37</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q38">pg-b1q38.xml</fileName>
                 <title>Quaestio 38</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q39">pg-b1q39.xml</fileName>
                 <title>Quaestio 39</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b1q40">pg-b1q40.xml</fileName>
                 <title>Quaestio 40</title>
             </item>
         </div>
-        <div id="pg-book2" class="toplevel" type="book">
+        <div id="pg-book2" class="toplevel" type="librum">
             <head>Book II</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-principium2">principium2.xml</fileName>
                 <title>Principium 2</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q1">pg-b2q1.xml</fileName>
                 <title>Quaestio 1</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q2">pg-b2q2.xml</fileName>
                 <title>Quaestio 2</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q3">pg-b2q3.xml</fileName>
                 <title>Quaestio 3</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q4">pg-b2q4.xml</fileName>
                 <title>Quaestio 4</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q5">pg-b2q5.xml</fileName>
                 <title>Quaestio 5</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q6">pg-b2q6.xml</fileName>
                 <title>Quaestio 6</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q7">pg-b2q7.xml</fileName>
                 <title>Quaestio 7</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q8">pg-b2q8.xml</fileName>
                 <title>Quaestio 8</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q9">pg-b2q9.xml</fileName>
                 <title>Quaestio 9</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q10">pg-b2q10.xml</fileName>
                 <title>Quaestio 10</title>
             </item>
         </div>
-        <div id="pg-book3" class="toplevel" type="book">
+        <div id="pg-book3" class="toplevel" type="librum">
             <head>Book III</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-principium3">principium3.xml</fileName>
                 <title>Principium 3</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q1">pg-b3q1.xml</fileName>
                 <title>Quaestio 1</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q2">pg-b3q2.xml</fileName>
                 <title>Quaestio 2</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q3">pg-b3q3.xml</fileName>
                 <title>Quaestio 3</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q4">pg-b3q4.xml</fileName>
                 <title>Quaestio 4</title>
             </item>
         </div>
-        <div id="pg-book4" class="toplevel" type="book">
+        <div id="pg-book4" class="toplevel" type="librum">
             <head>Book IV</head>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-principium4">principium3.xml</fileName>
                 <title>Principium 4</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b4q1">pg-b4q1.xml</fileName>
                 <title>Quaestio 1</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b4q2">pg-b4q2.xml</fileName>
                 <title>Quaestio 2</title>
             </item>
-            <item live="false">
+            <item live="false" type="quaestio">
                 <fileName filestem="pg-b4q3">pg-b4q3.xml</fileName>
                 <title>Quaestio 3</title>
             </item>

@@ -176,6 +176,9 @@ scta:pubInfo
 	scta-terms:quotetype			
 		rdfs:subPropertyOf scta:pubInfo .	
 
+	scta-terms:questionTitle				
+		rdfs:subPropertyOf scta:pubInfo .
+
 scta:contentInfo
 	rdf:type rdfs:Property ;
 	rdfs:domain scta:item .
