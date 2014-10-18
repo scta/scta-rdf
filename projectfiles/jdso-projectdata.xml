@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames xmlns:sctap="http://scta.info/properties/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <header>
+        <authorName>John Duns Scotus</authorName>
+        <commentaryName>Scotus Ordinatio</commentaryName>
+        <commentaryid>scotusordinatio</commentaryid>
+        <authorUri>http://scta.info/resource/person/Scotus</authorUri>
+        <parentUri>http://scta.info/text/scotusordinatio/commentary</parentUri>
+        <textfilesdir/>
+
+        <webbase>null</webbase>
+    </header>
+    <div id="body">
+    <div id="jdso-book1" type="librum">
+        <head>Librum I</head>
+        <div id="jdso-b1prol" type="distinctio">
+            <head>Librum I, prologus</head>
+            <div id="jdso-pars1" type="pars">
+                <head>Librum I, prologus, prima pars quaestio 1</head>
+                <item id="jdso-b1prolp1q1" type="quaestio">
+                    <fileName filestem="jdso-b1prolp1q1">jdso-b1prolp1q1.xml</fileName>
+                    <title>Librum I, prologus, prima pars, quaestio unica</title>
+                    <questionTitle>Utrum homini pro statu isto sit necessarium aliquam doctrinam supernaturaliter inspirari</questionTitle>
+                </item>
+            </div>
+            <div id="jdso-pars2" type="pars">
+                <head>Librum I, prologus, secunda pars, quaestio 1</head>
+                <item id="jdso-b1prolp2q1" type="quaestio">
+                    <fileName filestem="jdso-b1prolp2q1">jdso-b1prolp2q1.xml</fileName>
+                    <title>Librum I, prologus, secunda pars, quaestio unica</title>
+                    <questionTitle>Utrum cognitio supernaturalis necessaria viatori sit sufficienter tradita in sacra Scriptura</questionTitle>
+                </item>
+            </div>
+            <div id="jdso-pars3" type="pars">
+                <head>Librum I, prologus, tertia pars, quaestio 1</head>
+                <item id="jdso-b1prolp3q1" type="quaestio">
+                    <fileName filestem="jdso-b1prolp3q1">jdso-b1prolp3q1.xml</fileName>
+                    <title>Librum I, prologus, secunda pars, quaestio 1</title>
+                    <questionTitle>Utrum theologia sit de Deo tamquam de primo obiecto</questionTitle>
+                </item>
+                <item id="jdso-b1prolp3q2" type="quaestio">
+                    <fileName filestem="jdso-b1prolp3q2">jdso-b1prolp3q2.xml</fileName>
+                    <title>Librum I, prologus, secunda pars, quaestio 2</title>
+                    <questionTitle>Utrum theologia sit de Deo sub aliqua speciali ratione</questionTitle>
+                </item>
+                <item id="jdso-b1prolp3q2" type="quaestio">
+                    <fileName filestem="jdso-b1prolp3q3">jdso-b1prolp3q3.xml</fileName>
+                    <title>Librum I, prologus, secunda pars, quaestio 3</title>
+                    <questionTitle>Utrum theologia sit de omnibus ipsorum ad primum eius subiectum</questionTitle>
+                </item>
+            </div>
+            <div id="jdso-pars4" type="pars">
+                <head>Librum I, prologus, secunda pars, quaestio 1</head>
+                <item id="jdso-b1prolp4q1" type="quaestio">
+                    <fileName filestem="jdso-b1prolp4q1">jdso-b1prolp4q1.xml</fileName>
+                    <title>Librum I, prologus, quarta pars, quaestio unica</title>
+                    <questionTitle>Utrum theologia in se sit scientia, et utrum subalternans vel subalternata</questionTitle>
+                </item>
+            </div>
+            <div id="jdso-pars5" type="pars">
+                <head>Librum I, prologus, secunda pars, quaestio 1</head>
+                <item id="jdso-b1prolp5q1" type="quaestio">
+                    <fileName filestem="jdso-b1prolp5q1">jdso-b1prolp5q1.xml</fileName>
+                    <title>Librum I, prologus, quinta pars, quaestio 1</title>
+                    <questionTitle>Utrum theologia sit scientia practica vel speculativa</questionTitle>
+                </item>
+                <item id="jdso-b1prolp5q1" type="quaestio">
+                    <fileName filestem="jdso-b1prolp5q2">jdso-b1prolp5q2.xml</fileName>
+                    <title>Librum I, prologus, quinta pars, quaestio 2</title>
+                    <questionTitle>Utrum ex ordine ad praxim ut ad finem dicatur per se scientia practica</questionTitle>
+                </item>
+            </div>
+        </div>
+        <div id="jdso-b1d1" type="distinctio">
+            <head>Librum I, Distinctio Prima</head>
+            <div id="jdso-b1d1p1" type="pars">
+                <head>Librum I, Distinctio Prima, Pars Prima</head>
+                <item id="jdso-b1d1p1q1" type="quaestio">
+                    <fileName filestem="jdso-b1d1p1q1">jdso-b1d1p1q1.xml</fileName>
+                    <title>Librum I, Distinctio Prima, Pars Prima, Quaestio 1</title>
+                    <questionTitle>Utrum obiectum fruitionis per se sit finis ultimus</questionTitle>
+                </item>
+            </div>     
+        </div>
+        
+    </div>
+</div>
+
+</listofFileNames>

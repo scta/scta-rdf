@@ -34,14 +34,14 @@
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:mentionedBy rdf:resource="{$itemid}"/>
                 </xsl:for-each>
-                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/quotations/?select=[a-zA-Z]*.rdf')//sctap:fromWork[@rdf:resource=concat('http://scta.info/resource/work/', $id)]">
+                <!--<xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/quotations/?select=[a-zA-Z]*.rdf')//sctap:fromWork[@rdf:resource=concat('http://scta.info/resource/Work/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:quotationUsed rdf:resource="{$itemid}"/>
-                </xsl:for-each>
-                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/quotations/?select=[a-zA-Z]*.rdf')//sctap:fromBiblicalBook[@rdf:resource=concat('http://scta.info/resource/work/', $id)]">
+                </xsl:for-each>-->
+                <!--<xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/quotations/?select=[a-zA-Z]*.rdf')//sctap:fromBiblicalBook[@rdf:resource=concat('http://scta.info/resource/work/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:quotationUsed rdf:resource="{$itemid}"/>
-                </xsl:for-each>
+                </xsl:for-each>-->
                 </rdf:Description>
     </xsl:template>
     

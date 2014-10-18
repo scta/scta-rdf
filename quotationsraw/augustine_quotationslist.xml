@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Quote List</title>
+            <editor>Jeffrey C. Witt</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="AugDeTrin14_1-a"> <!-- better id is Augustine_deTrinitate_14_1_a -->
+               <quote type="Patristic">fides saluberrima gignitur defenditur et roboratur</quote>
+               <bibl type="deTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#deTrinitate">de Trinitate</title>
+                  <biblScope type="book">14</biblScope>
+                  <biblScope type="chapter">1</biblScope>
+               </bibl>
+            </item>
+            <item xml:id="AugConManFun-5_6-a"> <!-- better id is: Augustine_contraEpistulamManichaei_5_6_a -->
+               <quote type="Patristic">euangelio non crederem nisi auctoritas ecclesiae ad hoc me compelleret</quote>
+               <!-- dbcheck source -->
+               <bibl type="contraEpistulamManichaei">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#contraEpistulamManichaei">Against the Fundamental Epistle of Manichaeus</title>
+                  <!-- Contra epistulam Manichaei quam uocant fundamenti -->
+                  <biblScope type="chapter">5</biblScope>
+                  <biblScope type="number">6</biblScope>
+               </bibl>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_13_7_10_a">
+               <quote type="Patristic">securitas est maxima pars beatitudinis illorum</quote>
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">13</biblScope>
+                  <biblScope type="capitulus">7</biblScope>
+                  <biblScope type="capitulus">10</biblScope>
+               </bibl>
+               <note type="citation">CCL:50A:394</note>
+            </item>
+            <item xml:id="Augustine_Confessions_10_23_33_a">
+               <quote type="Scholastic">beata quippe vita est gaudium de veritate</quote>
+               <bibl type="Augustine_Confessions">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_Confessions">Confessionum</title>
+                  <biblScope type="librum">10</biblScope>
+                  <biblScope type="capitulus">23</biblScope>
+                  <biblScope type="capitulus">33</biblScope>
+               </bibl>
+               <note type="citation"/>
+            </item>
+            
+            <item xml:id="Augustine_DeLiberoArbitrio_3_3_7_a">
+               <quote type="Patristic">Quapropter nihil tam in nostra potestate, quam ipsa voluntas est</quote>
+               <bibl type="Augustine_DeLiberoArbitrio">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeLiberoArbitrio">De libero arbitrio</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+                  <biblScope type="capitulus">7</biblScope>
+               </bibl>
+               <note type="citation"/>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_3_1_1_a">
+               <quote type="Patristic">Pro studio, quo fidem nostram adversus errorem carnalium et animalium hominum muniri inardesco, necesse est me pati</quote>
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">PL 42, 867</note>
+               <note type="firstIdentification">Lombard, Book I, prologue</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_3_1_1_b">
+               <quote type="Patristic">fratribus autem non valeam resistere, iure, quo eis servus factus sum, falgitantibus, ut eorum in Christo laudabilibus studiis lingua ac stilo meo, quas bigas in me caritas agitat, maxime serviam</quote>
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">PL 42, 867</note>
+               <note type="firstIdentification">Lombard, Book I, prologue</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_3_1_1_c">
+               <quote type="Patristic">Non debet labor hic meus cuiquam pigro aut multum docto videri superfluus cum multis impigris multisque indoctis inter quos etiam mihi non parva ex parte sit necessarius</quote>
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">PL 42, 869</note>
+               <note type="firstIdentification">Lombard, Book I, prologue</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_2_2_a">
+               <quote type="Patristic">Omnis doctrina vel rerum est, vel signorum. Sed res etiam per signa discuntur. Proprie autem hic res appelantur, quae non ad significandum aliquid adhibentur; signa vero, quorum usus est in significando</quote>
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 19</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 1 (I:14)</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_2_2_b">
+               <quote type="Patristic">Ex quo aperte intelligitur, quae hic appellentur signa, res illae videlicet, quae ad significandum aliquid adhibentur. Omne igitur signum etiam res aliqua est. Quod enim nulla res est…omnino nihil est, non autem e converso omnis res signum est</quote> <!--get original this is lifted from Lombard -->
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 19</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 1 (I:14)</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_2_2_c">
+               <quote type="Patristic">memoriterque teneamus id nunc in rebus considerandum esse quod sunt, non quod aliud etiam praeter seipsas significant</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 19</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 1 (I:15)</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_4_4_a">
+               <quote type="Patristic">Frui est enim amore inhaerere alicui rei propter seipsam. uti autem, quod in usum venerit ad id quod amas obtinendum referre, si tamen amandum est. Nam usus illicitus abusus potius vel abusio nominandus est</quote> 
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 20</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 2 (I:15)</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_5_5_a">
+               <quote type="Patristic">Res igitur quibus fruendum est, Pater et Filius et Spiritus Sanctus, eademque Trinitas, una quaedam summa res, communisque omnibus fruentibus ea; si tamen res et non rerum omnium causa, si tamen et causa. Non enim facile nomen quod tantae excellentiae conveniat, inveniri potest, nisi quod melius ita dicitur Trinitas haec, unus Deus ex quo omnia, per quem omnia, in quo omnia</quote> 
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">5</biblScope>
+                  <biblScope type="capitulus">5</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 20</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 2 (I:15)</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_4_4_b">
+               <quote type="Patristic">utendum est hoc mundo, non fruendum, ut invisibilia Dei, per ea quae facta sunt, intellecta conspiciantur, hoc est, ut de corporalibus temporalibusque rebus aeterna et spiritalia capiamus</quote> 
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 20</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 2 (I:15)</note>
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_22_20_a">
+               <quote type="Patristic">In his igitur omnibus rebus illae tantum sunt quibus fruendum est, quas aeternas atquae incommutabiles commemoravimus; ceteris autem utendum est ut ad illarum perfruitionem pervenire possimus</quote> 
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">22</biblScope>
+                  <biblScope type="capitulus">20</biblScope>
+               </bibl>
+               <note type="citation">PL 34, ??</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 2 (I:15)</note> <!-- oddly lombard edition says this quote is in c. 5 -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_10_10_13_a">
+               <quote type="Patristic">Fruimur enim cognitis, in quibus voluntas ipsis propter se ipsa delectata conquiescit; utimur vero eis quae ad aliud referimus quo fruendum est</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">10</biblScope>
+                  <biblScope type="capitulus">10</biblScope>
+                  <biblScope type="capitulus">13</biblScope>
+               </bibl>
+               <note type="citation">PL 42, 981</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 2 (I:16)</note> <!-- cited again in chapter 3 -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_10_11_17_a">
+               <quote type="Patristic">Uti est enim assumere aliquid in facultatem voluntatis; frui est autem uti cum gaudio, non adhuc spei, sed iam rei. Proinde omnis qui fruitur, utitur; assumit enim aliquid in facultatem voluntatis, cum fine delectationis. Non autem omnis qui utitur fruitur, si id quod in facultatem voluntatis assumit, non propter illud ipsum, sed propter aliud appetivit</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">10</biblScope>
+                  <biblScope type="capitulus">11</biblScope>
+                  <biblScope type="capitulus">17</biblScope>
+               </bibl>
+               <note type="citation">PL 42, 982</note>
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 3 (I:16)</note> 
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_1_30_31_a">
+               <quote type="Patristic">[Angeli] illo enim fruentes etiam ipsi beati sunt, quo et nos frui desideramus; et quantum in hac vita fruimur vel per speculum vel in aenigmate</quote> 
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeDoctrinaChristiana">De doctrina Christiana</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">30</biblScope>
+                  <biblScope type="capitulus">31</biblScope>
+               </bibl>
+               <note type="citation">PL 39, 30</note> <!-- db check -->
+               <note type="firstIdentification">Lombard, Book I, distinction 1, c. 3 (I:16)</note> 
+            </item>
+            <item xml:id="Augustine_DeLiberoArbitrio_3_6_18_a">
+               <quote type="Patristic">Si enim quis dixerit, Non esse, quam miserum me esse mallem: respondebo, Mentiris. Nam et nunc miser es, nec ob aliud mori non vis, nisi ut sis: ita cum miser nolis esse, esse vis tamen</quote> 
+               <bibl type="Augustine_DeLiberoArbitrio">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeLiberoArbitrio">De libero arbitrio</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">6</biblScope>
+                  <biblScope type="capitulus">18</biblScope>
+               </bibl>
+               <note type="citation">PL 32, ?</note> <!-- db check -->
+               <note type="firstIdentification">Holcot, Book III, q. 1, a. 2, subarticle 1 [PDF 346a]</note> 
+            </item>
+            <item xml:id="Augustine_DeLiberoArbitrio_3_7_20_a">
+               <quote type="Patristic">Si dixerit: Ideo magis volo vel miser esse, quam omnino non esse, quia iam sum; si autem priusquam essem possem consuli, eligerem non esse potius quam ut essem miser. Nunc enim quod timeo non esse cum miser sim, ad ipsam miseriam pertinet, qua non id volo, quod velle deberem; magis enim non esse, quam miser esse velle deberem. Nunc vero fateor me quidem malle vel miserum esse quam nihil; sed tanto stultius id volo, quanto miserius: tanto autem miserius, quanto verius video non hoc me velle debuisse. Respondebo: Cave potius ne hic erres, ubi te videre verum putas. Nam si beatus esses, utique esse quam non esse malles; et nunc miser cum sis, mavis tamen esse vel miser quam omnino non esse, cum esse nolis miser. Considera igitur, quantum potes, quam magnum bonum sit ipsum esse, quod et beati et miseri volunt.</quote> 
+               <bibl type="Augustine_DeLiberoArbitrio">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeLiberoArbitrio">De libero arbitrio</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">7</biblScope>
+                  <biblScope type="capitulus">20</biblScope>
+               </bibl>
+               <note type="citation">PL 32, ?</note> <!-- db check -->
+               <note type="firstIdentification">Holcot, Book III, q. 1, a. 2, subarticle 1 [PDF 346b]</note> 
+            </item>
+            <item xml:id="Augustine_DeLiberoArbitrio_3_8_23_a">
+               <quote type="Patristic">Cum ergo quisque credens quod post mortem non erit, intolerabilibus tamen molestiis ad totam cupiditatem mortis impellitur, et decernit atque arripit mortem; in opinione habet errorem omnimodae defectionis, in sensu autem naturale desiderium quietis. Quod autem quietum est, non est nihil; imo etiam magis est quam id quod inquietum est.</quote> 
+               <bibl type="Augustine_DeLiberoArbitrio">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeLiberoArbitrio">De libero arbitrio</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">8</biblScope>
+                  <biblScope type="capitulus">23</biblScope>
+               </bibl>
+               <note type="citation">PL 32, ?</note> <!-- db check -->
+               <note type="firstIdentification">Holcot, Book III, q. 1, a. 2, subarticle 1 [PDF 346b]</note> 
+            </item>
+            <item xml:id="Augustine_DeLiberoArbitrio_3_8_23_b">
+               <quote type="Patristic">Inquietudo enim variat affectiones, ut altera alteram perimat: quies autem habet constantiam, in qua maxime intellegitur quod dicitur, est. Omnis itaque ille appetitus in voluntate mortis, non ut qui moritur non sit, sed ut requiescat intenditur. Ita cum errore credat non se futurum, natura tamen quietus esse, hoc est magis esse desiderat. Quapropter, sicut nullo pacto fieri potest ut non esse aliquem libeat; ita nullo pacto fieri oportet ut ex eo quod est quisque, bonitati Creatoris ingratus sit.</quote> 
+               <bibl type="Augustine_DeLiberoArbitrio">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeLiberoArbitrio">De libero arbitrio</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">8</biblScope>
+                  <biblScope type="capitulus">23</biblScope>
+               </bibl>
+               <note type="citation">PL 32, ?</note> <!-- db check -->
+               <note type="firstIdentification">Holcot, Book III, q. 1, a. 2, subarticle 1 [PDF 346b]</note> 
+            </item>
+            <item xml:id="Augustine_Confessionum_1_12_a">
+               <quote type="Patristic">Nemo autem invitus bene facit, etiamsi bonum est quod facit.</quote> 
+               <bibl type="Augustine_Confessionum">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_Confessionum">De libero arbitrio</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">12</biblScope>
+               </bibl>
+               <note type="citation">PL 32, 669</note> <!-- db check -->
+               <note type="firstIdentification">Wodeham, Ordinatio, prologue, q. 1</note> 
+            </item>
+            
+            
+            
+            
+            
+         </list>
+      </body>
+  </text>
+</TEI>

@@ -126,25 +126,25 @@ sctar:reference
 		rdf:type rdfs:Class ;
 		rdfs:subClassOf sctar:reference .
 
-		#sctar:quotationType/Scholastic
-		#	rdf:type rdfs:Class ;
-		#	rdfs:subClassOf sctar:quotationType ;
-		#	rdfs:label "Scholastic Quotation" .
+		<http://scta.info/resource/quotationType/Scholastic>
+			rdf:type rdfs:Class ;
+			rdfs:subClassOf sctar:quotationType ;
+			rdfs:label "Scholastic Quotation" .
 
-		#sctar:quotationType/Classical	
-		#	rdf:type rdfs:Class ;
-		#	rdfs:subClassOf sctar:quotationType ;
-		#	rdfs:label "Classical Quotation" .
+		<http://scta.info/resource/quotationType/Classical>
+			rdf:type rdfs:Class ;
+			rdfs:subClassOf sctar:quotationType ;
+			rdfs:label "Classical Quotation" .
 
-		#sctar:quotationType/Patristic	
-		#	rdf:type rdfs:Class ;
-		#	rdfs:subClassOf sctar:quotationType ;
-		#	rdfs:label "Patristic Quotation" .
+		<http://scta.info/resource/quotationType/Patristic>
+			rdf:type rdfs:Class ;
+			rdfs:subClassOf sctar:quotationType ;
+			rdfs:label "Patristic Quotation" .
 
-		#sctar:quotationType/biblical	
-		#	rdf:type rdfs:Class ;
-		#	rdfs:subClassOf sctar:quotationType ;
-		#	rdfs:label "Biblical Quotation" .
+		<http://scta.info/resource/quotationType/biblical>
+			rdf:type rdfs:Class ;
+			rdfs:subClassOf sctar:quotationType ;
+			rdfs:label "Biblical Quotation" .
 
 	sctar:work
 		rdf:type rdfs:Class ;

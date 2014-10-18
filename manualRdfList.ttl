@@ -1,0 +1,145 @@
+@prefix scta: <http://scta.info/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dbpedia: <http://dbpedia.org/ontology/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix role: <http://www.loc.gov/loc.terms/relators/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>    
+@prefix sctar: <http://scta.info/resource/>
+@prefix sctap: <http://scta.info/property/>
+
+
+###############
+#Bonaventure
+###############
+#see p. 453 of Bonaventure edition
+<http://scta.info/text/bonaventurecommentary/item/b-b4d17p3a1q2>
+	sctap:quotes <http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a> .
+
+<http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a>
+	sctap:quotedBy <http://scta.info/text/bonaventurecommentary/item/b-b4d17p3a1q2> .
+
+#see pg. 456 of edition
+<http://scta.info/text/bonaventurecommentary/item/b-b4d17p3a1q3>
+	sctap:quotes <http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a> .
+
+<http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a>
+	sctap:quotedBy <http://scta.info/text/bonaventurecommentary/item/b-b4d17p3a1q3> .
+
+##########
+#HOLCOT
+##########
+<http://scta.info/text/holcotcommentary/item/rh-b4q6>
+	sctap:quotes <http://scta.info/resource/quotation/io20_22> .
+
+<http://scta.info/resource/quotation/io20_22>	
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q6> .
+
+<http://scta.info/text/holcotcommentary/item/rh-b4q6>
+	sctap:quotes <http://scta.info/resource/quotation/io20_23> .
+
+<http://scta.info/resource/quotation/io20_23>	
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q6> .
+
+<http://scta.info/text/holcotcommentary/item/rh-b4q6>
+	sctap:quotes <http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a> .
+
+<http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q6>	.
+	
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7> .
+
+## note in belot Holcot actually says c. 29, but this is wrong, the quote appears in c. 24
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7> .
+
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7> .
+#the below chapter designation may not be correct; might be from an older system.
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7>	.
+
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7>		.
+
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7>		.
+
+# holcot 1518 actually cites below as c. 14 but it is actually 24
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7>		.
+##
+<http://scta.info/text/holcotcommentary/item/rh-b4q7>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a> .
+
+<http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q7> .
+##
+<http://scta.info/text/holcotcommentary/item/rh-b4q8>
+	sctap:quotes <http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a> .
+
+<http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q8> .
+##			
+<http://scta.info/text/holcotcommentary/item/rh-b4q8>
+	sctap:references <http://scta.info/text/lombardsententia/distinction/pl-b4d49> .
+
+<http://scta.info/text/lombardsententia/distinction/pl-b4d49>
+	sctap:referencedBy <http://scta.info/text/holcotcommentary/item/rh-b4q8> .
+##
+<http://scta.info/text/holcotcommentary/item/rh-b4q8>
+	sctap:quotes <http://scta.info/resource/quotation/io17_3> .
+
+<http://scta.info/resource/quotation/io17_3>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q8> .
+##
+<http://scta.info/text/holcotcommentary/item/rh-b4q8>
+	sctap:quotes <http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a> .
+
+<http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q8>	.
+##
+<http://scta.info/text/holcotcommentary/item/rh-b4q8>
+	sctap:quotes <http://scta.info/resource/quotation/aa-consolatio-34> .
+
+<http://scta.info/resource/quotation/aa-consolatio-34>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q8> .
+##
+<http://scta.info/text/holcotcommentary/item/rh-b4q8>
+	sctap:quotes <http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a> .
+
+<http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b4q8> . 
+## this citation is found in 1518 PDF 184
+<http://scta.info/text/holcotcommentary/item/rh-b1q3>
+	sctap:quotes <http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a> .
+
+<http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a>
+	sctap:quotedBy <http://scta.info/text/holcotcommentary/item/rh-b1q3> . 
+	

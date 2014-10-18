@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:sctap="http://scta.info/properties/">
     <xsl:param name="author"><xsl:value-of select="//header/authorName"/></xsl:param>
     <xsl:param name="commentaryname"><xsl:value-of select="//header/commentaryName"/></xsl:param>
     <xsl:param name="cid"><xsl:value-of select="//header/commentaryid"/></xsl:param>

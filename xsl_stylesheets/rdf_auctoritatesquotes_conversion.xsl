@@ -36,6 +36,7 @@
                 <sctap:citation><xsl:value-of select="$footnote"></xsl:value-of></sctap:citation>
                 <sctap:quotationSource rdf:resource="http://scta.info/resource/quotationSource/auctoritates"/>
                 <sctap:fromWork rdf:resource="http://scta.info/resource/work/{$workid}"/>
+                <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Classical"/>
                 
                 <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>

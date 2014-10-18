@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listofFileNames>
+<listofFileNames xmlns:sctap="http://scta.info/property/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <header>
         <authorName>Robert Holcot</authorName>
         <commentaryName>Holcot Commentary</commentaryName>
@@ -37,11 +37,17 @@
             <fileName filestem="rh-b1q4">rh-b1q4.xml</fileName>
             <title>Quaestio 4</title>
             <questionTitle>Utrum Deus sit tres personae distinctae.</questionTitle>
+            <manualRDFs>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Jews"/>
+            </manualRDFs>
         </item>
         <item id="rh-b1q5" type="quaestio">
             <fileName filestem="rh-b1q5">rh-b1q5.xml</fileName>
             <title>Quaestio 5</title>
             <questionTitle>Utrum aliqua res simpliciter simplex sit in genere.</questionTitle>
+            <manualRDFs>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
+            </manualRDFs>
         </item>
     </div>
     <div id="rh-book2" type="librum">
@@ -88,6 +94,23 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</qu
             <fileName filestem="rh-b3q1">rh-b3q1.xml</fileName>
             <title>Quaestio 1</title>
             <questionTitle>Utrum filius Dei incarnari potuit.</questionTitle>
+            <manualRDFs>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_6_18_a"/>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_7_20_a"/>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_a"/>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b"/>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_24"/> <!-- see Holcot pdf 347 -->
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mc14_21"/> <!-- see Holcot pdf 347 -->
+                <sctap:mentions rdf:resource="http://scta.info/resource/person/Suetonius"/> <!-- see Holcot pdf 347 -->
+                <sctap:mentions rdf:resource="http://scta.info/resource/work/DeVitaCaesarum"/> <!-- see Holcot pdf 347 -->
+                <sctap:mentions rdf:resource="http://scta.info/resource/person/Caligula"/>
+                <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+                <sctap:mentions rdf:resource="http://scta.info/resource/person/Ethics"/> <!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
+                <!-- 2 augustine quote and anselm quote on PDF 352b -->
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_13"/> <!-- see Holcot PDF 353a -->
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_23"/> <!-- see Holcot PDF 355, q. 1, a. 4 -->
+                
+            </manualRDFs>
         </item>
     </div>
     <div id="rh-book4" type="librum">
@@ -96,7 +119,7 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</qu
             <fileName filestem="rh-b4prin4">rh-b4prin4.xml</fileName>
             <title>Principia IV</title>
             <questionTitle>Principia (IV): Utrum viator existens in gratia ordinate utendo et fruendo posset vitare omne peccatum.
-or: 	Utrum cum omni sacramento debito modo suscepto recipienti sacramentum informans gratia conferatur.</questionTitle>
+or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum informans gratia conferatur.</questionTitle>
         </item>
         <item id="rh-b4q1" type="quaestio">
             <fileName filestem="rh-b4q1">rh-b4q1.xml</fileName>
@@ -113,6 +136,7 @@ or: 	Utrum cum omni sacramento debito modo suscepto recipienti sacramentum infor
             <title>Quaestio 3</title>
             <questionTitle>Utrum in sacramento euchariste sub speciebus panis vere et realiter existat corpus Christi.</questionTitle>
         <item id="rh-b4q4" type="quaestio">
+            
             <fileName filestem="rh-b4q4">rh-b4q4.xml</fileName>
             <title>Quaestio 4</title>
             <questionTitle>Utrum peccator possit satisfacere Deo pro peccato mortali.</questionTitle>
@@ -128,18 +152,45 @@ or: 	Utrum cum omni sacramento debito modo suscepto recipienti sacramentum infor
                 <fileName filestem="rh-b4q6">rh-b4q6.xml</fileName>
                 <title>Quaestio 6</title>
                 <questionTitle>Utrum confessio sacerdoti facienda sit homini necessaria ad salutem.</questionTitle>
+                <manualRDFs>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/io20_22"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/io20_23"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a"/>
+                </manualRDFs>
+                
             </item>
             <item id="rh-b4q7" type="quaestio">
 
                 <fileName filestem="rh-b4q7">rh-b4q7.xml</fileName>
                 <title>Quaestio 7</title>
+                <!-- question titles are mixed up here -->
                 <questionTitle>Utrum poenitenti et confesso non proprio sacerdoti, habenti tamen commissionem generalem audiendi confessiones necesse sit eadem peccata iterum confiteri proprio sacerdoti</questionTitle>
+                <manualRDFs>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b"/> 
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/ro8_3"/>
+                </manualRDFs>
             </item>
             <item id="rh-b4q8" type="quaestio">
 
                 <fileName filestem="rh-b4q8">rh-b4q8.xml</fileName>
                 <title>Quaestio 8</title>
                 <questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</questionTitle>
+                <manualRDFs>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a"/>
+                    <sctap:references resource="http://scta.info/text/lombardsententia/distinction/pl-b4d49"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/io17_3"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/aa-consolatio-34"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a"/>
+                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a"/>
+                </manualRDFs>
             </item>
         </item>
         <item id="rh-b4sermofinalis" type="sermo">

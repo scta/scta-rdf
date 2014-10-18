@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listofFileNames>
+<listofFileNames xmlns:sctap="http://scta.info/property/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <header>
 <authorName>Peter Lombard</authorName>
 <commentaryName>Sentences of Peter Lombard</commentaryName>
@@ -17,6 +17,19 @@
    <fileName filestem="pl-b1d1c1">pl-b1d1c1.xml</fileName>
    <title>Prologus</title>
    <questionTitle/>
+    <manualRDFs>
+    <sctap:references rdf:resource="http://scta.info/resource/quotation/lc21_2"/>
+    <sctap:references rdf:resource="http://scta.info/resource/quotation/mc12_42"/>
+    <sctap:references rdf:resource="http://scta.info/resource/quotation/lc10_35"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_a"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_b"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor4_4"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_2"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IItim4_4"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col2_23"/>
+    <sctap:references rdf:resource="http://scta.info/resource/quotation/mt5_5"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_c"/>
+    </manualRDFs>
  </item>
 <div id="pl-b1d1" type="distinctio">
 <head>DISTINCTIO I</head>
@@ -24,16 +37,40 @@
   <fileName filestem="pl-b1d1c1">pl-b1d1c1.xml</fileName>
   <title>Cap. 1. </title>
   <questionTitle>Omnis doctrina est vel de rebus vel de signis.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_a"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_b"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_20"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d1c2" type="capitulus">
   <fileName filestem="pl-b1d1c2">pl-b1d1c2.xml</fileName>
   <title>Cap. 2. </title>
   <questionTitle>De rebus quibus fruendum est vel utendum est, et de his quae fruuntur vel utuntur.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_a"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_5_5_a"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_b"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_22_20_a"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d1c3" type="capitulus">
   <fileName filestem="pl-b1d1c3">pl-b1d1c3.xml</fileName>
   <title>Cap. 3. </title>
   <questionTitle>Quid sit frui vel uti.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_11_17_a"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_30_31_a"/>
+<!-- more augustine quotes but at htis point I just started doing bible quotations -->
+<sctap:references rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ier17_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil_20"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps15_2"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal5_22"/>
+
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d2" type="distinctio">
@@ -42,11 +79,17 @@
 <fileName filestem="pl-b1d2c1">pl-b1d2c1.xml</fileName>
 <title>Cap. 4 (1). </title>
 <questionTitle>De trinitate et unitate.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps104_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d2c2" type="capitulus">
 <fileName filestem="pl-b1d2c2">pl-b1d2c2.xml</fileName>
 <title>Cap. 5 (2). </title>
 <questionTitle>Quae fuerit intentio scribentium de Trinitate.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d2c3" type="capitulus">
 <fileName filestem="pl-b1d2c3">pl-b1d2c3.xml</fileName>
@@ -57,11 +100,54 @@
 <fileName filestem="pl-b1d2c4">pl-b1d2c4.xml</fileName>
 <title>Cap. 7 (4). </title>
 <questionTitle>De testimoniis veteris Testamenti quibus Trinitatis mysterium declaratur.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut6_4"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex20_23"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex3_14"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex15_3"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex1_26"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_3"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps118_100"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps67_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps80_9"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps80_10"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps32_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps66_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/is6_3"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps2_3"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/is53_8"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_22"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_23"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_24"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_25"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_26"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_27"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_28"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_29"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_30"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/quo24_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mich5_2"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_2"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps138_7"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap1_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap1_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/is61_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d2c5" type="capitulus">
 <fileName filestem="pl-b1d2c5">pl-b1d2c5.xml</fileName>
 <title>Cap. 8 (5). </title>
 <questionTitle>De testimoniis novi Testamenti ad idem pertinentibus.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/hab3_2"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/is6_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt28_19"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal4_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_11"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_36"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d3" type="distinctio">
@@ -70,16 +156,25 @@
 <fileName filestem="pl-b1d3c1">pl-b1d3c1.xml</fileName>
 <title>Cap. 9 (1). </title>
 <questionTitle>De cognitione Creatoris per creaturas in quibus Trinitatis vestigium apparet.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_19"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ex8_18"/>
+</manualRDFs>
 </item> 
 <item id="pl-b1d3c1" type="capitulus">
 <fileName filestem="pl-b1d3c2">pl-b1d3c2.xml</fileName>
 <title>Cap. 10 (2). </title>
 <questionTitle>De imagine et similitudine Trinitatis in anima humana.</questionTitle>
+<manualRDFs>
+</manualRDFs>
 </item>
 <item id="pl-b1d3c3" type="capitulus">
 <fileName filestem="pl-b1d3c3">pl-b1d3c3.xml</fileName>
 <title>Cap. 11 (3). </title>
 <questionTitle>De similitudine creantis et creatae trinitatis. </questionTitle>
+<manualRDFs>
+</manualRDFs>
 </item>
 <item id="pl-b1d3c4" type="capitulus">
 <fileName filestem="pl-b1d3c4">pl-b1d3c4.xml</fileName>
@@ -98,6 +193,9 @@
 <fileName filestem="pl-b1d4c2">pl-b1d4c2.xml</fileName>
 <title>Cap. 14 (2).</title>
 <questionTitle>Utrum trinitas de uno Deo praedicetur, sicut unus Deus de tribus personis.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim6_15"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d5" type="distinctio">
@@ -107,6 +205,11 @@
 <fileName filestem="pl-b1d5c1">pl-b1d5c1.xml</fileName>
 <title>Cap. 15 (1).</title>
 <questionTitle>Utrum divina essentia genuerit Filium vel genita sit a Patre, vel de ipsa natus sit Filius vel Spiritus Sanctus procedens.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/col1_13"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt22_29"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_20"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d5c2" type="capitulus">
 <fileName filestem="pl-b1d5c2">pl-b1d5c2.xml</fileName>
@@ -149,11 +252,21 @@ pl-b1d7c1
 <fileName filestem="pl-b1d8c1">pl-b1d8c1.xml</fileName>
 <title>Cap. 21 (1). </title>
 <questionTitle>De veritate ac proprietate divinae essentiae.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex3_14"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_13"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d8c2" type="capitulus">
 <fileName filestem="pl-b1d8c2">pl-b1d8c2.xml</fileName>
 <title>Cap. 22 (2). </title>
 <questionTitle>De incommutabilitate eiusdem.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim6_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iac1_17"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps101_28"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mal3_6"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d8c3" type="capitulus">
 <fileName filestem="pl-b1d8c3">pl-b1d8c3.xml</fileName>
@@ -198,16 +311,34 @@ pl-b1d7c1
 <fileName filestem="pl-b1d9c2">pl-b1d9c2.xml</fileName>
 <title>Cap. 30 (2). </title>
 <questionTitle>De coaeternitate Patris et Filii.</questionTitle>
+<manualRDFs>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor1_24"/>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is43_10"/>
+  <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io14_9"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io14_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d9c3" type="capitulus">
 <fileName filestem="pl-b1d9c3">pl-b1d9c3.xml</fileName>
 <title>Cap. 31 (3). </title>
 <questionTitle>De ineffabili et inintelligibili generationis modo.</questionTitle>
+<manualRDFs>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil4_7"/>
+  <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/quo3_14"/>
+  <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/quo3_22"/>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is53_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d9c4" type="capitulus">
 <fileName filestem="pl-b1d9c4">pl-b1d9c4.xml</fileName>
 <title>Cap. 32 (4). </title>
 <questionTitle>Utrum debeat dici 'semper gignitur Filius' vel 'semper genitus est'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt5_48"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov8_25"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io6_58"/> <!-- note example of error. Using my current nova-vulgate text this verse is actually 57 -->
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io5_26"/> <!-- but this one is correct -->
+</manualRDFs>
 </item>
 <item id="pl-b1d9c5" type="capitulus">
 <fileName filestem="pl-b1d9c5">pl-b1d9c5.xml</fileName>
@@ -221,16 +352,31 @@ pl-b1d7c1
 <fileName filestem="pl-b1d10c1">pl-b1d10c1.xml</fileName>
 <title>Cap. 34 (1). </title>
 <questionTitle>De Spiritu Sancto: quod amor Patris et Filii est et proprie dicitur, cum sit in Trinitate amor qui est Trinitas; sicut Verbum proprie dicitur sapientia, et tamen tota Trinitas dicitur sapientia.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_16"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d10c2" type="capitulus">
 <fileName filestem="pl-b1d10c2">pl-b1d10c2.xml</fileName>
 <title>Cap. 35 (2). </title>
 <questionTitle>Quod eadem nomina proprie et universaliter accipiuntur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor1_24"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_13"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ps4_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph4_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_16"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d10c3" type="capitulus">
 <fileName filestem="pl-b1d10c3">pl-b1d10c3.xml</fileName>
 <title>Cap. 36 (3). </title>
 <questionTitle>Quod Spiritus Sanctus, sicut Patri et Filio est communis, ita commune nomen habet proprium.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col1_13"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d11" type="distinctio">
@@ -240,11 +386,32 @@ pl-b1d7c1
 <fileName filestem="pl-b1d11c1">pl-b1d11c1.xml</fileName>
 <title>Cap. 37 (1). </title>
 <questionTitle>Quod Spiritus Sanctus procedit a Patre et Filio, quem tamen Graeci a Filio procedere diffitentur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal4_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iol5_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt15_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io15_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal1_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Ith3_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io15_26"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d11c2" type="capitulus">
 <fileName filestem="pl-b11d1c2">pl-b1d11c2.xml</fileName>
 <title>Cap. 38 (2). </title>
 <questionTitle>De convenientia Latinorum et Graecorum in sensu et differentia in verbis.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal4_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_33"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_11"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d12" type="distinctio">
@@ -252,14 +419,20 @@ pl-b1d7c1
 <item id="pl-b12d1c1" type="capitulus">
 <fileName filestem="pl-b12d1c1">pl-b12d1c1.xml</fileName>
 <title>Cap. 39 (1). </title>
-<questionTitle>Utrum Spiritus Sanctus proprius vel plenius procedat a Patre quam a Filio.</questionTitle>
+<questionTitle>Utrum Spiritus Sanctus prius vel plenius procedat a Patre quam a Filio.</questionTitle>
 </item>
 <item id="pl-b1d12c2" type="capitulus">
 <fileName filestem="pl-b1d12c2">pl-b1d12c2.xml</fileName>
 <title>Cap. 40 (2). </title>
 <questionTitle>Quod Spiritus Sanctus principaliter et proprie dicitur procedere a Patre.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io15_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io7_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io5_26"/>
+</manualRDFs>
 </item>
 </div>
+
 <div id="pl-b1d13" type="distinctio">
 <head>DISTINCTIO XIII</head>
 <item id="pl-b1d13c1" type="capitulus">
@@ -276,6 +449,11 @@ pl-b1d7c1
 <fileName filestem="pl-b1d13c3">pl-b1d13c3.xml</fileName>
 <title>Cap. 43 (3). </title>
 <questionTitle>Quod non potest mortalis distinguere inter generationem Filii et processionem Spiritus Sancti.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io15_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io20_22"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is53_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d13c4" type="capitulus">
 <fileName filestem="pl-b1d13c4">pl-b1d13c4.xml</fileName>
@@ -289,16 +467,33 @@ pl-b1d7c1
 <fileName filestem="pl-b1d14c1">pl-pl-b1d14c1.xml</fileName>
 <title>Cap. 45 (1). </title>
 <questionTitle>De gemina processione Spiritus Sancti, temporali et aeterna.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io20_22"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc6_19"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d14c2" type="capitulus">
 <fileName filestem="pl-b1d14c2">pl-b1d14c2.xml</fileName>
 <title>Cap. 46 (2). </title>
 <questionTitle>Quod non solum dona Spiritus Sancti, sed etiam ipse Spiritus Sanctus Deus datur hominibus et mittitur.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt28_19"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_4"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor12_13"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Rom5_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ICor12_11"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Rom5_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph4_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d14c3" type="capitulus">
 <fileName filestem="pl-b1d14c3">pl-b1d14c3.xml</fileName>
 <title>Cap. 47 (3). </title>
 <questionTitle>An viri sancti possint dare Spiritum Sanctum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/act2_33"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal3_5"/> 
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d15" type="distinctio">
@@ -308,26 +503,54 @@ pl-b1d7c1
 <fileName filestem="pl-b1d15c1">pl-b1d15c1.xml</fileName>
 <title>Cap. 48 (1). </title>
 <questionTitle>Quod Spiritus Sanctus a se ipso datur et Filius a se ipso mittitur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io3_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_26"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_28"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal4_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ier23_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c2" type="capitulus">
 <fileName filestem="pl-b1d15c2">pl-b1d15c2.xml</fileName>
 <title>Cap. 49 (2). </title>
 <questionTitle>Quomodo intelligenda sit missio utriusque.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal4_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c3" type="capitulus">
 <fileName filestem="pl-b1d15c3">pl-b1d15c3.xml</fileName>
 <title>Cap. 50 (3). </title>
 <questionTitle>Quod a Spiritu Sancto etiam Filius sit missus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is9_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc4_18"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc4_21"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c4" type="capitulus">
 <fileName filestem="pl-b1d15c14">pl-b1d15c4.xml</fileName>
-<title>Cap. 51 (4) Quod Filius etiam sit datus a se ipso.</title>
-<questionTitle/>
+<title>Cap. 51 (4)</title>
+<questionTitle>Quod Filius etiam sit datus a se ipso.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_36"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io17_19"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_32"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal2_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_7"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c5" type="capitulus">
 <fileName filestem="pl-b1d15c5">pl-b1d15c5.xml</fileName>
-<title>Cap. 52 (5). </title>
+<title>Cap. 52 (5).</title>
 <questionTitle>Quomodo intelligendum sit 'a me ipso non veni'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io7_28"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_42"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c6" type="capitulus">
 <fileName filestem="pl-b1d15c6">pl-b1d15c6.xml</fileName>
@@ -338,11 +561,19 @@ pl-b1d7c1
 <fileName filestem="pl-b1d15c7">pl-b1d15c7.xml</fileName>
 <title>Cap. 54 (7). </title>
 <questionTitle>De duobus modis missionis Filii.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap7_27"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_28"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap9_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c8" type="capitulus">
 <fileName filestem="pl-b1d15c8">pl-b1d15c8.xml</fileName>
 <title>Cap. 55 (8). </title>
 <questionTitle>Quod secundam alterum modum semel sit missus, secundum alterum saepe; et secundum alterum modum dicitur missus in mundum, secundum alterum non</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap7_27"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d15c9" type="capitulus">
 <fileName filestem="pl-b1d15c9">pl-b1d15c9.xml</fileName>
@@ -356,17 +587,28 @@ pl-b1d7c1
 </item>
 </div>
 <div id="pl-b1d16" type="distinctio">
+
 <head>DISTINCTIO XVI</head>
 
 <item id="pl-b1d16c1" type="capitulus">
 <fileName filestem="pl-b1d16c1">pl-b1d16c1.xml</fileName>
 <title>Cap. 58 (1). </title>
 <questionTitle>De missione Spiritus Sancti, quae fit duobus modis: visibiliter et invisibiliter.</questionTitle>
+<manualRDFs>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal4_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_14"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d16c2" type="capitulus">
 <fileName filestem="pl-b1d16c2">pl-b1d16c2.xml</fileName>
 <title>Cap. 59 (2). </title>
 <questionTitle>Quod Filius, secundam quod homo, non modo Patre sed Spiritu Sancto etiam minor est.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_28"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr2_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d17" type="distinctio">
@@ -376,33 +618,75 @@ pl-b1d7c1
 <fileName filestem="pl-b1d17c1">pl-b1d17c1.xml</fileName>
 <title>Cap. 60 (1). </title>
 <questionTitle>Quod Spiritus Sanctus est caritas qua diligimus Deum et proximum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio2_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d17c2" type="capitulus">
 <fileName filestem="pl-b1d17c2">pl-b1d17c2.xml</fileName>
 <title>Cap. 61 (2). </title>
 <questionTitle>Quod fraterna dilectio est Deus, nec Pater vel Filius, sed tantum Spiritus Sanctus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_13"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d17c3" type="capitulus">
 <fileName filestem="pl-b1d17c3">pl-b1d17c3.xml</fileName>
-<title>Cap. 62 (3) Quod non est dictum per causam illud: 'Deus caritas est', sicut illud: 'Tu es patientia mea et spes mea'.</title>
-<questionTitle/>
+<title>Cap. 62 (3)</title>
+<questionTitle>Quod non est dictum per causam illud: 'Deus caritas est', sicut illud: 'Tu es patientia mea et spes mea'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps70_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps61_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps99_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps58_18"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io4_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d17c4" type="capitulus">
 <fileName filestem="pl-b1d17c4">pl-b1d17c4.xml</fileName>
 <title>Cap.63 (4). </title>
 <questionTitle>Quomodo Spiritus Sanctus mittatur vel detur nobis.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d17c5" type="capitulus">
 <fileName filestem="pl-b1d17c5">pl-b1d17c5.xml</fileName>
 <title>Cap. 64 (5). </title>
 <questionTitle>Utrum Spiritus Sanctus augeatur in homine, vel minus et magis habeatur vel detur, et an detur habenti et non habenti.</questionTitle>
+ <manualRDFs>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc19_26"/>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps63_7"/>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps63_8"/>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIreg2_9"/> <!-- typeo in editions which says IV. Reg. 2, 9. -->
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io3_34"/>
+  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_5"/>
+ </manualRDFs>
 </item>
 <item id="pl-b1d17c6" type="capitulus">
 <fileName filestem="pl-b1d17c6">pl-b1d17c6.xml</fileName>
 <title>Cap. 65 (6). </title>
 <questionTitle>Quod aliqui dicunt caritatem Dei et proximi non esse Spiritum Sanctum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio4_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio8_38"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio8_39"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap8_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap7_22"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor12_11"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io3_34"/>
+</manualRDFs>
 </item>
 </div>
+
 <div id="pl-b1d18" type="distinctio">
 <head>DISTINCTIO XVIII</head>
 
@@ -415,6 +699,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d18c2">pl-b1d18c2.xml</fileName>
 <title>Cap. 67 (2). </title>
 <questionTitle>Utrum Spiritus Sanctus eadem ratione dicatur donum, qua datum sive donatum.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/is9_6"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d18c3" type="capitulus">
 <fileName filestem="pl-b1d18c1">pl-b1d18c3.xml</fileName>
@@ -425,11 +712,20 @@ pl-b1d7c1
 <fileName filestem="pl-b1d18c4">pl-b1d18c4.xml</fileName>
 <title>Cap. 69 (4). </title>
 <questionTitle>Quod Spiritus Sanctus dicitur donum et donatum secundum duos modos praedictos processionis: quod secundum quod donum est, refertur ad Patrem; et secundum quod datum, ad eum qui dedit et ad eos quibus datur.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor2_11"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc1_17"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/num11_17"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d18c5" type="capitulus">
 <fileName filestem="pl-b1d18c5">pl-b1d18c5.xml</fileName>
 <title>Cap. 70 (5). </title>
 <questionTitle>An Filius, cum sit nobis datus, possit dici 'noster', ut Spiritus Sanctus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt6_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc11_3"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d18c6" type="capitulus">
 <fileName filestem="pl-b1d18c6">pl-b1d18c6.xml</fileName>
@@ -448,6 +744,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d19c2">pl-b1d19c2.xml</fileName>
 <title>Cap. 73 (2). </title>
 <questionTitle>Quod aeternitas et magnitudo et potentia in Deo est unum, etsi videantur diversa.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps101_25"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d19c3" type="capitulus">
 <fileName filestem="pl-b1d19c3">pl-b1d19c3.xml</fileName>
@@ -458,6 +757,11 @@ pl-b1d7c1
 <fileName filestem="pl-b1d19c4">pl-b1d19c4.xml</fileName>
 <title>Cap. 75 (4). </title>
 <questionTitle>Quomodo dicitur Pater esse in Filio et Filius in Patre et Spiritus Sanctus in utroque.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_11"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_11"/> <!-- repeated a second time -->
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d19c5" type="capitulus">
 <fileName filestem="pl-b1d19c5">pl-b1d19c5.xml</fileName>
@@ -468,6 +772,10 @@ pl-b1d7c1
 <fileName filestem="pl-b1d19c6">pl-b1d19c6.xml</fileName>
 <title>Cap. 77 (6). </title>
 <questionTitle>Quare tres personae dicantur summe unum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt19_42"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is7_9"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d19c7" type="capitulus">
 <fileName filestem="pl-b1d19c7">pl-b1d19c7.xml</fileName>
@@ -498,6 +806,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d19c12">pl-b1d19c12.xml</fileName>
 <title>Cap. 83 (12). </title>
 <questionTitle>Quod Deus non est dicendus triplex, sed trinus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps144_3"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d20" type="distinctio">
@@ -512,11 +823,17 @@ pl-b1d7c1
 <fileName filestem="pl-b1d20c2">pl-b1d20c2.xml</fileName>
 <title>Cap. 85 (2). </title>
 <questionTitle>Quod non minus potest Filius quam Pater.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_15"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d20c3" type="capitulus">
 <fileName filestem="pl-b1d20c3">pl-b1d20c3.xml</fileName>
 <title>Cap. 86 (3). </title>
 <questionTitle>De obiectionibus haereticis contra hoc et responsionibus catholicis.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io16_15"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d21" type="distinctio">
@@ -531,11 +848,21 @@ pl-b1d7c1
 <fileName filestem="pl-b1d21c2">pl-b1d21c2.xml</fileName>
 <title>Cap. 88 (2). </title>
 <questionTitle>Utrum debeat dici 'solus Pater est Deus' vel 'solus Filius est Deus' vel 'solus Spiritus Sanctus est Deus', an 'Pater est solus Deus', 'Filius est solus Deus', 'Spiritus Sanctus est solus Deus'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim6_15"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom16_27"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim1_17"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d21c3" type="capitulus">
 <fileName filestem="pl-b1d21c3">pl-b1d21c3.xml</fileName>
 <title>Cap. 89 (3). </title>
 <questionTitle>Quomodo dicatur 'Trinitas est solus Deus', cum ipsa sit cum spiritibus et animabus sanctis.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt11_27"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io17_3"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d22" type="distinctio">
@@ -566,6 +893,7 @@ pl-b1d7c1
 <questionTitle>De his quae proprie ad singulas personas pertinent, et de his quae unitatem essentiae significant.</questionTitle>
 </item>
 </div>
+
 <div id="pl-b1d23" type="distinctio">
 <head>DISTINCTIO XXIII</head>
 
@@ -583,6 +911,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d23c3">pl-b1d23c3.xml</fileName>
 <title>Cap. 97 (3). </title>
 <questionTitle>Quare non dicimus Patrem et Filium et Spiritum Sanctum esse tres deos ut tres personas.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut6_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d23c4" type="capitulus">
 <fileName filestem="pl-b1d23c4">pl-b1d23c4.xml</fileName>
@@ -593,6 +924,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d23c5">pl-b1d23c5.xml</fileName>
 <title>Cap. 99 (5). </title>
 <questionTitle>Quod in Trinitate non est diversitas vel singularitas vel solitudo, sed unitas et trinitas, et distinctio et identitas.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io14_9"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d23c6" type="capitulus">
 <fileName filestem="pl-b1d23c6">pl-b1d23c6.xml</fileName>
@@ -607,6 +941,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d24c1">pl-b1d24c1.xml</fileName>
 <title>Cap. 101 (1). </title>
 <questionTitle>Quid significetur his nominibus: unus, duo vel duae, tres vel tria, trinus vel trinitas, plures vel pluralitas, distinctio vel distinctae, cum his utimur loquentes de Deo.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_26"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d25" type="distinctio">
@@ -621,6 +958,10 @@ pl-b1d7c1
 <fileName filestem="pl-b1d25c2">pl-b1d25c2.xml</fileName>
 <title>Cap. 103 (2). </title>
 <questionTitle>De triplici acceptione huius nominis 'persona' in Trinitate.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d25c3" type="capitulus">
 <fileName filestem="pl-b1d25c3">pl-b1d25c3.xml</fileName>
@@ -628,6 +969,7 @@ pl-b1d7c1
 <questionTitle>Ex quo sensu dicatur alia persona Patris et alia Filii, sive alius in persona Pater, alius Filias.</questionTitle>
 </item>
 </div>
+
 <div id="pl-b1d26" type="distinctio">
 <head>DISTINCTIO XXVI</head>
 
@@ -635,6 +977,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d26c1">pl-b1d26c1.xml</fileName>
 <title>Cap. 105 (1). </title>
 <questionTitle>De hoc nomine 'hypostasis'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor11_14"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d26c2" type="capitulus">
 <fileName filestem="pl-b1d26c2">pl-b1d26c2.xml</fileName>
@@ -650,11 +995,20 @@ pl-b1d7c1
 <fileName filestem="pl-b1d26c4">pl-b1d26c4.xml</fileName>
 <title>Cap. 108 (4). </title>
 <questionTitle>Quare dicatur proprium esse Unigeniti filium Dei esse, cum etiam homines sint filii Dei.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps81_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex4_22"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ep2_3"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d26c5" type="capitulus">
 <fileName filestem="pl-b1d26c5">pl-b1d26c5.xml</fileName>
 <title>Cap. 109 (5). </title>
 <questionTitle>Quod homo dicitur filius Trinitatis et Trinitas pater hominum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut6_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io17_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d26c6" type="capitulus">
 <fileName filestem="pl-b1d26c6">pl-b1d26c6.xml</fileName>
@@ -665,6 +1019,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d26c7">pl-b1d26c7.xml</fileName>
 <title>Cap. 111 (7). </title>
 <questionTitle>Utrum Pater vel Trinitas ipsa vel Filius possit dici 'spiritus sanctus'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io4_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d26c8" type="capitulus">
 <fileName filestem="pl-b1d26c8">pl-b1d26c8.xml</fileName>
@@ -699,6 +1056,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d27c5">pl-b1d27c5.xml</fileName>
 <title>Cap. 117 (5). </title>
 <questionTitle>An secundum substantiam dicatur 'Deus de Deo' et huiusmodi.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc18_19"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d28" type="distinctio">
@@ -752,11 +1112,19 @@ pl-b1d7c1
 <fileName filestem="pl-b1d29c2">pl-b1d29c2.xml</fileName>
 <title>Cap. 126 (2). </title>
 <questionTitle>Quod ab aeterno Pater est principium, et Filius, sed non Spiritus Sanctus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_36"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_25"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Icor12_11"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d29c3" type="capitulus">
 <fileName filestem="pl-b1d29c3">pl-b1d29c3.xml</fileName>
 <title>Cap. 127 (3). </title>
 <questionTitle>Quomodo Pater sit principium Filii, et ipse cum Filio Spiritus Sancti.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io15_26"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d29c4" type="capitulus">
 <fileName filestem="pl-b1d29c4">pl-b1d29c4.xml</fileName>
@@ -771,6 +1139,10 @@ pl-b1d7c1
 <fileName filestem="pl-b1d30c1">pl-b1d30c1.xml</fileName>
 <title>Cap. 129 (1). </title>
 <questionTitle>De his quae temporaliter de Deo dicuntur et relative, secundum accidens quod non Deo, sed creaturis accidit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps17_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d30c2" type="capitulus">
 <fileName filestem="pl-b1d30c2">pl-b1d30c2.xml</fileName>
@@ -790,16 +1162,26 @@ pl-b1d7c1
 <fileName filestem="pl-b1d31c2">pl-b1d31c2.xml</fileName>
 <title>Cap. 132 (2). </title>
 <questionTitle>De sententia S. Hilarii, qua in Trinitate personarum propria ostendit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d31c3" type="capitulus">
 <fileName filestem="pl-b1d31c3">pl-b1d31c3.xml</fileName>
 <title>Cap. 133 (3). </title>
 <questionTitle>Quare Patri attribuitur unitas.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d31c4" type="capitulus">
 <fileName filestem="pl-b1d31c4">pl-b1d31c4.xml</fileName>
 <title>Cap. 134 (4). </title>
 <questionTitle>Quare Pater et Filius dicantur esse 'unum' vel 'unus Deus', sed non 'unus'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor3_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor6_17"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d31c5" type="capitulus">
 <fileName filestem="pl-b1d31c5">pl-b1d31c5.xml</fileName>
@@ -824,6 +1206,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d32c2">pl-b1d32c2.xml</fileName>
 <title>Cap. 138 (2). </title>
 <questionTitle>Utrum Pater sit sapiens sapientia quam genuit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor1_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d32c3" type="capitulus">
 <fileName filestem="pl-b1d32c3">pl-b1d32c3.xml</fileName>
@@ -858,6 +1243,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d33c2">pl-b1d33c2.xml</fileName>
 <title>Cap. 144 (2). </title>
 <questionTitle>Quomodo proprietates possint esse in natura Dei nec eam determinent.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov33_2"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d34" type="distinctio">
@@ -867,11 +1255,27 @@ pl-b1d7c1
 <fileName filestem="pl-b1d34c1">pl-b1d34c1.xml</fileName>
 <title>Cap. 145 (1). </title>
 <questionTitle>De verbis Hilarii quibus, secundum pravorum intelligentiam, videtur dicere non idem esse divinam naturam et rem naturae, et non idem esse Deum et quod Dei est.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is61_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt12_28"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ioel2_28"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/act2_17"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/eph3_17"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Icor3_16"/> <!-- db check text just says Cor 3:16 -->
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d34c2" type="capitulus">
 <fileName filestem="pl-b1d34c2">pl-b1d34c2.xml</fileName>
 <title>Cap. 146 (2). </title>
 <questionTitle>Utrum ita possit dici 'unus Deus trium personarum' ut dicitur 'una essentia trium personarum', et 'tres personae unius Dei' ut 'tres personae unius essentiae'.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex3_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iudt9_17"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d34c3" type="capitulus">
 <fileName filestem="pl-b1d34c3">pl-b1d34c3.xml</fileName>
@@ -887,6 +1291,10 @@ pl-b1d7c1
 <fileName filestem="pl-b1d34c5">pl-b1d34c5.xml</fileName>
 <title>Cap. 149 (5). </title>
 <questionTitle>De hoc nomine 'homousion', ubi in auctoritate receptum sit et quid significet.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ps138_6"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d35" type="distinctio">
@@ -911,6 +1319,12 @@ pl-b1d7c1
 <fileName filestem="pl-b1d35c4">pl-b1d35c4.xml</fileName>
 <title>Cap. 153 (4). </title>
 <questionTitle>De quibus praedestinatio.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_29"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph1_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is64_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor2_9"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d35c5" type="capitulus">
 <fileName filestem="pl-b1d35c5">pl-b1d35c5.xml</fileName>
@@ -936,8 +1350,16 @@ pl-b1d7c1
 <fileName filestem="pl-b1d35c9">pl-b1d35c9.xml</fileName>
 <title>Cap. 158 (9). </title>
 <questionTitle>Quomodo omnia dicuntur esse in Deo et vita in eo.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iac1_17"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_3"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom4_17"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps49_11"/>
+</manualRDFs>
 </item>
 </div>
+
 <div id="pl-b1d36" type="distinctio">
 <head>DISTINCTIO XXXVI</head>
 
@@ -945,16 +1367,31 @@ pl-b1d7c1
 <fileName filestem="pl-b1d36c1">pl-b1d36c1.xml</fileName>
 <title>Cap. 159 (1). </title>
 <questionTitle>Utrum omnia debeant dici esse in Dei essentia, ut in Dei cognitione vel praesentia esse dicuntur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph1_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d36c2" type="capitulus">
 <fileName filestem="pl-b1d36c2">pl-b1d36c2.xml</fileName>
 <title>Cap. 160 (2). </title>
 <questionTitle>Qua ratione bona dicuntur esse in Deo et non mala.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_36"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps137_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps16_14"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps74_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt7_23"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt13_27"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d36c3" type="capitulus">
 <fileName filestem="pl-b1d36c3">pl-b1d36c3.xml</fileName>
 <title>Cap. 161 (3). </title>
 <questionTitle>Utrum idem sit omnia esse ex Deo et per ipsum et in ipso.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_36"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/act17_28"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d36c4" type="capitulus">
 <fileName filestem="pl-b1d36c4">pl-b1d36c4.xml</fileName>
@@ -974,21 +1411,43 @@ pl-b1d7c1
 <fileName filestem="pl-b1d37c1">pl-b1d37c1.xml</fileName>
 <title>Cap. 164 (1). </title>
 <questionTitle>Quibus modis dicitur Deus esse in rebus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col2_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ier23_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d37c2" type="capitulus">
 <fileName filestem="pl-b1d37c2">pl-b1d37c2.xml</fileName>
 <title>Cap. 165 (2). </title>
 <questionTitle>Quod Deus non ubicumque est habitat, sed e converso.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is66_1"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sap7_27"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sap9_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io17_24"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_9"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sap7_27"/>
+ 
+</manualRDFs>
 </item>
 <item id="pl-b1d37c3" type="capitulus">
 <fileName filestem="pl-b1d37c3">pl-b1d37c3.xml</fileName>
 <title>Cap. 166 (3). </title>
 <questionTitle>Ubi erat Deus antequam esset creatura.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt6_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc11_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_21"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d37c4" type="capitulus">
 <fileName filestem="pl-b1d37c4">pl-b1d37c4.xml</fileName>
 <title>Cap. 167 (4). </title>
 <questionTitle>Quod Deus, cum sit in omnibus rebus essentialiter, non tamen coinquinatur sordibus rerum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap8_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap7_25"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d37c5" type="capitulus">
 <fileName filestem="pl-b1d37c5">pl-b1d37c5.xml</fileName>
@@ -1008,7 +1467,11 @@ pl-b1d7c1
 <item id="pl-b1d37c8" type="capitulus">
 <fileName filestem="pl-b1d37c8">pl-b1d37c8.xml</fileName>
 <title>Cap. 171 (8). </title>
-<questionTitle>Utrum spiritus creati sint locales et circamscriptibiles.</questionTitle>
+<questionTitle>Utrum spiritus creati sint locales et circumscriptibiles.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is6_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap8_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d37c9" type="capitulus">
 <fileName filestem="pl-b1d37c9">pl-b1d37c9.xml</fileName>
@@ -1023,6 +1486,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d38c1">pl-b1d38c1.xml</fileName>
 <title>Cap. 173 (1). </title>
 <questionTitle>An scientia vel praescientia Dei sit causa rerum vel e converso.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sir23_29"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d38c2" type="capitulus">
 <fileName filestem="pl-b1d38c2">pl-b1d38c2.xml</fileName>
@@ -1052,6 +1518,11 @@ pl-b1d7c1
 <fileName filestem="pl-b1d39c4">pl-b1d39c4.xml</fileName>
 <title>Cap. 178 (4). </title>
 <questionTitle>Quod Deus et semper et simul scit omnia.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor9_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap12_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt5_45"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d40" type="distinctio">
@@ -1061,11 +1532,19 @@ pl-b1d7c1
 <fileName filestem="pl-b1d40c1">pl-b1d40c1.xml</fileName>
 <title>Cap. 179 (1). </title>
 <questionTitle>An aliquis praedestinatus possit damnari vel reprobus salvari.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap3_11"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d40c2" type="capitulus">
 <fileName filestem="pl-b1d40c2">pl-b1d40c2.xml</fileName>
 <title>Cap. 180 (2). </title>
 <questionTitle>Quid sit reprobatio Dei et in quibus consideretur, et quis sit praedestinationis effectus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph1_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_18"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_33"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d41" type="distinctio">
@@ -1075,11 +1554,29 @@ pl-b1d7c1
 <fileName filestem="pl-b1d41c1">pl-b1d41c1.xml</fileName>
 <title>Cap. 181 (1). </title>
 <questionTitle>Utrum aliquod sit meritum obdurationis vel misericordiae.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_18"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mal1_2"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mal1_3"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/rom9_13"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d41c2" type="capitulus">
 <fileName filestem="pl-b1d41c2">pl-b1d41c2.xml</fileName>
 <title>Cap. 182 (2). </title>
 <questionTitle>De variis super hoc carnalium opinionibus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor12_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph1_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mal1_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mal1_3"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_18"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_12"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor7_25"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d41c3" type="capitulus">
 <fileName filestem="pl-b1d41c3">pl-b1d41c3.xml</fileName>
@@ -1104,6 +1601,10 @@ pl-b1d7c1
 <fileName filestem="pl-b1d42c3">pl-b1d42c3.xml</fileName>
 <title>Cap. 186 (3). </title>
 <questionTitle>Quod omnipotentia Dei secundam duo consideretur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps113_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_19"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d43" type="distinctio">
@@ -1113,6 +1614,13 @@ pl-b1d7c1
 <fileName filestem="pl-b1d43c1">pl-b1d43c1.xml</fileName>
 <title>Cap. 187 (1). </title>
 <questionTitle>Invectio contra illos qui dicunt Deum nil posse nisi quod vult et facit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen19_22"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps63_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_53"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt11_21"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt11_21"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d44" type="distinctio">
@@ -1151,16 +1659,34 @@ pl-b1d7c1
 <fileName filestem="pl-b1d45c4">pl-b1d45c4.xml</fileName>
 <title>Cap. 193 (4). </title>
 <questionTitle>Quod Dei voluntas summe bona causa est omnium quae naturaliter sunt, cuius causa non est quaerenda, quia prima est et summa causa omnium.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap8_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d45c5" type="capitulus">
 <fileName filestem="pl-b1d45c5">pl-b1d45c5.xml</fileName>
 <title>Cap. 194 (5). </title>
 <questionTitle>Quibus modis accipitur Dei voluntas.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps113_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_19"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom12_2"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d45c6" type="capitulus">
 <fileName filestem="pl-b1d45c6">pl-b1d45c6.xml</fileName>
 <title>Cap. 195 (6). </title>
 <questionTitle>Quod praeceptio, prohibitio, permissio, consilium, operatio nomine voluntatis interdum intelliguntur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps110_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps88_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps19_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt6_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt12_50"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt12_50"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/gen22_2"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mc1_44"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d45c7" type="capitulus">
 <fileName filestem="pl-b1d45c7">pl-b1d45c7.xml</fileName>
@@ -1175,21 +1701,42 @@ pl-b1d7c1
 <fileName filestem="pl-b1d46c1">pl-b1d46c1.xml</fileName>
 <title>Cap. 197 (1). </title>
 <questionTitle>Quod voluntas Dei quae ipse est in nullo cassari potest.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps113_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_19"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt23_37"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d46c2" type="capitulus">
 <fileName filestem="pl-b1d46c2">pl-b1d46c2.xml</fileName>
 <title>Cap. 198 (2). </title>
 <questionTitle>Quomodo intelligendum sit illud: Volui congregare filios tuos et noluisti, et illud: Qui vult omnes homines salvos fieri.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt23_37"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps113_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_9"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d46c3" type="capitulus">
 <fileName filestem="pl-b1d46c3">pl-b1d46c3.xml</fileName>
 <title>Cap. 199 (3). </title>
 <questionTitle>Utrum mala Deo volente vel nolente fiant.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_19"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d46c4" type="capitulus">
 <fileName filestem="pl-b1d46c4">pl-b1d46c4.xml</fileName>
 <title>Cap. 200 (4). </title>
 <questionTitle>Quomodo intelligendum sit illud Augustini: Mala fieri bonum est.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_3"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_28"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d46c5" type="capitulus">
 <fileName filestem="pl-b1d46c5">pl-b1d46c5.xml</fileName>
@@ -1200,11 +1747,20 @@ pl-b1d7c1
 <fileName filestem="pl-b1d46c6">pl-b1d46c6.xml</fileName>
 <title>Cap. 202 (6). </title>
 <questionTitle>Quod mala universitati valent.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc2_61"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc2_62"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/IIcor12_7"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d46c7" type="capitulus">
 <fileName filestem="pl-b1d46c7">pl-b1d46c7.xml</fileName>
 <title>Cap. 203 (7). </title>
 <questionTitle>Quod in Deo non est causa ut sit homo deterior.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sir37_23"/> <!-- lombard volume says sir37_23, but why not rom1_30 -->
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor12_3"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b1d47" type="distinctio">
@@ -1214,11 +1770,18 @@ pl-b1d7c1
 <fileName filestem="pl-b1d47c1">pl-b1d47c1.xml</fileName>
 <title>Cap. 204 (1). </title>
 <questionTitle>Quomodo voluntas Dei de homine impletur quocumque se vertat.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps110_2"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d47c2" type="capitulus">
 <fileName filestem="pl-b1d47c2">pl-b1d47c2.xml</fileName>
 <title>Cap. 205 (2). </title>
 <questionTitle>Ex quo sensu quaedam dicuntur fieri contra Dei voluntatem.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps16_4"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/rom8_18"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d47c3" type="capitulus">
 <fileName filestem="pl-b1d47c3">pl-b1d47c3.xml</fileName>
@@ -1226,6 +1789,7 @@ pl-b1d7c1
 <questionTitle>Quare praecipit Deus omnibus bona facere et mala vitare, si non id ab omnibus vult impleri.</questionTitle>
 </item>
 </div>
+
 <div id="pl-b1d48" type="distinctio">
 <head>DISTINCTIO XLVIII</head>
 <item id="pl-b1d48c1" type="capitulus">
@@ -1237,6 +1801,10 @@ pl-b1d7c1
 <fileName filestem="pl-b1d48c2">pl-b1d48c2.xml</fileName>
 <title>Cap. 208 (2). </title>
 <questionTitle>Quod Dei voluntas per malas hominum voluntates impletur.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps138_2"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt16_23"/>
+</manualRDFs>
 </item>
 <item id="pl-b1d48c3" type="capitulus">
 <fileName filestem="pl-b1d48c3">pl-b1d48c3.xml</fileName>
@@ -1247,6 +1815,9 @@ pl-b1d7c1
 <fileName filestem="pl-b1d48c4">pl-b1d48c4.xml</fileName>
 <title>Cap. 210 (4). </title>
 <questionTitle>Utrum passiones sanctorum debeamus velle.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil1_23"/>
+</manualRDFs>
 </item>
 </div>
 </div>
@@ -1259,6 +1830,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d1c1">pl-b2d1c1.xml</fileName>
 <title>Cap. 1. </title>
 <questionTitle>Quod unum est principium rerum, non plura.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d1c2" type="capitulus">
 <fileName filestem="pl-b2d1c2">pl-b2d1c2.xml</fileName>
@@ -1274,6 +1848,11 @@ pl-b1d7c1
 <fileName filestem="pl-b2d1c4">pl-b2d1c4.xml</fileName>
 <title>Cap. 4. </title>
 <questionTitle>Quare rationalis creatura facta sit, id est homo vel angelus.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps15_2"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor3_22"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr1_14"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d1c5" type="capitulus">
 <fileName filestem="pl-b2d1c5">pl-b2d1c5.xml</fileName>
@@ -1284,11 +1863,16 @@ pl-b1d7c1
 <fileName filestem="pl-b2d1c6">pl-b2d1c6.xml</fileName>
 <title>Cap. 6. </title>
 <questionTitle>Quare ita homo sit institutus, ut unita sit anima corpori.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt22_37"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor5_4"/>
+</manualRDFs>
 </item>
 </div>
+
 <div id="pl-b2d2" type="distinctio">
 <head>DISTINCTIO II</head>
-
 <item id="pl-b2d2c1" type="capitulus">
 <fileName filestem="pl-b2d2c1">pl-b2d2c1.xml</fileName>
 <title>Cap. 7 (1). </title>
@@ -1337,11 +1921,28 @@ pl-b1d7c1
 <fileName filestem="pl-b2d3c3">pl-b2d3c3.xml</fileName>
 <title>Cap. 15 (3). </title>
 <questionTitle>Quae communia et aequalia habuerant angeli.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap11_21"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d3c4" type="capitulus">
 <fileName filestem="pl-b2d3c4">pl-b2d3c4.xml</fileName>
 <title>Cap. 16 (4). </title>
 <questionTitle>An boni vel mali creati sint, et an aliqua mora fuerit inter creationem et lapsum.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_44"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob40_19"/> <!-- can't find, seems wrong, dbcheck -->
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_26"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_3"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap12_9"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/sir43_37"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_44"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_13"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt13_28"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap2_24"/>
+
+</manualRDFs>
 </item>
 <item id="pl-b2d3c5" type="capitulus">
 <fileName filestem="pl-b2d3c5">pl-b2d3c5.xml</fileName>
@@ -1375,6 +1976,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d5c2">pl-b2d5c2.xml</fileName>
 <title>Cap. 21 (2). </title>
 <questionTitle>De libero arbitrio breviter tangitur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d5c3" type="capitulus">
 <fileName filestem="pl-b2d5c3">pl-b2d5c3.xml</fileName>
@@ -1390,6 +1994,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d5c5">pl-b2d5c5.xml</fileName>
 <title>Cap. 24 (5). </title>
 <questionTitle>An lapsis sit imputanda aversio.</questionTitle>
+<manualRDFs>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/rom11_6"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d5c6" type="capitulus">
 <fileName filestem="pl-b2d5c6">pl-b2d5c6.xml</fileName>
@@ -1404,21 +2011,48 @@ pl-b1d7c1
 <fileName filestem="pl-b2d6c1">pl-b2d6c1.xml</fileName>
 <title>Cap. 26 (1). </title>
 <questionTitle>Quod de maioribus et minoribus quidam ceciderunt, inter quos unus fuit celsior, scilicet Lucifer.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob40_14"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ez28_12"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ez28_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_12"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is14_14"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d6c2" type="capitulus">
 <fileName filestem="pl-b2d6c2">pl-b2d6c2.xml</fileName>
 <title>Cap. 27 (2). </title>
 <questionTitle>Unde et quo deiecti sunt.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap12_3"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap12_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph6_12"/>
+</manualRDFs>
 </item>
+
 <item id="pl-b2d6c3" type="capitulus">
 <fileName filestem="pl-b2d6c3">pl-b2d6c3.xml</fileName>
 <title>Cap. 28 (3). </title>
 <questionTitle>Quare non est eis concessum habitare in caelo vel in terra.</questionTitle>
+<manualRDFs>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/IIpetr1_19"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt25_41"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d6c4" type="capitulus">
 <fileName filestem="pl-b2d6c4">pl-b2d6c4.xml</fileName>
 <title>Cap. 29 (4). </title>
 <questionTitle>De praelationibus daemonum.</questionTitle>
+<manualRDFs>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Icor15_24"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_9"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_10"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_11"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_12"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc16_13"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt6_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d6c5" type="capitulus">
 <fileName filestem="pl-b2d6c5">pl-b2d6c5.xml</fileName>
@@ -1429,6 +2063,12 @@ pl-b1d7c1
 <fileName filestem="pl-b2d6c6">pl-b2d6c6.xml</fileName>
 <title>Cap.31 (6). </title>
 <questionTitle>De potestate Luciferi.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap20_7"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt24_24"/>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt4_1"/> <!-- mt4 1-11 -->
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ap20_3"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d6c7" type="capitulus">
 <fileName filestem="pl-b2d6c7">pl-b2d6c7.xml</fileName>
@@ -1468,6 +2108,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d7c6">pl-b2d7c6.xml</fileName>
 <title>Cap. 38 (6). </title>
 <questionTitle>Quod magicae artes virtute et scientia diaboli valent quae est ei a Deo.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex7_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d7c7" type="capitulus">
 <fileName filestem="pl-b2d7c7">pl-b2d7c7.xml</fileName>
@@ -1488,6 +2131,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d7c10">pl-b2d7c10.xml</fileName>
 <title>Cap. 42 (10). </title>
 <questionTitle>Quod angeli mali multa possunt per naturae vigorem, quae non possunt propter Dei prohibitionem.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex7_8"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d8" type="distinctio">
@@ -1507,18 +2153,29 @@ pl-b1d7c1
 <fileName filestem="pl-b2d8c3">pl-b2d8c3.xml</fileName>
 <title>Cap. 45 (3). </title>
 <questionTitle>Quod Deus in specie qua Deus est nunquam apparuit mortalibus.</questionTitle>
+<manualRDFs>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io2_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex33_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_18"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d8c4" type="capitulus">
 <fileName filestem="pl-b2d8c4">pl-b2d8c4.xml</fileName>
 <title>Cap.46 (4). </title>
 <questionTitle>Quomodo dicuntur daemones intrare in homines.</questionTitle>
+<manualRDFs>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mt8_16"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/mc1_23"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/lc4_41"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/act5_3"/>
+</manualRDFs>
 </item>
 </div>
+<!-- where i left off 10/12 p. 345 -->
 <div id="pl-b2d9" type="distinctio">
 <head>DISTINCTIO IX</head>
-
 <item id="pl-b2d9c1" type="capitulus">
-<fileName filestem="pl-b2d9c1">pl-b1d1c?.xml</fileName>
+<fileName filestem="pl-b2d9c1">pl-b2d9c1.xml</fileName>
 <title>Cap. 47 (1). </title>
 <questionTitle>De ordinum distinctione.</questionTitle>
 </item>
