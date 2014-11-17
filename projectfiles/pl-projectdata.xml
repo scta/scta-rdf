@@ -2171,7 +2171,6 @@ pl-b1d7c1
 </manualRDFs>
 </item>
 </div>
-<!-- where i left off 10/12 p. 345 -->
 <div id="pl-b2d9" type="distinctio">
 <head>DISTINCTIO IX</head>
 <item id="pl-b2d9c1" type="capitulus">
@@ -2193,6 +2192,11 @@ pl-b1d7c1
 <fileName filestem="pl-b2d9c4">pl-b2d9c4.xml</fileName>
 <title>Cap. 50 (4). </title>
 <questionTitle>Utrum hi ordines ab initio creationis distincti fuerint.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph6_12"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap11_21"/>
+
+</manualRDFs>
 </item>
 <item id="pl-b2d9c5" type="capitulus">
 <fileName filestem="pl-b2d9c5">pl-b2d9c5.xml</fileName>
@@ -2203,20 +2207,34 @@ pl-b1d7c1
 <fileName filestem="pl-b2d9c6">pl-b2d9c6.xml</fileName>
 <title>Cap. 52 (6). </title>
 <questionTitle>Quomodo dicat Scriptura decimum ordinem compleri de hominibus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph1_10"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Ipetr1_18"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d9c7" type="capitulus">
 <fileName filestem="pl-b2d9c7">pl-b2d9c7.xml</fileName>
 <title>Cap. 53 (7). </title>
 <questionTitle>Utrum homines assumantur iuxta numerum stantium vel lapsorum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut32_8"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/is54_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom4_17"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d10" type="distinctio">
 <head>DISTINCTIO X</head>
-
 <item id="pl-b2d10c1" type="capitulus">
 <fileName filestem="pl-b2d10c1">pl-b2d10c1.xml</fileName>
 <title>Cap. 54 (1). </title>
 <questionTitle>An omnes caelestes spiritus mittantur.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/dan7_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is6_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr1_14"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d10c2" type="capitulus">
 <fileName filestem="pl-b2d10c2">pl-b2d10c2.xml</fileName>
@@ -2226,16 +2244,24 @@ pl-b1d7c1
 </div>
 <div id="pl-b2d11" type="distinctio">
 <head>DISTINCTIO XI</head>
-
 <item id="pl-b2d11c1" type="capitulus">
 <fileName filestem="pl-b2d11c1">pl-b2d11c1.xml</fileName>
 <title>Cap. 56 (1). </title>
 <questionTitle>Quod singulae animae habeant angelum bonum ad custodiam, malum ad exercitium.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt18_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d11c2" type="capitulus">
 <fileName filestem="pl-b2d11c2">pl-b2d11c2.xml</fileName>
 <title>Cap. 57 (2). </title>
 <questionTitle>Utrum angeli proficiant in merito et praemio usque ad iudicium.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is63_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps23_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph3_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph3_10"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d12" type="distinctio">
@@ -2255,21 +2281,35 @@ pl-b1d7c1
 <fileName filestem="pl-b2d12c3">pl-b2d12c3.xml</fileName>
 <title>Cap. 60 (3). </title>
 <questionTitle>Quomodo per intervalla temporis res corporales conditae sint.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_2"/>
+</manualRDFs>
+
 </item>
 <item id="pl-b2d12c4" type="capitulus">
 <fileName filestem="pl-b2d12c4">pl-b2d12c4.xml</fileName>
 <title>Cap. 61 (4). </title>
 <questionTitle>Quo sensu tenebrae dicantur esse aliquid, et quo dicantur non esse aliquid.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/dan3_72"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d12c5" type="capitulus">
 <fileName filestem="pl-b2d12c5">pl-b2d12c5.xml</fileName>
 <title>Cap. 62 (5). </title>
-<questionTitle>Quare illa materia confusa sit dicta informis et ubi ad esse prodiit, et quantumcumque in altum procederit.</questionTitle>
+<questionTitle>Quare illa materia confusa sit dicta informis et ubi ad esse prodiit, et quantumcumque in altum ascenderit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io5_17"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d12c6" type="capitulus">
 <fileName filestem="pl-b2d12c6">pl-b2d12c6.xml</fileName>
 <title>Cap. 63 (6). </title>
 <questionTitle>De quatuor modis divinae operationis.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sir18_1"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d13" type="distinctio">
@@ -2279,6 +2319,10 @@ pl-b1d7c1
 <fileName filestem="pl-b2d13c1">pl-b2d13c1.xml</fileName>
 <title>Cap. 64 (1). </title>
 <questionTitle>De primo distinctionis opere.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_3"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d13c2" type="capitulus">
 <fileName filestem="pl-b2d13c2">pl-b2d13c2.xml</fileName>
@@ -2294,11 +2338,17 @@ pl-b1d7c1
 <fileName filestem="pl-b2d13c4">pl-b2d13c4.xml</fileName>
 <title>Cap. 67 (4). </title>
 <questionTitle>Quibus modis accipitur dies.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_5"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d13c5" type="capitulus">
 <fileName filestem="pl-b2d13c5">pl-b2d13c5.xml</fileName>
 <title>Cap. 68 (5).</title>
 <questionTitle>De naturali ordine computationis dierum et de illo qui pro mysterio introductus est.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph5_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d13c6" type="capitulus">
 <fileName filestem="pl-b2d13c6">pl-b2d13c6.xml</fileName>
@@ -2309,6 +2359,13 @@ pl-b1d7c1
 <fileName filestem="pl-b2d13c7">pl-b2d13c7.xml</fileName>
 <title>Cap. 70 (7). </title>
 <questionTitle>Ex quo sensu Pater dicitur operari in Filio vel per Filium, vel in Spiritu Sancto.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_24"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/heb1_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps32_6"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io5_22"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d14" type="distinctio">
@@ -2318,21 +2375,32 @@ pl-b1d7c1
 <fileName filestem="pl-b2d14c1">pl-b2d14c1.xml</fileName>
 <title>Cap. 71 (1). </title>
 <questionTitle>De opere secundae diei, qua factum est firmamentum.</questionTitle>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_7"/>
 </item>
 <item id="pl-b2d14c2" type="capitulus">
 <fileName filestem="pl-b2d14c2">pl-b2d14c2.xml</fileName>
 <title>Cap. 72 (2). </title>
 <questionTitle>Quod caelum tunc factum debet intelligi.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps103_3"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d14c3" type="capitulus">
 <fileName filestem="pl-b2d14c3">pl-b2d14c3.xml</fileName>
 <title>Cap. 73 (3). </title>
 <questionTitle>De qua materia factum sit.</questionTitle>
+<manualRDFs>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sir43_22"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d14c4" type="capitulus">
 <fileName filestem="pl-b2d14c4">pl-b2d14c4.xml</fileName>
 <title>Cap. 74 (4). </title>
 <questionTitle>Quomodo aquae possunt esse super caelum, et quales sint.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob26_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d14c5" type="capitulus">
 <fileName filestem="pl-b2d14c5">pl-b2d14c5.xml</fileName>
@@ -2343,11 +2411,18 @@ pl-b1d7c1
 <fileName filestem="pl-b2d14c6">pl-b2d14c6.xml</fileName>
 <title>Cap. 76 (6). </title>
 <questionTitle>Quare tacuit Scriptura de benedictione operis huius diei.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d14c2" type="capitulus">
 <fileName filestem="pl-b2d14c2">pl-b2d14c2.xml</fileName>
 <title>Cap. 77 (7). </title>
 <questionTitle>De opere tertii diei, quando aquae congregatae sunt in unum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d14c8" type="capitulus">
 <fileName filestem="pl-b2d14c8">pl-b2d14c8.xml</fileName>
@@ -2358,11 +2433,18 @@ pl-b1d7c1
 <fileName filestem="pl-b2d14c9">pl-b2d14c9.xml</fileName>
 <title>Cap. 79 (9). </title>
 <questionTitle>De opere quarti diei, quo facta sunt luminaria.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_14"/>
+</manualRDFs>
+
 </item>
 <item id="pl-b2d14c10" type="capitulus">
 <fileName filestem="pl-b2d14c10">pl-b2d14c10.xml</fileName>
 <title>Cap. 80 (10). </title>
 <questionTitle>Quare facta sunt luminaria.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_14"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d14c11" type="capitulus">
 <fileName filestem="pl-b2d14c11">pl-b2d14c11.xml</fileName>
@@ -2370,6 +2452,7 @@ pl-b1d7c1
 <questionTitle>Quomodo sit accipiendum illud: Sint in signa et tempora.</questionTitle>
 </item>
 </div>
+<!-- where i left off 11/8 p. 374 -->
 <div id="pl-b2d15" type="distinctio">
 <head>DISTINCTIO XV</head>
 

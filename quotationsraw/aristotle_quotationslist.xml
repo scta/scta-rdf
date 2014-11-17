@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Aristotle Quote List</title>
+            <editor>Jeffrey C. Witt</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="Aristotle_Topica_a"> <!-- location of quotation is currently unknown, lots of hits for uses by Aquinas -->
+               <quote>principia sunt quae non per alia, sed per se ipsa habent fidem</quote> <!-- need this quote from Aristoteles Latinus -->
+               <bibl type="Aristotle">
+                  <author ref="#Aristotle">Aristoteles</author>
+                  <title ref="#Topica">Topica</title>
+                  <biblScope type="librum">I</biblScope>
+                  <biblScope type="capitulus">?</biblScope>
+               </bibl>
+               <note type="citation">??</note>
+               <note type="firstIdentification">Rimini, D'Ailly</note>
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Averroes Quote List</title>
+            <editor>Jeffrey C. Witt</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="Averroes_Physics_III_a"> 
+               <quote>instructio in aliqua lege impedit cognitionem veritatis.</quote>
+               <bibl type="Lombard">
+                  <author ref="#Averroes">Averoes</author>
+                  <title ref="#Averroes_Physics">Averroes Commentary on the Physics</title>
+                  <biblScope type="librum">III</biblScope>
+                  <biblScope type="capitulus">?</biblScope>
+               </bibl>
+               <note type="citation">??</note>
+               <note type="firstIdentification">Plaoul, lectio 8</note>
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>

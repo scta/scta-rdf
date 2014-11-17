@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Dionysius Quote List</title>
+            <editor>Jeffrey C. Witt</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="deCoelestiHierarchia_a"> <!-- location of quotation is currently unknown, lots of hits for uses by Aquinas -->
+               <quote>Lex divinitatis est ultima per media reducere</quote>
+               <bibl type="Lombard">
+                  <author ref="#Dionysius">Dionysius</author>
+                  <title ref="#deCoelestiHierarchia">De angelica hierarchia</title>
+                  <biblScope type="librum">?</biblScope>
+                  <biblScope type="capitulus">?</biblScope>
+               </bibl>
+               <note type="citation">??</note>
+               <note type="firstIdentification">Gracilis, Book I, q. 15</note>
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>

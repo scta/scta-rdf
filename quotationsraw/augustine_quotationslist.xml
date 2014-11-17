@@ -27,15 +27,16 @@
                </bibl>
             </item>
             <item xml:id="AugConManFun-5_6-a"> <!-- better id is: Augustine_contraEpistulamManichaei_5_6_a -->
-               <quote type="Patristic">euangelio non crederem nisi auctoritas ecclesiae ad hoc me compelleret</quote>
+               <quote type="Patristic">Ego vero Euangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</quote>
                <!-- dbcheck source -->
                <bibl type="contraEpistulamManichaei">
                   <author ref="#Augustine">Augustine</author>
-                  <title ref="#contraEpistulamManichaei">Against the Fundamental Epistle of Manichaeus</title>
-                  <!-- Contra epistulam Manichaei quam uocant fundamenti -->
+                  <title ref="#contraEpistulamManichaei">Contra epistolam manichaei quam voant fundamenti</title>
                   <biblScope type="chapter">5</biblScope>
                   <biblScope type="number">6</biblScope>
                </bibl>
+               <note type="citation"></note>
+               <note type="firstIdentification">Plaoul, Lectio 76</note> <!-- also present in D'Ailly I, q. 1, a. 3 -->
             </item>
             <item xml:id="Augustine_DeTrinitate_13_7_10_a">
                <quote type="Patristic">securitas est maxima pars beatitudinis illorum</quote>
@@ -285,6 +286,29 @@
                </bibl>
                <note type="citation">PL 32, 669</note> <!-- db check -->
                <note type="firstIdentification">Wodeham, Ordinatio, prologue, q. 1</note> 
+            </item>
+            <item xml:id="Augustine_DeDoctrinaChristiana_3_10_a">
+               <quote type="Patristic">Caritatem voco motum animi ad fruendum Deo propter ipsum</quote> 
+               <bibl type="Augustine_DeDoctrinaChristiana">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#DeDoctrinaChristiana">De Doctrina Christiana</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">10</biblScope>
+               </bibl>
+               <note type="citation">PL 34, 72</note> <!-- db check -->
+               <note type="firstIdentification">Gracilis, B I, q. 16</note> <!-- also in Aquinas, Summa theologiae II-II, 23, 2 -->
+            </item>
+            <item xml:id="Augustine_Confessionum_13_9_10_a">
+               <quote type="Patristic">pondus meum amor meus</quote> 
+               <bibl type="Augustine_Confessionum">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Confessionum">Confessionum</title>
+                  <biblScope type="librum">13</biblScope>
+                  <biblScope type="capitulus">9</biblScope>
+                  <biblScope type="capitulus">10</biblScope>
+               </bibl>
+               <note type="citation">PL 32, 849</note>
+               <note type="firstIdentification">Gracilis, B I, q. 16</note> <!-- also in Aquinas, Summa theologiae II-II, 23, 2 -->
             </item>
             
             
