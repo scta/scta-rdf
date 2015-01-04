@@ -19,9 +19,13 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d3c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d12c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c7"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_2">
@@ -34,6 +38,7 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d12c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_3">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -45,6 +50,7 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d3c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -57,6 +63,85 @@
       <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d5c2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus</dc:title>
+      <sctap:quotation>appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus</sctap:quotation>
+      <sctap:citation>gen1_5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita</dc:title>
+      <sctap:quotation>dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita</sctap:quotation>
+      <sctap:citation>gen1_9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et protulit terra herbam virentem et adferentem semen iuxta genus suum lignumque faciens fructum et habens unumquodque sementem secundum speciem suam et vidit Deus quod esset bonum</dc:title>
+      <sctap:quotation>et protulit terra herbam virentem et adferentem semen iuxta genus suum lignumque faciens fructum et habens unumquodque sementem secundum speciem suam et vidit Deus quod esset bonum</sctap:quotation>
+      <sctap:citation>gen1_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit autem Deus fiant luminaria in firmamento caeli ut dividant diem ac noctem et sint in signa et tempora et dies et annos</dc:title>
+      <sctap:quotation>dixit autem Deus fiant luminaria in firmamento caeli ut dividant diem ac noctem et sint in signa et tempora et dies et annos</sctap:quotation>
+      <sctap:citation>gen1_14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c9"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit etiam Deus producant aquae reptile animae viventis et volatile super terram sub firmamento caeli</dc:title>
+      <sctap:quotation>dixit etiam Deus producant aquae reptile animae viventis et volatile super terram sub firmamento caeli</sctap:quotation>
+      <sctap:citation>gen1_20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit quoque Deus producat terra animam viventem in genere suo iumenta et reptilia et bestias terrae secundum species suas factumque est ita</dc:title>
+      <sctap:quotation>dixit quoque Deus producat terra animam viventem in genere suo iumenta et reptilia et bestias terrae secundum species suas factumque est ita</sctap:quotation>
+      <sctap:citation>gen1_24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_25">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et fecit Deus bestias terrae iuxta species suas et iumenta et omne reptile terrae in genere suo et vidit Deus quod esset bonum</dc:title>
+      <sctap:quotation>et fecit Deus bestias terrae iuxta species suas et iumenta et omne reptile terrae in genere suo et vidit Deus quod esset bonum</sctap:quotation>
+      <sctap:citation>gen1_25</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c5"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_26">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et ait faciamus hominem ad imaginem et similitudinem nostram et praesit piscibus maris et volatilibus caeli et bestiis universaeque terrae omnique reptili quod movetur in terra</dc:title>
@@ -67,6 +152,143 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d24c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d16c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_31">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>viditque Deus cuncta quae fecit et erant valde bona et factum est vespere et mane dies sextus</dc:title>
+      <sctap:quotation>viditque Deus cuncta quae fecit et erant valde bona et factum est vespere et mane dies sextus</sctap:quotation>
+      <sctap:citation>gen1_31</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>31</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>conplevitque Deus die septimo opus suum quod fecerat et requievit die septimo ab universo opere quod patrarat</dc:title>
+      <sctap:quotation>conplevitque Deus die septimo opus suum quod fecerat et requievit die septimo ab universo opere quod patrarat</sctap:quotation>
+      <sctap:citation>gen2_2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et benedixit diei septimo et sanctificavit illum quia in ipso cessaverat ab omni opere suo quod creavit Deus ut faceret</dc:title>
+      <sctap:quotation>et benedixit diei septimo et sanctificavit illum quia in ipso cessaverat ab omni opere suo quod creavit Deus ut faceret</sctap:quotation>
+      <sctap:citation>gen2_3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>formavit igitur Dominus Deus hominem de limo terrae et inspiravit in faciem eius spiraculum vitae et factus est homo in animam viventem</dc:title>
+      <sctap:quotation>formavit igitur Dominus Deus hominem de limo terrae et inspiravit in faciem eius spiraculum vitae et factus est homo in animam viventem</sctap:quotation>
+      <sctap:citation>gen2_7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d17c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>plantaverat autem Dominus Deus paradisum voluptatis a principio in quo posuit hominem quem formaverat</dc:title>
+      <sctap:quotation>plantaverat autem Dominus Deus paradisum voluptatis a principio in quo posuit hominem quem formaverat</sctap:quotation>
+      <sctap:citation>gen2_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d17c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>tulit ergo Dominus Deus hominem et posuit eum in paradiso voluptatis ut operaretur et custodiret illum</dc:title>
+      <sctap:quotation>tulit ergo Dominus Deus hominem et posuit eum in paradiso voluptatis ut operaretur et custodiret illum</sctap:quotation>
+      <sctap:citation>gen2_15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>appellavitque Adam nominibus suis cuncta animantia et universa volatilia caeli et omnes bestias terrae Adam vero non inveniebatur adiutor similis eius</dc:title>
+      <sctap:quotation>appellavitque Adam nominibus suis cuncta animantia et universa volatilia caeli et omnes bestias terrae Adam vero non inveniebatur adiutor similis eius</sctap:quotation>
+      <sctap:citation>gen2_20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_21">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>inmisit ergo Dominus Deus soporem in Adam cumque obdormisset tulit unam de costis eius et replevit carnem pro ea</dc:title>
+      <sctap:quotation>inmisit ergo Dominus Deus soporem in Adam cumque obdormisset tulit unam de costis eius et replevit carnem pro ea</sctap:quotation>
+      <sctap:citation>gen2_21</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d18c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et aedificavit Dominus Deus costam quam tulerat de Adam in mulierem et adduxit eam ad Adam</dc:title>
+      <sctap:quotation>et aedificavit Dominus Deus costam quam tulerat de Adam in mulierem et adduxit eam ad Adam</sctap:quotation>
+      <sctap:citation>gen2_22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d18c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quam ob rem relinquet homo patrem suum et matrem et adherebit uxori suae et erunt duo in carne una</dc:title>
+      <sctap:quotation>quam ob rem relinquet homo patrem suum et matrem et adherebit uxori suae et erunt duo in carne una</sctap:quotation>
+      <sctap:citation>gen2_24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed et serpens erat callidior cunctis animantibus terrae quae fecerat Dominus Deus qui dixit ad mulierem cur praecepit vobis Deus ut non comederetis de omni ligno paradisi</dc:title>
+      <sctap:quotation>sed et serpens erat callidior cunctis animantibus terrae quae fecerat Dominus Deus qui dixit ad mulierem cur praecepit vobis Deus ut non comederetis de omni ligno paradisi</sctap:quotation>
+      <sctap:citation>gen3_1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d21c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cui respondit mulier de fructu lignorum quae sunt in paradiso vescemur</dc:title>
+      <sctap:quotation>cui respondit mulier de fructu lignorum quae sunt in paradiso vescemur</sctap:quotation>
+      <sctap:citation>gen3_2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d21c5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_3">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -78,6 +300,62 @@
       <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit autem serpens ad mulierem nequaquam morte moriemini</dc:title>
+      <sctap:quotation>dixit autem serpens ad mulierem nequaquam morte moriemini</sctap:quotation>
+      <sctap:citation>gen3_4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scit enim Deus quod in quocumque die comederitis ex eo aperientur oculi vestri et eritis sicut dii scientes bonum et malum</dc:title>
+      <sctap:quotation>scit enim Deus quod in quocumque die comederitis ex eo aperientur oculi vestri et eritis sicut dii scientes bonum et malum</sctap:quotation>
+      <sctap:citation>gen3_5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixitque Adam mulier quam dedisti sociam mihi dedit mihi de ligno et comedi</dc:title>
+      <sctap:quotation>dixitque Adam mulier quam dedisti sociam mihi dedit mihi de ligno et comedi</sctap:quotation>
+      <sctap:citation>gen3_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et dixit Dominus Deus ad mulierem quare hoc fecisti quae respondit serpens decepit me et comedi</dc:title>
+      <sctap:quotation>et dixit Dominus Deus ad mulierem quare hoc fecisti quae respondit serpens decepit me et comedi</sctap:quotation>
+      <sctap:citation>gen3_13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>mulieri quoque dixit multiplicabo aerumnas tuas et conceptus tuos in dolore paries filios et sub viri potestate eris et ipse dominabitur tui</dc:title>
+      <sctap:quotation>mulieri quoque dixit multiplicabo aerumnas tuas et conceptus tuos in dolore paries filios et sub viri potestate eris et ipse dominabitur tui</sctap:quotation>
+      <sctap:citation>gen3_16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gen19_22">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -192,6 +470,28 @@
       <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q10"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex20_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>memento ut diem sabbati sanctifices</dc:title>
+      <sctap:quotation>memento ut diem sabbati sanctifices</sctap:quotation>
+      <sctap:citation>ex20_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>20</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex20_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non moechaberis</dc:title>
+      <sctap:quotation>non moechaberis</sctap:quotation>
+      <sctap:citation>ex20_14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>20</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ex20_23">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>non facietis mecum deos argenteos nec deos aureos facietis vobis</dc:title>
@@ -224,6 +524,17 @@
       <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio107"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lev26_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et conteram superbiam duritiae vestrae daboque caelum vobis desuper sicut ferrum et terram aeneam</dc:title>
+      <sctap:quotation>et conteram superbiam duritiae vestrae daboque caelum vobis desuper sicut ferrum et terram aeneam</sctap:quotation>
+      <sctap:citation>lev26_19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lev"/>
+      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio9"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/num11_17">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -359,6 +670,17 @@
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob26_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui ligat aquas in nubibus suis ut non erumpant pariter deorsum</dc:title>
+      <sctap:quotation>qui ligat aquas in nubibus suis ut non erumpant pariter deorsum</sctap:quotation>
+      <sctap:citation>iob26_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c4"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/iob38_15">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>auferetur ab impiis lux sua et brachium excelsum confringetur</dc:title>
@@ -470,6 +792,17 @@
       <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d45c6"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ps23_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quis est iste rex glori ?Dominus fortis et potens,Dominus potens in prlio.</dc:title>
+      <sctap:quotation>Quis est iste rex glori ?Dominus fortis et potens,Dominus potens in prlio.</sctap:quotation>
+      <sctap:citation>ps23_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ps"/>
+      <sctap:fromBiblicalChapter>23</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d11c2"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps32_6">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>Verbo Domini cli firmati sunt,et spiritu oris ejus omnis virtus eorum.</dc:title>
@@ -480,6 +813,7 @@
       <sctap:fromBiblicalChapter>32</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps33_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -491,6 +825,17 @@
       <sctap:fromBiblicalChapter>33</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ps36_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Apud Dominum gressus hominis dirigentur,et viam ejus volet.</dc:title>
+      <sctap:quotation>Apud Dominum gressus hominis dirigentur,et viam ejus volet.</sctap:quotation>
+      <sctap:citation>ps36_23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ps"/>
+      <sctap:fromBiblicalChapter>36</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps37_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -614,6 +959,17 @@
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ps68_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Multiplicati sunt super capillos capitis meiqui oderunt me gratis.Confortati sunt qui persecuti sunt meinimici mei injuste ;qu non rapui, tunc exsolvebam.</dc:title>
+      <sctap:quotation>Multiplicati sunt super capillos capitis meiqui oderunt me gratis.Confortati sunt qui persecuti sunt meinimici mei injuste ;qu non rapui, tunc exsolvebam.</sctap:quotation>
+      <sctap:citation>ps68_5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ps"/>
+      <sctap:fromBiblicalChapter>68</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps70_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>quoniam tu es patientia mea, Domine ;Domine, spes mea a juventute mea.</dc:title>
@@ -624,6 +980,17 @@
       <sctap:fromBiblicalChapter>70</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ps70_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quia dixerunt inimici mei mihi,et qui custodiebant animam meam consilium fecerunt in unum,</dc:title>
+      <sctap:quotation>Quia dixerunt inimici mei mihi,et qui custodiebant animam meam consilium fecerunt in unum,</sctap:quotation>
+      <sctap:citation>ps70_10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ps"/>
+      <sctap:fromBiblicalChapter>70</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps74_7">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -746,6 +1113,17 @@
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio97"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ps103_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui tegis aquis superiora ejus :qui ponis nubem ascensum tuum ;qui ambulas super pennas ventorum :</dc:title>
+      <sctap:quotation>qui tegis aquis superiora ejus :qui ponis nubem ascensum tuum ;qui ambulas super pennas ventorum :</sctap:quotation>
+      <sctap:citation>ps103_3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ps"/>
+      <sctap:fromBiblicalChapter>103</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c2"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps103_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>qui facis angelos tuos spiritus,et ministros tuos ignem urentem.</dc:title>
@@ -757,6 +1135,17 @@
       <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d14c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d10c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ps103_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quam magnificata sunt opera tua, Domine !omnia in sapientia fecisti ;impleta est terra possessione tua.</dc:title>
+      <sctap:quotation>Quam magnificata sunt opera tua, Domine !omnia in sapientia fecisti ;impleta est terra possessione tua.</sctap:quotation>
+      <sctap:citation>ps103_24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ps"/>
+      <sctap:fromBiblicalChapter>103</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ps103_26">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1018,6 +1407,17 @@
       <sctap:fromBiblicalVerse>30</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov16_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cor hominis disponet viam suam sed Domini est dirigere gressus eius</dc:title>
+      <sctap:quotation>cor hominis disponet viam suam sed Domini est dirigere gressus eius</sctap:quotation>
+      <sctap:citation>prov16_9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>16</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/cant1_1">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>osculetur me osculo oris sui quia meliora sunt ubera tua vino</dc:title>
@@ -1028,6 +1428,17 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio77"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/cant4_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>hortus conclusus soror mea sponsa hortus conclusus fons signatus</dc:title>
+      <sctap:quotation>hortus conclusus soror mea sponsa hortus conclusus fons signatus</sctap:quotation>
+      <sctap:citation>cant4_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/cant"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/cant7_10">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1061,6 +1472,17 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/sap2_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixerunt enim apud se cogitantes non recte exiguum et cum taedio est tempus vitae nostrae et non est refrigerium in fine hominis et non est qui agnitus sit reversus ab inferis</dc:title>
+      <sctap:quotation>dixerunt enim apud se cogitantes non recte exiguum et cum taedio est tempus vitae nostrae et non est refrigerium in fine hominis et non est qui agnitus sit reversus ab inferis</sctap:quotation>
+      <sctap:citation>sap2_1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/sap"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/sap2_21">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1176,7 +1598,19 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/sir"/>
       <sctap:fromBiblicalChapter>18</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d12c6"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/sir19_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>operarius ebriacus non locupletabitur et qui spernit modica paulatim decidet</dc:title>
+      <sctap:quotation>operarius ebriacus non locupletabitur et qui spernit modica paulatim decidet</sctap:quotation>
+      <sctap:citation>sir19_1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/sir"/>
+      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/sir23_29">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1188,6 +1622,17 @@
       <sctap:fromBiblicalChapter>23</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>29</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d38c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/sir24_31">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui elucidant me vitam aeternam habebunt</dc:title>
+      <sctap:quotation>qui elucidant me vitam aeternam habebunt</sctap:quotation>
+      <sctap:citation>sir24_31</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/sir"/>
+      <sctap:fromBiblicalChapter>24</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>31</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/sir37_23">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1210,6 +1655,17 @@
       <sctap:fromBiblicalChapter>43</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>37</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d3c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/is1_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>discite benefacere quaerite iudicium subvenite oppresso iudicate pupillo defendite viduam</dc:title>
+      <sctap:quotation>discite benefacere quaerite iudicium subvenite oppresso iudicate pupillo defendite viduam</sctap:quotation>
+      <sctap:citation>is1_17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/is"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/is5_20">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1362,6 +1818,17 @@
       <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio33"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/is57_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non enim in sempiternum litigabo neque usque ad finem irascar quia spiritus a facie mea egredietur et flatus ego faciam</dc:title>
+      <sctap:quotation>non enim in sempiternum litigabo neque usque ad finem irascar quia spiritus a facie mea egredietur et flatus ego faciam</sctap:quotation>
+      <sctap:citation>is57_16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/is"/>
+      <sctap:fromBiblicalChapter>57</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d17c2"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/is60_19">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>non erit tibi amplius sol ad lucendum per diem nec splendor lunae inluminabit te sed erit tibi Dominus in lucem sempiternam et Deus tuus in gloriam tuam</dc:title>
@@ -1394,6 +1861,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/is"/>
       <sctap:fromBiblicalChapter>63</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d11c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio77"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/is64_4">
@@ -1440,6 +1908,17 @@
       <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d15c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d37c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ez1_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et unumquodque coram facie sua ambulabat ubi erat impetus spiritus illuc gradiebantur nec revertebantur cum ambularent</dc:title>
+      <sctap:quotation>et unumquodque coram facie sua ambulabat ubi erat impetus spiritus illuc gradiebantur nec revertebantur cum ambularent</sctap:quotation>
+      <sctap:citation>ez1_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ez"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ez1_16">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1529,6 +2008,17 @@
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c5"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/zac6_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et conversus sum et levavi oculos meos et vidi et ecce quattuor quadrigae egredientes de medio duorum montium et montes montes aerei</dc:title>
+      <sctap:quotation>et conversus sum et levavi oculos meos et vidi et ecce quattuor quadrigae egredientes de medio duorum montium et montes montes aerei</sctap:quotation>
+      <sctap:citation>zac6_1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/zac"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d16c3"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mal1_2">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>dilexi vos dicit Dominus et dixistis in quo dilexisti nos nonne frater erat Esau Iacob dicit Dominus et dilexi Iacob</dc:title>
@@ -1583,6 +2073,17 @@
       <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt5_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nolite putare quoniam veni solvere legem aut prophetas non veni solvere sed adimplere</dc:title>
+      <sctap:quotation>nolite putare quoniam veni solvere legem aut prophetas non veni solvere sed adimplere</sctap:quotation>
+      <sctap:citation>mt5_17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt5_45">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1649,6 +2150,17 @@
       <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d18c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt6_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et dimitte nobis debita nostra sicut et nos dimisimus debitoribus nostris</dc:title>
+      <sctap:quotation>et dimitte nobis debita nostra sicut et nos dimisimus debitoribus nostris</sctap:quotation>
+      <sctap:citation>mt6_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt7_23">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1807,6 +2319,17 @@
       <sctap:fromBiblicalVerse>29</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d5c1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt22_30">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>in resurrectione enim neque nubent neque nubentur sed sunt sicut angeli Dei in caelo</dc:title>
+      <sctap:quotation>in resurrectione enim neque nubent neque nubentur sed sunt sicut angeli Dei in caelo</sctap:quotation>
+      <sctap:citation>mt22_30</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>22</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>30</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d20c3"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt22_37">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>ait illi Iesus diliges Dominum Deum tuum ex toto corde tuo et in tota anima tua et in tota mente tua</dc:title>
@@ -1829,6 +2352,17 @@
       <sctap:fromBiblicalVerse>38</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt22_40">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>in his duobus mandatis universa lex pendet et prophetae</dc:title>
+      <sctap:quotation>in his duobus mandatis universa lex pendet et prophetae</sctap:quotation>
+      <sctap:citation>mt22_40</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>22</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>40</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt23_37">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>Hierusalem Hierusalem quae occidis prophetas et lapidas eos qui ad te missi sunt quotiens volui congregare filios tuos quemadmodum gallina congregat pullos suos sub alas et noluisti</dc:title>
@@ -1840,6 +2374,17 @@
       <sctap:fromBiblicalVerse>37</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt24_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et quoniam abundabit iniquitas refrigescet caritas multorum</dc:title>
+      <sctap:quotation>et quoniam abundabit iniquitas refrigescet caritas multorum</sctap:quotation>
+      <sctap:citation>mt24_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>24</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt25_41">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -1909,6 +2454,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
       <sctap:fromBiblicalChapter>28</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mc14_21">
@@ -1999,6 +2545,17 @@
       <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc7_50">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit autem ad mulierem fides tua te salvam fecit vade in pace</dc:title>
+      <sctap:quotation>dixit autem ad mulierem fides tua te salvam fecit vade in pace</sctap:quotation>
+      <sctap:citation>lc7_50</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>50</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc11_2">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et ait illis cum oratis dicite Pater sanctificetur nomen tuum adveniat regnum tuum</dc:title>
@@ -2053,6 +2610,17 @@
       <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc19_30">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dicens ite in castellum quod contra est in quod introeuntes invenietis pullum asinae alligatum cui nemo umquam hominum sedit solvite illum et adducite</dc:title>
+      <sctap:quotation>dicens ite in castellum quod contra est in quod introeuntes invenietis pullum asinae alligatum cui nemo umquam hominum sedit solvite illum et adducite</sctap:quotation>
+      <sctap:citation>lc19_30</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
+      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>30</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc22_32">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -2199,6 +2767,29 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d26c7"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io4_42">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et mulieri dicebant quia iam non propter tuam loquellam credimus ipsi enim audivimus et scimus quia hic est vere salvator mundi</dc:title>
+      <sctap:quotation>et mulieri dicebant quia iam non propter tuam loquellam credimus ipsi enim audivimus et scimus quia hic est vere salvator mundi</sctap:quotation>
+      <sctap:citation>io4_42</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>42</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io5_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Iesus autem respondit eis Pater meus usque modo operatur et ego operor</dc:title>
+      <sctap:quotation>Iesus autem respondit eis Pater meus usque modo operatur et ego operor</sctap:quotation>
+      <sctap:citation>io5_17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d12c5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c7"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io5_26">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>sicut enim Pater habet vitam in semet ipso sic dedit et Filio vitam habere in semet ipso</dc:title>
@@ -2233,6 +2824,17 @@
       <sctap:fromBiblicalVerse>58</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d9c4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io6_60">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>haec dixit in synagoga docens in Capharnaum</dc:title>
+      <sctap:quotation>haec dixit in synagoga docens in Capharnaum</sctap:quotation>
+      <sctap:citation>io6_60</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>60</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io7_16">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>respondit eis Iesus et dixit mea doctrina non est mea sed eius qui misit me</dc:title>
@@ -2266,6 +2868,18 @@
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d29c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io8_36">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>si ergo Filius vos liberaverit vere liberi eritis</dc:title>
+      <sctap:quotation>si ergo Filius vos liberaverit vere liberi eritis</sctap:quotation>
+      <sctap:citation>io8_36</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>36</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io8_42">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -2313,6 +2927,17 @@
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio94"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io10_27">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>oves meae vocem meam audiunt et ego cognosco eas et sequuntur me</dc:title>
+      <sctap:quotation>oves meae vocem meam audiunt et ego cognosco eas et sequuntur me</sctap:quotation>
+      <sctap:citation>io10_27</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>27</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io10_30">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>ego et Pater unum sumus</dc:title>
@@ -2322,6 +2947,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>30</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q25"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d16c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d25c2"/>
@@ -2350,6 +2976,28 @@
       <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>50</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io13_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ante diem autem festum paschae sciens Iesus quia venit eius hora ut transeat ex hoc mundo ad Patrem cum dilexisset suos qui erant in mundo in finem dilexit eos</dc:title>
+      <sctap:quotation>ante diem autem festum paschae sciens Iesus quia venit eius hora ut transeat ex hoc mundo ad Patrem cum dilexisset suos qui erant in mundo in finem dilexit eos</sctap:quotation>
+      <sctap:citation>io13_1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io13_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non de omnibus vobis dico ego scio quos elegerim sed ut impleatur scriptura qui manducat mecum panem levavit contra me calcaneum suum</dc:title>
+      <sctap:quotation>non de omnibus vobis dico ego scio quos elegerim sed ut impleatur scriptura qui manducat mecum panem levavit contra me calcaneum suum</sctap:quotation>
+      <sctap:citation>io13_18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io14_2">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -2419,6 +3067,7 @@
       <sctap:fromBiblicalChapter>14</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q13"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio82"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io14_26">
@@ -2584,6 +3233,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d21c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io17_5">
@@ -2631,6 +3282,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d13c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d14c1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act1_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed accipietis virtutem supervenientis Spiritus Sancti in vos et eritis mihi testes in Hierusalem et in omni Iudaea et Samaria et usque ad ultimum terrae</dc:title>
+      <sctap:quotation>sed accipietis virtutem supervenientis Spiritus Sancti in vos et eritis mihi testes in Hierusalem et in omni Iudaea et Samaria et usque ad ultimum terrae</sctap:quotation>
+      <sctap:citation>act1_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act2_33">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>dextera igitur Dei exaltatus et promissione Spiritus Sancti accepta a Patre effudit hunc quem vos videtis et audistis</dc:title>
@@ -2673,6 +3335,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
       <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>39</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act10_11">
@@ -2756,6 +3419,17 @@
       <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio96"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom4_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quid enim scriptura dicit credidit Abraham Deo et reputatum est illi ad iustitiam</dc:title>
+      <sctap:quotation>quid enim scriptura dicit credidit Abraham Deo et reputatum est illi ad iustitiam</sctap:quotation>
+      <sctap:citation>rom4_3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom4_17">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>sicut scriptum est quia patrem multarum gentium posui te ante Deum cui credidit qui vivificat mortuos et vocat quae non sunt tamquam ea quae sunt</dc:title>
@@ -2783,6 +3457,83 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c6"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d41c2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>propterea sicut per unum hominem in hunc mundum peccatum intravit et per peccatum mors et ita in omnes homines mors pertransiit in quo omnes peccaverunt</dc:title>
+      <sctap:quotation>propterea sicut per unum hominem in hunc mundum peccatum intravit et per peccatum mors et ita in omnes homines mors pertransiit in quo omnes peccaverunt</sctap:quotation>
+      <sctap:citation>rom5_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed regnavit mors ab Adam usque ad Mosen etiam in eos qui non peccaverunt in similitudinem praevaricationis Adae qui est forma futuri</dc:title>
+      <sctap:quotation>sed regnavit mors ab Adam usque ad Mosen etiam in eos qui non peccaverunt in similitudinem praevaricationis Adae qui est forma futuri</sctap:quotation>
+      <sctap:citation>rom5_14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom6_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed neque exhibeatis membra vestra arma iniquitatis peccato sed exhibete vos Deo tamquam ex mortuis viventes et membra vestra arma iustitiae Deo</dc:title>
+      <sctap:quotation>sed neque exhibeatis membra vestra arma iniquitatis peccato sed exhibete vos Deo tamquam ex mortuis viventes et membra vestra arma iustitiae Deo</sctap:quotation>
+      <sctap:citation>rom6_13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom6_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>liberati autem a peccato servi facti estis iustitiae</dc:title>
+      <sctap:quotation>liberati autem a peccato servi facti estis iustitiae</sctap:quotation>
+      <sctap:citation>rom6_18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom6_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cum enim servi essetis peccati liberi fuistis iustitiae</dc:title>
+      <sctap:quotation>cum enim servi essetis peccati liberi fuistis iustitiae</sctap:quotation>
+      <sctap:citation>rom6_20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom7_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nunc autem iam non ego operor illud sed quod habitat in me peccatum</dc:title>
+      <sctap:quotation>nunc autem iam non ego operor illud sed quod habitat in me peccatum</sctap:quotation>
+      <sctap:citation>rom7_17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom7_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scio enim quia non habitat in me hoc est in carne mea bonum nam velle adiacet mihi perficere autem bonum non invenio</dc:title>
+      <sctap:quotation>scio enim quia non habitat in me hoc est in carne mea bonum nam velle adiacet mihi perficere autem bonum non invenio</sctap:quotation>
+      <sctap:citation>rom7_18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c9"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_9">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>vos autem in carne non estis sed in Spiritu si tamen Spiritus Dei habitat in vobis si quis autem Spiritum Christi non habet hic non est eius</dc:title>
@@ -2805,6 +3556,8 @@
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d34c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -2819,6 +3572,28 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d11c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d34c1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quicumque enim Spiritu Dei aguntur hii filii sunt Dei</dc:title>
+      <sctap:quotation>quicumque enim Spiritu Dei aguntur hii filii sunt Dei</sctap:quotation>
+      <sctap:citation>rom8_14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ipse Spiritus testimonium reddit spiritui nostro quod sumus filii Dei</dc:title>
+      <sctap:quotation>ipse Spiritus testimonium reddit spiritui nostro quod sumus filii Dei</sctap:quotation>
+      <sctap:citation>rom8_16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_18">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>existimo enim quod non sunt condignae passiones huius temporis ad futuram gloriam quae revelabitur in nobis</dc:title>
@@ -2829,6 +3604,28 @@
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio83"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_21">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia et ipsa creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum Dei</dc:title>
+      <sctap:quotation>quia et ipsa creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum Dei</sctap:quotation>
+      <sctap:citation>rom8_21</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_26">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>similiter autem et Spiritus adiuvat infirmitatem nostram nam quid oremus sicut oportet nescimus sed ipse Spiritus postulat pro nobis gemitibus inenarrabilibus</dc:title>
+      <sctap:quotation>similiter autem et Spiritus adiuvat infirmitatem nostram nam quid oremus sicut oportet nescimus sed ipse Spiritus postulat pro nobis gemitibus inenarrabilibus</sctap:quotation>
+      <sctap:citation>rom8_26</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_28">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -2886,6 +3683,18 @@
       <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d41c2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>igitur non volentis neque currentis sed miserentis Dei</dc:title>
+      <sctap:quotation>igitur non volentis neque currentis sed miserentis Dei</sctap:quotation>
+      <sctap:citation>rom9_16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c9"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_18">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>ergo cuius vult miseretur et quem vult indurat</dc:title>
@@ -2935,6 +3744,17 @@
       <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio43"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom10_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed non omnes oboedierunt evangelio Esaias enim dicit Domine quis credidit auditui nostro</dc:title>
+      <sctap:quotation>sed non omnes oboedierunt evangelio Esaias enim dicit Domine quis credidit auditui nostro</sctap:quotation>
+      <sctap:citation>rom10_16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom11_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -2999,6 +3819,28 @@
       <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d45c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom12_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dico enim per gratiam quae data est mihi omnibus qui sunt inter vos non plus sapere quam oportet sapere sed sapere ad sobrietatem unicuique sicut Deus divisit mensuram fidei</dc:title>
+      <sctap:quotation>dico enim per gratiam quae data est mihi omnibus qui sunt inter vos non plus sapere quam oportet sapere sed sapere ad sobrietatem unicuique sicut Deus divisit mensuram fidei</sctap:quotation>
+      <sctap:citation>rom12_3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom13_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dilectio proximo malum non operatur plenitudo ergo legis est dilectio</dc:title>
+      <sctap:quotation>dilectio proximo malum non operatur plenitudo ergo legis est dilectio</sctap:quotation>
+      <sctap:citation>rom13_10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom15_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3078,6 +3920,7 @@
       <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d18c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_12">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3178,6 +4021,7 @@
       <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d39c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor10_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3213,6 +4057,18 @@
       <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>31</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio43"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor11_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>vir quidem non debet velare caput quoniam imago et gloria est Dei mulier autem gloria viri est</dc:title>
+      <sctap:quotation>vir quidem non debet velare caput quoniam imago et gloria est Dei mulier autem gloria viri est</sctap:quotation>
+      <sctap:citation>Icor11_7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d16c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor11_28">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3292,6 +4148,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio13"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_4">
@@ -3347,9 +4204,13 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q22"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d19c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_13">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3373,6 +4234,8 @@
       <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_33">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3385,6 +4248,39 @@
       <sctap:fromBiblicalVerse>33</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b11d1c2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_44">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>seminatur corpus animale surgit corpus spiritale si est corpus animale est et spiritale sic et scriptum est</dc:title>
+      <sctap:quotation>seminatur corpus animale surgit corpus spiritale si est corpus animale est et spiritale sic et scriptum est</sctap:quotation>
+      <sctap:citation>Icor15_44</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>44</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_45">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>factus est primus homo Adam in animam viventem novissimus Adam in spiritum vivificantem</dc:title>
+      <sctap:quotation>factus est primus homo Adam in animam viventem novissimus Adam in spiritum vivificantem</sctap:quotation>
+      <sctap:citation>Icor15_45</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>45</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_46">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed non prius quod spiritale est sed quod animale est deinde quod spiritale</dc:title>
+      <sctap:quotation>sed non prius quod spiritale est sed quod animale est deinde quod spiritale</sctap:quotation>
+      <sctap:citation>Icor15_46</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>46</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d20c6"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor3_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>non quod sufficientes simus cogitare aliquid a nobis quasi ex nobis sed sufficientia nostra ex Deo est</dc:title>
@@ -3396,6 +4292,17 @@
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio19"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio100"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor3_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Dominus autem Spiritus est ubi autem Spiritus Domini ibi libertas</dc:title>
+      <sctap:quotation>Dominus autem Spiritus est ubi autem Spiritus Domini ibi libertas</sctap:quotation>
+      <sctap:citation>IIcor3_17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor4_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3518,6 +4425,17 @@
       <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gal3_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quoniam autem in lege nemo iustificatur apud Deum manifestum est quia iustus ex fide vivit</dc:title>
+      <sctap:quotation>quoniam autem in lege nemo iustificatur apud Deum manifestum est quia iustus ex fide vivit</sctap:quotation>
+      <sctap:citation>gal3_11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gal"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/gal4_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>at ubi venit plenitudo temporis misit Deus Filium suum factum ex muliere factum sub lege</dc:title>
@@ -3601,6 +4519,40 @@
       <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d1c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/eph2_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ipsius enim sumus factura creati in Christo Iesu in operibus bonis quae praeparavit Deus ut in illis ambulemus</dc:title>
+      <sctap:quotation>ipsius enim sumus factura creati in Christo Iesu in operibus bonis quae praeparavit Deus ut in illis ambulemus</sctap:quotation>
+      <sctap:citation>eph2_10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/eph"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/eph3_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et inluminare omnes quae sit dispensatio sacramenti absconditi a saeculis in Deo qui omnia creavit</dc:title>
+      <sctap:quotation>et inluminare omnes quae sit dispensatio sacramenti absconditi a saeculis in Deo qui omnia creavit</sctap:quotation>
+      <sctap:citation>eph3_9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/eph"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d11c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/eph3_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ut innotescat principibus et potestatibus in caelestibus per ecclesiam multiformis sapientia Dei</dc:title>
+      <sctap:quotation>ut innotescat principibus et potestatibus in caelestibus per ecclesiam multiformis sapientia Dei</sctap:quotation>
+      <sctap:citation>eph3_10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/eph"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d11c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/eph4_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3636,6 +4588,17 @@
       <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/eph5_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>eratis enim aliquando tenebrae nunc autem lux in Domino ut filii lucis ambulate</dc:title>
+      <sctap:quotation>eratis enim aliquando tenebrae nunc autem lux in Domino ut filii lucis ambulate</sctap:quotation>
+      <sctap:citation>eph5_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/eph"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d13c5"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/eph6_12">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>quia non est nobis conluctatio adversus carnem et sanguinem sed adversus principes et potestates adversus mundi rectores tenebrarum harum contra spiritalia nequitiae in caelestibus</dc:title>
@@ -3669,6 +4632,7 @@
       <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d15c14"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/phil2_7">
@@ -3693,6 +4657,17 @@
       <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b11d1c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/phil2_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Deus est enim qui operatur in vobis et velle et perficere pro bona voluntate</dc:title>
+      <sctap:quotation>Deus est enim qui operatur in vobis et velle et perficere pro bona voluntate</sctap:quotation>
+      <sctap:citation>phil2_13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/phil"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c9"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/phil4_6">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -3834,6 +4809,18 @@
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c5"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim2_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et Adam non est seductus mulier autem seducta in praevaricatione fuit</dc:title>
+      <sctap:quotation>et Adam non est seductus mulier autem seducta in praevaricatione fuit</sctap:quotation>
+      <sctap:citation>Itim2_14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c3"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim4_16">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>adtende tibi et doctrinae insta in illis hoc enim faciens et te ipsum salvum facies et qui te audiunt</dc:title>
@@ -3925,6 +4912,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hebr"/>
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q24"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio68"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr1_14">
@@ -3961,6 +4949,17 @@
       <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr4_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>vivus est enim Dei sermo et efficax et penetrabilior omni gladio ancipiti et pertingens usque ad divisionem animae ac spiritus conpagum quoque et medullarum et discretor cogitationum et intentionum cordis</dc:title>
+      <sctap:quotation>vivus est enim Dei sermo et efficax et penetrabilior omni gladio ancipiti et pertingens usque ad divisionem animae ac spiritus conpagum quoque et medullarum et discretor cogitationum et intentionum cordis</sctap:quotation>
+      <sctap:citation>hebr4_12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hebr"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr4_13">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et non est ulla creatura invisibilis in conspectu eius omnia autem nuda et aperta sunt oculis eius ad quem nobis sermo</dc:title>
@@ -3970,6 +4969,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hebr"/>
       <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio23"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr11_1">
@@ -3994,18 +4994,31 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hebr"/>
       <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio19"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr11_13">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr11_33">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>iuxta fidem defuncti sunt omnes isti non acceptis repromissionibus sed a longe eas aspicientes et salutantes et confitentes quia peregrini et hospites sunt supra terram</dc:title>
-      <sctap:quotation>iuxta fidem defuncti sunt omnes isti non acceptis repromissionibus sed a longe eas aspicientes et salutantes et confitentes quia peregrini et hospites sunt supra terram</sctap:quotation>
-      <sctap:citation>hebr11_13</sctap:citation>
+      <dc:title>qui per fidem devicerunt regna operati sunt iustitiam adepti sunt repromissiones obturaverunt ora leonum</dc:title>
+      <sctap:quotation>qui per fidem devicerunt regna operati sunt iustitiam adepti sunt repromissiones obturaverunt ora leonum</sctap:quotation>
+      <sctap:citation>hebr11_33</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hebr"/>
       <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:fromBiblicalVerse>33</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hebr13_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>honorabile conubium in omnibus et torus inmaculatus fornicatores enim et adulteros iudicabit Deus</dc:title>
+      <sctap:quotation>honorabile conubium in omnibus et torus inmaculatus fornicatores enim et adulteros iudicabit Deus</sctap:quotation>
+      <sctap:citation>hebr13_4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hebr"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d20c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/iac1_17">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -4020,6 +5033,50 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d35c9"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio51"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iac2_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quicumque autem totam legem servaverit offendat autem in uno factus est omnium reus</dc:title>
+      <sctap:quotation>quicumque autem totam legem servaverit offendat autem in uno factus est omnium reus</sctap:quotation>
+      <sctap:citation>iac2_10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iac"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iac2_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sic et fides si non habeat opera mortua est in semet ipsam</dc:title>
+      <sctap:quotation>sic et fides si non habeat opera mortua est in semet ipsam</sctap:quotation>
+      <sctap:citation>iac2_17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iac"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iac2_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>tu credis quoniam unus est Deus bene facis et daemones credunt et contremescunt</dc:title>
+      <sctap:quotation>tu credis quoniam unus est Deus bene facis et daemones credunt et contremescunt</sctap:quotation>
+      <sctap:citation>iac2_19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iac"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Ipetr3_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Dominum autem Christum sanctificate in cordibus vestris parati semper ad satisfactionem omni poscenti vos rationem de ea quae in vobis est spe</dc:title>
+      <sctap:quotation>Dominum autem Christum sanctificate in cordibus vestris parati semper ad satisfactionem omni poscenti vos rationem de ea quae in vobis est spe</sctap:quotation>
+      <sctap:citation>Ipetr3_15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Ipetr"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Ipetr5_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -4042,6 +5099,17 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/IIpetr2_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>libertatem illis promittentes cum ipsi servi sint corruptionis a quo enim quis superatus est huius et servus est</dc:title>
+      <sctap:quotation>libertatem illis promittentes cum ipsi servi sint corruptionis a quo enim quis superatus est huius et servus est</sctap:quotation>
+      <sctap:citation>IIpetr2_19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIpetr"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio2_10">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -4170,6 +5238,17 @@
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio5_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quoniam omne quod natum est ex Deo vincit mundum et haec est victoria quae vincit mundum fides nostra</dc:title>
+      <sctap:quotation>quoniam omne quod natum est ex Deo vincit mundum et haec est victoria quae vincit mundum fides nostra</sctap:quotation>
+      <sctap:citation>Iio5_4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Iio"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio13"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio5_7">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>quia tres sunt qui testimonium dant</dc:title>
@@ -4230,6 +5309,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio47"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio49"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio112"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ap4_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et quattuor animalia singula eorum habebant alas senas et in circuitu et intus plena sunt oculis et requiem non habent die et nocte dicentia sanctus sanctus sanctus Dominus Deus omnipotens qui erat et qui est et qui venturus est</dc:title>
+      <sctap:quotation>et quattuor animalia singula eorum habebant alas senas et in circuitu et intus plena sunt oculis et requiem non habent die et nocte dicentia sanctus sanctus sanctus Dominus Deus omnipotens qui erat et qui est et qui venturus est</sctap:quotation>
+      <sctap:citation>ap4_8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ap"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/ap12_3">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

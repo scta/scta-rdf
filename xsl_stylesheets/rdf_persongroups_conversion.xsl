@@ -20,22 +20,22 @@
         </rdf:RDF>
     </xsl:template>
     
-    <xsl:template match="tei:person">         
+    <xsl:template match="tei:personGrp">         
         <xsl:variable name="id"><xsl:value-of select="./@xml:id"/></xsl:variable>
-        
-        <xsl:variable name="person-type"><xsl:value-of select="./parent::tei:listPerson/@type"/></xsl:variable>
+        <!-- ideally this would be resource/persongroup; but righ tnow the projectfile extraction doesn't have a way of separating names and groups names -->
             <rdf:Description rdf:about="http://scta.info/resource/person/{$id}">
-                <rdf:type rdf:resource="http://scta.info/resource/person"/>
-                <dc:title><xsl:value-of select="./tei:persName[@xml:lang='en']"></xsl:value-of></dc:title>
-                <sctar:type rdf:resource="http://scta.info/resource/persontype/{$person-type}"/>
+                <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+                <dc:title><xsl:value-of select="./tei:persName"></xsl:value-of></dc:title>
+                <!--<xsl:variable name="persongroup-type"><xsl:value-of select="./parent::tei:listPerson/@type"/></xsl:variable> -->
+                <!--<sctar:type rdf:resource="http://scta.info/resource/persongrouptype/{$person-type}"/>-->
                 <xsl:if test="./tei:note[@type='dbpedia-url']">
                     <xsl:variable name="dbpedia-url"><xsl:value-of select="./tei:note[@type='dbpedia-url']"/></xsl:variable>
                     <owl:sameAs rdf:resource="{$dbpedia-url}"/>
                 </xsl:if>
-                <xsl:for-each select="document($workscitedrdf)//sctap:workAuthor[@rdf:resource=concat('http://scta.info/resources/person/', $id)]">
+                <!-- <xsl:for-each select="document($workscitedrdf)//sctap:workAuthor[@rdf:resource=concat('http://scta.info/resources/person/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasWork rdf:resource="{$itemid}"/>
-                </xsl:for-each>
+                </xsl:for-each> -->
                 <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:mentions[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:mentionedBy rdf:resource="{$itemid}"/>
@@ -44,5 +44,5 @@
                 </rdf:Description>
     </xsl:template>
     
-    <xsl:template match="tei:teiHeader | tei:note | tei:personGrp"/>
+    <xsl:template match="tei:teiHeader | tei:note"/>
 </xsl:stylesheet>

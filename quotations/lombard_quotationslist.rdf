@@ -103,4 +103,16 @@
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b1d30c1-a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et appellatio, qua creatura relative dicitur ad Creatorem, relativa est et relationem notat, quae est in ipsa creatura. Appellatio vero illa, qua Creator relative dicitur ad creaturam, relativa quidem est, sed nullam notat relationem, quae sit in Creatore</dc:title>
+      <sctap:quotation>et appellatio, qua creatura relative dicitur ad Creatorem, relativa est et relationem notat, quae est in ipsa creatura. Appellatio vero illa, qua Creator relative dicitur ad creaturam, relativa quidem est, sed nullam notat relationem, quae sit in Creatore</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Sententia"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:citation>Lombardus, I, d. 30, c. 1 (I:189)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q25"/>
+   </rdf:Description>
 </rdf:RDF>

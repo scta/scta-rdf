@@ -120,4 +120,27 @@
       <sctap:fromChapter>14</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_1_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sicut rectus ordo exigit ut profunda Christianae fidei prius credamus, quam ea praesumamus ratione discutere, ita negligentia mihi videtur, si, postquam confirmati sumus in fide, non studemus quod credimus intelligere.</dc:title>
+      <sctap:quotation>Sicut rectus ordo exigit ut profunda Christianae fidei prius credamus, quam ea praesumamus ratione discutere, ita negligentia mihi videtur, si, postquam confirmati sumus in fide, non studemus quod credimus intelligere.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:citation>Anselmus, Cur Deus Homo, I, c. 1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_2_17_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Omnis quippe necessitas et impossibilitas eius subiacet voluntati; illius autem voluntas nulli subditur necessitati aut impossibilitati.</dc:title>
+      <sctap:quotation>Omnis quippe necessitas et impossibilitas eius subiacet voluntati; illius autem voluntas nulli subditur necessitati aut impossibilitati.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:citation>Anselmus, Cur Deus Homo, II, c. 17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:fromChapter>17</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+   </rdf:Description>
 </rdf:RDF>

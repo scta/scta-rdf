@@ -152,6 +152,21 @@
    </rdf:Description>
                         
                     
+                    <rdf:Description rdf:about="http://scta.info/resource/subject/dictio">
+      <rdf:type rdf:resource="http://scta.info/resource/subject"/>
+      <dc:title>dictio</dc:title>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/subject/dictio_exlusiva"/>
+   </rdf:Description>
+                        
+                        <rdf:Description rdf:about="http://scta.info/resource/subject/dictio_exlusiva">
+      <rdf:type rdf:resource="http://scta.info/resource/subject"/>
+      <dc:title>dictio exclusiva</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/subject/dictio"/>
+   </rdf:Description>
+                            
+                            
+                        
+                    
                     <rdf:Description rdf:about="http://scta.info/resource/subject/ecclesia">
       <rdf:type rdf:resource="http://scta.info/resource/subject"/>
       <dc:title>ecclesia</dc:title>

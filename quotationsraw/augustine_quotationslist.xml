@@ -26,16 +26,28 @@
                   <biblScope type="chapter">1</biblScope>
                </bibl>
             </item>
-            <item xml:id="AugConManFun-5_6-a"> <!-- better id is: Augustine_contraEpistulamManichaei_5_6_a -->
+            <item xml:id="Augustine_deTrinitate_14_1_3_b"> <!-- same quote as AugDeTrin14_1-a, but expanded -->
+               <quote type="Patristic">"sed illud tantummodo quo fides saluberrima, quae ad veram beatitudinem ducit, gignitur, nutritur, defenditur, roboratur: qua scientia non pollent fideles plurimi, quamvis polleant ipsa fide plurimum.”</quote>
+               <bibl type="deTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#deTrinitate">de Trinitate</title>
+                  <biblScope type="librum">14</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+               </bibl>
+               <note type="citation">S. Augustinus, De Trinit., XIV, c. l , n. 3 (PL 42, 1037; CCSL 50A, 424)</note>
+               <note type="firstIdentification">Wodeham, Prologue question 1</note>
+            </item>
+            <item xml:id="Augustine_ContraEpistulamManichaei_5_6_a"> <!-- better id is: Augustine_contraEpistulamManichaei_5_6_a -->
                <quote type="Patristic">Ego vero Euangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</quote>
                <!-- dbcheck source -->
                <bibl type="contraEpistulamManichaei">
                   <author ref="#Augustine">Augustine</author>
-                  <title ref="#contraEpistulamManichaei">Contra epistolam manichaei quam voant fundamenti</title>
+                  <title ref="#contraEpistulamManichaei">Contra epistolam manichaei quam vocant fundamenti</title>
                   <biblScope type="chapter">5</biblScope>
                   <biblScope type="number">6</biblScope>
                </bibl>
-               <note type="citation"></note>
+               <note type="citation">PL 42:</note>
                <note type="firstIdentification">Plaoul, Lectio 76</note> <!-- also present in D'Ailly I, q. 1, a. 3 -->
             </item>
             <item xml:id="Augustine_DeTrinitate_13_7_10_a">
@@ -310,11 +322,247 @@
                <note type="citation">PL 32, 849</note>
                <note type="firstIdentification">Gracilis, B I, q. 16</note> <!-- also in Aquinas, Summa theologiae II-II, 23, 2 -->
             </item>
+            <item xml:id="Augustine_DeTrinitate_15_17_29_a">
+               <quote type="Patristic">Et tamen non frustra in hac trinitate non dicitur verbum dei nisi filius, nec donum dei nisi spiritus sanctus, nec e quo genitum est verbum et de quo procedit principaliter spiritus sanctus nisi deus pater. Ideo autem addendi, principaliter, quia et de filio spiritus sanctus procedere reperitur</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">15</biblScope>
+                  <biblScope type="capitulus">17</biblScope>
+                  <biblScope type="capitulus">29</biblScope>
+               </bibl>
+               <note type="citation">??, p. 503 (ll. 54-58)</note>
+               <note type="firstIdentification">Gracilis, Book I, q. 19</note> <!-- referenced or alluded to in Matthew of Aquasparta Book I, d. 11, q. 4 see 840 of Festschrift for Stephen Brown -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_5_11_12_a">
+               <quote type="Patristic">Sed ipsa relatio non apparet in hoc nomine; apparet autem cum dicitur donum Dei. Donum enim est Patris et Filii, qui et a Patre procedit</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="capitulus">11</biblScope>
+                  <biblScope type="capitulus">12</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, Book I, q. 19</note> <!-- also quote by Bonaventure, Book I, d. 26, c. 5 -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_6_10_11_a">
+               <quote type="Patristic">hoc esse est unum omnia tamquam Verbum perfectum, cui non desit aliquid et ars quaedam omnipotentis atque sapientis Dei plena omnium rationum viventium incommutabilium, et omnes unum in ea sicut ipsa unum de uno cum quo unum.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">6</biblScope>
+                  <biblScope type="capitulus">10</biblScope>
+                  <biblScope type="capitulus">11</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, Book I, q. 19</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_15_19_34_a">
+               <quote type="Patristic">quia per donum, quod est Spiritus Sanctus, in commune omnibus membris Christi multa dona, quae sunt quibusque propria, dividuntur.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">15</biblScope>
+                  <biblScope type="capitulus">19</biblScope>
+                  <biblScope type="capitulus">34</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, Book I, q. 19</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_3_9_18_a">
+               <quote type="Patristic">Sed non est creator, nisi qui principaliter ista format, nec quisquam hoc potest nisi ille penes quem primitus sunt omnium quae sunt mensurae, numeri et pondera</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="capitulus">19</biblScope>
+                  <biblScope type="capitulus">18</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Plaoul, Lectio 59</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_14_15_21_a">
+               <quote type="Patristic">Ubinam sunt istae regulae scriptae, ubi quid sit iustum et iniustus agnoscit, ubi cernit habendum esse quod ipse non habet? Ubi ergo scriptae sunt, nisi in libro lucis illius quae veritas dicitur?</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">14</biblScope>
+                  <biblScope type="capitulus">15</biblScope>
+                  <biblScope type="capitulus">21</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Plaoul, Lectio 59</note>
+            </item>
+            <item xml:id="Augustine_ContraIulianum_4_3_33_a">
+               <quote type="Patristic">Sine hoc amore Creatoris, nullis quisquam bene utitur creaturis.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_ContraIulianum">Contra Iulianum</title>
+                  <biblScope type="librum">4</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+                  <biblScope type="capitulus">33</biblScope>
+               </bibl>
+               <note type="citation">(PL 44)</note>
+               <note type="firstIdentification">Gracilis, Lectio 19</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_8_3_5_a">
+               <quote type="Patristic">Pudeat autem cum alia non amentur nisi quia bona sunt, eis inhaerendo non amore bonum ipsum unde bona sunt.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">8</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+                  <biblScope type="capitulus">5</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, Book 1, q. 19</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_1_1_1_a">
+               <quote type="Patristic">Nulla enim omnino res est quae se ipsam gignat ut sit.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Plaoul, Lectio 30</note>
+            </item>
+            <item xml:id="Augustine_Sermo351_2_2_a">
+               <quote type="Patristic">omnis qui suae voluntatis arbiter constitutus est cum ad sacramentum accedit fidelium nisi poeniteat eum veteris vitae vetustas novam poterit inchoare</quote> 
+               <bibl type="Augustine_Sermo351">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_Sermo351">Sermo 351</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">(PL 39, 1537)</note>
+               <note type="firstIdentification">Wodeham Book 4, q. 3</note> <!-- also in in Lombard book 4, dist 4, c. 2 p. 763 in 1917 edition -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_5_1_2_a">
+               <quote type="Patristic">Quod ergo non invenimus in meliore nostro, non debemus in illo quaerere, quod longe melius est meliore nostro; ut sic intellegamus Deum, si possumus, quantum possumus, sine qualitate bonum, sine quantitate magnum, sine indigentia creatorem, sine situ praesentem, sine habitu omnia continentem, sine loco ubique totum 3, sine tempore sempiternum, sine ulla sui mutatione mutabilia facientem, nihilque patientem.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 21</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_5_3_4_a">
+               <quote type="Patristic">Quaerimus secundum quid aequalis.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 21</note> <!-- note that gracilis seems to say that this is in c. 7 -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_5_10_11_a">
+               <quote type="Patristic">Sicut ergo non dicimus tres essentias, ita non dicimus tres magnitudines neque tres magnos.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="capitulus">10</biblScope>
+                  <biblScope type="capitulus">11</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 21</note> <!-- note that gracilis seems to say that this is in c. 7 -->
+            </item>
+            <item xml:id="Augustine_DeTrinitate_7_1_2_a">
+               <quote type="Patristic">Huc accedit quia omnis essentia quae relative dicitur est etiam aliquid excepto relativo, sicut homo dominus et homo servus et equus iumentum et nummus arra; homo et equus et nummus ad se dicuntur et substantiae sunt vel essentiae; dominus vero et servus et iumentum et arra ad aliquid relative dicuntur.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">7</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 23</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_7_2_3_a">
+               <quote type="Patristic">Et propterea non eo Verbum quo sapientia, quia Verbum non ad se dicitur, sed tantum relative ad eum cuius Verbum est, sicut Filius ad Patrem; sapientia vero eo quo essentia.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">7</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 23</note>
+            </item>
+            <item xml:id="Augustine_Confessions_10_29_40_a">
+               <quote type="Patristic">Minus enim te amat qui tecum aliquid amat, quod non propter te amat.</quote> 
+               <bibl type="Augustine_Confessions">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_Confessions">Confessionum</title>
+                  <biblScope type="librum">10</biblScope>
+                  <biblScope type="capitulus">29</biblScope>
+                  <biblScope type="capitulus">40</biblScope>
+               </bibl>
+               <note type="citation">Confessionum, X, 29, 40 (PL 32)</note>
+               <note type="firstIdentification">Gracilis, I, q. 26</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_15_13_22_a">
+               <quote type="Patristic">Quia ergo scivit, creavit; non quia creavit, scivit. Nec aliter ea scivit creata, quam creanda.</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">15</biblScope>
+                  <biblScope type="capitulus">13</biblScope>
+                  <biblScope type="capitulus">22</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 27</note>
+            </item>
+            <item xml:id="Augustine_DeTrinitate_15_13_22_b">
+               <quote type="Patristic">Quia in illius naturae simplicitate mirabili, non est aliud sapere, aliud esse;</quote> 
+               <bibl type="Augustine_DeTrinitate">
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_DeTrinitate">De Trinitate</title>
+                  <biblScope type="librum">15</biblScope>
+                  <biblScope type="capitulus">13</biblScope>
+                  <biblScope type="capitulus">22</biblScope>
+               </bibl>
+               <note type="citation">(PL 42)</note>
+               <note type="firstIdentification">Gracilis, I, q. 27</note>
+            </item>
             
+            <item xml:id="Augustine_onGenesis_4_6_12_a">
+               <quote type="Patristic">Neque enim extra seipsum, sicut cernimus oculis corpora; quae utique nondum erant, cum disponerentur ut fierent.</quote> 
+               <bibl type="Augustine_onGenesis"> 
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_onGenesis">De Genesi ad litteram libri duodecim</title> <!-- need to change this idea to better id throughout -->
+                  <biblScope type="librum">4</biblScope>
+                  <biblScope type="capitulus">6</biblScope>
+                  <biblScope type="capitulus">12</biblScope>
+               </bibl>
+               <note type="citation">(PL 34)</note>
+               <note type="firstIdentification">Gracilis, I, q. 27</note>
+            </item>
             
-            
-            
-            
+            <item xml:id="Augustine_onGenesis_4_6_12_b">
+               <quote type="Patristic">Quo modo ergo ista cernebat, ut ita disponeret? Quo, nisi eo quo solus potest?</quote> 
+               <bibl type="Augustine_onGenesis"> 
+                  <author ref="#Augustine">Augustine</author>
+                  <title ref="#Augustine_onGenesis">De Genesi ad litteram libri duodecim</title> <!-- need to change this idea to better id throughout -->
+                  <biblScope type="librum">4</biblScope>
+                  <biblScope type="capitulus">6</biblScope>
+                  <biblScope type="capitulus">12</biblScope>
+               </bibl>
+               <note type="citation">(PL 34)</note>
+               <note type="firstIdentification">Gracilis, I, q. 27</note>
+            </item>
          </list>
       </body>
   </text>

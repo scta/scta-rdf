@@ -9,7 +9,7 @@
     <xsl:param name="textfilesdir"><xsl:value-of select="//header/textfilesdir"/></xsl:param>
     <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
     
-    <xsl:output method="xml"/>
+    <xsl:output method="xml" indent="yes"/>
    
    <xsl:template match="/">
        <xsl:apply-templates></xsl:apply-templates>
@@ -70,7 +70,10 @@
                 <dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
                 <rdf:type rdf:resource="http://scta.info/resource/librum"/>
                 <dcterms:isPartOf rdf:resource="{$parent-uri}"/>
-                
+                    <xsl:variable name="totalnumber"><xsl:number count="div[@type='librum']" level="any"/></xsl:variable>
+                    <xsl:variable name="sectionnumber"><xsl:number count="div[@type='librum']"/></xsl:variable>
+                    <sctap:sectionOrderNumber><xsl:value-of select="$sectionnumber"/></sctap:sectionOrderNumber>
+                    <sctap:totalOrderNumber><xsl:value-of select="$totalnumber"/></sctap:totalOrderNumber>
                 <xsl:choose>
                     <xsl:when test=".//div[@type='distinctio']">
                     <xsl:for-each select=".//div[@type='distinctio']">
@@ -100,7 +103,13 @@
                     <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
                     <!--<dcterms:isPartOf rdf:resource="{$parent-uri}"/>-->
                     <dcterms:isPartOf rdf:resource="http://scta.info/text/{$cid}/librum/{$bookParent}"/>
-                    <xsl:for-each select=".//item">
+                    
+                    <xsl:variable name="totalnumber"><xsl:number count="div[@type='distinctio']" level="any"/></xsl:variable>
+                        <xsl:variable name="sectionnumber"><xsl:number count="div[@type='distinctio']"/></xsl:variable>
+                    <sctap:sectionOrderNumber><xsl:value-of select="$sectionnumber"/></sctap:sectionOrderNumber>
+                    <sctap:totalOrderNumber><xsl:value-of select="$totalnumber"/></sctap:totalOrderNumber>
+                    
+                        <xsl:for-each select=".//item">
                         <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
                         <dcterms:hasPart rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>    
                     </xsl:for-each>
@@ -124,6 +133,10 @@
                 <dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
                 <role:AUT rdf:resource="{$author-uri}"/>
                 <role:EDT><xsl:value-of select="$editor"/></role:EDT>
+                <xsl:variable name="totalnumber"><xsl:number count="item" level="any"/></xsl:variable>
+                <xsl:variable name="sectionnumber"><xsl:number count="item"/></xsl:variable>
+                <sctap:sectionOrderNumber><xsl:value-of select="$sectionnumber"/></sctap:sectionOrderNumber>
+                <sctap:totalOrderNumber><xsl:value-of select="$totalnumber"/></sctap:totalOrderNumber>
                 <xsl:if test="./questionTitle">
                     <sctap:questionTitle><xsl:value-of select="./questionTitle"></xsl:value-of></sctap:questionTitle>
                 </xsl:if>

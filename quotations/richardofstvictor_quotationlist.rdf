@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/RichardOfStVictor_deTrinitate_2_7_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Jam ex superioribus agnovimus et pro certo habemus quod substantia
+                  divina non sit aliud aliquid quam inmensitas sua, quam eternitas ipsa.</dc:title>
+      <sctap:quotation>Jam ex superioribus agnovimus et pro certo habemus quod substantia
+                  divina non sit aliud aliquid quam inmensitas sua, quam eternitas ipsa.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/RichardOfStVictor_deTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/RichardOfStVictor"/>
+      <sctap:citation>Richard of St. Victor, De trinitate, II, c. 7, (Jean Ribaillier, p. 113)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:fromChapter>7</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q22"/>
+   </rdf:Description>
+</rdf:RDF>

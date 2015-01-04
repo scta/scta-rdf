@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+
+
+    
+        
+            <rdf:Description rdf:about="http://scta.info/resource/person/Astrologers">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Astrologers</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumI"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIII"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio108"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Sarracens">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Sarracens</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumI"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIII"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio4"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Jews">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Jews</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumI"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIV"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio10"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio77"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio83"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio86"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio96"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio107"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio111"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio123"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio130"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio134"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/MagiOfPharaoh">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Magi of Pharaoh</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio54"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio83"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio86"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio101"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Apostles">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Apostles</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q15"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio13"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio33"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio39"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio101"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio107"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio108"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Chaldeans">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Chaldeans</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumI"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIII"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio100"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Greeks">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Greeks</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIV"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio78"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio130"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Romans">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Romans</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio9"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio96"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio99"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio130"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Pagans">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Pagans</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio95"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Platonists">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Platonists</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio65"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio101"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Latins">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Latins</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio78"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/formalizantes">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Formalizantes</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio40"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Philosophers">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Philosophers</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumI"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIII"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumIV"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio52"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio78"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Prophets">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Prophets</dc:title>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Theologians">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Theologians</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumI"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Anglici">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>The English</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio124"/>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio126"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Epicureans">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Epicureans</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio34"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Manicheans">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Manicheans</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Muslims">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Muslims</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio130"/>
+   </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/person/Scotists">
+      <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
+      <dc:title>Scotists</dc:title>
+      <sctap:mentionedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/principiumII"/>
+   </rdf:Description>
+            
+            
+            
+        
+    
+
+</rdf:RDF>

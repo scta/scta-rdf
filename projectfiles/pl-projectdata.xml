@@ -2452,19 +2452,23 @@ pl-b1d7c1
 <questionTitle>Quomodo sit accipiendum illud: Sint in signa et tempora.</questionTitle>
 </item>
 </div>
-<!-- where i left off 11/8 p. 374 -->
 <div id="pl-b2d15" type="distinctio">
 <head>DISTINCTIO XV</head>
-
 <item id="pl-b2d15c1" type="capitulus">
 <fileName filestem="pl-b2d15c1">pl-b2d15c1.xml</fileName>
 <title>Cap. 82 (1). </title>
 <questionTitle>De opere quinti diei, quo creata sunt natatilia et volatilia.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_20"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d15c2" type="capitulus">
 <fileName filestem="pl-b2d15c2">pl-b2d15c2.xml</fileName>
 <title>Cap. 83 (2). </title>
 <questionTitle>De opere sexti diei, quo creata sunt animalia et reptilia terrae.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d15c3" type="capitulus">
 <fileName filestem="pl-b2d15c3">pl-b2d15c3.xml</fileName>
@@ -2480,6 +2484,10 @@ pl-b1d7c1
 <fileName filestem="pl-b2d15c5">pl-b2d15c5.xml</fileName>
 <title>Cap. 86 (5). </title>
 <questionTitle>Quare post omnia factus est homo.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_25"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_26"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d15c6" type="capitulus">
 <fileName filestem="pl-b2d15c6">pl-b2d15c6.xml</fileName>
@@ -2490,21 +2498,36 @@ pl-b1d7c1
 <fileName filestem="pl-b2d15c7">pl-b2d15c7.xml</fileName>
 <title>Cap. 88 (7). </title>
 <questionTitle>Quomodo intelligenda sit requies Dei.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ap4_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io5_17"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d15c8" type="capitulus">
 <fileName filestem="pl-b2d15c8">pl-b2d15c8.xml</fileName>
 <title>Cap. 89 (8). </title>
 <questionTitle>Quomodo accipiendum sit, quod dicitur Deus complesse opus suum septima die, cum tunc quieverit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_31"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d15c9" type="capitulus">
 <fileName filestem="pl-b2d15c9">pl-b2d15c9.xml</fileName>
 <title>Cap. 90 (9). </title>
 <questionTitle>Quomodo omnia a Deo facta dicantur valde bona.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_3"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d15c10" type="capitulus">
 <fileName filestem="pl-b2d15c10">pl-b2d15c10.xml</fileName>
 <title>Cap. 91 (10). </title>
 <questionTitle>De sanctificatione septimae diei.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex20_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_2"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d16" type="distinctio">
@@ -2519,11 +2542,18 @@ pl-b1d7c1
 <fileName filestem="pl-b2d16c2">pl-b2d16c2.xml</fileName>
 <title>Cap. 93 (2). </title>
 <questionTitle>Qualis factus sit homo.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen1_26"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d16c3" type="capitulus">
 <fileName filestem="pl-b2d16c3">pl-b2d16c3.xml</fileName>
 <title>Cap. 94 (3). </title>
 <questionTitle>De imagine et similitudine ad quam factus est homo.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor11_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/zac6_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d16c4" type="capitulus">
 <fileName filestem="pl-b2d16c4">pl-b2d16c4.xml</fileName>
@@ -2538,11 +2568,17 @@ pl-b1d7c1
 <fileName filestem="pl-b2d17c1">pl-b2d17c1.xml</fileName>
 <title>Cap. 96 (1). </title>
 <questionTitle>De creatione animae, an de aliquo facta sit; de insufflatione et inspiratione Dei.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_7"/>
+</manualRDFs>
 </item>
-<item id="pl-b2d17c2" type="capitulus">
+<item id="pl-b2d17c2" type="capitulus"> <!-- something strange about division of chapters here -->
 <fileName filestem="pl-b2d17c2">pl-b2d17c2.xml</fileName>
 <title>Cap. 97 (2). </title>
 <questionTitle>Quando facta fuerit anima, an in corpore, an extra.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is57_16"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d17c3" type="capitulus">
 <fileName filestem="pl-b2d17c3">pl-b2d17c3.xml</fileName>
@@ -2553,6 +2589,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d17c4">pl-b2d17c4.xml</fileName>
 <title>Cap. 99 (4). </title>
 <questionTitle>Quare homo, extra paradisum creatus, in paradiso sit positus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d17c5" type="capitulus">
 <fileName filestem="pl-b2d17c5">pl-b2d17c5.xml</fileName>
@@ -2577,6 +2616,10 @@ pl-b1d7c1
 <fileName filestem="pl-b2d18c1">pl-b2d18c1.xml</fileName>
 <title>Cap. 103 (1). </title>
 <questionTitle>De formatione mulieris.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_21"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_22"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d18c2" type="capitulus">
 <fileName filestem="pl-b2d18c2">pl-b2d18c2.xml</fileName>
@@ -2587,6 +2630,10 @@ pl-b1d7c1
 <fileName filestem="pl-b2d18c3">pl-b2d18c3.xml</fileName>
 <title>Cap. 105 (3). </title>
 <questionTitle>Quare dormienti, et non vigilanti subtracta sit costa.</questionTitle>
+<manualRDFs>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/eph5_32"/>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/io19_34"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d18c4" type="capitulus">
 <fileName filestem="pl-b2d18c4">pl-b2d18c4.xml</fileName>
@@ -2621,11 +2668,20 @@ pl-b1d7c1
 <fileName filestem="pl-b2d19c2">pl-b2d19c2.xml</fileName>
 <title>Cap. 111 (2). </title>
 <questionTitle>Quomodo dicitur homo factus in animam viventem.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_7"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_45"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_44"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d19c3" type="capitulus">
 <fileName filestem="pl-b2d19c3">pl-b2d19c3.xml</fileName>
 <title>Cap. 112 (3). </title>
 <questionTitle>Corpus hominis ante peccatum mortale et immortale erat, post peccatum mortuum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d19c4" type="capitulus">
 <fileName filestem="pl-b2d19c4">pl-b2d19c4.xml</fileName>
@@ -2645,11 +2701,13 @@ pl-b1d7c1
 </div>
 <div id="pl-b2d20" type="distinctio">
 <head>DISTINCTIO XX</head>
-
 <item id="pl-b2d20c1" type="capitulus">
 <fileName filestem="pl-b2d20c1">pl-b2d20c1.xml</fileName>
 <title>Cap. 116 (1). </title>
 <questionTitle>De modo procreationis filiorum si non peccassent primi homines.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr13_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d20c2" type="capitulus">
 <fileName filestem="pl-b2d20c2">pl-b2d20c2.xml</fileName>
@@ -2660,6 +2718,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d20c3">pl-b2d20c3.xml</fileName>
 <title>Cap. 118 (3). </title>
 <questionTitle>De modo translationis in melius si non peccassent.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt22_30"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d20c4" type="capitulus">
 <fileName filestem="pl-b2d20c4">pl-b2d20c4.xml</fileName>
@@ -2675,6 +2736,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d20c6">pl-b2d20c6.xml</fileName>
 <title>Cap. 121 (6). </title>
 <questionTitle>De duobus bonis: altero hic dato, altero promisso.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_46"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d21" type="distinctio">
@@ -2683,6 +2747,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d21c1">pl-b1d1c?.xml</fileName>
 <title>Cap. 122 (1). </title>
 <questionTitle>De invidia diaboli, qua ad tentandum accessit.</questionTitle>
+<manualRDFs>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/sap17_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d21c2" type="capitulus">
 <fileName filestem="pl-b2d21c2">pl-b2d21c2.xml</fileName>
@@ -2693,16 +2760,28 @@ pl-b1d7c1
 <fileName filestem="pl-b2d21c3">pl-b2d21c3.xml</fileName>
 <title>Cap. 124 (3). </title>
 <questionTitle>De calliditate serpentis.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_1"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d21c4" type="capitulus">
 <fileName filestem="pl-b2d21c4">pl-b2d21c4.xml</fileName>
 <title>Cap. 125 (4). </title>
 <questionTitle>Utrum elegerit serpentem ut per eum tentaret diabolus.</questionTitle>
+<manualRDFs>
+<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/num22_28"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d21c5" type="capitulus">
 <fileName filestem="pl-b2d21c5">pl-b2d21c5.xml</fileName>
 <title>Cap. 126 (5). </title>
 <questionTitle>De modo tentationis.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_1"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_2"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_3"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_4"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d21c6" type="capitulus">
 <fileName filestem="pl-b2d21c6">pl-b2d21c6.xml</fileName>
@@ -2713,6 +2792,7 @@ pl-b1d7c1
 <fileName filestem="pl-b2d21c7">pl-b2d21c7.xml</fileName>
 <title>Cap. 128 (7). </title>
 <questionTitle>Quare peccatum hominis, et non angeli, remediabile sit.</questionTitle>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc20_36"/>
 </item>
 <item id="pl-b2d21c8" type="capitulus">
 <fileName filestem="pl-b2d21c8">pl-b2d21c8.xml</fileName>
@@ -2736,11 +2816,27 @@ pl-b1d7c1
 <fileName filestem="pl-b2d22c3">pl-b2d22c3.xml</fileName>
 <title>Cap. 132 (3). </title>
 <questionTitle>De viri elatione.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_14"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_14"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim2_14"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d22c4" type="capitulus">
 <fileName filestem="pl-b2d22c4">pl-b2d22c4.xml</fileName>
 <title>Cap. 133 (4). </title>
 <questionTitle>Quis magis deliquerit, vir an mulier.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_16"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_12"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_13"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps68_5"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps70_10"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_6"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_12"/>
+
+</manualRDFs>
 </item>
 <item id="pl-b2d22c5" type="capitulus">
 <fileName filestem="pl-b2d22c5">pl-b2d22c5.xml</fileName>
@@ -2760,6 +2856,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d23c1">pl-b2d23c1.xml</fileName>
 <title>Cap. 136 (1). </title>
 <questionTitle>Quare Deus permiserit hominem tentari, quem sciebat casurum.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom12_3"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d23c2" type="capitulus">
 <fileName filestem="pl-b2d23c2">pl-b2d23c2.xml</fileName>
@@ -2770,11 +2869,17 @@ pl-b1d7c1
 <fileName filestem="pl-b2d23c3">pl-b2d23c3.xml</fileName>
 <title>Cap. 138 (3). </title>
 <questionTitle>De triplici scientia hominis ante lapsum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor9_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom10_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d23c4" type="capitulus">
 <fileName filestem="pl-b2d23c4">pl-b2d23c4.xml</fileName>
 <title>Cap. 139 (4). </title>
 <questionTitle>Utrum homo praescius fuerit eorum quae sibi futura erant.</questionTitle>
+
 </item>
 </div>
 <div id="pl-b2d24" type="distinctio">
@@ -2814,11 +2919,19 @@ pl-b1d7c1
 <fileName filestem="pl-b2d24c7">pl-b2d24c7.xml</fileName>
 <title>Cap. 146 (7). </title>
 <questionTitle>Quod in nobis est vir et mulier et serpens.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor11_7"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d24c8" type="capitulus">
 <fileName filestem="pl-b2d24c8">pl-b2d24c8.xml</fileName>
 <title>Cap. 147 (8). </title>
 <questionTitle>De spirituali coniugio viri et mulieris in nobis.</questionTitle>
+<manualRDFs>
+ <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/Icor11_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_24"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d24c9" type="capitulus">
 <fileName filestem="pl-b2d24c9">pl-b2d24c9.xml</fileName>
@@ -2839,6 +2952,14 @@ pl-b1d7c1
 <fileName filestem="pl-b2d24c12">pl-b2d24c12.xml</fileName>
 <title>Cap. 151 (12). </title>
 <questionTitle>Quando sit veniale vel mortale peccatum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom6_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt6_12"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_2"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor2_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen2_15"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/cant4_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d24c13" type="capitulus">
 <fileName filestem="pl-b2d24c13">pl-b2d24c13.xml</fileName>
@@ -2846,6 +2967,7 @@ pl-b1d7c1
 <questionTitle>Quibus modis accipitur sensualitas in Scriptura.</questionTitle>
 </item>
 </div>
+
 <div id="pl-b2d25" type="distinctio">
 <head>DISTINCTIO XXV</head>
 
@@ -2853,6 +2975,7 @@ pl-b1d7c1
 <fileName filestem="pl-b2d25c1">pl-b2d25c1.xml</fileName>
 <title>Cap. 153 (1). </title>
 <questionTitle>Definitio liberi arbitrii secundum philosophos.</questionTitle>
+
 </item>
 <item id="pl-b2d25c2" type="capitulus">
 <fileName filestem="pl-b2d25c2">pl-b2d25c2.xml</fileName>
@@ -2883,16 +3006,36 @@ pl-b1d7c1
 <fileName filestem="pl-b2d25c7">pl-b2d25c7.xml</fileName>
 <title>Cap. 159 (7). </title>
 <questionTitle>De corruptione liberi arbitrii per peccatum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc19_30"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is1_17"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIpetr2_19"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d25c8" type="capitulus">
 <fileName filestem="pl-b2d25c8">pl-b2d25c8.xml</fileName>
 <title>Cap. 160 (8). </title>
 <questionTitle>De tribus modis libertatis liberi arbitrii: a necessitate, a peccato, a miseria.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor3_17"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_36"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom6_18"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom6_20"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io8_36"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_21"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom7_17"/>
+
+</manualRDFs>
 </item>
 <item id="pl-b2d25c9" type="capitulus">
 <fileName filestem="pl-b2d25c9">pl-b2d25c9.xml</fileName>
 <title>Cap. 161 (9). </title>
 <questionTitle>De libertate quae est ex gratia, et quae ex natura.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom7_18"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil2_13"/>
+</manualRDFs>
 </item>
 </div>
 <div id="pl-b2d26" type="distinctio">
@@ -2900,8 +3043,15 @@ pl-b1d7c1
 <item id="pl-b2d26c1" type="capitulus">
 <fileName filestem="pl-b2d26c1">pl-b2d26c1.xml</fileName>
 <title>Cap. 162 (1). </title>
-<questionTitle>De gratia operante et cooperante. </questionTitle>
+<questionTitle>De gratia operante et cooperante.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/prov16_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps36_23"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_10"/>
+</manualRDFs>
 </item>
+<!-- where I left off p. 438 12/27-->
 <item id="pl-b2d26c2" type="capitulus">
 <fileName filestem="pl-b2d26c2">pl-b2d26c2.xml</fileName>
 <title>Cap. 163 (2). </title>
@@ -4594,6 +4744,9 @@ pl-b1d7c1
 <fileName filestem="pl-b4d4c2">pl-b4d4c2.xml</fileName>
 <title>Cap. 27 (2). </title>
 <questionTitle>De ficte accedentibus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_Sermo351_2_2_a"/>
+</manualRDFs>
 </item>
 <item id="pl-b4d4c3" type="capitulus">
 <fileName filestem="pl-b4d4c3">pl-b4d4c3.xml</fileName>

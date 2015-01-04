@@ -28,6 +28,8 @@ echo "Begin Workcited Metadata extraction";
 saxon "-s:/Users/JCWitt/WebPages/lombardpress-lists/workscited.xml/" "-xsl:$base/xsl_stylesheets/rdf_works_conversion.xsl" "-o:$base/works/workscited.rdf";
 echo "Begin Nameslist Metadata extraction";
 saxon "-s:/Users/JCWitt/WebPages/lombardpress-lists/Prosopography.xml/" "-xsl:$base/xsl_stylesheets/rdf_names_conversion.xsl" "-o:$base/names/Prosopography.rdf";
+echo "Begin PersonGroupList Metadata extraction";
+saxon "-s:/Users/JCWitt/WebPages/lombardpress-lists/persongroups.xml/" "-xsl:$base/xsl_stylesheets/rdf_persongroups_conversion.xsl" "-o:$base/names/persongroups.rdf";
 echo "Begin Subjectlist Metadata extraction";
 saxon "-s:/Users/JCWitt/WebPages/lombardpress-lists/subjectlist.xml/" "-xsl:$base/xsl_stylesheets/rdf_subjects_conversion.xsl" "-o:$base/subjects/subjectlist.rdf";
 echo "All finished";

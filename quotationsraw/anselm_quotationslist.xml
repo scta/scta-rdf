@@ -130,6 +130,28 @@
                <note type="citation">F.S. Schmitt.  Romae, 1940, II, 114, lin. 22</note>
                <note type="firstIdentification">Wodeham, Ordinatio, prologue q. 1</note>
             </item>
+            <item xml:id="Anselm_CurDeusHomo_1_1_a">
+               <quote type="Scholastic">Sicut rectus ordo exigit ut profunda Christianae fidei prius credamus, quam ea praesumamus ratione discutere, ita negligentia mihi videtur, si, postquam confirmati sumus in fide, non studemus quod credimus intelligere.</quote>
+               <bibl type="Anselm_CurDeusHomo">
+                  <author ref="#Anselm">Anselm</author>
+                  <title ref="#Anselm_CurDeusHomo">CurDeusHomo</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">Anselmus, Cur Deus Homo, I, c. 1</note>
+               <note type="firstIdentification">Gracilis Book 1, q. 1</note> <!-- gracilis reports this as fall in book 1, c. 2, but in modern editions it is chapter 1 --> 
+            </item>
+            <item xml:id="Anselm_CurDeusHomo_2_17_a">
+               <quote type="Scholastic">Omnis quippe necessitas et impossibilitas eius subiacet voluntati; illius autem voluntas nulli subditur necessitati aut impossibilitati.</quote>
+               <bibl type="Anselm_CurDeusHomo">
+                  <author ref="#Anselm">Anselm</author>
+                  <title ref="#Anselm_CurDeusHomo">Cur Deus Homo</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="capitulus">17</biblScope>
+               </bibl>
+               <note type="citation">Anselmus, Cur Deus Homo, II, c. 17</note> <!-- gracilis, substitutes 'possibilitas' for 'necessitas'; quote also used by Bradwardine in De Causa Dei, see reprint 1964, 209 C; 647D -->
+               <note type="firstIdentification">Gracilis, Book 1, q. 27</note>  
+            </item>
          </list>
       </body>
   </text>
