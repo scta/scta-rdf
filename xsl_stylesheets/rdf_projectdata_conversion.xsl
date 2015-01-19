@@ -49,17 +49,19 @@
                                 <dcterms:hasPart rdf:resource="http://scta.info/text/{$cid}/distinctio/{$did}"/>    
                             </xsl:for-each>
                         </xsl:when>
+                        <!-- think about removing this since i have added sctap:hasItem for all commentaries regardless of structure -->
                         <xsl:otherwise>
                             <xsl:for-each select=".//item">
                                 <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
                                 <dcterms:hasPart rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>    
                             </xsl:for-each>
                         </xsl:otherwise>
+                        <!-- think about removing the above "oterwise" option since i have added sctap:hasItem for all commentaries regardless of structure -->
                     </xsl:choose>
-                    <!--<xsl:for-each select="./div//item">
+                    <xsl:for-each select="./div//item">
                     <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
-                    <dcterms:hasPart rdf:resource="http://scta.info/items/{$fs}"/>
-                </xsl:for-each>-->
+                        <sctap:hasItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
+                    </xsl:for-each>
                 </rdf:Description>
             
             <xsl:if test=".//div[@type='librum']">

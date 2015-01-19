@@ -374,6 +374,7 @@
       <sctap:fromChapter>10</sctap:fromChapter>
       <sctap:fromChapter>11</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio68"/>
    </rdf:Description>
@@ -596,5 +597,67 @@
       <sctap:fromChapter>6</sctap:fromChapter>
       <sctap:fromChapter>12</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_5_16_34_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>neque enim ea faceret, nisi ea nosset antequam faceret; nec nosset, nisi videret; nec videret, nisi haberet; nec haberet ea quae nondum facta erant, nisi quemadmodum est ipse non factus:</dc:title>
+      <sctap:quotation>neque enim ea faceret, nisi ea nosset antequam faceret; nec nosset, nisi videret; nec videret, nisi haberet; nec haberet ea quae nondum facta erant, nisi quemadmodum est ipse non factus:</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_onGenesis"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 34)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>6</sctap:fromChapter>
+      <sctap:fromChapter>12</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDiversisQuaestionibus_46_2_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sunt namque ideae principales quaedam formae vel rationes rerum stabiles atque incommutabiles, quae ipsae formatae non sunt ac per hoc aeternae ac semper eodem modo sese habentes, quae divina intellegentia continentur.</dc:title>
+      <sctap:quotation>Sunt namque ideae principales quaedam formae vel rationes rerum stabiles atque incommutabiles, quae ipsae formatae non sunt ac per hoc aeternae ac semper eodem modo sese habentes, quae divina intellegentia continentur.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeDiversisQuaestionibusOctogintaTribus"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>Augustine, (PL 40)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromChapter>2</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_7_13_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Et putamus nos, utrum Dei providentia eadem sit quae memoria et intellegentia, qui non singula cogitando aspicit, sed una, aeterna et immutabili atque ineffabili visione complectitur cuncta quae novit, tanta mentis infirmitate posse comprehendere?</dc:title>
+      <sctap:quotation>Et putamus nos, utrum Dei providentia eadem sit quae memoria et intellegentia, qui non singula cogitando aspicit, sed una, aeterna et immutabili atque ineffabili visione complectitur cuncta quae novit, tanta mentis infirmitate posse comprehendere?</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>7</sctap:fromChapter>
+      <sctap:fromChapter>13</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_8_9_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Situs vero et habitus et loca et tempora non proprie sed translate ac per similitudines dicuntur in Deo.</dc:title>
+      <sctap:quotation>Situs vero et habitus et loca et tempora non proprie sed translate ac per similitudines dicuntur in Deo.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>8</sctap:fromChapter>
+      <sctap:fromChapter>9</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_20_38_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Verbum Dei esse Filium Dei natura, non voluntate.</dc:title>
+      <sctap:quotation>Verbum Dei esse Filium Dei natura, non voluntate.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>20</sctap:fromChapter>
+      <sctap:fromChapter>38</sctap:fromChapter>
    </rdf:Description>
 </rdf:RDF>
