@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>Henricus de Werl Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/item/hw-b1prolq1">
+      <dc:title>Librum I, prologus, quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis ratione</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Avicenna"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristoteles"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysicae"/>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq1">
+      <dc:title>hw-b1prolq1 [vat]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1">
+      <dc:title>Librum I, Prologus, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1/paragraph/"/>
+   </rdf:Description>
+</rdf:RDF>
+

@@ -54,8 +54,8 @@
       <dc:title/>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>1</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
    </rdf:Description>
@@ -63,8 +63,8 @@
       <dc:title>Librum I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>2</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio3"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio4"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio5"/>
@@ -88,8 +88,8 @@
       <dc:title>Librum II</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>3</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio21"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio22"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio23"/>
@@ -102,25 +102,24 @@
       <dc:title>Librum III</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>4</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio28"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/librum/rfr-librum4">
       <dc:title>Librum IV</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>5</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio29"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio30"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1">
       <dc:title>Quaestio 1, [Prologus, Quaestio 1]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>1</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum possibile sit viatori deum esse sit per se notum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -130,9 +129,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2">
       <dc:title>Quaestio 2 [Prologus, Quaestio 2]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>2</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:questionTitle>Vtrum theologia sit sciencia speculatiua vel practica</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -142,9 +140,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio3">
       <dc:title>Quaestio 3, [Librum I, Quaestio 1]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>3</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum sola trinitate incommutabili sit fruendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -154,9 +151,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio4">
       <dc:title>Questio 4, [Librum I, Quaestio 2]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>4</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum beatitudo sit actus intellectus vel voluntatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -166,9 +162,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio5">
       <dc:title>Quaestio 5 [Librum I, Quaestio 3]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>5</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum unicus actus intellectus vel voluntatis sit respectu diversorum distinctus)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -178,9 +173,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio6">
       <dc:title>Quaestio 6 [Librum I, Quaestio 4]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>6</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum spiritus sanctus procedat a patre et a filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -190,9 +184,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio7">
       <dc:title>Quaestio 7 [Librum I, Quaestio 5]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>7</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum spiritus sanctus procedat a patre et a filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -202,9 +195,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio8">
       <dc:title>Quaestio 8 [Librum I, Quaestio 6]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>6</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>8</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum mens humana sit ymago trinitatis increate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -214,9 +206,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio9">
       <dc:title>Quaestio 9 [Librum I, Quaestio 7]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>7</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>9</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum mens ipsa et ceteri habitus sibi presentes sint principia in memoria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -226,9 +217,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio10">
       <dc:title>Quaestio 10 [Librum I, Questio 8]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>8</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>10</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum ex presentia speciei in memoria sequatur necessario cogitatio actualis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -238,9 +228,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio11">
       <dc:title>Quaestio 11 [Librum I, Questio 9]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>9</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>11</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum intellectus agens sit aliqua pars ymaginis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -250,9 +239,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio12">
       <dc:title>Quaestio 12 [Librum I, Quaestio 10]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>10</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>12</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum amor procedat ab aliqua notitia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -262,9 +250,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio13">
       <dc:title>Quaestio 13 [Librum I, Quaestio 11]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>11</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>13</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum appetitus contrarii vel passiones contrarii possint esse in voluntate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -274,9 +261,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio14">
       <dc:title>Quaestio 14 [Librum I, Quaestio 12]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>12</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>14</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum caritas possit augeri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -286,9 +272,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio15">
       <dc:title>Quaestio 15 [Librum I, Quaestio 13]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>13</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>15</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum sit ponenda alia caritas in anima quam spiritus sanctus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -298,9 +283,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio16">
       <dc:title>Quaestio 16 [Librum I, Quaestio 14]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>14</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>16</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum deus sit prescius omnium futurorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -310,9 +294,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio17">
       <dc:title>Quaestio 17 [Librum I, Quaestio 15]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>15</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>17</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum deus possit revelare creature rationali futura contingentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -322,9 +305,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio18">
       <dc:title>Quaestio 18 [Librum I, Quaestio 16]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>16</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>18</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum creatura rationalis possit prescire in verbo aliquod futurum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -334,9 +316,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio19">
       <dc:title>Quaestio 19 [Librum I, Quaestio 17]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>17</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>19</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum deus sit immutabilis et incircumscriptus.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -346,9 +327,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio20">
       <dc:title>Quaestio 20 [Librum I, Quaestio 18]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>18</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>20</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum Deus sit omnipotens</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -358,9 +338,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio21">
       <dc:title>Quaestio 21 [Librum II, Quaestio 1]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>21</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum deus in principio temporis creavit mundum de nihilo.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -370,9 +349,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio22">
       <dc:title>Quaestio 22 [Librum II, Quaestio 2[</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>22</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum angeli peccaverunt per libertatem arbitrii.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -382,9 +360,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio23">
       <dc:title>Quaestio 23 [Librum II, Quaestio 3]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>23</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum omnes angeli confirmati sint in statu merendi.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -394,9 +371,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio24">
       <dc:title>Quaestio 24 [Librum II, Quaestio 4]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>24</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum angeli habeant cognitionem distinctam omnium creaturarum.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -406,9 +382,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio25">
       <dc:title>Quaestio 25 [Librum II, Quaestio 5]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>25</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum angeli cognoscant per species.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -418,9 +393,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio26">
       <dc:title>Quaestio 26 [Librum II, Quaestio 6]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>6</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>26</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum angeli fuerunt creati in caritate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -430,9 +404,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio27">
       <dc:title>Quaestio 27 [Librum II, Quaestio 7]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>7</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>27</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum quilibet homo concupiscentialiter propagatus concipiatur in peccato)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -442,9 +415,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio28">
       <dc:title>Quaestio 28 [Librum III, Quaestio 1]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>28</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum in voluntate sit aliquis habitus allectivus vel inclinativus ad actionem.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -454,9 +426,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio29">
       <dc:title>Quaestio 29 [Librum IV, Quaestio 1]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>29</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum in sacramento altaris sit corpus Christi sub speciebus vini et panis.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -466,9 +437,8 @@
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio30">
       <dc:title>Quaestio 30 [Librum IV, Quaestio 2]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>30</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum suffragia Ecclesie prosint defunctis in purgatorio.17)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>

@@ -43,8 +43,8 @@
       <dc:title>Book I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>1</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item3"/>
@@ -72,586 +72,255 @@
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item1">
       <dc:title>Circa prologum, q. 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>1</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum veritates theologicae scientiae contrarientur veritatibus principiorum naturalis luminis et sensualis experientiae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item1"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item1">
-      <dc:title>ja-item1 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item1">
-      <dc:title>ja-item1 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item2">
       <dc:title>Circa prologum, q. 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>2</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum studens in sacra scriptura non credens sicut sancta ecclesia credit erret</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item2"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item2">
-      <dc:title>ja-item2 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item2">
-      <dc:title>ja-item2 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item3">
       <dc:title>Circa dist. primam</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>3</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debetur pro mercede visio Dei et eius fruitio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item3"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item3">
-      <dc:title>ja-item3 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item3"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item3">
-      <dc:title>ja-item3 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item4">
       <dc:title>Circa dist. 1am, 2am et 3am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>4</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum inter creaturae totius usum et Dei solius fruitionem natum sit rationali creaturae facere aliquimodo commutationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item4"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item4">
-      <dc:title>ja-item4 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item4"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item4">
-      <dc:title>ja-item4 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item5">
       <dc:title>Circa dist. 2am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>5</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum creatura rationalis viatrix et beatrix ineffabilem habere possit notitiam de divina essentia.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item5"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item5"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item5">
-      <dc:title>ja-item5 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item5"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item5">
-      <dc:title>ja-item5 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item6">
       <dc:title>Circa dist. 2am et 3am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>6</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>6</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum in entibus fore unum primum seu Deum unicum possit a viatore efficaciter esse scitum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item6"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item6"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item6">
-      <dc:title>ja-item6 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item6"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item6">
-      <dc:title>ja-item6 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item7">
       <dc:title>Circa dist. 2am-8am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>7</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>7</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum in Deo sit omnimoda simplicitas et ex natura rei a divina perfectione excludens pluralitatem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item7"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item7"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item7">
-      <dc:title>ja-item7 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item7"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item7">
-      <dc:title>ja-item7 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item8">
       <dc:title>Circa dist. 2am, 3am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>8</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>8</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum trinitas increata per rationes a viatore non ... per viam vestigii aut imaginis sit investigabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item8"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item8"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item8">
-      <dc:title>ja-item8 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item8"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item8">
-      <dc:title>ja-item8 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item9">
       <dc:title>Circa dist. 4am, 5am, 6am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>9</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>9</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum generationis qua Deus genuit Deum essentia divina sit terminus formalis aut materiale principium.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item9"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item9"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item9">
-      <dc:title>ja-item9 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item9"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item9">
-      <dc:title>ja-item9 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item9"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item10">
       <dc:title>Circa dist. 7am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>10</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>10</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum potentia generativa existens in Filio Dei possit exire in actum generandi.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item10"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item10"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item10">
-      <dc:title>ja-item10 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item10"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item10">
-      <dc:title>ja-item10 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item10"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item11">
       <dc:title>Circa dist. 8am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>11</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>11</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum sola immensa natura deitatis alietatem excludit cuiuslibet mutabilitatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item11"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item11"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item11">
-      <dc:title>ja-item11 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item11"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item11">
-      <dc:title>ja-item11 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item11"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item12">
       <dc:title>Circa dist 9am, 10am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>12</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>12</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum a Patre et Filio coaeternus Spiritus Sanctus procedat per modum voluntatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item12"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item12"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item12">
-      <dc:title>ja-item12 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item12"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item12">
-      <dc:title>ja-item12 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item13">
       <dc:title>Circa dist. 11am, 12am, 13am, 14am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>13</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>13</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum spiritus sanctus taliter a Patre et Filio tamquam ab unico principio procedat, ut nec genitus nec ingenitus dici debeat.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item13"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item13"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item13">
-      <dc:title>ja-item13 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item13"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item13">
-      <dc:title>ja-item13 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item13"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item14">
       <dc:title>Circa dist. 14am, 15am, 16am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>14</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>14</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum Spiritus Sancti diffusio in mente viatoris rationali sit temporalis processio distincta a sua spiratione aeterna.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item14"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item14"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item14">
-      <dc:title>ja-item14 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item14"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item14">
-      <dc:title>ja-item14 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item14"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item15">
       <dc:title>Circa dist. 17am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>15</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>15</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum ad Deum et proximum meritorie diligendum Spiritus Sanctus sufficit absque eo quod aliquis creatus habitus rationali mente inhaereat.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item15"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item15"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item15">
-      <dc:title>ja-item15 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item15"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item15">
-      <dc:title>ja-item15 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item15"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item16">
       <dc:title>Circa dist. 17am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>16</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>16</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum caritas creata augmentum suscipere valeat in iusti viatoris anima</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item16"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item16"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item16">
-      <dc:title>ja-item16 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item16"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item16">
-      <dc:title>ja-item16 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item17">
       <dc:title>Circa dist.19am et 20am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>17</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>17</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum personae divinae summe coaequales circumincessivae in invicem sunt existentes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item17"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item17"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item17">
-      <dc:title>ja-item17 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item17"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item17">
-      <dc:title>ja-item17 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item17"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item18">
       <dc:title>Circa dist. 35am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>18</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>18</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum Deus per sui ipsius comprehensivam scientiam omnium entium et possibilium distinctam habeat notitiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item18"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item18"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item18">
-      <dc:title>ja-item18 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item18"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item18">
-      <dc:title>ja-item18 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item18"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item19">
       <dc:title>de contingentia</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>19</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>19</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum divinae scientiae et quod actu quorandam futurorum ineffabilis certitudo ipsorum, quae non necessitas sed contingentia, sint ad aliquam contradictionem antecedentis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item19"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item19">
-      <dc:title>ja-item19 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item19"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item20">
       <dc:title>de praedistinatione</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>20</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>20</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum quaelibet intellectualis creatura sit absque quocumque, cur divina voluntate antecedente aeternaliter praedestinata vel reprobata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item20"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item20">
-      <dc:title>ja-item20 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item20"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item21">
       <dc:title>Circa dist. 42am, 43am et 44am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>21</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>21</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum immensus vigor simpliciter divinae essentiae existens ratio formalis convertibiliter adaequata omnipotentiae possit res meliores quam sunt efficere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item21"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item21"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item21">
-      <dc:title>ja-item21 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item21"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item21">
-      <dc:title>ja-item21 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item21"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item22">
       <dc:title>Circa dist. 45am, 46am, 47am et 48am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>22</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>22</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum divinum velle infrustrabile quodlibet possibile bonum et solum tale possit efficere ("circa distinctiones ultimas de divina voluntate")</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item22"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item22"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item22">
-      <dc:title>ja-item22 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item22"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item22">
-      <dc:title>ja-item22 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item22"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item23">
       <dc:title>Circa dist. 45am, 46am, 47am et 48am</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>23</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>23</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum divina voluntas, respectu omni iusta sit cunctorum entium et motionum metrum primum et regula.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/mun_ja-item23"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/transcription/erf_ja-item23"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/mun_ja-item23">
-      <dc:title>ja-item23 [mun]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item23"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/transcription/erf_ja-item23">
-      <dc:title>ja-item23 [erf]</dc:title>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item23"/>
    </rdf:Description>
 </rdf:RDF>    
 

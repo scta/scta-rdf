@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listofFileNames>
+    <header>
+        <authorName>Henricus de Werl</authorName>
+        <commentaryName>Henricus de Werl Commentary</commentaryName>
+        <commentaryid>werlcommentary</commentaryid>
+        <authorUri>http://scta.info/resource/person/HenricusDeWerl</authorUri>
+        <parentUri>http://scta.info/text/werlcommentary/commentary</parentUri>
+        <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/Henricus_de_Werl/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
+        <webbase>null</webbase>
+    </header>
+    <div id="body">
+        <div id="hw-b1" class="toplevel">
+            <head>Librum 1</head>
+            <item live="true" type="quaestio">
+                <fileName filestem="hw-b1prolq1">hw-b1prolq1.xml</fileName>
+                <title>Librum I, prologus, quaestio 1</title>
+                <questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis ratione</questionTitle>
+                <hasWitnesses>
+                    <witness>
+                        <slug>vat</slug>
+                        <title>Vatican</title>
+                        <initial>V</initial>
+                    </witness>
+                </hasWitnesses>
+            </item>
+        </div>
+    </div>
+</listofFileNames>

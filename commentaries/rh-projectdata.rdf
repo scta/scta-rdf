@@ -47,8 +47,8 @@
       <dc:title>Book I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>1</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
@@ -60,8 +60,8 @@
       <dc:title>Book II</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>2</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
@@ -73,8 +73,8 @@
       <dc:title>Book III</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>3</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
    </rdf:Description>
@@ -82,8 +82,8 @@
       <dc:title>Book IV</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>4</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
@@ -98,9 +98,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1prin1">
       <dc:title>Principia I</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>1</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:questionTitle>Principia: De obiecto actus credenda, utrum sit ipsum complexum vel res significata per complexum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/principia"/>
@@ -110,9 +109,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q1">
       <dc:title>Quaestio 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>2</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum quilibet viator existens in gratia, assentiendo articulis fidei, mereatur vitam aeternam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -122,9 +120,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1prin">
       <dc:title>Quaestio 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>3</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum voluntas creata in utendo ut fruendo sit libera libertate contradictionis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -134,9 +131,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q3">
       <dc:title>Quaestio 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>4</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum viator tenatur frui soli Deo.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -146,9 +142,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q4">
       <dc:title>Quaestio 4</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>5</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum Deus sit tres personae distinctae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -159,9 +154,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q5">
       <dc:title>Quaestio 5</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>6</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>6</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum aliqua res simpliciter simplex sit in genere.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -172,9 +166,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2prin2">
       <dc:title>Principia II</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>7</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:questionTitle>Principia: Circa principium secundi libri in quo arguitur de causalitate Dei respectu creaturae, quaero istam quaestionem: Utrum Deus sit causa effective omnium aliorum se.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/principia"/>
@@ -184,9 +177,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q1">
       <dc:title>Quaestio 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>8</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum creator generis humani iuste gubernat genus humanum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -196,9 +188,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q2">
       <dc:title>Quaestio 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>9</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum Deus ab aeterno sciverit se producturum mundum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -208,9 +199,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q3">
       <dc:title>Quaestio 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>10</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum angelo confirmatio conveniat deputari ad custodiendum hominem viatorem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -220,9 +210,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q4">
       <dc:title>Quaestio 4</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>11</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum daemones libere peccaverunt.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -232,9 +221,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q5">
       <dc:title>Quaestio 5</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>6</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>12</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum stellae sint creatae ut per lumen et motum sint in signa et tempora.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -244,9 +232,8 @@
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/">
       <dc:title>Principia III</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>13</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:questionTitle>Principia (?): Utrum Filius Dei assumpsit naturam humani in unitatem suppositi.
 or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -257,9 +244,8 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sc
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b3q1">
       <dc:title>Quaestio 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>14</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum filius Dei incarnari potuit.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -291,9 +277,8 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sc
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4prin4">
       <dc:title>Principia IV</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>15</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:questionTitle>Principia (IV): Utrum viator existens in gratia ordinate utendo et fruendo posset vitare omne peccatum.
 or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum informans gratia conferatur.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -304,9 +289,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q1">
       <dc:title>Quaestio 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>16</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum baptismus rite susceptus conferat gratiam baptizatio.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -316,9 +300,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q2">
       <dc:title>Quaestio 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>17</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum confirmatio sit sacramentum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -328,9 +311,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q3">
       <dc:title>Quaestio 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>18</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum in sacramento euchariste sub speciebus panis vere et realiter existat corpus Christi.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -340,9 +322,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q4">
       <dc:title>Quaestio 4</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>1</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>19</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum peccator possit satisfacere Deo pro peccato mortali.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -352,9 +333,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q5">
       <dc:title>Quaestio 5</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>2</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>20</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum quilibet sacerdos posset quemlibet absolvere a quocumque peccato.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -364,9 +344,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q6">
       <dc:title>Quaestio 6</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>3</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>21</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum confessio sacerdoti facienda sit homini necessaria ad salutem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -379,9 +358,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q7">
       <dc:title>Quaestio 7</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>4</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>22</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum poenitenti et confesso non proprio sacerdoti, habenti tamen commissionem generalem audiendi confessiones necesse sit eadem peccata iterum confiteri proprio sacerdoti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -400,9 +378,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q8">
       <dc:title>Quaestio 8</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>23</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
       <sctap:questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -419,9 +396,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/">
       <dc:title>Sermo finalis</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
-      <role:EDT/>
-      <sctap:sectionOrderNumber>5</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>24</sctap:totalOrderNumber>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
       <sctap:questionTitle>Sermo finalis: ‘Cursum consummavi, fidem servavi,’ Tim. 4.  Sollicitudo scolastica studiosissima circa sacrae theologiae notitiam adquirendam comparatur amicitae amatoris qui per laboriosam militiam nititur quaerere sibi sponsam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/sermo"/>
