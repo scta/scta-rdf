@@ -18,30 +18,6 @@
     
     <!-- function templates below -->
     
-    <xsl:template name="extract">
-        <xsl:param name="text-path"/>
-        <!-- <xsl:for-each select="distinct-values(document($text-path)//tei:name/@ref)"> --> <!-- this is the old way to capture only distinct values -->
-        <xsl:for-each select="document($text-path)//tei:name/@ref">
-            <xsl:variable name="nameID" select="substring-after(., '#')"></xsl:variable>
-            <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
-        </xsl:for-each>
-        <xsl:for-each select="document($text-path)//tei:title/@ref">
-            <xsl:variable name="titleID" select="substring-after(., '#')"></xsl:variable>
-            <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
-        </xsl:for-each>
-        <xsl:for-each select="document($text-path)//tei:quote/@ana">
-            <xsl:variable name="quoteID" select="substring-after(., '#')"></xsl:variable>
-            <sctap:quotes rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
-        </xsl:for-each>
-        <xsl:for-each select="document($text-path)//tei:ref/@ana">
-            <!-- if ref element is going to be able to point to both passages and quotes, the element is going to need some sort of type that indicates whether the target is a passage or a quote; right now everything will be classified as passage -->
-            <xsl:variable name="refID" select="substring-after(., '#')"></xsl:variable>
-            <sctap:references rdf:resource="http://scta.info/resource/passage/{$refID}"/>
-        </xsl:for-each>
-        <xsl:call-template name="status">
-            <xsl:with-param name="text-path" select="$text-path"/>
-        </xsl:call-template>
-    </xsl:template>
     <xsl:template name="status">
         <xsl:param name="text-path"/>
         <xsl:choose>
@@ -181,6 +157,7 @@
                 <xsl:variable name="distinctionParent"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
                 <xsl:variable name="text-path" select="concat($textfilesdir, $fs, '/', $fs, '.xml')"/>
                 <xsl:variable name="repo-path" select="concat($textfilesdir, $fs, '/')"/>
+                <xsl:variable name="extraction-file" select="if (document(concat($repo-path, 'transcriptions.xml'))) then concat($repo-path, document(concat($repo-path, 'transcriptions.xml'))/transcriptions/transcription[@use-for-extraction='true']) else $text-path"></xsl:variable>
                 
            
                 <rdf:Description rdf:about="http://scta.info/text/{$cid}/item/{$fs}">
@@ -216,98 +193,56 @@
                        <rdfs:seeAlso rdf:resource="{$fullurl}"/>
                    </xsl:if>
                     
-                   <xsl:choose>
-                       <xsl:when test="document(concat($repo-path, 'transcriptions.xml'))">
-                           <xsl:variable name="extraction-file-use" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/transcription[@use-for-extraction='true']"/>
-                           <xsl:variable name="extraction-file" select="concat($repo-path, $extraction-file-use)"/>
-                           <!-- <xsl:call-template name="extract">
-                               <xsl:with-param name="text-path" select="$extraction-file"/>
-                           </xsl:call-template> -->
-                            <xsl:for-each select="document($extraction-file)//tei:name/@ref">
-                                <xsl:variable name="nameRef" select="."></xsl:variable>
-                                <xsl:variable name="nameID" select="substring-after(., '#')"></xsl:variable>
-                                <xsl:variable name="count" select="count(//tei:name[@ref=$nameRef])"></xsl:variable>
-                                <xsl:variable name="totalNames" select="count(//tei:name)"></xsl:variable>
-                                <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
-                                <xsl:variable name="objectId" select="concat($fs, '-', $totalNames - $totalFollowingNames)"></xsl:variable>
-                                <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
-                                <!-- below could be sued to create points to resource for instance of a name mention -->
-                                <!-- <sctap:mentions rdf:resource="http://scta.info/text/{$cid}/name/{$objectId}"/> -->
-                            </xsl:for-each>
-                            <xsl:for-each select="document($extraction-file)//tei:title/@ref">
-                                 <xsl:variable name="titleID" select="substring-after(., '#')"></xsl:variable>
-                                 <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
-                             </xsl:for-each>
-                            <xsl:for-each select="document($extraction-file)//tei:quote/@ana">
-                                 <xsl:variable name="quoteID" select="substring-after(., '#')"></xsl:variable>
-                                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
-                             </xsl:for-each>
-                           <xsl:for-each select="document($extraction-file)//tei:ref/@ana">
-                               <xsl:variable name="passageID" select="substring-after(., '#')"></xsl:variable>
-                               <sctap:references rdf:resource="http://scta.info/resource/passage/{$passageID}"/>
-                           </xsl:for-each>
-                    
-                             <xsl:choose>
-                                 <xsl:when test="document($extraction-file)//tei:revisionDesc/@status">
-                                     <sctap:status><xsl:value-of select="document($extraction-file)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
-                                 </xsl:when>
-                                 <xsl:when test="document($extraction-file)">
-                                     <sctap:status>In Progress</sctap:status>
-                                 </xsl:when>
-                                 <xsl:otherwise>
-                                     <sctap:status>Not Started</sctap:status>
-                                 </xsl:otherwise>
-                             </xsl:choose>
-                           <!-- note hasTranscription is not added here because this will be checked when witnesses and transcription check runs -->
-                       </xsl:when>
-                       <xsl:when test="document($text-path)">
-                           <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$fs}"/>
-                           <!-- <xsl:call-template name="extract">
-                               <xsl:with-param name="text-path" select="$text-path"/>
-                           </xsl:call-template> -->
-                                    <xsl:for-each select="document($text-path)//tei:name/@ref">
-                                        <xsl:variable name="nameRef" select="."></xsl:variable>
-                                        <xsl:variable name="nameID" select="substring-after(., '#')"></xsl:variable>
-                                        <xsl:variable name="count" select="count(//tei:name[@ref=$nameRef])"></xsl:variable>
-                                        <xsl:variable name="totalNames" select="count(//tei:name)"></xsl:variable>
-                                        <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
-                                        <xsl:variable name="objectId" select="concat($fs, '-', $totalNames - $totalFollowingNames)"></xsl:variable>
-                                         <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
-                                        <!-- below could be sued to create points to resource for instance of a name mention -->
-                                        <!-- <sctap:mentions rdf:resource="http://scta.info/text/{$cid}/name/{$objectId}"/> -->
-                                    </xsl:for-each>
-                                    <xsl:for-each select="document($text-path)//tei:title/@ref">
-                                        <xsl:variable name="titleID" select="substring-after(., '#')"></xsl:variable>
-                                        <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
-                                    </xsl:for-each>
-                                    <xsl:for-each select="document($text-path)//tei:quote/@ana">
-                                        <xsl:variable name="quoteID" select="substring-after(., '#')"></xsl:variable>
-                                        <sctap:quotes rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
-                                    </xsl:for-each>
-                                    <xsl:for-each select="document($text-path)//tei:ref/@ana">
-                                        <xsl:variable name="passageID" select="substring-after(., '#')"></xsl:variable>
-                                        <sctap:references rdf:resource="http://scta.info/resource/passage/{$passageID}"/>
-                                    </xsl:for-each>
-
-                           
-                                    <xsl:choose>
-                                        <xsl:when test="document($text-path)//tei:revisionDesc/@status">
-                                            <sctap:status><xsl:value-of select="document($text-path)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
-                                        </xsl:when>
-                                        <xsl:when test="document($text-path)">
-                                            <sctap:status>In Progress</sctap:status>
-                                        </xsl:when>
-                                        <xsl:otherwise>
-                                            <sctap:status>Not Started</sctap:status>
-                                        </xsl:otherwise>
-                                    </xsl:choose>
-                       </xsl:when>
-                       <xsl:otherwise>
-                           <sctap:status>Not Started</sctap:status>
-                       </xsl:otherwise>
-                   </xsl:choose>
-                    
-                    
+                    <xsl:for-each select="document($extraction-file)//tei:body//tei:name">
+                        <xsl:variable name="nameRef" select="./@ref"></xsl:variable>
+                        <xsl:variable name="nameID" select="substring-after($nameRef, '#')"></xsl:variable>
+                        <xsl:variable name="totalNames" select="count(document($extraction-file)//tei:body//tei:name)"/>
+                        <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
+                        <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalNames - $totalFollowingNames)"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
+                        <sctap:hasName rdf:resource="http://scta.info/text/{$cid}/name/{$objectId}"/>
+                    </xsl:for-each>
+                    <xsl:for-each select="document($extraction-file)//tei:body//tei:title">
+                        <xsl:variable name="titleRef" select="./@ref"></xsl:variable>
+                        <xsl:variable name="titleID" select="substring-after($titleRef, '#')"></xsl:variable>
+                        <xsl:variable name="totalTitles" select="count(document($extraction-file)//tei:body//tei:title)"/>
+                        <xsl:variable name="totalFollowingTitles" select="count(.//following::tei:title)"></xsl:variable>
+                        <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalTitles - $totalFollowingTitles)"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$titleID}"/>
+                        <sctap:hasTitle rdf:resource="http://scta.info/text/{$cid}/title/{$objectId}"/>
+                     </xsl:for-each>
+                    <xsl:for-each select="document($extraction-file)//tei:body//tei:quote">
+                        <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
+                        <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
+                        <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quotes)"/>
+                        <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
+                        <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$quoteID}"/>
+                        <sctap:hasQuote rdf:resource="http://scta.info/text/{$cid}/quote/{$objectId}"/>
+                     </xsl:for-each>
+                   <xsl:for-each select="document($extraction-file)//tei:body/tei:ref">
+                       <xsl:variable name="refRef" select="./@ana"></xsl:variable>
+                       <xsl:variable name="refID" select="substring-after($refRef, '#')"></xsl:variable>
+                       <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:refs)"/>
+                       <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
+                       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
+                       <sctap:mentions rdf:resource="http://scta.info/resource/person/{$refID}"/>
+                       <sctap:hasRef rdf:resource="http://scta.info/text/{$cid}/ref/{$objectId}"/>
+                   </xsl:for-each>
+            
+                     <xsl:choose>
+                         <xsl:when test="document($extraction-file)//tei:revisionDesc/@status">
+                             <sctap:status><xsl:value-of select="document($extraction-file)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
+                         </xsl:when>
+                         <xsl:when test="document($extraction-file)">
+                             <sctap:status>In Progress</sctap:status>
+                         </xsl:when>
+                         <xsl:otherwise>
+                             <sctap:status>Not Started</sctap:status>
+                         </xsl:otherwise>
+                     </xsl:choose>
+                   <!-- note hasTranscription is not added here because this will be checked when witnesses and transcription check runs -->
+                       
                     <xsl:for-each select="./hasWitnesses/witness">
                         <xsl:variable name="slug"><xsl:value-of select="./slug"/></xsl:variable>
                         <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $slug, '_', $fs, '.xml')"/>
@@ -323,6 +258,61 @@
                         <xsl:copy-of select="."/>
                     </xsl:for-each>
                 </rdf:Description>
+                
+                <xsl:for-each select="document($extraction-file)//tei:body//tei:name">
+                    <xsl:variable name="nameRef" select="@ref"/>
+                    <xsl:variable name="nameID" select="substring-after($nameRef, '#')"/>
+                    <xsl:variable name="totalNames" select="count(document($extraction-file)//tei:body//tei:name)"/>
+                    <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
+                    <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalNames - $totalFollowingNames)"/>
+                    <rdf:Description rdf:about="http://scta.info/text/{$cid}/name/{$objectId}">
+                        <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
+                        <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
+                        <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
+                    </rdf:Description>
+                </xsl:for-each>
+                <xsl:for-each select="document($extraction-file)//tei:body//tei:title">
+                    <xsl:variable name="titleRef" select="./@ref"></xsl:variable>
+                    <xsl:variable name="titleID" select="substring-after($titleRef, '#')"></xsl:variable>
+                    <xsl:variable name="totalTitles" select="count(document($extraction-file)//tei:body//tei:title)"/>
+                    <xsl:variable name="totalFollowingTitles" select="count(.//following::tei:title)"></xsl:variable>
+                    <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalTitles - $totalFollowingTitles)"/>
+                    <rdf:Description rdf:about="http://scta.info/text/{$cid}/title/{$objectId}">
+                        <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
+                        <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
+                        <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
+                    </rdf:Description>
+                </xsl:for-each>
+                <xsl:for-each select="document($extraction-file)//tei:body//tei:quote">
+                    <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
+                    <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
+                    <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quotes)"/>
+                    <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
+                    <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
+                    <rdf:Description rdf:about="http://scta.info/text/{$cid}/quote/{$objectId}">
+                        <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
+                        <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
+                        <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
+                    </rdf:Description>
+                </xsl:for-each>
+                <xsl:for-each select="document($extraction-file)//tei:body/tei:ref">
+                    <xsl:variable name="refRef" select="./@ana"></xsl:variable>
+                    <xsl:variable name="refID" select="substring-after($refRef, '#')"></xsl:variable>
+                    <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:refs)"/>
+                    <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
+                    <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
+                    <rdf:Description rdf:about="http://scta.info/text/{$cid}/ref/{$objectId}">
+                        <rdf:type rdf:resource="http://scta.info/resource/refElement"/>
+                        <!-- problem currently this is a problem if the ref is to a quote rather than a passage -->
+                        <!-- could keep passage a default, and then if ref points to quote add type attribute "quotation" -->
+                        <sctap:mentions rdf:resource="http://scta.info/resource/passage/{$refID}"/>
+                        <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
+                        <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
+                    </rdf:Description>
+                </xsl:for-each>
                 
                 <xsl:if test="document($text-path)">
                     <xsl:variable name="critical-transcript-title" select="document($text-path)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -357,20 +347,6 @@
                         </xsl:for-each>
                         <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/critical"/>
                     </rdf:Description>
-                    
-                    <!-- uncomment if we want to create entries for each name reference
-                        
-                    <xsl:for-each select="document($text-path)//tei:name/@ref">
-                        <xsl:variable name="nameRef" select="."></xsl:variable>
-                        <xsl:variable name="nameID" select="substring-after(., '#')"></xsl:variable>
-                        <xsl:variable name="count" select="count(//tei:name[@ref=$nameRef])"></xsl:variable>
-                        <xsl:variable name="totalNames" select="count(//tei:name)"></xsl:variable>
-                        <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
-                        <xsl:variable name="objectId" select="concat($fs, '-', $totalNames - $totalFollowingNames)"></xsl:variable>
-                        <rdf:Description rdf:about="http://scta.info/text/{$cid}/name/{$objectId}">
-                            <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/> 
-                        </rdf:Description>
-                    </xsl:for-each> -->
                     
                     <xsl:for-each select="document($text-path)//tei:body//tei:p">
                         <!-- only creates paragraph resource if that paragraph has been assigned an id -->
