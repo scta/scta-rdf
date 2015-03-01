@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Quote List</title>
+            <editor>Jeffrey C. Witt</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="Gratian_Decretum_1_12_11"> <!-- id should not end with a-z if refering to a passage rather quote -->
+               <quote type="Scholastic"/> <!-- quote text node should be empty is if this is a reference to passage rather than a quote resource type should be passage rather than quote. quote property should only point to quote resources, but references could point to both passages or quotes -->
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="distinctio">12</biblScope>
+                  <biblScope type="canon">11</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, I, d. 12, can. 11</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_1_23_14"> 
+               <quote type="Scholastic"/> 
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="distinctio">23</biblScope>
+                  <biblScope type="canon">14</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, I, distinctio 23, canon 14</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_2_1_1_59"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="causa">1</biblScope>
+                  <biblScope type="quaestio">1</biblScope>
+                  <biblScope type="canon">59</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, II, causa 1, quaestio 1, canon 59</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_2_7_1_16"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="causa">7</biblScope>
+                  <biblScope type="quaestio">1</biblScope>
+                  <biblScope type="canon">16</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, II, causa 7, quaestio 1, canon 16</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_2_1_7_24"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="causa">1</biblScope>
+                  <biblScope type="quaestio">7</biblScope>
+                  <biblScope type="canon">24</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, II, causa 1, quaestio 7, canon 24</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_2_24_1_6"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="causa">1</biblScope>
+                  <biblScope type="quaestio">7</biblScope>
+                  <biblScope type="canon">24</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, II, causa 24, quaestio 1, canon 6</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_3_4_23"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="distinctio">4</biblScope>
+                  <biblScope type="canon">23</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, III, distinctio 4, canon 23</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_3_4_31"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="distinctio">4</biblScope>
+                  <biblScope type="canon">31</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, III, distinctio 4, canon 31</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="Gratian_Decretum_3_4_52"> 
+               <quote type="Scholastic"/>
+               <bibl type="Gratian_Decretum">
+                  <author ref="#Gratian">Gratian</author>
+                  <title ref="#Gratian_Decretum">Decretum</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="distinctio">4</biblScope>
+                  <biblScope type="canon">52</biblScope>
+               </bibl>
+               <note type="citation">Decretum Gratiani, III, distinctio 4, canon 52</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            
+            <item xml:id="LiberExtra_3_42_1"> <!-- si quis -->
+               <quote type="Scholastic"/> <!-- quote text node should be empty is if this is a reference to passage rather than a quote -->
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="titulus">42</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, III, titulus 42, cap. 1, "si quis"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtra_3_42_2"> <!-- de quibus dubium est -->
+               <quote type="Scholastic"/> <!-- quote text node should be empty is if this is a reference to passage rather than a quote -->
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="titulus">42</biblScope>
+                  <biblScope type="capitulus">3</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, III, titulus 42, cap. 1, "de quibus dubium est"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtra_3_42_4"> <!-- debitum -->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">3</biblScope>
+                  <biblScope type="titulus">42</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, III, titulus 42, cap. 4, "de quibus dubium est"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtra_4_5_5"> <!-- super eo vero -->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">4</biblScope>
+                  <biblScope type="titulus">5</biblScope>
+                  <biblScope type="capitulus">5</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, IV, titulus 5, cap. 5, "Super eo vero"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtra_4_5_7"> <!-- si conditiones -->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">4</biblScope>
+                  <biblScope type="titulus">5</biblScope>
+                  <biblScope type="capitulus">7</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, IV, titulus 5, cap. 7, "Si conditiones"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtra_5_39_21"> <!-- an nobis -->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="titulus">39</biblScope>
+                  <biblScope type="capitulus">21</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, V, titulus 39, cap. 21, "a nobis"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtra_1_21_4"> <!-- nuper-->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="titulus">21</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, 1, titulus 21, cap. 4, "nuper"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            <item xml:id="LiberExtraSextus_4_1_1"> <!-- ex sponsalibus-->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtraSextus">
+                  <author ref="#"></author>
+                  <title ref="#LiberExtraSextus">Liber Extra Sextus</title>
+                  <biblScope type="librum">4</biblScope>
+                  <biblScope type="titulus">1</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">Sexti Decretalium, 4, titulus 1, cap. 1, "ex sponsalibus"</note>
+               <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
+            </item>
+            
+            
+            
+         </list>
+      </body>
+  </text>
+</TEI>

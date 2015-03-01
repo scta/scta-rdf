@@ -45,6 +45,7 @@
       <dc:title>Librum I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
@@ -72,6 +73,31 @@
       <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa22"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pFa18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa21"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa22"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1">
       <dc:title>Librum I, Distinctio I, pars A, Articulus 1</dc:title>
@@ -81,6 +107,7 @@
       <sctap:questionTitle>Quomodo investigat subjectum Theologiae?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -92,6 +119,7 @@
       <sctap:questionTitle>Quid sit subjectum Theologiae?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -103,6 +131,7 @@
       <sctap:questionTitle>An Theologia sit una scientia, vel plures?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -114,6 +143,7 @@
       <sctap:questionTitle>An Theologia sit scientia speculativa, vel practica?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -125,6 +155,7 @@
       <sctap:questionTitle>De modis exponendi sacram Scripturam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -136,6 +167,7 @@
       <sctap:questionTitle>An divisio bona sit in res, et signa?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -147,6 +179,7 @@
       <sctap:questionTitle>An Sacramenta veteris legis conferebant gratiam?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -158,6 +191,7 @@
       <sctap:questionTitle>An res bene dividantur in fruibiles, et utibiles?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -169,6 +203,7 @@
       <sctap:questionTitle>An res bene dividantur in fruibiles, et utibiles?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -180,6 +215,7 @@
       <sctap:questionTitle>An beatitudine sit fruendum?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -191,6 +227,7 @@
       <sctap:questionTitle>An creaturae juvent hominem ad beatitudinem?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -202,6 +239,7 @@
       <sctap:questionTitle>An homines medii sint inter res utibiles, et fruibiles?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -213,6 +251,7 @@
       <sctap:questionTitle>An diffinitio prima verbi frui sit bona?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -224,6 +263,7 @@
       <sctap:questionTitle>An prima diffinitio verbi uti sit bona?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -235,6 +275,7 @@
       <sctap:questionTitle>An sint tres res quibus fruendum est?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -246,6 +287,7 @@
       <sctap:questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -257,6 +299,7 @@
       <sctap:questionTitle>An secunda diffinitio uti sit bona?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -268,6 +311,7 @@
       <sctap:questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -279,6 +323,7 @@
       <sctap:questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -290,6 +335,7 @@
       <sctap:questionTitle>An Deus fruatur seipso?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -301,6 +347,7 @@
       <sctap:questionTitle>In omne quod est in quantum est, est bonum?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -312,6 +359,7 @@
       <sctap:questionTitle>An virtutibus fruendum sit?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -323,6 +371,7 @@
       <sctap:questionTitle>An bona voluntate sine virtutibus sit fruendum?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -334,6 +383,7 @@
       <sctap:questionTitle>An per omnes potentias animae fruemur?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -345,6 +395,7 @@
       <sctap:questionTitle>Quid sit hypostasis?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>

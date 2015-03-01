@@ -376,6 +376,22 @@
             <fileName filestem="b4-q3">b4-q3.xml</fileName>
             <title>Question 3</title>
             <questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis conferatur gratia salutaris.</questionTitle>
+            <hasWitnesses>
+                <witness>
+                    <slug>sorb</slug>
+                    <title>Sorbonne</title>
+                    <initial>S</initial>
+                    <startFolio>165v</startFolio>
+                    <endFolio>166v</endFolio>
+                </witness>
+                <witness>
+                    <slug>maz</slug>
+                    <title>Mazarine</title>
+                    <initial>M</initial>
+                    <startFolio></startFolio>
+                    <endFolio></endFolio>
+                </witness>
+            </hasWitnesses>
         </item>
         <item live="false" type="quaestio">
             <fileName filestem="b4-q4">b4-q4.xml</fileName>

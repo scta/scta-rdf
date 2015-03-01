@@ -167,6 +167,21 @@
                             
                         
                     
+                    <rdf:Description rdf:about="http://scta.info/resource/subject/fallacia">
+      <rdf:type rdf:resource="http://scta.info/resource/subject"/>
+      <dc:title>fallacia</dc:title>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/subject/fallacia_figurae_dictionis"/>
+   </rdf:Description>
+                        
+                        <rdf:Description rdf:about="http://scta.info/resource/subject/fallacia_figurae_dictionis">
+      <rdf:type rdf:resource="http://scta.info/resource/subject"/>
+      <dc:title>fallacia figurae dictionis</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/subject/fallacia"/>
+   </rdf:Description>
+                            
+                            
+                        
+                    
                     <rdf:Description rdf:about="http://scta.info/resource/subject/ecclesia">
       <rdf:type rdf:resource="http://scta.info/resource/subject"/>
       <dc:title>ecclesia</dc:title>

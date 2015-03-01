@@ -3051,7 +3051,7 @@ pl-b1d7c1
  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_10"/>
 </manualRDFs>
 </item>
-<!-- where I left off p. 438 12/27-->
+
 <item id="pl-b2d26c2" type="capitulus">
 <fileName filestem="pl-b2d26c2">pl-b2d26c2.xml</fileName>
 <title>Cap. 163 (2). </title>
@@ -3061,11 +3061,29 @@ pl-b1d7c1
 <fileName filestem="pl-b2d26c3">pl-b2d26c3.xml</fileName>
 <title>Cap. 164 (3). </title>
 <questionTitle>Quae sit gratia voluntatem bonam praeveniens.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_1"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom3_4"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor4_7"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d26c4" type="capitulus">
 <fileName filestem="pl-b2d26c4">pl-b2d26c4.xml</fileName>
 <title>Cap. 165 (4). </title>
 <questionTitle>Quod bona voluntas, quae praevenitur gratia, quaedam Dei dona praevenit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps58_11"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps22_6"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt5_44"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc11_9"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom9_16"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom10_10"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_8"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor3_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor3_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom5_5"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom3_27"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d26c5" type="capitulus">
 <fileName filestem="pl-b2d26c5">pl-b2d26c5.xml</fileName>
@@ -3076,6 +3094,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d26c6">pl-b2d26c6.xml</fileName>
 <title>Cap. 167 (6). </title>
 <questionTitle>Quod intellectus et cogitationem boni et delectationem praevenit.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps118_20"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d26c7" type="capitulus">
 <fileName filestem="pl-b2d26c7">pl-b2d26c7.xml</fileName>
@@ -3105,11 +3126,14 @@ pl-b1d7c1
 </div>
 <div id="pl-b2d27" type="distinctio">
 <head>DISTINCTIO XXVII</head>
-
+<!-- check division here in early 20th edition -->
 <item id="pl-b2d27c1" type="capitulus">
 <fileName filestem="pl-b2d27c1">pl-b2d27c1.xml</fileName>
 <title>Cap. 173 (1). </title>
 <questionTitle>De virtute, quid sit et quid actus eius.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/eph2_8"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d27c2" type="capitulus">
 <fileName filestem="pl-b2d27c2">pl-b2d27c2.xml</fileName>
@@ -3140,6 +3164,9 @@ pl-b1d7c1
 <fileName filestem="pl-b2d27c7">pl-b2d27c7.xml</fileName>
 <title>Cap. 179 (7). </title>
 <questionTitle>Quod idem est usus virtutis et liberi arbitrii, sed virtutis principaliter.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor15_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d27c8" type="capitulus">
 <fileName filestem="pl-b2d27c8">pl-b2d27c8.xml</fileName>
@@ -3159,11 +3186,19 @@ pl-b1d7c1
 <fileName filestem="pl-b2d28c2">pl-b2d28c2.xml</fileName>
 <title>Cap. 182 (2). </title>
 <questionTitle>Quomodo Pelagiani dictis Augustini utuntur in testimonium sui erroris.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col1_13"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor8_1"/> 
+</manualRDFs>
 </item>
 <item id="pl-b2d28c3" type="capitulus">
 <fileName filestem="pl-b2d28c3">pl-b2d28c3.xml</fileName>
 <title>Cap. 183 (3). </title>
 <questionTitle>Quomodo Augustinus illa verba determinet in Retractationibus.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt12_33"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_12"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d28c4" type="capitulus">
 <fileName filestem="pl-b2d28c4">pl-b2d28c4.xml</fileName>
@@ -3188,16 +3223,27 @@ pl-b1d7c1
 <fileName filestem="pl-b2d29c3">pl-b2d29c3.xml</fileName>
 <title>Cap. 187 (3). </title>
 <questionTitle>De eiectione hominis de paradiso.</questionTitle>
+<manualRDFs>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_22"/>
+<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_23"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d29c4" type="capitulus">
 <fileName filestem="pl-b2d29c4">pl-b2d29c4.xml</fileName>
 <title>Cap. 188 (4). </title>
 <questionTitle>Quomodo intelligendum sit illud: Ne sumat de ligno vitae et vivat in aeternum.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d29c5" type="capitulus">
 <fileName filestem="pl-b2d29c5">pl-b2d29c5.xml</fileName>
 <title>Cap. 189 (5). </title>
 <questionTitle>De flammeo gladio ante paradisum posito.</questionTitle>
+<manualRDFs>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gen3_24"/>
+ <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom13_10"/>
+</manualRDFs>
 </item>
 <item id="pl-b2d29c6" type="capitulus">
 <fileName filestem="pl-b2d29c6">pl-b2d29c6.xml</fileName>
@@ -3205,6 +3251,7 @@ pl-b1d7c1
 <questionTitle>An ante peccatum homo comederit de ligno vitae.</questionTitle>
 </item>
 </div>
+<!-- where i left off p. 460 -->
 <div id="pl-b2d30" type="distinctio">
 <head>DISTINCTIO XXX</head>
 

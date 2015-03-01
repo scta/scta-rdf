@@ -54,15 +54,19 @@
       <dc:title/>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/librum/rfr-librum1">
       <dc:title>Librum I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio3"/>
@@ -83,11 +87,30 @@
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio18"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio19"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio20"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/librum/rfr-librum2">
       <dc:title>Librum II</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio21"/>
@@ -97,23 +120,35 @@
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio25"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio26"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio27"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio21"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio22"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio24"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio25"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio27"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/librum/rfr-librum3">
       <dc:title>Librum III</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio28"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio28"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/librum/rfr-librum4">
       <dc:title>Librum IV</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio29"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio30"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio29"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio30"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1">
       <dc:title>Quaestio 1, [Prologus, Quaestio 1]</dc:title>
@@ -123,6 +158,7 @@
       <sctap:questionTitle>Utrum possibile sit viatori deum esse sit per se notum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -134,6 +170,7 @@
       <sctap:questionTitle>Vtrum theologia sit sciencia speculatiua vel practica</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -145,6 +182,7 @@
       <sctap:questionTitle>Utrum sola trinitate incommutabili sit fruendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -156,6 +194,7 @@
       <sctap:questionTitle>Utrum beatitudo sit actus intellectus vel voluntatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -167,6 +206,7 @@
       <sctap:questionTitle>Utrum unicus actus intellectus vel voluntatis sit respectu diversorum distinctus)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -178,6 +218,7 @@
       <sctap:questionTitle>Utrum spiritus sanctus procedat a patre et a filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -189,6 +230,7 @@
       <sctap:questionTitle>Utrum spiritus sanctus procedat a patre et a filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -200,6 +242,7 @@
       <sctap:questionTitle>Utrum mens humana sit ymago trinitatis increate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -211,6 +254,7 @@
       <sctap:questionTitle>Utrum mens ipsa et ceteri habitus sibi presentes sint principia in memoria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -222,6 +266,7 @@
       <sctap:questionTitle>Utrum ex presentia speciei in memoria sequatur necessario cogitatio actualis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -233,6 +278,7 @@
       <sctap:questionTitle>Utrum intellectus agens sit aliqua pars ymaginis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -244,6 +290,7 @@
       <sctap:questionTitle>Utrum amor procedat ab aliqua notitia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -255,6 +302,7 @@
       <sctap:questionTitle>Utrum appetitus contrarii vel passiones contrarii possint esse in voluntate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -266,6 +314,7 @@
       <sctap:questionTitle>Utrum caritas possit augeri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -277,6 +326,7 @@
       <sctap:questionTitle>Utrum sit ponenda alia caritas in anima quam spiritus sanctus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -288,6 +338,7 @@
       <sctap:questionTitle>Utrum deus sit prescius omnium futurorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -299,6 +350,7 @@
       <sctap:questionTitle>Utrum deus possit revelare creature rationali futura contingentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -310,6 +362,7 @@
       <sctap:questionTitle>Utrum creatura rationalis possit prescire in verbo aliquod futurum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -321,6 +374,7 @@
       <sctap:questionTitle>Utrum deus sit immutabilis et incircumscriptus.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -332,6 +386,7 @@
       <sctap:questionTitle>Utrum Deus sit omnipotens</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -343,6 +398,7 @@
       <sctap:questionTitle>Utrum deus in principio temporis creavit mundum de nihilo.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -354,6 +410,7 @@
       <sctap:questionTitle>Utrum angeli peccaverunt per libertatem arbitrii.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -365,6 +422,7 @@
       <sctap:questionTitle>Utrum omnes angeli confirmati sint in statu merendi.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -376,6 +434,7 @@
       <sctap:questionTitle>Utrum angeli habeant cognitionem distinctam omnium creaturarum.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -387,6 +446,7 @@
       <sctap:questionTitle>Utrum angeli cognoscant per species.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -398,6 +458,7 @@
       <sctap:questionTitle>Utrum angeli fuerunt creati in caritate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -409,6 +470,7 @@
       <sctap:questionTitle>Utrum quilibet homo concupiscentialiter propagatus concipiatur in peccato)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -420,6 +482,7 @@
       <sctap:questionTitle>Utrum in voluntate sit aliquis habitus allectivus vel inclinativus ad actionem.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -431,6 +494,7 @@
       <sctap:questionTitle>Utrum in sacramento altaris sit corpus Christi sub speciebus vini et panis.)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>
@@ -442,6 +506,7 @@
       <sctap:questionTitle>Utrum suffragia Ecclesie prosint defunctis in purgatorio.17)</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>

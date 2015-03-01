@@ -21,17 +21,22 @@
       <dc:title>Librum I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1">
       <dc:title>Librum I, Distinctio 1</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/librum/wcl-book1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonlectura/librum/wcl-book1"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/chattonlectura/item/wcl-b1d1q1">
       <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
@@ -41,6 +46,7 @@
       <sctap:questionTitle>Utrum requiratur quod Deus sit finis actus amoris viatoris erga Deum et proximum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1"/>
       <sctap:status>Not Started</sctap:status>
    </rdf:Description>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_1_12_11">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, I, d. 12, can. 11</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, I, d. 12, can. 11</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_1_23_14">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, I, distinctio 23, canon 14</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, I, distinctio 23, canon 14</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_2_1_1_59">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, II, causa 1, quaestio 1, canon 59</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, II, causa 1, quaestio 1, canon 59</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_2_7_1_16">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, II, causa 7, quaestio 1, canon 16</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, II, causa 7, quaestio 1, canon 16</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_2_1_7_24">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, II, causa 1, quaestio 7, canon 24</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, II, causa 1, quaestio 7, canon 24</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_2_24_1_6">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, II, causa 24, quaestio 1, canon 6</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, II, causa 24, quaestio 1, canon 6</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_3_4_23">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, III, distinctio 4, canon 23</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, III, distinctio 4, canon 23</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_3_4_31">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, III, distinctio 4, canon 31</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, III, distinctio 4, canon 31</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Gratian_Decretum_3_4_52">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Decretum Gratiani, III, distinctio 4, canon 52</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Gratian_Decretum"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Gratian"/>
+      <sctap:citation>Decretum Gratiani, III, distinctio 4, canon 52</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_3_42_1">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, III, titulus 42, cap. 1, "si quis"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, III, titulus 42, cap. 1, "si quis"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_3_42_2">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, III, titulus 42, cap. 1, "de quibus dubium est"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, III, titulus 42, cap. 1, "de quibus dubium est"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:fromChapter>3</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_3_42_4">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, III, titulus 42, cap. 4, "de quibus dubium est"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, III, titulus 42, cap. 4, "de quibus dubium est"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:fromChapter>4</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_4_5_5">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, IV, titulus 5, cap. 5, "Super eo vero"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, IV, titulus 5, cap. 5, "Super eo vero"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>5</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_4_5_7">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, IV, titulus 5, cap. 7, "Si conditiones"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, IV, titulus 5, cap. 7, "Si conditiones"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>7</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_5_39_21">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, V, titulus 39, cap. 21, "a nobis"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, V, titulus 39, cap. 21, "a nobis"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>21</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtra_1_21_4">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Quinque Libri Decretalium, 1, titulus 21, cap. 4, "nuper"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtra"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/RaymondOfPenyafort"/>
+      <sctap:citation>Quinque Libri Decretalium, 1, titulus 21, cap. 4, "nuper"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>4</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/LiberExtraSextus_4_1_1">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Sexti Decretalium, 4, titulus 1, cap. 1, "ex sponsalibus"</dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/LiberExtraSextus"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:citation>Sexti Decretalium, 4, titulus 1, cap. 1, "ex sponsalibus"</sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Scholastic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:referencedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+   </rdf:Description>
+</rdf:RDF>

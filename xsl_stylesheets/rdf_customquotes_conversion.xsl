@@ -15,12 +15,15 @@
             xmlns:dc="http://purl.org/dc/elements/1.1/"
             xmlns:owl="http://www.w3.org/2002/07/owl#">
             <xsl:for-each select="//item">
-                <xsl:call-template name="createQuotationEntry"/>
+                <xsl:choose>
+                    <xsl:when test="./quote/text()">
+                        <xsl:call-template name="createQuotationEntry"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:call-template name="createPassageEntry"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:for-each>
-            <!-- use below for testing - much faster -->
-            <!--<xsl:for-each select="document('/Users/JCWitt/Documents/BibleQuotes/nova-vulgata/mt.xml')//vers">
-                <xsl:call-template name="createQuotationEntry"/>
-            </xsl:for-each>-->
         </rdf:RDF> 
     </xsl:template>
     
@@ -52,14 +55,58 @@
                     </xsl:choose>
                 </xsl:for-each>
                 
-                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]">
+                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes|sctap:references[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
-                    <sctap:quotedBy rdf:resource="{$itemid}"/>
+                    <xsl:choose>
+                        <xsl:when test="./name() eq 'quotes'">
+                            <sctap:quotedBy rdf:resource="{$itemid}"/>
+                        </xsl:when>
+                        <xsl:when test="./name() eq 'references'">
+                            <sctap:referencedBy rdf:resource="{$itemid}"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <sctap:quoteBy rdf:resource="{$itemid}"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:for-each>
             
             </rdf:Description>
         
     </xsl:template>
+    <xsl:template name="createPassageEntry">
+        <xsl:variable name="passageType" select="./quote/@type"/>
+        <xsl:variable name="citation" select="./note[@type='citation']"/>
+        <xsl:variable name="passageid" select="./@xml:id"/>
+        <xsl:variable name="authorid" select="translate(./bibl/author/@ref, '#', '')"/>
+        <xsl:variable name="workid" select="translate(./bibl/title/@ref, '#', '')"/>
+        <xsl:variable name="worktitle" select="/bibl/title"/>
+        <rdf:Description rdf:about="http://scta.info/resource/passage/{$passageid}">
+            <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+            <dc:title><xsl:value-of select="$citation"></xsl:value-of></dc:title>
+            <sctap:fromWork rdf:resource="http://scta.info/resource/Work/{$workid}"/>
+            <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/{$authorid}"/>
+            <sctap:citation><xsl:value-of select="$citation"/></sctap:citation>
+            <sctap:passageType rdf:resource="http://scta.info/resource/passageType/{$passageType}"/>
+            
+            <xsl:for-each select="./bibl/biblScope">
+                <xsl:choose>
+                    <xsl:when test="./@type = 'librum'">
+                        <sctap:fromBook><xsl:value-of select="."/></sctap:fromBook>
+                    </xsl:when>
+                    <xsl:when test="./@type = 'capitulus'">
+                        <sctap:fromChapter><xsl:value-of select="."/></sctap:fromChapter>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:for-each>
+            
+            <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:references[@rdf:resource=concat('http://scta.info/resource/passage/', $passageid)]">
+                <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
+                <sctap:referencedBy rdf:resource="{$itemid}"/>
+            </xsl:for-each>
+            
+        </rdf:Description>
+    </xsl:template>
+    
     <xsl:template match="head">
         
     </xsl:template>

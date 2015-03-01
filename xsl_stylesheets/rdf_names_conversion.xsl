@@ -27,7 +27,7 @@
             <rdf:Description rdf:about="http://scta.info/resource/person/{$id}">
                 <rdf:type rdf:resource="http://scta.info/resource/person"/>
                 <dc:title><xsl:value-of select="./tei:persName[@xml:lang='en']"></xsl:value-of></dc:title>
-                <sctar:type rdf:resource="http://scta.info/resource/persontype/{$person-type}"/>
+                <sctap:personType rdf:resource="http://scta.info/resource/persontype/{$person-type}"/>
                 <xsl:if test="./tei:note[@type='dbpedia-url']">
                     <xsl:variable name="dbpedia-url"><xsl:value-of select="./tei:note[@type='dbpedia-url']"/></xsl:variable>
                     <owl:sameAs rdf:resource="{$dbpedia-url}"/>
