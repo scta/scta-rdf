@@ -232,7 +232,9 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
-   </rdf:Description>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
+                <!-- f. i.5.vb of Lyon edition -->
+            </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q3">
       <dc:title>Quaestio 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>

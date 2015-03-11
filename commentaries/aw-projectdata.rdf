@@ -19620,6 +19620,7 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/wodehamordinatio/transcription/sorb_b4-q3/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/wodehamordinatio/transcription/sorb_b4-q3/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/wodehamordinatio/transcription/sorb_b4-q3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/wodehamordinatio/transcription/sorb_b4-q3/paragraph/"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/wodehamordinatio/b4-q3/transcription/sorb"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/witness/maz_b4-q3">
@@ -19717,21 +19718,17 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q6-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/ps"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q6-2"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/LiberExtra"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q6-3"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q6-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q6-5"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q6--6"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q6--5"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/ps50_19"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q6--4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q6--3"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/ps50_19"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q6--2"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/rom5_20"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q6--1"/>
@@ -19910,7 +19907,7 @@ angelis in caelo super uno peccatore”</sctap:elementText>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q6-3">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/LiberExtra"/>
       <sctap:elementText>decretalis extra</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
    </rdf:Description>
@@ -19926,35 +19923,22 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <sctap:elementText>sententiarum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--6">
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--4">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
       <sctap:elementText>dixi confitebor</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--5">
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--3">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
       <sctap:elementText>contritio est sufficiens sacrificium pro peccato</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--4">
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--2">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/ps50_19"/>
       <sctap:elementText>sacramentum deo spiritus contribulatus</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--3">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>omnis utriusque 
-                    sexus</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--2">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>semel in anno extra ubi prius omnis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q6--1">

@@ -28,6 +28,43 @@
                <note type="citation">??</note>
                <note type="firstIdentification">Rimini, D'Ailly</note>
             </item>
+            <item xml:id="Aristotle_PosteriorAnalytics_1_2_a"> 
+               <quote>Scire est causam rei cognoscere</quote> 
+               <bibl type="Aristotle_PoseriorAnalytics">
+                  <author ref="#Aristotle">Aristoteles</author>
+                  <title ref="#PosteriorAnalytics">Posterior Analytics</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">Aristoteles, An. Post., I, 2, 71b9-12</note>
+               <note type="firstIdentification">Henricus de Werl, I, prol., q. 2</note> <!-- Also item number 8 in auctoritates file --> 
+               <!-- also in Holcot, book II, q. 2, a. 8 -->
+            </item>
+            <item xml:id="Aristotle_Metaphysics_2_1_a"> <!-- also in auctoritates; aa-meta-42 -->
+               <quote>sicut se habet ad entitatem, sic se habet ad veritatem</quote> 
+               <bibl type="Aristotle_Metaphysics">
+                  <author ref="#Aristotle">Aristoteles</author>
+                  <title ref="#Metaphysics">Metaphysics</title>
+                  <biblScope type="librum">2</biblScope>
+                  <biblScope type="capitulus">1</biblScope>
+               </bibl>
+               <note type="citation">Aristoteles, Metaphysics, II, 1, 993b22-23 (AL 25.2, p. 37)</note> 
+               <note type="firstIdentification">Henricus de Werl, I, prol., q. 2</note> <!-- also in auctoritates; aa-meta-42 -->
+            </item>
+            <item xml:id="Aristotle_PosteriorAnalytics_1_2_b"> 
+               <quote>Scire autem opinamur unumquodque simpliciter, sed non sophistico modo quod est secundum accidens, cum causam cognoscere arbitramur propter quam est res, quoniam illius est causa et non contingere hoc aliter se habere</quote> 
+               <bibl type="Aristotle_PoseriorAnalytics">
+                  <author ref="#Aristotle">Aristoteles</author>
+                  <title ref="#PosteriorAnalytics">Posterior Analytics</title>
+                  <biblScope type="librum">1</biblScope>
+                  <biblScope type="capitulus">2</biblScope>
+               </bibl>
+               <note type="citation">Aristoteles, An. Post., I, 2, 71b10-12 <!-- pg. 286 of Analytica Posteriora
+ By Jacobus (Venetici.), --></note>
+               <note type="firstIdentification">Henricus de Werl, I, prol., q. 2</note> <!-- see Aristotle_PosteriorAnalytics_1_2_a --> 
+            </item>
+            
+            
          </list>
       </body>
   </text>

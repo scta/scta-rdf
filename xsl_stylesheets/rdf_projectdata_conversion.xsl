@@ -9,10 +9,12 @@
     <xsl:param name="author"><xsl:value-of select="//header/authorName"/></xsl:param>
     <xsl:param name="commentaryname"><xsl:value-of select="//header/commentaryName"/></xsl:param>
     <xsl:param name="cid"><xsl:value-of select="//header/commentaryid"/></xsl:param>
+    <xsl:param name="commentaryslug"><xsl:value-of select="//header/commentaryslug"/></xsl:param>
     <xsl:param name="author-uri"><xsl:value-of select="//header/authorUri"/></xsl:param>
     <xsl:param name="parent-uri"><xsl:value-of select="//header/parentUri"/></xsl:param>
     <xsl:param name="textfilesdir"><xsl:value-of select="//header/textfilesdir"/></xsl:param>
     <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
+    
     
     <xsl:output method="xml" indent="yes"/>
     
@@ -430,17 +432,16 @@
                                     <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
                                     <sctap:isParagraphOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}"/>
                                     <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$slug}/paragraph/{$pid}"/>
-                                    <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:surface[@start=$pid_ref]">
+                                    <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
                                         <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
                                         <sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$slug}_{$fs}/paragraph/{$pid}/{$position}"/>
                                     </xsl:for-each>
                                     <!-- could add path to plain text version of paragraph -->
                                 </rdf:Description>
-                                    <!-- test path will need to be changed if tei fascimile structure is changed -->
-                                    <xsl:if test="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:surface[@start=$pid_ref]">
+                                    <xsl:if test="document($transcription-text-path)/tei:TEI/tei:facsimile">
                                         
-                                        <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:surface[@start=$pid_ref]">
-                                            <xsl:variable name="imagefilename" select="./tei:graphic/@url"/>
+                                        <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
+                                            <xsl:variable name="imagefilename" select="./preceding-sibling::tei:graphic/@url"/>
                                             <xsl:variable name="canvasname" select="substring-before($imagefilename, '.')"/>
                                             <xsl:variable name="ulx" select="./@ulx"/>
                                             <xsl:variable name="uly" select="./@uly"/>
@@ -454,7 +455,7 @@
                                                 <rdf:type rdf:resource="http://scta.info/resource/zone"/>
                                                 <!-- problem here with slug since iiif slug is prefaced with pg or pp etc -->
                                                 <sctap:isZoneOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}/paragraph/{$pid}"/>
-                                                <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pp-{$slug}/canvas/{$canvasname}"/>
+                                                <sctap:isZoneOn rdf:resource="http://scta.info/iiif/{$commentaryslug}-{$slug}/canvas/{$canvasname}"/>
                                                 <sctap:ulx><xsl:value-of select="$ulx"/></sctap:ulx>
                                                 <sctap:uly><xsl:value-of select="$uly"/></sctap:uly>
                                                 <sctap:lrx><xsl:value-of select="$lrx"/></sctap:lrx>

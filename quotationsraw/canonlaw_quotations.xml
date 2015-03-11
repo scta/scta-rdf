@@ -226,6 +226,32 @@
                <note type="citation">Sexti Decretalium, 4, titulus 1, cap. 1, "ex sponsalibus"</note>
                <note type="firstIdentification">Wodeham, Ordinatio, Book 4, question 3</note>
             </item>
+            <!-- reference entry; see below for quote entry -->
+            <item xml:id="LiberExtra_5_38_12"> <!-- omnis utriusque sexus fidelis-->
+               <quote type="Scholastic"/>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="titulus">38</biblScope>
+                  <biblScope type="capitulus">12</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, 5, titulus 38, cap. 12, "omnis utriusque sexus fidelis"</note>
+               <note type="firstIdentification">Holcot, Book 4, question IV (Lyon 1518 numbering)</note>
+            </item>
+            <!-- quote version, see immediately above for just passage reference. -->
+            <item xml:id="LiberExtra_5_38_12_a"> <!-- omnis utriusque sexus fidelis-->
+               <quote type="Scholastic">Omnis utriuque sexus fidelis, postquam ad annos discretionis pervenerit, omnia sua solus peccata saltem semel in anno fideliter confiteatur proprio sacerdoti</quote>
+               <bibl type="LiberExtra">
+                  <author ref="#RaymondOfPenyafort">RaymondOfPenyafort</author>
+                  <title ref="#LiberExtra">Liber Extra</title>
+                  <biblScope type="librum">5</biblScope>
+                  <biblScope type="titulus">38</biblScope>
+                  <biblScope type="capitulus">12</biblScope>
+               </bibl>
+               <note type="citation">Quinque Libri Decretalium, 5, titulus 38, cap. 12, "omnis utriusque sexus fidelis"</note>
+               <note type="firstIdentification">Holcot, Book 4, question IV (Lyon 1518 numbering)</note>
+            </item>
             
             
             

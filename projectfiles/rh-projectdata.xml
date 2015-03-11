@@ -66,6 +66,10 @@
             <fileName filestem="rh-b2q2">rh-b2q2.xml</fileName>
             <title>Quaestio 2</title>
             <questionTitle>Utrum Deus ab aeterno sciverit se producturum mundum.</questionTitle>
+            <manualRDFs>
+                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
+                <!-- f. i.5.vb of Lyon edition -->
+            </manualRDFs>
         </item>
         <item id="rh-b2q3" type="quaestio">
             <fileName filestem="rh-b2q3">rh-b2q3.xml</fileName>

@@ -11254,6 +11254,20 @@
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e92"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e92/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e92/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e92</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e92"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50r"/>
+      <sctap:ulx>4</sctap:ulx>
+      <sctap:uly>1004</sctap:uly>
+      <sctap:lrx>1682</sctap:lrx>
+      <sctap:lry>1290</sctap:lry>
+      <sctap:width>1678</sctap:width>
+      <sctap:height>286</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e111">
       <dc:title>Paragraph pgb1q15-d1e111</dc:title>
@@ -11290,42 +11304,140 @@
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e194"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e194/2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e194/2">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e194</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e194"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>494</sctap:ulx>
+      <sctap:uly>144</sctap:uly>
+      <sctap:lrx>2036</sctap:lrx>
+      <sctap:lry>376</sctap:lry>
+      <sctap:width>1542</sctap:width>
+      <sctap:height>232</sctap:height>
+      <sctap:position>2</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e240">
       <dc:title>Paragraph pgb1q15-d1e240</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e240"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e240/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e240/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e240</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e240"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>482</sctap:ulx>
+      <sctap:uly>298</sctap:uly>
+      <sctap:lrx>2024</sctap:lrx>
+      <sctap:lry>464</sctap:lry>
+      <sctap:width>1542</sctap:width>
+      <sctap:height>166</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e269">
       <dc:title>Paragraph pgb1q15-d1e269</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e269"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e269/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e269/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e269</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e269"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>434</sctap:ulx>
+      <sctap:uly>388</sctap:uly>
+      <sctap:lrx>2006</sctap:lrx>
+      <sctap:lry>580</sctap:lry>
+      <sctap:width>1572</sctap:width>
+      <sctap:height>192</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e277">
       <dc:title>Paragraph pgb1q15-d1e277</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e277"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e277/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e277/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e277</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e277"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>448</sctap:ulx>
+      <sctap:uly>502</sctap:uly>
+      <sctap:lrx>2020</sctap:lrx>
+      <sctap:lry>636</sctap:lry>
+      <sctap:width>1572</sctap:width>
+      <sctap:height>134</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e295">
       <dc:title>Paragraph pgb1q15-d1e295</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e295"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e295/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e295/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e295</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e295"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>424</sctap:ulx>
+      <sctap:uly>584</sctap:uly>
+      <sctap:lrx>1992</sctap:lrx>
+      <sctap:lry>976</sctap:lry>
+      <sctap:width>1568</sctap:width>
+      <sctap:height>392</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e340">
       <dc:title>Paragraph pgb1q15-d1e340</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e340"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e340/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e340/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e340</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e340"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>428</sctap:ulx>
+      <sctap:uly>854</sctap:uly>
+      <sctap:lrx>1996</sctap:lrx>
+      <sctap:lry>1126</sctap:lry>
+      <sctap:width>1568</sctap:width>
+      <sctap:height>272</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e353">
       <dc:title>Paragraph pgb1q15-d1e353</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e353"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e353/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e353/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e353</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e353"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>428</sctap:ulx>
+      <sctap:uly>1018</sctap:uly>
+      <sctap:lrx>1996</sctap:lrx>
+      <sctap:lry>1484</sctap:lry>
+      <sctap:width>1568</sctap:width>
+      <sctap:height>466</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e375">
       <dc:title>Paragraph pgb1q15-d1e375</dc:title>
@@ -11338,36 +11450,134 @@
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e403"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e403/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e403/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e403</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e403"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>424</sctap:ulx>
+      <sctap:uly>1568</sctap:uly>
+      <sctap:lrx>1992</sctap:lrx>
+      <sctap:lry>1814</sctap:lry>
+      <sctap:width>1568</sctap:width>
+      <sctap:height>246</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e425">
       <dc:title>Paragraph pgb1q15-d1e425</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e425"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e425/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e425/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e425</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e425"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>416</sctap:ulx>
+      <sctap:uly>1732</sctap:uly>
+      <sctap:lrx>1988</sctap:lrx>
+      <sctap:lry>1928</sctap:lry>
+      <sctap:width>1572</sctap:width>
+      <sctap:height>196</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e449">
       <dc:title>Paragraph pgb1q15-d1e449</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e449"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e449/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e449/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e449</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e449"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>410</sctap:ulx>
+      <sctap:uly>1840</sctap:uly>
+      <sctap:lrx>1982</sctap:lrx>
+      <sctap:lry>2172</sctap:lry>
+      <sctap:width>1572</sctap:width>
+      <sctap:height>332</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e462">
       <dc:title>Paragraph pgb1q15-d1e462</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e462"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e462/1"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e462/2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e462/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e462</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e462"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L50v"/>
+      <sctap:ulx>382</sctap:ulx>
+      <sctap:uly>2088</sctap:uly>
+      <sctap:lrx>1950</sctap:lrx>
+      <sctap:lry>2366</sctap:lry>
+      <sctap:width>1568</sctap:width>
+      <sctap:height>278</sctap:height>
+      <sctap:position>1</sctap:position>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e462/2">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e462</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e462"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>8</sctap:ulx>
+      <sctap:uly>636</sctap:uly>
+      <sctap:lrx>1634</sctap:lrx>
+      <sctap:lry>1288</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>652</sctap:height>
+      <sctap:position>2</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e476">
       <dc:title>Paragraph pgb1q15-d1e476</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e476"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e476/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e476/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e476</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e476"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>6</sctap:ulx>
+      <sctap:uly>268</sctap:uly>
+      <sctap:lrx>1632</sctap:lrx>
+      <sctap:lry>530</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>262</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e495">
       <dc:title>Paragraph pgb1q15-d1e495</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e495"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e495/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e495/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e495</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e495"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>12</sctap:ulx>
+      <sctap:uly>426</sctap:uly>
+      <sctap:lrx>1638</sctap:lrx>
+      <sctap:lry>750</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>324</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e505">
       <dc:title>Paragraph pgb1q15-d1e505</dc:title>
@@ -11380,72 +11590,254 @@
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e574"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e574/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e574/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e574</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e574"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>6</sctap:ulx>
+      <sctap:uly>1236</sctap:uly>
+      <sctap:lrx>1632</sctap:lrx>
+      <sctap:lry>1540</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>304</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e592">
       <dc:title>Paragraph pgb1q15-d1e592</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e592"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e592/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e592/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e592</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e592"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>0</sctap:ulx>
+      <sctap:uly>1438</sctap:uly>
+      <sctap:lrx>1626</sctap:lrx>
+      <sctap:lry>1706</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>268</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e615">
       <dc:title>Paragraph pgb1q15-d1e615</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e615"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e615/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e615/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e615</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e615"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>6</sctap:ulx>
+      <sctap:uly>1598</sctap:uly>
+      <sctap:lrx>1632</sctap:lrx>
+      <sctap:lry>1814</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>216</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e629">
       <dc:title>Paragraph pgb1q15-d1e629</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e629"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e629/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e629/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e629</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e629"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>16</sctap:ulx>
+      <sctap:uly>1716</sctap:uly>
+      <sctap:lrx>1642</sctap:lrx>
+      <sctap:lry>1982</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>266</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e655">
       <dc:title>Paragraph pgb1q15-d1e655</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e655"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e655/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e655/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e655</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e655"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>4</sctap:ulx>
+      <sctap:uly>1880</sctap:uly>
+      <sctap:lrx>1630</sctap:lrx>
+      <sctap:lry>2144</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>264</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e665">
       <dc:title>Paragraph pgb1q15-d1e665</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e665"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e665/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e665/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e665</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e665"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>2</sctap:ulx>
+      <sctap:uly>2056</sctap:uly>
+      <sctap:lrx>1628</sctap:lrx>
+      <sctap:lry>2292</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>236</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e683">
       <dc:title>Paragraph pgb1q15-d1e683</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e683"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e683/1"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e683/2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e683/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e683</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e683"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51r"/>
+      <sctap:ulx>2</sctap:ulx>
+      <sctap:uly>2206</sctap:uly>
+      <sctap:lrx>1628</sctap:lrx>
+      <sctap:lry>2362</sctap:lry>
+      <sctap:width>1626</sctap:width>
+      <sctap:height>156</sctap:height>
+      <sctap:position>1</sctap:position>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e683/2">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e683</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e683"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>526</sctap:ulx>
+      <sctap:uly>226</sctap:uly>
+      <sctap:lrx>2022</sctap:lrx>
+      <sctap:lry>426</sctap:lry>
+      <sctap:width>1496</sctap:width>
+      <sctap:height>200</sctap:height>
+      <sctap:position>2</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e702">
       <dc:title>Paragraph pgb1q15-d1e702</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e702"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e702/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e702/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e702</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e702"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>514</sctap:ulx>
+      <sctap:uly>314</sctap:uly>
+      <sctap:lrx>2042</sctap:lrx>
+      <sctap:lry>668</sctap:lry>
+      <sctap:width>1528</sctap:width>
+      <sctap:height>354</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e725">
       <dc:title>Paragraph pgb1q15-d1e725</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e725"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e725/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e725/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e725</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e725"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>482</sctap:ulx>
+      <sctap:uly>612</sctap:uly>
+      <sctap:lrx>2010</sctap:lrx>
+      <sctap:lry>876</sctap:lry>
+      <sctap:width>1528</sctap:width>
+      <sctap:height>264</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e743">
       <dc:title>Paragraph pgb1q15-d1e743</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e743"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e743/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e743/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e743</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e743"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>442</sctap:ulx>
+      <sctap:uly>1552</sctap:uly>
+      <sctap:lrx>1980</sctap:lrx>
+      <sctap:lry>1770</sctap:lry>
+      <sctap:width>1538</sctap:width>
+      <sctap:height>218</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e759">
       <dc:title>Paragraph pgb1q15-d1e759</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e759"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e759/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e759/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e759</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e759"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>462</sctap:ulx>
+      <sctap:uly>932</sctap:uly>
+      <sctap:lrx>1990</sctap:lrx>
+      <sctap:lry>1388</sctap:lry>
+      <sctap:width>1528</sctap:width>
+      <sctap:height>456</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e778">
       <dc:title>Paragraph pgb1q15-d1e778</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e778"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e778/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e778/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e778</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e778"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>444</sctap:ulx>
+      <sctap:uly>1316</sctap:uly>
+      <sctap:lrx>1980</sctap:lrx>
+      <sctap:lry>1654</sctap:lry>
+      <sctap:width>1536</sctap:width>
+      <sctap:height>338</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e800">
       <dc:title>Paragraph pgb1q15-d1e800</dc:title>
@@ -11458,48 +11850,174 @@
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e815"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e815/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e815/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e815</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e815"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>452</sctap:ulx>
+      <sctap:uly>1676</sctap:uly>
+      <sctap:lrx>1988</sctap:lrx>
+      <sctap:lry>1892</sctap:lry>
+      <sctap:width>1536</sctap:width>
+      <sctap:height>216</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e827">
       <dc:title>Paragraph pgb1q15-d1e827</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e827"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e827/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e827/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e827</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e827"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>444</sctap:ulx>
+      <sctap:uly>1832</sctap:uly>
+      <sctap:lrx>1980</sctap:lrx>
+      <sctap:lry>2242</sctap:lry>
+      <sctap:width>1536</sctap:width>
+      <sctap:height>410</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e848">
       <dc:title>Paragraph pgb1q15-d1e848</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e848"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e848/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e848/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e848</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e848"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>424</sctap:ulx>
+      <sctap:uly>2126</sctap:uly>
+      <sctap:lrx>1962</sctap:lrx>
+      <sctap:lry>2388</sctap:lry>
+      <sctap:width>1538</sctap:width>
+      <sctap:height>262</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e863">
       <dc:title>Paragraph pgb1q15-d1e863</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e863"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e863/1"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e863/2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e863/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e863</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e863"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L51v"/>
+      <sctap:ulx>424</sctap:ulx>
+      <sctap:uly>2270</sctap:uly>
+      <sctap:lrx>1962</sctap:lrx>
+      <sctap:lry>2406</sctap:lry>
+      <sctap:width>1538</sctap:width>
+      <sctap:height>136</sctap:height>
+      <sctap:position>1</sctap:position>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e863/2">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e863</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e863"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>0</sctap:ulx>
+      <sctap:uly>202</sctap:uly>
+      <sctap:lrx>1726</sctap:lrx>
+      <sctap:lry>392</sctap:lry>
+      <sctap:width>1726</sctap:width>
+      <sctap:height>190</sctap:height>
+      <sctap:position>2</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e872">
       <dc:title>Paragraph pgb1q15-d1e872</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e872"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e872/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e872/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e872</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e872"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>0</sctap:ulx>
+      <sctap:uly>274</sctap:uly>
+      <sctap:lrx>1726</sctap:lrx>
+      <sctap:lry>674</sctap:lry>
+      <sctap:width>1726</sctap:width>
+      <sctap:height>400</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e895">
       <dc:title>Paragraph pgb1q15-d1e895</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e895"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e895/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e895/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e895</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e895"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>4</sctap:ulx>
+      <sctap:uly>540</sctap:uly>
+      <sctap:lrx>1726</sctap:lrx>
+      <sctap:lry>934</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>394</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e920">
       <dc:title>Paragraph pgb1q15-d1e920</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e920"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e920/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e920/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e920</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e920"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>4</sctap:ulx>
+      <sctap:uly>790</sctap:uly>
+      <sctap:lrx>1726</sctap:lrx>
+      <sctap:lry>1030</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>240</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e934">
       <dc:title>Paragraph pgb1q15-d1e934</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e934"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e934/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e934/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e934</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e934"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>6</sctap:ulx>
+      <sctap:uly>894</sctap:uly>
+      <sctap:lrx>1732</sctap:lrx>
+      <sctap:lry>1294</sctap:lry>
+      <sctap:width>1726</sctap:width>
+      <sctap:height>400</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e945">
       <dc:title>Paragraph pgb1q15-d1e945</dc:title>
@@ -11512,66 +12030,234 @@
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e960"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e960/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e960/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e960</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e960"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>12</sctap:ulx>
+      <sctap:uly>1172</sctap:uly>
+      <sctap:lrx>1734</sctap:lrx>
+      <sctap:lry>1516</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>344</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e982">
       <dc:title>Paragraph pgb1q15-d1e982</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e982"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e982/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e982/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e982</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e982"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>18</sctap:ulx>
+      <sctap:uly>1396</sctap:uly>
+      <sctap:lrx>1740</sctap:lrx>
+      <sctap:lry>1618</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>222</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e994">
       <dc:title>Paragraph pgb1q15-d1e994</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e994"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e994/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e994/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e994</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e994"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>2</sctap:ulx>
+      <sctap:uly>1506</sctap:uly>
+      <sctap:lrx>1724</sctap:lrx>
+      <sctap:lry>1736</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>230</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1003">
       <dc:title>Paragraph pgb1q15-d1e1003</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1003"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1003/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1003/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1003</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1003"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>2</sctap:ulx>
+      <sctap:uly>1672</sctap:uly>
+      <sctap:lrx>1724</sctap:lrx>
+      <sctap:lry>2006</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>334</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1027">
       <dc:title>Paragraph pgb1q15-d1e1027</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1027"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1027/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1027/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1027</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1027"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>2</sctap:ulx>
+      <sctap:uly>1898</sctap:uly>
+      <sctap:lrx>1724</sctap:lrx>
+      <sctap:lry>2112</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>214</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1037">
       <dc:title>Paragraph pgb1q15-d1e1037</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1037"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1037/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1037/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1037</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1037"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>4</sctap:ulx>
+      <sctap:uly>2010</sctap:uly>
+      <sctap:lrx>1726</sctap:lrx>
+      <sctap:lry>2164</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>154</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1043">
       <dc:title>Paragraph pgb1q15-d1e1043</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1043"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1043/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1043/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1043</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1043"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>4</sctap:ulx>
+      <sctap:uly>2066</sctap:uly>
+      <sctap:lrx>1726</sctap:lrx>
+      <sctap:lry>2264</sctap:lry>
+      <sctap:width>1722</sctap:width>
+      <sctap:height>198</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1051">
       <dc:title>Paragraph pgb1q15-d1e1051</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1051"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1051/1"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1051/2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1051/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1051</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1051"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:ulx>6</sctap:ulx>
+      <sctap:uly>2168</sctap:uly>
+      <sctap:lrx>1732</sctap:lrx>
+      <sctap:lry>2358</sctap:lry>
+      <sctap:width>1726</sctap:width>
+      <sctap:height>190</sctap:height>
+      <sctap:position>1</sctap:position>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1051/2">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1051</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1051"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52v"/>
+      <sctap:ulx>432</sctap:ulx>
+      <sctap:uly>208</sctap:uly>
+      <sctap:lrx>1992</sctap:lrx>
+      <sctap:lry>464</sctap:lry>
+      <sctap:width>1560</sctap:width>
+      <sctap:height>256</sctap:height>
+      <sctap:position>2</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1076">
       <dc:title>Paragraph pgb1q15-d1e1076</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1076"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1076/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1076/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1076</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1076"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52v"/>
+      <sctap:ulx>428</sctap:ulx>
+      <sctap:uly>346</sctap:uly>
+      <sctap:lrx>1988</sctap:lrx>
+      <sctap:lry>514</sctap:lry>
+      <sctap:width>1560</sctap:width>
+      <sctap:height>168</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1083">
       <dc:title>Paragraph pgb1q15-d1e1083</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1083"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1083/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1083/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1083</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1083"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52v"/>
+      <sctap:ulx>418</sctap:ulx>
+      <sctap:uly>418</sctap:uly>
+      <sctap:lrx>1978</sctap:lrx>
+      <sctap:lry>932</sctap:lry>
+      <sctap:width>1560</sctap:width>
+      <sctap:height>514</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1124">
       <dc:title>Paragraph pgb1q15-d1e1124</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q15/transcription/lon/paragraph/pgb1q15-d1e1124"/>
+      <sctap:hasZone rdf:resource="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1124/1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/zone/lon_pg-b1q15/paragraph/pgb1q15-d1e1124/1">
+      <dc:title>Canvas zone for lon_pg-b1q15 paragraph pgb1q15-d1e1124</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+      <sctap:isZoneOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15/paragraph/pgb1q15-d1e1124"/>
+      <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52v"/>
+      <sctap:ulx>404</sctap:ulx>
+      <sctap:uly>834</sctap:uly>
+      <sctap:lrx>1964</sctap:lrx>
+      <sctap:lry>930</sctap:lry>
+      <sctap:width>1560</sctap:width>
+      <sctap:height>96</sctap:height>
+      <sctap:position>1</sctap:position>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b1q16">
       <dc:title>Quaestio 16</dc:title>
