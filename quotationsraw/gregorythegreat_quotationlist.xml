@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>LombardPress Gregory the Great Quote List</title>
+            <editor>Jeffrey C. Witt</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list>
+            <item xml:id="GregoryGreat_Moralium_epistola_4_a"> 
+               <quote>Quasi quidam quippe est fluvius, ut ita dixerim, planus et altus, in quo et agnus ambulet, et elephas natet</quote>
+               <bibl type="GregoryGreat_Moralium">
+                  <author ref="#GregoryGreat">Gregory the Great</author>
+                  <title ref="#Moralium">Moralium</title>
+                  <biblScope type="librum">epistola</biblScope>
+                  <biblScope type="capitulus">4</biblScope>
+               </bibl>
+               <note type="citation">Gregory the Great, Moralium, Epistola, c. 4, (PL 75, 515)</note>
+               <note type="firstIdentification">Lambertus De Monte, I, prologue, q. 1</note> 
+            </item>
+         </list>
+      </body>
+  </text>
+</TEI>

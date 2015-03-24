@@ -170,6 +170,14 @@
                    <role:AUT rdf:resource="{$author-uri}"/>
                    <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '000')"/></sctap:sectionOrderNumber>
                    <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '000')"/></sctap:totalOrderNumber>
+                   <xsl:if test="./following::item[1]">
+                     <xsl:variable name="next-item" select="./following::item[1]/fileName/@filestem"></xsl:variable>
+                     <sctap:next rdf:resource="http://scta.info/text/{$cid}/item/{$next-item}"/>
+                   </xsl:if>
+                   <xsl:if test="./preceding::item[1]">
+                     <xsl:variable name="previous-item" select="./preceding::item[1]/fileName/@filestem"></xsl:variable>
+                    <sctap:previous rdf:resource="http://scta.info/text/{$cid}/item/{$previous-item}"/>
+                   </xsl:if>
                         
                    <xsl:if test="./questionTitle">
                        <sctap:questionTitle><xsl:value-of select="./questionTitle"></xsl:value-of></sctap:questionTitle>

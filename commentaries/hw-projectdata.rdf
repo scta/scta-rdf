@@ -26,6 +26,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
       <sctap:questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis ratione</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -498,6 +499,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
       <sctap:questionTitle>Utrum theologia sit scientia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -869,6 +872,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
       <sctap:questionTitle>Utrum scientia theologiae sit scientia practica vel speculativa</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>

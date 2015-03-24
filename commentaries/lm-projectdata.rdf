@@ -487,6 +487,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1-prol-q2"/>
       <sctap:questionTitle>Utrum theologia sit scientia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -536,6 +537,48 @@
       <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-21"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Abraham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-31"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-32"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Jerome"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-33"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-37"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-39"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-40"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-41"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-42"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-43"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/deDiversisQuaestionibus"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/PosteriorAnalytics"/>
@@ -583,24 +626,94 @@
       <sctap:mentions rdf:resource="http://scta.info/resource/person/onGenesis"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-23"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--9"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/ez"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/sap"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/sap"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/io"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/rom"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Abraham"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/tit"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-31"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-32"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/rom"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-33"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Icor"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/is"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/deDivinisNominibus"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/iob"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-37"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/deDiversisQuaestionibus"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Sentences"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-39"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--28"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine_deTrinitate_14_1_3_b"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--8"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--27"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Itim6_16"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--7"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--26"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/io16_13"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--6"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--25"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/IIcor4_6"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--5"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--24"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/aa-meta-1"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--4"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--23"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine_DeTrinitate_6_10_11_a"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--3"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--22"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/io1_4"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--2"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--21"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/ps109_3"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--1"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--20"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/hebr1_3"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/cant8_6"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/ez"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/sap7_29"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/sap7_30"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/sap7_30"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/io1_4"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/io1_5"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/rom4_3"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/rom1_14"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat_Moralium_epistola_4_a"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/is7_9"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius_deDivinisNominibus_7_a"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/iob36_25"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Icor13_12"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-0"/>
       <sctap:status>draft</sctap:status>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1prolq1"/>
@@ -738,6 +851,132 @@
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-23">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:elementText>gregorius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-24">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
+      <sctap:elementText>chrisostus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-25">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:elementText>petri</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-26">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>apostolus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-27">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Abraham"/>
+      <sctap:elementText>abraham</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-28">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>apostolum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-29">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-30">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>dyonisii</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-31">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustini</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-32">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>gregorii</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-33">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Jerome"/>
+      <sctap:elementText>iheromus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-34">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>gregorius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-35">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-36">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
+      <sctap:elementText>chrisostus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-37">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-38">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>dyonisius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-39">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>boetius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-40">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>boetius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-41">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>paulo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-42">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-43">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magistri petri lombardi</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-1">
@@ -879,13 +1118,109 @@
       <sctap:elementText>super genesum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--9">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-24">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:elementText>canticum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-25">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/ez"/>
+      <sctap:elementText>ezechiel</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-26">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/sap"/>
+      <sctap:elementText>sapientiae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-27">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/sap"/>
+      <sctap:elementText>Sapientiam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-28">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/io"/>
+      <sctap:elementText>ioannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-29">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/rom"/>
+      <sctap:elementText>ad romanos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-30">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Abraham"/>
+      <sctap:elementText>abraham</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-31">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/tit"/>
+      <sctap:elementText>ad titum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-32">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-33">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/rom"/>
+      <sctap:elementText>ad romanos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-34">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Icor"/>
+      <sctap:elementText>prima ad corinthios</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-35">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/is"/>
+      <sctap:elementText>Isaiae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-36">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deDivinisNominibus"/>
+      <sctap:elementText>divinis nominibus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-37">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/iob"/>
+      <sctap:elementText>Iob</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-38">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deDiversisQuaestionibus"/>
+      <sctap:elementText>83 quaestionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-39">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Sentences"/>
+      <sctap:elementText>sententiarum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--28">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
       <sctap:elementText>ple[?] est principium artis et scientiae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--8">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--27">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b"/>
       <sctap:elementText>non quicquid scire potest ab hominibus 
@@ -893,55 +1228,184 @@
             illud quo fides saluberrima quae ad veram beatitudinem ducit gignitur nutritur et roboratur</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--7">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--26">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/Itim6_16"/>
       <sctap:elementText>habitat lucem inaccessibilem</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--6">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--25">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/io16_13"/>
       <sctap:elementText>cum venerit ille spiritus veritatis docebit vos omnem veritatem</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--5">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--24">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/IIcor4_6"/>
       <sctap:elementText>deus qui dixit de tenebris lumen splendescere illuxit in 
           cordibus vestris ad illuminationem scientiae evan?ii claritatis christi</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--4">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--23">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/aa-meta-1"/>
       <sctap:elementText>ab omni hominehomine scire desideratur </sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--3">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--22">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_6_10_11_a"/>
       <sctap:elementText>plena 
           rationum omnium viventium</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--2">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--21">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/io1_4"/>
       <sctap:elementText>quod factum est in ipso vita erat et vita erat lux hominum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--1">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--20">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/ps109_3"/>
       <sctap:elementText>ex utero ante luciferum genui te 
           in splendoribus sanctorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-0">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--19">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/quotation/hebr1_3"/>
       <sctap:elementText>portans omnia verbo virtutis suae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--18">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/cant8_6"/>
+      <sctap:elementText>pone me ut signaculum 
+          super cor tuum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--17">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/ez"/>
+      <sctap:elementText>tu 
+          signaculum similitudinis plenus sapientia et perfectus decore</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--16">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/sap7_29"/>
+      <sctap:elementText>luci conparata invenitur prior</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--15">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/sap7_30"/>
+      <sctap:elementText>luci enim succedit nox</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--14">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/sap7_30"/>
+      <sctap:elementText>autem non vincit malitia</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--13">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/io1_4"/>
+      <sctap:elementText>vita erat lux hominum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--12">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/io1_5"/>
+      <sctap:elementText>et lux in tenebris lucet et tenebrae eum non comprehenderunt</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--11">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>Quin potius lux comprehendit tenebras et sui claritate 
+            dissipavit</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--10">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/rom4_3"/>
+      <sctap:elementText>abraham credidit 
+          deo et reputatum est ei ad iustitiam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--9">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>scientia 
+          est secundum pietatem informans ad fidem et meltum operum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--8">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/rom1_14"/>
+      <sctap:elementText>Sapientibus 
+          et insipientibus debitor sum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--7">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/GregoryGreat_Moralium_epistola_4_a"/>
+      <sctap:elementText>sacra scriptura fluvius est 
+          in quo et agnus peditat et elephas natat</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--6">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>et his lumine desuper influente assentit 
+            et certius ea scit quam ea quae ex lumine sibi connaturali accipit</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--5">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/is7_9"/>
+      <sctap:elementText>nisi credideritis non intelligetis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--4">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/Dionysius_deDivinisNominibus_7_a"/>
+      <sctap:elementText>fides est lumen locans credentes in primam veritatem 
+          et primam veritatem in ipsis immobilem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--3">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>quidquid potest potentia inferior potest superior 
+          et amplius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--2">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/iob36_25"/>
+      <sctap:elementText>omnes vident eum unusquisque 
+          intuetur procul</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--1">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+      <sctap:elementText>Nunc cognosco ex parte Tunc autem cognoscam 
+          sicut cognitus sum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-0">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>Impossibiliter ut in gestis hominum 
+          quae semper creduntur et numquam intelliguntur Antecedenter ut in gestis divinis quae non 
+          intelliguntur nisi prius credantur Consequenter ut in disciplinabilibus quae mox ut intelliguntur 
+          statim creduntur </sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1prolq1">
@@ -976,6 +1440,15 @@
       <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1/paragraph/"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/lambertuscommentary/lm-b1prolq1/transcription/bruss"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1-prol-q2">
@@ -983,6 +1456,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <sctap:questionTitle>De quo est tamquam de subiecto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1001,6 +1476,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1-prol-q2"/>
       <sctap:questionTitle>Utrum solo Deo sit fruendum et omnibus aliis utendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1019,6 +1496,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d1q1"/>
       <sctap:questionTitle>Utrum Deus sit cognoscibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1037,6 +1516,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d3q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d2q1"/>
       <sctap:questionTitle>Utrum vestigium creatoris sit in omni creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1055,6 +1536,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d5q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d3q1"/>
       <sctap:questionTitle>De medio quod est imago, secundum quod in homine imago Dei reperitur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1075,6 +1558,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d6and7-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d3q2"/>
       <sctap:questionTitle>Utrum divinae generationis essentia potest esse terminus a quo vel ad quem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1095,6 +1580,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d8q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d5q1"/>
       <sctap:questionTitle>Utrum potentia qua Pater generat sit in Filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1113,6 +1600,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d9q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d6and7-q1"/>
       <sctap:questionTitle>Utrum divina essentia sit summe simplex et in fine simplicitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1131,6 +1620,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d8q1"/>
       <sctap:questionTitle>Utrum aeternitas reperitur in Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1149,6 +1640,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d9q1"/>
       <sctap:questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio per modum amoris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1167,6 +1660,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio13"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio11"/>
       <sctap:questionTitle>Utrum Spiritus Sanctus temporaliter procedit solum a Patre et Filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1185,6 +1680,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio14"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio12"/>
       <sctap:questionTitle>Utrum caritas qua diligimus Deum et proximum sit Spiritus Sanctus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1203,6 +1700,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio15"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio13"/>
       <sctap:questionTitle>Utrum caritas potest augeri et minui</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1221,6 +1720,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio16"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio14"/>
       <sctap:questionTitle>Utrum in divinis sit aequalitas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1239,6 +1740,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio17"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio15"/>
       <sctap:questionTitle/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1257,6 +1760,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio18"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio16"/>
       <sctap:questionTitle>Utrum persona significet substantiam vel proprietatem in divinis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1275,6 +1780,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio19"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio17"/>
       <sctap:questionTitle>Utrum in divinis personis sit numerus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1293,6 +1800,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio20"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio18"/>
       <sctap:questionTitle>Utrum in divinis sit relatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1311,6 +1820,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio21"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio19"/>
       <sctap:questionTitle>Utrum tantum quinque sunt notiones scilicet innascibilitas, paternitas, filiatio, spiratio activa et
                     passiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -1330,6 +1841,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio22"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio20"/>
       <sctap:questionTitle>Utrum temporaliter aliquid de Deo dicatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1348,6 +1861,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio23"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio21"/>
       <sctap:questionTitle>Utrum Pater sapiens sit sapientia genita</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1366,6 +1881,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio24"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio22"/>
       <sctap:questionTitle>Utrum notiones sive proprietates similiter personae sint divina essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1384,6 +1901,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio25"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio23"/>
       <sctap:questionTitle>Utrum scientia Dei sit univoca scientiae nostrae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1402,6 +1921,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio26"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio24"/>
       <sctap:questionTitle>Utrum Deus sit in omnibus rebus essentialiter, potentialiter et praesentialiter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1420,6 +1941,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio27"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio25"/>
       <sctap:questionTitle>Utrum praescientia Dei infallibilis sit causa rerum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1438,6 +1961,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio28"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio26"/>
       <sctap:questionTitle>Utrum praedestinatio habeat aliquam causam meritoriam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1458,6 +1983,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio29"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio27"/>
       <sctap:questionTitle>Utrum Deus dicitur omnipotens quia universaliter omnia potest aut quia potest efficere
                     quaecumque vult</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -1477,6 +2004,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio30"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio28"/>
       <sctap:questionTitle>Utrum potentia Dei sit infinita aut limitanda aut coartanda</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1495,6 +2024,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio31"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio29"/>
       <sctap:questionTitle>Utrum bonitatem quae resultat ex ordine universi Deus potuit meliorem facere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1513,6 +2044,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio32"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio30"/>
       <sctap:questionTitle>Utrum voluntas Dei sit causa rerum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1531,6 +2064,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio33"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio31"/>
       <sctap:questionTitle>Utrum malum sit expediens universo et conferens ad completum universi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1549,6 +2084,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio34"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio32"/>
       <sctap:questionTitle>Utrum omnes teneamur conformare voluntatem nostram voluntati divinae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1567,6 +2104,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio35"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio33"/>
       <sctap:questionTitle>Utrum mundus sit aeternus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1585,6 +2124,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio36"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio34"/>
       <sctap:questionTitle>Utrum caelum empireum sit corpus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1603,6 +2144,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio37"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio35"/>
       <sctap:questionTitle>Utrum angeli fuerint creati in gratia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1621,6 +2164,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio38"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio36"/>
       <sctap:questionTitle>Utrum angeli intelligant per species</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1639,6 +2184,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio39"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio37"/>
       <sctap:questionTitle>Utrum angeli boni sint confirmati in bono, et mali in malo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1657,6 +2204,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio40"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio38"/>
       <sctap:questionTitle>Utrum in angelis tam bonis quam malis sit praelatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1675,6 +2224,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio41"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio39"/>
       <sctap:questionTitle>Utrum demones possunt transmutare corpora</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1693,6 +2244,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio42"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio40"/>
       <sctap:questionTitle>Utrum substantialiter demones et etiam angeli boni intrent corpora nostra</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1711,6 +2264,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio43"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio41"/>
       <sctap:questionTitle>Utrum angeli loquantur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1729,6 +2284,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio44"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio42"/>
       <sctap:questionTitle>Utrum custodia angelorum in via sit homini necessaria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1747,6 +2304,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio45"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio43"/>
       <sctap:questionTitle>Utrum omnia creata sunt simul in materia et specie</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1765,6 +2324,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio46"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio44"/>
       <sctap:questionTitle>A quo movetur caelum et praecipue primum caelum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1783,6 +2344,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio47"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio45"/>
       <sctap:questionTitle>Utrum anima rationalis sit ex traduce, hoc est educta de potentia materiae, ita quod anima sit ex
                     anima</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -1802,6 +2365,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio47"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio46"/>
       <sctap:questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1820,6 +2385,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio48"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio47"/>
       <sctap:questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1838,6 +2405,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio49"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio47"/>
       <sctap:questionTitle>Utrum temptatio una sola fuerit qua temptatus fuit primus homo vel plures</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1856,6 +2425,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>050</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio50"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio48"/>
       <sctap:questionTitle>Utrum primus homo ante peccatum habuit suae creationis claram cognitionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1874,6 +2445,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>051</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio51"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio49"/>
       <sctap:questionTitle>Utrum liberum arbitrium una ratione reperitur in omni intellectuali natura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1892,6 +2465,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>052</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio52"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio50"/>
       <sctap:questionTitle>Utrum gratia qua Deo grati sumus sit creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1910,6 +2485,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>053</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio53"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio51"/>
       <sctap:questionTitle>Utrum voluntas et ratio sine gratia possint non peccare damnabiliter, aut necesse sit
                     damnabiliter peccare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -1929,6 +2506,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>054</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio54"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio52"/>
       <sctap:questionTitle>Quid sit peccatum originale, an fomes, an culpa, an concupiscentia, an reatus, an pena</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1947,6 +2526,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>055</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio55"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio53"/>
       <sctap:questionTitle>Utrum tota veritas humanae naturae quae propagata est in omnes homines fuit in Adam
                     secundum corpulentam substantiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -1966,6 +2547,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>056</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio56"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio54"/>
       <sctap:questionTitle>Utrum omnium praecedentium peccata traiciantur in parvulos</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1984,6 +2567,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>057</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio57"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio55"/>
       <sctap:questionTitle>An malum sit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2002,6 +2587,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>058</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio58"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio56"/>
       <sctap:questionTitle>Utrum peccatum bene diffiniatur secundum Augustinum: peccatum est dictum vel factum vel
                     concupitum contra legem Dei</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2021,6 +2608,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>059</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio59"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio57"/>
       <sctap:questionTitle>Utrum omnis actus sive actio sit a Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2039,6 +2628,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>060</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio60"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio58"/>
       <sctap:questionTitle>Utrum voluntatis qualitas pensetur ex fine</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2057,6 +2648,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>061</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio61"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio59"/>
       <sctap:questionTitle>Utrum secundum theologum aliquid sit indifferens in operibus voluntatis deliberativae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2075,6 +2668,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>062</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio62"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio60"/>
       <sctap:questionTitle>In quo fundatur reatus sicut in causa</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2093,6 +2688,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>063</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio63"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio61"/>
       <sctap:questionTitle>Utrum peccatum in Spiritum Sanctum sit spirituale peccatum et distinctum contra alia peccata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2111,6 +2708,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>064</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio64"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio62"/>
       <sctap:questionTitle>Utrum conveniebat Deum incarnari</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2129,6 +2728,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>065</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio65"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio63"/>
       <sctap:questionTitle>Utrum sola natura rationalis sit assumptibilis prout natura rationalis distincta contra naturam
                     irrationalem et etiam contra naturam pure intellectualem, sicut est natura angelica</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2148,6 +2749,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>066</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio66"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio64"/>
       <sctap:questionTitle>Utrum Christus fuit in lumbis Abrahae sicut et alii homines</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2166,6 +2769,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>067</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio67"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio65"/>
       <sctap:questionTitle>Utrum virgo gloriosa fuerit vere mater Christi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2184,6 +2789,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>068</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio68"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio66"/>
       <sctap:questionTitle>Utrum assumere primo convenit divinae personae aut naturae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2202,6 +2809,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>069</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio69"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio67"/>
       <sctap:questionTitle>Utrum iste propositiones sint vere: Filius Dei factus est homo; Deus factus est homo; similiter,
                     Deus est homo; Filius Dei est homo; quia in omnibus videtur eadem ratio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2221,6 +2830,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>070</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio70"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio68"/>
       <sctap:questionTitle>Utrum Christus sit unum tantum aut duo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2239,6 +2850,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>071</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio71"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio69"/>
       <sctap:questionTitle>Utrum in Christo sit tantum una filiatio vel plures</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2257,6 +2870,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>072</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio72"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio70"/>
       <sctap:questionTitle>Utrum Christi humanitas adoranda sit latria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2275,6 +2890,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>073</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio73"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio71"/>
       <sctap:questionTitle>Utrum Christi secundum quod homo sit persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2293,6 +2910,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>074</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio74"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio72"/>
       <sctap:questionTitle>Utrum Christus potuit peccare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2311,6 +2930,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>075</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio75"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio73"/>
       <sctap:questionTitle>Utrum Christus a conceptione habuit plenitudinem sapientiae et gratiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2329,6 +2950,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>076</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio76"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio74"/>
       <sctap:questionTitle>Utrum anima Christi scit omnia quae Deus scit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2347,6 +2970,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>077</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio77"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio75"/>
       <sctap:questionTitle>Utrum Christus assumpsit omnes defectus nostros</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2365,6 +2990,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>078</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio49"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio76"/>
       <sctap:questionTitle>Utrum Christi passio omnes passiones omnium excesserit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2383,6 +3010,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>079</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio79"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio77"/>
       <sctap:questionTitle>Utrum in Christi voluntatibus fuerit contrarietas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2401,6 +3030,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>080</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio80"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio49"/>
       <sctap:questionTitle>Utrum Christus sibi mereri aliquid potuit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2419,6 +3050,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>081</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio81"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio79"/>
       <sctap:questionTitle>Utrum iustificatio nostra a peccato sit opus passionis Christi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2437,6 +3070,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>082</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio82"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio80"/>
       <sctap:questionTitle>Utrum nostrae redemptionis alius modus sit possibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2455,6 +3090,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>083</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio83"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio81"/>
       <sctap:questionTitle>Utrum Christus in triduo fuerit homo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2473,6 +3110,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>084</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio84"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio82"/>
       <sctap:questionTitle>Utrum fides sit virtus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2491,6 +3130,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>085</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio85"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio83"/>
       <sctap:questionTitle>Utrum idem possit esse simul scitum et creditum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2509,6 +3150,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>086</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio86"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio84"/>
       <sctap:questionTitle>Utrum umquam suffecerit credere de Deo quia Deus est et inquerentibus se remunerator sit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2527,6 +3170,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>087</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio87"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio85"/>
       <sctap:questionTitle>Utrum spes sit virtus specialis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2545,6 +3190,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>088</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio88"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio86"/>
       <sctap:questionTitle>Utrum caritas sit forma omnium virtutum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2563,6 +3210,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>089</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio89"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio87"/>
       <sctap:questionTitle>Utrum omnia sint diligenda ex caritate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2581,6 +3230,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>090</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio61"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio88"/>
       <sctap:questionTitle>Utrum aliquis scriptus in libro vitae possit deleri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2599,6 +3250,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>091</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio91"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio89"/>
       <sctap:questionTitle>Utrum quatuor sunt virtutes cardinales, scilicet prudentia, iustitia, fortitudo et temperantia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2617,6 +3270,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>092</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio92"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio61"/>
       <sctap:questionTitle>Utrum dona sint virtutes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2635,6 +3290,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>093</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio93"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio91"/>
       <sctap:questionTitle>Utrum donum sapientiae sit distinctum ab aliis donis et virtutibus, et specialiter a fide et
                     intellectu et scientia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2654,6 +3311,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>094</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio94"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio92"/>
       <sctap:questionTitle>Utrum virtutes theologicae sint adinvicem connexae, ita quod qui habet unam, habeat omnes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2672,6 +3331,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>095</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio95"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio93"/>
       <sctap:questionTitle>Utrum tantum decem sint praecepta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2690,6 +3351,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>096</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio96"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio94"/>
       <sctap:questionTitle>Utrum omne mendacium sit peccatum mortale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2708,6 +3371,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>097</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio97"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio95"/>
       <sctap:questionTitle>Utrum omne periurium sit peccatum mortale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2726,6 +3391,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>098</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio98"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio96"/>
       <sctap:questionTitle>Utrum sacramenta novae legis efficiant quod significant, hoc est conferant gratiam quam
                     significant, et hoc ratione operis operati</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2745,6 +3412,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>099</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio65"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio97"/>
       <sctap:questionTitle>Utrum baptismus essentialiter constat tamquam ex materiali et formali, ex aqua et verbo per
                     Christum expresso</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2764,6 +3433,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>100</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio100"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio98"/>
       <sctap:questionTitle>Quare magis virtute baptismi remittitur pena culpae actualis quam originalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2782,6 +3453,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>101</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio101"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio65"/>
       <sctap:questionTitle>De potestate baptismi, quam retinuit et dare potuit, utrum fuerit potestas purgandi a peccato</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2800,6 +3473,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>102</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio102"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio100"/>
       <sctap:questionTitle>Utrum intentio baptizantis necessario requiratur in baptismo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2818,6 +3493,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>103</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio103"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio101"/>
       <sctap:questionTitle>Utrum ad hoc quod roboretur gratia baptisimalis requiritur gratia confirmationis, vel gratia
                     baptisimalis potest seipsam confirmare et roborare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2837,6 +3514,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>104</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio104"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio102"/>
       <sctap:questionTitle>Utrum in consecratione corporis Christi huius sacramenti eucharistiae forma sit conveniens:
                     Hoc est corpus meum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2856,6 +3535,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>105</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio105"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio103"/>
       <sctap:questionTitle>Utrum Christus totus, scilicet Deus et homo, in tota quantitate sua sit sub forma totali et totus
                     sub qualibet eius 101 witnesse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -2875,6 +3556,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>106</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio106"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio104"/>
       <sctap:questionTitle>Utrum in sacramento eucharistiae accidentia sint sine subiecto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2893,6 +3576,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>107</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio107"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio105"/>
       <sctap:questionTitle>Utrum poenitentia sit virtus specialis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2911,6 +3596,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>108</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio108"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio106"/>
       <sctap:questionTitle>Utrum sacramentum poenitentiae habeat witnesses et quales</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2929,6 +3616,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>109</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio109"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio107"/>
       <sctap:questionTitle>Utrum in Ecclesia Dei sint claves</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2947,6 +3636,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>110</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio110"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio108"/>
       <sctap:questionTitle>Utrum tantum duae sunt claves</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2965,6 +3656,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>111</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio111"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio109"/>
       <sctap:questionTitle>Utrum relaxatio sive indulgentia habeat effectum an non</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2983,6 +3676,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>112</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestin112"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio110"/>
       <sctap:questionTitle>Utrum in aliquem ferenda sit excommunicatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3001,6 +3696,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>113</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio113"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio111"/>
       <sctap:questionTitle>Utrum extrema unctio sit sacramentum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3019,6 +3716,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>114</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio114"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestin112"/>
       <sctap:questionTitle>Utrum ordo sit sacramentum unum vel plura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3037,6 +3736,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>115</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio115"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio113"/>
       <sctap:questionTitle>Utrum haeretici ab ecclesia recisi sacros ordines conferre possunt</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3055,6 +3756,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>116</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio116"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio114"/>
       <sctap:questionTitle>Utrum matrimonium sit infirmis in remedium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3073,6 +3776,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>117</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio117"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio115"/>
       <sctap:questionTitle>Utrum consensus efficiens matrimonium sit in copulationem carnalem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3091,6 +3796,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>118</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio118"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio116"/>
       <sctap:questionTitle>Utrum bona matrimonii, scilicet proles, fides et sacramentum, conveniunt sibi inquantum est
                     in officium vel in remedium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
@@ -3110,6 +3817,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>119</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio119"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio117"/>
       <sctap:questionTitle>Utrum petenti semper solvendum sit debitum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3128,6 +3837,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>120</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio120"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio118"/>
       <sctap:questionTitle>Utrum causa fornicationis liceat viro uxorem dimittere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3146,6 +3857,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>121</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio121"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio119"/>
       <sctap:questionTitle>De quibus est votum, an de hiis quae cadunt sub praecepto, an de hiis quae cadunt sub consilio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3164,6 +3877,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>122</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio122"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio120"/>
       <sctap:questionTitle>Utrum votum continentiae respicit dispensationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3182,6 +3897,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>123</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio123"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio121"/>
       <sctap:questionTitle>Utrum cognatio spiritualis impedit matrimonium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3200,6 +3917,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>124</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio124"/>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio122"/>
       <sctap:questionTitle>Utrum resurrectio mortuorum erit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3218,6 +3937,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>125</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio123"/>
       <sctap:questionTitle>Utrum corporum gloriosorum sint quatuor dotes, scilicet impassiiblitas, claritas, subtilitas et
                     agilitas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>

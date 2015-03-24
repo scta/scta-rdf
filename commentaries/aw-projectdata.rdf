@@ -396,6 +396,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
@@ -407,6 +408,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-col-qun"/>
       <sctap:questionTitle>Utrum, secundum quod tactum est in collatione, studium sacrae theologiae sit meritorium vitae aeternae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1595,6 +1598,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
       <sctap:questionTitle>Utrum studium Sacrae Scripturae impositum alicui in foro poenitentiae pro omissione contraria sit meritorium. </sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1617,6 +1622,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
       <sctap:questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debeatur pro mercede visio Dei et eius fruitio.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1773,6 +1780,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q1"/>
       <sctap:questionTitle>Utrum fruitio beatifica differat ab ipsa anima.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1785,6 +1794,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q2"/>
       <sctap:questionTitle>Utrum fruitio realiter distinguatur ab omni cognitione.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1797,6 +1808,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q3"/>
       <sctap:questionTitle>Utrum fruitio realiter distinguatur a delectatione.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1809,6 +1822,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q4"/>
       <sctap:questionTitle>Utrum generaliter omnis delectatio sit dilectio vel odium, seu volitio aut nolitio.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1821,6 +1836,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q5"/>
       <sctap:questionTitle>Utrum voluntas necessario vel libere principiet actus suos.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1833,6 +1850,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q6"/>
       <sctap:questionTitle>Utrum voluntas sola sit causa effectiva suae volitionis liberae supposita communi Dei influentia vel concausatione.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1845,6 +1864,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q7"/>
       <sctap:questionTitle>Utrum voluntas possit simul et subito producere actum voluntarium meritorie et libere dilectionis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1857,6 +1878,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q8"/>
       <sctap:questionTitle>Utrum voluntas libere possit subito suspendere actum suum sive ab actu habito cessare.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1869,6 +1892,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q9"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
@@ -1880,6 +1905,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q10"/>
       <sctap:questionTitle>Undecimo circa distinctioem primam quaero: Utrum solus Deus sit licite a creatura rationali ultimate fruibilis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1892,6 +1919,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q13"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q11"/>
       <sctap:questionTitle>Utrum haec sit possibilis: creatura rationalis fruitur una persona divina non fruendo alia. </sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1904,6 +1933,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q14"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q12"/>
       <sctap:questionTitle>Utrum liceat filium Dei plus diligere vel frui eo quam patrem vel spiritum sanctum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -1916,6 +1947,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d2-qun"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q13"/>
       <sctap:questionTitle>Utrum fruitio beatifica sit actus intellectus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
@@ -4122,6 +4155,8 @@ duo quaedam"</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d1-q14"/>
       <sctap:questionTitle>Utrum in entibus sit tantum unus Deus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -6865,6 +6900,8 @@ ab A et tamen quod possit causari circumscripto A."</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d6-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d2-qun"/>
       <sctap:questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
@@ -11225,6 +11262,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d6-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
@@ -12067,6 +12106,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d6-q1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
@@ -12772,6 +12813,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d6-q2"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
@@ -14065,6 +14108,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
       <sctap:questionTitle>Utrum gratia seu caritas sit viatori necessaria ad salutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -15715,6 +15760,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
       <sctap:questionTitle>Utrum caritas seu gratia increata sine alio possit sufficere ad salutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -16400,6 +16447,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
       <sctap:questionTitle>Utrum de peccatore possit fieri non peccator et acceptus Deo sine tali habitu sibi infuso per gratiam increatam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -16879,6 +16928,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q3"/>
       <sctap:questionTitle>Utrum caritas vel alia forma augmentabilis augmentetur per deminutionem contrarii sui.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -16891,6 +16942,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q4"/>
       <sctap:questionTitle>Utrum in augmentatione caritatis vel alterius formae gradus omnis praeexistens corrumpatur cum novus gradus inducitur ita videlicet intelligendo quod in omni instanti sit totaliter nova forma.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -17519,6 +17572,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q5"/>
       <sctap:questionTitle>Utrum omnis bonus motus voluntatis meritorie augmentatius caritatis ad quem homo tenetur debeat vel possit ex caritate procedere collata ex merito redemptoris.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18339,6 +18394,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q6"/>
       <sctap:questionTitle>Utrum Deus essentialiter unus sit personaliter trinus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18351,6 +18408,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q1"/>
       <sctap:questionTitle>Utrum Deus genuerit Deum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18363,6 +18422,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q2"/>
       <sctap:questionTitle>Utrum aliqua sit certa regula vel ars per quam solvi possint communiter paralogismi facti et talibus similes circa materiam Trinitatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18375,6 +18436,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q3"/>
       <sctap:questionTitle>Utrum divina essentia generet vel generetur.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18387,6 +18450,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q4"/>
       <sctap:questionTitle>Utrum potentia generandi possit communicari filio in divinis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18399,6 +18464,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q5"/>
       <sctap:questionTitle>Utrum spiritus sanctus posset distingui a filio si non procederet ab eo.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
@@ -18725,6 +18792,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q6"/>
       <sctap:questionTitle>Utrum pater et filius sint unum principium spirans Spiritum Sanctum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18737,6 +18806,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q7"/>
       <sctap:questionTitle>Utrum personae divinae primo et adaequate distinguantur ab invicem semetipsis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18749,6 +18820,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q8"/>
       <sctap:questionTitle>Utrum omne idem patri sit omnibus modis idem patri.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18761,6 +18834,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d33-q9"/>
       <sctap:questionTitle>Utrum creatura rationalis meritorie serviendo Deo proficiat ad augmentum gratiae seu caritatis, sine omni novo addito gratiae praecedenti.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18773,6 +18848,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q1"/>
       <sctap:questionTitle>Utrum profectus vel augmentum gratiae fiat per compositionem gratiae novae cum gratia praecedenti.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18785,6 +18862,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q2"/>
       <sctap:questionTitle>Utrum creatura rationalis habens gratiam possit mereri suam gratiam augmentari.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18797,6 +18876,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q3"/>
       <sctap:questionTitle>Utrum viator operibus meritoriis insistendo ex hiis carior Deo fiat.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18809,6 +18890,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q4"/>
       <sctap:questionTitle>Utrum praesupposita gratia baptismali viator per merita sua possit pertingere ad gratiam maximam viae sibi possibilem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18821,6 +18904,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q5"/>
       <sctap:questionTitle>Utrum viator existens in gratia ultra omnem gratiam habitam vel habendam possit proficere ad maiorem per instantaneas causationes actuum volendi omnia pro futuro peccata venialia devirare.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18833,6 +18918,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q6"/>
       <sctap:questionTitle>Utrum Deus possit creare finitam caritatem aliquam qua non possit creare maiorem vel aliquam aliam ita magnam secundum extensionem quod non possit maiorem illa producere, et sic de similibus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18845,6 +18932,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q7"/>
       <sctap:questionTitle>Utrum secundum proportionem caritatis viae succedat pro praemio proportionaliter magnitudo gloriae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18857,6 +18946,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q8"/>
       <sctap:questionTitle>Utrum, scilicet propter demerita, minuatur.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18869,6 +18960,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q9"/>
       <sctap:questionTitle>Utrum caritas decrescat ad decrementum cupiditatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18881,6 +18974,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b2-q10"/>
       <sctap:questionTitle>Utrum anima Christi habuerit et habeat sapientiam aequalem Deo.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18893,6 +18988,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q1"/>
       <sctap:questionTitle>Utrum ipsum verbum Dei sit sibi ipsi quamvis non animae sibi unitae scientia futurorum contingentium.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18905,6 +19002,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>050</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q2"/>
       <sctap:questionTitle>Utrum cum determinata verbi praescientia stet quod futura praescita sint ad utrumlibet contingentia.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18917,6 +19016,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>051</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q3"/>
       <sctap:questionTitle>Utrum anima Christi vel angeli sciant futura aliqua contingentia per revelationem sibi possibilem fieri ab ipso verbo vel etiam scire possint.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18929,6 +19030,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>052</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q4"/>
       <sctap:questionTitle>Utrum alicuius contingentis futuri absoluta revelatio sequens tollat contingentiam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18941,6 +19044,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>053</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q5"/>
       <sctap:questionTitle>Utrum Deus vel verbum Dei existenti in gratia possit revelare quod talis finaliter sit damnandus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18953,6 +19058,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>054</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q6"/>
       <sctap:questionTitle>Utrum animae Christi vel angelo beato possit in verbo revelari aeternitas suae beatitudinis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18965,6 +19072,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>055</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q7"/>
       <sctap:questionTitle>Utrum Gabrieli potuerit in verbo verbi incarnatio revelari.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18977,6 +19086,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>056</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q8"/>
       <sctap:questionTitle>Utrum per revelationes possibiles fieri in verbo posset aliquis sufficienter dirigi in volendis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18989,6 +19100,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>057</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q9"/>
       <sctap:questionTitle>Utrum anima Christi in verbo Dei cui unitur distincte videre valeat infinita.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19001,6 +19114,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>058</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q10"/>
       <sctap:questionTitle>Utrum anima Christi possit in verbo cui unitur distincte cognoscere minimas partium sibi inhaerentium vel minimas particulas corporis quod informat.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19013,6 +19128,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>059</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q11"/>
       <sctap:questionTitle>Utrum per unionem ad verbum ipsa sit omnipotens.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19025,6 +19142,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>060</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b3-q12"/>
       <sctap:questionTitle>Utrum aliqua creatura possit in effectum sacramenti praecise productibilem per creationem. Et hoc est expressius quaerere: Utrum aliqua creatura possit creare caritatem vel gratiam vel aliam creaturam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19037,6 +19156,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>061</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q1"/>
       <sctap:questionTitle>Utrum posse creare gratiam vel aliquid aliud repugnet propter virtutis activae insufficientiam cuilibet creaturae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19049,6 +19170,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>062</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q2"/>
       <sctap:questionTitle>Utrum omni rite suscipienti sacramentum baptismi vel confirmationis conferatur gratia salutaris.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19633,18 +19756,312 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>063</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
       <sctap:questionTitle>Utrum corpus Christi realiter sub speciebus quae fuerunt panis et vini contineatur.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Eusebius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-20"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-21"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Sentences"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/deConsecratione"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q4--1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q4-0"/>
+      <sctap:status>draft</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:elementText>thomas</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-3">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
+      <sctap:elementText>sortes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:elementText>skel</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-9">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-10">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-11">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-12">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <sctap:elementText>fitzralph</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-13">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-14">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-15">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosopho</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-16">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-17">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <sctap:elementText>fir</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-18">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Eusebius"/>
+      <sctap:elementText>eusebius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-19">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-20">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-21">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <sctap:elementText>firalph</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-22">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:elementText>chaton[?]</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-23">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-24">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-25">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-26">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-27">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-28">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:elementText>thomam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-29">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:elementText>Innocentius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-30">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magistri</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-1">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>de anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-2">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>de anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-3">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Sentences"/>
+      <sctap:elementText>sententiarum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-4">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deConsecratione"/>
+      <sctap:elementText>de consecratione</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q4--1">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>corpus invisibilis inquit 
+            sacerdos creaturas in substantiam corporis et sanguinis sui secreta potestate 
+            convertit</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q4-0">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/quotation/"/>
+      <sctap:elementText>reor salva fidei inimmi?tate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/item/b4-q5">
       <dc:title>Question 5</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>064</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
       <sctap:questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam distincta realiter a substantia et qualitate cuius est.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19657,6 +20074,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>065</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q5"/>
       <sctap:questionTitle>Utrum sacramentum poenitentiae sit necessarium ad delendum peccatum mortale post baptismum commissum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19959,6 +20378,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>066</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
       <sctap:questionTitle>Utrum actus paenitentiae requisitus ad deletionem culpae mortalis sit meritorius vitae aeternae. </sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19971,6 +20392,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>067</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q7"/>
       <sctap:questionTitle>Utrum quilibet qui commisit peccatum mortale teneatur secundum legem Dei communem de illo conteri.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19983,6 +20406,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>068</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q8"/>
       <sctap:questionTitle>Utrum vera poenitentia sit formaliter vel virtualiter velle cavere peccatum quodlibet in futuro.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19995,6 +20420,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>069</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q9"/>
       <sctap:questionTitle>Utrum ille qui peccaverit mortaliter in opere exteriori teneatur plus poenitere de opere exteriori et interiori simul quam de interiori solo.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -20007,6 +20434,8 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>070</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q10"/>
       <sctap:questionTitle>Utrum aliqua poena infernalis possit esse insensibilis in damnato.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -20019,6 +20448,7 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>071</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q11"/>
       <sctap:questionTitle>Utrum sit maxima gloria possibilis in beato.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>

@@ -239,6 +239,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -250,6 +251,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium1"/>
       <sctap:questionTitle>Utrum quis viator scientifice sine dono speciali possit assentire theologice omni vero supernaturali</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
@@ -1335,6 +1338,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q1"/>
       <sctap:questionTitle>Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae voluntatis vel sic Utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
@@ -1451,6 +1456,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q2"/>
       <sctap:questionTitle>Utrum possit probari per textum sacrae scripturae trinus et unus conditor creatae naturae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -2770,6 +2777,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
       <sctap:questionTitle>Utrum animae humanae propago active sit proprie Trinitatis divinae imago</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3274,6 +3283,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q4"/>
       <sctap:questionTitle>Utrum prius aeternaliter Deus genuit, quam produxit temporaliter ens dependens corporeum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -3945,6 +3956,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q5"/>
       <sctap:questionTitle>Utrum quam repugnat plures causas aliquam rem totaliter efficere, tam repugnet eandem rem semetipsam realiter producere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -4586,6 +4599,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q6"/>
       <sctap:questionTitle>Utrum memoria Patris fecunda complacenter et libere Filium, qui est persona secunda, determinetur gignere.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -5222,6 +5237,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q7"/>
       <sctap:questionTitle>Utrum generatio activa in Patre sit perfectionis simpliciter immensae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -5589,6 +5606,7 @@
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e962"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e981"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e991"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1qjd1"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e1017"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e1031"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e1040"/>
@@ -5940,6 +5958,12 @@
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q8/transcription/lon/paragraph/pgb1q8-d1e991"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1qjd1">
+      <dc:title>Paragraph pgb1q8-d1qjd1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b1q8/transcription/lon/paragraph/pgb1q8-d1qjd1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8/paragraph/pgb1q8-d1e1017">
       <dc:title>Paragraph pgb1q8-d1e1017</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
@@ -6023,6 +6047,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q8"/>
       <sctap:questionTitle>Utrum sola prima causa entis producibilis sit simplex necessaria et incommutabilis seu invariabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -6809,6 +6835,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q9"/>
       <sctap:questionTitle>Utrum cuilibet supposito seu personae divinae naturae repugnet prioritas cuiuscumque durativae mensurae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -7308,6 +7336,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q10"/>
       <sctap:questionTitle>Utrum Pater et Filius eodem modo agendi indistincto Spiritum Sanctum producant in supposito a se distincto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -8542,6 +8572,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q13"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q11"/>
       <sctap:questionTitle>Utrum sit possibile Spiritum Sanctum esse productum et ipsum non esse genitum nec ingenitum. Utrum a Patre et Filio Spiritus Sanctus taliter procedat sic, quod ipsum nec ingenitum nec genitum fides concedat. Utrum Spiritus Sanctus a Patre et Filio taliter producatur, quod nec genitus nec ingenitus vere dicatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -9458,6 +9490,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q12"/>
       <sctap:questionTitle>Utrum missio temporalis Spiritus Sancti in corda fidelium sit processio aeternalis non habens initium. Utrum Spiritus Sancti in corda fidelium donatio temporalis sit eiusdem a Patre et Filio spiratio aeternalis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -10175,6 +10209,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q15"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q13"/>
       <sctap:questionTitle>Utrum quodlibet suppositum divinum mitti a quolibet theologo debeat admitti. Utrum Spiritus Sancti missio temporalis sit in mente creata perceptio vitalis. Utrum stet Spiritum Sanctum ab aliquo recipi et ipsum a recipiente nullo modo percipi. Utrum stet Spiritum Sanctum realiter recipere et eundem in se habendo non vitaliter percipere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -10908,6 +10944,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
       <sctap:questionTitle>Utrum species, in quibus Spiritus Sanctus missus apparuit visibiliter, fuerint entitates potentias creatas immutantes realiter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -12264,6 +12302,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q15"/>
       <sctap:questionTitle>Utrum amor personalis divinae essentiae sit dilectio formalis creatae potentiae. Utrum immensum donum sit dilectio formalis, qua recte summum bonum amat amans realis. Utrum Spiritus Sancti amor summus per duos productus spiratores sit illud, quo formaliter sumus summi boni iusti veri amatores.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -13356,6 +13396,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q18"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
       <sctap:questionTitle>Utrum per maiorem in viatore moralis bonitatis virtualem perfectionem possimus in eadem concludere creatae caritatis gradualem intensionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -14191,6 +14233,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
       <sctap:questionTitle>Utrum sicut Deus potest facere de non caro carum non donando infusae caritatis caritudinem, sic se solo possit efficere de caro non carum subtrahendo voluntatis rectitudinem. Utrum sicut Deus potest facere de non caro carum, sic se solo possit efficere de iusto non iustum. Utrum sicut Deus potet facere de non caro carum non ponendo caritatem in humana mente, sic se solo possit efficere de caro non carum in privando voluntatem iam habita caritate.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -14780,6 +14824,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q20"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q18"/>
       <sctap:questionTitle>Utrum aeterni doni temporalis donatio sit infinita recipientis obligatio. Utrum aeternum donum datum temporaliter obliget virum bonum immense simpliciter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -15789,6 +15835,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
       <sctap:questionTitle>Utrum quodlibet divinum suppositum immense perfectum sit se ipso ab alio quolibet infinite distinctum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -16328,6 +16376,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q22"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q20"/>
       <sctap:questionTitle>Utrum quodlibet divinum suppositum propter suum aequale posse quodlibet contingentiae expositum aeque possit facere esse.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -17128,6 +17178,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q123"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
       <sctap:questionTitle>Utrum idem conceptus numero possit convenire proprie et formaliter Deo et creaturae. Utrum aliqua nomina reperta in scripturis sint formaliter propria Deo et creaturis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -17986,6 +18038,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>024</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q24"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q22"/>
       <sctap:questionTitle>Utrum tot sint divina supposita praecisive, quot sunt proprietates eorundem relativae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18004,6 +18058,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>025</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q25"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q123"/>
       <sctap:questionTitle>Utrum Pater dicens Verbum suum aeternale possit dici Verbi principium internale. Utrum suppositum dicens Verbum aeternale dici potest principium internale non impedibile</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -18889,6 +18945,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>026</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q26"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q24"/>
       <sctap:questionTitle>Utrum summum independens referatur ad contingens. Utrum trinum simplex invariabile referatur ad contingens seu producibile. Utrum per productum possit formaliter inferri Deum ad creata vere realiter referri.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -19685,6 +19743,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>027</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q25"/>
       <sctap:questionTitle>Utrum Patris et Filii amor seu nexus indissolubilis sit, quo ab eis omnis res diligitur vel est diligibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -20316,6 +20376,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>028</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q26"/>
       <sctap:questionTitle>Utrum summa simplex essentia productiva cuiuslibet rei producibilis sit aeterna scientia cognitiva cuiuslibet rei cognoscibilis. Utrum omnium cognoscibilium essentia increata sit interna notitia suae immensitati adaequata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -21059,6 +21121,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>029</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
       <sctap:questionTitle>Utrum in suprema scientia cuiuslibet entitatis possibilis cognitiva ideetur culpae malitia cuiuslibet voluntatis vertibilis infectiva. Utrum per verbum entis cognitivum ideetur malum mentis infectivum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -21831,6 +21895,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>030</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q30"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
       <sctap:questionTitle>Utrum divinum seu primum necesse in quolibet ente necesse sit esse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -22434,6 +22500,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>031</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q31"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
       <sctap:questionTitle>Utrum certitudini divinae praescientiae repugnet ratio contingentiae. Utrum cum divina praescientia certa et infallibili stet mera contingentia in re producibili</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -23034,6 +23102,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>032</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q30"/>
       <sctap:questionTitle>Utrum sicut divina essentia est omnium futurorum ratio cognitiva, sic eadem, ut est praescientia, sit futurorum contingentium ratio seu actio productiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -23650,6 +23720,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>033</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q33"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q31"/>
       <sctap:questionTitle>Utrum praedestinato aeternaliter ac existenti in caritate Deus possit certitudinaliter suam damnationem revelare. Utrum existenti in caritate ac praedestinato aeternaliter Deus possit revelare suam damnationem certitudinaliter.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -24691,6 +24763,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>034</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q34"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
       <sctap:questionTitle>Utrum praedestinationis ac reprobationis aeternalis sit aliquod aeternale motivum aut ratio causalis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -25047,6 +25121,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>035</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q35"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q33"/>
       <sctap:questionTitle>Utrum ratio adaequata omnipotentiae sit immensa activitas divinae essentiae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -25584,6 +25660,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>036</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q36"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q34"/>
       <sctap:questionTitle>Utrum ea, quae Deus praeordinavit immediate se facturum, possit libere numquam facere in futurum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -26110,6 +26188,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>037</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q35"/>
       <sctap:questionTitle>Utrum omnipotens quodlibet posse ab eo dependens productive possit meliorare seu perfectius facere entitative seu augere perfective</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -26757,6 +26837,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>038</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q38"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q36"/>
       <sctap:questionTitle>Utrum per divinae voluntatis vigorem ordinentur et regulentur omnia ad universi decorem. Utrum per divinae voluntatis rectitudinem ordinentur omnia ad universi pulchritudinem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -27732,6 +27814,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>039</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q39"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
       <sctap:questionTitle>Utrum divinum velle rerum immediatum productivum principium sit non esse earum causale principium positivum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -28578,6 +28662,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>040</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q40"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q38"/>
       <sctap:questionTitle>Utrum quodlibet bonum possibile aliud a prima bonitate sit in se ponibile ab increata voluntate.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -29523,6 +29609,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>041</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q39"/>
       <sctap:questionTitle>Utrum stet rectum esse actum voluntatis creatae sine sui ad velle divinum conformitate.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
@@ -29615,6 +29703,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q40"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -29626,6 +29716,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium2"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -29637,6 +29729,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30933,6 +31027,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q2"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30944,6 +31040,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q3"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30955,6 +31053,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q4"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30966,6 +31066,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q5"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30977,6 +31079,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q6"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30988,6 +31092,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>050</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q7"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -30999,6 +31105,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>051</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q8"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31010,6 +31118,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>052</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q9"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31021,6 +31131,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>053</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q10"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31032,6 +31144,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>054</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium3"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31300,6 +31414,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>055</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31311,6 +31427,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>056</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q2"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31322,6 +31440,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>057</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q3"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -32451,6 +32571,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>058</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -32462,6 +32584,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>059</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium4"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -32473,6 +32597,8 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>060</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -32484,6 +32610,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>061</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q2"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
