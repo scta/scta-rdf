@@ -14,6 +14,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Scotus Ordinatio</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/scotusordinatio/librum/jdso-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/scotusordinatio/librum/jdso-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/scotusordinatio/librum/jdso-book3"/>

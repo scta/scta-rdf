@@ -14,6 +14,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Peter Gracilis Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>pg</sctap:slug>
       <dcterms:hasPart rdf:resource="http://scta.info/text/graciliscommentary/librum/pg-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/graciliscommentary/librum/pg-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/graciliscommentary/librum/pg-book3"/>
@@ -958,6 +959,23 @@
       <dc:title>pg-b1q1 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>11v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L11v"/>
+      <sctap:hasFolio>12r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L12r"/>
+      <sctap:hasFolio>12v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L12v"/>
+      <sctap:hasFolio>13r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L13r"/>
+      <sctap:hasFolio>13v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L13v"/>
+      <sctap:hasFolio>14r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L14r"/>
+      <sctap:hasFolio>14v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L14v"/>
+      <sctap:hasFolio>15r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L15r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q1">
@@ -1450,6 +1468,19 @@
       <dc:title>pg-b1q2 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>15r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L15r"/>
+      <sctap:hasFolio>15v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L15v"/>
+      <sctap:hasFolio>16r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L16r"/>
+      <sctap:hasFolio>16v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L16v"/>
+      <sctap:hasFolio>17r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L17r"/>
+      <sctap:hasFolio>17v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L17v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b1q3">
       <dc:title>Quaestio 3</dc:title>
@@ -2697,6 +2728,23 @@
       <dc:title>pg-b1q3 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>17v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L17v"/>
+      <sctap:hasFolio>18r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L18r"/>
+      <sctap:hasFolio>18v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L18v"/>
+      <sctap:hasFolio>19r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L19r"/>
+      <sctap:hasFolio>20r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L20r"/>
+      <sctap:hasFolio>20v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L20v"/>
+      <sctap:hasFolio>17v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L17v"/>
+      <sctap:hasFolio>20v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L20v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q3">
@@ -3208,6 +3256,11 @@
       <dc:title>pg-b1q4 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>20v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L20v"/>
+      <sctap:hasFolio>23v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L23v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q4">
@@ -3540,6 +3593,11 @@
       <dc:title>pg-b1q5 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>23v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L23v"/>
+      <sctap:hasFolio>25v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L25v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q5">
@@ -4155,6 +4213,11 @@
       <dc:title>pg-b1q6 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>25v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L25v"/>
+      <sctap:hasFolio>28r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L28r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q6">
@@ -4919,6 +4982,11 @@
       <dc:title>pg-b1q7 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>28r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L28r"/>
+      <sctap:hasFolio>30r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L30r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q7">
@@ -5540,6 +5608,11 @@
       <dc:title>pg-b1q8 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>30r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L30r"/>
+      <sctap:hasFolio>33r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L33r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q8">
@@ -6377,6 +6450,11 @@
       <dc:title>pg-b1q9 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>33r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L33r"/>
+      <sctap:hasFolio>36r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L36r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q9"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q9">
@@ -6850,6 +6928,11 @@
       <dc:title>pg-b1q10 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>36r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L36r"/>
+      <sctap:hasFolio>38v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L38v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q10"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q10">
@@ -7995,6 +8078,11 @@
       <dc:title>pg-b1q11 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>38v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L38v"/>
+      <sctap:hasFolio>42r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L42r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q11"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q11">
@@ -9004,6 +9092,11 @@
       <dc:title>pg-b1q12 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>42r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L42r"/>
+      <sctap:hasFolio>44v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L44v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q12">
@@ -9821,6 +9914,11 @@
       <dc:title>pg-b1q13 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>44v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L44v"/>
+      <sctap:hasFolio>47v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L47v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q13"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q13">
@@ -10570,6 +10668,11 @@
       <dc:title>pg-b1q14 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>47v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L47v"/>
+      <sctap:hasFolio>49v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L49v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q14"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q14">
@@ -11221,6 +11324,11 @@
       <dc:title>pg-b1q15 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>49v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L49v"/>
+      <sctap:hasFolio>52r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q15">
@@ -13071,6 +13179,11 @@
       <dc:title>pg-b1q16 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>52r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L52r"/>
+      <sctap:hasFolio>54v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L54v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q16">
@@ -13852,6 +13965,11 @@
       <dc:title>pg-b1q17 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>54v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L54v"/>
+      <sctap:hasFolio>57v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L57v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q17"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q17">
@@ -14485,6 +14603,11 @@
       <dc:title>pg-b1q18 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>57v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L57v"/>
+      <sctap:hasFolio>59v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L59v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q18"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q18">
@@ -15377,6 +15500,11 @@
       <dc:title>pg-b1q19 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>59v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L59v"/>
+      <sctap:hasFolio>63r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L63r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q19"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q19">
@@ -15995,6 +16123,11 @@
       <dc:title>pg-b1q20 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>63r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L63r"/>
+      <sctap:hasFolio>65v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L65v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q20"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q20">
@@ -16706,6 +16839,11 @@
       <dc:title>pg-b1q21 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>65v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L65v"/>
+      <sctap:hasFolio>67v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L67v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q21"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q21">
@@ -17566,6 +17704,11 @@
       <dc:title>pg-b1q22 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>68r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L68r"/>
+      <sctap:hasFolio>71r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L71r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q22"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q22">
@@ -18052,6 +18195,11 @@
       <dc:title>pg-b1q123 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>71r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L71r"/>
+      <sctap:hasFolio>73v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L73v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b1q24">
       <dc:title>Quaestio 24</dc:title>
@@ -18501,6 +18649,11 @@
       <dc:title>pg-b1q24 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>73v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L73v"/>
+      <sctap:hasFolio>76r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L76r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q24"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q24">
@@ -19250,6 +19403,11 @@
       <dc:title>pg-b1q25 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>76v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L76v"/>
+      <sctap:hasFolio>79r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L79r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q25"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q25">
@@ -19918,6 +20076,11 @@
       <dc:title>pg-b1q26 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>79v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L79v"/>
+      <sctap:hasFolio>82r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L82r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q26"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q26">
@@ -20691,6 +20854,11 @@
       <dc:title>pg-b1q27 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>82r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L82r"/>
+      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L84v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q27"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q27">
@@ -21479,6 +21647,11 @@
       <dc:title>pg-b1q28 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L84v"/>
+      <sctap:hasFolio>87v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L87v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q28"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q28">
@@ -22105,6 +22278,11 @@
       <dc:title>pg-b1q29 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>87v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L87v"/>
+      <sctap:hasFolio>90v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L90v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q29"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q29">
@@ -22742,6 +22920,11 @@
       <dc:title>pg-b1q30 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>90v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L90v"/>
+      <sctap:hasFolio>93r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L93r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q30"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q30">
@@ -23360,6 +23543,11 @@
       <dc:title>pg-b1q31 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>93r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L93r"/>
+      <sctap:hasFolio>95v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L95v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q31"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q31">
@@ -24361,6 +24549,11 @@
       <dc:title>pg-b1q32 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>95v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L95v"/>
+      <sctap:hasFolio>98v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L98v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q32"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q32">
@@ -25061,6 +25254,11 @@
       <dc:title>pg-b1q33 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>98v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L98v"/>
+      <sctap:hasFolio>101r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L101r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q33"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q33">
@@ -25349,6 +25547,11 @@
       <dc:title>pg-b1q34 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>101r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L101r"/>
+      <sctap:hasFolio>103r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L103r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q34"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q34">
@@ -25772,6 +25975,11 @@
       <dc:title>pg-b1q35 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>103r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L103r"/>
+      <sctap:hasFolio>106v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L106v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q35"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q35">
@@ -26365,6 +26573,11 @@
       <dc:title>pg-b1q36 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>106v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L106v"/>
+      <sctap:hasFolio>110r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L110r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q36"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q36">
@@ -27314,6 +27527,11 @@
       <dc:title>pg-b1q37 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>110r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L110r"/>
+      <sctap:hasFolio>114v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L114v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q37"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q37">
@@ -28211,6 +28429,11 @@
       <dc:title>pg-b1q38 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>114r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L114r"/>
+      <sctap:hasFolio>120r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L120r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q38"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q38">
@@ -29200,6 +29423,11 @@
       <dc:title>pg-b1q39 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>120r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L120r"/>
+      <sctap:hasFolio>122v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L122v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q39"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q39">
@@ -29624,6 +29852,11 @@
       <dc:title>pg-b1q40 [lon]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>122v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L122v"/>
+      <sctap:hasFolio>124v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L124v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q40"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b1q40">
@@ -29705,11 +29938,51 @@
       <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q1"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q40"/>
+      <sctap:questionTitle>Utrum Petrus  per suae visionis certitudinem videat Verbum continere omnem possibilem entitatem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-principium2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-principium2">
+      <dc:title>pg-principium2 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>126v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L126v"/>
+      <sctap:hasFolio>127r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L127r"/>
+      <sctap:hasFolio>127v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L127v"/>
+      <sctap:hasFolio>128r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L128r"/>
+      <sctap:hasFolio>128v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L128v"/>
+      <sctap:hasFolio>129r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L129r"/>
+      <sctap:hasFolio>129v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L129v"/>
+      <sctap:hasFolio>130r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L130r"/>
+      <sctap:hasFolio>130v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L130v"/>
+      <sctap:hasFolio>131r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L131r"/>
+      <sctap:hasFolio>131v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L131v"/>
+      <sctap:hasFolio>132r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L132r"/>
+      <sctap:hasFolio>132v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L132v"/>
+      <sctap:hasFolio>133r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L133r"/>
+      <sctap:hasFolio>133v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L133v"/>
+      <sctap:hasFolio>134r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L134r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q1">
       <dc:title>Quaestio 1</dc:title>
@@ -29718,11 +29991,35 @@
       <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q2"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium2"/>
+      <sctap:questionTitle>Utrum a prima sola causa causaliter creative res potuerint habere esse aeternaliter effective</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q1">
+      <dc:title>pg-b2q1 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>134r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L134r"/>
+      <sctap:hasFolio>134v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L134v"/>
+      <sctap:hasFolio>135r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L135r"/>
+      <sctap:hasFolio>135v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L135v"/>
+      <sctap:hasFolio>136r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L136r"/>
+      <sctap:hasFolio>136v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L136v"/>
+      <sctap:hasFolio>137r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L137r"/>
+      <sctap:hasFolio>137v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L137v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q2">
       <dc:title>Quaestio 2</dc:title>
@@ -29731,6 +30028,7 @@
       <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q1"/>
+      <sctap:questionTitle>Utrum primus angelus in caritate et gratia procreatus in primo instanti sui esse malitia fuerit depravatus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -29920,6 +30218,8 @@
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/graciliscommentary/quote/pg-b2q2-0"/>
       <sctap:status>In Progress</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q2"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/name/pg-b2q2-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -31022,6 +31322,561 @@
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/critical/paragraph/pgb2q2-apimte"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/pg-b2q2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q2">
+      <dc:title>pg-b2q2 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>137v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L137v"/>
+      <sctap:hasFolio>138r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L138r"/>
+      <sctap:hasFolio>138v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L138v"/>
+      <sctap:hasFolio>139r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L139r"/>
+      <sctap:hasFolio>139v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L139v"/>
+      <sctap:hasFolio>140r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L140r"/>
+      <sctap:hasFolio>140v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L140v"/>
+      <sctap:hasFolio>141r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L141r"/>
+      <sctap:hasFolio>141v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L141v"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2">
+      <dc:title>Librum II, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <role:EDT>Paul Lozowicki</role:EDT>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q2"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-saiiip"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-tsaooo"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-iovstr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pcstsm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ialemi"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-iistms"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pcqxsi"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cssae"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3clate"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ehstsr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cltso"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqosus"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pcsbos"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cstao"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqqooi"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3cstme"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqsdtm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqnmnt"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3cpata"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-iasdee"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pclnno"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cstit"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-avsttr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3csmom"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-eqpasa"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ccpraa"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2pbnts"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3pemma"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-4aissm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ccsrso"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2acoea"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3nmlit"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-4aitcm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-5sqatm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-6snrmr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-7satii"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-i8smem"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-9sstmr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-c3ctie"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2sctmm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3slsts"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-4pasrr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-5pgero"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-6roeeo"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-7ppite"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-8ppmts"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-9spnme"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apnmtn"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2amtm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a4nemo"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2caem"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2pdttt"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2dmes"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2pddrr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a3ptts"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apdtss"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a4dbom"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a5csdt"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a6dnoi"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a7msss"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a8psmm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apdtea"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a9dont"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-idqtss"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-scprem"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-rhqete"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apcixm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2nano"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a3nmmt"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a4nemr"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a5dmmm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a6ctmm"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-aupers"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apimte"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-saiiip">
+      <dc:title>Paragraph pgb2q2-saiiip</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-saiiip"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-tsaooo">
+      <dc:title>Paragraph pgb2q2-tsaooo</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-tsaooo"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-iovstr">
+      <dc:title>Paragraph pgb2q2-iovstr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-iovstr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pcstsm">
+      <dc:title>Paragraph pgb2q2-pcstsm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-pcstsm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ialemi">
+      <dc:title>Paragraph pgb2q2-ialemi</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-ialemi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-iistms">
+      <dc:title>Paragraph pgb2q2-iistms</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-iistms"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pcqxsi">
+      <dc:title>Paragraph pgb2q2-pcqxsi</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-pcqxsi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cssae">
+      <dc:title>Paragraph pgb2q2-2cssae</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2cssae"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3clate">
+      <dc:title>Paragraph pgb2q2-3clate</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3clate"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ehstsr">
+      <dc:title>Paragraph pgb2q2-ehstsr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-ehstsr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cltso">
+      <dc:title>Paragraph pgb2q2-2cltso</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2cltso"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqosus">
+      <dc:title>Paragraph pgb2q2-cqosus</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-cqosus"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pcsbos">
+      <dc:title>Paragraph pgb2q2-pcsbos</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-pcsbos"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cstao">
+      <dc:title>Paragraph pgb2q2-2cstao</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2cstao"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqqooi">
+      <dc:title>Paragraph pgb2q2-cqqooi</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-cqqooi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3cstme">
+      <dc:title>Paragraph pgb2q2-3cstme</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3cstme"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqsdtm">
+      <dc:title>Paragraph pgb2q2-cqsdtm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-cqsdtm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-cqnmnt">
+      <dc:title>Paragraph pgb2q2-cqnmnt</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-cqnmnt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3cpata">
+      <dc:title>Paragraph pgb2q2-3cpata</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3cpata"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-iasdee">
+      <dc:title>Paragraph pgb2q2-iasdee</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-iasdee"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-pclnno">
+      <dc:title>Paragraph pgb2q2-pclnno</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-pclnno"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2cstit">
+      <dc:title>Paragraph pgb2q2-2cstit</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2cstit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-avsttr">
+      <dc:title>Paragraph pgb2q2-avsttr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-avsttr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3csmom">
+      <dc:title>Paragraph pgb2q2-3csmom</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3csmom"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-eqpasa">
+      <dc:title>Paragraph pgb2q2-eqpasa</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-eqpasa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ccpraa">
+      <dc:title>Paragraph pgb2q2-ccpraa</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-ccpraa"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2pbnts">
+      <dc:title>Paragraph pgb2q2-2pbnts</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2pbnts"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3pemma">
+      <dc:title>Paragraph pgb2q2-3pemma</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3pemma"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-4aissm">
+      <dc:title>Paragraph pgb2q2-4aissm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-4aissm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-ccsrso">
+      <dc:title>Paragraph pgb2q2-ccsrso</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-ccsrso"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2acoea">
+      <dc:title>Paragraph pgb2q2-2acoea</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2acoea"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3nmlit">
+      <dc:title>Paragraph pgb2q2-3nmlit</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3nmlit"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-4aitcm">
+      <dc:title>Paragraph pgb2q2-4aitcm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-4aitcm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-5sqatm">
+      <dc:title>Paragraph pgb2q2-5sqatm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-5sqatm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-6snrmr">
+      <dc:title>Paragraph pgb2q2-6snrmr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-6snrmr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-7satii">
+      <dc:title>Paragraph pgb2q2-7satii</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-7satii"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-i8smem">
+      <dc:title>Paragraph pgb2q2-i8smem</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-i8smem"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-9sstmr">
+      <dc:title>Paragraph pgb2q2-9sstmr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-9sstmr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-c3ctie">
+      <dc:title>Paragraph pgb2q2-c3ctie</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-c3ctie"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2sctmm">
+      <dc:title>Paragraph pgb2q2-2sctmm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2sctmm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-3slsts">
+      <dc:title>Paragraph pgb2q2-3slsts</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-3slsts"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-4pasrr">
+      <dc:title>Paragraph pgb2q2-4pasrr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-4pasrr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-5pgero">
+      <dc:title>Paragraph pgb2q2-5pgero</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-5pgero"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-6roeeo">
+      <dc:title>Paragraph pgb2q2-6roeeo</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-6roeeo"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-7ppite">
+      <dc:title>Paragraph pgb2q2-7ppite</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-7ppite"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-8ppmts">
+      <dc:title>Paragraph pgb2q2-8ppmts</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-8ppmts"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-9spnme">
+      <dc:title>Paragraph pgb2q2-9spnme</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-9spnme"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apnmtn">
+      <dc:title>Paragraph pgb2q2-apnmtn</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-apnmtn"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2amtm">
+      <dc:title>Paragraph pgb2q2-a2amtm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a2amtm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a4nemo">
+      <dc:title>Paragraph pgb2q2-a4nemo</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a4nemo"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2caem">
+      <dc:title>Paragraph pgb2q2-a2caem</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a2caem"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2pdttt">
+      <dc:title>Paragraph pgb2q2-2pdttt</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2pdttt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2dmes">
+      <dc:title>Paragraph pgb2q2-a2dmes</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a2dmes"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-2pddrr">
+      <dc:title>Paragraph pgb2q2-2pddrr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-2pddrr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a3ptts">
+      <dc:title>Paragraph pgb2q2-a3ptts</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a3ptts"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apdtss">
+      <dc:title>Paragraph pgb2q2-apdtss</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-apdtss"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a4dbom">
+      <dc:title>Paragraph pgb2q2-a4dbom</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a4dbom"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a5csdt">
+      <dc:title>Paragraph pgb2q2-a5csdt</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a5csdt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a6dnoi">
+      <dc:title>Paragraph pgb2q2-a6dnoi</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a6dnoi"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a7msss">
+      <dc:title>Paragraph pgb2q2-a7msss</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a7msss"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a8psmm">
+      <dc:title>Paragraph pgb2q2-a8psmm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a8psmm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apdtea">
+      <dc:title>Paragraph pgb2q2-apdtea</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-apdtea"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a9dont">
+      <dc:title>Paragraph pgb2q2-a9dont</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a9dont"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-idqtss">
+      <dc:title>Paragraph pgb2q2-idqtss</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-idqtss"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-scprem">
+      <dc:title>Paragraph pgb2q2-scprem</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-scprem"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-rhqete">
+      <dc:title>Paragraph pgb2q2-rhqete</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-rhqete"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apcixm">
+      <dc:title>Paragraph pgb2q2-apcixm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-apcixm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a2nano">
+      <dc:title>Paragraph pgb2q2-a2nano</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a2nano"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a3nmmt">
+      <dc:title>Paragraph pgb2q2-a3nmmt</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a3nmmt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a4nemr">
+      <dc:title>Paragraph pgb2q2-a4nemr</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a4nemr"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a5dmmm">
+      <dc:title>Paragraph pgb2q2-a5dmmm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a5dmmm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-a6ctmm">
+      <dc:title>Paragraph pgb2q2-a6ctmm</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-a6ctmm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-aupers">
+      <dc:title>Paragraph pgb2q2-aupers</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-aupers"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2/paragraph/pgb2q2-apimte">
+      <dc:title>Paragraph pgb2q2-apimte</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
+      <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b2q2"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b2q2/transcription/lon/paragraph/pgb2q2-apimte"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q3">
       <dc:title>Quaestio 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
@@ -31029,11 +31884,51 @@
       <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q4"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q2"/>
+      <sctap:questionTitle>Utrum angelis mali per suae visionis claritatem videant in humana mente conceptam pravitatem. Utrum angeli per sui intellectus vivacemn otitiam videant mentis humanae intrinsecam seu occultam malitiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q3">
+      <dc:title>pg-b2q3 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>141v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L141v"/>
+      <sctap:hasFolio>142r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L142r"/>
+      <sctap:hasFolio>142v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L142v"/>
+      <sctap:hasFolio>143r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L143r"/>
+      <sctap:hasFolio>143v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L143v"/>
+      <sctap:hasFolio>144r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L144r"/>
+      <sctap:hasFolio>144v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L144v"/>
+      <sctap:hasFolio>145r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L145r"/>
+      <sctap:hasFolio>145v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L145v"/>
+      <sctap:hasFolio>146r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L146r"/>
+      <sctap:hasFolio>146v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L146v"/>
+      <sctap:hasFolio>147r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L147r"/>
+      <sctap:hasFolio>147v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L147v"/>
+      <sctap:hasFolio>148r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L148r"/>
+      <sctap:hasFolio>148v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L148v"/>
+      <sctap:hasFolio>149r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L149r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q4">
       <dc:title>Quaestio 4</dc:title>
@@ -31042,11 +31937,53 @@
       <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q5"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q3"/>
+      <sctap:questionTitle>Utrum quilibet angelus missus pro hominum custodia continue mereatur per impensa eius obsequia. Utrum boni angeli missi, ut nos ad bonum alliciant vel ne mali nos inficiant, per talia obsequia continue in merito proficiant</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q4">
+      <dc:title>pg-b2q4 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>149r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L149r"/>
+      <sctap:hasFolio>149v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L149v"/>
+      <sctap:hasFolio>150r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L150r"/>
+      <sctap:hasFolio>150v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L150v"/>
+      <sctap:hasFolio>151r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L151r"/>
+      <sctap:hasFolio>151v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L151v"/>
+      <sctap:hasFolio>152r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L152r"/>
+      <sctap:hasFolio>152v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L152v"/>
+      <sctap:hasFolio>153r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L153r"/>
+      <sctap:hasFolio>153v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L153v"/>
+      <sctap:hasFolio>154r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L154r"/>
+      <sctap:hasFolio>154v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L154v"/>
+      <sctap:hasFolio>155r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L155r"/>
+      <sctap:hasFolio>155v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L155v"/>
+      <sctap:hasFolio>156r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L156r"/>
+      <sctap:hasFolio>156v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L156v"/>
+      <sctap:hasFolio>157r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L157r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q5">
       <dc:title>Quaestio 5</dc:title>
@@ -31055,11 +31992,45 @@
       <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q6"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q4"/>
+      <sctap:questionTitle>Utrum liberum arbitrium creatum fuerit diminutum propter peccatum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q5">
+      <dc:title>pg-b2q5 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>157r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L157r"/>
+      <sctap:hasFolio>157v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L157v"/>
+      <sctap:hasFolio>158r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L158r"/>
+      <sctap:hasFolio>158v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L158v"/>
+      <sctap:hasFolio>159r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L159r"/>
+      <sctap:hasFolio>159v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L159v"/>
+      <sctap:hasFolio>160r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L160r"/>
+      <sctap:hasFolio>160v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L160v"/>
+      <sctap:hasFolio>161r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L161r"/>
+      <sctap:hasFolio>161v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L161v"/>
+      <sctap:hasFolio>162r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L162r"/>
+      <sctap:hasFolio>162v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L162v"/>
+      <sctap:hasFolio>163r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L163r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q6">
       <dc:title>Quaestio 6</dc:title>
@@ -31068,11 +32039,45 @@
       <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q7"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q5"/>
+      <sctap:questionTitle>Utrum humanae libertatis creatum arbitrium cogi possit per divinum imperium. Utrum creatae libertatis arbitrium cogi possit per divinae voluntatis dictamen.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q6">
+      <dc:title>pg-b2q6 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>163r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L163r"/>
+      <sctap:hasFolio>163v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L163v"/>
+      <sctap:hasFolio>164r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L164r"/>
+      <sctap:hasFolio>164v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L164v"/>
+      <sctap:hasFolio>165r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L165r"/>
+      <sctap:hasFolio>165v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L165v"/>
+      <sctap:hasFolio>166r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L166r"/>
+      <sctap:hasFolio>166v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L166v"/>
+      <sctap:hasFolio>167r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L167r"/>
+      <sctap:hasFolio>167v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L167v"/>
+      <sctap:hasFolio>168r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L168r"/>
+      <sctap:hasFolio>168v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L168v"/>
+      <sctap:hasFolio>169r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L169r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q7">
       <dc:title>Quaestio 7</dc:title>
@@ -31081,11 +32086,45 @@
       <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q8"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q6"/>
+      <sctap:questionTitle>Utrum sicut actus liber voluntatis est in sua libertatis potestate, sic quilibet actus meritorius procedat effective a creata caritate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q7">
+      <dc:title>pg-b2q7 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>169r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L169r"/>
+      <sctap:hasFolio>169v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L169v"/>
+      <sctap:hasFolio>170r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L170r"/>
+      <sctap:hasFolio>170v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L170v"/>
+      <sctap:hasFolio>171r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L171r"/>
+      <sctap:hasFolio>171v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L171v"/>
+      <sctap:hasFolio>172r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L172r"/>
+      <sctap:hasFolio>172v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L172v"/>
+      <sctap:hasFolio>173r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L173r"/>
+      <sctap:hasFolio>173v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L173v"/>
+      <sctap:hasFolio>174r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L174r"/>
+      <sctap:hasFolio>174v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L174v"/>
+      <sctap:hasFolio>175r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L175r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q8">
       <dc:title>Quaestio 8</dc:title>
@@ -31094,11 +32133,49 @@
       <sctap:totalOrderNumber>050</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q9"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q7"/>
+      <sctap:questionTitle>Utrum quilibet descendens ab Adam per propagationem naturalem seu seminalem contraxerit in conceptione maculam originalem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q8">
+      <dc:title>pg-b2q8 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>175r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L175r"/>
+      <sctap:hasFolio>175v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L175v"/>
+      <sctap:hasFolio>176r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L176r"/>
+      <sctap:hasFolio>176v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L176v"/>
+      <sctap:hasFolio>177r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L177r"/>
+      <sctap:hasFolio>177v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L177v"/>
+      <sctap:hasFolio>178r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L178r"/>
+      <sctap:hasFolio>178v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L178v"/>
+      <sctap:hasFolio>179r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L179r"/>
+      <sctap:hasFolio>179v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L179v"/>
+      <sctap:hasFolio>180r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L180r"/>
+      <sctap:hasFolio>180v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L180v"/>
+      <sctap:hasFolio>181r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L181r"/>
+      <sctap:hasFolio>181v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L181v"/>
+      <sctap:hasFolio>182r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L182r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q9">
       <dc:title>Quaestio 9</dc:title>
@@ -31107,11 +32184,35 @@
       <sctap:totalOrderNumber>051</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q10"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q8"/>
+      <sctap:questionTitle>Utrum quaelibet actualis mortalis malitia aequaliter mereatur puniri a divina iustitia.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q9">
+      <dc:title>pg-b2q9 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>182r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L182r"/>
+      <sctap:hasFolio>182v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L182v"/>
+      <sctap:hasFolio>183r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L183r"/>
+      <sctap:hasFolio>183v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L183v"/>
+      <sctap:hasFolio>184r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L184r"/>
+      <sctap:hasFolio>184v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L184v"/>
+      <sctap:hasFolio>185r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L185r"/>
+      <sctap:hasFolio>185v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L185v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b2q10">
       <dc:title>Quaestio 10</dc:title>
@@ -31120,11 +32221,47 @@
       <sctap:totalOrderNumber>052</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium3"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q9"/>
+      <sctap:questionTitle>Utrum aliquod purum omittere sit per se mortaliter deficere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b2q10">
+      <dc:title>pg-b2q10 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>185v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L185v"/>
+      <sctap:hasFolio>186r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L186r"/>
+      <sctap:hasFolio>186v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L186v"/>
+      <sctap:hasFolio>187r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L187r"/>
+      <sctap:hasFolio>187v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L187v"/>
+      <sctap:hasFolio>188r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L188r"/>
+      <sctap:hasFolio>188v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L188v"/>
+      <sctap:hasFolio>189r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L189r"/>
+      <sctap:hasFolio>189v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L189v"/>
+      <sctap:hasFolio>190r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L190r"/>
+      <sctap:hasFolio>190v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L190v"/>
+      <sctap:hasFolio>191r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L191r"/>
+      <sctap:hasFolio>191v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L191v"/>
+      <sctap:hasFolio>192r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L192r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-principium3">
       <dc:title>Principium 3</dc:title>
@@ -31133,11 +32270,43 @@
       <sctap:totalOrderNumber>053</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q1"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b2q10"/>
+      <sctap:questionTitle>Utrum beatus Petrus per suae visionis beatificae celsitudinem videat animam Christi continere omnem gratiae plenitudinem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-principium3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-principium3">
+      <dc:title>pg-principium3 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>192r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L192r"/>
+      <sctap:hasFolio>192v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L192v"/>
+      <sctap:hasFolio>193r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L193r"/>
+      <sctap:hasFolio>193v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L193v"/>
+      <sctap:hasFolio>194r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L194r"/>
+      <sctap:hasFolio>194v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L194v"/>
+      <sctap:hasFolio>195r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L195r"/>
+      <sctap:hasFolio>195v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L195v"/>
+      <sctap:hasFolio>196r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L196r"/>
+      <sctap:hasFolio>196v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L196v"/>
+      <sctap:hasFolio>197r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L197r"/>
+      <sctap:hasFolio>197v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L197v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b3q1">
       <dc:title>Quaestio 1</dc:title>
@@ -31146,6 +32315,7 @@
       <sctap:totalOrderNumber>054</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q2"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium3"/>
+      <sctap:questionTitle>Utrum Verbum divinum naturam humanam assumens donis gratiae informatam possit etiam assumere quamcumque aliam substantiam peccatis deformatam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31203,6 +32373,7 @@
       <sctap:mentions rdf:resource="http://scta.info/resource/person/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/graciliscommentary/title/pg-b3q1-4"/>
       <sctap:status>In Progress</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/name/pg-b3q1-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -31409,6 +32580,26 @@
       <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/pg-b3q1/paragraph/"/>
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b3q1/transcription/critical"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q1">
+      <dc:title>pg-b3q1 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>197v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L197v"/>
+      <sctap:hasFolio>198r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L198r"/>
+      <sctap:hasFolio>198v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L198v"/>
+      <sctap:hasFolio>199r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L199r"/>
+      <sctap:hasFolio>199v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L199v"/>
+      <sctap:hasFolio>200r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L200r"/>
+      <sctap:hasFolio>200v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L200v"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b3q2">
       <dc:title>Quaestio 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
@@ -31416,11 +32607,43 @@
       <sctap:totalOrderNumber>055</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q1"/>
+      <sctap:questionTitle>Utrum ex vi unionis naturae humanae ad Verbum dicere Deum hominem esse factum sit verum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q2">
+      <dc:title>pg-b3q2 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>200v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L200v"/>
+      <sctap:hasFolio>201r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L201r"/>
+      <sctap:hasFolio>201v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L201v"/>
+      <sctap:hasFolio>202r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L202r"/>
+      <sctap:hasFolio>202v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L202v"/>
+      <sctap:hasFolio>203r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L203r"/>
+      <sctap:hasFolio>203v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L203v"/>
+      <sctap:hasFolio>204r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L204r"/>
+      <sctap:hasFolio>204v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L204v"/>
+      <sctap:hasFolio>205r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L205r"/>
+      <sctap:hasFolio>205v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L205v"/>
+      <sctap:hasFolio>206r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L206r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b3q3">
       <dc:title>Quaestio 3</dc:title>
@@ -31429,11 +32652,41 @@
       <sctap:totalOrderNumber>056</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q2"/>
+      <sctap:questionTitle>Utrum sicut tenetur animam Christi in primo instanti sui meruisse, sic tenendum sit ipsam in eodem instanti omnia cognovisse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q3">
+      <dc:title>pg-b3q3 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>206r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L206r"/>
+      <sctap:hasFolio>206v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L206v"/>
+      <sctap:hasFolio>207r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L207r"/>
+      <sctap:hasFolio>207v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L207v"/>
+      <sctap:hasFolio>208r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L208r"/>
+      <sctap:hasFolio>208v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L208v"/>
+      <sctap:hasFolio>209r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L209r"/>
+      <sctap:hasFolio>209v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L209v"/>
+      <sctap:hasFolio>210r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L210r"/>
+      <sctap:hasFolio>210v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L210v"/>
+      <sctap:hasFolio>211r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L211r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b3q4">
       <dc:title>Quaestio 4</dc:title>
@@ -31442,6 +32695,7 @@
       <sctap:totalOrderNumber>057</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium4"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q3"/>
+      <sctap:questionTitle>Utrum spes, fides, caritas, quae ad salutem finaliter requiruntur, a Spiritus Sancti donis ac inter se realiter distinguuntur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
@@ -31705,6 +32959,8 @@
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/graciliscommentary/quote/pg-b3q4-0"/>
       <sctap:status>In Progress</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q4"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/name/pg-b3q4-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -32566,6 +33822,105 @@
       <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b3q4/transcription/critical/paragraph/pgb3q4-usfnev"/>
       <sctap:isParagraphOf rdf:resource="http://scta.info/text/graciliscommentary/transcription/pg-b3q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b3q4">
+      <dc:title>pg-b3q4 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>211v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L211v"/>
+      <sctap:hasFolio>212r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L212r"/>
+      <sctap:hasFolio>212v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L212v"/>
+      <sctap:hasFolio>213r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L213r"/>
+      <sctap:hasFolio>213v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L213v"/>
+      <sctap:hasFolio>214r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L214r"/>
+      <sctap:hasFolio>214v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L214v"/>
+      <sctap:hasFolio>215r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L215r"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4">
+      <dc:title>Book III, Question 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <role:EDT>Natalie Tsottles</role:EDT>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b3q4/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b3q4/transcription/lon"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-principium4">
       <dc:title>Principium 4</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
@@ -32573,11 +33928,39 @@
       <sctap:totalOrderNumber>058</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q1"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+      <sctap:questionTitle>Utrum beatus Petrus propter suae capacitatis ac beatificae delectationis firmitudinem possit in superna domo feliciter quietari per creatam pulchritudinem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-principium4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-principium4">
+      <dc:title>pg-principium4 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>215r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L215r"/>
+      <sctap:hasFolio>215v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L215v"/>
+      <sctap:hasFolio>216r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L216r"/>
+      <sctap:hasFolio>216v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L216v"/>
+      <sctap:hasFolio>217r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L217r"/>
+      <sctap:hasFolio>217v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L217v"/>
+      <sctap:hasFolio>218r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L218r"/>
+      <sctap:hasFolio>218v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L218v"/>
+      <sctap:hasFolio>219r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L219r"/>
+      <sctap:hasFolio>219v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L219v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b4q1">
       <dc:title>Quaestio 1</dc:title>
@@ -32586,11 +33969,91 @@
       <sctap:totalOrderNumber>059</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q2"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-principium4"/>
+      <sctap:questionTitle>Utrum sacramenta novae legis gratiae causativa causaliter Christi plebis sint iustificativa. Utrum sicut sacramenta novae legis animas gratificant formaliter, sic in animabus Christi gregis seu plebis aliquid efficiant realiter se causaliter.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b4q1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b4q1">
+      <dc:title>pg-b4q1 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>219v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L219v"/>
+      <sctap:hasFolio>220r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L220r"/>
+      <sctap:hasFolio>221v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L221v"/>
+      <sctap:hasFolio>222r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L222r"/>
+      <sctap:hasFolio>223v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L223v"/>
+      <sctap:hasFolio>224r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L224r"/>
+      <sctap:hasFolio>224v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L224v"/>
+      <sctap:hasFolio>225r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L225r"/>
+      <sctap:hasFolio>225v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L225v"/>
+      <sctap:hasFolio>226r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L226r"/>
+      <sctap:hasFolio>226v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L226v"/>
+      <sctap:hasFolio>227r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L227r"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1">
+      <dc:title>Title</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <role:EDT/>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q1"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/graciliscommentary/transcription/lon_pg-b4q1/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/graciliscommentary/pg-b4q1/transcription/lon"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b4q2">
       <dc:title>Quaestio 2</dc:title>
@@ -32599,11 +34062,37 @@
       <sctap:totalOrderNumber>060</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q1"/>
+      <sctap:questionTitle>Utrum sub speciebus panis et vini visibilibus realiter existat verum corpus Christi cum suis dimensionibus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b4q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b4q2">
+      <dc:title>pg-b4q2 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>227r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L227r"/>
+      <sctap:hasFolio>227v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L227v"/>
+      <sctap:hasFolio>228r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L228r"/>
+      <sctap:hasFolio>228v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L228v"/>
+      <sctap:hasFolio>229r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L229r"/>
+      <sctap:hasFolio>229v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L229v"/>
+      <sctap:hasFolio>230r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L230r"/>
+      <sctap:hasFolio>230v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L230v"/>
+      <sctap:hasFolio>231r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L231r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/item/pg-b4q3">
       <dc:title>Quaestio 3</dc:title>
@@ -32611,11 +34100,35 @@
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>061</sctap:totalOrderNumber>
       <sctap:previous rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b4q2"/>
+      <sctap:questionTitle>Utrum repugnet non caro per culpam seu peccatori actuali mortali carum esse seu resurgere per gratiam sine poenitentia sacramentali</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/graciliscommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/graciliscommentary/witness/lon_pg-b4q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/graciliscommentary/witness/lon_pg-b4q3">
+      <dc:title>pg-b4q3 [lon]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusGracilis"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>lon</sctap:hasSlug>
+      <sctap:hasFolio>231r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L231r"/>
+      <sctap:hasFolio>231v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L231v"/>
+      <sctap:hasFolio>232r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L232r"/>
+      <sctap:hasFolio>232v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L232v"/>
+      <sctap:hasFolio>233r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L233r"/>
+      <sctap:hasFolio>233v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L233v"/>
+      <sctap:hasFolio>234r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L234r"/>
+      <sctap:hasFolio>234v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pg-lon/canvas/L234v"/>
    </rdf:Description>
 </rdf:RDF>    
 

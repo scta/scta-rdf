@@ -9,6 +9,13 @@
         <parentUri>http://scta.info/text/graciliscommentary/commentary</parentUri>
         <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/PetrusGracilis/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
+        <hasWitnesses>
+          <witness id="lon">
+            <slug>lon</slug>
+            <title>British Royal MS 10 A I</title>
+            <initial>L</initial>
+          </witness>
+        </hasWitnesses>
     </header>
     <div id="body">
         <div id="pg-book1" class="toplevel" type="librum">
@@ -22,12 +29,18 @@
                 <title>Quaestio 1</title>
                 <questionTitle>Utrum quis viator scientifice sine dono speciali possit assentire theologice omni vero supernaturali</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
-                        <title>British Royal MS 10 A I</title>
-                        <initial>L</initial>
-                        <startFolio>11v</startFolio>
-                        <endFolio>15r</endFolio>
+                  <witness ref="#lon">
+                    <slug>lon</slug>
+                    <title>British Royal MS 10 A I</title>
+                    <initial>L</initial>
+                    <folio position="start">11v</folio>
+                    <folio position="middle">12r</folio>
+                    <folio position="middle">12v</folio>
+                    <folio position="middle">13r</folio>
+                    <folio position="middle">13v</folio>
+                    <folio position="middle">14r</folio>
+                    <folio position="middle">14v</folio>
+                    <folio position="end">15r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -37,11 +50,15 @@
                 <questionTitle>Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae voluntatis vel sic Utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum</questionTitle>
                 <hasWitnesses>
                     <witness>
-                        <slug>lon</slug>
-                        <title>British Royal MS 10 A I</title>
-                        <initial>L</initial>
-                        <startFolio>15r</startFolio>
-                        <endFolio>17v</endFolio>
+                      <slug>lon</slug>
+                      <title>British Royal MS 10 A I</title>
+                      <initial>L</initial>
+                      <folio position="start">15r</folio>
+                      <folio position="middle">15v</folio>
+                      <folio position="middle">16r</folio>
+                      <folio position="middle">16v</folio>
+                      <folio position="middle">17r</folio>
+                      <folio position="end">17v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -54,8 +71,14 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>17v</startFolio>
-                        <endFolio>20v</endFolio>
+                      <folio position="start">17v</folio>
+                      <folio position="middle">18r</folio>
+                      <folio position="middle">18v</folio>
+                      <folio position="middle">19r</folio>
+                      <folio position="middle">20r</folio>
+                      <folio position="end">20v</folio>
+                        <folio position="start">17v</folio>
+                        <folio position="end">20v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -68,8 +91,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>20v</startFolio>
-                        <endFolio>23v</endFolio>
+                        <folio position="start">20v</folio>
+                        <folio position="end">23v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -82,8 +105,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>23v</startFolio>
-                        <endFolio>25v</endFolio>
+                        <folio position="start">23v</folio>
+                        <folio position="end">25v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -96,8 +119,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>25v</startFolio>
-                        <endFolio>28r</endFolio>
+                        <folio position="start">25v</folio>
+                        <folio position="end">28r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -110,8 +133,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>28r</startFolio>
-                        <endFolio>30r</endFolio>
+                        <folio position="start">28r</folio>
+                        <folio position="end">30r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -124,8 +147,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>30r</startFolio>
-                        <endFolio>33r</endFolio>
+                        <folio position="start">30r</folio>
+                        <folio position="end">33r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -138,8 +161,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>33r</startFolio>
-                        <endFolio>36r</endFolio>
+                        <folio position="start">33r</folio>
+                        <folio position="end">36r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -152,8 +175,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>36r</startFolio>
-                        <endFolio>38v</endFolio>
+                        <folio position="start">36r</folio>
+                        <folio position="end">38v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -166,8 +189,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>38v</startFolio>
-                        <endFolio>42r</endFolio>
+                        <folio position="start">38v</folio>
+                        <folio position="end">42r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -180,8 +203,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>42r</startFolio>
-                        <endFolio>44v</endFolio>
+                        <folio position="start">42r</folio>
+                        <folio position="end">44v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -194,8 +217,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>44v</startFolio>
-                        <endFolio>47v</endFolio>
+                        <folio position="start">44v</folio>
+                        <folio position="end">47v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -208,8 +231,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>47v</startFolio>
-                        <endFolio>49v</endFolio>
+                        <folio position="start">47v</folio>
+                        <folio position="end">49v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -222,8 +245,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>49v</startFolio>
-                        <endFolio>52r</endFolio>
+                        <folio position="start">49v</folio>
+                        <folio position="end">52r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -236,8 +259,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>52r</startFolio>
-                        <endFolio>54v</endFolio>
+                        <folio position="start">52r</folio>
+                        <folio position="end">54v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -250,8 +273,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>54v</startFolio>
-                        <endFolio>57v</endFolio>
+                        <folio position="start">54v</folio>
+                        <folio position="end">57v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -264,8 +287,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>57v</startFolio>
-                        <endFolio>59v</endFolio>
+                        <folio position="start">57v</folio>
+                        <folio position="end">59v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -278,8 +301,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>59v</startFolio>
-                        <endFolio>63r</endFolio>
+                        <folio position="start">59v</folio>
+                        <folio position="end">63r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -292,8 +315,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>63r</startFolio>
-                        <endFolio>65v</endFolio>
+                        <folio position="start">63r</folio>
+                        <folio position="end">65v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -306,8 +329,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>65v</startFolio>
-                        <endFolio>67v</endFolio>
+                        <folio position="start">65v</folio>
+                        <folio position="end">67v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -320,8 +343,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>68r</startFolio> <!-- dbcheck -->
-                        <endFolio>71r</endFolio>
+                        <folio position="start">68r</folio> <!-- dbcheck -->
+                        <folio position="end">71r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -334,8 +357,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>71r</startFolio>
-                        <endFolio>73v</endFolio>
+                        <folio position="start">71r</folio>
+                        <folio position="end">73v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -348,8 +371,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>73v</startFolio>
-                        <endFolio>76r</endFolio>
+                        <folio position="start">73v</folio>
+                        <folio position="end">76r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -362,8 +385,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>76v</startFolio>
-                        <endFolio>79r</endFolio>
+                        <folio position="start">76v</folio>
+                        <folio position="end">79r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -376,8 +399,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>79v</startFolio>
-                        <endFolio>82r</endFolio>
+                        <folio position="start">79v</folio>
+                        <folio position="end">82r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -390,8 +413,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>82r</startFolio>
-                        <endFolio>84v</endFolio>
+                        <folio position="start">82r</folio>
+                        <folio position="end">84v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -404,8 +427,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>84v</startFolio>
-                        <endFolio>87v</endFolio>
+                        <folio position="start">84v</folio>
+                        <folio position="end">87v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -418,8 +441,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>87v</startFolio>
-                        <endFolio>90v</endFolio>
+                        <folio position="start">87v</folio>
+                        <folio position="end">90v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -432,8 +455,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>90v</startFolio>
-                        <endFolio>93r</endFolio>
+                        <folio position="start">90v</folio>
+                        <folio position="end">93r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -446,8 +469,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>93r</startFolio>
-                        <endFolio>95v</endFolio>
+                        <folio position="start">93r</folio>
+                        <folio position="end">95v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -460,8 +483,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>95v</startFolio>
-                        <endFolio>98v</endFolio>
+                        <folio position="start">95v</folio>
+                        <folio position="end">98v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -474,8 +497,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>98v</startFolio>
-                        <endFolio>101r</endFolio>
+                        <folio position="start">98v</folio>
+                        <folio position="end">101r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -488,8 +511,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>101r</startFolio>
-                        <endFolio>103r</endFolio>
+                        <folio position="start">101r</folio>
+                        <folio position="end">103r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -502,8 +525,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>103r</startFolio>
-                        <endFolio>106v</endFolio>
+                        <folio position="start">103r</folio>
+                        <folio position="end">106v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -516,8 +539,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>106v</startFolio>
-                        <endFolio>110r</endFolio>
+                        <folio position="start">106v</folio>
+                        <folio position="end">110r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -530,8 +553,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>110r</startFolio>
-                        <endFolio>114v</endFolio>
+                        <folio position="start">110r</folio>
+                        <folio position="end">114v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -544,8 +567,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>114r</startFolio>
-                        <endFolio>120r</endFolio>
+                        <folio position="start">114r</folio>
+                        <folio position="end">120r</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -558,8 +581,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>120r</startFolio>
-                        <endFolio>122v</endFolio>
+                        <folio position="start">120r</folio>
+                        <folio position="end">122v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -572,8 +595,8 @@
                         <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
-                        <startFolio>122v</startFolio>
-                        <endFolio>124v</endFolio>
+                        <folio position="start">122v</folio>
+                        <folio position="end">124v</folio>
                     </witness>
                 </hasWitnesses>
             </item>
@@ -583,46 +606,276 @@
             <item live="false" type="quaestio">
                 <fileName filestem="pg-principium2">principium2.xml</fileName>
                 <title>Principium 2</title>
+                <questionTitle>Utrum Petrus  per suae visionis certitudinem videat Verbum continere omnem possibilem entitatem</questionTitle>
+                <hasWitnesses>
+                  <witness>
+                    <slug>lon</slug>
+                    <title>British Royal MS 10 A I</title>
+                    <initial>L</initial>
+                    <folio position="start">126v</folio>
+                    <folio>127r</folio>
+                    <folio>127v</folio>
+                    <folio>128r</folio>
+                    <folio>128v</folio>
+                    <folio>129r</folio>
+                    <folio>129v</folio>
+                    <folio>130r</folio>
+                    <folio>130v</folio>
+                    <folio>131r</folio>
+                    <folio>131v</folio>
+                    <folio>132r</folio>
+                    <folio>132v</folio>
+                    <folio>133r</folio>
+                    <folio>133v</folio>
+                    <folio position="end">134r</folio>
+                  </witness>
+                </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
-                <fileName filestem="pg-b2q1">pg-b2q1.xml</fileName>
-                <title>Quaestio 1</title>
+              <fileName filestem="pg-b2q1">pg-b2q1.xml</fileName>
+              <title>Quaestio 1</title>
+              <questionTitle>Utrum a prima sola causa causaliter creative res potuerint habere esse aeternaliter effective</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio position="start">134r</folio>
+                  <folio>134v</folio>
+                  <folio>135r</folio>
+                  <folio>135v</folio>
+                  <folio>136r</folio>
+                  <folio>136v</folio>
+                  <folio>137r</folio>
+                  <folio>137v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
-                <fileName filestem="pg-b2q2">pg-b2q2.xml</fileName>
-                <title>Quaestio 2</title>
+              <fileName filestem="pg-b2q2">pg-b2q2.xml</fileName>
+              <title>Quaestio 2</title>
+              <questionTitle>Utrum primus angelus in caritate et gratia procreatus in primo instanti sui esse malitia fuerit depravatus</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>137v</folio>
+                  <folio>138r</folio>
+                  <folio>138v</folio>
+                  <folio>139r</folio>
+                  <folio>139v</folio>
+                  <folio>140r</folio>
+                  <folio>140v</folio>
+                  <folio>141r</folio>
+                  <folio>141v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
-                <fileName filestem="pg-b2q3">pg-b2q3.xml</fileName>
-                <title>Quaestio 3</title>
+              <fileName filestem="pg-b2q3">pg-b2q3.xml</fileName>
+              <title>Quaestio 3</title>
+              <questionTitle>Utrum angelis mali per suae visionis claritatem videant in humana mente conceptam pravitatem. Utrum angeli per sui intellectus vivacemn otitiam videant mentis humanae intrinsecam seu occultam malitiam</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>141v</folio>
+                  <folio>142r</folio>
+                  <folio>142v</folio>
+                  <folio>143r</folio>
+                  <folio>143v</folio>
+                  <folio>144r</folio>
+                  <folio>144v</folio>
+                  <folio>145r</folio>
+                  <folio>145v</folio>
+                  <folio>146r</folio>
+                  <folio>146v</folio>
+                  <folio>147r</folio>
+                  <folio>147v</folio>
+                  <folio>148r</folio>
+                  <folio>148v</folio>
+                  <folio>149r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q4">pg-b2q4.xml</fileName>
                 <title>Quaestio 4</title>
+              <questionTitle>Utrum quilibet angelus missus pro hominum custodia continue mereatur per impensa eius obsequia. Utrum boni angeli missi, ut nos ad bonum alliciant vel ne mali nos inficiant, per talia obsequia continue in merito proficiant</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>149r</folio>
+                  <folio>149v</folio>
+                  <folio>150r</folio>
+                  <folio>150v</folio>
+                  <folio>151r</folio>
+                  <folio>151v</folio>
+                  <folio>152r</folio>
+                  <folio>152v</folio>
+                  <folio>153r</folio>
+                  <folio>153v</folio>
+                  <folio>154r</folio>
+                  <folio>154v</folio>
+                  <folio>155r</folio>
+                  <folio>155v</folio>
+                  <folio>156r</folio>
+                  <folio>156v</folio>
+                  <folio>157r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q5">pg-b2q5.xml</fileName>
                 <title>Quaestio 5</title>
+              <questionTitle>Utrum liberum arbitrium creatum fuerit diminutum propter peccatum</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>157r</folio>
+                  <folio>157v</folio>
+                  <folio>158r</folio>
+                  <folio>158v</folio>
+                  <folio>159r</folio>
+                  <folio>159v</folio>
+                  <folio>160r</folio>
+                  <folio>160v</folio>
+                  <folio>161r</folio>
+                  <folio>161v</folio>
+                  <folio>162r</folio>
+                  <folio>162v</folio>
+                  <folio>163r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q6">pg-b2q6.xml</fileName>
                 <title>Quaestio 6</title>
+              <questionTitle>Utrum humanae libertatis creatum arbitrium cogi possit per divinum imperium. Utrum creatae libertatis arbitrium cogi possit per divinae voluntatis dictamen.</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>163r</folio>
+                  <folio>163v</folio>
+                  <folio>164r</folio>
+                  <folio>164v</folio>
+                  <folio>165r</folio>
+                  <folio>165v</folio>
+                  <folio>166r</folio>
+                  <folio>166v</folio>
+                  <folio>167r</folio>
+                  <folio>167v</folio>
+                  <folio>168r</folio>
+                  <folio>168v</folio>
+                  <folio>169r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q7">pg-b2q7.xml</fileName>
                 <title>Quaestio 7</title>
+              <questionTitle>Utrum sicut actus liber voluntatis est in sua libertatis potestate, sic quilibet actus meritorius procedat effective a creata caritate</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>169r</folio>
+                  <folio>169v</folio>
+                  <folio>170r</folio>
+                  <folio>170v</folio>
+                  <folio>171r</folio>
+                  <folio>171v</folio>
+                  <folio>172r</folio>
+                  <folio>172v</folio>
+                  <folio>173r</folio>
+                  <folio>173v</folio>
+                  <folio>174r</folio>
+                  <folio>174v</folio>
+                  <folio>175r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q8">pg-b2q8.xml</fileName>
                 <title>Quaestio 8</title>
+              <questionTitle>Utrum quilibet descendens ab Adam per propagationem naturalem seu seminalem contraxerit in conceptione maculam originalem.</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>175r</folio>
+                  <folio>175v</folio>
+                  <folio>176r</folio>
+                  <folio>176v</folio>
+                  <folio>177r</folio>
+                  <folio>177v</folio>
+                  <folio>178r</folio>
+                  <folio>178v</folio>
+                  <folio>179r</folio>
+                  <folio>179v</folio>
+                  <folio>180r</folio>
+                  <folio>180v</folio>
+                  <folio>181r</folio>
+                  <folio>181v</folio>
+                  <folio>182r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q9">pg-b2q9.xml</fileName>
                 <title>Quaestio 9</title>
+              <questionTitle>Utrum quaelibet actualis mortalis malitia aequaliter mereatur puniri a divina iustitia.</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>182r</folio>
+                  <folio>182v</folio>
+                  <folio>183r</folio>
+                  <folio>183v</folio>
+                  <folio>184r</folio>
+                  <folio>184v</folio>
+                  <folio>185r</folio>
+                  <folio>185v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b2q10">pg-b2q10.xml</fileName>
                 <title>Quaestio 10</title>
+              <questionTitle>Utrum aliquod purum omittere sit per se mortaliter deficere</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>185v</folio>
+                  <folio>186r</folio>
+                  <folio>186v</folio>
+                  <folio>187r</folio>
+                  <folio>187v</folio>
+                  <folio>188r</folio>
+                  <folio>188v</folio>
+                  <folio>189r</folio>
+                  <folio>189v</folio>
+                  <folio>190r</folio>
+                  <folio>190v</folio>
+                  <folio>191r</folio>
+                  <folio>191v</folio>
+                  <folio>192r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
         </div>
         <div id="pg-book3" class="toplevel" type="librum">
@@ -630,22 +883,113 @@
             <item live="false" type="quaestio">
                 <fileName filestem="pg-principium3">principium3.xml</fileName>
                 <title>Principium 3</title>
+              <questionTitle>Utrum beatus Petrus per suae visionis beatificae celsitudinem videat animam Christi continere omnem gratiae plenitudinem</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>192r</folio>
+                  <folio>192v</folio>
+                  <folio>193r</folio>
+                  <folio>193v</folio>
+                  <folio>194r</folio>
+                  <folio>194v</folio>
+                  <folio>195r</folio>
+                  <folio>195v</folio>
+                  <folio>196r</folio>
+                  <folio>196v</folio>
+                  <folio>197r</folio>
+                  <folio>197v</folio>
+                </witness>
+              </hasWitnesses>
+              
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q1">pg-b3q1.xml</fileName>
                 <title>Quaestio 1</title>
+              <questionTitle>Utrum Verbum divinum naturam humanam assumens donis gratiae informatam possit etiam assumere quamcumque aliam substantiam peccatis deformatam</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>197v</folio>
+                  <folio>198r</folio>
+                  <folio>198v</folio>
+                  <folio>199r</folio>
+                  <folio>199v</folio>
+                  <folio>200r</folio>
+                  <folio>200v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q2">pg-b3q2.xml</fileName>
                 <title>Quaestio 2</title>
+              <questionTitle>Utrum ex vi unionis naturae humanae ad Verbum dicere Deum hominem esse factum sit verum</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>200v</folio>
+                  <folio>201r</folio>
+                  <folio>201v</folio>
+                  <folio>202r</folio>
+                  <folio>202v</folio>
+                  <folio>203r</folio>
+                  <folio>203v</folio>
+                  <folio>204r</folio>
+                  <folio>204v</folio>
+                  <folio>205r</folio>
+                  <folio>205v</folio>
+                  <folio>206r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q3">pg-b3q3.xml</fileName>
                 <title>Quaestio 3</title>
+              <questionTitle>Utrum sicut tenetur animam Christi in primo instanti sui meruisse, sic tenendum sit ipsam in eodem instanti omnia cognovisse</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>206r</folio>
+                  <folio>206v</folio>
+                  <folio>207r</folio>
+                  <folio>207v</folio>
+                  <folio>208r</folio>
+                  <folio>208v</folio>
+                  <folio>209r</folio>
+                  <folio>209v</folio>
+                  <folio>210r</folio>
+                  <folio>210v</folio>
+                  <folio>211r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b3q4">pg-b3q4.xml</fileName>
                 <title>Quaestio 4</title>
+              <questionTitle>Utrum spes, fides, caritas, quae ad salutem finaliter requiruntur, a Spiritus Sancti donis ac inter se realiter distinguuntur</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>211v</folio>
+                  <folio>212r</folio>
+                  <folio>212v</folio>
+                  <folio>213r</folio>
+                  <folio>213v</folio>
+                  <folio>214r</folio>
+                  <folio>214v</folio>
+                  <folio>215r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
         </div>
         <div id="pg-book4" class="toplevel" type="librum">
@@ -653,18 +997,89 @@
             <item live="false" type="quaestio">
                 <fileName filestem="pg-principium4">principium3.xml</fileName>
                 <title>Principium 4</title>
+              <questionTitle>Utrum beatus Petrus propter suae capacitatis ac beatificae delectationis firmitudinem possit in superna domo feliciter quietari per creatam pulchritudinem.</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>215r</folio>
+                  <folio>215v</folio>
+                  <folio>216r</folio>
+                  <folio>216v</folio>
+                  <folio>217r</folio>
+                  <folio>217v</folio>
+                  <folio>218r</folio>
+                  <folio>218v</folio>
+                  <folio>219r</folio>
+                  <folio>219v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b4q1">pg-b4q1.xml</fileName>
                 <title>Quaestio 1</title>
+              <questionTitle>Utrum sacramenta novae legis gratiae causativa causaliter Christi plebis sint iustificativa. Utrum sicut sacramenta novae legis animas gratificant formaliter, sic in animabus Christi gregis seu plebis aliquid efficiant realiter se causaliter.</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>219v</folio>
+                  <folio>220r</folio>
+                  <folio>221v</folio>
+                  <folio>222r</folio>
+                  <folio>223v</folio>
+                  <folio>224r</folio>
+                  <folio>224v</folio>
+                  <folio>225r</folio>
+                  <folio>225v</folio>
+                  <folio>226r</folio>
+                  <folio>226v</folio>
+                  <folio>227r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b4q2">pg-b4q2.xml</fileName>
                 <title>Quaestio 2</title>
+              <questionTitle>Utrum sub speciebus panis et vini visibilibus realiter existat verum corpus Christi cum suis dimensionibus</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>227r</folio>
+                  <folio>227v</folio>
+                  <folio>228r</folio>
+                  <folio>228v</folio>
+                  <folio>229r</folio>
+                  <folio>229v</folio>
+                  <folio>230r</folio>
+                  <folio>230v</folio>
+                  <folio>231r</folio>
+                </witness>
+              </hasWitnesses>
             </item>
             <item live="false" type="quaestio">
                 <fileName filestem="pg-b4q3">pg-b4q3.xml</fileName>
                 <title>Quaestio 3</title>
+              <questionTitle>Utrum repugnet non caro per culpam seu peccatori actuali mortali carum esse seu resurgere per gratiam sine poenitentia sacramentali</questionTitle>
+              <hasWitnesses>
+                <witness>
+                  <slug>lon</slug>
+                  <title>British Royal MS 10 A I</title>
+                  <initial>L</initial>
+                  <folio>231r</folio>
+                  <folio>231v</folio>
+                  <folio>232r</folio>
+                  <folio>232v</folio>
+                  <folio>233r</folio>
+                  <folio>233v</folio>
+                  <folio>234r</folio>
+                  <folio>234v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
         </div>
     </div>    

@@ -14,6 +14,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Henricus de Werl Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
@@ -396,6 +397,7 @@
       <dc:title>hw-b1prolq1 [vat]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>vat</sctap:hasSlug>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1">
@@ -806,6 +808,7 @@
       <dc:title>hw-b1prolq2 [vat]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>vat</sctap:hasSlug>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2">
@@ -1178,6 +1181,7 @@
       <dc:title>hw-b1prolq2 [vat]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>vat</sctap:hasSlug>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2">

@@ -14,6 +14,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Lambertus Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/librum/lm-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/librum/lb-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/librum/lb-book3"/>
@@ -1412,6 +1413,7 @@
       <dc:title>lm-b1prolq1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1">
@@ -1470,6 +1472,7 @@
       <dc:title>lm-b1-prol-q2 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d1q1">
       <dc:title>Book 1, distinction 1, question 1</dc:title>
@@ -1490,6 +1493,7 @@
       <dc:title>lm-b1d1q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d2q1">
       <dc:title>Book 1, distinction 2, question 1</dc:title>
@@ -1510,6 +1514,7 @@
       <dc:title>lm-b1d2q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d3q1">
       <dc:title>Book 1, distinction 3, question 1</dc:title>
@@ -1530,6 +1535,7 @@
       <dc:title>lm-b1d3q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d3q2">
       <dc:title>Book 1, distinction 3, question 2</dc:title>
@@ -1552,6 +1558,7 @@
       <dc:title>lm-b1d3q2 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d5q1">
       <dc:title>Book 1, distinction 5, question 1</dc:title>
@@ -1574,6 +1581,7 @@
       <dc:title>lm-b1d5q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d6and7-q1">
       <dc:title>Book 1, distinction 6-7, question 1</dc:title>
@@ -1594,6 +1602,7 @@
       <dc:title>lm-b1d6and7-q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d8q1">
       <dc:title>Book 1, distinction 8, question 1</dc:title>
@@ -1614,6 +1623,7 @@
       <dc:title>lm-b1d8q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-b1d9q1">
       <dc:title>Book 1, distinction 9, question 1</dc:title>
@@ -1634,6 +1644,7 @@
       <dc:title>lm-b1d9q1 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio11">
       <dc:title>Book 1, distiontion 9-11 question 1</dc:title>
@@ -1654,6 +1665,7 @@
       <dc:title>lm-quaestio11 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio12">
       <dc:title>Book 1, distinction 14-15, question 1</dc:title>
@@ -1674,6 +1686,7 @@
       <dc:title>lm-quaestio12 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio13">
       <dc:title>Book 1, distinction 17, question 1</dc:title>
@@ -1694,6 +1707,7 @@
       <dc:title>lm-quaestio13 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio14">
       <dc:title>Book 1, distinction 17, question 2</dc:title>
@@ -1714,6 +1728,7 @@
       <dc:title>lm-quaestio14 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio15">
       <dc:title>Book 1, distinction 19-20, question 1</dc:title>
@@ -1734,6 +1749,7 @@
       <dc:title>lm-quaestio15 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio16">
       <dc:title>Book 1, distinction 22, question 1</dc:title>
@@ -1754,6 +1770,7 @@
       <dc:title>lm-quaestio16 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio17">
       <dc:title>Book 1, distinction 23, question 1</dc:title>
@@ -1774,6 +1791,7 @@
       <dc:title>lm-quaestio17 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio18">
       <dc:title>Book 1, distinction 24-25, question 1</dc:title>
@@ -1794,6 +1812,7 @@
       <dc:title>lm-quaestio18 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio19">
       <dc:title>Book 1, distinction 26, question 1</dc:title>
@@ -1814,6 +1833,7 @@
       <dc:title>lm-quaestio19 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio20">
       <dc:title>Book 1, distinction 28-29, question 1</dc:title>
@@ -1835,6 +1855,7 @@
       <dc:title>lm-quaestio20 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio21">
       <dc:title>Book 1, distinction 30, question 1</dc:title>
@@ -1855,6 +1876,7 @@
       <dc:title>lm-quaestio21 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio22">
       <dc:title>Book 1, distinction 32, question 1</dc:title>
@@ -1875,6 +1897,7 @@
       <dc:title>lm-quaestio22 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio23">
       <dc:title>Book 1, distinction 33-34, question 1</dc:title>
@@ -1895,6 +1918,7 @@
       <dc:title>lm-quaestio23 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio24">
       <dc:title>Book 1, distinction 35, question 1</dc:title>
@@ -1915,6 +1939,7 @@
       <dc:title>lm-quaestio24 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio25">
       <dc:title>Book 1, distinction 37, question 1</dc:title>
@@ -1935,6 +1960,7 @@
       <dc:title>lm-quaestio25 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio26">
       <dc:title>Book 1, distinction 38-39, question 1</dc:title>
@@ -1955,6 +1981,7 @@
       <dc:title>lm-quaestio26 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio27">
       <dc:title>Book 1, distinction 40-41, question 1</dc:title>
@@ -1977,6 +2004,7 @@
       <dc:title>lm-quaestio27 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio28">
       <dc:title>Book 1, distinction 42, question 1</dc:title>
@@ -1998,6 +2026,7 @@
       <dc:title>lm-quaestio28 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio29">
       <dc:title>Book 1, distinction 43, question 1</dc:title>
@@ -2018,6 +2047,7 @@
       <dc:title>lm-quaestio29 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio30">
       <dc:title>Book 1, distinction 44, question 1</dc:title>
@@ -2038,6 +2068,7 @@
       <dc:title>lm-quaestio30 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio31">
       <dc:title>Book 1, distinction 45, question 1</dc:title>
@@ -2058,6 +2089,7 @@
       <dc:title>lm-quaestio31 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio32">
       <dc:title>Book 1, distinction 46, question 1</dc:title>
@@ -2078,6 +2110,7 @@
       <dc:title>lm-quaestio32 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio33">
       <dc:title>Book 1, distinction 48, question 1</dc:title>
@@ -2098,6 +2131,7 @@
       <dc:title>lm-quaestio33 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio34">
       <dc:title>Book 2, distinction 1, question 1</dc:title>
@@ -2118,6 +2152,7 @@
       <dc:title>lm-quaestio34 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio35">
       <dc:title>Book 2, distinction 2, question 1</dc:title>
@@ -2138,6 +2173,7 @@
       <dc:title>lm-quaestio35 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio36">
       <dc:title>Book 2, distinction 3, question 1</dc:title>
@@ -2158,6 +2194,7 @@
       <dc:title>lm-quaestio36 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio37">
       <dc:title>Book 2, distinction 3, question 2</dc:title>
@@ -2178,6 +2215,7 @@
       <dc:title>lm-quaestio37 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio38">
       <dc:title>Book 2, distinction 5, question 2</dc:title>
@@ -2198,6 +2236,7 @@
       <dc:title>lm-quaestio38 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio39">
       <dc:title>Book 2, distinction 6, question 1</dc:title>
@@ -2218,6 +2257,7 @@
       <dc:title>lm-quaestio39 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio40">
       <dc:title>Book 2, distinction 7, question 1</dc:title>
@@ -2238,6 +2278,7 @@
       <dc:title>lm-quaestio40 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio41">
       <dc:title>Book 2, distinction 8, question 1</dc:title>
@@ -2258,6 +2299,7 @@
       <dc:title>lm-quaestio41 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio42">
       <dc:title>Book 2, distinction 9-10, question 1</dc:title>
@@ -2278,6 +2320,7 @@
       <dc:title>lm-quaestio42 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio43">
       <dc:title>Book 2, distinction 11, question 1</dc:title>
@@ -2298,6 +2341,7 @@
       <dc:title>lm-quaestio43 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio44">
       <dc:title>Book 2, distinction 12-13, question 1</dc:title>
@@ -2318,6 +2362,7 @@
       <dc:title>lm-quaestio44 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio45">
       <dc:title>Book 2, distinction 14, question 1</dc:title>
@@ -2338,6 +2383,7 @@
       <dc:title>lm-quaestio45 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio46">
       <dc:title>Book 2, distinction 16-17, question 1</dc:title>
@@ -2359,6 +2405,7 @@
       <dc:title>lm-quaestio46 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio47">
       <dc:title>Book 2, distinction 18-19, question 1</dc:title>
@@ -2379,6 +2426,7 @@
       <dc:title>lm-quaestio47 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio47">
       <dc:title>Book 2, distinction 18-19, question 1</dc:title>
@@ -2399,6 +2447,7 @@
       <dc:title>lm-quaestio47 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio48">
       <dc:title>Book 2, distinction 21, question 1</dc:title>
@@ -2419,6 +2468,7 @@
       <dc:title>lm-quaestio48 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio49">
       <dc:title>Book 2, distinction 23, question 1</dc:title>
@@ -2439,6 +2489,7 @@
       <dc:title>lm-quaestio49 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio50">
       <dc:title>Book 2, distinction 24-25, question 1</dc:title>
@@ -2459,6 +2510,7 @@
       <dc:title>lm-quaestio50 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio51">
       <dc:title>Book 2, distinction 26, question 1</dc:title>
@@ -2479,6 +2531,7 @@
       <dc:title>lm-quaestio51 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio52">
       <dc:title>Book 2, distinction 28-29, question 1</dc:title>
@@ -2500,6 +2553,7 @@
       <dc:title>lm-quaestio52 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio53">
       <dc:title>Book 2, distinction 30, question 1</dc:title>
@@ -2520,6 +2574,7 @@
       <dc:title>lm-quaestio53 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio54">
       <dc:title>Book 2, distinction 32, question 1</dc:title>
@@ -2541,6 +2596,7 @@
       <dc:title>lm-quaestio54 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio55">
       <dc:title>Book 2, distinction 33, question 1</dc:title>
@@ -2561,6 +2617,7 @@
       <dc:title>lm-quaestio55 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio56">
       <dc:title>Book 2, distinction 34, question 1</dc:title>
@@ -2581,6 +2638,7 @@
       <dc:title>lm-quaestio56 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio57">
       <dc:title>Book 2, distinction 35, question 1</dc:title>
@@ -2602,6 +2660,7 @@
       <dc:title>lm-quaestio57 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio58">
       <dc:title>Book 2, distinction 36-37, question 1</dc:title>
@@ -2622,6 +2681,7 @@
       <dc:title>lm-quaestio58 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio59">
       <dc:title>Book 2, distinction 38-39, question 1</dc:title>
@@ -2642,6 +2702,7 @@
       <dc:title>lm-quaestio59 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio60">
       <dc:title>Book 2, distinction 40-41, question 1</dc:title>
@@ -2662,6 +2723,7 @@
       <dc:title>lm-quaestio60 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio61">
       <dc:title>Book 2, distinction 42, question 1</dc:title>
@@ -2682,6 +2744,7 @@
       <dc:title>lm-quaestio61 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio62">
       <dc:title>Book 2, distinction 43, question 1</dc:title>
@@ -2702,6 +2765,7 @@
       <dc:title>lm-quaestio62 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio63">
       <dc:title>Book 3, distinction 1, question 1</dc:title>
@@ -2722,6 +2786,7 @@
       <dc:title>lm-quaestio63 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio64">
       <dc:title>Book 3, distinction 2, question 1</dc:title>
@@ -2743,6 +2808,7 @@
       <dc:title>lm-quaestio64 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio65">
       <dc:title>Book 3, distinction 3, question 1</dc:title>
@@ -2763,6 +2829,7 @@
       <dc:title>lm-quaestio65 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio66">
       <dc:title>Book 3, distinction 4, question 1</dc:title>
@@ -2783,6 +2850,7 @@
       <dc:title>lm-quaestio66 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio67">
       <dc:title>Book 3, distinction 5, question 1</dc:title>
@@ -2803,6 +2871,7 @@
       <dc:title>lm-quaestio67 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio68">
       <dc:title>Book 3, distinction 6, question 1</dc:title>
@@ -2824,6 +2893,7 @@
       <dc:title>lm-quaestio68 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio69">
       <dc:title>Book 3, distinction 6-7, question 1</dc:title>
@@ -2844,6 +2914,7 @@
       <dc:title>lm-quaestio69 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio70">
       <dc:title>Book 3, distinction 8, question 1</dc:title>
@@ -2864,6 +2935,7 @@
       <dc:title>lm-quaestio70 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio71">
       <dc:title>Book 3, distinction 9, question 1</dc:title>
@@ -2884,6 +2956,7 @@
       <dc:title>lm-quaestio71 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio72">
       <dc:title>Book 3, distinction 10, question 1</dc:title>
@@ -2904,6 +2977,7 @@
       <dc:title>lm-quaestio72 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio73">
       <dc:title>Book 3, distinction 12, question 1</dc:title>
@@ -2924,6 +2998,7 @@
       <dc:title>lm-quaestio73 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio74">
       <dc:title>Book 3, distinction 13, question 1</dc:title>
@@ -2944,6 +3019,7 @@
       <dc:title>lm-quaestio74 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio75">
       <dc:title>Book 3, distinction 14, question 1</dc:title>
@@ -2964,6 +3040,7 @@
       <dc:title>lm-quaestio75 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio76">
       <dc:title>Book 3, distinction 15, question 1</dc:title>
@@ -2984,6 +3061,7 @@
       <dc:title>lm-quaestio76 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio77">
       <dc:title>Book 3, distinction 16, question 1</dc:title>
@@ -3004,6 +3082,7 @@
       <dc:title>lm-quaestio77 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio49">
       <dc:title>Book 3, distinction 17, question 1</dc:title>
@@ -3024,6 +3103,7 @@
       <dc:title>lm-quaestio49 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio79">
       <dc:title>Book 3, distinction 18, question 1</dc:title>
@@ -3044,6 +3124,7 @@
       <dc:title>lm-quaestio79 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio80">
       <dc:title>Book 3, distinction 19, question 1</dc:title>
@@ -3064,6 +3145,7 @@
       <dc:title>lm-quaestio80 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio81">
       <dc:title>Book 2, distinction 28-29, question 1</dc:title>
@@ -3084,6 +3166,7 @@
       <dc:title>lm-quaestio81 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio82">
       <dc:title>Book 3, distinction 21, question 1</dc:title>
@@ -3104,6 +3187,7 @@
       <dc:title>lm-quaestio82 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio83">
       <dc:title>Book 3, distinction 23, question 1</dc:title>
@@ -3124,6 +3208,7 @@
       <dc:title>lm-quaestio83 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio84">
       <dc:title>Book 3, distinction 24, question 1</dc:title>
@@ -3144,6 +3229,7 @@
       <dc:title>lm-quaestio84 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio85">
       <dc:title>Book 3, distinction 25, question 1</dc:title>
@@ -3164,6 +3250,7 @@
       <dc:title>lm-quaestio85 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio86">
       <dc:title>Book 3, distinction 26, question 1</dc:title>
@@ -3184,6 +3271,7 @@
       <dc:title>lm-quaestio86 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio87">
       <dc:title>Book 3, distinction 27, question 1</dc:title>
@@ -3204,6 +3292,7 @@
       <dc:title>lm-quaestio87 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio88">
       <dc:title>Book 3, distinction 28, question 1</dc:title>
@@ -3224,6 +3313,7 @@
       <dc:title>lm-quaestio88 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio89">
       <dc:title>Book 3, distinction 32, question 1</dc:title>
@@ -3244,6 +3334,7 @@
       <dc:title>lm-quaestio89 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio61">
       <dc:title>Book 3, distinction 33, question 1</dc:title>
@@ -3264,6 +3355,7 @@
       <dc:title>lm-quaestio61 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio91">
       <dc:title>Book 3, distinction 34, question 1</dc:title>
@@ -3284,6 +3376,7 @@
       <dc:title>lm-quaestio91 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio92">
       <dc:title>Book 3, distinction 35, question 1</dc:title>
@@ -3305,6 +3398,7 @@
       <dc:title>lm-quaestio92 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio93">
       <dc:title>Book 3, distinction 36, question 1</dc:title>
@@ -3325,6 +3419,7 @@
       <dc:title>lm-quaestio93 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio94">
       <dc:title>Book 3, distinction 37, question 1</dc:title>
@@ -3345,6 +3440,7 @@
       <dc:title>lm-quaestio94 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio95">
       <dc:title>Book 3, distinction 38, question 1</dc:title>
@@ -3365,6 +3461,7 @@
       <dc:title>lm-quaestio95 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio96">
       <dc:title>Book 3, distinction 39, question 1</dc:title>
@@ -3385,6 +3482,7 @@
       <dc:title>lm-quaestio96 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio97">
       <dc:title>Book 4, distinction 1, question 1</dc:title>
@@ -3406,6 +3504,7 @@
       <dc:title>lm-quaestio97 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio98">
       <dc:title>Book 4, distinction 3, question 1</dc:title>
@@ -3427,6 +3526,7 @@
       <dc:title>lm-quaestio98 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio65">
       <dc:title>Book 4, distinction 4, question 1</dc:title>
@@ -3447,6 +3547,7 @@
       <dc:title>lm-quaestio65 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio100">
       <dc:title>Book 4, distinction 5, question 1</dc:title>
@@ -3467,6 +3568,7 @@
       <dc:title>lm-quaestio100 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio101">
       <dc:title>Book 4, distinction 6, question 1</dc:title>
@@ -3487,6 +3589,7 @@
       <dc:title>lm-quaestio101 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio102">
       <dc:title>Book 4, distinction 7, question 1</dc:title>
@@ -3508,6 +3611,7 @@
       <dc:title>lm-quaestio102 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio103">
       <dc:title>Book 4, distinction 8, question 1</dc:title>
@@ -3529,6 +3633,7 @@
       <dc:title>lm-quaestio103 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio104">
       <dc:title>Book 3, distinction 10, question 1</dc:title>
@@ -3550,6 +3655,7 @@
       <dc:title>lm-quaestio104 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio105">
       <dc:title>Book 4, distinction 12, question 1</dc:title>
@@ -3570,6 +3676,7 @@
       <dc:title>lm-quaestio105 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio106">
       <dc:title>Book 4, distinction 14, question 1</dc:title>
@@ -3590,6 +3697,7 @@
       <dc:title>lm-quaestio106 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio107">
       <dc:title>Book 3, distinction 16-17, question 1</dc:title>
@@ -3610,6 +3718,7 @@
       <dc:title>lm-quaestio107 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio108">
       <dc:title>Book 4, distinction 18, question 1</dc:title>
@@ -3630,6 +3739,7 @@
       <dc:title>lm-quaestio108 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio109">
       <dc:title>Book 4, distinction 18, question 2</dc:title>
@@ -3650,6 +3760,7 @@
       <dc:title>lm-quaestio109 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio110">
       <dc:title>Book 4, distinction 18, question 3</dc:title>
@@ -3670,6 +3781,7 @@
       <dc:title>lm-quaestio110 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio111">
       <dc:title>Book 4, distinction 18, question 4</dc:title>
@@ -3690,6 +3802,7 @@
       <dc:title>lm-quaestio111 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestin112">
       <dc:title>Book 4, distinction 23, question 1</dc:title>
@@ -3710,6 +3823,7 @@
       <dc:title>lm-quaestin112 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio113">
       <dc:title>Book 4, distinction 24, question 1</dc:title>
@@ -3730,6 +3844,7 @@
       <dc:title>lm-quaestio113 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio114">
       <dc:title>Book 4, distinction 25, question 1</dc:title>
@@ -3750,6 +3865,7 @@
       <dc:title>lm-quaestio114 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio115">
       <dc:title>Book 3, distinction 26, question 1</dc:title>
@@ -3770,6 +3886,7 @@
       <dc:title>lm-quaestio115 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio116">
       <dc:title>Book 4, distinction 29, question 1</dc:title>
@@ -3790,6 +3907,7 @@
       <dc:title>lm-quaestio116 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio117">
       <dc:title>Book 4, distinction 31, question 1</dc:title>
@@ -3811,6 +3929,7 @@
       <dc:title>lm-quaestio117 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio118">
       <dc:title>Book 4, distinction 32, question 1</dc:title>
@@ -3831,6 +3950,7 @@
       <dc:title>lm-quaestio118 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio119">
       <dc:title>Book 4, distinction 35, question 1</dc:title>
@@ -3851,6 +3971,7 @@
       <dc:title>lm-quaestio119 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio120">
       <dc:title>Book 4, distinction 38, question 1</dc:title>
@@ -3871,6 +3992,7 @@
       <dc:title>lm-quaestio120 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio121">
       <dc:title>Book 4, distinction 38, question 2</dc:title>
@@ -3891,6 +4013,7 @@
       <dc:title>lm-quaestio121 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio122">
       <dc:title>Book 4, distinction 42, question 1</dc:title>
@@ -3911,6 +4034,7 @@
       <dc:title>lm-quaestio122 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio123">
       <dc:title>Book 4, distinction 43, question 1</dc:title>
@@ -3931,6 +4055,7 @@
       <dc:title>lm-quaestio123 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/item/lm-quaestio124">
       <dc:title>Book 4, distinction 43, question 2</dc:title>
@@ -3951,6 +4076,7 @@
       <dc:title>lm-quaestio124 [bruss]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
 </rdf:RDF>
 

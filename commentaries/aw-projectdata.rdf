@@ -14,6 +14,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Wodeham Ordinatio</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamordinatio/librum/book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamordinatio/librum/book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamordinatio/librum/book3"/>
@@ -19661,6 +19662,7 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <dc:title>b4-q3 [sorb]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>sorb</sctap:hasSlug>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/wodehamordinatio/transcription/sorb_b4-q3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/transcription/sorb_b4-q3">
@@ -19750,6 +19752,7 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <dc:title>b4-q3 [maz]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>maz</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/item/b4-q4">
       <dc:title>Question 4</dc:title>
@@ -19823,6 +19826,28 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-29"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HilaryOfPoitiers"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-31"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-32"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-33"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-37"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-39"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-40"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/wodehamordinatio/name/b4-q4-41"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/deAnima"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/deAnima"/>
@@ -19831,6 +19856,12 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-3"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/deConsecratione"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Categories"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Categories"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamordinatio/title/b4-q4-7"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/wodehamordinatio/quote/b4-q4--1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
@@ -20017,6 +20048,72 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <sctap:elementText>magistri</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-31">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HilaryOfPoitiers"/>
+      <sctap:elementText>hill</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-32">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-33">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-34">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-35">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-36">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-37">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-38">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-39">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-40">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>scotus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/name/b4-q4-41">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
+      <sctap:elementText>hokam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-1">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
@@ -20039,6 +20136,24 @@ angelis in caelo super uno peccatore”</sctap:elementText>
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deConsecratione"/>
       <sctap:elementText>de consecratione</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-5">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Categories"/>
+      <sctap:elementText>praedicamentis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-6">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Categories"/>
+      <sctap:elementText>praedicamentis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/title/b4-q4-7">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamordinatio/quote/b4-q4--1">

@@ -60,6 +60,7 @@
                 <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
                 <dc:title><xsl:value-of select="$commentaryname"/></dc:title>
                 <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+                <sctap:slug><xsl:value-of select="$commentaryslug"/></sctap:slug>
                     <xsl:choose>
                         <xsl:when test=".//div[@type='librum']">
                             <xsl:for-each select=".//div[@type='librum']">
@@ -376,14 +377,31 @@
                 
                 <xsl:for-each select="hasWitnesses/witness">
                     <xsl:variable name="slug"><xsl:value-of select="./slug"/></xsl:variable>
+                    <xsl:variable name="initial" select="./initial"/>
                     <xsl:variable name="partOf"><xsl:value-of select="./preceding::fileName[1]/@filestem"></xsl:value-of></xsl:variable>
                     <xsl:variable name="partOfTitle"><xsl:value-of select="./preceding::fileName[1]/following-sibling::tei:title"/></xsl:variable>
                     <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $slug, '_', $fs, '.xml')"/>
+                    <xsl:variable name="iiif-ms-name" select="concat($commentaryslug, '-', $slug)"/>
+                    
+                  
                     
                   <rdf:Description rdf:about="http://scta.info/text/{$cid}/witness/{$slug}_{$fs}">
+                    
                     <dc:title><xsl:value-of select="$partOf"/> [<xsl:value-of select="$slug"/>]</dc:title>
                     <role:AUT rdf:resource="{$author-uri}"/>
                     <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+                    <sctap:hasSlug><xsl:value-of select="$slug"></xsl:value-of></sctap:hasSlug>
+                    <xsl:for-each select="./folio">
+                      <xsl:variable name="folionumber" select="./text()"/>
+                      <xsl:variable name="canvas-slug" select="concat($initial, $folionumber)"></xsl:variable>
+                      
+                      <sctap:hasFolio><xsl:value-of select="$folionumber"></xsl:value-of></sctap:hasFolio>
+                      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
+                      
+                    </xsl:for-each>
+                      
+                    
+                    
                     <xsl:if test="document($transcription-text-path)">
                         <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}"/>
                     </xsl:if>
