@@ -15,7 +15,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Sentences of Peter Lombard</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
-      <sctap:slug/>
+      <sctap:slug>pl</sctap:slug>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lombardsententia/librum/pl-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lombardsententia/librum/pl-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lombardsententia/librum/pl-book3"/>
@@ -2104,7 +2104,7 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/lombardsententia/item/pl-b4d50c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/distinctio/pl-b1d1">
-      <dc:title>DISTINCTIO I</dc:title>
+      <dc:title>Distinctio 1</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/librum/pl-book1"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
@@ -2119,7 +2119,7 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d1c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/distinctio/pl-b1d2">
-      <dc:title>DISTINCTIO II</dc:title>
+      <dc:title>Distinctio 2</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/librum/pl-book1"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
@@ -2138,7 +2138,7 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/distinctio/pl-b1d3">
-      <dc:title>DISTINCTIO III</dc:title>
+      <dc:title>Distinctio 3</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/librum/pl-book1"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
@@ -5608,7 +5608,7 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/lombardsententia/item/pl-b4d50c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d1c1">
-      <dc:title>Prologus</dc:title>
+      <dc:title>Librum I, Prologus</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
@@ -5619,6 +5619,7 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d1c1"/>
       <sctap:references rdf:resource="http://scta.info/resource/quotation/lc21_2"/>
       <sctap:references rdf:resource="http://scta.info/resource/quotation/mc12_42"/>
       <sctap:references rdf:resource="http://scta.info/resource/quotation/lc10_35"/>
@@ -5630,9 +5631,19 @@
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col2_23"/>
       <sctap:references rdf:resource="http://scta.info/resource/quotation/mt5_5"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_c"/>
-    </rdf:Description>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d1c1">
+      <dc:title>pl-b1d1c1 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>4r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P4r"/>
+      <sctap:hasFolio>4v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P4v"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d1c1">
-      <dc:title>Cap. 1. </dc:title>
+      <dc:title>Librum I, distinctio 1, capitulus 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
@@ -5644,12 +5655,23 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d1"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d1c1"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_a"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_b"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_20"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d1c1">
+      <dc:title>pl-b1d1c1 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>4v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P4v"/>
+      <sctap:hasFolio>5r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P5r"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d1c2">
-      <dc:title>Cap. 2. </dc:title>
+      <dc:title>Librum I, distinctio 1, capitulus 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
@@ -5666,9 +5688,9 @@
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_b"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_22_20_a"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
-   </rdf:Description>
+  </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d1c3">
-      <dc:title>Cap. 3. </dc:title>
+      <dc:title>Librum I, distinctio 1, capitulus 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
@@ -5680,6 +5702,7 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d1"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d1c3"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_11_17_a"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_30_31_a"/>
@@ -5689,10 +5712,17 @@
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil_20"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps15_2"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal5_22"/>
-
+    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d1c3">
+      <dc:title>pl-b1d1c3 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>5r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P5r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d2c1">
-      <dc:title>Cap. 4 (1). </dc:title>
+      <dc:title>Librum I, distinctio 2, capitulus 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
@@ -5704,10 +5734,21 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d2"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c1"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps104_4"/>
+  </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c1">
+      <dc:title>pl-b1d2c1 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>5v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P5v"/>
+      <sctap:hasFolio>6r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P6r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d2c2">
-      <dc:title>Cap. 5 (2). </dc:title>
+      <dc:title>Librum I, distinctio 2, capitulus 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
@@ -5719,10 +5760,19 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d2"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c2"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+  </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c2">
+      <dc:title>pl-b1d2c2 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>6r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P6r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d2c3">
-      <dc:title>Cap. 6 (3). </dc:title>
+      <dc:title>Librum I, distinctio 2, capitulus 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
@@ -5734,9 +5784,18 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d2"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c3">
+      <dc:title>pl-b1d2c3 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>6r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P6r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d2c4">
-      <dc:title>Cap. 7 (4). </dc:title>
+      <dc:title>Librum I, distinctio 2, capitulus 4</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
@@ -5748,6 +5807,7 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d2"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c4"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut6_4"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex20_23"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex3_14"/>
@@ -5781,8 +5841,16 @@
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap1_6"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is61_1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c4">
+      <dc:title>pl-b1d2c4 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>6r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P6r"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d2c5">
-      <dc:title>Cap. 8 (5). </dc:title>
+      <dc:title>vLibrum I, distinctio 2, capitulus 5</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
@@ -5794,6 +5862,7 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d2"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c5"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hab3_2"/>
       <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/is6_6"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt28_19"/>
@@ -5802,8 +5871,16 @@
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom8_11"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_36"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d2c5">
+      <dc:title>pl-b1d2c5 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>6v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P6v"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d3c1">
-      <dc:title>Cap. 9 (1). </dc:title>
+      <dc:title>Librum I, distinctio 3, capitulus 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
@@ -5815,12 +5892,21 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d3"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c1"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_20"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_19"/>
       <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ex8_18"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c1">
+      <dc:title>pl-b1d3c1 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>7r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P7r"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d3c2">
-      <dc:title>Cap. 10 (2). </dc:title>
+      <dc:title>Librum I, distinctio 3, capitulus 2</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
@@ -5832,23 +5918,41 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d3"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c2">
+      <dc:title>pl-b1d3c2 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>7v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P7v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d3c3">
-      <dc:title>Cap. 11 (3). </dc:title>
+      <dc:title>Librum I, distinctio 3, capitulus 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d3c4"/>
       <sctap:previous rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d3c2"/>
-      <sctap:questionTitle>De similitudine creantis et creatae trinitatis. </sctap:questionTitle>
+      <sctap:questionTitle>De similitudine creantis et creatae trinitatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/capitulus"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d3"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c3">
+      <dc:title>pl-b1d3c3 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>8r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P8r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d3c4">
-      <dc:title>Cap. 12 (4). </dc:title>
+      <dc:title>Librum I, distinctio 3, capitulus 3</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
@@ -5860,6 +5964,15 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lombardsententia/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lombardsententia/distinctio/pl-b1d3"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lombardsententia/witness/bnf15705_pl-b1d3c4">
+      <dc:title>pl-b1d3c4 [Paris, Lat 15705]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusLombard"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15705</sctap:hasSlug>
+      <sctap:hasFolio>8v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pl-bnf15705/canvas/P8v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lombardsententia/item/pl-b1d4c1">
       <dc:title>Cap. 13 (1). </dc:title>

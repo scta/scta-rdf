@@ -16,6 +16,7 @@
             xmlns:owl="http://www.w3.org/2002/07/owl#">
             <xsl:for-each select="//item">
                 <xsl:choose>
+                  <!-- if there is a text in the quote element then we are making a quote entry; if there is no text then we are making a passage entry -->
                     <xsl:when test="./quote/text()">
                         <xsl:call-template name="createQuotationEntry"/>
                     </xsl:when>
@@ -54,8 +55,8 @@
                         </xsl:when>
                     </xsl:choose>
                 </xsl:for-each>
-                
-                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes|sctap:references[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]">
+              <!-- this for each intends to go through every xml/rdf file and check and see if ther eis a quote that matches the current node. If so, it creates a quotation entry -->  
+              <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]|sctap:references[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <xsl:choose>
                         <xsl:when test="./name() eq 'quotes'">
@@ -65,7 +66,7 @@
                             <sctap:referencedBy rdf:resource="{$itemid}"/>
                         </xsl:when>
                         <xsl:otherwise>
-                            <sctap:quoteBy rdf:resource="{$itemid}"/>
+                            <sctap:quotedBy rdf:resource="{$itemid}"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:for-each>

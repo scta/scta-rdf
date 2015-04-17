@@ -6,7 +6,7 @@ date
 
 echo "Being quotation extraction from Biblia Sacra Vulgate";
 date
-bookid="ps"
+bookid="Icor"
 saxon "-s:/Users/JCWitt/Documents/BibleQuotes/Biblia_Sacra_Vulgata/Biblia_Sacra_Vulgata.xml" "-xsl:$base/xsl_stylesheets/rdf_bsv_quotes_conversion.xsl" "-o:$base/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
 date
 

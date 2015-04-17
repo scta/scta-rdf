@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/Tarantasiacommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>Peter of Tarantasia Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>pdt</sctap:slug>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d1">
+      <dc:title/>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/librum/pdt-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/tarantasiacommentary/librum/pdt-l1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d2">
+      <dc:title/>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/librum/pdt-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/tarantasiacommentary/librum/pdt-l1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1prolq1">
+      <dc:title>Librum I, Prologus, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q1"/>
+      <sctap:questionTitle>De scientia theologiae</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1prolq1">
+      <dc:title>pdt-l1prolq1 [Paris, BnF, Latin 14556 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf14556</sctap:hasSlug>
+      <sctap:hasFolio>1v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P1v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q1">
+      <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1prolq1"/>
+      <sctap:questionTitle>De usu</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d1q1">
+      <dc:title>pdt-l1d1q1 [Paris, BnF, Latin 14556 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf14556</sctap:hasSlug>
+      <sctap:hasFolio>2v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2">
+      <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q1"/>
+      <sctap:questionTitle>De fruitione</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d1q2">
+      <dc:title>pdt-l1d1q2 [Paris, BnF, Latin 14556 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf14556</sctap:hasSlug>
+      <sctap:hasFolio>3v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1">
+      <dc:title>Librum I, Distinctio 2, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2"/>
+      <sctap:questionTitle>De unitate essentiae</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d2"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d2q1">
+      <dc:title>pdt-l1d2q1 [Paris, BnF, Latin 14556 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf14556</sctap:hasSlug>
+      <sctap:hasFolio>4r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q2">
+      <dc:title>Librum I, Distinctio 2, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1"/>
+      <sctap:questionTitle>De pluralitate personarum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/Tarantasiacommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/distinctio/pdt-l1d2"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/witness/bnf14556_pdt-l1d2q2">
+      <dc:title>pdt-l1d2q2 [Paris, BnF, Latin 14556 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf14556</sctap:hasSlug>
+      <sctap:hasFolio>5r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P5r"/>
+   </rdf:Description>
+</rdf:RDF>
+

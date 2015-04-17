@@ -9,8 +9,11 @@
         <parentUri>http://scta.info/text/graciliscommentary/commentary</parentUri>
         <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/PetrusGracilis/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
+        <questionListSource>Marcolino</questionListSource>
+        <questionListOriginalEditor></questionListOriginalEditor>
+        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
         <hasWitnesses>
-          <witness id="lon">
+          <witness id="L">
             <slug>lon</slug>
             <title>British Royal MS 10 A I</title>
             <initial>L</initial>
@@ -29,7 +32,7 @@
                 <title>Quaestio 1</title>
                 <questionTitle>Utrum quis viator scientifice sine dono speciali possit assentire theologice omni vero supernaturali</questionTitle>
                 <hasWitnesses>
-                  <witness ref="#lon">
+                  <witness ref="#L">
                     <slug>lon</slug>
                     <title>British Royal MS 10 A I</title>
                     <initial>L</initial>
@@ -49,7 +52,7 @@
                 <title>Quaestio 2</title>
                 <questionTitle>Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae voluntatis vel sic Utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum</questionTitle>
                 <hasWitnesses>
-                    <witness>
+                  <witness ref="#L">
                       <slug>lon</slug>
                       <title>British Royal MS 10 A I</title>
                       <initial>L</initial>
@@ -67,8 +70,8 @@
                 <title>Quaestio 3</title>
                 <questionTitle>Utrum possit probari per textum sacrae scripturae trinus et unus conditor creatae naturae</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                       <folio position="start">17v</folio>
@@ -87,8 +90,8 @@
                 <title>Quaestio 4</title>
                 <questionTitle>Utrum animae humanae propago active sit proprie Trinitatis divinae imago</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">20v</folio>
@@ -101,8 +104,8 @@
                 <title>Quaestio 5</title>
                 <questionTitle>Utrum prius aeternaliter Deus genuit, quam produxit temporaliter ens dependens corporeum</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">23v</folio>
@@ -115,8 +118,8 @@
                 <title>Quaestio 6</title>
                 <questionTitle>Utrum quam repugnat plures causas aliquam rem totaliter efficere, tam repugnet eandem rem semetipsam realiter producere</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">25v</folio>
@@ -129,8 +132,8 @@
                 <title>Quaestio 7</title>
                 <questionTitle>Utrum memoria Patris fecunda complacenter et libere Filium, qui est persona secunda, determinetur gignere.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">28r</folio>
@@ -143,8 +146,8 @@
                 <title>Quaestio 8</title>
                 <questionTitle>Utrum generatio activa in Patre sit perfectionis simpliciter immensae</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">30r</folio>
@@ -157,8 +160,8 @@
                 <title>Quaestio 9</title>
                 <questionTitle>Utrum sola prima causa entis producibilis sit simplex necessaria et incommutabilis seu invariabilis</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">33r</folio>
@@ -171,8 +174,8 @@
                 <title>Quaestio 10</title>
                 <questionTitle>Utrum cuilibet supposito seu personae divinae naturae repugnet prioritas cuiuscumque durativae mensurae</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">36r</folio>
@@ -185,8 +188,8 @@
                 <title>Quaestio 11</title>
                 <questionTitle>Utrum Pater et Filius eodem modo agendi indistincto Spiritum Sanctum producant in supposito a se distincto</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">38v</folio>
@@ -199,8 +202,8 @@
                 <title>Quaestio 12</title>
                 <questionTitle>Utrum sit possibile Spiritum Sanctum esse productum et ipsum non esse genitum nec ingenitum. Utrum a Patre et Filio Spiritus Sanctus taliter procedat sic, quod ipsum nec ingenitum nec genitum fides concedat. Utrum Spiritus Sanctus a Patre et Filio taliter producatur, quod nec genitus nec ingenitus vere dicatur</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">42r</folio>
@@ -213,8 +216,8 @@
                 <title>Quaestio 13</title>
                 <questionTitle>Utrum missio temporalis Spiritus Sancti in corda fidelium sit processio aeternalis non habens initium. Utrum Spiritus Sancti in corda fidelium donatio temporalis sit eiusdem a Patre et Filio spiratio aeternalis.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">44v</folio>
@@ -227,8 +230,8 @@
                 <title>Quaestio 14</title>
                 <questionTitle>Utrum quodlibet suppositum divinum mitti a quolibet theologo debeat admitti. Utrum Spiritus Sancti missio temporalis sit in mente creata perceptio vitalis. Utrum stet Spiritum Sanctum ab aliquo recipi et ipsum a recipiente nullo modo percipi. Utrum stet Spiritum Sanctum realiter recipere et eundem in se habendo non vitaliter percipere</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">47v</folio>
@@ -241,8 +244,8 @@
                 <title>Quaestio 15</title>
                 <questionTitle>Utrum species, in quibus Spiritus Sanctus missus apparuit visibiliter, fuerint entitates potentias creatas immutantes realiter</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">49v</folio>
@@ -255,8 +258,8 @@
                 <title>Quaestio 16</title>
                 <questionTitle>Utrum amor personalis divinae essentiae sit dilectio formalis creatae potentiae. Utrum immensum donum sit dilectio formalis, qua recte summum bonum amat amans realis. Utrum Spiritus Sancti amor summus per duos productus spiratores sit illud, quo formaliter sumus summi boni iusti veri amatores.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">52r</folio>
@@ -269,8 +272,8 @@
                 <title>Quaestio 17</title>
                 <questionTitle>Utrum per maiorem in viatore moralis bonitatis virtualem perfectionem possimus in eadem concludere creatae caritatis gradualem intensionem</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">54v</folio>
@@ -283,8 +286,8 @@
                 <title>Quaestio 18</title>
                 <questionTitle>Utrum sicut Deus potest facere de non caro carum non donando infusae caritatis caritudinem, sic se solo possit efficere de caro non carum subtrahendo voluntatis rectitudinem. Utrum sicut Deus potest facere de non caro carum, sic se solo possit efficere de iusto non iustum. Utrum sicut Deus potet facere de non caro carum non ponendo caritatem in humana mente, sic se solo possit efficere de caro non carum in privando voluntatem iam habita caritate.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">57v</folio>
@@ -297,8 +300,8 @@
                 <title>Quaestio 19</title>
                 <questionTitle>Utrum aeterni doni temporalis donatio sit infinita recipientis obligatio. Utrum aeternum donum datum temporaliter obliget virum bonum immense simpliciter</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">59v</folio>
@@ -311,8 +314,8 @@
                 <title>Quaestio 20</title>
                 <questionTitle>Utrum quodlibet divinum suppositum immense perfectum sit se ipso ab alio quolibet infinite distinctum</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">63r</folio>
@@ -325,8 +328,8 @@
                 <title>Quaestio 21</title>
                 <questionTitle>Utrum quodlibet divinum suppositum propter suum aequale posse quodlibet contingentiae expositum aeque possit facere esse.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">65v</folio>
@@ -339,8 +342,8 @@
                 <title>Quaestio 22</title>
                 <questionTitle>Utrum idem conceptus numero possit convenire proprie et formaliter Deo et creaturae. Utrum aliqua nomina reperta in scripturis sint formaliter propria Deo et creaturis.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">68r</folio> <!-- dbcheck -->
@@ -353,8 +356,8 @@
                 <title>Quaestio 23</title>
                 <questionTitle>Utrum tot sint divina supposita praecisive, quot sunt proprietates eorundem relativae</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">71r</folio>
@@ -367,8 +370,8 @@
                 <title>Quaestio 24</title>
                 <questionTitle>Utrum Pater dicens Verbum suum aeternale possit dici Verbi principium internale. Utrum suppositum dicens Verbum aeternale dici potest principium internale non impedibile</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">73v</folio>
@@ -381,8 +384,8 @@
                 <title>Quaestio 25</title>
                 <questionTitle>Utrum summum independens referatur ad contingens. Utrum trinum simplex invariabile referatur ad contingens seu producibile. Utrum per productum possit formaliter inferri Deum ad creata vere realiter referri.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">76v</folio>
@@ -395,8 +398,8 @@
                 <title>Quaestio 26</title>
                 <questionTitle>Utrum Patris et Filii amor seu nexus indissolubilis sit, quo ab eis omnis res diligitur vel est diligibilis</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">79v</folio>
@@ -409,8 +412,8 @@
                 <title>Quaestio 27</title>
                 <questionTitle>Utrum summa simplex essentia productiva cuiuslibet rei producibilis sit aeterna scientia cognitiva cuiuslibet rei cognoscibilis. Utrum omnium cognoscibilium essentia increata sit interna notitia suae immensitati adaequata</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">82r</folio>
@@ -423,8 +426,8 @@
                 <title>Quaestio 28</title>
                 <questionTitle>Utrum in suprema scientia cuiuslibet entitatis possibilis cognitiva ideetur culpae malitia cuiuslibet voluntatis vertibilis infectiva. Utrum per verbum entis cognitivum ideetur malum mentis infectivum</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">84v</folio>
@@ -437,8 +440,8 @@
                 <title>Quaestio 29</title>
                 <questionTitle>Utrum divinum seu primum necesse in quolibet ente necesse sit esse</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">87v</folio>
@@ -451,8 +454,8 @@
                 <title>Quaestio 30</title>
                 <questionTitle>Utrum certitudini divinae praescientiae repugnet ratio contingentiae. Utrum cum divina praescientia certa et infallibili stet mera contingentia in re producibili</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">90v</folio>
@@ -465,8 +468,8 @@
                 <title>Quaestio 31</title>
                 <questionTitle>Utrum sicut divina essentia est omnium futurorum ratio cognitiva, sic eadem, ut est praescientia, sit futurorum contingentium ratio seu actio productiva</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">93r</folio>
@@ -479,8 +482,8 @@
                 <title>Quaestio 32</title>
                 <questionTitle>Utrum praedestinato aeternaliter ac existenti in caritate Deus possit certitudinaliter suam damnationem revelare. Utrum existenti in caritate ac praedestinato aeternaliter Deus possit revelare suam damnationem certitudinaliter.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">95v</folio>
@@ -493,8 +496,8 @@
                 <title>Quaestio 33</title>
                 <questionTitle>Utrum praedestinationis ac reprobationis aeternalis sit aliquod aeternale motivum aut ratio causalis.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">98v</folio>
@@ -507,8 +510,8 @@
                 <title>Quaestio 34</title>
                 <questionTitle>Utrum ratio adaequata omnipotentiae sit immensa activitas divinae essentiae.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">101r</folio>
@@ -521,8 +524,8 @@
                 <title>Quaestio 35</title>
                 <questionTitle>Utrum ea, quae Deus praeordinavit immediate se facturum, possit libere numquam facere in futurum.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">103r</folio>
@@ -535,8 +538,8 @@
                 <title>Quaestio 36</title>
                 <questionTitle>Utrum omnipotens quodlibet posse ab eo dependens productive possit meliorare seu perfectius facere entitative seu augere perfective</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">106v</folio>
@@ -549,8 +552,8 @@
                 <title>Quaestio 37</title>
                 <questionTitle>Utrum per divinae voluntatis vigorem ordinentur et regulentur omnia ad universi decorem. Utrum per divinae voluntatis rectitudinem ordinentur omnia ad universi pulchritudinem</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">110r</folio>
@@ -563,8 +566,8 @@
                 <title>Quaestio 38</title>
                 <questionTitle>Utrum divinum velle rerum immediatum productivum principium sit non esse earum causale principium positivum.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">114r</folio>
@@ -577,8 +580,8 @@
                 <title>Quaestio 39</title>
                 <questionTitle>Utrum quodlibet bonum possibile aliud a prima bonitate sit in se ponibile ab increata voluntate.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">120r</folio>
@@ -591,8 +594,8 @@
                 <title>Quaestio 40</title>
                 <questionTitle>Utrum stet rectum esse actum voluntatis creatae sine sui ad velle divinum conformitate.</questionTitle>
                 <hasWitnesses>
-                    <witness>
-                        <slug>lon</slug>
+                    <witness ref="#L">
+                    <slug>lon</slug>
                         <title>British Royal MS 10 A I</title>
                         <initial>L</initial>
                         <folio position="start">122v</folio>

@@ -4,10 +4,21 @@
 <authorName>Peter Lombard</authorName>
 <commentaryName>Sentences of Peter Lombard</commentaryName>
 <commentaryid>lombardsententia</commentaryid>
+<commentaryslug>pl</commentaryslug>
 <authorUri>http://scta.info/resource/person/PetrusLombard</authorUri>
 <parentUri>http://scta.info/text/lombardsententia/commentary</parentUri>
 <textfilesdir/>
 <webbase>null</webbase>
+  <questionListSource>Brady ??</questionListSource>
+  <questionListOriginalEditor></questionListOriginalEditor>
+  <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+<hasWitnesses>
+  <witness id="P">
+    <slug>bnf15705</slug>
+    <title>Paris, Lat 15705</title>
+    <initial>P</initial>
+  </witness>
+</hasWitnesses>
 </header>
 
 <div id="body">
@@ -15,9 +26,17 @@
 <head>Librum I</head>
  <item id="pl-b1prol" type="prologus">
    <fileName filestem="pl-b1d1c1">pl-b1d1c1.xml</fileName>
-   <title>Prologus</title>
+   <title>Librum I, Prologus</title>
    <questionTitle/>
-    <manualRDFs>
+   <hasWitnesses>
+     <witness ref="#P">
+       <slug>bnf15705</slug>
+       <initial>P</initial>
+       <folio>4r</folio>
+       <folio>4v</folio>
+     </witness>
+   </hasWitnesses>
+   <manualRDFs>
     <sctap:references rdf:resource="http://scta.info/resource/quotation/lc21_2"/>
     <sctap:references rdf:resource="http://scta.info/resource/quotation/mc12_42"/>
     <sctap:references rdf:resource="http://scta.info/resource/quotation/lc10_35"/>
@@ -29,14 +48,22 @@
     <sctap:quotes rdf:resource="http://scta.info/resource/quotation/col2_23"/>
     <sctap:references rdf:resource="http://scta.info/resource/quotation/mt5_5"/>
     <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_c"/>
-    </manualRDFs>
+   </manualRDFs>
  </item>
 <div id="pl-b1d1" type="distinctio">
-<head>DISTINCTIO I</head>
+<head>Distinctio 1</head>
 <item id="pl-b1d1c1" type="capitulus">
   <fileName filestem="pl-b1d1c1">pl-b1d1c1.xml</fileName>
-  <title>Cap. 1. </title>
+  <title>Librum I, distinctio 1, capitulus 1</title>
   <questionTitle>Omnis doctrina est vel de rebus vel de signis.</questionTitle>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>4v</folio>
+      <folio>5r</folio>
+    </witness>
+  </hasWitnesses>
 <manualRDFs>
 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_a"/>
 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_b"/>
@@ -45,61 +72,104 @@
 </item>
 <item id="pl-b1d1c2" type="capitulus">
   <fileName filestem="pl-b1d1c2">pl-b1d1c2.xml</fileName>
-  <title>Cap. 2. </title>
+  <title>Librum I, distinctio 1, capitulus 2</title>
   <questionTitle>De rebus quibus fruendum est vel utendum est, et de his quae fruuntur vel utuntur.</questionTitle>
-<manualRDFs>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_a"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_5_5_a"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_b"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_22_20_a"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
-</manualRDFs>
+  <incipit>Id ergo in rebus considerandum est</incipit>
+  <hasWitnesses>
+    <!-- can find in bnf15705 -->
+  </hasWitnesses>
+  <manualRDFs>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_a"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_5_5_a"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_b"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_22_20_a"/>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
+  </manualRDFs>
 </item>
 <item id="pl-b1d1c3" type="capitulus">
   <fileName filestem="pl-b1d1c3">pl-b1d1c3.xml</fileName>
-  <title>Cap. 3. </title>
+  <title>Librum I, distinctio 1, capitulus 3</title>
   <questionTitle>Quid sit frui vel uti.</questionTitle>
-<manualRDFs>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_11_17_a"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_30_31_a"/>
-<!-- more augustine quotes but at htis point I just started doing bible quotations -->
-<sctap:references rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
-<sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ier17_5"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil_20"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps15_2"/>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal5_22"/>
-
-</manualRDFs>
-</item>
+  <incipit>Notandum vero</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>5r</folio>
+    </witness>
+  </hasWitnesses>
+    <manualRDFs>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_11_17_a"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_30_31_a"/>
+      <!-- more augustine quotes but at htis point I just started doing bible quotations -->
+      <sctap:references rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
+      <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/ier17_5"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/phil_20"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps15_2"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/gal5_22"/>
+    </manualRDFs>
+  </item>
 </div>
 <div id="pl-b1d2" type="distinctio">
-<head>DISTINCTIO II</head>
+<head>Distinctio 2</head>
 <item id="pl-b1d2c1" type="capitulus">
 <fileName filestem="pl-b1d2c1">pl-b1d2c1.xml</fileName>
-<title>Cap. 4 (1). </title>
-<questionTitle>De trinitate et unitate.</questionTitle>
-<manualRDFs>
-<sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps104_4"/>
-</manualRDFs>
+  <title>Librum I, distinctio 2, capitulus 1</title>
+  <questionTitle>De trinitate et unitate.</questionTitle>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>5v</folio>
+      <folio>6r</folio>
+    </witness>
+  </hasWitnesses>
+  <manualRDFs>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ps104_4"/>
+  </manualRDFs>
 </item>
 <item id="pl-b1d2c2" type="capitulus">
 <fileName filestem="pl-b1d2c2">pl-b1d2c2.xml</fileName>
-<title>Cap. 5 (2). </title>
+  <title>Librum I, distinctio 2, capitulus 2</title>
 <questionTitle>Quae fuerit intentio scribentium de Trinitate.</questionTitle>
-<manualRDFs>
- <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
-</manualRDFs>
+<incipit>Omnes autem catholici</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>6r</folio>
+    </witness>
+  </hasWitnesses>
+  <manualRDFs>
+    <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io10_30"/>
+  </manualRDFs>
 </item>
 <item id="pl-b1d2c3" type="capitulus">
 <fileName filestem="pl-b1d2c3">pl-b1d2c3.xml</fileName>
-<title>Cap. 6 (3). </title>
-<questionTitle>Quis ordo sit servandus cum de Trinitate agitur.</questionTitle>
+  <title>Librum I, distinctio 2, capitulus 3</title>
+  <questionTitle>Quis ordo sit servandus cum de Trinitate agitur.</questionTitle>
+  <incipit>ceterum, ut in libro</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>6r</folio>
+    </witness>
+  </hasWitnesses>
 </item>
 <item id="pl-b1d2c4" type="capitulus">
 <fileName filestem="pl-b1d2c4">pl-b1d2c4.xml</fileName>
-<title>Cap. 7 (4). </title>
+  <title>Librum I, distinctio 2, capitulus 4</title>
 <questionTitle>De testimoniis veteris Testamenti quibus Trinitatis mysterium declaratur.</questionTitle>
+<incipit>proponamus ergo</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>6r</folio>
+    </witness>
+  </hasWitnesses>
 <manualRDFs>
 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/deut6_4"/>
 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ex20_23"/>
@@ -137,8 +207,16 @@
 </item>
 <item id="pl-b1d2c5" type="capitulus">
 <fileName filestem="pl-b1d2c5">pl-b1d2c5.xml</fileName>
-<title>Cap. 8 (5). </title>
+  <title>vLibrum I, distinctio 2, capitulus 5</title>
 <questionTitle>De testimoniis novi Testamenti ad idem pertinentibus.</questionTitle>
+<incipit>Nunc post testimonia</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>6v</folio>
+    </witness>
+  </hasWitnesses>
 <manualRDFs>
 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hab3_2"/>
 <sctap:alludesTo rdf:resource="http://scta.info/resource/quotation/is6_6"/>
@@ -151,11 +229,19 @@
 </item>
 </div>
 <div id="pl-b1d3" type="distinctio">
-<head>DISTINCTIO III</head>
+<head>Distinctio 3</head>
 <item id="pl-b1d3c1" type="capitulus">
 <fileName filestem="pl-b1d3c1">pl-b1d3c1.xml</fileName>
-<title>Cap. 9 (1). </title>
+  <title>Librum I, distinctio 3, capitulus 1</title>
 <questionTitle>De cognitione Creatoris per creaturas in quibus Trinitatis vestigium apparet.</questionTitle>
+  <incipit>Apostolus namque ait</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>7r</folio>
+    </witness>
+  </hasWitnesses>
 <manualRDFs>
  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_20"/>
  <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_19"/>
@@ -164,22 +250,44 @@
 </item> 
 <item id="pl-b1d3c1" type="capitulus">
 <fileName filestem="pl-b1d3c2">pl-b1d3c2.xml</fileName>
-<title>Cap. 10 (2). </title>
+<title>Librum I, distinctio 3, capitulus 2</title>
 <questionTitle>De imagine et similitudine Trinitatis in anima humana.</questionTitle>
+  <incipit>Nunc vero iam ad eam</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>7v</folio>
+    </witness>
+  </hasWitnesses>
 <manualRDFs>
 </manualRDFs>
 </item>
 <item id="pl-b1d3c3" type="capitulus">
 <fileName filestem="pl-b1d3c3">pl-b1d3c3.xml</fileName>
-<title>Cap. 11 (3). </title>
-<questionTitle>De similitudine creantis et creatae trinitatis. </questionTitle>
-<manualRDFs>
-</manualRDFs>
+  <title>Librum I, distinctio 3, capitulus 3</title>
+<questionTitle>De similitudine creantis et creatae trinitatis.</questionTitle>
+  <incipit>verumtamen caveat, ne hanc</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>8r</folio>
+    </witness>
+  </hasWitnesses>
 </item>
 <item id="pl-b1d3c4" type="capitulus">
 <fileName filestem="pl-b1d3c4">pl-b1d3c4.xml</fileName>
-<title>Cap. 12 (4). </title>
-<questionTitle>De Trinitatis unitate.</questionTitle>
+  <title>Librum I, distinctio 3, capitulus 3</title>
+  <questionTitle>De Trinitatis unitate.</questionTitle>
+  <incipit>Quapropter iuxta istam</incipit>
+  <hasWitnesses>
+    <witness ref="#P">
+      <slug>bnf15705</slug>
+      <initial>P</initial>
+      <folio>8v</folio>
+    </witness>
+  </hasWitnesses>
 </item>
 </div>
 <div id="pl-b1d4" type="distinctio">

@@ -14,7 +14,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Jacobus de Altavila Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
-      <sctap:slug/>
+      <sctap:slug>ja</sctap:slug>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/librum/ja-book1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item2"/>
@@ -106,6 +106,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item1">
+      <dc:title>ja-item1 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item1">
+      <dc:title>ja-item1 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item2">
       <dc:title>Circa prologum, q. 2</dc:title>
@@ -120,6 +134,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item2"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item2">
+      <dc:title>ja-item2 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item2">
+      <dc:title>ja-item2 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item3">
       <dc:title>Circa dist. primam</dc:title>
@@ -134,6 +162,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item3"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item3">
+      <dc:title>ja-item3 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item3">
+      <dc:title>ja-item3 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item4">
       <dc:title>Circa dist. 1am, 2am et 3am</dc:title>
@@ -148,6 +190,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item4"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item4">
+      <dc:title>ja-item4 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item4">
+      <dc:title>ja-item4 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item5">
       <dc:title>Circa dist. 2am</dc:title>
@@ -162,6 +218,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item5"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item5">
+      <dc:title>ja-item5 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item5">
+      <dc:title>ja-item5 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item6">
       <dc:title>Circa dist. 2am et 3am</dc:title>
@@ -176,6 +246,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item6"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item6">
+      <dc:title>ja-item6 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item6">
+      <dc:title>ja-item6 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item7">
       <dc:title>Circa dist. 2am-8am</dc:title>
@@ -190,6 +274,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item7"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item7">
+      <dc:title>ja-item7 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item7">
+      <dc:title>ja-item7 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item8">
       <dc:title>Circa dist. 2am, 3am</dc:title>
@@ -204,6 +302,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item8"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item8">
+      <dc:title>ja-item8 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item8">
+      <dc:title>ja-item8 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item9">
       <dc:title>Circa dist. 4am, 5am, 6am</dc:title>
@@ -218,6 +330,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item9"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item9">
+      <dc:title>ja-item9 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item9">
+      <dc:title>ja-item9 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item10">
       <dc:title>Circa dist. 7am</dc:title>
@@ -232,6 +358,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item10"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item10">
+      <dc:title>ja-item10 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item10">
+      <dc:title>ja-item10 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item11">
       <dc:title>Circa dist. 8am</dc:title>
@@ -246,6 +386,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item11"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item11">
+      <dc:title>ja-item11 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item11">
+      <dc:title>ja-item11 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item12">
       <dc:title>Circa dist 9am, 10am</dc:title>
@@ -260,6 +414,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item12"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item12">
+      <dc:title>ja-item12 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item12">
+      <dc:title>ja-item12 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item13">
       <dc:title>Circa dist. 11am, 12am, 13am, 14am</dc:title>
@@ -274,6 +442,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item13"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item13">
+      <dc:title>ja-item13 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item13">
+      <dc:title>ja-item13 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item14">
       <dc:title>Circa dist. 14am, 15am, 16am</dc:title>
@@ -288,6 +470,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item14"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item14">
+      <dc:title>ja-item14 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item14">
+      <dc:title>ja-item14 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item15">
       <dc:title>Circa dist. 17am</dc:title>
@@ -302,6 +498,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item15"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item15">
+      <dc:title>ja-item15 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item15">
+      <dc:title>ja-item15 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item16">
       <dc:title>Circa dist. 17am</dc:title>
@@ -316,6 +526,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item16"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item16">
+      <dc:title>ja-item16 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item16">
+      <dc:title>ja-item16 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item17">
       <dc:title>Circa dist.19am et 20am</dc:title>
@@ -330,6 +554,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item17"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item17">
+      <dc:title>ja-item17 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item17">
+      <dc:title>ja-item17 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item18">
       <dc:title>Circa dist. 35am</dc:title>
@@ -344,6 +582,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item18"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item18"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item18">
+      <dc:title>ja-item18 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item18">
+      <dc:title>ja-item18 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item19">
       <dc:title>de contingentia</dc:title>
@@ -358,6 +610,13 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item19">
+      <dc:title>ja-item19 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item20">
       <dc:title>de praedistinatione</dc:title>
@@ -372,6 +631,13 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item20">
+      <dc:title>ja-item20 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item21">
       <dc:title>Circa dist. 42am, 43am et 44am</dc:title>
@@ -386,6 +652,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item21"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item21">
+      <dc:title>ja-item21 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item21">
+      <dc:title>ja-item21 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item22">
       <dc:title>Circa dist. 45am, 46am, 47am et 48am</dc:title>
@@ -400,6 +680,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item22"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item22"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item22">
+      <dc:title>ja-item22 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item22">
+      <dc:title>ja-item22 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/item/ja-item23">
       <dc:title>Circa dist. 45am, 46am, 47am et 48am</dc:title>
@@ -413,6 +707,20 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item23"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/_ja-item23"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item23">
+      <dc:title>ja-item23 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/_ja-item23">
+      <dc:title>ja-item23 []</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
 </rdf:RDF>    
 

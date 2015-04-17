@@ -4,10 +4,21 @@
         <authorName>Henricus de Werl</authorName>
         <commentaryName>Henricus de Werl Commentary</commentaryName>
         <commentaryid>werlcommentary</commentaryid>
+        <commentaryslug>hw</commentaryslug>
         <authorUri>http://scta.info/resource/person/HenricusDeWerl</authorUri>
         <parentUri>http://scta.info/text/werlcommentary/commentary</parentUri>
         <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/Henricus_de_Werl/Transcriptions/</textfilesdir> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
+        <questionListSource>Vatican Manuscript</questionListSource>
+        <questionListOriginalEditor></questionListOriginalEditor>
+        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+        <hasWitnesses>
+          <witness id="V">
+            <slug>vat</slug>
+            <title>Vatican</title>
+            <initial>V</initial>
+          </witness>
+        </hasWitnesses>
     </header>
     <div id="body">
         <div id="hw-b1" class="toplevel" type="librum1">
@@ -19,7 +30,7 @@
                     <title>Librum I, Prologus, Quaestio 1</title>
                     <questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis ratione</questionTitle>
                     <hasWitnesses>
-                        <witness>
+                        <witness ref="#V">
                             <slug>vat</slug>
                             <title>Vatican</title>
                             <initial>V</initial>
@@ -31,7 +42,7 @@
                     <title>Librum I, Prologus, Quaestio 2</title>
                     <questionTitle>Utrum theologia sit scientia</questionTitle>
                     <hasWitnesses>
-                        <witness>
+                        <witness ref="#V">
                             <slug>vat</slug>
                             <title>Vatican</title>
                             <initial>V</initial>
@@ -45,7 +56,7 @@
                     <title>Librum I, Prologus, Quaestio 3</title>
                     <questionTitle>Utrum scientia theologiae sit scientia practica vel speculativa</questionTitle>
                     <hasWitnesses>
-                        <witness>
+                        <witness ref="#V">
                             <slug>vat</slug>
                             <title>Vatican</title>
                             <initial>V</initial>

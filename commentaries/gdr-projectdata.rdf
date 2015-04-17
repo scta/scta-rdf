@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>Gregory of Rimini Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>gdr</sctap:slug>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/riminicommentary/distinctio/gdr-l1d1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/distinctio/gdr-l1d1">
+      <dc:title>Librum 1, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/librum/gdr-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/riminicommentary/librum/gdr-l1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq1">
+      <dc:title>Librum I, Prologus, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq2"/>
+      <sctap:questionTitle>Utrum de obiecto theologico per theologicum discursum notitia</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq1">
+      <dc:title>gdr-l1prolq1 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>1r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra1r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq2">
+      <dc:title>Librum I, Prologus, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq1"/>
+      <sctap:questionTitle>Utrum de huiusmodi obiecto possit haberi scientia vel opinio</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq2">
+      <dc:title>gdr-l1prolq2 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>7v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra7v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq3">
+      <dc:title>Librum I, Prologus, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq2"/>
+      <sctap:questionTitle>Utrum omnium conclusionum theologicarum sit habitus unus numero</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq3">
+      <dc:title>gdr-l1prolq3 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>12r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra12r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq4">
+      <dc:title>Librum I, Prologus, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq3"/>
+      <sctap:questionTitle>Utrum deus inquantum deus sit subiectum in theologia nostra</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq4">
+      <dc:title>gdr-l1prolq4 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>15v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra15v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq5">
+      <dc:title>Librum I, Prologus, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq4"/>
+      <sctap:questionTitle>Utrum theologia sit speculativa vel practica</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1prolq5">
+      <dc:title>gdr-l1prolq5 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>19r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra19r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1d1q1">
+      <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1prolq5"/>
+      <sctap:questionTitle>Utrum omnis usus sit fruitio seu omnis actus utendi sit actus fruendi</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/distinctio/gdr-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1d1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1d1q1">
+      <dc:title>gdr-l1d1q1 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>24v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra24v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1d1q2">
+      <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q1"/>
+      <sctap:questionTitle>Utrum fruitio sit operatio solius voluntatis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/distinctio/gdr-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1d1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1d1q2">
+      <dc:title>gdr-l1d1q2 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>27v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra27v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1d1q3">
+      <dc:title>Librum I, Distinctio 1, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q2"/>
+      <sctap:questionTitle>Utrum solo deo sit fruendum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/riminicommentary/distinctio/gdr-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1d1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/bnf15890_gdr-l1d1q3">
+      <dc:title>gdr-l1d1q3 [Paris, BnF, Latin 15890 ]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+      <sctap:hasFolio>32v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra32v"/>
+   </rdf:Description>
+</rdf:RDF>
+

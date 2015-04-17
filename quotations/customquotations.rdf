@@ -17,165 +17,32 @@
       <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:citation/>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/AugConManFun-5_6-a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>euangelio non crederem nisi auctoritas ecclesiae ad hoc me compelleret</dc:title>
-      <sctap:quotation>euangelio non crederem nisi auctoritas ecclesiae ad hoc me compelleret</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/contraEpistulamManichaei"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b1prol-a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title/>
-      <sctap:quotation/>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Sententia"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Lombard"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>Prologus</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b4d22c2-a">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>nam et in aliis Sacramentis, quae efficiunt quod figurant, hoc saepe contingit</dc:title>
-      <sctap:quotation>nam et in aliis Sacramentis, quae efficiunt quod figurant, hoc saepe contingit</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Sententia"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Lombard"/>
-      <sctap:citation>II:888</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>4</sctap:fromBook>
-      <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio107"/>
+      <dc:title>"sed illud tantummodo quo fides saluberrima, quae ad veram beatitudinem ducit, gignitur, nutritur, defenditur, roboratur: qua scientia non pollent fideles plurimi, quamvis polleant ipsa fide plurimum.”</dc:title>
+      <sctap:quotation>"sed illud tantummodo quo fides saluberrima, quae ad veram beatitudinem ducit, gignitur, nutritur, defenditur, roboratur: qua scientia non pollent fideles plurimi, quamvis polleant ipsa fide plurimum.”</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/deTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>S. Augustinus, De Trinit., XIV, c. l , n. 3 (PL 42, 1037; CCSL 50A, 424)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>14</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:fromChapter>3</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b3d14c2-a">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_ContraEpistulamManichaei_5_6_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Scit igitur anima Christi omnia, quae Deus, in Verbo Dei, quod liquidius et praesentius omni creatura contemplatur, ut ei unita, in quo etiam Angeli et quae Dei sunt et quae futura sunt, cognoscunt</dc:title>
-      <sctap:quotation>Scit igitur anima Christi omnia, quae Deus, in Verbo Dei, quod liquidius et praesentius omni creatura contemplatur, ut ei unita, in quo etiam Angeli et quae Dei sunt et quae futura sunt, cognoscunt</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Sententia"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Lombard"/>
-      <sctap:citation>II:609</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>3</sctap:fromBook>
-      <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio16"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio122"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio123"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b2d1c4-a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Et sicut factus est homo propter Deum, id est, ut ei serviret, ita
-                  mundus factus est propter hominem, scilicet ut ei serviret.</dc:title>
-      <sctap:quotation>Et sicut factus est homo propter Deum, id est, ut ei serviret, ita
-                  mundus factus est propter hominem, scilicet ut ei serviret.</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Sententia"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Lombard"/>
-      <sctap:citation>I:310</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>2</sctap:fromBook>
-      <sctap:fromChapter>4</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio39"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Quod ex caritate institutum est contra caritatem non debet militare</dc:title>
-      <sctap:quotation>Quod ex caritate institutum est contra caritatem non debet militare</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/dePraeceptoEtDispensatione"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Bernard"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromChapter>2</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Secundum mensuram peccati oportet esse satisfactionem</dc:title>
-      <sctap:quotation>Secundum mensuram peccati oportet esse satisfactionem</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>20</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Hanc beatitudinem nulli dari debere nisi illi, cui penitus dimissa sunt peccata, nec hanc dimissionem fieri nisi debito reddito, quod debetur pro peccato secundum magnitudinem peccati, supra positis rationibus puto me sufficienter ostendisse</dc:title>
-      <sctap:quotation>Hanc beatitudinem nulli dari debere nisi illi, cui penitus dimissa sunt peccata, nec hanc dimissionem fieri nisi debito reddito, quod debetur pro peccato secundum magnitudinem peccati, supra positis rationibus puto me sufficienter ostendisse</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>24</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Cum considero actionem ipsam, levissimum quiddam video esse; sed cum intueor quid sit contra voluntatem dei, gravissimum quiddam et nulli damno comparabile intelligo</dc:title>
-      <sctap:quotation>Cum considero actionem ipsam, levissimum quiddam video esse; sed cum intueor quid sit contra voluntatem dei, gravissimum quiddam et nulli damno comparabile intelligo</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>21</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>ita qui honorem alicuius violat, non sufficit honorem reddere, si non secundum exhonorationis factam molestiam aliquid, quod placeat illi quem exhonoravit, restituat</dc:title>
-      <sctap:quotation>ita qui honorem alicuius violat, non sufficit honorem reddere, si non secundum exhonorationis factam molestiam aliquid, quod placeat illi quem exhonoravit, restituat</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>2</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Cum reddis aliquid quod debes deo, etiam si non peccasti, non debes hoc computare pro debito quod debes pro peccato. Omnia autem ista debes deo quae dicis.</dc:title>
-      <sctap:quotation>Cum reddis aliquid quod debes deo, etiam si non peccasti, non debes hoc computare pro debito quod debes pro peccato. Omnia autem ista debes deo quae dicis.</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>20</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Quapropter sicut me rationabiliter deduxisti ad hoc, ut videam peccatorem hominem hoc debere deo pro peccato quod et reddere nequit, et nisi reddiderit salvari non valet.</dc:title>
-      <sctap:quotation>Quapropter sicut me rationabiliter deduxisti ad hoc, ut videam peccatorem hominem hoc debere deo pro peccato quod et reddere nequit, et nisi reddiderit salvari non valet.</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>35</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>A: Si homo dicitur iniustus, qui homini non reddit quod debet: multo magis iniustus est, qui deo quod debet non reddit. B: Si potest et non reddit, vere iniustus est. Si vero non potest: quomodo iniustus est? A: Forsitan si nulla est in illo causa impotentiae, aliquatenus excusari potest. Sed si in ipsa impotentia culpa est: sicut non levigat peccatum, ita non excusat non reddentem debitum.</dc:title>
-      <sctap:quotation>A: Si homo dicitur iniustus, qui homini non reddit quod debet: multo magis iniustus est, qui deo quod debet non reddit. B: Si potest et non reddit, vere iniustus est. Si vero non potest: quomodo iniustus est? A: Forsitan si nulla est in illo causa impotentiae, aliquatenus excusari potest. Sed si in ipsa impotentia culpa est: sicut non levigat peccatum, ita non excusat non reddentem debitum.</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>24</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>et haec est satisfactio, quam omnis peccator deo debet facere.</dc:title>
-      <sctap:quotation>et haec est satisfactio, quam omnis peccator deo debet facere.</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_CurDeusHomo"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>1</sctap:fromBook>
-      <sctap:fromChapter>11</sctap:fromChapter>
+      <dc:title>Ego vero Euangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</dc:title>
+      <sctap:quotation>Ego vero Euangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/contraEpistulamManichaei"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 42:</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -201,17 +68,6 @@
       <sctap:fromChapter>23</sctap:fromChapter>
       <sctap:fromChapter>33</sctap:fromChapter>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>In beatitudine autem, secundum omnium sensum, est sufficientia competentium commodorum sine omni indigentia</dc:title>
-      <sctap:quotation>In beatitudine autem, secundum omnium sensum, est sufficientia competentium commodorum sine omni indigentia</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Anselm_DeConcordia"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Anselm"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:fromBook>3</sctap:fromBook>
-      <sctap:fromChapter>13</sctap:fromChapter>
-   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>Quapropter nihil tam in nostra potestate, quam ipsa voluntas est</dc:title>
@@ -223,38 +79,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:fromChapter>7</sctap:fromChapter>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Voluntas est regina in regno animae</dc:title>
-      <sctap:quotation>Voluntas est regina in regno animae</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Ipsa movet omnia instrumenta in nobis et extra</dc:title>
-      <sctap:quotation>Ipsa movet omnia instrumenta in nobis et extra</sctap:quotation>
-      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/"/>
-      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:citation/>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -476,5 +300,470 @@
       <sctap:fromChapter>8</sctap:fromChapter>
       <sctap:fromChapter>23</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Confessionum_1_12_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Nemo autem invitus bene facit, etiamsi bonum est quod facit.</dc:title>
+      <sctap:quotation>Nemo autem invitus bene facit, etiamsi bonum est quod facit.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_Confessionum"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 32, 669</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>12</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_3_10_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Caritatem voco motum animi ad fruendum Deo propter ipsum</dc:title>
+      <sctap:quotation>Caritatem voco motum animi ad fruendum Deo propter ipsum</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/DeDoctrinaChristiana"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 34, 72</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:fromChapter>10</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Confessionum_13_9_10_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>pondus meum amor meus</dc:title>
+      <sctap:quotation>pondus meum amor meus</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Confessionum"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 32, 849</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>13</sctap:fromBook>
+      <sctap:fromChapter>9</sctap:fromChapter>
+      <sctap:fromChapter>10</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_17_29_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Et tamen non frustra in hac trinitate non dicitur verbum dei nisi filius, nec donum dei nisi spiritus sanctus, nec e quo genitum est verbum et de quo procedit principaliter spiritus sanctus nisi deus pater. Ideo autem addendi, principaliter, quia et de filio spiritus sanctus procedere reperitur</dc:title>
+      <sctap:quotation>Et tamen non frustra in hac trinitate non dicitur verbum dei nisi filius, nec donum dei nisi spiritus sanctus, nec e quo genitum est verbum et de quo procedit principaliter spiritus sanctus nisi deus pater. Ideo autem addendi, principaliter, quia et de filio spiritus sanctus procedere reperitur</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>??, p. 503 (ll. 54-58)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>17</sctap:fromChapter>
+      <sctap:fromChapter>29</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_11_12_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sed ipsa relatio non apparet in hoc nomine; apparet autem cum dicitur donum Dei. Donum enim est Patris et Filii, qui et a Patre procedit</dc:title>
+      <sctap:quotation>Sed ipsa relatio non apparet in hoc nomine; apparet autem cum dicitur donum Dei. Donum enim est Patris et Filii, qui et a Patre procedit</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>11</sctap:fromChapter>
+      <sctap:fromChapter>12</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_6_10_11_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>hoc esse est unum omnia tamquam Verbum perfectum, cui non desit aliquid et ars quaedam omnipotentis atque sapientis Dei plena omnium rationum viventium incommutabilium, et omnes unum in ea sicut ipsa unum de uno cum quo unum.</dc:title>
+      <sctap:quotation>hoc esse est unum omnia tamquam Verbum perfectum, cui non desit aliquid et ars quaedam omnipotentis atque sapientis Dei plena omnium rationum viventium incommutabilium, et omnes unum in ea sicut ipsa unum de uno cum quo unum.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>6</sctap:fromBook>
+      <sctap:fromChapter>10</sctap:fromChapter>
+      <sctap:fromChapter>11</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio68"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_19_34_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia per donum, quod est Spiritus Sanctus, in commune omnibus membris Christi multa dona, quae sunt quibusque propria, dividuntur.</dc:title>
+      <sctap:quotation>quia per donum, quod est Spiritus Sanctus, in commune omnibus membris Christi multa dona, quae sunt quibusque propria, dividuntur.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>19</sctap:fromChapter>
+      <sctap:fromChapter>34</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_9_18_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sed non est creator, nisi qui principaliter ista format, nec quisquam hoc potest nisi ille penes quem primitus sunt omnium quae sunt mensurae, numeri et pondera</dc:title>
+      <sctap:quotation>Sed non est creator, nisi qui principaliter ista format, nec quisquam hoc potest nisi ille penes quem primitus sunt omnium quae sunt mensurae, numeri et pondera</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>3</sctap:fromBook>
+      <sctap:fromChapter>19</sctap:fromChapter>
+      <sctap:fromChapter>18</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_14_15_21_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Ubinam sunt istae regulae scriptae, ubi quid sit iustum et iniustus agnoscit, ubi cernit habendum esse quod ipse non habet? Ubi ergo scriptae sunt, nisi in libro lucis illius quae veritas dicitur?</dc:title>
+      <sctap:quotation>Ubinam sunt istae regulae scriptae, ubi quid sit iustum et iniustus agnoscit, ubi cernit habendum esse quod ipse non habet? Ubi ergo scriptae sunt, nisi in libro lucis illius quae veritas dicitur?</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>14</sctap:fromBook>
+      <sctap:fromChapter>15</sctap:fromChapter>
+      <sctap:fromChapter>21</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio70"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_ContraIulianum_4_3_33_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sine hoc amore Creatoris, nullis quisquam bene utitur creaturis.</dc:title>
+      <sctap:quotation>Sine hoc amore Creatoris, nullis quisquam bene utitur creaturis.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_ContraIulianum"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 44)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>3</sctap:fromChapter>
+      <sctap:fromChapter>33</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_8_3_5_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Pudeat autem cum alia non amentur nisi quia bona sunt, eis inhaerendo non amore bonum ipsum unde bona sunt.</dc:title>
+      <sctap:quotation>Pudeat autem cum alia non amentur nisi quia bona sunt, eis inhaerendo non amore bonum ipsum unde bona sunt.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>8</sctap:fromBook>
+      <sctap:fromChapter>3</sctap:fromChapter>
+      <sctap:fromChapter>5</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_1_1_1_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Nulla enim omnino res est quae se ipsam gignat ut sit.</dc:title>
+      <sctap:quotation>Nulla enim omnino res est quae se ipsam gignat ut sit.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio30"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Sermo351_2_2_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>omnis qui suae voluntatis arbiter constitutus est cum ad sacramentum accedit fidelium nisi poeniteat eum veteris vitae vetustas novam poterit inchoare</dc:title>
+      <sctap:quotation>omnis qui suae voluntatis arbiter constitutus est cum ad sacramentum accedit fidelium nisi poeniteat eum veteris vitae vetustas novam poterit inchoare</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_Sermo351"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 39, 1537)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>2</sctap:fromBook>
+      <sctap:fromChapter>2</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b4d4c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_1_2_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quod ergo non invenimus in meliore nostro, non debemus in illo quaerere, quod longe melius est meliore nostro; ut sic intellegamus Deum, si possumus, quantum possumus, sine qualitate bonum, sine quantitate magnum, sine indigentia creatorem, sine situ praesentem, sine habitu omnia continentem, sine loco ubique totum 3, sine tempore sempiternum, sine ulla sui mutatione mutabilia facientem, nihilque patientem.</dc:title>
+      <sctap:quotation>Quod ergo non invenimus in meliore nostro, non debemus in illo quaerere, quod longe melius est meliore nostro; ut sic intellegamus Deum, si possumus, quantum possumus, sine qualitate bonum, sine quantitate magnum, sine indigentia creatorem, sine situ praesentem, sine habitu omnia continentem, sine loco ubique totum 3, sine tempore sempiternum, sine ulla sui mutatione mutabilia facientem, nihilque patientem.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:fromChapter>2</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_3_4_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quaerimus secundum quid aequalis.</dc:title>
+      <sctap:quotation>Quaerimus secundum quid aequalis.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>3</sctap:fromChapter>
+      <sctap:fromChapter>4</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_10_11_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sicut ergo non dicimus tres essentias, ita non dicimus tres magnitudines neque tres magnos.</dc:title>
+      <sctap:quotation>Sicut ergo non dicimus tres essentias, ita non dicimus tres magnitudines neque tres magnos.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>10</sctap:fromChapter>
+      <sctap:fromChapter>11</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_7_1_2_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Huc accedit quia omnis essentia quae relative dicitur est etiam aliquid excepto relativo, sicut homo dominus et homo servus et equus iumentum et nummus arra; homo et equus et nummus ad se dicuntur et substantiae sunt vel essentiae; dominus vero et servus et iumentum et arra ad aliquid relative dicuntur.</dc:title>
+      <sctap:quotation>Huc accedit quia omnis essentia quae relative dicitur est etiam aliquid excepto relativo, sicut homo dominus et homo servus et equus iumentum et nummus arra; homo et equus et nummus ad se dicuntur et substantiae sunt vel essentiae; dominus vero et servus et iumentum et arra ad aliquid relative dicuntur.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>7</sctap:fromBook>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:fromChapter>2</sctap:fromChapter>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_7_2_3_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Et propterea non eo Verbum quo sapientia, quia Verbum non ad se dicitur, sed tantum relative ad eum cuius Verbum est, sicut Filius ad Patrem; sapientia vero eo quo essentia.</dc:title>
+      <sctap:quotation>Et propterea non eo Verbum quo sapientia, quia Verbum non ad se dicitur, sed tantum relative ad eum cuius Verbum est, sicut Filius ad Patrem; sapientia vero eo quo essentia.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>7</sctap:fromBook>
+      <sctap:fromChapter>2</sctap:fromChapter>
+      <sctap:fromChapter>3</sctap:fromChapter>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Confessions_10_29_40_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Minus enim te amat qui tecum aliquid amat, quod non propter te amat.</dc:title>
+      <sctap:quotation>Minus enim te amat qui tecum aliquid amat, quod non propter te amat.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_Confessions"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>Confessionum, X, 29, 40 (PL 32)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>10</sctap:fromBook>
+      <sctap:fromChapter>29</sctap:fromChapter>
+      <sctap:fromChapter>40</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q26"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_13_22_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quia ergo scivit, creavit; non quia creavit, scivit. Nec aliter ea scivit creata, quam creanda.</dc:title>
+      <sctap:quotation>Quia ergo scivit, creavit; non quia creavit, scivit. Nec aliter ea scivit creata, quam creanda.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>13</sctap:fromChapter>
+      <sctap:fromChapter>22</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_13_22_b">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quia in illius naturae simplicitate mirabili, non est aliud sapere, aliud esse;</dc:title>
+      <sctap:quotation>Quia in illius naturae simplicitate mirabili, non est aliud sapere, aliud esse;</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>13</sctap:fromChapter>
+      <sctap:fromChapter>22</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_4_6_12_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Neque enim extra seipsum, sicut cernimus oculis corpora; quae utique nondum erant, cum disponerentur ut fierent.</dc:title>
+      <sctap:quotation>Neque enim extra seipsum, sicut cernimus oculis corpora; quae utique nondum erant, cum disponerentur ut fierent.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_onGenesis"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 34)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>6</sctap:fromChapter>
+      <sctap:fromChapter>12</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_4_6_12_b">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Quo modo ergo ista cernebat, ut ita disponeret? Quo, nisi eo quo solus potest?</dc:title>
+      <sctap:quotation>Quo modo ergo ista cernebat, ut ita disponeret? Quo, nisi eo quo solus potest?</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_onGenesis"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 34)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>6</sctap:fromChapter>
+      <sctap:fromChapter>12</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_5_16_34_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>neque enim ea faceret, nisi ea nosset antequam faceret; nec nosset, nisi videret; nec videret, nisi haberet; nec haberet ea quae nondum facta erant, nisi quemadmodum est ipse non factus:</dc:title>
+      <sctap:quotation>neque enim ea faceret, nisi ea nosset antequam faceret; nec nosset, nisi videret; nec videret, nisi haberet; nec haberet ea quae nondum facta erant, nisi quemadmodum est ipse non factus:</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_onGenesis"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 34)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>4</sctap:fromBook>
+      <sctap:fromChapter>6</sctap:fromChapter>
+      <sctap:fromChapter>12</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDiversisQuaestionibus_46_2_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sunt namque ideae principales quaedam formae vel rationes rerum stabiles atque incommutabiles, quae ipsae formatae non sunt ac per hoc aeternae ac semper eodem modo sese habentes, quae divina intellegentia continentur.</dc:title>
+      <sctap:quotation>Sunt namque ideae principales quaedam formae vel rationes rerum stabiles atque incommutabiles, quae ipsae formatae non sunt ac per hoc aeternae ac semper eodem modo sese habentes, quae divina intellegentia continentur.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeDiversisQuaestionibusOctogintaTribus"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>Augustine, (PL 40)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromChapter>2</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_7_13_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Et putamus nos, utrum Dei providentia eadem sit quae memoria et intellegentia, qui non singula cogitando aspicit, sed una, aeterna et immutabili atque ineffabili visione complectitur cuncta quae novit, tanta mentis infirmitate posse comprehendere?</dc:title>
+      <sctap:quotation>Et putamus nos, utrum Dei providentia eadem sit quae memoria et intellegentia, qui non singula cogitando aspicit, sed una, aeterna et immutabili atque ineffabili visione complectitur cuncta quae novit, tanta mentis infirmitate posse comprehendere?</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>7</sctap:fromChapter>
+      <sctap:fromChapter>13</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_8_9_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Situs vero et habitus et loca et tempora non proprie sed translate ac per similitudines dicuntur in Deo.</dc:title>
+      <sctap:quotation>Situs vero et habitus et loca et tempora non proprie sed translate ac per similitudines dicuntur in Deo.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>8</sctap:fromChapter>
+      <sctap:fromChapter>9</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_20_38_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Verbum Dei esse Filium Dei natura, non voluntate.</dc:title>
+      <sctap:quotation>Verbum Dei esse Filium Dei natura, non voluntate.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>20</sctap:fromChapter>
+      <sctap:fromChapter>38</sctap:fromChapter>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_18_51_2_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Sed rursus quoniam cogitantur immutabilia divina promissa, et quod ait Apostolus: Novit Dominus qui sunt eius; quos enim praescivit et praedestinavit conformes imaginis filii sui; ex eis perire nullus potest; ideo sequitur in illo Psalmo: Consolationes tuae iucundaverunt animam meam.</dc:title>
+      <sctap:quotation>Sed rursus quoniam cogitantur immutabilia divina promissa, et quod ait Apostolus: Novit Dominus qui sunt eius; quos enim praescivit et praedestinavit conformes imaginis filii sui; ex eis perire nullus potest; ideo sequitur in illo Psalmo: Consolationes tuae iucundaverunt animam meam.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/CityOfGod"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 41, ?</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>18</sctap:fromBook>
+      <sctap:fromChapter>51</sctap:fromChapter>
+      <sctap:fromChapter>2</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_21_24_1_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Denique si de aliquibus ita certa esset, ut qui sint illi etiam nosset, qui, licet adhuc in hac vita sint constituti, tamen praedestinati sunt in aeternum ignem ire cum diabolo: tam pro eis non oraret, quam nec pro ipso.</dc:title>
+      <sctap:quotation>Denique si de aliquibus ita certa esset, ut qui sint illi etiam nosset, qui, licet adhuc in hac vita sint constituti, tamen praedestinati sunt in aeternum ignem ire cum diabolo: tam pro eis non oraret, quam nec pro ipso.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/CityOfGod"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 41</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>21</sctap:fromBook>
+      <sctap:fromChapter>24</sctap:fromChapter>
+      <sctap:fromChapter>1</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Enchiridion_1_26_100_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Haec sunt magna opera Domini, exquisita in omnes voluntates eius, et tam sapienter exquisita ut cum angelica et humana creatura peccasset, id est, non quod ille sed quod voluit ipsa fecisset, etiam per eamdem creaturae voluntatem qua factum est quod Creator noluit, impleret ipse quod voluit, bene utens et malis tamquam summe bonus, ad eorum damnationem quos iuste praedestinavit ad poenam, et ad eorum salutem quos benigne praedestinavit ad gratiam.</dc:title>
+      <sctap:quotation>Haec sunt magna opera Domini, exquisita in omnes voluntates eius, et tam sapienter exquisita ut cum angelica et humana creatura peccasset, id est, non quod ille sed quod voluit ipsa fecisset, etiam per eamdem creaturae voluntatem qua factum est quod Creator noluit, impleret ipse quod voluit, bene utens et malis tamquam summe bonus, ad eorum damnationem quos iuste praedestinavit ad poenam, et ad eorum salutem quos benigne praedestinavit ad gratiam.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Enchiridion"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>26</sctap:fromChapter>
+      <sctap:fromChapter>100</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_12_25_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ipsas omnino naturas, quae sic vel sic in suo genere afficiantur, non facit nisi summus Deus, cuius occulta potentia cuncta penetrans incontaminabili praesentia facit esse quidquid aliquo modo est, in quantumcumque est; quia nisi faciente illo non tale vel tale esset, sed prorsus esse non posset.</dc:title>
+      <sctap:quotation>ipsas omnino naturas, quae sic vel sic in suo genere afficiantur, non facit nisi summus Deus, cuius occulta potentia cuncta penetrans incontaminabili praesentia facit esse quidquid aliquo modo est, in quantumcumque est; quia nisi faciente illo non tale vel tale esset, sed prorsus esse non posset.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/CityOfGod"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>PL 41</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>12</sctap:fromBook>
+      <sctap:fromChapter>25</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_12_18_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Qua propter si, quidquid scientia comprehenditur, scientis comprehensione finitur; profecto et omnis infinitas quodam ineffabili modo Deo finita est, quia scientiae ipsius incomprehensibilis non est</dc:title>
+      <sctap:quotation>Qua propter si, quidquid scientia comprehenditur, scientis comprehensione finitur; profecto et omnis infinitas quodam ineffabili modo Deo finita est, quia scientiae ipsius incomprehensibilis non est</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/CityOfGod"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>Augustine, De civitate Dei, PL 41, col. 367f</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>12</sctap:fromBook>
+      <sctap:fromChapter>18</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q39"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/passage/Augustine_Enchiridion_32_121_a">
+      <rdf:type rdf:resource="http://scta.info/resource/passage"/>
+      <dc:title>Augustine, Enchiridion de fide, spe, et charitate, PL 40, </dc:title>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Enchiridion"/>
+      <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>Augustine, Enchiridion de fide, spe, et charitate, PL 40, </sctap:citation>
+      <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Patristic"/>
+      <sctap:fromChapter>32</sctap:fromChapter>
+      <sctap:fromChapter>121</sctap:fromChapter>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_8_3_5_b">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nulla essent mutabilia bona, nisi esset incommutabile Bonum.</dc:title>
+      <sctap:quotation>nulla essent mutabilia bona, nisi esset incommutabile Bonum.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>8</sctap:fromBook>
+      <sctap:fromChapter>3</sctap:fromChapter>
+      <sctap:fromChapter>5</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_16_26_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>fortassis etiam volubiles non erunt nostrae cogitationes ab aliis in alia euntes atque redeuntes, sed omnem scientiam nostram uno simul conspectu videbimus:</dc:title>
+      <sctap:quotation>fortassis etiam volubiles non erunt nostrae cogitationes ab aliis in alia euntes atque redeuntes, sed omnem scientiam nostram uno simul conspectu videbimus:</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>15</sctap:fromBook>
+      <sctap:fromChapter>16</sctap:fromChapter>
+      <sctap:fromChapter>26</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
    </rdf:Description>
 </rdf:RDF>

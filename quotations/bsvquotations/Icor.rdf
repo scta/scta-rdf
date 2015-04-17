@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor1_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ipsis autem vocatis Iudaeis atque Graecis Christum Dei virtutem et Dei sapientiam</dc:title>
+      <sctap:quotation>ipsis autem vocatis Iudaeis atque Graecis Christum Dei virtutem et Dei sapientiam</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 1:24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d9c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d10c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d32c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor1_26">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>videte enim vocationem vestram fratres quia non multi sapientes secundum carnem non multi potentes non multi nobiles</dc:title>
+      <sctap:quotation>videte enim vocationem vestram fratres quia non multi sapientes secundum carnem non multi potentes non multi nobiles</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 1:26</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quam nemo principum huius saeculi cognovit si enim cognovissent numquam Dominum gloriae crucifixissent</dc:title>
+      <sctap:quotation>quam nemo principum huius saeculi cognovit si enim cognovissent numquam Dominum gloriae crucifixissent</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 2:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed sicut scriptum est quod oculus non vidit nec auris audivit nec in cor hominis ascendit quae praeparavit Deus his qui diligunt illum</dc:title>
+      <sctap:quotation>sed sicut scriptum est quod oculus non vidit nec auris audivit nec in cor hominis ascendit quae praeparavit Deus his qui diligunt illum</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 2:9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d35c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quis enim scit hominum quae sint hominis nisi spiritus hominis qui in ipso est ita et quae Dei sunt nemo cognovit nisi Spiritus Dei</dc:title>
+      <sctap:quotation>quis enim scit hominum quae sint hominis nisi spiritus hominis qui in ipso est ita et quae Dei sunt nemo cognovit nisi Spiritus Dei</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 2:11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d18c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nos autem non spiritum mundi accepimus sed Spiritum qui ex Deo est ut sciamus quae a Deo donata sunt nobis</dc:title>
+      <sctap:quotation>nos autem non spiritum mundi accepimus sed Spiritum qui ex Deo est ut sciamus quae a Deo donata sunt nobis</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 2:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>spiritalis autem iudicat omnia et ipse a nemine iudicatur</dc:title>
+      <sctap:quotation>spiritalis autem iudicat omnia et ipse a nemine iudicatur</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 2:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor3_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui plantat autem et qui rigat unum sunt unusquisque autem propriam mercedem accipiet secundum suum laborem</dc:title>
+      <sctap:quotation>qui plantat autem et qui rigat unum sunt unusquisque autem propriam mercedem accipiet secundum suum laborem</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 3:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor3_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sive Paulus sive Apollo sive Cephas sive mundus sive vita sive mors sive praesentia sive futura omnia enim vestra sunt</dc:title>
+      <sctap:quotation>sive Paulus sive Apollo sive Cephas sive mundus sive vita sive mors sive praesentia sive futura omnia enim vestra sunt</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 3:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor4_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nihil enim mihi conscius sum sed non in hoc iustificatus sum qui autem iudicat me Dominus est</dc:title>
+      <sctap:quotation>nihil enim mihi conscius sum sed non in hoc iustificatus sum qui autem iudicat me Dominus est</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 4:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor4_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quis enim te discernit quid autem habes quod non accepisti si autem accepisti quid gloriaris quasi non acceperis</dc:title>
+      <sctap:quotation>quis enim te discernit quid autem habes quod non accepisti si autem accepisti quid gloriaris quasi non acceperis</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 4:7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor6_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui autem adheret Domino unus spiritus est</dc:title>
+      <sctap:quotation>qui autem adheret Domino unus spiritus est</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 6:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor7_25">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>de virginibus autem praeceptum Domini non habeo consilium autem do tamquam misericordiam consecutus a Domino ut sim fidelis</dc:title>
+      <sctap:quotation>de virginibus autem praeceptum Domini non habeo consilium autem do tamquam misericordiam consecutus a Domino ut sim fidelis</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 7:25</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d41c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor8_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>de his autem quae idolis sacrificantur scimus quia omnes scientiam habemus scientia inflat caritas vero aedificat</dc:title>
+      <sctap:quotation>de his autem quae idolis sacrificantur scimus quia omnes scientiam habemus scientia inflat caritas vero aedificat</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 8:1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d28c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor8_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>si quis autem diligit Deum hic cognitus est ab eo</dc:title>
+      <sctap:quotation>si quis autem diligit Deum hic cognitus est ab eo</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 8:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor8_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>de escis autem quae idolis immolantur scimus quia nihil est idolum in mundo et quod nullus Deus nisi unus</dc:title>
+      <sctap:quotation>de escis autem quae idolis immolantur scimus quia nihil est idolum in mundo et quod nullus Deus nisi unus</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 8:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio103"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor9_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scriptum est enim in lege Mosi non alligabis os bovi trituranti numquid de bubus cura est Deo</dc:title>
+      <sctap:quotation>scriptum est enim in lege Mosi non alligabis os bovi trituranti numquid de bubus cura est Deo</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 9:9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d39c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor10_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>haec autem omnia in figura contingebant illis scripta sunt autem ad correptionem nostram in quos fines saeculorum devenerunt</dc:title>
+      <sctap:quotation>haec autem omnia in figura contingebant illis scripta sunt autem ad correptionem nostram in quos fines saeculorum devenerunt</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 10:11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio86"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor10_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>temptatio vos non adprehendat nisi humana fidelis autem Deus qui non patietur vos temptari super id quod potestis sed faciet cum temptatione etiam proventum ut possitis sustinere</dc:title>
+      <sctap:quotation>temptatio vos non adprehendat nisi humana fidelis autem Deus qui non patietur vos temptari super id quod potestis sed faciet cum temptatione etiam proventum ut possitis sustinere</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 10:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio97"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio126"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor10_31">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sive ergo manducatis sive bibitis vel aliud quid facitis omnia in gloriam Dei facite</dc:title>
+      <sctap:quotation>sive ergo manducatis sive bibitis vel aliud quid facitis omnia in gloriam Dei facite</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 10:31</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>31</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio43"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor11_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>vir quidem non debet velare caput quoniam imago et gloria est Dei mulier autem gloria viri est</dc:title>
+      <sctap:quotation>vir quidem non debet velare caput quoniam imago et gloria est Dei mulier autem gloria viri est</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 11:7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d16c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor11_28">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>probet autem se ipsum homo et sic de pane illo edat et de calice bibat</dc:title>
+      <sctap:quotation>probet autem se ipsum homo et sic de pane illo edat et de calice bibat</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 11:28</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ideo notum vobis facio quod nemo in Spiritu Dei loquens dicit anathema Iesu et nemo potest dicere Dominus Iesus nisi in Spiritu Sancto</dc:title>
+      <sctap:quotation>ideo notum vobis facio quod nemo in Spiritu Dei loquens dicit anathema Iesu et nemo potest dicere Dominus Iesus nisi in Spiritu Sancto</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 12:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_6">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et divisiones operationum sunt idem vero Deus qui operatur omnia in omnibus</dc:title>
+      <sctap:quotation>et divisiones operationum sunt idem vero Deus qui operatur omnia in omnibus</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 12:6</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d41c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>haec autem omnia operatur unus atque idem Spiritus dividens singulis prout vult</dc:title>
+      <sctap:quotation>haec autem omnia operatur unus atque idem Spiritus dividens singulis prout vult</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 12:11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>etenim in uno Spiritu omnes nos in unum corpus baptizati sumus sive Iudaei sive gentiles sive servi sive liberi et omnes unum Spiritum potati sumus</dc:title>
+      <sctap:quotation>etenim in uno Spiritu omnes nos in unum corpus baptizati sumus sive Iudaei sive gentiles sive servi sive liberi et omnes unum Spiritum potati sumus</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 12:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d14c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>si linguis hominum loquar et angelorum caritatem autem non habeam factus sum velut aes sonans aut cymbalum tinniens</dc:title>
+      <sctap:quotation>si linguis hominum loquar et angelorum caritatem autem non habeam factus sum velut aes sonans aut cymbalum tinniens</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et si habuero prophetiam et noverim mysteria omnia et omnem scientiam et habuero omnem fidem ita ut montes transferam caritatem autem non habuero nihil sum</dc:title>
+      <sctap:quotation>et si habuero prophetiam et noverim mysteria omnia et omnem scientiam et habuero omnem fidem ita ut montes transferam caritatem autem non habuero nihil sum</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>caritas patiens est benigna est caritas non aemulatur non agit perperam non inflatur</dc:title>
+      <sctap:quotation>caritas patiens est benigna est caritas non aemulatur non agit perperam non inflatur</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>omnia suffert omnia credit omnia sperat omnia sustinet</dc:title>
+      <sctap:quotation>omnia suffert omnia credit omnia sperat omnia sustinet</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ex parte enim cognoscimus et ex parte prophetamus</dc:title>
+      <sctap:quotation>ex parte enim cognoscimus et ex parte prophetamus</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d37c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cum autem venerit quod perfectum est evacuabitur quod ex parte est</dc:title>
+      <sctap:quotation>cum autem venerit quod perfectum est evacuabitur quod ex parte est</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>videmus nunc per speculum in enigmate tunc autem facie ad faciem nunc cognosco ex parte tunc autem cognoscam sicut et cognitus sum</dc:title>
+      <sctap:quotation>videmus nunc per speculum in enigmate tunc autem facie ad faciem nunc cognosco ex parte tunc autem cognoscam sicut et cognitus sum</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q22"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d19c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nunc autem manet fides spes caritas tria haec maior autem his est caritas</dc:title>
+      <sctap:quotation>nunc autem manet fides spes caritas tria haec maior autem his est caritas</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>gratia autem Dei sum id quod sum et gratia eius in me vacua non fuit sed abundantius illis omnibus laboravi non ego autem sed gratia Dei mecum</dc:title>
+      <sctap:quotation>gratia autem Dei sum id quod sum et gratia eius in me vacua non fuit sed abundantius illis omnibus laboravi non ego autem sed gratia Dei mecum</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 15:10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d27c7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_33">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nolite seduci corrumpunt mores bonos conloquia mala</dc:title>
+      <sctap:quotation>nolite seduci corrumpunt mores bonos conloquia mala</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 15:33</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>33</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b11d1c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_44">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>seminatur corpus animale surgit corpus spiritale si est corpus animale est et spiritale sic et scriptum est</dc:title>
+      <sctap:quotation>seminatur corpus animale surgit corpus spiritale si est corpus animale est et spiritale sic et scriptum est</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 15:44</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>44</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_45">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>factus est primus homo Adam in animam viventem novissimus Adam in spiritum vivificantem</dc:title>
+      <sctap:quotation>factus est primus homo Adam in animam viventem novissimus Adam in spiritum vivificantem</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 15:45</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>45</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_46">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed non prius quod spiritale est sed quod animale est deinde quod spiritale</dc:title>
+      <sctap:quotation>sed non prius quod spiritale est sed quod animale est deinde quod spiritale</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 15:46</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>46</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d20c6"/>
+   </rdf:Description>
+</rdf:RDF>

@@ -36,7 +36,7 @@
                   <biblScope type="capitulus">3</biblScope>
                </bibl>
                <note type="citation">S. Augustinus, De Trinit., XIV, c. l , n. 3 (PL 42, 1037; CCSL 50A, 424)</note>
-               <note type="firstIdentification">Wodeham, Prologue question 1</note>
+               <note type="firstIdentification">Wodeham, Prologue, question 1</note>
             </item>
             <item xml:id="Augustine_ContraEpistulamManichaei_5_6_a"> <!-- better id is: Augustine_contraEpistulamManichaei_5_6_a -->
                <quote type="Patristic">Ego vero Euangelio non crederem, nisi me catholicae Ecclesiae commoveret auctoritas.</quote>
@@ -656,7 +656,7 @@
                   <biblScope type="capitulus">26</biblScope>
                   <biblScope type="capitulus">100</biblScope>
                </bibl>
-               <note type="citation">PL 4</note>
+               <note type="citation">Augustine, Enchiridion 26, 100 (PL 40)</note>
                <note type="firstIdentification">Graclis, book 1, q. 32</note> 
             </item>
             <item xml:id="Augustine_DeCivitateDei_12_25_a">
@@ -685,11 +685,11 @@
                <quote type="Patristic"></quote> 
                <bibl type="Augustine_Enchiridion">
                   <author ref="#Augustine">Augustine</author>
-                  <title ref="#Enchiridion">De civitate Dei</title>
+                  <title ref="#Enchiridion">Enchiridion</title>
                   <biblScope type="capitulus">32</biblScope>
                   <biblScope type="capitulus">121</biblScope>
                </bibl>
-               <note type="citation">Augustine, Enchiridion de fide, spe, et charitate, PL 40, <!-- possibiel  col. 288-289 --></note>
+               <note type="citation">Augustine, Enchiridion, (PL 40) <!-- possibiel  col. 288-289 --></note>
                <note type="firstIdentification">Graclis, book 1, q. 17 <!-- also in Rimini, I, d. 17, q. 6 --></note> 
             </item>
             <item xml:id="Augustine_DeTrinitate_8_3_5_b">
@@ -716,6 +716,18 @@
                <note type="citation">(PL 42)</note>
                <note type="firstIdentification">Gracilis, Book I, q. 29</note>
             </item>
+           <item xml:id="Augustine_Enchiridion_1_31_117_a">
+             <quote type="Patristic">Iam porro caritas, quam duabus istis, id est fide ac spe, maiorem dicit Apostolus, quanto in quocumque maior est, tanto melior est in quo est</quote> 
+             <bibl type="Augustine_Enchiridion">
+               <author ref="#Augustine">Augustine</author>
+               <title ref="#Enchiridion">Enchiridion</title>
+               <biblScope type="librum">1</biblScope>
+               <biblScope type="capitulus">31</biblScope>
+               <biblScope type="capitulus">117</biblScope>
+             </bibl>
+             <note type="citation">Augustine, Enchiridion 31, 117 (PL 40)</note>
+             <note type="firstIdentification">Wodeham, I, prol., q. 2</note> 
+           </item>
             
             
             

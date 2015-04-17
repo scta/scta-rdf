@@ -198,11 +198,12 @@
                             <dcterms:isPartOf rdf:resource="{$parent-uri}"/>
                         </xsl:otherwise>
                     </xsl:choose>
-                   
-                   <xsl:if test="not($webbase eq 'null') and ./@live eq 'true'">
+                  
+                  <!-- need to change this to point to new lombardpress locations or scta viewer -->
+                   <!-- <xsl:if test="not($webbase eq 'null') and ./@live eq 'true'">
                        <xsl:variable name="fullurl" select="concat($webbase, 'text/textdisplay.php?fs=', $fs)"></xsl:variable>
                        <rdfs:seeAlso rdf:resource="{$fullurl}"/>
-                   </xsl:if>
+                   </xsl:if> -->
                     
                     <xsl:for-each select="document($extraction-file)//tei:body//tei:name">
                         <xsl:variable name="nameRef" select="./@ref"></xsl:variable>
@@ -219,16 +220,16 @@
                         <xsl:variable name="totalTitles" select="count(document($extraction-file)//tei:body//tei:title)"/>
                         <xsl:variable name="totalFollowingTitles" select="count(.//following::tei:title)"></xsl:variable>
                         <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalTitles - $totalFollowingTitles)"/>
-                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$titleID}"/>
+                        <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
                         <sctap:hasTitle rdf:resource="http://scta.info/text/{$cid}/title/{$objectId}"/>
                      </xsl:for-each>
                     <xsl:for-each select="document($extraction-file)//tei:body//tei:quote">
                         <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
                         <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
-                        <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quotes)"/>
+                        <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
                         <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
                         <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
-                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$quoteID}"/>
+                        <sctap:quotes rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
                         <sctap:hasQuote rdf:resource="http://scta.info/text/{$cid}/quote/{$objectId}"/>
                      </xsl:for-each>
                    <xsl:for-each select="document($extraction-file)//tei:body/tei:ref">
@@ -237,7 +238,7 @@
                        <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:refs)"/>
                        <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
                        <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
-                       <sctap:mentions rdf:resource="http://scta.info/resource/person/{$refID}"/>
+                       <sctap:references rdf:resource="http://scta.info/resource/passage/{$refID}"/>
                        <sctap:hasRef rdf:resource="http://scta.info/text/{$cid}/ref/{$objectId}"/>
                    </xsl:for-each>
             
@@ -252,15 +253,23 @@
                              <sctap:status>Not Started</sctap:status>
                          </xsl:otherwise>
                      </xsl:choose>
-                   <!-- note hasTranscription is not added here because this will be checked when witnesses and transcription check runs -->
+                   
+                  <!-- begin test for witnesses and transcriptions -->
                        
-                    <xsl:for-each select="./hasWitnesses/witness">
-                        <xsl:variable name="slug"><xsl:value-of select="./slug"/></xsl:variable>
-                        <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $slug, '_', $fs, '.xml')"/>
-                        <!--<dcterms:hasPart rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}"/>-->
-                        <sctap:hasWitness rdf:resource="http://scta.info/text/{$cid}/witness/{$slug}_{$fs}"/>
+                    <xsl:if test="document($text-path)">
+                       <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$fs}"/>
+                    </xsl:if>
+                    
+                  <xsl:for-each select="./hasWitnesses/witness">
+                    
+                        <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
+                    
+                        <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
+                        <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
+                        
+                        <sctap:hasWitness rdf:resource="http://scta.info/text/{$cid}/witness/{$wit-slug}_{$fs}"/>
                         <xsl:if test="document($transcription-text-path)">
-                            <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}"/>
+                            <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}"/>
                         </xsl:if>
                     </xsl:for-each>
                    
@@ -278,7 +287,7 @@
                     <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalNames - $totalFollowingNames)"/>
                     <rdf:Description rdf:about="http://scta.info/text/{$cid}/name/{$objectId}">
                         <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-                        <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
+                        <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/{$nameID}"/>
                         <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
                         <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
                     </rdf:Description>
@@ -291,7 +300,7 @@
                     <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalTitles - $totalFollowingTitles)"/>
                     <rdf:Description rdf:about="http://scta.info/text/{$cid}/title/{$objectId}">
                         <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-                        <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
+                        <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/{$titleID}"/>
                         <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
                         <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
                     </rdf:Description>
@@ -304,7 +313,7 @@
                     <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
                     <rdf:Description rdf:about="http://scta.info/text/{$cid}/quote/{$objectId}">
                         <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-                        <sctap:mentions rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
+                        <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
                         <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
                         <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
                     </rdf:Description>
@@ -319,7 +328,7 @@
                         <rdf:type rdf:resource="http://scta.info/resource/refElement"/>
                         <!-- problem currently this is a problem if the ref is to a quote rather than a passage -->
                         <!-- could keep passage a default, and then if ref points to quote add type attribute "quotation" -->
-                        <sctap:mentions rdf:resource="http://scta.info/resource/passage/{$refID}"/>
+                        <sctap:isInstanceOf rdf:resource="http://scta.info/resource/passage/{$refID}"/>
                         <sctap:elementText><xsl:value-of select="."/></sctap:elementText>
                         <sctap:isPartOfItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
                     </rdf:Description>
@@ -376,24 +385,26 @@
                 </xsl:if>
                 
                 <xsl:for-each select="hasWitnesses/witness">
-                    <xsl:variable name="slug"><xsl:value-of select="./slug"/></xsl:variable>
-                    <xsl:variable name="initial" select="./initial"/>
+                    <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
+                    <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
+                    <xsl:variable name="wit-initial"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/initial"/></xsl:variable>
+                    <xsl:variable name="wit-title"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/title"/></xsl:variable>
                     <xsl:variable name="partOf"><xsl:value-of select="./preceding::fileName[1]/@filestem"></xsl:value-of></xsl:variable>
                     <xsl:variable name="partOfTitle"><xsl:value-of select="./preceding::fileName[1]/following-sibling::tei:title"/></xsl:variable>
-                    <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $slug, '_', $fs, '.xml')"/>
-                    <xsl:variable name="iiif-ms-name" select="concat($commentaryslug, '-', $slug)"/>
+                    <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
+                    <xsl:variable name="iiif-ms-name" select="concat($commentaryslug, '-', $wit-slug)"/>
                     
                   
                     
-                  <rdf:Description rdf:about="http://scta.info/text/{$cid}/witness/{$slug}_{$fs}">
+                  <rdf:Description rdf:about="http://scta.info/text/{$cid}/witness/{$wit-slug}_{$fs}">
                     
-                    <dc:title><xsl:value-of select="$partOf"/> [<xsl:value-of select="$slug"/>]</dc:title>
+                    <dc:title><xsl:value-of select="$partOf"/> [<xsl:value-of select="$wit-title"/>]</dc:title>
                     <role:AUT rdf:resource="{$author-uri}"/>
                     <rdf:type rdf:resource="http://scta.info/resource/witness"/>
-                    <sctap:hasSlug><xsl:value-of select="$slug"></xsl:value-of></sctap:hasSlug>
+                    <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
                     <xsl:for-each select="./folio">
                       <xsl:variable name="folionumber" select="./text()"/>
-                      <xsl:variable name="canvas-slug" select="concat($initial, $folionumber)"></xsl:variable>
+                      <xsl:variable name="canvas-slug" select="concat($wit-initial, $folionumber)"></xsl:variable>
                       
                       <sctap:hasFolio><xsl:value-of select="$folionumber"></xsl:value-of></sctap:hasFolio>
                       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
@@ -403,7 +414,7 @@
                     
                     
                     <xsl:if test="document($transcription-text-path)">
-                        <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}"/>
+                        <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}"/>
                     </xsl:if>
                    <!-- could include isPartOf to manuscript identifier
                        could also inclue folio numbers if these are included in main project file -->
@@ -415,7 +426,7 @@
                         <xsl:variable name="transcript-title" select="document($transcription-text-path)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                         <xsl:variable name="transcript-editor" select="document($transcription-text-path)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/>
                         
-                        <rdf:Description rdf:about="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}">
+                        <rdf:Description rdf:about="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}">
                             
                             <dc:title><xsl:value-of select="$transcript-title"/></dc:title>
                             <role:AUT rdf:resource="{$author-uri}"/>
@@ -443,9 +454,12 @@
                             <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
                                 <xsl:variable name="pid" select="./@xml:id"/>
                                 <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
-                                <sctap:hasParagraph rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}/paragraph/{$pid}"/>
+                                <!-- only creates paragraph resource if that paragraph has been assigned an id -->
+                                <xsl:if test="./@xml:id">
+                                  <sctap:hasParagraph rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}/paragraph/{$pid}"/>
+                                </xsl:if>
                             </xsl:for-each>
-                            <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$slug}"/>
+                            <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$wit-slug}"/>
                         </rdf:Description>
                         <!-- will create paragraph resources for each paragraph in transcription -->
                         <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
@@ -453,14 +467,14 @@
                             <xsl:if test="./@xml:id">
                                 <xsl:variable name="pid" select="./@xml:id"/>
                                 <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
-                                <rdf:Description rdf:about="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}/paragraph/{$pid}">
+                                <rdf:Description rdf:about="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}/paragraph/{$pid}">
                                     <dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
                                     <rdf:type rdf:resource="http://scta.info/resource/paragraph"/>
-                                    <sctap:isParagraphOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}"/>
-                                    <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$slug}/paragraph/{$pid}"/>
+                                    <sctap:isParagraphOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}"/>
+                                    <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$wit-slug}/paragraph/{$pid}"/>
                                     <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
                                         <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
-                                        <sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$slug}_{$fs}/paragraph/{$pid}/{$position}"/>
+                                        <sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/paragraph/{$pid}/{$position}"/>
                                     </xsl:for-each>
                                     <!-- could add path to plain text version of paragraph -->
                                 </rdf:Description>
@@ -476,12 +490,12 @@
                                             <xsl:variable name="width"><xsl:value-of select="$lrx - $ulx"/></xsl:variable>
                                             <xsl:variable name="height"><xsl:value-of select="$lry - $uly"/></xsl:variable>
                                             <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
-                                            <rdf:Description rdf:about="http://scta.info/text/{$cid}/zone/{$slug}_{$fs}/paragraph/{$pid}/{$position}">
-                                                <dc:title>Canvas zone for <xsl:value-of select="$slug"/>_<xsl:value-of select="$fs"/> paragraph <xsl:value-of select="$pid"/></dc:title>
+                                            <rdf:Description rdf:about="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/paragraph/{$pid}/{$position}">
+                                                <dc:title>Canvas zone for <xsl:value-of select="$wit-slug"/>_<xsl:value-of select="$fs"/> paragraph <xsl:value-of select="$pid"/></dc:title>
                                                 <rdf:type rdf:resource="http://scta.info/resource/zone"/>
                                                 <!-- problem here with slug since iiif slug is prefaced with pg or pp etc -->
-                                                <sctap:isZoneOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$slug}_{$fs}/paragraph/{$pid}"/>
-                                                <sctap:isZoneOn rdf:resource="http://scta.info/iiif/{$commentaryslug}-{$slug}/canvas/{$canvasname}"/>
+                                                <sctap:isZoneOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}/paragraph/{$pid}"/>
+                                                <sctap:isZoneOn rdf:resource="http://scta.info/iiif/{$commentaryslug}-{$wit-slug}/canvas/{$canvasname}"/>
                                                 <sctap:ulx><xsl:value-of select="$ulx"/></sctap:ulx>
                                                 <sctap:uly><xsl:value-of select="$uly"/></sctap:uly>
                                                 <sctap:lrx><xsl:value-of select="$lrx"/></sctap:lrx>

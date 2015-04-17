@@ -4,11 +4,22 @@
         <authorName>Lambertus de Monte</authorName>
         <commentaryName>Lambertus Commentary</commentaryName>
         <commentaryid>lambertuscommentary</commentaryid>
+        <commentaryslug>lm</commentaryslug>
         <authorUri>http://scta.info/resource/person/LambertusDeMonte</authorUri>
         <parentUri>http://scta.info/text/lambertuscommentary/commentary</parentUri>
         <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/Lambertus_De_Monte_1423/Transcriptions/</textfilesdir>
         <gitrepo>bitbucket.org/jeffreycwitt</gitrepo> <!-- if bitbucket repo was public this could be bitbukcet base -->
         <webbase>null</webbase>
+        <questionListSource>Mario Silvia article</questionListSource>
+        <questionListOriginalEditor></questionListOriginalEditor>
+        <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+        <hasWitnesses>
+          <witness id="B">
+            <slug>bruss</slug>
+            <title>Brussels</title>
+            <initial>B</initial>
+          </witness>
+        </hasWitnesses>
     </header>
 <div id="body">
     <div id="lm-book1" type="librum">
@@ -21,7 +32,7 @@
                 <questionTitle>Utrum theologia sit scientia</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -38,7 +49,7 @@
                 <questionTitle>De quo est tamquam de subiecto</questionTitle>
                 <incipit></incipit>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -55,7 +66,7 @@
                 <questionTitle>Utrum solo Deo sit fruendum et omnibus aliis utendum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -72,7 +83,7 @@
                 <questionTitle>Utrum Deus sit cognoscibilis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -89,7 +100,7 @@
                 <questionTitle>Utrum vestigium creatoris sit in omni creatura</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -103,7 +114,7 @@
                 <questionTitle>De medio quod est imago, secundum quod in homine imago Dei reperitur</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -123,7 +134,7 @@
                 <questionTitle>Utrum divinae generationis essentia potest esse terminus a quo vel ad quem</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -143,7 +154,7 @@
                 <questionTitle>Utrum potentia qua Pater generat sit in Filio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -160,7 +171,7 @@
                 <questionTitle>Utrum divina essentia sit summe simplex et in fine simplicitatis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -176,7 +187,7 @@
                 <questionTitle>Utrum aeternitas reperitur in Deo</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -193,7 +204,7 @@
                 <questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio per modum amoris</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -210,7 +221,7 @@
                 <questionTitle>Utrum Spiritus Sanctus temporaliter procedit solum a Patre et Filio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -227,7 +238,7 @@
                 <questionTitle>Utrum caritas qua diligimus Deum et proximum sit Spiritus Sanctus</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -241,7 +252,7 @@
                 <questionTitle>Utrum caritas potest augeri et minui</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -258,7 +269,7 @@
                 <questionTitle>Utrum in divinis sit aequalitas</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -275,7 +286,7 @@
                 <questionTitle></questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -292,7 +303,7 @@
                 <questionTitle>Utrum persona significet substantiam vel proprietatem in divinis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -309,7 +320,7 @@
                 <questionTitle>Utrum in divinis personis sit numerus</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -326,7 +337,7 @@
                 <questionTitle>Utrum in divinis sit relatio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -344,7 +355,7 @@
                     passiva</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -361,7 +372,7 @@
                 <questionTitle>Utrum temporaliter aliquid de Deo dicatur</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -378,7 +389,7 @@
                 <questionTitle>Utrum Pater sapiens sit sapientia genita</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -395,7 +406,7 @@
                 <questionTitle>Utrum notiones sive proprietates similiter personae sint divina essentia</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -412,7 +423,7 @@
                 <questionTitle>Utrum scientia Dei sit univoca scientiae nostrae</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -429,7 +440,7 @@
                 <questionTitle>Utrum Deus sit in omnibus rebus essentialiter, potentialiter et praesentialiter</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -446,7 +457,7 @@
                 <questionTitle>Utrum praescientia Dei infallibilis sit causa rerum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -463,7 +474,7 @@
                 <questionTitle>Utrum praedestinatio habeat aliquam causam meritoriam</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -484,7 +495,7 @@
                     quaecumque vult</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -501,7 +512,7 @@
                 <questionTitle>Utrum potentia Dei sit infinita aut limitanda aut coartanda</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -518,7 +529,7 @@
                 <questionTitle>Utrum bonitatem quae resultat ex ordine universi Deus potuit meliorem facere</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -535,7 +546,7 @@
                 <questionTitle>Utrum voluntas Dei sit causa rerum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -552,7 +563,7 @@
                 <questionTitle>Utrum malum sit expediens universo et conferens ad completum universi</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -569,7 +580,7 @@
                 <questionTitle>Utrum omnes teneamur conformare voluntatem nostram voluntati divinae</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -589,7 +600,7 @@
                 <questionTitle>Utrum mundus sit aeternus</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -606,7 +617,7 @@
                 <questionTitle>Utrum caelum empireum sit corpus</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -623,7 +634,7 @@
                 <questionTitle>Utrum angeli fuerint creati in gratia</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -637,7 +648,7 @@
                 <questionTitle>Utrum angeli intelligant per species</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -654,7 +665,7 @@
                 <questionTitle>Utrum angeli boni sint confirmati in bono, et mali in malo</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -671,7 +682,7 @@
                 <questionTitle>Utrum in angelis tam bonis quam malis sit praelatio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -688,7 +699,7 @@
                 <questionTitle>Utrum demones possunt transmutare corpora</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -705,7 +716,7 @@
                 <questionTitle>Utrum substantialiter demones et etiam angeli boni intrent corpora nostra</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -722,7 +733,7 @@
                 <questionTitle>Utrum angeli loquantur</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -739,7 +750,7 @@
                 <questionTitle>Utrum custodia angelorum in via sit homini necessaria</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -756,7 +767,7 @@
                 <questionTitle>Utrum omnia creata sunt simul in materia et specie</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -773,7 +784,7 @@
                 <questionTitle>A quo movetur caelum et praecipue primum caelum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -791,7 +802,7 @@
                     anima</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -808,7 +819,7 @@
                 <questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -825,7 +836,7 @@
                 <questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -842,7 +853,7 @@
                 <questionTitle>Utrum temptatio una sola fuerit qua temptatus fuit primus homo vel plures</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -859,7 +870,7 @@
                 <questionTitle>Utrum primus homo ante peccatum habuit suae creationis claram cognitionem</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -877,7 +888,7 @@
                 <questionTitle>Utrum liberum arbitrium una ratione reperitur in omni intellectuali natura</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -894,7 +905,7 @@
                 <questionTitle>Utrum gratia qua Deo grati sumus sit creatura</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -912,7 +923,7 @@
                     damnabiliter peccare</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -929,7 +940,7 @@
                 <questionTitle>Quid sit peccatum originale, an fomes, an culpa, an concupiscentia, an reatus, an pena</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -947,7 +958,7 @@
                     secundum corpulentam substantiam</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -964,7 +975,7 @@
                 <questionTitle>Utrum omnium praecedentium peccata traiciantur in parvulos</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -981,7 +992,7 @@
                 <questionTitle>An malum sit</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -999,7 +1010,7 @@
                     concupitum contra legem Dei</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1016,7 +1027,7 @@
                 <questionTitle>Utrum omnis actus sive actio sit a Deo</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1033,7 +1044,7 @@
                 <questionTitle>Utrum voluntatis qualitas pensetur ex fine</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1050,7 +1061,7 @@
                 <questionTitle>Utrum secundum theologum aliquid sit indifferens in operibus voluntatis deliberativae</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1067,7 +1078,7 @@
                 <questionTitle>In quo fundatur reatus sicut in causa</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1084,7 +1095,7 @@
                 <questionTitle>Utrum peccatum in Spiritum Sanctum sit spirituale peccatum et distinctum contra alia peccata</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1105,7 +1116,7 @@
                 <questionTitle>Utrum conveniebat Deum incarnari</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1123,7 +1134,7 @@
                     irrationalem et etiam contra naturam pure intellectualem, sicut est natura angelica</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1140,7 +1151,7 @@
                 <questionTitle>Utrum Christus fuit in lumbis Abrahae sicut et alii homines</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1157,7 +1168,7 @@
                 <questionTitle>Utrum virgo gloriosa fuerit vere mater Christi</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1174,7 +1185,7 @@
                 <questionTitle>Utrum assumere primo convenit divinae personae aut naturae</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1192,7 +1203,7 @@
                     Deus est homo; Filius Dei est homo; quia in omnibus videtur eadem ratio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1209,7 +1220,7 @@
                 <questionTitle>Utrum Christus sit unum tantum aut duo</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1226,7 +1237,7 @@
                 <questionTitle>Utrum in Christo sit tantum una filiatio vel plures</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1243,7 +1254,7 @@
                 <questionTitle>Utrum Christi humanitas adoranda sit latria</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1260,7 +1271,7 @@
                 <questionTitle>Utrum Christi secundum quod homo sit persona</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1277,7 +1288,7 @@
                 <questionTitle>Utrum Christus potuit peccare</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1294,7 +1305,7 @@
                 <questionTitle>Utrum Christus a conceptione habuit plenitudinem sapientiae et gratiae</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1311,7 +1322,7 @@
                 <questionTitle>Utrum anima Christi scit omnia quae Deus scit</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1328,7 +1339,7 @@
                 <questionTitle>Utrum Christus assumpsit omnes defectus nostros</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1345,7 +1356,7 @@
                 <questionTitle>Utrum Christi passio omnes passiones omnium excesserit</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1362,7 +1373,7 @@
                 <questionTitle>Utrum in Christi voluntatibus fuerit contrarietas</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1380,7 +1391,7 @@
                 <questionTitle>Utrum Christus sibi mereri aliquid potuit</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1397,7 +1408,7 @@
                 <questionTitle>Utrum iustificatio nostra a peccato sit opus passionis Christi</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1414,7 +1425,7 @@
                 <questionTitle>Utrum nostrae redemptionis alius modus sit possibilis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1431,7 +1442,7 @@
                 <questionTitle>Utrum Christus in triduo fuerit homo</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1448,7 +1459,7 @@
                 <questionTitle>Utrum fides sit virtus</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1465,7 +1476,7 @@
                 <questionTitle>Utrum idem possit esse simul scitum et creditum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1482,7 +1493,7 @@
                 <questionTitle>Utrum umquam suffecerit credere de Deo quia Deus est et inquerentibus se remunerator sit</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1499,7 +1510,7 @@
                 <questionTitle>Utrum spes sit virtus specialis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1516,7 +1527,7 @@
                 <questionTitle>Utrum caritas sit forma omnium virtutum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1533,7 +1544,7 @@
                 <questionTitle>Utrum omnia sint diligenda ex caritate</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1550,7 +1561,7 @@
                 <questionTitle>Utrum aliquis scriptus in libro vitae possit deleri</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1567,7 +1578,7 @@
                 <questionTitle>Utrum quatuor sunt virtutes cardinales, scilicet prudentia, iustitia, fortitudo et temperantia</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1584,7 +1595,7 @@
                 <questionTitle>Utrum dona sint virtutes</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1602,7 +1613,7 @@
                     intellectu et scientia</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1619,7 +1630,7 @@
                 <questionTitle>Utrum virtutes theologicae sint adinvicem connexae, ita quod qui habet unam, habeat omnes</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1636,7 +1647,7 @@
                 <questionTitle>Utrum tantum decem sint praecepta</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1653,7 +1664,7 @@
                 <questionTitle>Utrum omne mendacium sit peccatum mortale</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1670,7 +1681,7 @@
                 <questionTitle>Utrum omne periurium sit peccatum mortale</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1691,7 +1702,7 @@
                     significant, et hoc ratione operis operati</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1709,7 +1720,7 @@
                     Christum expresso</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1726,7 +1737,7 @@
                 <questionTitle>Quare magis virtute baptismi remittitur pena culpae actualis quam originalis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1743,7 +1754,7 @@
                 <questionTitle>De potestate baptismi, quam retinuit et dare potuit, utrum fuerit potestas purgandi a peccato</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1760,7 +1771,7 @@
                 <questionTitle>Utrum intentio baptizantis necessario requiratur in baptismo</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1778,7 +1789,7 @@
                     baptisimalis potest seipsam confirmare et roborare</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1796,7 +1807,7 @@
                     Hoc est corpus meum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1814,7 +1825,7 @@
                     sub qualibet eius 101 witnesse</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1831,7 +1842,7 @@
                 <questionTitle>Utrum in sacramento eucharistiae accidentia sint sine subiecto</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1848,7 +1859,7 @@
                 <questionTitle>Utrum poenitentia sit virtus specialis</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1865,7 +1876,7 @@
                 <questionTitle>Utrum sacramentum poenitentiae habeat witnesses et quales</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1882,7 +1893,7 @@
                 <questionTitle>Utrum in Ecclesia Dei sint claves</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1896,7 +1907,7 @@
                 <questionTitle>Utrum tantum duae sunt claves</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1910,7 +1921,7 @@
                 <questionTitle>Utrum relaxatio sive indulgentia habeat effectum an non</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1924,7 +1935,7 @@
                 <questionTitle>Utrum in aliquem ferenda sit excommunicatio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1941,7 +1952,7 @@
                 <questionTitle>Utrum extrema unctio sit sacramentum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1958,7 +1969,7 @@
                 <questionTitle>Utrum ordo sit sacramentum unum vel plura</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1975,7 +1986,7 @@
                 <questionTitle>Utrum haeretici ab ecclesia recisi sacros ordines conferre possunt</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -1992,7 +2003,7 @@
                 <questionTitle>Utrum matrimonium sit infirmis in remedium</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2010,7 +2021,7 @@
                 <questionTitle>Utrum consensus efficiens matrimonium sit in copulationem carnalem</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2028,7 +2039,7 @@
                     in officium vel in remedium</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2045,7 +2056,7 @@
                 <questionTitle>Utrum petenti semper solvendum sit debitum</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2062,7 +2073,7 @@
                 <questionTitle>Utrum causa fornicationis liceat viro uxorem dimittere</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2079,7 +2090,7 @@
                 <questionTitle>De quibus est votum, an de hiis quae cadunt sub praecepto, an de hiis quae cadunt sub consilio</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2093,7 +2104,7 @@
                 <questionTitle>Utrum votum continentiae respicit dispensationem</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2110,7 +2121,7 @@
                 <questionTitle>Utrum cognatio spiritualis impedit matrimonium</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2127,7 +2138,7 @@
                 <questionTitle>Utrum resurrectio mortuorum erit</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>
@@ -2142,7 +2153,7 @@
                     agilitas</questionTitle>
                 <incipit/>
                 <hasWitnesses>
-                    <witness>
+                    <witness ref="#B">
                         <slug>bruss</slug>
                         <title>Brussels</title>
                         <initial>B</initial>

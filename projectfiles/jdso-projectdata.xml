@@ -4,11 +4,14 @@
         <authorName>John Duns Scotus</authorName>
         <commentaryName>Scotus Ordinatio</commentaryName>
         <commentaryid>scotusordinatio</commentaryid>
+        <commentaryslug>jdso</commentaryslug>
         <authorUri>http://scta.info/resource/person/Scotus</authorUri>
         <parentUri>http://scta.info/text/scotusordinatio/commentary</parentUri>
         <textfilesdir/>
-
         <webbase>null</webbase>
+      <questionListSource>Scotus Vatican Edition</questionListSource>
+      <questionListOriginalEditor></questionListOriginalEditor>
+      <questionListEncoder>Natalie Tsottles</questionListEncoder>
     </header>
     <div id="body">
     <div id="jdso-book1" type="librum">
