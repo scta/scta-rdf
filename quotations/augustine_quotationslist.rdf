@@ -697,7 +697,7 @@
       <sctap:quotation>Haec sunt magna opera Domini, exquisita in omnes voluntates eius, et tam sapienter exquisita ut cum angelica et humana creatura peccasset, id est, non quod ille sed quod voluit ipsa fecisset, etiam per eamdem creaturae voluntatem qua factum est quod Creator noluit, impleret ipse quod voluit, bene utens et malis tamquam summe bonus, ad eorum damnationem quos iuste praedestinavit ad poenam, et ad eorum salutem quos benigne praedestinavit ad gratiam.</sctap:quotation>
       <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Enchiridion"/>
       <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
-      <sctap:citation>PL 4</sctap:citation>
+      <sctap:citation>Augustine, Enchiridion 26, 100 (PL 40)</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>26</sctap:fromChapter>
@@ -731,10 +731,10 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/passage/Augustine_Enchiridion_32_121_a">
       <rdf:type rdf:resource="http://scta.info/resource/passage"/>
-      <dc:title>Augustine, Enchiridion de fide, spe, et charitate, PL 40, </dc:title>
+      <dc:title>Augustine, Enchiridion, (PL 40) </dc:title>
       <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Enchiridion"/>
       <sctap:passageAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
-      <sctap:citation>Augustine, Enchiridion de fide, spe, et charitate, PL 40, </sctap:citation>
+      <sctap:citation>Augustine, Enchiridion, (PL 40) </sctap:citation>
       <sctap:passageType rdf:resource="http://scta.info/resource/passageType/Patristic"/>
       <sctap:fromChapter>32</sctap:fromChapter>
       <sctap:fromChapter>121</sctap:fromChapter>
@@ -763,7 +763,23 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>16</sctap:fromChapter>
       <sctap:fromChapter>26</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Enchiridion_1_31_117_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Iam porro caritas, quam duabus istis, id est fide ac spe, maiorem dicit Apostolus, quanto in quocumque maior est, tanto melior est in quo est</dc:title>
+      <sctap:quotation>Iam porro caritas, quam duabus istis, id est fide ac spe, maiorem dicit Apostolus, quanto in quocumque maior est, tanto melior est in quo est</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Enchiridion"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>Augustine, Enchiridion 31, 117 (PL 40)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>1</sctap:fromBook>
+      <sctap:fromChapter>31</sctap:fromChapter>
+      <sctap:fromChapter>117</sctap:fromChapter>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
    </rdf:Description>
 </rdf:RDF>

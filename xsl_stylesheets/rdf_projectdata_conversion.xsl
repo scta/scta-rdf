@@ -14,6 +14,7 @@
     <xsl:param name="parent-uri"><xsl:value-of select="//header/parentUri"/></xsl:param>
     <xsl:param name="textfilesdir"><xsl:value-of select="//header/textfilesdir"/></xsl:param>
     <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
+    <xsl:param name="gitRepoBase">http://bitbucket.org/jeffreycwitt/</xsl:param>
     
     
     <xsl:output method="xml" indent="yes"/>
@@ -151,7 +152,7 @@
                 </rdf:Description>
             </xsl:for-each>
             </xsl:if>
-            
+           <!-- begin item resource creation --> 
             <xsl:for-each select="./div//item">
                 <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
                 <xsl:variable name="title"><xsl:value-of select="title"/></xsl:variable>
@@ -169,6 +170,7 @@
                         
                    <dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
                    <role:AUT rdf:resource="{$author-uri}"/>
+                    
                    <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '000')"/></sctap:sectionOrderNumber>
                    <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '000')"/></sctap:totalOrderNumber>
                    <xsl:if test="./following::item[1]">
@@ -198,6 +200,14 @@
                             <dcterms:isPartOf rdf:resource="{$parent-uri}"/>
                         </xsl:otherwise>
                     </xsl:choose>
+                  
+                  <!-- record editors -->
+                  <xsl:for-each select="document($extraction-file)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
+                    <sctap:editedBy><xsl:value-of select="."/></sctap:editedBy>
+                  </xsl:for-each>
+                  
+                  <!-- record git repo -->
+                  <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $fs)"/></sctap:gitRepository>
                   
                   <!-- need to change this to point to new lombardpress locations or scta viewer -->
                    <!-- <xsl:if test="not($webbase eq 'null') and ./@live eq 'true'">
@@ -241,7 +251,8 @@
                        <sctap:references rdf:resource="http://scta.info/resource/passage/{$refID}"/>
                        <sctap:hasRef rdf:resource="http://scta.info/text/{$cid}/ref/{$objectId}"/>
                    </xsl:for-each>
-            
+                  
+                  <!-- record status -->
                      <xsl:choose>
                          <xsl:when test="document($extraction-file)//tei:revisionDesc/@status">
                              <sctap:status><xsl:value-of select="document($extraction-file)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>

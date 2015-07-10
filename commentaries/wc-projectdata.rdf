@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>William Crathron Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>wc</sctap:slug>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/librum/wc-l1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/librum/wc-l1">
+      <dc:title>Librum 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q1">
+      <dc:title>Librum I, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
+      <sctap:questionTitle>Utrum notitia evidens articulorum fidei sit possibilis viatori in virtute luminis naturalis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q2">
+      <dc:title>Librum I, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
+      <sctap:questionTitle>Utrum omne cognitum a viatore sit res singularis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q3">
+      <dc:title>Librum I, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
+      <sctap:questionTitle>Utrum viator intelligat cum continuo et tempore</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q4">
+      <dc:title>Librum I, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
+      <sctap:questionTitle>Utrum viator possit scire scientia proprie dicta quod sit tantum unus deus</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q5">
+      <dc:title>Librum I, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
+      <sctap:questionTitle>Utrum unitati numerali essentiae divinae vel naturae divinae sit compossibilis multitudo personarum vel suppositorum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q6">
+      <dc:title>Librum I, Quaestio 6</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
+      <sctap:questionTitle>Utrum viator naturaliter cognoscat deum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q7">
+      <dc:title>Librum I, Quaestio 7</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
+      <sctap:questionTitle>Utrum omnis creatura rationalis sit imago trinitatis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q8">
+      <dc:title>Librum I, Quaestio 8</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
+      <sctap:questionTitle>Utrum haec sit vera: Deus genuit Deum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q8A">
+      <dc:title>Librum I, Quaestio 8A</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
+      <sctap:questionTitle>Utrum Filius generetur de substantia Patris</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q8B">
+      <dc:title>Librum I, Quaestio 8B</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
+      <sctap:questionTitle>Utrum Pater genuit Filium voluntate vel natura</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q9">
+      <dc:title>Librum I, Quaestio 9</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
+      <sctap:questionTitle>Utrum potentia generativa Patris sit aliquid absolutum vel respectivum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q10">
+      <dc:title>Librum I, Quaestio 10</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
+      <sctap:questionTitle>Utrum Pater possit communicare Filio potentiam generandi</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q11">
+      <dc:title>Librum I, Quaestio 11</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
+      <sctap:questionTitle>Utrum aliquod praedicamentum possit vere praedicari de termino supponente pro deo</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q12">
+      <dc:title>Librum I, Quaestio 12</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
+      <sctap:questionTitle>Utrum ens et alia, quae convertuntur cum ente, primo cognoscantur a nobis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q13">
+      <dc:title>Librum I, Quaestio 13</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
+      <sctap:questionTitle>De praedicamentis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q14">
+      <dc:title>Librum I, Quaestio 14</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
+      <sctap:questionTitle>Utrum sit aliqua quantitas, quae non est substantia vel qualitas</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q15">
+      <dc:title>Librum I, Quaestio 15</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
+      <sctap:questionTitle>Utrum  aliqua res omnino indivisibilis possit esse longa,lata et profunda</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q16">
+      <dc:title>Librum I, Quaestio 16</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
+      <sctap:questionTitle>Utrum tempus sit aliquid positivum reale vel aliqua res producta a deo vel ab aliquo alio</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q17">
+      <dc:title>Librum I, Quaestio 17</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
+      <sctap:questionTitle>Utrum aliqua qualitas possit augeri</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q18">
+      <dc:title>Librum I, Quaestio 18</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
+      <sctap:questionTitle>Utrum relatio sit distincta res a fundamento</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q19">
+      <dc:title>Librum I, Quaestio 19</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
+      <sctap:questionTitle>Utrum deus cognoscat necessario futura contingentia</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q20">
+      <dc:title>Librum I, Quaestio 20</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
+      <sctap:questionTitle>Utrum proprietas relativa sit omnibus modis idem cum essentia divina</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+</rdf:RDF>
+

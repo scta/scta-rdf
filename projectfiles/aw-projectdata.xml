@@ -38,8 +38,7 @@
           <title>Bruges, bibl. de la Ville, Ms. 172</title>
           <initial>T</initial>
         </witness>
-      </hasWitnesses>
-        
+      </hasWitnesses>    
     </header>
     <div id="body">
     <div id="book1" class="toplevel" type="librum">
@@ -63,6 +62,7 @@
               <folio>3v</folio>
               <folio>7r</folio>
             </witness>
+            <witness ref="#V"/>
           </hasWitnesses>
         </item>
         <item live="false" type="quaestio">
@@ -74,6 +74,7 @@
               <folio>7r</folio>
               <folio>12v</folio>
             </witness>
+            <witness ref="#V"/>
           </hasWitnesses>
         </item>
         </div>
@@ -89,6 +90,7 @@
               <folio>12v</folio>
               <folio>16r</folio>
             </witness>
+            <witness ref="#V"/>
           </hasWitnesses>
         </item>
         <item live="false" type="quaestio">
@@ -260,6 +262,8 @@
                 <folio>79r</folio>
                 <folio>85v</folio>
               </witness>
+              <witness ref="#M"/>
+              <witness ref="#V"/>
             </hasWitnesses>
           </item>
         </div>

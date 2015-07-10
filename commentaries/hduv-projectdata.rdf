@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>Hugolino of Orvieto Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>hduv</sctap:slug>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d31"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d35"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d39"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d41"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d42"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d43"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d47"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d48"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d16"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d21"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d24"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d25"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d26"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d27"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d30"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d35"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d37"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d38"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d42"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d18"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d27"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d34"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d37"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d43"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d31q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d39q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d42q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d43q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d47q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d48q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d21q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d26q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d37q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d38q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d34q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d37q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1">
+      <dc:title>Librum I, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d3">
+      <dc:title>Librum I, Distinctio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d4">
+      <dc:title>Librum I, Distinctio 4-7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d8">
+      <dc:title>Librum I, Distinctio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d8q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d9">
+      <dc:title>Librum I, Distinctio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d9q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d10">
+      <dc:title>Librum I, Distinctio 10-13</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d10q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d14">
+      <dc:title>Librum I, Distinctio 14-18</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d19">
+      <dc:title>Librum I, Distinctio 19-30</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d31">
+      <dc:title>Librum I, Distinctio 31-34</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d31q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d31q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d35">
+      <dc:title>Librum I, Distinctio 35</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d35q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d39">
+      <dc:title>Librum I, Distinctio 39</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d39q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d39q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40">
+      <dc:title>Librum I, Distinctio 40</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d41">
+      <dc:title>Librum I, Distinctio 41</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d42">
+      <dc:title>Librum I, Distinctio 42</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d42q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d42q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d43">
+      <dc:title>Librum I, Distinctio 43-46</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d43q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d43q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d47">
+      <dc:title>Librum I, Distinctio 47</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d47q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d47q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d48">
+      <dc:title>Librum I, Distinctio 48</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l1"/>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d48q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d48q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d1">
+      <dc:title>Librum II, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d2">
+      <dc:title>Librum II, Distinctio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d3">
+      <dc:title>Librum II, Distinctio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d4">
+      <dc:title>Librum II, Distinctio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d5">
+      <dc:title>Librum II, Distinctio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d5q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d6">
+      <dc:title>Librum II, Distinctio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d6q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d7">
+      <dc:title>Librum II, Distinctio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d7q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d8">
+      <dc:title>Librum II, Distinctio 8-11</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d8q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d16">
+      <dc:title>Librum II, Distinctio 16-17</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d21">
+      <dc:title>Librum II, Distinctio 21-23</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d21q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d21q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d24">
+      <dc:title>Librum II, Distinctio 24</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d25">
+      <dc:title>Librum II, Distinctio 25</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d26">
+      <dc:title>Librum II, Distinctio 26</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d26q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d26q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d27">
+      <dc:title>Librum II, Distinctio 27</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d30">
+      <dc:title>Librum II, Distinctio 30-33</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d35">
+      <dc:title>Librum II, Distinctio 35</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d35q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d37">
+      <dc:title>Librum II, Distinctio 37</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d37q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d37q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d38">
+      <dc:title>Librum II, Distinctio 38</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d38q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d38q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d42">
+      <dc:title>Librum II, Distinctio 42-44</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l2"/>
+      <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d1">
+      <dc:title>Librum III, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d18">
+      <dc:title>Librum III, Distinctio 18</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d27">
+      <dc:title>Librum III, Distinctio 27</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d27q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d34">
+      <dc:title>Librum III, Distinctio 34</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d34q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d34q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d37">
+      <dc:title>Librum III, Distinctio 37</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l3"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d37q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d37q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d1">
+      <dc:title>Librum IV, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d2">
+      <dc:title>Librum IV, Distinctio 2-7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d8">
+      <dc:title>Librum IV, Distinctio 8-14</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d14">
+      <dc:title>Librum IV, Distinctio 14-23</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27">
+      <dc:title>Librum IV, Distinctio 27-42</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d43">
+      <dc:title>Librum IV, Distinctio 43-50</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hugolinocommentary/librum/hduv-l4"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-principium1">
+      <dc:title>Principium 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1q1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1q1">
+      <dc:title>Librum I, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium1"/>
+      <sctap:questionTitle>Utrum per se vita deus sit rationali spiritui perfecte ipsam habenti infinitum bonum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq1">
+      <dc:title>Librum I, Prologus, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1q1"/>
+      <sctap:questionTitle>Utrum omne theologicum verum sit perfectius cognoscibile quolibet vero per aliam scientiam scibili?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq2">
+      <dc:title>Librum I, Prologus, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq1"/>
+      <sctap:questionTitle>Utrum omne theologicum verum solo assensu fidei teneatur, credatur vel cognoscatur perfectiori notitia, quam sit fides?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq3">
+      <dc:title>Librum I, Prologus, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq2"/>
+      <sctap:questionTitle/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq4">
+      <dc:title>Librum I, Prologus, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq3"/>
+      <sctap:questionTitle>Numquid libertas habeat coefficientiam liberam respectu credere?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq5">
+      <dc:title>Librum I, Prologus, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq4"/>
+      <sctap:questionTitle>Utrum sicut sola theologia speculativa ostendit viatori per se bonum, ita sola theologia practica sit sibi necessaria ad idem bonum finaliter consequendum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q1">
+      <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1prolq5"/>
+      <sctap:questionTitle>Utrum quaelibet fruitio sit quolibet usu essentialiter perfectior?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q2">
+      <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q1"/>
+      <sctap:questionTitle>Utrum fruitio sit operatio solius voluntatis creatae?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q3">
+      <dc:title>Librum I, Distinctio 1, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q2"/>
+      <sctap:questionTitle>Utrum omni et sola perfectione infinite et per se amabili sit fruendum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q4">
+      <dc:title>Librum I, Distinctio 1, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q3"/>
+      <sctap:questionTitle>Utrum omni alio a deo sit propter deum aeque utendum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q5">
+      <dc:title>Librum I, Distinctio 1, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q4"/>
+      <sctap:questionTitle>Utrum viso summo bono visione finita voluntas necessaria fruatur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q6">
+      <dc:title>Librum I, Distinctio 1, Quaestio 6</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q5"/>
+      <sctap:questionTitle>Utrum visio divinae essentiae sit dilectione personarum eligibilior ac perfectior vel potius econtra?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q1">
+      <dc:title>Librum I, Distinctio 3, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d1q6"/>
+      <sctap:questionTitle>Utrum deum esse sit per se notum vel evidenter notum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d3"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q2">
+      <dc:title>Librum I, Distinctio 3, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q1"/>
+      <sctap:questionTitle>Utrum ex infinitate ac necessitate primi, id est dei, sequatur, quod esse plures deos contradictionem includit?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d3"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q3">
+      <dc:title>Librum I, Distinctio 3, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q2"/>
+      <sctap:questionTitle>Utrum  aequalitas  perfectionis  essentialis  inter creaturas   attendatur   penes   latitudines   essentiarum   in   sua specie?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d3"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q4">
+      <dc:title>Librum I, Distinctio 3, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q3"/>
+      <sctap:questionTitle>Utrum in anima rationali partes imaginis creatae sint aequales?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d3"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q1">
+      <dc:title>Librum I, Distinctio 4-7, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d3q4"/>
+      <sctap:questionTitle>Utrum deus sit ab aliquo producibilis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d4"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q2">
+      <dc:title>Librum I, Distinctio 4-7, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d8q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q1"/>
+      <sctap:questionTitle>Utrum in Filio sit potentia generandi, id est producendi notitiam infinitam seu verbum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d4"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d8q1">
+      <dc:title>Librum I, Distinctio 8, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d9q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d4q2"/>
+      <sctap:questionTitle>Utrum solus deus sit summe simplex?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d8"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d9q1">
+      <dc:title>Librum I, Distinctio 9, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d10q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d8q1"/>
+      <sctap:questionTitle>Utrum generatio Filii dei mensuretur instanti aeternitatis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d9"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d10q1">
+      <dc:title>Librum I, Distinctio 10-13, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d9q1"/>
+      <sctap:questionTitle>Utrum Pater et Filius uniformiter producant Spiritum Sanctum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d10"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q1">
+      <dc:title>Librum I, Distinctio 14-18, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d10q1"/>
+      <sctap:questionTitle>Utrum caritas infusa possit augeri per actus?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d14"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q2">
+      <dc:title>Librum I, Distinctio 14-18, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q1"/>
+      <sctap:questionTitle>Utrum sit possibile aliquem diligentem deum meritorie perdere caritatem infusam?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d14"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q1">
+      <dc:title>Librum I, Distinctio 19-30, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d14q2"/>
+      <sctap:questionTitle>Utrum inter personas divinas sit dare summam perfectionis aequalitatem?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d19"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q2">
+      <dc:title>Librum I, Distinctio 19-30, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d31q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q1"/>
+      <sctap:questionTitle>Utrum personae divinae se ipsis vel proprietatibus distinguantur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d19"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d31q1">
+      <dc:title>Librum I, Distinctio 31-34, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d35q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d19q2"/>
+      <sctap:questionTitle>An maiorem unitatem denotet in divinis esse unus quam esse unum? Vel: An maior gradus unitatis et indistinctionis denotetur per ly, unus quam per ly, unum  vel econtra?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d31"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d35q1">
+      <dc:title>Librum I, Distinctio 35, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d39q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d31q1"/>
+      <sctap:questionTitle>Utrum divina essentia sit cognoscibilium omnium notitia perfectissima?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d35"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d39q1">
+      <dc:title>Librum I, Distinctio 39, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d35q1"/>
+      <sctap:questionTitle>Utrum deus possit plura scire quam sciat?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d39"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q1">
+      <dc:title>Librum I, Distinctio 40, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d39q1"/>
+      <sctap:questionTitle>Utrum aliquod futurum sit evidenter a deo praescitum esse futurum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q2">
+      <dc:title>Librum I, Distinctio 40, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q1"/>
+      <sctap:questionTitle>Utrum dei praescientia infallibilis sit cum cuiuslibet contingentia composibilis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q3">
+      <dc:title>Librum I, Distinctio 40, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q2"/>
+      <sctap:questionTitle>Utrum sit possibile alicui facere de quolibet futuro ipsum non fore?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q4">
+      <dc:title>Librum I, Distinctio 40, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q3"/>
+      <sctap:questionTitle>Utrum deus de potentia absoluta possit revelare vel dicere falsum assertorie, id est intendendo per totum dictum suum seu per totum aliquod integrum significatum revelatum significare et asserere falsum significatum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q5">
+      <dc:title>Librum I, Distinctio 40, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q4"/>
+      <sctap:questionTitle>Utrum creatura possit certificari sufficienter de aliqua revelatione de futuro contingenter, quod est revelatio?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q6">
+      <dc:title>Librum I, Distinctio 40, Quaestio 6</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q5"/>
+      <sctap:questionTitle>Utrum electorum numerus possit augeri?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d40"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q1">
+      <dc:title>Librum I, Distinctio 41, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d40q6"/>
+      <sctap:questionTitle>Utrum praedestinationis electi causa et reprobationis praesciti causa sint eorum aliqualiter fore ita, quod ideo deus praedestinat A, non quia opera ipsius A causant circa deum, sed quia praecognoscit ipsum iuste operaturum finaliter, et ideo reprobat B, quia novit ipsum cum obice gratiae decessurum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d41"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q2">
+      <dc:title>Librum I, Distinctio 41, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d42q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q1"/>
+      <sctap:questionTitle>Utrum quilibet reprobatus ex hoc praecise, quia a deo reprobatus, sit ad certum gradum miseriae perpetuae repellendus?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d41"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d42q1">
+      <dc:title>Librum I, Distinctio 42, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d43q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d41q2"/>
+      <sctap:questionTitle>Utrum dei omnipotentia omne possibile fieri possit facere?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d42"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d43q1">
+      <dc:title>Librum I, Distinctio 43-46, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d47q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d42q1"/>
+      <sctap:questionTitle>Utrum deus possit facere infinitum in actu?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d43"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d47q1">
+      <dc:title>Librum I, Distinctio 47, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d48q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d43q1"/>
+      <sctap:questionTitle>Utrum voluntas dei semper impleatur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d47"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l1d48q1">
+      <dc:title>Librum I, Distinctio 48, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d47q1"/>
+      <sctap:questionTitle>Utrum quilibet viator utens libero arbitrio teneatur voluntatem suam divinae in volito conformare, id est volitiones liberas et deliberatas elicere conformiter voluntati divinae universaliter in omni volito, quod est sibi notum esse a deo volitum, conformare, id est non difformiter velle?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1d48"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-principium2">
+      <dc:title>Principium 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l1d48q1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2q1">
+      <dc:title>Librum II, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium2"/>
+      <sctap:questionTitle>Utrum dei velle omnem bonum effectum uniformi efficientia producat?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q1">
+      <dc:title>Librum II, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2q1"/>
+      <sctap:questionTitle>Utrum deus sola voluntate sit libere et uniformiter omnium, quae fiunt, prima causa efficiens?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q2">
+      <dc:title>Librum II, Distinctio 1, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q1"/>
+      <sctap:questionTitle>Utrum omne ens positivum praesens sit a prima principia effective?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q3">
+      <dc:title>Librum II, Distinctio 1, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q2"/>
+      <sctap:questionTitle>Utrum voluntas dei sit respectu omnium, quae fiunt, necessitas antecedens?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q4">
+      <dc:title>Librum II, Distinctio 1, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q3"/>
+      <sctap:questionTitle>Utrum deus potuit aliquam rem creare ab aeterno?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d2q1">
+      <dc:title>Librum II, Distinctio 2, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d1q4"/>
+      <sctap:questionTitle>Utrum deus produxerit angelum actione indivisibili?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d2"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d3q1">
+      <dc:title>Librum II, Distinctio 3, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d4q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d2q1"/>
+      <sctap:questionTitle>Utrum omnis angelus fuerit creatus in gratia?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d3"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d4q1">
+      <dc:title>Librum II, Distinctio 4, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>050</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d5q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d3q1"/>
+      <sctap:questionTitle>Utrum angeli potuerint suum casum praescire in prima instanti sui esse?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d4"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d5q1">
+      <dc:title>Librum II, Distinctio 5, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>051</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d6q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d4q1"/>
+      <sctap:questionTitle>Utrum peccatum primi angeli fuerit odium dei? Vel sic: Utrum malus angelus odiendo deum sic libere et tantum demeruerit, sicut et quantum bonus diligendo meruit?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d5"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d6q1">
+      <dc:title>Librum II, Distinctio 6, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>052</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d7q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d5q1"/>
+      <sctap:questionTitle>Utrum angelus possit se mutare localiter in non tempore?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d6"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d7q1">
+      <dc:title>Librum II, Distinctio 7, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>053</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d8q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d6q1"/>
+      <sctap:questionTitle>Utrum daemones sic sint obstinati in malo, ut non possint habere aliquod bonum velle? Vel sic: Utrum angelus obduratus possit elicere aliquod iustum velle?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d7"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d8q1">
+      <dc:title>Librum II, Distinctio 8-11, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>054</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d7q1"/>
+      <sctap:questionTitle>Utrum angeli proficiant in merito?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d8"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q1">
+      <dc:title>Librum II, Distinctio 16-17, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>055</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d8q1"/>
+      <sctap:questionTitle>Utrum animam intellectivam esse formam hominis sola fide teneatur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d16"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q2">
+      <dc:title>Librum II, Distinctio 16-17, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>056</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d21q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q1"/>
+      <sctap:questionTitle>Utrum aliqua creata volitio sit cognitio voliti extra?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d16"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d21q1">
+      <dc:title>Librum II, Distinctio 21-23, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>057</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d16q2"/>
+      <sctap:questionTitle>Utrum primum peccatum Adae fuerit mortale?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d21"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q1">
+      <dc:title>Librum II, Distinctio 24, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>058</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d21q1"/>
+      <sctap:questionTitle>Utrum primus homo per arbitrium liberum, quod acceperat, sufficiebat vitare peccatum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d24"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q2">
+      <dc:title>Librum II, Distinctio 24, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>059</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q1"/>
+      <sctap:questionTitle>Utrum omne agere deliberate contra rectam rationem vel scienter, quod est contra rectam rationem, vel post consilium de faciendo vel non faciendo, id est vel ut vult hoc ipsum, quod est contra rectam rationem, sit culpa mortalis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d24"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q3">
+      <dc:title>Librum II, Distinctio 24, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>060</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q2"/>
+      <sctap:questionTitle>Utrum ignorantia sit peccatum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d24"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q4">
+      <dc:title>Librum II, Distinctio 24, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>061</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q3"/>
+      <sctap:questionTitle>Utrum pura omissio sit peccatum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d24"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q1">
+      <dc:title>Librum II, Distinctio 25, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>062</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d24q4"/>
+      <sctap:questionTitle>Utrum cuiuslibet volitionis hominis viatoris deus sit seu divina voluntas sit necessitas antecedens ita, quod libertas ad contradictionem non sit in aliquo viatore nisi in respectu ad alias causas, non autem in respectu ad primam causam simpliciter?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d25"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q2">
+      <dc:title>Librum II, Distinctio 25, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>063</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q1"/>
+      <sctap:questionTitle>Utrum voluntas creata sit causa productiva immediata suorum actuum liberorum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d25"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q3">
+      <dc:title>Librum II, Distinctio 25, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>064</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d26q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q2"/>
+      <sctap:questionTitle>Utrum homo vel creatura rationalis in via per liberum arbitrium sufficiat tam bene operari quam male operari sufficit per illud idem?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d25"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d26q1">
+      <dc:title>Librum II, Distinctio 26, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>065</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d25q3"/>
+      <sctap:questionTitle>Utrum viator possit dilectione finita ex puris naturalibus frui deo?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d26"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q1">
+      <dc:title>Librum II, Distinctio 27, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>066</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d26q1"/>
+      <sctap:questionTitle>Utrum cuiuslibet actus meritorii deus et voluntas et gratia sint uniformiter causae effectivae?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q2">
+      <dc:title>Librum II, Distinctio 27, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>067</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q1"/>
+      <sctap:questionTitle>Utrum omnis actus meritorius A voluntatis et omnis actus demeritorius eiusdem sit in potestate eius quoad totam latitudinem meriti vel demeriti?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q3">
+      <dc:title>Librum II, Distinctio 27, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>068</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q2"/>
+      <sctap:questionTitle>Utrum maior gratia et maior conatus voluntatis efficiant proportionaliter actum magis meritorium?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q1">
+      <dc:title>Librum II, Distinctio 30-33, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>069</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d27q3"/>
+      <sctap:questionTitle>Utrum originale peccatum aliqua actuali culpa sit gravius?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d30"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q2">
+      <dc:title>Librum II, Distinctio 30-33, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>070</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q1"/>
+      <sctap:questionTitle>Utrum originale peccatum sit formaliter privatio iustitiae originalis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d30"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q3">
+      <dc:title>Librum II, Distinctio 30-33, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>071</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d35q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q2"/>
+      <sctap:questionTitle>Utrum originale peccatum sit ad aeternam mortem imputabile voluntati?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d30"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d35q1">
+      <dc:title>Librum II, Distinctio 35, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>072</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d37q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d30q3"/>
+      <sctap:questionTitle>Utrum omne malum culpae sit pura privatio?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d35"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d37q1">
+      <dc:title>Librum II, Distinctio 37, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>073</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d38q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d35q1"/>
+      <sctap:questionTitle>Utrum actualis peccati per se deus est auctor?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d37"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d38q1">
+      <dc:title>Librum II, Distinctio 38, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>074</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d37q1"/>
+      <sctap:questionTitle>Utrum quaelibet culpa mortalis sit in se infinita malitia?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d38"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q1">
+      <dc:title>Librum II, Distinctio 42-44, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>075</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d38q1"/>
+      <sctap:questionTitle>Utrum operari exterius reddat culpam voluntariam graviorem?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d42"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q2">
+      <dc:title>Librum II, Distinctio 42-44, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>076</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q1"/>
+      <sctap:questionTitle>Utrum quodlibet divinum beneficium aggravet voluntatis demeritum vel peccatum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l2d42"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-principium3">
+      <dc:title>Principium 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>077</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l2d42q2"/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3q1">
+      <dc:title>Librum III, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>078</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium3"/>
+      <sctap:questionTitle>Utrum ex merito Christi infinito recepturi erant electi dona praeveniente gratia meliora?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3d1q1">
+      <dc:title>Librum III, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>079</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3q1"/>
+      <sctap:questionTitle>Utrum idem Filius sit dei Filius et Virginis Filius?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q1">
+      <dc:title>Librum III, Distinctio 18, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>080</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d1q1"/>
+      <sctap:questionTitle>Utrum Christus, secundum quod viator, meruit de condigno electis vitam aeternam?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d18"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q2">
+      <dc:title>Librum III, Distinctio 18, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>081</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d27q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q1"/>
+      <sctap:questionTitle>Utrum aliqua persona creata suffecerit satisfacere pro culpa mortali?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d18"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3d27q1">
+      <dc:title>Librum III, Distinctio 27, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>082</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d34q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d18q2"/>
+      <sctap:questionTitle>Utrum praeceptum de dilectione dei possit implere viator carens caritate?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3d34q1">
+      <dc:title>Librum III, Distinctio 34, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>083</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d37q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d27q1"/>
+      <sctap:questionTitle>Utrum diligere inimicum timore poenae aeternae sit meritorium?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d34"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l3d37q1">
+      <dc:title>Librum III, Distinctio 37, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>084</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d34q1"/>
+      <sctap:questionTitle>Utrum omne vel aliquod divina lege prohibitum possit in casu ab homine licite fieri?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l3d37"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-principium4">
+      <dc:title>Principium 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>085</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l3d37q1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4q1">
+      <dc:title>Librum IV, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>086</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-principium4"/>
+      <sctap:questionTitle>Utrum omnis meritoria sacramentorum susceptio sit electionis aeternae immediatus effectus?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d1q1">
+      <dc:title>Librum IV, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>087</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4q1"/>
+      <sctap:questionTitle>Utrum sacramenta novae legis efficiant ad suscipientis salutem?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d1"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q1">
+      <dc:title>Librum IV, Distinctio 2-7, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>088</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d1q1"/>
+      <sctap:questionTitle>Utrum cuilibet rite suscipienti baptismum eius effectus aequaliter conferatur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d2"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q2">
+      <dc:title>Librum IV, Distinctio 2-7, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>089</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q1"/>
+      <sctap:questionTitle>Utrum gratia baptismalis coefficiens ad actum conformiter conatui voluntatis sit melior suo effectu?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d2"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q1">
+      <dc:title>Librum IV, Distinctio 8-14, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>090</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d2q2"/>
+      <sctap:questionTitle>Utrum substantia panis vere convertatur in substantiam carnis seu transsubstantietur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d8"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q2">
+      <dc:title>Librum IV, Distinctio 8-14, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>091</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q1"/>
+      <sctap:questionTitle>Utrum corpus Christi sub speciebus, quae fuerunt panis et vini, realiter continetur?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d8"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q3">
+      <dc:title>Librum IV, Distinctio 8-14, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>092</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q2"/>
+      <sctap:questionTitle>Utrum omne accidens panis, quod in ultimo instanti prolationis verborum erit sine subiecto, possit tunc ab eisdem causis corrumpi, a quibus potuit in subiecto?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d8"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q1">
+      <dc:title>Librum IV, Distinctio 14-23, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>093</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d8q3"/>
+      <sctap:questionTitle>Utrum viatori mortaliter peccanti, scilicet post baptismum, sit poenitentia necessaria ad salutem?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d14"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q2">
+      <dc:title>Librum IV, Distinctio 14-23, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>094</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q1"/>
+      <sctap:questionTitle>Utrum perdenti gratiam sit necessarium ad salutem confiteri proprio sacerdoti?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d14"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q3">
+      <dc:title>Librum IV, Distinctio 14-23, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>095</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q2"/>
+      <sctap:questionTitle>Utrum poenitentialis satisfactio, quae in gratia agitur, sit aeque meritoria vitae aeternae, ac si non esset satisfactoria?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d14"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q4">
+      <dc:title>Librum IV, Distinctio 14-23, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>096</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q3"/>
+      <sctap:questionTitle>Utrum quilibet poenitentiali merito resurgat ad aequalem gratiam gratiae, a qua cecidit?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d14"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q1">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>097</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d14q4"/>
+      <sctap:questionTitle>Utrum principale bonum matrimonii sit praecise tam bonum, quam mala foret privatio eius?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q2">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>098</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q1"/>
+      <sctap:questionTitle>Utrum viatori per privari gratia sit magis male, quam per habere gratiam foret sibi bene?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q3">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>099</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q2"/>
+      <sctap:questionTitle>Utrum quaelibet poena damni, quae est privatio gloriae, sit fugibilior quoad esse carentiae, quam quoad esse poenae vel potius econtra?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q4">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>100</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q3"/>
+      <sctap:questionTitle>Utrum aliquod miserum esse miseria, quae non est culpa, est praefugiendum homini, quam non esse?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q5">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>101</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q4"/>
+      <sctap:questionTitle>Utrum sola privatio boni sit per se malum poenae?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q6">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 6</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>102</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q5"/>
+      <sctap:questionTitle>Utrum bonum meriti sit melius, quam bonum habituale, quod est iustitia seu caritas infusa?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q7">
+      <dc:title>Librum IV, Distinctio 27-42, Quaestio 7</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>103</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q6"/>
+      <sctap:questionTitle>Utrum viatoris actus gratifice elicitus sufficienter et praemiative tam in via quam extra possit a deo non acceptari et non remunerari?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d27"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1">
+      <dc:title>Librum IV, Distinctio 43-50, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>104</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d27q7"/>
+      <sctap:questionTitle>Utrum deus pro peccato puniat infinite citra condignum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d43"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2">
+      <dc:title>Librum IV, Distinctio 43-50, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>105</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1"/>
+      <sctap:questionTitle>Utrum deus praemiet pro merito infinite ultra condignum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d43"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q3">
+      <dc:title>Librum IV, Distinctio 43-50, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>106</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2"/>
+      <sctap:questionTitle>Utrum deus sic, id est non minus improportionaliter, puniat pro culpa, sicut improportionaliter pro merito praemiat?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hugolinocommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hugolinocommentary/distinctio/hduv-l4d43"/>
+      <sctap:status>Not Started</sctap:status>
+   </rdf:Description>
+</rdf:RDF>
+
