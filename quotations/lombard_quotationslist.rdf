@@ -20,6 +20,7 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>Prologus</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l1-cpspfs"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b4d22c2-a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -32,6 +33,7 @@
       <sctap:fromBook>4</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio107"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l107-epmdev"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b3d14c2-a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -44,8 +46,11 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l16-pcicdn"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio122"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l122-qapnae"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio123"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l123-qaspvd"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b2d1c4-a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -60,6 +65,7 @@
       <sctap:fromBook>2</sctap:fromBook>
       <sctap:fromChapter>4</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio39"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l39-eqsimo"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b1d1c3-a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -78,6 +84,7 @@
       <sctap:fromBook>2</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio44"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l44-aacres"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b3d5c3-a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -90,6 +97,7 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio52"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l52-eqppep"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/pl-b3d26c1-a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -114,5 +122,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q25"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q25-d1e3705"/>
    </rdf:Description>
 </rdf:RDF>

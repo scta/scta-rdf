@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex1_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>bene ergo fecit Deus obsetricibus et crevit populus confortatusque est nimis</dc:title>
+      <sctap:quotation>bene ergo fecit Deus obsetricibus et crevit populus confortatusque est nimis</sctap:quotation>
+      <sctap:citation>Liber Exodus 1:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio48"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex3_6">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et ait ego sum Deus patris tui Deus Abraham Deus Isaac Deus Iacob abscondit Moses faciem suam non enim audebat aspicere contra Deum</dc:title>
+      <sctap:quotation>et ait ego sum Deus patris tui Deus Abraham Deus Isaac Deus Iacob abscondit Moses faciem suam non enim audebat aspicere contra Deum</sctap:quotation>
+      <sctap:citation>Liber Exodus 3:6</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d34c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex3_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit Deus ad Mosen ego sum qui sum ait sic dices filiis Israhel qui est misit me ad vos</dc:title>
+      <sctap:quotation>dixit Deus ad Mosen ego sum qui sum ait sic dices filiis Israhel qui est misit me ad vos</sctap:quotation>
+      <sctap:citation>Liber Exodus 3:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d8c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio17"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio17"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/rothwellcommentary/item/wdr-l1d8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex4_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dicesque ad eum haec dicit Dominus filius meus primogenitus meus Israhel</dc:title>
+      <sctap:quotation>dicesque ad eum haec dicit Dominus filius meus primogenitus meus Israhel</sctap:quotation>
+      <sctap:citation>Liber Exodus 4:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d26c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex7_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixitque Dominus ad Mosen et Aaron</dc:title>
+      <sctap:quotation>dixitque Dominus ad Mosen et Aaron</sctap:quotation>
+      <sctap:citation>Liber Exodus 7:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d7c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d7c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex15_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Dominus quasi vir pugnator Omnipotens nomen eius</dc:title>
+      <sctap:quotation>Dominus quasi vir pugnator Omnipotens nomen eius</sctap:quotation>
+      <sctap:citation>Liber Exodus 15:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex20_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>memento ut diem sabbati sanctifices</dc:title>
+      <sctap:quotation>memento ut diem sabbati sanctifices</sctap:quotation>
+      <sctap:citation>Liber Exodus 20:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>20</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d15c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex20_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non moechaberis</dc:title>
+      <sctap:quotation>non moechaberis</sctap:quotation>
+      <sctap:citation>Liber Exodus 20:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>20</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex20_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non facietis mecum deos argenteos nec deos aureos facietis vobis</dc:title>
+      <sctap:quotation>non facietis mecum deos argenteos nec deos aureos facietis vobis</sctap:quotation>
+      <sctap:citation>Liber Exodus 20:23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>20</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ex33_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>rursumque ait non poteris videre faciem meam non enim videbit me homo et vivet</dc:title>
+      <sctap:quotation>rursumque ait non poteris videre faciem meam non enim videbit me homo et vivet</sctap:quotation>
+      <sctap:citation>Liber Exodus 33:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ex"/>
+      <sctap:fromBiblicalChapter>33</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d8c3"/>
+   </rdf:Description>
+</rdf:RDF>

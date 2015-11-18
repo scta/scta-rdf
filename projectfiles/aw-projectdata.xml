@@ -41,17 +41,17 @@
       </hasWitnesses>    
     </header>
     <div id="body">
-    <div id="book1" class="toplevel" type="librum">
+    <div id="book1" class="toplevel" type="librum" subtype="librum1-collatio">
         <head>Book I</head>
         <div id="b1-col" type="distinctio">
-            <head>Collatio</head>
-        <item live="false" type="quaestio">
+          <head>Collatio</head>
+          <item live="false" type="quaestio">
             <fileName filestem="b1-col-qun">Collatio 3ra-3va</fileName>
             <title>Collatio</title>
-        </item>
+          </item>
         </div>
         
-        <div id="b1-prol" type="distinctio">
+        <div id="b1-prol" type="distinctio" subtype="librum1-prologus">
             <head>Prologue</head>
         <item live="false" type="quaestio">
           <fileName filestem="b1-prol-q1">b1-prol-q1.xml</fileName>
@@ -79,7 +79,7 @@
         </item>
         </div>
         
-        <div id="b1-d1" type="distinctio">
+        <div id="b1-d1" type="distinctio" subtype="librum1-distinctio1">
             <head>Distinctio 1</head>
         <item live="false" type="quaestio">
           <fileName filestem="b1-d1-q1">b1-d1-q1.xml</fileName>
@@ -184,7 +184,7 @@
         <item live="false" type="quaestio">
           <fileName filestem="b1-d1-q10">b1-d1-q10.xml</fileName>
           <title>Dist. 1, q. 10</title>
-          <title>Utrum creatura rationalis clare videns Deum necessario diligat ipsum.</title>
+          <questionTitle>Utrum creatura rationalis clare videns Deum necessario diligat ipsum.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
               <folio>48r</folio>
@@ -272,7 +272,7 @@
           <item live="false" type="quaestio">
             <fileName filestem="b1-d6-q1">b1-d6-q1.xml</fileName>
             <title>Dist. 6, q. 1</title>
-            <titleQuestion>Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et voluntatem divinam et ita de ceteris perfectionibus quae ponuntur in Deo vel Deus nec moveat quod pluraliter loquar antequam habeatur quod ibi sit pluralitas, sine enim hac improprietate loquendi non potest homo in hac materia leviter exprimere illud quod vellet.</titleQuestion>
+            <questionTitle>Utrum a parte rei in divinis sit aliqua non-identitas inter naturam Dei et voluntatem divinam et ita de ceteris perfectionibus quae ponuntur in Deo vel Deus nec moveat quod pluraliter loquar antequam habeatur quod ibi sit pluralitas, sine enim hac improprietate loquendi non potest homo in hac materia leviter exprimere illud quod vellet.</questionTitle>
             <hasWitnesses>
               <witness ref="#S">
                 <folio>85v</folio>
@@ -283,7 +283,7 @@
           <item live="true" type="quaestio">
             <fileName filestem="b1-d6-q2">b1-d6-q2.xml</fileName>
             <title>Dist. 6, q. 2</title>
-            <titleQuestion>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic de similibus.</titleQuestion>
+            <questionTitle>Utrum Deus sit realiter et per se primo modo sapiens vel intelligens et sic de similibus.</questionTitle>
             <hasWitnesses>
               <witness ref="#S">
                 <folio>87v</folio>
@@ -297,7 +297,7 @@
             <item live="false" type="quaestio">
               <fileName filestem="b1-d8-qun">b1-d8-qun.xml</fileName>
               <title>Dist. 8, q. un.</title>
-              <titleQuestion>Utrum solus Deus sit immutabilis.</titleQuestion>
+              <questionTitle>Utrum solus Deus sit immutabilis.</questionTitle>
               <hasWitnesses>
                 <witness ref="#S">
                   <folio>91r</folio>
@@ -741,6 +741,20 @@
             <questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam distincta realiter a substantia et qualitate cuius est.</questionTitle>
           <hasWitnesses>
             <witness ref="#S">
+            </witness>
+            <witness ref="#M">
+              <folio>211v</folio>
+              <folio>212r</folio>
+              <folio>212v</folio>
+              <folio>213r</folio>
+              <folio>213v</folio>
+              <folio>214r</folio>
+              <folio>214v</folio>
+              <folio>215r</folio>
+              <folio>215v</folio>
+              <folio>216r</folio>
+              <folio>216v</folio>
+              <folio>217r</folio>
             </witness>
           </hasWitnesses>
         </item>

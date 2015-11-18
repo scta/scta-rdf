@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>Alphonsus Toletanus Vargas Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>atv</sctap:slug>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d13q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d18q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d21q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d22q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d23q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d24q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/librum/atv-librum1">
+      <dc:title>Librum I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d11et12"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d11et12"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d13"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d17"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d18"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d21"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d22"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d23"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d24"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d25per27"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d28per30"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d31per34"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d35"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d37et39"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d40et41"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d42per44"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d45per48"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d13q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d18q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d21q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d22q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d23q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d24q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d1">
+      <dc:title>Librum I, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d2">
+      <dc:title>Librum I, Distinctio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d3">
+      <dc:title>Librum I, Distinctio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d4">
+      <dc:title>Librum I, Distinctio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d5">
+      <dc:title>Librum I, Distinctio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d5q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d6">
+      <dc:title>Librum I, Distinctio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d6q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d7">
+      <dc:title>Librum I, Distinctio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d7q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d8">
+      <dc:title>Librum I, Distinctio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d8q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d9">
+      <dc:title>Librum I, Distinctio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d9q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d10">
+      <dc:title>Librum I, Distinctio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d10q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d11et12">
+      <dc:title>Librum I, Distinctio 11 et 12</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d11et12">
+      <dc:title>Librum I, Distinctio 13</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d13">
+      <dc:title>Librum I, Distinctio 13</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d13q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d13q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d14">
+      <dc:title>Librum I, Distinctio 14</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d14q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d14q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d17">
+      <dc:title>Librum I, Distinctio 17</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d18">
+      <dc:title>Librum I, Distinctio 18</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d18q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d18q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d19">
+      <dc:title>Librum I, Distinctio 19</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d21">
+      <dc:title>Librum I, Distinctio 21</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d21q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d21q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d22">
+      <dc:title>Librum I, Distinctio 22</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d22q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d22q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d23">
+      <dc:title>Librum I, Distinctio 23</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d23q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d23q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d24">
+      <dc:title>Librum I, Distinctio 24</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d24q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d24q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d25per27">
+      <dc:title>Librum I, Distinctio 25, 26, et 27</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d28per30">
+      <dc:title>Librum I, Distinctio 28, 29, et 30</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d31per34">
+      <dc:title>Librum I, Distinctio 31, 32, 33, et 34</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>024</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d35">
+      <dc:title>Librum I, Distinctio 35</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>025</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d35q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d35q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d37et39">
+      <dc:title>Librum I, Distinctio 37 et 39</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>026</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d40et41">
+      <dc:title>Librum I, Distinctio 40 et 41</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>027</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d42per44">
+      <dc:title>Librum I, Distinctio 42, 43, et 44</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>028</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/distinctio/atv-l1d45per48">
+      <dc:title>Librum I, Distinctio 45, 46, 47, et 48</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/vargascommentary/librum/atv-librum1"/>
+      <sctap:sectionOrderNumber>029</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq1">
+      <dc:title>Librum I, prologus, q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq2"/>
+      <sctap:questionTitle>Utrum aliqua notitia evidens de veritatibus theologiae sit possibilis viatori 
+              de potentia Dei absoluta quae sit scientia proprie dicta.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq2">
+      <dc:title>Librum I, prologus, q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
+      <sctap:questionTitle>Utrum habitus theologicus possibilis viatori de lege communi sit scientia proprie dicta.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq3">
+      <dc:title>Librum I, prologus, q. 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq2"/>
+      <sctap:questionTitle>Utrum habitus theologicus possibilis viatori de lege communi sit scientia proprie dicta.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq4">
+      <dc:title>Librum I, prologus, q. 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:questionTitle>Utrum habitus theologie possibilis viatori de lege communi sit realiter distinctus a fide.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq4</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq5">
+      <dc:title>Librum I, prologus, q. 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:questionTitle>Utrum articuli fidei sint principia theologie.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq5</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q1">
+      <dc:title>Librum I, Dist. 1, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq5"/>
+      <sctap:questionTitle>Utrum delectatio sit perfectior dilectionem.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q2">
+      <dc:title>Librum I, Dist. 1, Q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q1"/>
+      <sctap:questionTitle>Utrum fruitio sit essentialiter dilectio vel delectatio.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q3">
+      <dc:title>Librum I, Dist. 1, Q. 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q2"/>
+      <sctap:questionTitle>Utrum habitus theologicus intellectus creati sit de Deo sub ratione finita tanquam de subiecto primo.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q4">
+      <dc:title>Librum I, Dist. 1, Q. 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q3"/>
+      <sctap:questionTitle>Utrum fruitio qua creatura rationalis nostre fruitur Deo beatifice ipsa manente in creatura possit non esse fruitio sibi.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q4</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q5">
+      <dc:title>Librum I, Dist. 1, Q. 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q4"/>
+      <sctap:questionTitle>Utrum debitum obiectum fruitionis ordinate possit esse aliqua res creata.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q5</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q6">
+      <dc:title>Librum I, Dist. 1, Q. 6</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q5"/>
+      <sctap:questionTitle>Utrum voluntas creata per suam propriam efficaciam et ingenitam libertatem possit non frui obiecto beatifico clare viso.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q6</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q7">
+      <dc:title>Librum I, Dist. 1, Q. 7</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q6"/>
+      <sctap:questionTitle>Utrum voluntas creata de potentia Dei absoluta possit non frui obiecto beatifico clare viso.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q7</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d1q8">
+      <dc:title>Librum I, Dist. 1, Q. 8</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q7"/>
+      <sctap:questionTitle>Utrum voluntas creata possit ordinate frui essentia divina non fruendo personis.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d1q8</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d1q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d2q1">
+      <dc:title>Librum I, Dist. 2, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d1q8"/>
+      <sctap:questionTitle>Utrum Deum esse trinum et unum possit naturaliter demonstrari.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d2"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d2q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d3q1">
+      <dc:title>Librum I, Dist. 3, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d2q1"/>
+      <sctap:questionTitle>Utrum  partes imaginis create sint equalis perfectionis entitative.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d3"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d3q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d3q2">
+      <dc:title>Librum I, Dist. 3, Q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d4q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:questionTitle>Utrum quelibet pars imaginis create sit totalis causa effectiva sui actus.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d3"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d3q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d3q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d4q1">
+      <dc:title>Librum I, Dist. 4, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d5q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q2"/>
+      <sctap:questionTitle>Utrum potentia generandi in Deo sit vera potentia productiva.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d4"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d4q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d5q1">
+      <dc:title>Librum I, Dist. 5, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d6q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d4q1"/>
+      <sctap:questionTitle>Utrum essentia divina generet vel generetur.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d5"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d5q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d5q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d6q1">
+      <dc:title>Librum I, Dist. 6, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d7q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d5q1"/>
+      <sctap:questionTitle>Utrum Pater genuit Filium voluntate an necessitate.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d6"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d6q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d6q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d7q1">
+      <dc:title>Librum I, Dist. 7, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d8q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d6q1"/>
+      <sctap:questionTitle>Utrum potentia generandi in divinis sit essentia vel proprietas.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d7"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d7q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d7q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d8q1">
+      <dc:title>Librum I, Dist. 8, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d9q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d7q1"/>
+      <sctap:questionTitle>Utrum primum in entibus sit tantum aliquid et non aliquid et aliquid per exclusionem omnis distinctionis et non identitatis ex natura rei perfectionum attributalium.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d8"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d8q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d8q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d9q1">
+      <dc:title>Librum I, Dist. 9, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d10q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d8q1"/>
+      <sctap:questionTitle>Utrum generatio Filii sit realiter prior processione Spiritus Sancti.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d9"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d9q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d9q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d10q1">
+      <dc:title>Librum I, Dist. 10, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d9q1"/>
+      <sctap:questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio tamquam ab uno libero principio.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d10"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d10q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d10q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1">
+      <dc:title>Librum I, Dist. 11 et 12, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d10q1"/>
+      <sctap:questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio tamquam ab uno libero principio.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d11et12"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d11et12q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d11et12q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d3q1">
+      <dc:title>Librum I, Dist. 13, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d13q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d11et12q1"/>
+      <sctap:questionTitle>Utrum generatio et spiratio in Deo realiter distinguantur.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d11et12"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d3q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d13q1">
+      <dc:title>Librum I, Dist. 13, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d14q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d3q1"/>
+      <sctap:questionTitle>Utrum generatio et spiratio in Deo realiter distinguantur.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d13"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d13q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d13q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d14q1">
+      <dc:title>Librum I, Dist. 14, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d13q1"/>
+      <sctap:questionTitle>Utrum cuilibet persone divine vere conveniat missio.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d14"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d14q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d14q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d17q1">
+      <dc:title>Librum I, Dist. 17, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d14q1"/>
+      <sctap:questionTitle>Utrum charitas augeatur secundum esse.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d17"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d17q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d17q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d17q2">
+      <dc:title>Librum I, Dist. 17, Q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q1"/>
+      <sctap:questionTitle>Utrum charitas augeatur per depuratione a contrario.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d17"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d17q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d17q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d17q3">
+      <dc:title>Librum I, Dist. 17, Q. 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q2"/>
+      <sctap:questionTitle>Utrum charitas augeatur per additionem partis ad partem, utraque parte remanente.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d17"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d17q3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d17q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d17q4">
+      <dc:title>Librum I, Dist. 17, Q. 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d18q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q3"/>
+      <sctap:questionTitle>Utrum gradus adveniens in augmento charitatis ab intellectu creato possit intuitive videri non viso priori.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d17"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d17q4</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d17q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d18q1">
+      <dc:title>Librum I, Dist. 18, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d17q4"/>
+      <sctap:questionTitle>Utrum aliquis possit esse Deo charus et acceptus ad vitam 
+              eternam sine dono charitatis infuse eius animam formaliter informante.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d18"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d18q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d18q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d19q1">
+      <dc:title>Librum I, Dist. 19, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d18q1"/>
+      <sctap:questionTitle>Utrum per se et proximum fundamentum receptivum equalitatis in creaturis sit natura specifica vel mutabilis.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d19"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d19q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d19q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d19q2">
+      <dc:title>Librum I, Dist. 19, Q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d21q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q1"/>
+      <sctap:questionTitle>Utrum trium personarum in divinis sit equalitas summa.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d19"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d19q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d19q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d21q1">
+      <dc:title>Librum I, Dist. 21, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d22q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d19q2"/>
+      <sctap:questionTitle>Utrum ista propositio sit concedenda ‘solus pater est Deus’.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d21"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d21q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d21q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d22q1">
+      <dc:title>Librum I, Dist. 22, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d23q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d21q1"/>
+      <sctap:questionTitle>Utrum nomina dicta de Deo dicuntur de ipso formaliter.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d22"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d22q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d22q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d23q1">
+      <dc:title>Librum I, Dist. 23, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d24q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d22q1"/>
+      <sctap:questionTitle>Utrum nomina dicta de Deo dicuntur de ipso formaliter.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d23"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d23q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d23q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d24q1">
+      <dc:title>Librum I, Dist. 24, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d23q1"/>
+      <sctap:questionTitle>Utrum trinitas personarum in divinis sit verus numerus.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d24"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d24q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d24q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1">
+      <dc:title>Librum I, Dist. 25, 26, et 27, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d24q1"/>
+      <sctap:questionTitle>Utrum persone divine distinguantur personaliter proprietatibus absolutis vel relativis.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d25per27"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d25per27q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d25per27q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1">
+      <dc:title>Librum I, Dist. 28, 29, et 30, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d25per27q1"/>
+      <sctap:questionTitle>Utrum omnis relatio realis in creaturis sit res distincta a rebus absolutis.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d28per30"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d28per30q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d28per30q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2">
+      <dc:title>Librum I, Dist. 28, 29, et 30, Q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q1"/>
+      <sctap:questionTitle>Utrum Dei ad creaturam sit relatio realis.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d28per30"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d28per30q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d28per30q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3">
+      <dc:title>Librum I, Dist. 28, 29, et 30, Q. 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q2"/>
+      <sctap:questionTitle>Utrum Deus referatur temporaliter ad creaturam relatione reali que sit formaliter in ipso vel in creatura.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d28per30"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d28per30q3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d28per30q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1">
+      <dc:title>Librum I, Dist. 31, 32, 33, et 34, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d28per30q3"/>
+      <sctap:questionTitle>Utrum essentia divina sit eadem realiter proprietatibus relativis.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d31per34"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d31per34q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d31per34q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2">
+      <dc:title>Librum I, Dist. 31, 32, 33, et 34, Q. 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d35q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q1"/>
+      <sctap:questionTitle>Utrum essentia divina sit eadem formaliter proprietatibus.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d31per34"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d31per34q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d31per34q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d35q1">
+      <dc:title>Librum I, Dist. 35, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d31per34q2"/>
+      <sctap:questionTitle>Utrum Deus cognoscat aliquid extra se.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d35"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d35q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d35q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1">
+      <dc:title>Librum I, Dist. 37 et 39, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d35q1"/>
+      <sctap:questionTitle>Utrum omnis propositio de futuo a Deo prescita in sua veritate sit infallibilis et necessaria.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d37et39"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d37et39q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d37et39q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1">
+      <dc:title>Librum I, Dist. 40 et 41, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d37et39q1"/>
+      <sctap:questionTitle>Utrum omnis predestinatus ab eterno fuerit predestinatibus.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d40et41"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d40et41q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d40et41q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1">
+      <dc:title>Librum I, Dist. 42, 43, et 44, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
+      <sctap:questionTitle>Utrum omnis propositio de futuro contingenti determinate vera per divinam potentiam possit numquam fuisse vera.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d42per44"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d42per44q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d42per44q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1">
+      <dc:title>Librum I, Dist. 45, 46, 47, et 48, Q. 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
+      <sctap:questionTitle>Utrum quilibet homo potens uti libero arbitrio teneatur sub pena peccati voluntatem suam voluntati divine universaliter in volito conformare.</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1d45per48"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1d45per48q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1d45per48q1"/>
+   </rdf:Description>
+</rdf:RDF>    
+

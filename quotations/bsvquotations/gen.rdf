@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>in principio creavit Deus caelum et terram</dc:title>
+      <sctap:quotation>in principio creavit Deus caelum et terram</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d1c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d3c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d12c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d13c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d13c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>terra autem erat inanis et vacua et tenebrae super faciem abyssi et spiritus Dei ferebatur super aquas</dc:title>
+      <sctap:quotation>terra autem erat inanis et vacua et tenebrae super faciem abyssi et spiritus Dei ferebatur super aquas</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d12c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixitque Deus fiat lux et facta est lux</dc:title>
+      <sctap:quotation>dixitque Deus fiat lux et facta est lux</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d3c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d3c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d13c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et vidit Deus lucem quod esset bona et divisit lucem ac tenebras</dc:title>
+      <sctap:quotation>et vidit Deus lucem quod esset bona et divisit lucem ac tenebras</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d5c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus</dc:title>
+      <sctap:quotation>appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d13c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita</dc:title>
+      <sctap:quotation>dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d14c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et protulit terra herbam virentem et adferentem semen iuxta genus suum lignumque faciens fructum et habens unumquodque sementem secundum speciem suam et vidit Deus quod esset bonum</dc:title>
+      <sctap:quotation>et protulit terra herbam virentem et adferentem semen iuxta genus suum lignumque faciens fructum et habens unumquodque sementem secundum speciem suam et vidit Deus quod esset bonum</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d14c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d14c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit autem Deus fiant luminaria in firmamento caeli ut dividant diem ac noctem et sint in signa et tempora et dies et annos</dc:title>
+      <sctap:quotation>dixit autem Deus fiant luminaria in firmamento caeli ut dividant diem ac noctem et sint in signa et tempora et dies et annos</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d14c9"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d14c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit etiam Deus producant aquae reptile animae viventis et volatile super terram sub firmamento caeli</dc:title>
+      <sctap:quotation>dixit etiam Deus producant aquae reptile animae viventis et volatile super terram sub firmamento caeli</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit quoque Deus producat terra animam viventem in genere suo iumenta et reptilia et bestias terrae secundum species suas factumque est ita</dc:title>
+      <sctap:quotation>dixit quoque Deus producat terra animam viventem in genere suo iumenta et reptilia et bestias terrae secundum species suas factumque est ita</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_25">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et fecit Deus bestias terrae iuxta species suas et iumenta et omne reptile terrae in genere suo et vidit Deus quod esset bonum</dc:title>
+      <sctap:quotation>et fecit Deus bestias terrae iuxta species suas et iumenta et omne reptile terrae in genere suo et vidit Deus quod esset bonum</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:25</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_26">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et ait faciamus hominem ad imaginem et similitudinem nostram et praesit piscibus maris et volatilibus caeli et bestiis universaeque terrae omnique reptili quod movetur in terra</dc:title>
+      <sctap:quotation>et ait faciamus hominem ad imaginem et similitudinem nostram et praesit piscibus maris et volatilibus caeli et bestiis universaeque terrae omnique reptili quod movetur in terra</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:26</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d24c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d16c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen1_31">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>viditque Deus cuncta quae fecit et erant valde bona et factum est vespere et mane dies sextus</dc:title>
+      <sctap:quotation>viditque Deus cuncta quae fecit et erant valde bona et factum est vespere et mane dies sextus</sctap:quotation>
+      <sctap:citation>Liber Genesis 1:31</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>31</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>conplevitque Deus die septimo opus suum quod fecerat et requievit die septimo ab universo opere quod patrarat</dc:title>
+      <sctap:quotation>conplevitque Deus die septimo opus suum quod fecerat et requievit die septimo ab universo opere quod patrarat</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et benedixit diei septimo et sanctificavit illum quia in ipso cessaverat ab omni opere suo quod creavit Deus ut faceret</dc:title>
+      <sctap:quotation>et benedixit diei septimo et sanctificavit illum quia in ipso cessaverat ab omni opere suo quod creavit Deus ut faceret</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d15c9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>formavit igitur Dominus Deus hominem de limo terrae et inspiravit in faciem eius spiraculum vitae et factus est homo in animam viventem</dc:title>
+      <sctap:quotation>formavit igitur Dominus Deus hominem de limo terrae et inspiravit in faciem eius spiraculum vitae et factus est homo in animam viventem</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d17c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>plantaverat autem Dominus Deus paradisum voluptatis a principio in quo posuit hominem quem formaverat</dc:title>
+      <sctap:quotation>plantaverat autem Dominus Deus paradisum voluptatis a principio in quo posuit hominem quem formaverat</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d17c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>tulit ergo Dominus Deus hominem et posuit eum in paradiso voluptatis ut operaretur et custodiret illum</dc:title>
+      <sctap:quotation>tulit ergo Dominus Deus hominem et posuit eum in paradiso voluptatis ut operaretur et custodiret illum</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d24c12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>appellavitque Adam nominibus suis cuncta animantia et universa volatilia caeli et omnes bestias terrae Adam vero non inveniebatur adiutor similis eius</dc:title>
+      <sctap:quotation>appellavitque Adam nominibus suis cuncta animantia et universa volatilia caeli et omnes bestias terrae Adam vero non inveniebatur adiutor similis eius</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d24c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_21">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>inmisit ergo Dominus Deus soporem in Adam cumque obdormisset tulit unam de costis eius et replevit carnem pro ea</dc:title>
+      <sctap:quotation>inmisit ergo Dominus Deus soporem in Adam cumque obdormisset tulit unam de costis eius et replevit carnem pro ea</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:21</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d18c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et aedificavit Dominus Deus costam quam tulerat de Adam in mulierem et adduxit eam ad Adam</dc:title>
+      <sctap:quotation>et aedificavit Dominus Deus costam quam tulerat de Adam in mulierem et adduxit eam ad Adam</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d18c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen2_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quam ob rem relinquet homo patrem suum et matrem et adherebit uxori suae et erunt duo in carne una</dc:title>
+      <sctap:quotation>quam ob rem relinquet homo patrem suum et matrem et adherebit uxori suae et erunt duo in carne una</sctap:quotation>
+      <sctap:citation>Liber Genesis 2:24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d24c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed et serpens erat callidior cunctis animantibus terrae quae fecerat Dominus Deus qui dixit ad mulierem cur praecepit vobis Deus ut non comederetis de omni ligno paradisi</dc:title>
+      <sctap:quotation>sed et serpens erat callidior cunctis animantibus terrae quae fecerat Dominus Deus qui dixit ad mulierem cur praecepit vobis Deus ut non comederetis de omni ligno paradisi</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d21c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cui respondit mulier de fructu lignorum quae sunt in paradiso vescemur</dc:title>
+      <sctap:quotation>cui respondit mulier de fructu lignorum quae sunt in paradiso vescemur</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>de fructu vero ligni quod est in medio paradisi praecepit nobis Deus ne comederemus et ne tangeremus illud ne forte moriamur</dc:title>
+      <sctap:quotation>de fructu vero ligni quod est in medio paradisi praecepit nobis Deus ne comederemus et ne tangeremus illud ne forte moriamur</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit autem serpens ad mulierem nequaquam morte moriemini</dc:title>
+      <sctap:quotation>dixit autem serpens ad mulierem nequaquam morte moriemini</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d21c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scit enim Deus quod in quocumque die comederitis ex eo aperientur oculi vestri et eritis sicut dii scientes bonum et malum</dc:title>
+      <sctap:quotation>scit enim Deus quod in quocumque die comederitis ex eo aperientur oculi vestri et eritis sicut dii scientes bonum et malum</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixitque Adam mulier quam dedisti sociam mihi dedit mihi de ligno et comedi</dc:title>
+      <sctap:quotation>dixitque Adam mulier quam dedisti sociam mihi dedit mihi de ligno et comedi</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et dixit Dominus Deus ad mulierem quare hoc fecisti quae respondit serpens decepit me et comedi</dc:title>
+      <sctap:quotation>et dixit Dominus Deus ad mulierem quare hoc fecisti quae respondit serpens decepit me et comedi</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>mulieri quoque dixit multiplicabo aerumnas tuas et conceptus tuos in dolore paries filios et sub viri potestate eris et ipse dominabitur tui</dc:title>
+      <sctap:quotation>mulieri quoque dixit multiplicabo aerumnas tuas et conceptus tuos in dolore paries filios et sub viri potestate eris et ipse dominabitur tui</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et ait ecce Adam factus est quasi unus ex nobis sciens bonum et malum nunc ergo ne forte mittat manum suam et sumat etiam de ligno vitae et comedat et vivat in aeternum</dc:title>
+      <sctap:quotation>et ait ecce Adam factus est quasi unus ex nobis sciens bonum et malum nunc ergo ne forte mittat manum suam et sumat etiam de ligno vitae et comedat et vivat in aeternum</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d29c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>emisit eum Dominus Deus de paradiso voluptatis ut operaretur terram de qua sumptus est</dc:title>
+      <sctap:quotation>emisit eum Dominus Deus de paradiso voluptatis ut operaretur terram de qua sumptus est</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d29c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen3_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>eiecitque Adam et conlocavit ante paradisum voluptatis cherubin et flammeum gladium atque versatilem ad custodiendam viam ligni vitae</dc:title>
+      <sctap:quotation>eiecitque Adam et conlocavit ante paradisum voluptatis cherubin et flammeum gladium atque versatilem ad custodiendam viam ligni vitae</sctap:quotation>
+      <sctap:citation>Liber Genesis 3:24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d29c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen4_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>factum est autem post multos dies ut offerret Cain de fructibus terrae munera Domino</dc:title>
+      <sctap:quotation>factum est autem post multos dies ut offerret Cain de fructibus terrae munera Domino</sctap:quotation>
+      <sctap:citation>Liber Genesis 4:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen17_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>hoc est pactum quod observabitis inter me et vos et semen tuum post te circumcidetur ex vobis omne masculinum</dc:title>
+      <sctap:quotation>hoc est pactum quod observabitis inter me et vos et semen tuum post te circumcidetur ex vobis omne masculinum</sctap:quotation>
+      <sctap:citation>Liber Genesis 17:10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen17_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>infans octo dierum circumcidetur in vobis omne masculinum in generationibus vestris tam vernaculus quam empticius circumcidetur et quicumque non fuerit de stirpe vestra</dc:title>
+      <sctap:quotation>infans octo dierum circumcidetur in vobis omne masculinum in generationibus vestris tam vernaculus quam empticius circumcidetur et quicumque non fuerit de stirpe vestra</sctap:quotation>
+      <sctap:citation>Liber Genesis 17:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen17_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et ait Deus ad Abraham Sarra uxor tua pariet tibi filium vocabisque nomen eius Isaac et constituam pactum meum illi in foedus sempiternum et semini eius post eum</dc:title>
+      <sctap:quotation>et ait Deus ad Abraham Sarra uxor tua pariet tibi filium vocabisque nomen eius Isaac et constituam pactum meum illi in foedus sempiternum et semini eius post eum</sctap:quotation>
+      <sctap:citation>Liber Genesis 17:19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen19_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>festina et salvare ibi quia non potero facere quicquam donec ingrediaris illuc idcirco vocatum est nomen urbis illius Segor</dc:title>
+      <sctap:quotation>festina et salvare ibi quia non potero facere quicquam donec ingrediaris illuc idcirco vocatum est nomen urbis illius Segor</sctap:quotation>
+      <sctap:citation>Liber Genesis 19:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d43c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen22_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixitque ei non extendas manum tuam super puerum neque facias illi quicquam nunc cognovi quod timeas Dominum et non peperceris filio tuo unigenito propter me</dc:title>
+      <sctap:quotation>dixitque ei non extendas manum tuam super puerum neque facias illi quicquam nunc cognovi quod timeas Dominum et non peperceris filio tuo unigenito propter me</sctap:quotation>
+      <sctap:citation>Liber Genesis 22:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>22</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen22_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et benedicentur in semine tuo omnes gentes terrae quia oboedisti voci meae</dc:title>
+      <sctap:quotation>et benedicentur in semine tuo omnes gentes terrae quia oboedisti voci meae</sctap:quotation>
+      <sctap:citation>Liber Genesis 22:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>22</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/gen44_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quibus ille ait cur sic agere voluistis an ignoratis quod non sit similis mei in augurandi scientia</dc:title>
+      <sctap:quotation>quibus ille ait cur sic agere voluistis an ignoratis quod non sit similis mei in augurandi scientia</sctap:quotation>
+      <sctap:citation>Liber Genesis 44:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/gen"/>
+      <sctap:fromBiblicalChapter>44</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio107"/>
+   </rdf:Description>
+</rdf:RDF>

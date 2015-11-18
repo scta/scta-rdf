@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ego diligentes me diligo et qui mane vigilant ad me invenient me</dc:title>
+      <sctap:quotation>ego diligentes me diligo et qui mane vigilant ad me invenient me</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio82"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Dominus possedit me initium viarum suarum antequam quicquam faceret a principio</dc:title>
+      <sctap:quotation>Dominus possedit me initium viarum suarum antequam quicquam faceret a principio</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ab aeterno ordita sum et ex antiquis antequam terra fieret</dc:title>
+      <sctap:quotation>ab aeterno ordita sum et ex antiquis antequam terra fieret</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_24">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>necdum erant abyssi et ego iam concepta eram necdum fontes aquarum eruperant</dc:title>
+      <sctap:quotation>necdum erant abyssi et ego iam concepta eram necdum fontes aquarum eruperant</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:24</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_25">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>necdum montes gravi mole constiterant ante colles ego parturiebar</dc:title>
+      <sctap:quotation>necdum montes gravi mole constiterant ante colles ego parturiebar</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:25</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d9c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_26">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>adhuc terram non fecerat et flumina et cardines orbis terrae</dc:title>
+      <sctap:quotation>adhuc terram non fecerat et flumina et cardines orbis terrae</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:26</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_27">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quando praeparabat caelos aderam quando certa lege et gyro vallabat abyssos</dc:title>
+      <sctap:quotation>quando praeparabat caelos aderam quando certa lege et gyro vallabat abyssos</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:27</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>27</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_28">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quando aethera firmabat sursum et librabat fontes aquarum</dc:title>
+      <sctap:quotation>quando aethera firmabat sursum et librabat fontes aquarum</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:28</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_29">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quando circumdabat mari terminum suum et legem ponebat aquis ne transirent fines suos quando adpendebat fundamenta terrae</dc:title>
+      <sctap:quotation>quando circumdabat mari terminum suum et legem ponebat aquis ne transirent fines suos quando adpendebat fundamenta terrae</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:29</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>29</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov8_30">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cum eo eram cuncta conponens et delectabar per singulos dies ludens coram eo omni tempore</dc:title>
+      <sctap:quotation>cum eo eram cuncta conponens et delectabar per singulos dies ludens coram eo omni tempore</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 8:30</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>30</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/prov16_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cor hominis disponet viam suam sed Domini est dirigere gressus eius</dc:title>
+      <sctap:quotation>cor hominis disponet viam suam sed Domini est dirigere gressus eius</sctap:quotation>
+      <sctap:citation>Liber Proverbiorum 16:9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/prov"/>
+      <sctap:fromBiblicalChapter>16</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
+   </rdf:Description>
+</rdf:RDF>

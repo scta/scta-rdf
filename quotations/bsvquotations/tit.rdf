@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/tit1_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>in spem vitae aeternae quam promisit qui non mentitur Deus ante tempora saecularia</dc:title>
+      <sctap:quotation>in spem vitae aeternae quam promisit qui non mentitur Deus ante tempora saecularia</sctap:quotation>
+      <sctap:citation>Epistula ad Titum 1:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/tit"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/tit3_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non ex operibus iustitiae quae fecimus nos sed secundum suam misericordiam salvos nos fecit per lavacrum regenerationis et renovationis Spiritus Sancti</dc:title>
+      <sctap:quotation>non ex operibus iustitiae quae fecimus nos sed secundum suam misericordiam salvos nos fecit per lavacrum regenerationis et renovationis Spiritus Sancti</sctap:quotation>
+      <sctap:citation>Epistula ad Titum 3:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/tit"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio83"/>
+   </rdf:Description>
+</rdf:RDF>

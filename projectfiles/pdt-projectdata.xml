@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listofFileNames>
   <header>
-    <authorName>Peter of Tarantasia</authorName>
-    <commentaryName>Peter of Tarantasia Commentary</commentaryName>
+    <authorName>Peter of Tarantaise</authorName>
+    <commentaryName>Peter of Tarantaise Commentary</commentaryName>
     <commentaryid>tarantasiacommentary</commentaryid>
     <commentaryslug>pdt</commentaryslug>
     <authorUri>http://scta.info/resource/person/PetrusDeTarantasia</authorUri>
@@ -18,12 +18,17 @@
         <title>Paris, BnF, Latin 14556 </title>
         <initial>P</initial>
       </witness>
+      <witness id="T">
+        <slug>toulouse1652</slug>
+        <title>Toulouse 1652</title>
+        <initial>T</initial>
+      </witness>
     </hasWitnesses>
   </header>
   <div id="body">
     <div id="pdt-l1" class="toplevel" type="librum" subtype="librum1">
       <head>Librum I</head>
-      <div id="pdt-l1prol" type="prologus" subtype="librum1-prologus">
+      <div id="pdt-l1prol" type="distinctio" subtype="librum1-prologus">
         <head>Librum I, Prologus</head>
         <item type="quaestio">
           <fileName filestem="pdt-l1prolq1"/>
@@ -32,7 +37,10 @@
           <hasWitnesses>
             <witness ref="#P">
               <folio>1v</folio>
+              <folio>2r</folio>
+              <folio>2v</folio>
             </witness>
+            <witness ref="#T"/>
           </hasWitnesses>
         </item>
       </div>
@@ -3008,19 +3016,17 @@
             </witness>
           </hasWitnesses>
         </item>
-        <div id="pdt-l3d13" type="distinctio" subtype="librum3-distinctio13">
-          <head>Librum III, Distinctio 13</head>
-          <item type="quaestio">
-            <fileName filestem="pdt-l3d13q3"/>
-            <title>Librum III, Distinctio 13, Quaestio 3</title>
-            <questionTitle>De gratia unionis</questionTitle>
-            <hasWitnesses>
-              <witness ref="#P">
-                
-              </witness>
-            </hasWitnesses>
-          </item>
-        </div>
+        <item type="quaestio">
+          <fileName filestem="pdt-l3d13q3"/>
+          <title>Librum III, Distinctio 13, Quaestio 3</title>
+          <questionTitle>De gratia unionis</questionTitle>
+          <hasWitnesses>
+            <witness ref="#P">
+              
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
         <div id="pdt-l3d14" type="distinctio" subtype="librum3-distinctio14">
           <head>Librum III, Distinctio 14</head>
           <item type="quaestio">
@@ -5184,7 +5190,6 @@
               </witness>
             </hasWitnesses>
           </item>
-        </div>
       </div>
     </div>
   </div>

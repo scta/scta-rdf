@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob1_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et ibant filii eius et faciebant convivium per domos unusquisque in die suo et mittentes vocabant tres sorores suas ut comederent et biberent cum eis</dc:title>
+      <sctap:quotation>et ibant filii eius et faciebant convivium per domos unusquisque in die suo et mittentes vocabant tres sorores suas ut comederent et biberent cum eis</sctap:quotation>
+      <sctap:citation>Liber Iob 1:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob5_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cuius messem famelicus comedet et ipsum rapiet armatus et ebibent sitientes divitias eius</dc:title>
+      <sctap:quotation>cuius messem famelicus comedet et ipsum rapiet armatus et ebibent sitientes divitias eius</sctap:quotation>
+      <sctap:citation>Liber Iob 5:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob10_22">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>terram miseriae et tenebrarum ubi umbra mortis et nullus ordo et sempiternus horror inhabitans</dc:title>
+      <sctap:quotation>terram miseriae et tenebrarum ubi umbra mortis et nullus ordo et sempiternus horror inhabitans</sctap:quotation>
+      <sctap:citation>Liber Iob 10:22</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob26_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui ligat aquas in nubibus suis ut non erumpant pariter deorsum</dc:title>
+      <sctap:quotation>qui ligat aquas in nubibus suis ut non erumpant pariter deorsum</sctap:quotation>
+      <sctap:citation>Liber Iob 26:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d14c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob36_25">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>omnes homines vident eum unusquisque intuetur procul</dc:title>
+      <sctap:quotation>omnes homines vident eum unusquisque intuetur procul</sctap:quotation>
+      <sctap:citation>Liber Iob 36:25</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>36</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob38_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>auferetur ab impiis lux sua et brachium excelsum confringetur</dc:title>
+      <sctap:quotation>auferetur ab impiis lux sua et brachium excelsum confringetur</sctap:quotation>
+      <sctap:citation>Liber Iob 38:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>38</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob40_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ipse principium est viarum Dei qui fecit eum adplicabit gladium eius</dc:title>
+      <sctap:quotation>ipse principium est viarum Dei qui fecit eum adplicabit gladium eius</sctap:quotation>
+      <sctap:citation>Liber Iob 40:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>40</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d6c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/iob40_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius</dc:title>
+      <sctap:quotation>in oculis eius quasi hamo capiet eum et in sudibus perforabit nares eius</sctap:quotation>
+      <sctap:citation>Liber Iob 40:19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/iob"/>
+      <sctap:fromBiblicalChapter>40</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d3c4"/>
+   </rdf:Description>
+</rdf:RDF>

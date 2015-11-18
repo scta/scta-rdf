@@ -9,6 +9,17 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio1_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>si dixerimus quoniam peccatum non habemus ipsi nos seducimus et veritas in nobis non est</dc:title>
+      <sctap:quotation>si dixerimus quoniam peccatum non habemus ipsi nos seducimus et veritas in nobis non est</sctap:quotation>
+      <sctap:citation>Epistula I Ioannis 1:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Iio"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio2_10">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>qui diligit fratrem suum in lumine manet et scandalum in eo non est</dc:title>
@@ -161,6 +172,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d21c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d25c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio5_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Spiritus et aqua et sanguis et tres unum sunt</dc:title>
+      <sctap:quotation>Spiritus et aqua et sanguis et tres unum sunt</sctap:quotation>
+      <sctap:citation>Epistula I Ioannis 5:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Iio"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q50"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Iio5_20">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

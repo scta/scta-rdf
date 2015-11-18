@@ -29,9 +29,9 @@
                 <rdf:type rdf:resource="http://scta.info/resource/subject"/>
                 <dc:title><xsl:value-of select="./tei:catDesc"></xsl:value-of></dc:title>
                 <!-- since subject identifications are going to be external to mark up this should run a separate set of files that match item ids to subjectids -->
-                    <!-- <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:mentiones[@rdf:resource=concat('http://scta.info/resource/subject/', $id)]">
+                    <!-- <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:discusses[@rdf:resource=concat('http://scta.info/resource/subject/', $id)]">
                         <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
-                        <sctap:mentionedBy rdf:resource="{$itemid}"/>
+                        <sctap:discussedBy rdf:resource="{$itemid}"/>
                     </xsl:for-each> -->
                 <xsl:choose> <!-- right now these presumes that subjects lists only allow one level deep of sub categories; that is it does not go beyond the first child level to grandchildren -->
                     <xsl:when test="./child::tei:category">

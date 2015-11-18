@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:sctar="http://scta.info/resource/"
          xmlns:sctap="http://scta.info/property/"
          xmlns:sctat="http://scta.info/text/"
@@ -162,7 +162,1228 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio1</sctap:gitRepository>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lot"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnDamascenus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustin"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HughOfStVictor"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-20"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-21"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-31"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnDamascenus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-33"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HughOfStVictor"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-37"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-39"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-40"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-41"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-42"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-43"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-44"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-45"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-46"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-47"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-48"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-49"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-50"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-51"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-52"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-53"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-54"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/John"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-55"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-56"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-58"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-59"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-60"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-61"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/John"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-62"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-63"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-64"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-65"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-66"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-67"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-68"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-69"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-70"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/John"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-71"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-72"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-73"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Grosseteste"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-74"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-75"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-76"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-77"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lucifer"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-78"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-79"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-80"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-81"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-82"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-83"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Grosseteste"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-84"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-85"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-86"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-87"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Monologion"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/IIcor"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deDiversisQuaestionibus"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/gen"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/ex"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/gen"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/act"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deDoctrinaChristiana"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-20"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deSacramentis"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-21"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeLiberoArbitrio"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deHebdomadibus"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deHebdomadibus"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SummaeQuaestionumOrdinariarum"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/hebr"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCaelo"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-41"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-42"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/hebr"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-43"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-47"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCoelestiHierarchia"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-49"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-50"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SummaTheologica"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-51"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Enchiridion"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-52"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeLiberoArbitrio"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-53"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-55"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCoelestiHierarchia"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-56"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom11_34"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-1"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/ro1_20"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-2"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr11_1"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-6"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor12_2"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-7"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor12_4"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-8"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/hebr11_6"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-9"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom14_23"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-10"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/IIcor12_4"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-11"/>
+      <sctap:references rdf:resource=""/>
+      <sctap:hasRef rdf:resource="http://scta.info/text/fitzralphcommentary/ref/rfr-quaestio1-33"/>
+      <sctap:references rdf:resource=""/>
+      <sctap:hasRef rdf:resource="http://scta.info/text/fitzralphcommentary/ref/rfr-quaestio1-44"/>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/fitzralphcommentary/witness/oriel15_rfr-quaestio1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentatorem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-3">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentatoris</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>Anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-9">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-10">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-11">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-12">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>apostolus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-13">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-14">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-15">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-16">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-17">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lot"/>
+      <sctap:elementText>loth</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-18">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohnDamascenus"/>
+      <sctap:elementText>Iohannem damascenum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-19">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustin"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-20">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HughOfStVictor"/>
+      <sctap:elementText>hugo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-21">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-22">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-23">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-24">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-25">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-26">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>boetium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-27">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:elementText>Thomas</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-28">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophiam</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-29">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>commentatorem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-30">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:elementText>henricus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-31">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boetius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-33">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohnDamascenus"/>
+      <sctap:elementText>damascenus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-34">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-35">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-36">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HughOfStVictor"/>
+      <sctap:elementText>hugo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-37">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustini</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-38">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustini</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-39">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-40">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:elementText>henricus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-41">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-42">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magistrum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-43">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>apostolum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-44">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>gregorium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-45">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>paulus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-46">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-47">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-48">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:elementText>henricus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-49">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophi</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-50">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentatoris</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-51">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-52">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Scotus"/>
+      <sctap:elementText>doctor subtilis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-53">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-54">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:elementText>petro</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-55">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/John"/>
+      <sctap:elementText>iohanne</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-56">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>paulus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-58">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>apostolus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-59">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>paulus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-60">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-61">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:elementText>petrus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-62">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/John"/>
+      <sctap:elementText>iohannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-63">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:elementText>doctorem solempnem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-64">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>paulus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-65">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magistri</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-66">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-67">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>apostolus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-68">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>gregorius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-69">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
+      <sctap:elementText>magister</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-70">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Peter"/>
+      <sctap:elementText>petro</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-71">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/John"/>
+      <sctap:elementText>iohanne</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-72">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
+      <sctap:elementText>henricus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-73">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>beatus dyonisius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-74">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Grosseteste"/>
+      <sctap:elementText>linconiensis </sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-75">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-76">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <sctap:elementText>Thomas</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-77">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-78">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lucifer"/>
+      <sctap:elementText>lucifer</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-79">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-80">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-81">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-82">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-83">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>dyonisius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-84">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Grosseteste"/>
+      <sctap:elementText>linconiensis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-85">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-86">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio1-87">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-4">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Monologion"/>
+      <sctap:elementText>monologion</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-5">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>de anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-6">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/IIcor"/>
+      <sctap:elementText>corinthios</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-7">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-8">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDiversisQuaestionibus"/>
+      <sctap:elementText>83 
+            quaestiones</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-12">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-13">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-14">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-15">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-16">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/gen"/>
+      <sctap:elementText>genesis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-17">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/ex"/>
+      <sctap:elementText>exodus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-18">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/gen"/>
+      <sctap:elementText>genesis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-19">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/act"/>
+      <sctap:elementText>actuum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-20">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDoctrinaChristiana"/>
+      <sctap:elementText>de doctrinae christianae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-21">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deSacramentis"/>
+      <sctap:elementText>de sacramentis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-22">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-23">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-24">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeLiberoArbitrio"/>
+      <sctap:elementText>de libero arbitrio</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-25">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-26">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-27">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:elementText>super genese ad litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-28">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deHebdomadibus"/>
+      <sctap:elementText>de ebdomadibus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-30">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deHebdomadibus"/>
+      <sctap:elementText>de ebdomadibus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-34">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-35">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SummaeQuaestionumOrdinariarum"/>
+      <sctap:elementText>summa</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-36">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:elementText>super genesem ad litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-38">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/hebr"/>
+      <sctap:elementText>hebraeos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-41">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCaelo"/>
+      <sctap:elementText>de caelo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-42">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:elementText>posteriorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-43">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/hebr"/>
+      <sctap:elementText>ad hebraeos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-47">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:elementText>super genesem ad 
+            litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-49">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCoelestiHierarchia"/>
+      <sctap:elementText>de caelesti 
+            ierarchia</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-50">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:elementText>posteriorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-51">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SummaTheologica"/>
+      <sctap:elementText>summae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-52">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Enchiridion"/>
+      <sctap:elementText>enchiridion</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-53">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeLiberoArbitrio"/>
+      <sctap:elementText>de libero arbitrio</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-55">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:elementText>super genesem  
+            ad litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio1-56">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCoelestiHierarchia"/>
+      <sctap:elementText>de caelesti ierarchia</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-1">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/rom11_34"/>
+      <sctap:elementText>quis novit sensum domini aut quis conciliariusconsiliarius eius fuit</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-2">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/ro1_20"/>
+      <sctap:elementText>invisibilia dei per ea quae facta sunt  intellecta conspiciuntur 
+            sempiterna quoque virtus eius et divinitas  ita ut sint inexcusabiles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-6">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/hebr11_1"/>
+      <sctap:elementText>ipsa 
+          est argumentum non apparentium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-7">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/IIcor12_2"/>
+      <sctap:elementText>ipse  hominem in christo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-8">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/IIcor12_4"/>
+      <sctap:elementText>archanaarcana quae non licet homini loqui</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-9">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/hebr11_6"/>
+      <sctap:elementText>sine fide inpossibile 
+          est placere deo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-10">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/rom14_23"/>
+      <sctap:elementText>omne quod non est ex fide est peccatum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio1-11">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/IIcor12_4"/>
+      <sctap:elementText>scivit multa archanaarcana quae non habet 
+          homini loqui</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/witness/oriel15_rfr-quaestio1">
+      <dc:title>rfr-quaestio1 [Oxford, Oriel 15]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>oriel15</sctap:hasSlug>
+      <sctap:hasFolio>1v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O1v"/>
+      <sctap:hasFolio>2r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O2r"/>
+      <sctap:hasFolio>2v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O2v"/>
+      <sctap:hasFolio>3r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O3r"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio1">
+      <dc:title>Librum I, Prologus, Quaestio 1 [Oriel 15 Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/fitzralphcommentary/rfr-quaestio1/transcription/oriel15"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2">
       <dc:title>Quaestio 2 [Prologus, Quaestio 2]</dc:title>
@@ -171,12 +1392,449 @@
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio3"/>
       <sctap:previous rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
-      <sctap:questionTitle>Vtrum theologia sit sciencia speculatiua vel practica</sctap:questionTitle>
+      <sctap:questionTitle>Utrum theologia sit scientia speculatiua vel practica</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio2</sctap:gitRepository>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/James"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Lot"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Saul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Saul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Jonah"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/rom"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/rom"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/iac"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitateBoethius"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/gen"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-20"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Monologion"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-21"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ireg"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ireg"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/iudic"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/ion"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-27"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt22_40"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio2-1"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iudic9_8"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio2-9"/>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentatorem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-3">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/James"/>
+      <sctap:elementText>apostolus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-9">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-10">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-11">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-12">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>boetius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-13">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-14">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-15">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lot"/>
+      <sctap:elementText>loth</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-16">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>anselmum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-17">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Saul"/>
+      <sctap:elementText>saulis regis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-19">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-23">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:elementText>augustinus sanctus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-25">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Saul"/>
+      <sctap:elementText>saule rege</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-27">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-28">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Jonah"/>
+      <sctap:elementText>Ionas</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/name/rfr-quaestio2-29">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-4">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-6">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/rom"/>
+      <sctap:elementText>Romanos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-7">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/rom"/>
+      <sctap:elementText>Romanos</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-8">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/iac"/>
+      <sctap:elementText>Iacobi</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-9">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-10">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-11">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-12">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-13">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicarum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-14">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>de anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-15">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysica</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-16">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-17">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitateBoethius"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-18">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-19">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>de trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-20">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/gen"/>
+      <sctap:elementText>genesis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-21">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Monologion"/>
+      <sctap:elementText>monologion</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-22">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ireg"/>
+      <sctap:elementText>primo regis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-24">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ireg"/>
+      <sctap:elementText>primo Regis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-25">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/iudic"/>
+      <sctap:elementText>Iudicum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-26">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/ion"/>
+      <sctap:elementText>Ionem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/title/rfr-quaestio2-27">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
+      <sctap:elementText>super genesem ad litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/mt22_40"/>
+      <sctap:elementText>in hiishis duobus mandatis pendet tota 
+          lex et prophetae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/quote/rfr-quaestio2-9">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/iudic9_8"/>
+      <sctap:elementText>Ierunt ligna ut unguerent 
+          super se regem  dixeruntque olivae impera nobis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/fitzralphcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio3">
       <dc:title>Quaestio 3, [Librum I, Quaestio 1]</dc:title>
@@ -190,7 +1848,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio4">
       <dc:title>Questio 4, [Librum I, Quaestio 2]</dc:title>
@@ -204,7 +1864,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio5">
       <dc:title>Quaestio 5 [Librum I, Quaestio 3]</dc:title>
@@ -218,7 +1880,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio6">
       <dc:title>Quaestio 6 [Librum I, Quaestio 4]</dc:title>
@@ -232,7 +1896,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio6</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio7">
       <dc:title>Quaestio 7 [Librum I, Quaestio 5]</dc:title>
@@ -246,7 +1912,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio7</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio8">
       <dc:title>Quaestio 8 [Librum I, Quaestio 6]</dc:title>
@@ -260,7 +1928,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio8</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio9">
       <dc:title>Quaestio 9 [Librum I, Quaestio 7]</dc:title>
@@ -274,7 +1944,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio9</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio9"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio10">
       <dc:title>Quaestio 10 [Librum I, Questio 8]</dc:title>
@@ -288,7 +1960,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio10</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio10"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio11">
       <dc:title>Quaestio 11 [Librum I, Questio 9]</dc:title>
@@ -302,7 +1976,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio11</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio11"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio12">
       <dc:title>Quaestio 12 [Librum I, Quaestio 10]</dc:title>
@@ -316,7 +1992,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio12</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio13">
       <dc:title>Quaestio 13 [Librum I, Quaestio 11]</dc:title>
@@ -330,7 +2008,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio13</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio13"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio14">
       <dc:title>Quaestio 14 [Librum I, Quaestio 12]</dc:title>
@@ -344,7 +2024,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio14</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio14"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio15">
       <dc:title>Quaestio 15 [Librum I, Quaestio 13]</dc:title>
@@ -358,7 +2040,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio15</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio15"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio16">
       <dc:title>Quaestio 16 [Librum I, Quaestio 14]</dc:title>
@@ -372,7 +2056,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio16</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio17">
       <dc:title>Quaestio 17 [Librum I, Quaestio 15]</dc:title>
@@ -386,7 +2072,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio17</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio17"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio18">
       <dc:title>Quaestio 18 [Librum I, Quaestio 16]</dc:title>
@@ -400,7 +2088,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio18</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio18"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio19">
       <dc:title>Quaestio 19 [Librum I, Quaestio 17]</dc:title>
@@ -414,7 +2104,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio19</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio19"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio20">
       <dc:title>Quaestio 20 [Librum I, Quaestio 18]</dc:title>
@@ -428,7 +2120,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio20</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio20"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio21">
       <dc:title>Quaestio 21 [Librum II, Quaestio 1]</dc:title>
@@ -442,7 +2136,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio21</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio21"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio22">
       <dc:title>Quaestio 22 [Librum II, Quaestio 2[</dc:title>
@@ -456,7 +2152,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio22</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio22"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio23">
       <dc:title>Quaestio 23 [Librum II, Quaestio 3]</dc:title>
@@ -470,7 +2168,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio23</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio23"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio24">
       <dc:title>Quaestio 24 [Librum II, Quaestio 4]</dc:title>
@@ -484,7 +2184,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio24</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio24"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio25">
       <dc:title>Quaestio 25 [Librum II, Quaestio 5]</dc:title>
@@ -498,7 +2200,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio25</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio25"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio26">
       <dc:title>Quaestio 26 [Librum II, Quaestio 6]</dc:title>
@@ -512,7 +2216,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio26</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio26"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio27">
       <dc:title>Quaestio 27 [Librum II, Quaestio 7]</dc:title>
@@ -526,7 +2232,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio27</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio27"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio28">
       <dc:title>Quaestio 28 [Librum III, Quaestio 1]</dc:title>
@@ -540,7 +2248,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio28</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio28"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio29">
       <dc:title>Quaestio 29 [Librum IV, Quaestio 1]</dc:title>
@@ -554,7 +2264,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio29</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio29"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio30">
       <dc:title>Quaestio 30 [Librum IV, Quaestio 2]</dc:title>
@@ -567,7 +2279,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/fitzralphcommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rfr-quaestio30</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/rfr-quaestio30"/>
    </rdf:Description>
 </rdf:RDF>
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/ioel2_28">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et erit post haec effundam spiritum meum super omnem carnem et prophetabunt filii vestri et filiae vestrae senes vestri somnia somniabunt et iuvenes vestri visiones videbunt</dc:title>
+      <sctap:quotation>et erit post haec effundam spiritum meum super omnem carnem et prophetabunt filii vestri et filiae vestrae senes vestri somnia somniabunt et iuvenes vestri visiones videbunt</sctap:quotation>
+      <sctap:citation>Prophetia Ioel 2:28</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/ioel"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d34c1"/>
+   </rdf:Description>
+</rdf:RDF>

@@ -9,6 +9,17 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mc6_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et daemonia multa eiciebant et unguebant oleo multos aegrotos et sanabant</dc:title>
+      <sctap:quotation>et daemonia multa eiciebant et unguebant oleo multos aegrotos et sanabant</sctap:quotation>
+      <sctap:citation>Evangelium secundum Marcum 6:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mc"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p1q1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mc14_21">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et Filius quidem hominis vadit sicut scriptum est de eo vae autem homini illi per quem Filius hominis traditur bonum ei si non esset natus homo ille</dc:title>

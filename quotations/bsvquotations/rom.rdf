@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom1_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>de Filio suo qui factus est ex semine David secundum carnem</dc:title>
+      <sctap:quotation>de Filio suo qui factus est ex semine David secundum carnem</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 1:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom1_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Graecis ac barbaris sapientibus et insipientibus debitor sum</dc:title>
+      <sctap:quotation>Graecis ac barbaris sapientibus et insipientibus debitor sum</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 1:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom1_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia quod notum est Dei manifestum est in illis Deus enim illis manifestavit</dc:title>
+      <sctap:quotation>quia quod notum est Dei manifestum est in illis Deus enim illis manifestavit</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 1:19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d3c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom1_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>invisibilia enim ipsius a creatura mundi per ea quae facta sunt intellecta conspiciuntur sempiterna quoque eius virtus et divinitas ut sint inexcusabiles</dc:title>
+      <sctap:quotation>invisibilia enim ipsius a creatura mundi per ea quae facta sunt intellecta conspiciuntur sempiterna quoque eius virtus et divinitas ut sint inexcusabiles</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 1:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d2-qun"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d3c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio25"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom1_21">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia cum cognovissent Deum non sicut Deum glorificaverunt aut gratias egerunt sed evanuerunt in cogitationibus suis et obscuratum est insipiens cor eorum</dc:title>
+      <sctap:quotation>quia cum cognovissent Deum non sicut Deum glorificaverunt aut gratias egerunt sed evanuerunt in cogitationibus suis et obscuratum est insipiens cor eorum</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 1:21</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom1_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et mutaverunt gloriam incorruptibilis Dei in similitudinem imaginis corruptibilis hominis et volucrum et quadrupedum et serpentium</dc:title>
+      <sctap:quotation>et mutaverunt gloriam incorruptibilis Dei in similitudinem imaginis corruptibilis hominis et volucrum et quadrupedum et serpentium</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 1:23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio96"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom2_29">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed qui in abscondito Iudaeus et circumcisio cordis in spiritu non littera cuius laus non ex hominibus sed ex Deo est</dc:title>
+      <sctap:quotation>sed qui in abscondito Iudaeus et circumcisio cordis in spiritu non littera cuius laus non ex hominibus sed ex Deo est</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 2:29</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>29</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom3_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>est autem Deus verax omnis autem homo mendax sicut scriptum est ut iustificeris in sermonibus tuis et vincas cum iudicaris</dc:title>
+      <sctap:quotation>est autem Deus verax omnis autem homo mendax sicut scriptum est ut iustificeris in sermonibus tuis et vincas cum iudicaris</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 3:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom3_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia ex operibus legis non iustificabitur omnis caro coram illo per legem enim cognitio peccati</dc:title>
+      <sctap:quotation>quia ex operibus legis non iustificabitur omnis caro coram illo per legem enim cognitio peccati</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 3:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom3_27">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ubi est ergo gloriatio exclusa est per quam legem factorum non sed per legem fidei</dc:title>
+      <sctap:quotation>ubi est ergo gloriatio exclusa est per quam legem factorum non sed per legem fidei</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 3:27</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>27</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom4_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quid enim scriptura dicit credidit Abraham Deo et reputatum est illi ad iustitiam</dc:title>
+      <sctap:quotation>quid enim scriptura dicit credidit Abraham Deo et reputatum est illi ad iustitiam</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 4:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom4_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sicut scriptum est quia patrem multarum gentium posui te ante Deum cui credidit qui vivificat mortuos et vocat quae non sunt tamquam ea quae sunt</dc:title>
+      <sctap:quotation>sicut scriptum est quia patrem multarum gentium posui te ante Deum cui credidit qui vivificat mortuos et vocat quae non sunt tamquam ea quae sunt</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 4:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c9"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d9c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio112"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>iustificati igitur ex fide pacem habeamus ad Deum per Dominum nostrum Iesum Christum</dc:title>
+      <sctap:quotation>iustificati igitur ex fide pacem habeamus ad Deum per Dominum nostrum Iesum Christum</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 5:1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>spes autem non confundit quia caritas Dei diffusa est in cordibus nostris per Spiritum Sanctum qui datus est nobis</dc:title>
+      <sctap:quotation>spes autem non confundit quia caritas Dei diffusa est in cordibus nostris per Spiritum Sanctum qui datus est nobis</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 5:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>propterea sicut per unum hominem in hunc mundum peccatum intravit et per peccatum mors et ita in omnes homines mors pertransiit in quo omnes peccaverunt</dc:title>
+      <sctap:quotation>propterea sicut per unum hominem in hunc mundum peccatum intravit et per peccatum mors et ita in omnes homines mors pertransiit in quo omnes peccaverunt</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 5:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d22c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed regnavit mors ab Adam usque ad Mosen etiam in eos qui non peccaverunt in similitudinem praevaricationis Adae qui est forma futuri</dc:title>
+      <sctap:quotation>sed regnavit mors ab Adam usque ad Mosen etiam in eos qui non peccaverunt in similitudinem praevaricationis Adae qui est forma futuri</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 5:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d22c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom5_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>lex autem subintravit ut abundaret delictum ubi autem abundavit delictum superabundavit gratia</dc:title>
+      <sctap:quotation>lex autem subintravit ut abundaret delictum ubi autem abundavit delictum superabundavit gratia</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 5:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom6_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed neque exhibeatis membra vestra arma iniquitatis peccato sed exhibete vos Deo tamquam ex mortuis viventes et membra vestra arma iustitiae Deo</dc:title>
+      <sctap:quotation>sed neque exhibeatis membra vestra arma iniquitatis peccato sed exhibete vos Deo tamquam ex mortuis viventes et membra vestra arma iustitiae Deo</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 6:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d24c12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom6_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>liberati autem a peccato servi facti estis iustitiae</dc:title>
+      <sctap:quotation>liberati autem a peccato servi facti estis iustitiae</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 6:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom6_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cum enim servi essetis peccati liberi fuistis iustitiae</dc:title>
+      <sctap:quotation>cum enim servi essetis peccati liberi fuistis iustitiae</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 6:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom7_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nunc autem iam non ego operor illud sed quod habitat in me peccatum</dc:title>
+      <sctap:quotation>nunc autem iam non ego operor illud sed quod habitat in me peccatum</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 7:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom7_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scio enim quia non habitat in me hoc est in carne mea bonum nam velle adiacet mihi perficere autem bonum non invenio</dc:title>
+      <sctap:quotation>scio enim quia non habitat in me hoc est in carne mea bonum nam velle adiacet mihi perficere autem bonum non invenio</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 7:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_9">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>vos autem in carne non estis sed in Spiritu si tamen Spiritus Dei habitat in vobis si quis autem Spiritum Christi non habet hic non est eius</dc:title>
+      <sctap:quotation>vos autem in carne non estis sed in Spiritu si tamen Spiritus Dei habitat in vobis si quis autem Spiritum Christi non habet hic non est eius</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:9</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>si autem Christus in vobis est corpus quidem mortuum est propter peccatum spiritus vero vita propter iustificationem</dc:title>
+      <sctap:quotation>si autem Christus in vobis est corpus quidem mortuum est propter peccatum spiritus vero vita propter iustificationem</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d29c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quod si Spiritus eius qui suscitavit Iesum a mortuis habitat in vobis qui suscitavit Iesum Christum a mortuis vivificabit et mortalia corpora vestra propter inhabitantem Spiritum eius in vobis</dc:title>
+      <sctap:quotation>quod si Spiritus eius qui suscitavit Iesum a mortuis habitat in vobis qui suscitavit Iesum Christum a mortuis vivificabit et mortalia corpora vestra propter inhabitantem Spiritum eius in vobis</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quicumque enim Spiritu Dei aguntur hii filii sunt Dei</dc:title>
+      <sctap:quotation>quicumque enim Spiritu Dei aguntur hii filii sunt Dei</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ipse Spiritus testimonium reddit spiritui nostro quod sumus filii Dei</dc:title>
+      <sctap:quotation>ipse Spiritus testimonium reddit spiritui nostro quod sumus filii Dei</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>existimo enim quod non sunt condignae passiones huius temporis ad futuram gloriam quae revelabitur in nobis</dc:title>
+      <sctap:quotation>existimo enim quod non sunt condignae passiones huius temporis ad futuram gloriam quae revelabitur in nobis</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio83"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_21">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia et ipsa creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum Dei</dc:title>
+      <sctap:quotation>quia et ipsa creatura liberabitur a servitute corruptionis in libertatem gloriae filiorum Dei</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:21</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_26">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>similiter autem et Spiritus adiuvat infirmitatem nostram nam quid oremus sicut oportet nescimus sed ipse Spiritus postulat pro nobis gemitibus inenarrabilibus</dc:title>
+      <sctap:quotation>similiter autem et Spiritus adiuvat infirmitatem nostram nam quid oremus sicut oportet nescimus sed ipse Spiritus postulat pro nobis gemitibus inenarrabilibus</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:26</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_28">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scimus autem quoniam diligentibus Deum omnia cooperantur in bonum his qui secundum propositum vocati sunt sancti</dc:title>
+      <sctap:quotation>scimus autem quoniam diligentibus Deum omnia cooperantur in bonum his qui secundum propositum vocati sunt sancti</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:28</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio98"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_29">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nam quos praescivit et praedestinavit conformes fieri imaginis Filii eius ut sit ipse primogenitus in multis fratribus</dc:title>
+      <sctap:quotation>nam quos praescivit et praedestinavit conformes fieri imaginis Filii eius ut sit ipse primogenitus in multis fratribus</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:29</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>29</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_32">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui etiam Filio suo non pepercit sed pro nobis omnibus tradidit illum quomodo non etiam cum illo omnia nobis donabit</dc:title>
+      <sctap:quotation>qui etiam Filio suo non pepercit sed pro nobis omnibus tradidit illum quomodo non etiam cum illo omnia nobis donabit</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:32</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>32</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cum enim nondum nati fuissent aut aliquid egissent bonum aut malum ut secundum electionem propositum Dei maneret</dc:title>
+      <sctap:quotation>cum enim nondum nati fuissent aut aliquid egissent bonum aut malum ut secundum electionem propositum Dei maneret</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>non ex operibus sed ex vocante dictum est ei quia maior serviet minori</dc:title>
+      <sctap:quotation>non ex operibus sed ex vocante dictum est ei quia maior serviet minori</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sicut scriptum est Iacob dilexi Esau autem odio habui</dc:title>
+      <sctap:quotation>sicut scriptum est Iacob dilexi Esau autem odio habui</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>igitur non volentis neque currentis sed miserentis Dei</dc:title>
+      <sctap:quotation>igitur non volentis neque currentis sed miserentis Dei</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q40"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c9"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ergo cuius vult miseretur et quem vult indurat</dc:title>
+      <sctap:quotation>ergo cuius vult miseretur et quem vult indurat</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d40c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_19">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dicis itaque mihi quid adhuc queritur voluntati enim eius quis resistit</dc:title>
+      <sctap:quotation>dicis itaque mihi quid adhuc queritur voluntati enim eius quis resistit</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:19</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d42c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d45c5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_21">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>an non habet potestatem figulus luti ex eadem massa facere aliud quidem vas in honorem aliud vero in contumeliam</dc:title>
+      <sctap:quotation>an non habet potestatem figulus luti ex eadem massa facere aliud quidem vas in honorem aliud vero in contumeliam</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 9:21</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio38"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio120"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom10_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>testimonium enim perhibeo illis quod aemulationem Dei habent sed non secundum scientiam</dc:title>
+      <sctap:quotation>testimonium enim perhibeo illis quod aemulationem Dei habent sed non secundum scientiam</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 10:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio43"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom10_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>corde enim creditur ad iustitiam ore autem confessio fit in salutem</dc:title>
+      <sctap:quotation>corde enim creditur ad iustitiam ore autem confessio fit in salutem</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 10:10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom10_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed non omnes oboedierunt evangelio Esaias enim dicit Domine quis credidit auditui nostro</dc:title>
+      <sctap:quotation>sed non omnes oboedierunt evangelio Esaias enim dicit Domine quis credidit auditui nostro</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 10:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d23c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom11_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sic ergo et in hoc tempore reliquiae secundum electionem gratiae factae sunt</dc:title>
+      <sctap:quotation>sic ergo et in hoc tempore reliquiae secundum electionem gratiae factae sunt</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 11:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom11_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>bene propter incredulitatem fracti sunt tu autem fide stas noli altum sapere sed time</dc:title>
+      <sctap:quotation>bene propter incredulitatem fracti sunt tu autem fide stas noli altum sapere sed time</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 11:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio115"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom11_33">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>o altitudo divitiarum sapientiae et scientiae Dei quam inconprehensibilia sunt iudicia eius et investigabiles viae eius</dc:title>
+      <sctap:quotation>o altitudo divitiarum sapientiae et scientiae Dei quam inconprehensibilia sunt iudicia eius et investigabiles viae eius</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 11:33</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>33</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d40c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio16"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio18"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio115"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom11_34">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quis enim cognovit sensum Domini aut quis consiliarius eius fuit</dc:title>
+      <sctap:quotation>quis enim cognovit sensum Domini aut quis consiliarius eius fuit</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 11:34</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>34</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom11_36">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quoniam ex ipso et per ipsum et in ipso omnia ipsi gloria in saecula amen</dc:title>
+      <sctap:quotation>quoniam ex ipso et per ipsum et in ipso omnia ipsi gloria in saecula amen</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 11:36</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>36</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d29c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio37"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio68"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom12_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et nolite conformari huic saeculo sed reformamini in novitate sensus vestri ut probetis quae sit voluntas Dei bona et placens et perfecta</dc:title>
+      <sctap:quotation>et nolite conformari huic saeculo sed reformamini in novitate sensus vestri ut probetis quae sit voluntas Dei bona et placens et perfecta</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 12:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d45c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom12_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dico enim per gratiam quae data est mihi omnibus qui sunt inter vos non plus sapere quam oportet sapere sed sapere ad sobrietatem unicuique sicut Deus divisit mensuram fidei</dc:title>
+      <sctap:quotation>dico enim per gratiam quae data est mihi omnibus qui sunt inter vos non plus sapere quam oportet sapere sed sapere ad sobrietatem unicuique sicut Deus divisit mensuram fidei</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 12:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d23c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom13_10">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dilectio proximo malum non operatur plenitudo ergo legis est dilectio</dc:title>
+      <sctap:quotation>dilectio proximo malum non operatur plenitudo ergo legis est dilectio</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 13:10</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d29c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom14_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui autem discernit si manducaverit damnatus est quia non ex fide omne autem quod non ex fide peccatum est</dc:title>
+      <sctap:quotation>qui autem discernit si manducaverit damnatus est quia non ex fide omne autem quod non ex fide peccatum est</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 14:23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>14</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom15_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quaecumque enim scripta sunt ad nostram doctrinam scripta sunt ut per patientiam et consolationem scripturarum spem habeamus</dc:title>
+      <sctap:quotation>quaecumque enim scripta sunt ad nostram doctrinam scripta sunt ut per patientiam et consolationem scripturarum spem habeamus</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 15:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom16_27">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>solo sapienti Deo per Iesum Christum cui honor in saecula saeculorum amen</dc:title>
+      <sctap:quotation>solo sapienti Deo per Iesum Christum cui honor in saecula saeculorum amen</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 16:27</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>16</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>27</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d21c2"/>
+   </rdf:Description>
+</rdf:RDF>

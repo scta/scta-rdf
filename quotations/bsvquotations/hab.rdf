@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hab1_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et facies homines quasi pisces maris et quasi reptile non habens principem</dc:title>
+      <sctap:quotation>et facies homines quasi pisces maris et quasi reptile non habens principem</sctap:quotation>
+      <sctap:citation>Prophetia Habacuc 1:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hab"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hab2_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ecce qui incredulus est non erit recta anima eius in semet ipso iustus autem in fide sua vivet</dc:title>
+      <sctap:quotation>ecce qui incredulus est non erit recta anima eius in semet ipso iustus autem in fide sua vivet</sctap:quotation>
+      <sctap:citation>Prophetia Habacuc 2:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hab"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hab2_11">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia lapis de pariete clamabit et lignum quod inter iuncturas aedificiorum est respondebit</dc:title>
+      <sctap:quotation>quia lapis de pariete clamabit et lignum quod inter iuncturas aedificiorum est respondebit</sctap:quotation>
+      <sctap:citation>Prophetia Habacuc 2:11</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hab"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/hab3_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>Domine audivi auditionem tuam et timui Domine opus tuum in medio annorum vivifica illud in medio annorum notum facies cum iratus fueris misericordiae recordaberis</dc:title>
+      <sctap:quotation>Domine audivi auditionem tuam et timui Domine opus tuum in medio annorum vivifica illud in medio annorum notum facies cum iratus fueris misericordiae recordaberis</sctap:quotation>
+      <sctap:citation>Prophetia Habacuc 3:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/hab"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d2c5"/>
+   </rdf:Description>
+</rdf:RDF>

@@ -11,12 +11,12 @@
         <webbase>null</webbase>
     </header>
     <div id="body">
-    <div id="am-librum1" type="librum">
+    <div id="am-librum1" type="librum" subtype="librum1">
         <head>Librum I</head>
-        <div id="am-l1d1">
+        <div id="am-l1d1" type="distinctio" subtype="librum1-distinctio1">
             <head>Librum I, Distinctio I</head>
-            <div>
-                <head id="am-l1d1pA">Librum I, Distinctio I, pars A</head>
+          <div id="am-l1d1pA" type="pars">
+                <head>Librum I, Distinctio I, pars A</head>
                     <item id="am-l1d1pAa1" type="articulus">
                         <fileName filestem="am-l1d1pAa1">am-l1d1pAa1.xml</fileName>
                         <title>Librum I, Distinctio I, pars A, Articulus 1</title>
@@ -57,8 +57,8 @@
                     <questionTitle>An Sacramenta veteris legis conferebant gratiam?</questionTitle>
                 </item>
             </div>
-            <div>
-                <head id="am-l1d1pB">Librum I, Distinctio I, pars B</head>
+            <div id="am-l1d1pB" type="pars">
+                <head>Librum I, Distinctio I, pars B</head>
                 <item id="am-l1d1pBa8" type="articulus">
                     <fileName filestem="am-l1d1pBa8">am-l1d1pBa8.xml</fileName>
                     <title>Librum I, Distinctio I, pars B, Articulus 8</title>
@@ -111,8 +111,8 @@
                     <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
                 </item>
             </div>
-            <div>
-                <head id="am-l1d1pC">Librum I, Distinctio I, pars C</head>
+            <div id="am-l1d1pC" type="pars">
+                <head>Librum I, Distinctio I, pars C</head>
                 <item id="am-l1d1pCa16" type="articulus">
                     <fileName filestem="am-l1d1pCa16">am-l1d1pCa16.xml</fileName>
                     <title>Librum I, Distinctio I, pars C, Articulus 16</title>
@@ -124,25 +124,25 @@
                     <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
                 </item>
             </div>
-            <div>
-                <head id="am-l1d1pD">Librum I, Distinctio I, pars D</head>
+            <div id="am-l1d1pD" type="pars">
+                <head>Librum I, Distinctio I, pars D</head>
             </div>
-            <div>
-                <head id="am-l1d1pD">Librum I, Distinctio I, pars D</head>
+            <div id="am-l1d1pD" type="pars">
+                <head>Librum I, Distinctio I, pars D</head>
             </div>
-            <div>
-                <head id="am-l1d1pE">Librum I, Distinctio I, pars E</head>
+            <div id="am-l1d1pE" type="pars">
+                <head>Librum I, Distinctio I, pars E</head>
             </div>
-            <div>
-                <head id="am-l1d1pF">Librum I, Distinctio I, pars F</head>
+            <div id="am-l1d1pF" type="pars">
+                <head>Librum I, Distinctio I, pars F</head>
                 <item id="am-l1d1pFa18" type="articulus">
                     <fileName filestem="am-l1d1pFa18">am-l1d1pFa18.xml</fileName>
                     <title>Librum I, Distinctio I, pars F, Articulus 18</title>
                     <questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</questionTitle>
                 </item>
             </div>
-            <div>
-                <head id="am-l1d1pG">Librum I, Distinctio I, pars G</head>
+            <div id="am-l1d1pG" type="pars">
+                <head>Librum I, Distinctio I, pars G</head>
                 <item id="am-l1d1pGa18" type="articulus">
                     <fileName filestem="am-l1d1pGa19">am-l1d1pGa19.xml</fileName>
                     <title>Librum I, Distinctio I, pars G, Articulus 19</title>
@@ -154,8 +154,8 @@
                     <questionTitle>In omne quod est in quantum est, est bonum?</questionTitle>
                 </item>
             </div>
-            <div>
-                <head id="am-l1d1pH">Librum I, Distinctio I, pars H</head>
+            <div id="am-l1d1pH">
+                <head>Librum I, Distinctio I, pars H</head>
                 <item id="am-l1d1pHa21" type="articulus">
                     <fileName filestem="am-l1d1pHa21">am-l1d1pHa21.xml</fileName>
                     <title>Librum I, Distinctio I, pars H, Articulus 21</title>
@@ -167,8 +167,8 @@
                     <questionTitle>An bona voluntate sine virtutibus sit fruendum?</questionTitle>
                 </item>
             </div>
-            <div>
-                <head id="am-l1d1pI">Librum I, Distinctio I, pars I</head>
+          <div id="am-l1d1pI" type="pars">
+                <head>Librum I, Distinctio I, pars I</head>
                 <item id="am-l1d1pIa23" type="articulus">
                     <fileName filestem="am-l1d1pIa23">am-l1d1pIa23.xml</fileName>
                     <title>Librum I, Distinctio I, pars I, Articulus 23</title>
@@ -179,17 +179,16 @@
         
         <!-- dist 2 starts on PDF 54 -->
         <!-- gap -->
-        <div id="am-l1d26">
+        <div id="am-l1d26" type="distinctio" subtype="librum1-distinctio26">
             <head>Librum I, Distinctio XXVI</head>
-            <div>
-                <head id="am-l1d26pA">Librum I, Distinctio XXVI, pars A</head>
-                <div>
+            <div id="am-l1d26pA" type="pars">
+                <head>Librum I, Distinctio XXVI, pars A</head>
                     <item id="am-l1d26pAa1" type="articulus">
                         <fileName filestem="am-l1d26pAa1">am-l1d26pAa1.xml</fileName>
                         <title>Librum I, Distinctio XXVI, pars A, Articulus 1</title>
                         <questionTitle>Quid sit hypostasis?</questionTitle>
                     </item>
-                </div>
+                
             </div>
         </div>
         

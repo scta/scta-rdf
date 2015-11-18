@@ -33,6 +33,8 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/hw-b1prolq1</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Avicenna"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -45,8 +47,6 @@
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-5"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-6"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-7"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-8"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
@@ -59,8 +59,6 @@
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-12"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/GilesOfRome"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-13"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-14"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-15"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -75,28 +73,18 @@
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-20"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-21"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq1-22"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-2"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-3"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysicae"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-4"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-5"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-6"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-7"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-8"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-9"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-10"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-11"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
@@ -105,10 +93,6 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-13"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-14"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-15"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-16"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-17"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
@@ -117,11 +101,8 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-19"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq1-20"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq1-1"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq1-2"/>
       <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq1"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq1"/>
    </rdf:Description>
@@ -130,102 +111,105 @@
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Avicenna"/>
       <sctap:elementText>Avicenna</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-2">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-3">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-4">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>Augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-5">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristoteles"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-6">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-7">
-      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:elementText>sorte</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-8">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:elementText>sortes</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-9">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:elementText>sortes</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-10">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:elementText>sortes</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-11">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:elementText>sortes</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-12">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Scotus"/>
       <sctap:elementText>scotum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-13">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GilesOfRome"/>
       <sctap:elementText>aegidius romanus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-14">
-      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:elementText>varro</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-15">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HenryOfGhent"/>
       <sctap:elementText>henricus de gandavo</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-16">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-17">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Scotus"/>
       <sctap:elementText>scotus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-18">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -233,6 +217,7 @@
       <sctap:elementText>henricum de 
           gandavo</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-19">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -240,158 +225,119 @@
       <sctap:elementText>magister 
           Scotus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-20">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-21">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq1-22">
-      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:elementText>augustini</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-1">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posterior</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-2">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysciae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-3">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>metaphysicae</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-4">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysicae"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-5">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>de doctrina christiana</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-6">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>de civitate dei</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-7">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-8">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-9">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-10">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>metaphysicae</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-11">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-12">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
       <sctap:elementText>de anima</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-13">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-14">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-15">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>de anima</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-16">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>posteriorum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-17">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posterior</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-18">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-19">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq1-20">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq1--1">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>Omnis doctrina est de rebus 
-          vel de signis</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq1-0">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>ens infinitum sive deus  
-          sub ratione entis infiniti</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq1">
       <dc:title>hw-b1prolq1 [Vatican]</dc:title>
@@ -422,6 +368,8 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/hw-b1prolq2</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq2-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -448,18 +396,12 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-5"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-6"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-7"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-8"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-9"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-10"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-11"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-12"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
@@ -490,9 +432,8 @@
       <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-7"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_16_26_a"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-8"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-9"/>
       <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq2"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2"/>
    </rdf:Description>
@@ -501,172 +442,179 @@
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>arisitotle</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-2">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristotele</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-3">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-4">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>Augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-5">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-6">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-7">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Grosseteste"/>
       <sctap:elementText>lyncoln</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-8">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-1">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-2">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-3">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:elementText>ethicorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-4">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-5">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-6">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>ethicorum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-7">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>ethicorum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-8">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-9">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-10">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:elementText>ethicorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-11">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>de trinitate</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-12">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-13">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-14">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
       <sctap:elementText>de anima</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-15">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
       <sctap:elementText>de anima</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-16">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-17">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posterior</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-18">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:elementText>ethicorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--8">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-1">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
       <sctap:elementText>scire 
           est rem per causam cognoscere</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--7">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-2">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_Metaphysics_2_1_a"/>
       <sctap:elementText>sicut se habet res ad entitatem sic ad veritatem 
           et scientiam</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--6">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-3">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>Scire 
@@ -675,34 +623,39 @@
           cognoscere propter quam res est et quoniam illius causa 
           est et non est contingere aliter se habere</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--5">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-4">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>simpliciter et non sophistico modo 
           quod est secundum accidens</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--4">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-5">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>cum causam arbitramur 
           cognoscere propter quam res est</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--3">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-6">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>quoniam illius est causa</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--2">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-7">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>et non est contingere aliter se habere</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--1">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-8">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_16_26_a"/>
       <sctap:elementText>fortassis 
@@ -710,13 +663,7 @@
           nostrae volubiles sed scientiam nostram 
           unico actu et intuitu videbimus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-0">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>anima nostra 
-          est tamquam tabula rasa</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq2">
       <dc:title>hw-b1prolq2 [Vatican]</dc:title>
@@ -746,6 +693,8 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/hw-b1prolq2</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/werlcommentary/name/hw-b1prolq2-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -772,18 +721,12 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-5"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-6"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-7"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-8"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-9"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-10"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-11"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/werlcommentary/title/hw-b1prolq2-12"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
@@ -814,9 +757,8 @@
       <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-7"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_16_26_a"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-8"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-9"/>
       <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq2"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/werlcommentary/transcription/vat_hw-b1prolq2"/>
    </rdf:Description>
@@ -825,172 +767,179 @@
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>arisitotle</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-2">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristotele</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-3">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-4">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>Augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-5">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-6">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-7">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Grosseteste"/>
       <sctap:elementText>lyncoln</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/name/hw-b1prolq2-8">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-1">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-2">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-3">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:elementText>ethicorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-4">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-5">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-6">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>ethicorum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-7">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>ethicorum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-8">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-9">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-10">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:elementText>ethicorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-11">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>de trinitate</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-12">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-13">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-14">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
       <sctap:elementText>de anima</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-15">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
       <sctap:elementText>de anima</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-16">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-17">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posterior</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/title/hw-b1prolq2-18">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
       <sctap:elementText>ethicorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--8">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-1">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
       <sctap:elementText>scire 
           est rem per causam cognoscere</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--7">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-2">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_Metaphysics_2_1_a"/>
       <sctap:elementText>sicut se habet res ad entitatem sic ad veritatem 
           et scientiam</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--6">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-3">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>Scire 
@@ -999,34 +948,39 @@
           cognoscere propter quam res est et quoniam illius causa 
           est et non est contingere aliter se habere</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--5">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-4">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>simpliciter et non sophistico modo 
           quod est secundum accidens</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--4">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-5">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>cum causam arbitramur 
           cognoscere propter quam res est</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--3">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-6">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>quoniam illius est causa</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--2">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-7">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b"/>
       <sctap:elementText>et non est contingere aliter se habere</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2--1">
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-8">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_16_26_a"/>
       <sctap:elementText>fortassis 
@@ -1034,13 +988,7 @@
           nostrae volubiles sed scientiam nostram 
           unico actu et intuitu videbimus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/quote/hw-b1prolq2-0">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>anima nostra 
-          est tamquam tabula rasa</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/werlcommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/witness/vat_hw-b1prolq2">
       <dc:title>hw-b1prolq2 [Vatican]</dc:title>

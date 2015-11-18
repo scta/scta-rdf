@@ -494,6 +494,8 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1prolq1</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-1"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -538,8 +540,6 @@
       <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-21"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-22"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-23"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
       <sctap:hasName rdf:resource="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-24"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
@@ -592,16 +592,10 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-5"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deCaelo"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-6"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-7"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-8"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-9"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Almagest"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-10"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-11"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deCausis"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-12"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Itim"/>
@@ -642,8 +636,6 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-30"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/tit"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-31"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-32"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/rom"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-33"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Icor"/>
@@ -658,8 +650,6 @@
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-38"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Sentences"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-39"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-1"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-2"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Itim6_16"/>
@@ -692,31 +682,22 @@
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-16"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/io1_5"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-17"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-18"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom4_3"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-19"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-20"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/rom1_14"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-21"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/GregoryGreat_Moralium_epistola_4_a"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-22"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-23"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/is7_9"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-24"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Dionysius_deDivinisNominibus_7_a"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-25"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-26"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/iob36_25"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-27"/>
       <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
       <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-28"/>
-      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:hasQuote rdf:resource="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-29"/>
       <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1prolq1"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/bruss_lm-b1prolq1"/>
                     <sctap:mentions xmlns:sctap="http://scta.info/properties/"
@@ -727,282 +708,322 @@
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>beatus augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-2">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-3">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-4">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-5">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-6">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-7">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>beatus augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-8">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
       <sctap:elementText>beatus gregorius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-9">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:elementText>boethius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-10">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Ptolemy"/>
       <sctap:elementText>ptholomeus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-11">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
       <sctap:elementText>dionysius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-12">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-13">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-14">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
       <sctap:elementText>averrois</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-15">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
       <sctap:elementText>dionysius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-16">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>aristoteles</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-17">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-18">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>beatus augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-19">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>beatus augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-20">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
       <sctap:elementText>anselmus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-21">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-22">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-23">
-      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
-      <sctap:elementText>gregorius</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-24">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
       <sctap:elementText>chrisostus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-25">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Peter"/>
       <sctap:elementText>petri</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-26">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
       <sctap:elementText>apostolus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-27">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Abraham"/>
       <sctap:elementText>abraham</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-28">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
       <sctap:elementText>apostolum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-29">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-30">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
       <sctap:elementText>dyonisii</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-31">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustini</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-32">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
       <sctap:elementText>gregorii</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-33">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Jerome"/>
       <sctap:elementText>iheromus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-34">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
       <sctap:elementText>gregorius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-35">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-36">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohnChrysostom"/>
       <sctap:elementText>chrisostus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-37">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:elementText>philosophus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-38">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
       <sctap:elementText>dyonisius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-39">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:elementText>boetius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-40">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:elementText>boetius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-41">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
       <sctap:elementText>paulo</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-42">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:elementText>augustinus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/name/lm-b1prolq1-43">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
       <sctap:elementText>magistri petri lombardi</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-1">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDiversisQuaestionibus"/>
       <sctap:elementText>83 quaestionibus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-2">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posterioris</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-3">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posterioris</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-4">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>metaphysicae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-5">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
@@ -1010,404 +1031,391 @@
       <sctap:elementText>primae 
           philosophiae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-6">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCaelo"/>
       <sctap:elementText>de caelo</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-7">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>m</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-8">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:elementText>de trinitate</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-9">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>omelia paschali</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-10">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Almagest"/>
       <sctap:elementText>almagesti</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-11">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>de divinis nominibus</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-12">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCausis"/>
       <sctap:elementText>de causis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-13">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Itim"/>
       <sctap:elementText>prima ad thimo</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-14">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-15">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:elementText>physicis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-16">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/io"/>
       <sctap:elementText>iohanni</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-17">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/IIcor"/>
       <sctap:elementText>ad chororum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-18">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
       <sctap:elementText>posteriorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-19">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:elementText>primae philosophiae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-20">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/io"/>
       <sctap:elementText>iohanni</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-21">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/ps"/>
       <sctap:elementText>psalmo</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-22">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/hebr"/>
       <sctap:elementText>hebraeos</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-23">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/onGenesis"/>
       <sctap:elementText>super genesum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-24">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
       <sctap:elementText>canticum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-25">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/ez"/>
       <sctap:elementText>ezechiel</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-26">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/sap"/>
       <sctap:elementText>sapientiae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-27">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/sap"/>
       <sctap:elementText>Sapientiam</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-28">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/io"/>
       <sctap:elementText>ioannes</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-29">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/rom"/>
       <sctap:elementText>ad romanos</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-30">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Abraham"/>
       <sctap:elementText>abraham</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-31">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/tit"/>
       <sctap:elementText>ad titum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-32">
-      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>ethicorum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-33">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/rom"/>
       <sctap:elementText>ad romanos</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-34">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Icor"/>
       <sctap:elementText>prima ad corinthios</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-35">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/is"/>
       <sctap:elementText>Isaiae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-36">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDivinisNominibus"/>
       <sctap:elementText>divinis nominibus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-37">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/iob"/>
       <sctap:elementText>Iob</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-38">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDiversisQuaestionibus"/>
       <sctap:elementText>83 quaestionum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/title/lm-b1prolq1-39">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Sentences"/>
       <sctap:elementText>sententiarum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--28">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>ple[?] est principium artis et scientiae</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--27">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-2">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b"/>
       <sctap:elementText>non quicquid scire potest ab hominibus 
           huic scientia tribuo ubi plurimum supervacaneae vanitatis et noxiae curiositatis est sed tantum 
             illud quo fides saluberrima quae ad veram beatitudinem ducit gignitur nutritur et roboratur</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--26">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-3">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Itim6_16"/>
       <sctap:elementText>habitat lucem inaccessibilem</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--25">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-4">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/io16_13"/>
       <sctap:elementText>cum venerit ille spiritus veritatis docebit vos omnem veritatem</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--24">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-5">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/IIcor4_6"/>
       <sctap:elementText>deus qui dixit de tenebris lumen splendescere illuxit in 
           cordibus vestris ad illuminationem scientiae evan?ii claritatis christi</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--23">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-6">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/aa-meta-1"/>
       <sctap:elementText>ab omni hominehomine scire desideratur </sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--22">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-7">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_6_10_11_a"/>
       <sctap:elementText>plena 
           rationum omnium viventium</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--21">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-8">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/io1_4"/>
       <sctap:elementText>quod factum est in ipso vita erat et vita erat lux hominum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--20">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-9">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/ps109_3"/>
       <sctap:elementText>ex utero ante luciferum genui te 
           in splendoribus sanctorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--19">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-10">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/hebr1_3"/>
       <sctap:elementText>portans omnia verbo virtutis suae</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--18">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-11">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/cant8_6"/>
       <sctap:elementText>pone me ut signaculum 
           super cor tuum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--17">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-12">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/ez"/>
       <sctap:elementText>tu 
           signaculum similitudinis plenus sapientia et perfectus decore</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--16">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-13">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/sap7_29"/>
       <sctap:elementText>luci conparata invenitur prior</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--15">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-14">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/sap7_30"/>
       <sctap:elementText>luci enim succedit nox</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--14">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-15">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/sap7_30"/>
       <sctap:elementText>autem non vincit malitia</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--13">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-16">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/io1_4"/>
       <sctap:elementText>vita erat lux hominum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--12">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-17">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/io1_5"/>
       <sctap:elementText>et lux in tenebris lucet et tenebrae eum non comprehenderunt</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--11">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>Quin potius lux comprehendit tenebras et sui claritate 
-            dissipavit</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--10">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-19">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/rom4_3"/>
       <sctap:elementText>abraham credidit 
           deo et reputatum est ei ad iustitiam</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--9">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>scientia 
-          est secundum pietatem informans ad fidem et meltum operum</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--8">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-21">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/rom1_14"/>
       <sctap:elementText>Sapientibus 
           et insipientibus debitor sum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--7">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-22">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/GregoryGreat_Moralium_epistola_4_a"/>
       <sctap:elementText>sacra scriptura fluvius est 
           in quo et agnus peditat et elephas natat</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--6">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>et his lumine desuper influente assentit 
-            et certius ea scit quam ea quae ex lumine sibi connaturali accipit</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--5">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-24">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/is7_9"/>
       <sctap:elementText>nisi credideritis non intelligetis</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--4">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-25">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Dionysius_deDivinisNominibus_7_a"/>
       <sctap:elementText>fides est lumen locans credentes in primam veritatem 
           et primam veritatem in ipsis immobilem</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--3">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>quidquid potest potentia inferior potest superior 
-          et amplius</sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--2">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-27">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/iob36_25"/>
       <sctap:elementText>omnes vident eum unusquisque 
           intuetur procul</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1--1">
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-28">
       <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Icor13_12"/>
       <sctap:elementText>Nunc cognosco ex parte Tunc autem cognoscam 
           sicut cognitus sum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/quote/lm-b1prolq1-0">
-      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/"/>
-      <sctap:elementText>Impossibiliter ut in gestis hominum 
-          quae semper creduntur et numquam intelliguntur Antecedenter ut in gestis divinis quae non 
-          intelliguntur nisi prius credantur Consequenter ut in disciplinabilibus quae mox ut intelliguntur 
-          statim creduntur </sctap:elementText>
-      <sctap:isPartOfItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/lambertuscommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1prolq1">
       <dc:title>lm-b1prolq1 [Brussels]</dc:title>
@@ -1438,7 +1446,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1-prol-q2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1-prol-q2"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1-prol-q2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1-prol-q2">
@@ -1459,7 +1469,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d1q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d1q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d1q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d1q1">
@@ -1480,7 +1492,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d2q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d2q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d2q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d2q1">
@@ -1501,7 +1515,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d3q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d3q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d3q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d3q1">
@@ -1522,7 +1538,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d3q2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d3q2"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d3q2"/>
                     <sctap:mentions xmlns:sctap="http://scta.info/properties/"
                       rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
@@ -1545,7 +1563,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d5q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d5q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d5q1"/>
                     <sctap:mentions xmlns:sctap="http://scta.info/properties/"
                       rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
@@ -1568,7 +1588,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d6and7-q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d6and7-q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d6and7-q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d6and7-q1">
@@ -1589,7 +1611,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d8q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d8q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d8q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d8q1">
@@ -1610,7 +1634,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d9q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-b1d9q1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d9q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-b1d9q1">
@@ -1631,7 +1657,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio11</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio11"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio11"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio11">
@@ -1652,7 +1680,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio12</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio12"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio12">
@@ -1673,7 +1703,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio13</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio13"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio13"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio13">
@@ -1694,7 +1726,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio14</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio14"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio14"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio14">
@@ -1715,7 +1749,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio15</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio15"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio15"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio15">
@@ -1736,7 +1772,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio16</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio16"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio16"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio16">
@@ -1757,7 +1795,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio17</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio17"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio17"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio17">
@@ -1778,7 +1818,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio18</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio18"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio18"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio18">
@@ -1799,7 +1841,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio19</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio19"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio19"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio19">
@@ -1821,7 +1865,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio20</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio20"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio20"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio20">
@@ -1842,7 +1888,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio21</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio21"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio21"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio21">
@@ -1863,7 +1911,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio22</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio22"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio22"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio22">
@@ -1884,7 +1934,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio23</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio23"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio23"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio23">
@@ -1905,7 +1957,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio24</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio24"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio24"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio24">
@@ -1926,7 +1980,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio25</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio25"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio25"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio25">
@@ -1947,7 +2003,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio26</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio26"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio26"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio26">
@@ -1968,7 +2026,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio27</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio27"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio27"/>
                     <sctap:mentions xmlns:sctap="http://scta.info/properties/"
                       rdf:resource="http://scta.info/resource/person/peter-plaoul"/>
@@ -1992,7 +2052,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio28</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio28"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio28"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio28">
@@ -2013,7 +2075,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio29</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio29"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio29"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio29">
@@ -2034,7 +2098,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio30</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio30"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio30"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio30">
@@ -2055,7 +2121,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio31</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio31"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio31"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio31">
@@ -2076,7 +2144,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio32</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio32"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio32"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio32">
@@ -2097,7 +2167,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio33</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio33"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio33"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio33">
@@ -2118,7 +2190,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio34</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio34"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio34"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio34">
@@ -2139,7 +2213,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio35</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio35"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio35"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio35">
@@ -2160,7 +2236,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio36</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio36"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio36"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio36">
@@ -2181,7 +2259,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio37</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio37"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio37"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio37">
@@ -2202,7 +2282,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio38</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio38"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio38"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio38">
@@ -2223,7 +2305,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio39</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio39"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio39"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio39">
@@ -2244,7 +2328,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio40</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio40"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio40"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio40">
@@ -2265,7 +2351,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio41</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio41"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio41"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio41">
@@ -2286,7 +2374,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio42</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio42"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio42"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio42">
@@ -2307,7 +2397,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio43</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio43"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio43"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio43">
@@ -2328,7 +2420,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio44</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio44"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio44"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio44">
@@ -2349,7 +2443,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio45</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio45"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio45"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio45">
@@ -2371,7 +2467,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio46</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio46"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio46"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio46">
@@ -2392,7 +2490,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio47</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio47"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio47"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio47">
@@ -2413,7 +2513,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio47</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio47"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio47"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio47">
@@ -2434,7 +2536,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio48</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio48"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio48"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio48">
@@ -2455,7 +2559,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio49</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio49"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio49"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio49">
@@ -2476,7 +2582,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio50</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio50"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio50"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio50">
@@ -2497,7 +2605,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio51</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio51"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio51"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio51">
@@ -2519,7 +2629,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio52</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio52"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio52"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio52">
@@ -2540,7 +2652,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio53</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio53"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio53"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio53">
@@ -2562,7 +2676,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio54</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio54"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio54"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio54">
@@ -2583,7 +2699,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio55</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio55"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio55"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio55">
@@ -2604,7 +2722,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio56</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio56"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio56"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio56">
@@ -2626,7 +2746,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio57</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio57"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio57"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio57">
@@ -2647,7 +2769,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio58</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio58"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio58"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio58">
@@ -2668,7 +2792,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio59</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio59"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio59"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio59">
@@ -2689,7 +2815,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio60</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio60"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio60"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio60">
@@ -2710,7 +2838,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio61</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio61"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio61"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio61">
@@ -2731,7 +2861,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio62</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio62"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio62"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio62">
@@ -2752,7 +2884,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio63</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio63"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio63"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio63">
@@ -2774,7 +2908,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio64</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio64"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio64"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio64">
@@ -2795,7 +2931,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio65</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio65"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio65"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio65">
@@ -2816,7 +2954,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio66</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio66"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio66"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio66">
@@ -2837,7 +2977,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio67</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio67"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio67"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio67">
@@ -2859,7 +3001,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio68</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio68"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio68"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio68">
@@ -2880,7 +3024,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio69</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio69"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio69"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio69">
@@ -2901,7 +3047,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio70</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio70"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio70"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio70">
@@ -2922,7 +3070,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio71</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio71"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio71"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio71">
@@ -2943,7 +3093,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio72</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio72"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio72"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio72">
@@ -2964,7 +3116,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio73</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio73"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio73"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio73">
@@ -2985,7 +3139,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio74</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio74"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio74"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio74">
@@ -3006,7 +3162,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio75</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio75"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio75"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio75">
@@ -3027,7 +3185,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio76</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio76"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio76"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio76">
@@ -3048,7 +3208,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio77</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio77"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio77"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio77">
@@ -3069,7 +3231,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio49</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio49"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio49"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio49">
@@ -3090,7 +3254,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio79</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio79"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio79"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio79">
@@ -3111,7 +3277,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio80</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio80"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio80"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio80">
@@ -3132,7 +3300,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio81</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio81"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio81"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio81">
@@ -3153,7 +3323,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio82</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio82"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio82"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio82">
@@ -3174,7 +3346,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio83</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio83"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio83"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio83">
@@ -3195,7 +3369,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio84</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio84"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio84"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio84">
@@ -3216,7 +3392,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio85</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio85"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio85"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio85">
@@ -3237,7 +3415,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio86</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio86"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio86"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio86">
@@ -3258,7 +3438,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio87</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio87"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio87"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio87">
@@ -3279,7 +3461,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio88</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio88"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio88"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio88">
@@ -3300,7 +3484,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio89</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio89"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio89"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio89">
@@ -3321,7 +3507,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio61</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio61"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio61"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio61">
@@ -3342,7 +3530,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio91</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio91"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio91"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio91">
@@ -3364,7 +3554,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio92</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio92"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio92"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio92">
@@ -3385,7 +3577,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio93</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio93"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio93"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio93">
@@ -3406,7 +3600,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio94</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio94"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio94"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio94">
@@ -3427,7 +3623,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio95</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio95"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio95"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio95">
@@ -3448,7 +3646,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio96</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio96"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio96"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio96">
@@ -3470,7 +3670,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio97</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio97"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio97"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio97">
@@ -3492,7 +3694,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio98</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio98"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio98"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio98">
@@ -3513,7 +3717,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio65</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio65"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio65"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio65">
@@ -3534,7 +3740,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio100</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio100"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio100"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio100">
@@ -3555,7 +3763,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio101</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio101"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio101"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio101">
@@ -3577,7 +3787,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio102</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio102"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio102"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio102">
@@ -3599,7 +3811,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio103</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio103"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio103"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio103">
@@ -3621,7 +3835,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio104</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio104"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio104"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio104">
@@ -3642,7 +3858,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio105</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio105"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio105"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio105">
@@ -3663,7 +3881,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio106</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio106"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio106"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio106">
@@ -3684,7 +3904,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio107</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio107"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio107"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio107">
@@ -3705,7 +3927,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio108</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio108"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio108"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio108">
@@ -3726,7 +3950,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio109</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio109"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio109"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio109">
@@ -3747,7 +3973,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio110</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio110"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio110"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio110">
@@ -3768,7 +3996,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio111</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio111"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio111"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio111">
@@ -3789,7 +4019,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestin112</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestin112"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestin112"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestin112">
@@ -3810,7 +4042,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio113</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio113"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio113"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio113">
@@ -3831,7 +4065,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio114</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio114"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio114"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio114">
@@ -3852,7 +4088,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio115</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio115"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio115"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio115">
@@ -3873,7 +4111,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio116</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio116"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio116"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio116">
@@ -3895,7 +4135,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio117</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio117"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio117"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio117">
@@ -3916,7 +4158,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio118</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio118"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio118"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio118">
@@ -3937,7 +4181,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio119</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio119"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio119"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio119">
@@ -3958,7 +4204,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio120</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio120"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio120"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio120">
@@ -3979,7 +4227,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio121</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio121"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio121"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio121">
@@ -4000,7 +4250,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio122</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio122"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio122"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio122">
@@ -4021,7 +4273,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio123</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio123"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio123"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio123">
@@ -4042,7 +4296,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio124</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/lambertuscommentary/transcription/lm-quaestio124"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio124"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/bruss_lm-quaestio124">

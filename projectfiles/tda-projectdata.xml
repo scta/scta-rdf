@@ -17,7 +17,7 @@
     <div id="body">
         <div id="tsa-librum1" type="librum" subtype="librum1">
             <head>Librum I</head>
-            <div id="tsa-l1prol" type="prologus">
+          <div id="tsa-l1prol" type="distinctio" subtype="librum1-prologus">
                 <head>Librum I, Prologus</head>
                 <item id="tsa-l1prolq1" type="quaestio">
                     <fileName filestem="tsa-l1prolq1" >tsa-l1prolq1.xml</fileName>

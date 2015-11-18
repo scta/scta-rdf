@@ -13,7 +13,7 @@
     <div id="body">
     <div id="wo-book1" type="librum">
         <head>Librum I</head>
-        <div id="wo-b1prol" type="distinctio">
+        <div id="wo-b1prol" type="distinctio" subtype="librum1-prologus">
             <head>Librum I, prologus</head>
             <item id="wo-b1prolq1" type="quaestio">
                 <fileName filestem="wo-b1prolq1">wo-b1prolq1.xml</fileName>

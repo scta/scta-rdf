@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim1_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sicut rogavi te ut remaneres Ephesi cum irem in Macedoniam ut denuntiares quibusdam ne aliter docerent</dc:title>
+      <sctap:quotation>sicut rogavi te ut remaneres Ephesi cum irem in Macedoniam ut denuntiares quibusdam ne aliter docerent</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 1:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio78"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim1_13">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui prius fui blasphemus et persecutor et contumeliosus sed misericordiam consecutus sum quia ignorans feci in incredulitate</dc:title>
+      <sctap:quotation>qui prius fui blasphemus et persecutor et contumeliosus sed misericordiam consecutus sum quia ignorans feci in incredulitate</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 1:13</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim1_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>regi autem saeculorum inmortali invisibili soli Deo honor et gloria in saecula saeculorum amen</dc:title>
+      <sctap:quotation>regi autem saeculorum inmortali invisibili soli Deo honor et gloria in saecula saeculorum amen</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 1:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d21c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim2_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui omnes homines vult salvos fieri et ad agnitionem veritatis venire</dc:title>
+      <sctap:quotation>qui omnes homines vult salvos fieri et ad agnitionem veritatis venire</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 2:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q39"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio19"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio84"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim2_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>unus enim Deus unus et mediator Dei et hominum homo Christus Iesus</dc:title>
+      <sctap:quotation>unus enim Deus unus et mediator Dei et hominum homo Christus Iesus</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 2:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim2_14">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et Adam non est seductus mulier autem seducta in praevaricatione fuit</dc:title>
+      <sctap:quotation>et Adam non est seductus mulier autem seducta in praevaricatione fuit</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 2:14</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d22c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim4_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>adtende tibi et doctrinae insta in illis hoc enim faciens et te ipsum salvum facies et qui te audiunt</dc:title>
+      <sctap:quotation>adtende tibi et doctrinae insta in illis hoc enim faciens et te ipsum salvum facies et qui te audiunt</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 4:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim6_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quem suis temporibus ostendet beatus et solus potens rex regum et Dominus dominantium</dc:title>
+      <sctap:quotation>quem suis temporibus ostendet beatus et solus potens rex regum et Dominus dominantium</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 6:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d4c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d21c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Itim6_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui solus habet inmortalitatem lucem habitans inaccessibilem quem vidit nullus hominum sed nec videre potest cui honor et imperium sempiternum amen</dc:title>
+      <sctap:quotation>qui solus habet inmortalitatem lucem habitans inaccessibilem quem vidit nullus hominum sed nec videre potest cui honor et imperium sempiternum amen</sctap:quotation>
+      <sctap:citation>Epistula I ad Timotheum 6:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Itim"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q9"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q15"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d8c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio20"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio33"/>
+   </rdf:Description>
+</rdf:RDF>

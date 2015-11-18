@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>Anonymous Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>anon1</sctap:slug>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d19q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/librum/anon1-l1">
+      <dc:title>Librum I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d11"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d19q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d1">
+      <dc:title>Librum I, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d2">
+      <dc:title>Librum I, Distinctio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d3">
+      <dc:title>Librum I, Distinctio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d3q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d4">
+      <dc:title>Librum I, Distinctio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d4q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d5">
+      <dc:title>Librum I, Distinctio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d5q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d5q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d6">
+      <dc:title>Librum I, Distinctio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d6q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d6q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d7">
+      <dc:title>Librum I, Distinctio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d8">
+      <dc:title>Librum I, Distinctio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d8q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d8q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d9">
+      <dc:title>Librum I, Distinctio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d9q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d9q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d10">
+      <dc:title>Librum I, Distinctio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d11">
+      <dc:title>Librum I, Distinctio 11</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/distinctio/anon1-l1d19">
+      <dc:title>Librum I, Distinctio 19</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/anon1commentary/librum/anon1-l1"/>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d19q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d19q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d1q1">
+      <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q2"/>
+      <sctap:questionTitle/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d1q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d1q2">
+      <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q1"/>
+      <sctap:questionTitle>Utrum perfecta beatitudo cuiuscunque beatificatae naturae consistit principalius in actu beatificae  fruitionis quam in actu beatificae visionis sui beatifici obiecti?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d1q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d1q2"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d1q2">
+      <dc:title>anon1-l1d1q2 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>25r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P25r"/>
+      <sctap:hasFolio>25v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P25v"/>
+      <sctap:hasFolio>26r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P26r"/>
+      <sctap:hasFolio>26v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P26v"/>
+      <sctap:hasFolio>27r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P27r"/>
+      <sctap:hasFolio>27v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P27v"/>
+      <sctap:hasFolio>28r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P28r"/>
+      <sctap:hasFolio>28v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P28v"/>
+      <sctap:hasFolio>29r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P29r"/>
+      <sctap:hasFolio>29v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P29v"/>
+      <sctap:hasFolio>30r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P30r"/>
+      <sctap:hasFolio>30v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P30v"/>
+      <sctap:hasFolio>31r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P31r"/>
+      <sctap:hasFolio>31v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P31v"/>
+      <sctap:hasFolio>32r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P32r"/>
+      <sctap:hasFolio>32v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P32v"/>
+      <sctap:hasFolio>33r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P33r"/>
+      <sctap:hasFolio>33v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P33v"/>
+      <sctap:hasFolio>34r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P34r"/>
+      <sctap:hasFolio>34v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P34v"/>
+      <sctap:hasFolio>35r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P35r"/>
+      <sctap:hasFolio>35v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P35v"/>
+      <sctap:hasFolio>36r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P36r"/>
+      <sctap:hasFolio>36v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P36v"/>
+      <sctap:hasFolio>37r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P37r"/>
+      <sctap:hasFolio>37v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P37v"/>
+      <sctap:hasFolio>38r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P38r"/>
+      <sctap:hasFolio>38v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P38v"/>
+      <sctap:hasFolio>39r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P39r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d2q1">
+      <dc:title>Librum I, Distinctio 2, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d1q2"/>
+      <sctap:questionTitle>Utrum deum esse sit ratione naturale efficaciter demonstrabile?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d2"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d2q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d2q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d2q1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/penn727_anon1-l1d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d2q1">
+      <dc:title>anon1-l1d2q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>39r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P39r"/>
+      <sctap:hasFolio>39v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P39v"/>
+      <sctap:hasFolio>40r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P40r"/>
+      <sctap:hasFolio>40v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P40v"/>
+      <sctap:hasFolio>41r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P41r"/>
+      <sctap:hasFolio>41v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P41v"/>
+      <sctap:hasFolio>42r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P42r"/>
+      <sctap:hasFolio>42v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P42v"/>
+      <sctap:hasFolio>43r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P43r"/>
+      <sctap:hasFolio>43v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P43v"/>
+      <sctap:hasFolio>44r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P44r"/>
+      <sctap:hasFolio>44v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P44v"/>
+      <sctap:hasFolio>45r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P45r"/>
+      <sctap:hasFolio>45v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P45v"/>
+      <sctap:hasFolio>46r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P46r"/>
+      <sctap:hasFolio>46v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P46v"/>
+      <sctap:hasFolio>47r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P47r"/>
+      <sctap:hasFolio>47v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P47v"/>
+      <sctap:hasFolio>48r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P48r"/>
+      <sctap:hasFolio>48v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P48v"/>
+      <sctap:hasFolio>49r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P49r"/>
+      <sctap:hasFolio>49v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P49v"/>
+      <sctap:hasFolio>50r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P50r"/>
+      <sctap:hasFolio>50v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P50v"/>
+      <sctap:hasFolio>51r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P51r"/>
+      <sctap:hasFolio>51v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P51v"/>
+      <sctap:hasFolio>52r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P52r"/>
+      <sctap:hasFolio>52v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P52v"/>
+      <sctap:hasFolio>53r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P53r"/>
+      <sctap:hasFolio>53v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P53v"/>
+      <sctap:hasFolio>54r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P54r"/>
+      <sctap:hasFolio>54v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P54v"/>
+      <sctap:hasFolio>55r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P55r"/>
+      <sctap:hasFolio>55v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P55v"/>
+      <sctap:hasFolio>56r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P56r"/>
+      <sctap:hasFolio>56v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P56v"/>
+      <sctap:hasFolio>57r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P57r"/>
+      <sctap:hasFolio>57v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P57v"/>
+      <sctap:hasFolio>58r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P58r"/>
+      <sctap:hasFolio>58v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P58v"/>
+      <sctap:hasFolio>59r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P59r"/>
+      <sctap:hasFolio>59v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P59v"/>
+      <sctap:hasFolio>60r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P60r"/>
+      <sctap:hasFolio>60v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P60v"/>
+      <sctap:hasFolio>61r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P61r"/>
+      <sctap:hasFolio>61v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P61v"/>
+      <sctap:hasFolio>62r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P62r"/>
+      <sctap:hasFolio>62v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P62v"/>
+      <sctap:hasFolio>63r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P63r"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/penn727_anon1-l1d2q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/transcription/penn727_anon1-l1d2q1">
+      <dc:title>Librum 1, Distinctio 2, Quaestio 1 [Penn Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/anon1commentary/anon1-l1d2q1/transcription/penn727"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d3q1">
+      <dc:title>Librum I, Distinctio 3, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d4q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d2q1"/>
+      <sctap:questionTitle>Utrum intellectus noster pro state viae cum solo lumine intellectus agentis possit per gradus creaturum ascendere ad dei cognitionem?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d3"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d3q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d3q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d3q1">
+      <dc:title>anon1-l1d3q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>63r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P63r"/>
+      <sctap:hasFolio>63v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P63v"/>
+      <sctap:hasFolio>64r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P64r"/>
+      <sctap:hasFolio>64v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P64v"/>
+      <sctap:hasFolio>65r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P65r"/>
+      <sctap:hasFolio>65v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P65v"/>
+      <sctap:hasFolio>66r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P66r"/>
+      <sctap:hasFolio>66v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P66v"/>
+      <sctap:hasFolio>67r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P67r"/>
+      <sctap:hasFolio>67v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P67v"/>
+      <sctap:hasFolio>68r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P68r"/>
+      <sctap:hasFolio>68v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P68v"/>
+      <sctap:hasFolio>69r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P69r"/>
+      <sctap:hasFolio>69v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P69v"/>
+      <sctap:hasFolio>70r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P70r"/>
+      <sctap:hasFolio>70v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P70v"/>
+      <sctap:hasFolio>71r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P71r"/>
+      <sctap:hasFolio>72v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P72v"/>
+      <sctap:hasFolio>73r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P73r"/>
+      <sctap:hasFolio>73v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P73v"/>
+      <sctap:hasFolio>74r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P74r"/>
+      <sctap:hasFolio>74v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P74v"/>
+      <sctap:hasFolio>75r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P75r"/>
+      <sctap:hasFolio>75v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P75v"/>
+      <sctap:hasFolio>76r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P76r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d4q1">
+      <dc:title>Librum I, Distinctio 4, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d5q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d3q1"/>
+      <sctap:questionTitle>Utrum ex aeterna generatione verbi divini potest vere concedi quod deum genuit deum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d4"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d4q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d4q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d4q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d4q1">
+      <dc:title>anon1-l1d4q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>76r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P76r"/>
+      <sctap:hasFolio>76v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P76v"/>
+      <sctap:hasFolio>77r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P77r"/>
+      <sctap:hasFolio>77v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P77v"/>
+      <sctap:hasFolio>78r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P78r"/>
+      <sctap:hasFolio>78v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P78v"/>
+      <sctap:hasFolio>79r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P79r"/>
+      <sctap:hasFolio>79v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P79v"/>
+      <sctap:hasFolio>80r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P80r"/>
+      <sctap:hasFolio>80v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P80v"/>
+      <sctap:hasFolio>81r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P81r"/>
+      <sctap:hasFolio>81v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P81v"/>
+      <sctap:hasFolio>82r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P82r"/>
+      <sctap:hasFolio>82v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P82v"/>
+      <sctap:hasFolio>83r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P83r"/>
+      <sctap:hasFolio>83v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P83v"/>
+      <sctap:hasFolio>84r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P84r"/>
+      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P84v"/>
+      <sctap:hasFolio>85r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P85r"/>
+      <sctap:hasFolio>85v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P85v"/>
+      <sctap:hasFolio>86r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P86r"/>
+      <sctap:hasFolio>86v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P86v"/>
+      <sctap:hasFolio>87r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P87r"/>
+      <sctap:hasFolio>87v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P87v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d5q1">
+      <dc:title>Librum I, Distinctio 5, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d6q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d4q1"/>
+      <sctap:questionTitle>Utrum divina essentia in generatione divina possit cadere rationem principii originantes aut termini orginati?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d5"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d5q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d5q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d5q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d5q1">
+      <dc:title>anon1-l1d5q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>87v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P87v"/>
+      <sctap:hasFolio>88r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P88r"/>
+      <sctap:hasFolio>88v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P88v"/>
+      <sctap:hasFolio>89r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P89r"/>
+      <sctap:hasFolio>89v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P89v"/>
+      <sctap:hasFolio>90r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P90r"/>
+      <sctap:hasFolio>90v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P90v"/>
+      <sctap:hasFolio>91r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P91r"/>
+      <sctap:hasFolio>91v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P91v"/>
+      <sctap:hasFolio>92r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P92r"/>
+      <sctap:hasFolio>92v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P92v"/>
+      <sctap:hasFolio>93r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P93r"/>
+      <sctap:hasFolio>93v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P93v"/>
+      <sctap:hasFolio>94r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P94r"/>
+      <sctap:hasFolio>94v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P94v"/>
+      <sctap:hasFolio>95r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P95r"/>
+      <sctap:hasFolio>95v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P95v"/>
+      <sctap:hasFolio>96r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P96r"/>
+      <sctap:hasFolio>96v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P96v"/>
+      <sctap:hasFolio>97r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P97r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d6q1">
+      <dc:title>Librum I, Distinctio 6, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d5q1"/>
+      <sctap:questionTitle>Utrum pater in divinis ordinae naturae prius voluerit filium generare quam ipsam genuerat vel potius e converso?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d6"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d6q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d6q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d6q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d6q1">
+      <dc:title>anon1-l1d6q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>97r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P97r"/>
+      <sctap:hasFolio>97v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P97v"/>
+      <sctap:hasFolio>98r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P98r"/>
+      <sctap:hasFolio>98v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P98v"/>
+      <sctap:hasFolio>99r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P99r"/>
+      <sctap:hasFolio>99v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P99v"/>
+      <sctap:hasFolio>100r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P100r"/>
+      <sctap:hasFolio>101v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P101v"/>
+      <sctap:hasFolio>102r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P102r"/>
+      <sctap:hasFolio>102v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P102v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d7q1">
+      <dc:title>Librum I, Distinctio 7, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d8q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d6q1"/>
+      <sctap:questionTitle>Utrum possit generare verbum dicat perfectionem simpliciter?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d7"/>
+      <sctap:editedBy/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d7q1</sctap:gitRepository>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anon1commentary/title/anon1-l1d7q1-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anon1commentary/title/anon1-l1d7q1-3"/>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d7q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:elementText>Johannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-3">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:elementText>Johannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:elementText>Johannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:elementText>Johannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/name/anon1-l1d7q1-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohannesBrakel"/>
+      <sctap:elementText>Joannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/title/anon1-l1d7q1-2">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/title/anon1-l1d7q1-3">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anon1commentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1">
+      <dc:title>Librum I, Distinctio 7, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <role:EDT/>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d7q1/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/anon1commentary/anon1-l1d7q1/transcription/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d7q1">
+      <dc:title>anon1-l1d7q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>102v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P102v"/>
+      <sctap:hasFolio>103r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P103r"/>
+      <sctap:hasFolio>103v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P103v"/>
+      <sctap:hasFolio>104r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P104r"/>
+      <sctap:hasFolio>104v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P104v"/>
+      <sctap:hasFolio>105r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P105r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d8q1">
+      <dc:title>Librum I, Distinctio 8, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d9q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d7q1"/>
+      <sctap:questionTitle>Utrum summae simplicitate inquacumque naturae repugnet omnino pluralitas aliquorum quolibet distinctorum?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d8"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d8q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d8q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d8q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d8q1">
+      <dc:title>anon1-l1d8q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>105r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P105r"/>
+      <sctap:hasFolio>105v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P105v"/>
+      <sctap:hasFolio>106r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P106r"/>
+      <sctap:hasFolio>106v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P106v"/>
+      <sctap:hasFolio>107r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P107r"/>
+      <sctap:hasFolio>107v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P107v"/>
+      <sctap:hasFolio>108r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P108r"/>
+      <sctap:hasFolio>108v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P108v"/>
+      <sctap:hasFolio>109r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P109r"/>
+      <sctap:hasFolio>109v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P109v"/>
+      <sctap:hasFolio>110r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P110r"/>
+      <sctap:hasFolio>110v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P110v"/>
+      <sctap:hasFolio>111r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P111r"/>
+      <sctap:hasFolio>111v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P111v"/>
+      <sctap:hasFolio>112r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P112r"/>
+      <sctap:hasFolio>112v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P112v"/>
+      <sctap:hasFolio>113r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P113r"/>
+      <sctap:hasFolio>113v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P113v"/>
+      <sctap:hasFolio>114r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P114r"/>
+      <sctap:hasFolio>114v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P114v"/>
+      <sctap:hasFolio>115r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P115r"/>
+      <sctap:hasFolio>115v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P115v"/>
+      <sctap:hasFolio>116r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P116r"/>
+      <sctap:hasFolio>116v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P116v"/>
+      <sctap:hasFolio>117r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P117r"/>
+      <sctap:hasFolio>117v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P117v"/>
+      <sctap:hasFolio>118r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P118r"/>
+      <sctap:hasFolio>118v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P118v"/>
+      <sctap:hasFolio>119r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P119r"/>
+      <sctap:hasFolio>119v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P119v"/>
+      <sctap:hasFolio>120r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P120r"/>
+      <sctap:hasFolio>120v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P120v"/>
+      <sctap:hasFolio>121r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P121r"/>
+      <sctap:hasFolio>121v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P121v"/>
+      <sctap:hasFolio>122r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P122r"/>
+      <sctap:hasFolio>122v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P122v"/>
+      <sctap:hasFolio>123r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P123r"/>
+      <sctap:hasFolio>123v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P123v"/>
+      <sctap:hasFolio>124r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P124r"/>
+      <sctap:hasFolio>124v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P124v"/>
+      <sctap:hasFolio>125r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P125r"/>
+      <sctap:hasFolio>125v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P125v"/>
+      <sctap:hasFolio>126r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P126r"/>
+      <sctap:hasFolio>126v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P126v"/>
+      <sctap:hasFolio>127r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P127r"/>
+      <sctap:hasFolio>127v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P127v"/>
+      <sctap:hasFolio>128r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P128r"/>
+      <sctap:hasFolio>128v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P128v"/>
+      <sctap:hasFolio>129r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P129r"/>
+      <sctap:hasFolio>129v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P129v"/>
+      <sctap:hasFolio>130r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P130r"/>
+      <sctap:hasFolio>130v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P130v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d9q1">
+      <dc:title>Librum I, Distinctio 9, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d8q1"/>
+      <sctap:questionTitle>Utrum generatio filii in divinis propriae mensuretur mensura aeternitatis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d9"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d9q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d9q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d9q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d9q1">
+      <dc:title>anon1-l1d9q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>130v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P130v"/>
+      <sctap:hasFolio>131r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P131r"/>
+      <sctap:hasFolio>131v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P131v"/>
+      <sctap:hasFolio>132r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P132r"/>
+      <sctap:hasFolio>132v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P132v"/>
+      <sctap:hasFolio>133r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P133r"/>
+      <sctap:hasFolio>133v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P133v"/>
+      <sctap:hasFolio>134r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P134r"/>
+      <sctap:hasFolio>134v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P134v"/>
+      <sctap:hasFolio>135r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P135r"/>
+      <sctap:hasFolio>135v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P135v"/>
+      <sctap:hasFolio>136r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P136r"/>
+      <sctap:hasFolio>136v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P136v"/>
+      <sctap:hasFolio>137r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P137r"/>
+      <sctap:hasFolio>137v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P137v"/>
+      <sctap:hasFolio>138r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P138r"/>
+      <sctap:hasFolio>138v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P138v"/>
+      <sctap:hasFolio>139r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P139r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d10q1">
+      <dc:title>Librum I, Distinctio 10, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d9q1"/>
+      <sctap:questionTitle>Utrum Spiritus sanctus ex vi suae productionis sit formalis amor divinus et personalis?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d10"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d10q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d10q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d10q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d10q1">
+      <dc:title>anon1-l1d10q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>139r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P139r"/>
+      <sctap:hasFolio>139v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P139v"/>
+      <sctap:hasFolio>140r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P140r"/>
+      <sctap:hasFolio>140v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P140v"/>
+      <sctap:hasFolio>141r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P141r"/>
+      <sctap:hasFolio>141v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P141v"/>
+      <sctap:hasFolio>142r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P142r"/>
+      <sctap:hasFolio>142v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P142v"/>
+      <sctap:hasFolio>143r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P143r"/>
+      <sctap:hasFolio>143v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P143v"/>
+      <sctap:hasFolio>144r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P144r"/>
+      <sctap:hasFolio>144v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P144v"/>
+      <sctap:hasFolio>145r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P145r"/>
+      <sctap:hasFolio>145v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P145v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d11q1">
+      <dc:title>Librum I, Distinctio 11, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d19q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
+      <sctap:questionTitle>Utrum spiritus sanctus procedat a patre et filio tamquam ab uno principio productivo?</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d11"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d11q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d11q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d11q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d11q1">
+      <dc:title>anon1-l1d11q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>145v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P145v"/>
+      <sctap:hasFolio>146r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P146r"/>
+      <sctap:hasFolio>146v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P146v"/>
+      <sctap:hasFolio>147r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P147r"/>
+      <sctap:hasFolio>147v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P147v"/>
+      <sctap:hasFolio>148r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P148r"/>
+      <sctap:hasFolio>148v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P148v"/>
+      <sctap:hasFolio>149r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P149r"/>
+      <sctap:hasFolio>149v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P149v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/item/anon1-l1d19q1">
+      <dc:title>Librum I, Distinctio 19, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
+      <sctap:questionTitle/>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anon1commentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anon1commentary/distinctio/anon1-l1d19"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/anon1-l1d19q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anon1commentary/transcription/anon1-l1d19q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d19q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/penn727_anon1-l1d19q1">
+      <dc:title>anon1-l1d19q1 [Upenn Codex 727]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
+      <sctap:hasFolio>150r</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P150r"/>
+      <sctap:hasFolio>150v</sctap:hasFolio>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/anon1-penn727/canvas/P150v"/>
+   </rdf:Description>
+</rdf:RDF>
+

@@ -49,7 +49,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcl-b1d1q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/chattonlectura/transcription/wcl-b1d1q1"/>
    </rdf:Description>
 </rdf:RDF>
 
