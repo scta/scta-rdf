@@ -15,6 +15,7 @@
       <dc:title>John Mirecourt Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>ma</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/librum/jm-librum1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
@@ -65,6 +66,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q3"/>
@@ -157,6 +160,8 @@
       <sctap:questionTitle>Utrum cognitio sensitiva naturaliter causari vel conservari possit sine obiecto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q1</sctap:gitRepository>
@@ -184,6 +189,8 @@
       <sctap:questionTitle>utrum cognitio sensitiva exterior causari vel conservari possit per potentiam Dei sine obiecto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q2</sctap:gitRepository>
@@ -200,6 +207,8 @@
       <sctap:questionTitle>utrum res sensibilis cognosci possit ab anima intellectiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q3</sctap:gitRepository>
@@ -216,6 +225,8 @@
       <sctap:questionTitle>utrum in cognitione rei existentis vel non existentis causetur entitas aliqua in obiecto vel medio vel organo alia ab actu et habitu in potentia cognitiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q4</sctap:gitRepository>
@@ -232,6 +243,8 @@
       <sctap:questionTitle>utrum quelibet cognitio creata cognosci possit ab anima intellectiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q5</sctap:gitRepository>
@@ -248,6 +261,8 @@
       <sctap:questionTitle>utrum evidenter cognosci possit a natura creata aliqua veritas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q6</sctap:gitRepository>
@@ -264,6 +279,8 @@
       <sctap:questionTitle>utrum per iudicium quodcumque scientificum sciatur sola veritas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q7</sctap:gitRepository>
@@ -280,6 +297,8 @@
       <sctap:questionTitle>utrum assensibus alterius rationis simul assentire possit aliquis alicui veritati vel sic esse sicut per aliquam rationem significatur vel alicui veritati</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q8</sctap:gitRepository>
@@ -296,6 +315,8 @@
       <sctap:questionTitle>utrum cognitiones distinguantur iuxta distinctiones obiectorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q9</sctap:gitRepository>
@@ -312,6 +333,8 @@
       <sctap:questionTitle>utrum cognitiones excedant se perfectionaliter proportionaliter secundum excessum obiectorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q10</sctap:gitRepository>
@@ -328,6 +351,8 @@
       <sctap:questionTitle>utrum voluntas sit causa effectiva volitionis vel nolitionis sue</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q11</sctap:gitRepository>
@@ -344,6 +369,8 @@
       <sctap:questionTitle>utrum cuiuslibet volitionis vel nolitionis voluntas sit totalis causa</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q12</sctap:gitRepository>
@@ -360,6 +387,8 @@
       <sctap:questionTitle>utrum solo Deo sit fruendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q13</sctap:gitRepository>
@@ -376,6 +405,8 @@
       <sctap:questionTitle>utrum ratione naturali convinci possit nobis in via solo Deo beatifice esse fruendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q14</sctap:gitRepository>
@@ -392,6 +423,8 @@
       <sctap:questionTitle>utrum quolibet alio a Deo sit utendum et solum tali</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q15</sctap:gitRepository>
@@ -408,6 +441,8 @@
       <sctap:questionTitle>utrum frui Deo sit finis naturalis creature rationalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q16</sctap:gitRepository>
@@ -424,6 +459,8 @@
       <sctap:questionTitle>utrum aliquis in via vel in patria concipere vel intelligere possit aliquod quod est Deus, non concipiendo vel intelligendo quodlibet quod est Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q17</sctap:gitRepository>
@@ -440,6 +477,8 @@
       <sctap:questionTitle>utrum aliquis, in via vel in patria, diligere vel odire possit aliquid quod est Deus non odiendo vel diligendo quodlibet quod est Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q18</sctap:gitRepository>
@@ -456,6 +495,8 @@
       <sctap:questionTitle>utrum quelibet creata fruitio distinguatur ab anima cognoscente et eius cognitione</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q19</sctap:gitRepository>
@@ -472,6 +513,8 @@
       <sctap:questionTitle>utrum Deus sit concepibilis a nobis naturaliter aliqua cognitione</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q20</sctap:gitRepository>
@@ -488,6 +531,8 @@
       <sctap:questionTitle>utrum sit nobis per se notum quod aliquis sit Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q21</sctap:gitRepository>
@@ -504,6 +549,8 @@
       <sctap:questionTitle>utrum cum hoc quod Deus sit unus stet quod tres persone sint ille unus Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q22</sctap:gitRepository>
@@ -520,6 +567,8 @@
       <sctap:questionTitle>utrum in qualibet creatura reperiatur vestigium et ymago trinitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i23</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q23</sctap:gitRepository>
@@ -536,6 +585,8 @@
       <sctap:questionTitle>utrum Deus sit ab aliquo producibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i24</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q24</sctap:gitRepository>
@@ -552,6 +603,8 @@
       <sctap:questionTitle>utrum solus Deus sit omnino immutabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i25</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q25</sctap:gitRepository>
@@ -568,6 +621,8 @@
       <sctap:questionTitle>utrum Deus cum aliquo sit componibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i26</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q26</sctap:gitRepository>
@@ -584,6 +639,8 @@
       <sctap:questionTitle>utrum caritas que datur amicis Dei sit ipse spiritus sanctus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i27</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q27</sctap:gitRepository>
@@ -600,6 +657,8 @@
       <sctap:questionTitle>utrum sine caritate creata posset viator diligere Deum super omnia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i28</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q28</sctap:gitRepository>
@@ -616,6 +675,8 @@
       <sctap:questionTitle>utrum sine creata caritate possit aliquis mereri vitam eternam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i29</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q29</sctap:gitRepository>
@@ -632,6 +693,8 @@
       <sctap:questionTitle>utrum persona divina producens sit divine persone producte aliqualiter equalis vel similis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i30</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q30</sctap:gitRepository>
@@ -648,6 +711,8 @@
       <sctap:questionTitle>utrum Deus sit quecumque res que est Deus realiter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i31</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q31</sctap:gitRepository>
@@ -664,6 +729,8 @@
       <sctap:questionTitle>utrum Deus sit quecumque res est Deus formaliter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i32</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q32</sctap:gitRepository>
@@ -680,6 +747,8 @@
       <sctap:questionTitle>utrum Deus sit quelibet res que est Deus totaliter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i33</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q33</sctap:gitRepository>
@@ -696,6 +765,8 @@
       <sctap:questionTitle>utrum quecumque res est Deus fuerit Deus eternaliter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i34</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q34</sctap:gitRepository>
@@ -712,6 +783,8 @@
       <sctap:questionTitle>utrum aliquod futurum possit evidenter a divino intellectu sciri esse futurum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i35</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q35</sctap:gitRepository>
@@ -728,6 +801,8 @@
       <sctap:questionTitle>utrum Deus facere possit futurum numquam fore</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i36</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q36</sctap:gitRepository>
@@ -744,6 +819,8 @@
       <sctap:questionTitle>utrum futurum revelatum esse futurum possit non esse futurum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i37</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q37</sctap:gitRepository>
@@ -760,6 +837,8 @@
       <sctap:questionTitle>utrum Deus possit velle vel facere mundum numquam fuisse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i38</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q38</sctap:gitRepository>
@@ -776,6 +855,8 @@
       <sctap:questionTitle>utrum Deus omnipotens possit facere quidquid non implicat contradictionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i39</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
@@ -792,6 +873,8 @@
       <sctap:questionTitle>utrum Deus omnipotens possit facere quidquid non implicat contradictionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i40</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
@@ -807,6 +890,8 @@
       <sctap:questionTitle>utrum quilibet teneatur velle talitercumque esse qualitercumque Deus vult esse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i41</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>

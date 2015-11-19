@@ -16,7 +16,7 @@
     <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
     <xsl:param name="gitRepoBase">http://bitbucket.org/jeffreycwitt/</xsl:param>
     
-    <xsl:variable name="dtsurn"><xsl:value-of select="concat('urn:cts:latinLit:sentences', '.', $cid)"/></xsl:variable>
+    <xsl:variable name="dtsurn"><xsl:value-of select="concat('urn:dts:latinLit:sentences', '.', $cid)"/></xsl:variable>
     <xsl:output method="xml" indent="yes"/>
     
     <!-- function templates below -->
@@ -62,7 +62,7 @@
                 <dc:title><xsl:value-of select="$commentaryname"/></dc:title>
                 <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
                 <sctap:slug><xsl:value-of select="$commentaryslug"/></sctap:slug>
-                <sctap:dtsurn rdf:about="{$dtsurn}"></sctap:dtsurn>
+                <sctap:dtsurn><xsl:value-of select="$dtsurn"/></sctap:dtsurn>
                     <xsl:choose>
                         <xsl:when test=".//div[@type='librum']">
                             <xsl:for-each select=".//div[@type='librum']">
@@ -111,8 +111,9 @@
                 <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '000')"/></sctap:totalOrderNumber>
                   
                   
-                  <xsl:variable name="librum-dtsurn" select="concat($dtsurn, ':', $sectionnumber)"/>  
-                  <sctap:dtsurn rdf:about="{$librum-dtsurn}"></sctap:dtsurn>
+                  <!-- <xsl:variable name="librum-dtsurn" select="concat($dtsurn, ':', $sectionnumber)"/> -->
+                  <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
+                  <sctap:dtsurn><xsl:value-of select="concat($dtsurn, ':', $divcount)"/></sctap:dtsurn>
                   <sctap:level><xsl:value-of select="count(ancestor::*)"/></sctap:level>
                 
                   <xsl:choose>
@@ -156,9 +157,23 @@
                     <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '000')"/></sctap:sectionOrderNumber>
                     <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '000')"/></sctap:totalOrderNumber>
                     
-                    <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
-                    <xsl:variable name="distinctio-dtsurn" select="concat($dtsurn, ':', $librum-number, '.', $sectionnumber)"/>
-                    <sctap:dtsurn rdf:about="{$distinctio-dtsurn}"></sctap:dtsurn>
+                    <!-- <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable> -->
+                    <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
+                    <xsl:variable name="distinctio-dtsurn">
+                      
+                      <xsl:value-of select="concat($dtsurn, ':', $divcount)"/>
+                      <!--
+                      <xsl:choose>
+                        <xsl:when test="ancestor::div[@type='librum']">
+                          <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.', $sectionnumber)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="concat($dtsurn, ':', $sectionnumber)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                      -->
+                    </xsl:variable> 
+                    <sctap:dtsurn><xsl:value-of select="$distinctio-dtsurn"/></sctap:dtsurn>
                     <sctap:level><xsl:value-of select="count(ancestor::*)"/></sctap:level>
                     
                     <xsl:for-each select=".//item">
@@ -189,10 +204,11 @@
                 <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '000')"/></sctap:sectionOrderNumber>
                 <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '000')"/></sctap:totalOrderNumber>
                 
-                <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
-                <xsl:variable name="distinctio-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
-                <xsl:variable name="pars-dtsurn" select="concat($dtsurn, ':', $librum-number, '.', $distinctio-number, '.', $sectionnumber)"/>
-                <sctap:dtsurn rdf:about="{$pars-dtsurn}"></sctap:dtsurn>
+                <!-- <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
+                <xsl:variable name="distinctio-number"><xsl:number count="div[@type='librum']"/></xsl:variable> -->
+                <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
+                <xsl:variable name="pars-dtsurn" select="concat($dtsurn, ':', $divcount)"/>
+                <sctap:dtsurn><xsl:value-of select="$pars-dtsurn"/></sctap:dtsurn>
                 <sctap:level><xsl:value-of select="count(ancestor::*)"/></sctap:level>
                 
                 <xsl:for-each select=".//item">
@@ -224,20 +240,25 @@
                 <xsl:variable name="pars-number"><xsl:number count="div[@type='pars']"/></xsl:variable>
                 <xsl:variable name="item-level" select="count(ancestor::*)"/>
                 <xsl:variable name="item-dtsurn">
+                  <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
+                  <xsl:value-of select="concat($dtsurn, ':', $divcount, '.i', $sectionnumber)"/>
+                  
+                  <!--
                   <xsl:choose>
                     <xsl:when test="./parent::div[@type='pars']">
-                      <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.', $distinctio-number, '.', $pars-number, '.', $sectionnumber)"/>
+                      <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.', $distinctio-number, '.', $pars-number, '.i', $sectionnumber)"/>
                     </xsl:when>
                     <xsl:when test="./parent::div[@type='distinctio']">
-                      <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.', $distinctio-number, '.', $sectionnumber)"/>
+                      <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.', $distinctio-number, '.i', $sectionnumber)"/>
                     </xsl:when>
                     <xsl:when test="./parent::div[@type='librum']">
-                      <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.', $sectionnumber)"/>
+                      <xsl:value-of select="concat($dtsurn, ':', $librum-number, '.i', $sectionnumber)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                      <xsl:value-of select="concat($dtsurn, ':', $sectionnumber)"/>
+                      <xsl:value-of select="concat($dtsurn, ':i', $sectionnumber)"/>
                     </xsl:otherwise>
                   </xsl:choose>
+                  -->
                 </xsl:variable>
            
                 <rdf:Description rdf:about="http://scta.info/text/{$cid}/item/{$fs}">
@@ -267,7 +288,7 @@
                   
                     
                     
-                    <sctap:dtsurn rdf:about="{$item-dtsurn}"/>
+                  <sctap:dtsurn><xsl:value-of select="$item-dtsurn"/></sctap:dtsurn>
                    <sctap:level><xsl:value-of select="$item-level"/></sctap:level>
                   
                   
@@ -411,14 +432,19 @@
               <!-- BEGIN Div resource creation -->
               
               <xsl:for-each  select="document($extraction-file)//tei:body/tei:div//tei:div">
+                <xsl:variable name="div-number"><xsl:number count="./tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
                 <xsl:if test="./@xml:id">
                 <xsl:variable name="divisionID" select="./@xml:id"/>
                 <xsl:variable name="divisionType" select="./@type"/>
+                  
                 <rdf:Description rdf:about="http://scta.info/text/{$cid}/{$divisionType}/{$divisionID}">
                   <rdf:type rdf:resource="http://scta.info/resource/{$divisionType}"/>
                   <dcterms:isPartOf rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
                   
-                  <!-- BEGIN collect questionTitles from division heaer -->
+                  <xsl:variable name="div-urn" select="$div-number"/>
+                  <sctap:dtsurn><xsl:value-of select="concat($item-dtsurn, '.', $div-urn)"/></sctap:dtsurn>
+                  
+                  <!-- BEGIN collect questionTitles from division header -->
                   <xsl:choose>
                     <xsl:when test="./tei:head/@type='questionTitle'">
                       <sctap:questionTitle><xsl:value-of select="./tei:head[@type='questionTitle']"/></sctap:questionTitle>
@@ -518,8 +544,19 @@
                     <sctap:previous rdf:resource="http://scta.info/text/{$cid}/paragraph/{$previouspid}"/>
                     
                     <!-- cts urn creation for paragraphs -->
-                    <xsl:variable name="paragraph-dtsurn"><xsl:value-of select="concat($item-dtsurn, '.', $paragraphnumber)"/></xsl:variable>
-                    <sctap:dtsurn rdf:about="{$paragraph-dtsurn}"></sctap:dtsurn>
+                    <xsl:variable name="div-number"><xsl:number count="./tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
+                    <xsl:variable name="paragraph-dtsurn">
+                      <xsl:choose>
+                        <xsl:when test="document($extraction-file)//tei:body/tei:div//tei:div">
+                          <xsl:value-of select="concat($item-dtsurn, '.', $div-number, '.p', $paragraphnumber)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:value-of select="concat($item-dtsurn, '.p', $paragraphnumber)"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:variable>
+                      
+                    <sctap:dtsurn><xsl:value-of select="$paragraph-dtsurn"/></sctap:dtsurn>
                     <!-- end of dts number creation -->
                     
                     <!-- begin level creation -->

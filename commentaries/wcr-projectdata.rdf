@@ -15,6 +15,7 @@
       <dc:title>Chatton Reportatio</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>wcr</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
@@ -178,6 +179,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
@@ -302,6 +305,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d3"/>
@@ -359,6 +364,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d3"/>
@@ -426,6 +433,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b4q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b4q3"/>
@@ -457,6 +466,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d1q2"/>
@@ -474,6 +485,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d2q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d2q2"/>
@@ -493,6 +506,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d3q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d3q2"/>
@@ -514,6 +529,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d4q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d4q2"/>
@@ -529,6 +546,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d5q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d5q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d5q2"/>
@@ -542,6 +561,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d6q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d6q1"/>
    </rdf:Description>
@@ -553,6 +574,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d7q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d7q1"/>
    </rdf:Description>
@@ -564,6 +587,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d8q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d8q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d8q2"/>
@@ -581,6 +606,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d9q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d9q1"/>
    </rdf:Description>
@@ -592,6 +619,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d10q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d10q1"/>
    </rdf:Description>
@@ -603,6 +632,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d11q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d11q1"/>
    </rdf:Description>
@@ -614,6 +645,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d12q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d12q1"/>
    </rdf:Description>
@@ -625,6 +658,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d13q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d13q1"/>
    </rdf:Description>
@@ -636,6 +671,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d14-16q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d14-16q1"/>
    </rdf:Description>
@@ -647,6 +684,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d17q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d17q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d17q2"/>
@@ -664,6 +703,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d18q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d18q1"/>
    </rdf:Description>
@@ -675,6 +716,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d19q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d19q1"/>
    </rdf:Description>
@@ -686,6 +729,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d20q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d20q1"/>
    </rdf:Description>
@@ -697,6 +742,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d21q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d21q1"/>
    </rdf:Description>
@@ -708,6 +755,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d22q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d22q1"/>
    </rdf:Description>
@@ -719,6 +768,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d23q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d23q1"/>
    </rdf:Description>
@@ -730,6 +781,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d24q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d24q1"/>
    </rdf:Description>
@@ -741,6 +794,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.23</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d25q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d25q1"/>
    </rdf:Description>
@@ -752,6 +807,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>024</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.24</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d26q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d26q1"/>
    </rdf:Description>
@@ -763,6 +820,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>025</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.25</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d27q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d27q1"/>
    </rdf:Description>
@@ -774,6 +833,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>026</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.26</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d28q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d28q1"/>
    </rdf:Description>
@@ -785,6 +846,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>027</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.27</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d29q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d29q1"/>
    </rdf:Description>
@@ -796,6 +859,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>028</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.28</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d30q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d30q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d30q2"/>
@@ -813,6 +878,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>029</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.29</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d31q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d31q1"/>
    </rdf:Description>
@@ -824,6 +891,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>030</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.30</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d32q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d32q1"/>
    </rdf:Description>
@@ -835,6 +904,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>031</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.31</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d33-34q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d33-34q1"/>
    </rdf:Description>
@@ -846,6 +917,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>032</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.32</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d35q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d35q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d35q2"/>
@@ -859,6 +932,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>033</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.33</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d36q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d36q1"/>
    </rdf:Description>
@@ -870,6 +945,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>034</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.34</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d37q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d37q1"/>
    </rdf:Description>
@@ -881,6 +958,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>035</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.35</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d38q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d38q1"/>
    </rdf:Description>
@@ -892,6 +971,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>036</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.36</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d39q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d39q1"/>
    </rdf:Description>
@@ -903,6 +984,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>037</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.37</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d40-41q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d40-41q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d40-41q2"/>
@@ -916,6 +999,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>038</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.38</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d42q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d42q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d42q2"/>
@@ -929,6 +1014,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>039</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.39</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d43q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d43q1"/>
    </rdf:Description>
@@ -940,6 +1027,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>040</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.40</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d44q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d44q1"/>
    </rdf:Description>
@@ -951,6 +1040,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>041</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.41</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d45q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d45q1"/>
    </rdf:Description>
@@ -962,6 +1053,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>042</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.42</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d46q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d46q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d46q2"/>
@@ -975,6 +1068,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>043</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.43</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d47q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d47q1"/>
    </rdf:Description>
@@ -986,6 +1081,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book1"/>
       <sctap:sectionOrderNumber>044</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.44</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d48q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b1d48q1"/>
    </rdf:Description>
@@ -997,6 +1094,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d1q2"/>
@@ -1012,6 +1111,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d2q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d2q2"/>
@@ -1031,6 +1132,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d3q1"/>
    </rdf:Description>
@@ -1042,6 +1145,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d4q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d4q2"/>
@@ -1061,6 +1166,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d5q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d5q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d5q2"/>
@@ -1074,6 +1181,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>050</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d5-6q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d5-6q1"/>
    </rdf:Description>
@@ -1085,6 +1194,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>051</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d7q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d7q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d7q2"/>
@@ -1098,6 +1209,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>052</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d8q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d8q1"/>
    </rdf:Description>
@@ -1109,6 +1222,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>053</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d9-10q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d9-10q1"/>
    </rdf:Description>
@@ -1120,6 +1235,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>054</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d11q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d11q1"/>
    </rdf:Description>
@@ -1131,6 +1248,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>055</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d12q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d12q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d12q2"/>
@@ -1144,6 +1263,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>056</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d13q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d13q1"/>
    </rdf:Description>
@@ -1155,6 +1276,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>057</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d14q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d14q1"/>
    </rdf:Description>
@@ -1166,6 +1289,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>058</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d15q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d15q1"/>
    </rdf:Description>
@@ -1177,6 +1302,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>059</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d16-17q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d16-17q1"/>
    </rdf:Description>
@@ -1188,6 +1315,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>060</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d18q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d18q1"/>
    </rdf:Description>
@@ -1199,6 +1328,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>061</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d19q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d19q1"/>
    </rdf:Description>
@@ -1210,6 +1341,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book2"/>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>062</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d20q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b2d20q1"/>
    </rdf:Description>
@@ -1221,6 +1354,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>063</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d1q2"/>
@@ -1238,6 +1373,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>064</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d2q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d2q2"/>
@@ -1251,6 +1388,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>065</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d3q1"/>
    </rdf:Description>
@@ -1262,6 +1401,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>066</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d4q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d4q1"/>
    </rdf:Description>
@@ -1273,6 +1414,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>067</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d5q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d5q1"/>
    </rdf:Description>
@@ -1284,6 +1427,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>068</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d6q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d6q1"/>
    </rdf:Description>
@@ -1295,6 +1440,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>069</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d7q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d7q1"/>
    </rdf:Description>
@@ -1306,6 +1453,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>070</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d8q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d8q1"/>
    </rdf:Description>
@@ -1317,6 +1466,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>071</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d9q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d9q1"/>
    </rdf:Description>
@@ -1328,6 +1479,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>072</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d10q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d10q1"/>
    </rdf:Description>
@@ -1339,6 +1492,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>073</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d11q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d11q1"/>
    </rdf:Description>
@@ -1350,6 +1505,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>074</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d12q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d12q1"/>
    </rdf:Description>
@@ -1361,6 +1518,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>075</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d13q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d13q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d13q2"/>
@@ -1374,6 +1533,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>076</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d14q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d14q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d14q2"/>
@@ -1391,6 +1552,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>077</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d15q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d15q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d15q2"/>
@@ -1408,6 +1571,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>078</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d16q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d16q1"/>
    </rdf:Description>
@@ -1419,6 +1584,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>079</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d18q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d18q1"/>
    </rdf:Description>
@@ -1430,6 +1597,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>080</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d20q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d20q1"/>
    </rdf:Description>
@@ -1441,6 +1610,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>081</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d23q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d23q1"/>
    </rdf:Description>
@@ -1452,6 +1623,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>082</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d26q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d26q1"/>
    </rdf:Description>
@@ -1463,6 +1636,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>083</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d27q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d27q1"/>
    </rdf:Description>
@@ -1474,6 +1649,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonreportatio/librum/wcr-book3"/>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>084</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d33q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d33q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/item/wcr-b3d33q2"/>
@@ -1494,6 +1671,8 @@
       <sctap:questionTitle>Utrum ad hoc quod viator virtuose diligat Deum propter se vel proximum propter Deum requiratur qod Deus sit finis utriusque actus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d1q1</sctap:gitRepository>
@@ -1510,6 +1689,8 @@
       <sctap:questionTitle>Utrum in voluntate viatoris causetur aliqua dilectio Dei virtuosa distincta a delectatione et ab amore concupiscentiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.1.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d1q2</sctap:gitRepository>
@@ -1526,6 +1707,8 @@
       <sctap:questionTitle>An anima cognoscens Deum cognitione sibi propria possit non frui Deo stante illa cognitione</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.1.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d1q3</sctap:gitRepository>
@@ -1542,6 +1725,8 @@
       <sctap:questionTitle>Utrum includat contradictionem quod aliquis fruatur essentia divina non fruendo persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.1.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d1q4</sctap:gitRepository>
@@ -1558,6 +1743,8 @@
       <sctap:questionTitle>Utrum natura divina sit per se iusta </sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d2q1</sctap:gitRepository>
@@ -1574,6 +1761,8 @@
       <sctap:questionTitle>Utrum possit evidenter ostendi aliquod esse unum primum ens in universo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.2.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d2q2</sctap:gitRepository>
@@ -1590,6 +1779,8 @@
       <sctap:questionTitle>Utrum natura specifica primi entis sit minus universalis quam natura specifica alterius rei</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.2.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d2q3</sctap:gitRepository>
@@ -1606,6 +1797,8 @@
       <sctap:questionTitle>Utrum ens infinitum sit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.2.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d2q4</sctap:gitRepository>
@@ -1622,6 +1815,8 @@
       <sctap:questionTitle>Utrum includat contradictionem quod tres personae sint unus Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.2.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d2q5</sctap:gitRepository>
@@ -1638,6 +1833,8 @@
       <sctap:questionTitle>Utrum viator cognoscat Deum evidenter esse alia cognitione a fide</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d3q1</sctap:gitRepository>
@@ -1654,6 +1851,8 @@
       <sctap:questionTitle>Utrum sit aliquis conceptus communis et universalis Deo et creaturae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d3q2</sctap:gitRepository>
@@ -1670,6 +1869,8 @@
       <sctap:questionTitle>Utrum aliquis conceptus universalis sit univocus Deo et creaturae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d3q3</sctap:gitRepository>
@@ -1686,6 +1887,8 @@
       <sctap:questionTitle>Utrum ens commune ad entia in anima et extra animam sit obiectum adaequatum intellectus nostri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d3q4</sctap:gitRepository>
@@ -1702,6 +1905,8 @@
       <sctap:questionTitle>Utrum conceptus communis Deo et creaturae sit primus conceptus primitate generationis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d3q5</sctap:gitRepository>
@@ -1718,6 +1923,8 @@
       <sctap:questionTitle>Utrum partes imaginis plus different quam partes vestigii</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.3.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d3q6</sctap:gitRepository>
@@ -1734,6 +1941,8 @@
       <sctap:questionTitle>Utrum haec sit vera 'Deus generat Deum'</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d4q1</sctap:gitRepository>
@@ -1750,6 +1959,8 @@
       <sctap:questionTitle>Utrum Deus sit Trinitas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.4.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d4q2</sctap:gitRepository>
@@ -1766,6 +1977,8 @@
       <sctap:questionTitle>Utrum productio divinae personae praecedat origine vel natura cognitionem creaturarum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.4.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d4q3</sctap:gitRepository>
@@ -1782,6 +1995,8 @@
       <sctap:questionTitle>Utrum essentia divina se habeat active respectu generationis Filii</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d5q1</sctap:gitRepository>
@@ -1798,6 +2013,8 @@
       <sctap:questionTitle>Utrum essentia divina generetur in generatione Filii</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.5.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d5q2</sctap:gitRepository>
@@ -1814,6 +2031,8 @@
       <sctap:questionTitle>Utrum Pater generet Filium voluntate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d6"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d6q1</sctap:gitRepository>
@@ -1830,6 +2049,8 @@
       <sctap:questionTitle>Utrum Filius habeat potentiam generandi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d7q1</sctap:gitRepository>
@@ -1846,6 +2067,8 @@
       <sctap:questionTitle>Utrum Deus sit in genere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d8q1</sctap:gitRepository>
@@ -1862,6 +2085,8 @@
       <sctap:questionTitle>Utrum simplicitati divinae repugnet definiri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.8.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d8q2</sctap:gitRepository>
@@ -1878,6 +2103,8 @@
       <sctap:questionTitle>Utrum Deus sit omnino simplex et immutabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.8.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d8q3</sctap:gitRepository>
@@ -1894,6 +2121,8 @@
       <sctap:questionTitle>Utrum cum simplicitate Dei stet quod conceptus attributales denominent Deum formaliter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.8.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d8q4</sctap:gitRepository>
@@ -1910,6 +2139,8 @@
       <sctap:questionTitle>Utrum productio Filii sit generatio univoca et aeterna</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d9"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d9q1</sctap:gitRepository>
@@ -1926,6 +2157,8 @@
       <sctap:questionTitle>Utrum voluntas sit principium producendi Spiritum Sanctum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d10"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d10q1</sctap:gitRepository>
@@ -1942,6 +2175,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d11"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d11q1</sctap:gitRepository>
@@ -1958,6 +2193,8 @@
       <sctap:questionTitle>Utrum Pater et Filius sint unum principium spirans Spiritum Sanctum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d12q1</sctap:gitRepository>
@@ -1974,6 +2211,8 @@
       <sctap:questionTitle>Utrum spiratio Spiritus Sancti sit quaedam generatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d13"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d13q1</sctap:gitRepository>
@@ -1990,6 +2229,8 @@
       <sctap:questionTitle>Utrum processio aeterna Spiritus Sancti differat ab eius missione temporali</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d14-16"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d14-16q1</sctap:gitRepository>
@@ -2006,6 +2247,8 @@
       <sctap:questionTitle>Utrum necesse sit ponere caritatem inhaerentem animae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d71"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d17q1</sctap:gitRepository>
@@ -2022,6 +2265,8 @@
       <sctap:questionTitle>Utrum caritas augeatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.15.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d71"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d17q2</sctap:gitRepository>
@@ -2038,6 +2283,8 @@
       <sctap:questionTitle>Utrum caritas augeatur per additionem partium eiusdem rationis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.15.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d71"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d17q3</sctap:gitRepository>
@@ -2054,6 +2301,8 @@
       <sctap:questionTitle>Utrum Deus possit causare aliquam caritatem qua non possit causare maiorem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.15.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d71"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d17q4</sctap:gitRepository>
@@ -2070,6 +2319,8 @@
       <sctap:questionTitle>Utrum donum dicat proprietatem personalem Spiritus Sancti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d18"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d18q1</sctap:gitRepository>
@@ -2086,6 +2337,8 @@
       <sctap:questionTitle>An quaelibet persona sit in alia per circumincessionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d19"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d19q1</sctap:gitRepository>
@@ -2102,6 +2355,8 @@
       <sctap:questionTitle>Utrum personae divinae sint aequales</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d20"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d20q1</sctap:gitRepository>
@@ -2118,6 +2373,8 @@
       <sctap:questionTitle>Utrum solus Pater sit Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.19.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d21"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d21q1</sctap:gitRepository>
@@ -2134,6 +2391,8 @@
       <sctap:questionTitle>Utrum Deus sit nominabilis a viatore et hoc distincte</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.20.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d22"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d22q1</sctap:gitRepository>
@@ -2150,6 +2409,8 @@
       <sctap:questionTitle>Utrum hoc nomen 'persona' sit nomen secundae intentionis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.21.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d23"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d23q1</sctap:gitRepository>
@@ -2166,6 +2427,8 @@
       <sctap:questionTitle>Utrum unitas Dei sit principium alicuius numeri de genere quantitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.22.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d24"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d24q1</sctap:gitRepository>
@@ -2182,6 +2445,8 @@
       <sctap:questionTitle>Utrum persona dicatur secundum substantiam vel secundum relationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.23.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d25"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d25q1</sctap:gitRepository>
@@ -2198,6 +2463,8 @@
       <sctap:questionTitle>Utrum personae divinae constituantur per relationes originis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.24.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d26"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d26q1</sctap:gitRepository>
@@ -2214,6 +2481,8 @@
       <sctap:questionTitle>An solus Filius in divinis sit Verbum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.25.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d27"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d27q1</sctap:gitRepository>
@@ -2230,6 +2499,8 @@
       <sctap:questionTitle>Utrum innascibilitas sit proprietas constitutiva Patris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.26.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d28"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d28q1</sctap:gitRepository>
@@ -2246,6 +2517,8 @@
       <sctap:questionTitle>Utrum 'principium' dictur univoce de productivo divinarum personarum et creaturarum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.27.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d29"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d29q1</sctap:gitRepository>
@@ -2262,6 +2535,8 @@
       <sctap:questionTitle>Utrum sit necessarium pnoere res relativas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.28.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d30q1</sctap:gitRepository>
@@ -2278,6 +2553,8 @@
       <sctap:questionTitle>Utrum unio aliquorum in eodem supposito sit forma realis distincta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.28.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d30q2</sctap:gitRepository>
@@ -2294,6 +2571,8 @@
       <sctap:questionTitle>Utrum omnis respectus sit actio vel passio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.28.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d30q3</sctap:gitRepository>
@@ -2310,6 +2589,8 @@
       <sctap:questionTitle>Utrum relatio temporalis Dei ad creaturam sit relatio realis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.28.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d30q4</sctap:gitRepository>
@@ -2326,6 +2607,8 @@
       <sctap:questionTitle>Utrum aequalitas, identitas et similitudo sint relationes reales in divinis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.29.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d31"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d31q1</sctap:gitRepository>
@@ -2342,6 +2625,8 @@
       <sctap:questionTitle>Utrum sapientis Filii sit sapientis Patris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.30.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d32"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d32q1</sctap:gitRepository>
@@ -2358,6 +2643,8 @@
       <sctap:questionTitle>Utrum proprietas personalis in divinis sit idem cum essentia et cum persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.31.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d33-34q1</sctap:gitRepository>
@@ -2374,6 +2661,8 @@
       <sctap:questionTitle>Utrum Deus cognoscat alia a se per essentiam suam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.32.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d35q1</sctap:gitRepository>
@@ -2390,6 +2679,8 @@
       <sctap:questionTitle>Utrum Deus intelligat alia a se per ideas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.32.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d35q2</sctap:gitRepository>
@@ -2406,6 +2697,8 @@
       <sctap:questionTitle>Utrum perfectiones creaturarum fuerint in Deo ab aeterno distinctae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.33.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d36"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d36q1</sctap:gitRepository>
@@ -2422,6 +2715,8 @@
       <sctap:questionTitle>Utrum Deus sit ubique per essentiam, praesentiam et potentiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.34.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d37"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d37q1</sctap:gitRepository>
@@ -2438,6 +2733,8 @@
       <sctap:questionTitle>Utrum cum contingentia futurorum stet quod Deus sciat futura contingentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.35.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d38"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d38q1</sctap:gitRepository>
@@ -2454,6 +2751,8 @@
       <sctap:questionTitle>Utrum Deus possit scire plura quam scit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.36.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d39"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d39q1</sctap:gitRepository>
@@ -2470,6 +2769,8 @@
       <sctap:questionTitle>Utrum mysterium incarnationis divinae fuerit meritum praedestinationis humanae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.37.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d40-41"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d40-41q1</sctap:gitRepository>
@@ -2486,6 +2787,8 @@
       <sctap:questionTitle>Utrum stent simul quod Deus vult a necessario fore et tamen quod a contingenter eveniat</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.37.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d40-41"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d40-41q2</sctap:gitRepository>
@@ -2502,6 +2805,8 @@
       <sctap:questionTitle>Utrum Deus possit facere omne factibile a quacumque creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.38.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d42"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d42q1</sctap:gitRepository>
@@ -2518,6 +2823,8 @@
       <sctap:questionTitle>Utrum Deus possit facere quae non facit nec faciet</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.38.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d42"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d42q2</sctap:gitRepository>
@@ -2534,6 +2841,8 @@
       <sctap:questionTitle>Utrum prius conveniat Deo non posse facere impossibile quam impossibile non posse fieri a Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.39.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d43"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d43q1</sctap:gitRepository>
@@ -2550,6 +2859,8 @@
       <sctap:questionTitle>Utrum Deus possit facere meliorem mundum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.40.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d44"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d44q1</sctap:gitRepository>
@@ -2566,6 +2877,8 @@
       <sctap:questionTitle>Utrum voluntas Dei sit cause prima et immediata omnium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.41.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d45"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d45q1</sctap:gitRepository>
@@ -2582,6 +2895,8 @@
       <sctap:questionTitle>Utrum divina voluntas possit impediri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.42.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d46"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d46q1</sctap:gitRepository>
@@ -2598,6 +2913,8 @@
       <sctap:questionTitle>Utrum productio activa creaturae sit volitio Dei</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.42.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d46"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d46q2</sctap:gitRepository>
@@ -2614,6 +2931,8 @@
       <sctap:questionTitle>Utrum Deus possit praecipere malum fieri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.43.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d47"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d47q1</sctap:gitRepository>
@@ -2630,6 +2949,8 @@
       <sctap:questionTitle>Utrum voluntas creata teneatur conformari voluntati divinae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:1.44.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b1d48"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b1d48q1</sctap:gitRepository>
@@ -2646,6 +2967,8 @@
       <sctap:questionTitle>Utrum ex causalitate ultimi finis possit probari Deum esse causam efficientem aliorum a se</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d1q1</sctap:gitRepository>
@@ -2662,6 +2985,8 @@
       <sctap:questionTitle>Utrum Deus produxit alia a se per creationem activam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.1.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d1q2</sctap:gitRepository>
@@ -2678,6 +3003,8 @@
       <sctap:questionTitle>Utrum mundus potuit fuisse productus ab aeterno</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.1.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d1q3</sctap:gitRepository>
@@ -2694,6 +3021,8 @@
       <sctap:questionTitle>Utrum motus sit aliqua res distincta ab absolutis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d2q1</sctap:gitRepository>
@@ -2710,6 +3039,8 @@
       <sctap:questionTitle>Utrum motus caeli sit tempus mensurans alia successiva per rem aliam a se</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.2.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d2q2</sctap:gitRepository>
@@ -2726,6 +3057,8 @@
       <sctap:questionTitle>Utrum motus componatur ex indivisibilibus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.2.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d2q3</sctap:gitRepository>
@@ -2742,6 +3075,8 @@
       <sctap:questionTitle>Utrum necesse sit ponere mensuram durativam rerum permanentium aliam a tempore</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.2.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d2q4</sctap:gitRepository>
@@ -2758,6 +3093,8 @@
       <sctap:questionTitle>Utrum angelus possit moveri localiter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.2.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d2q5</sctap:gitRepository>
@@ -2774,6 +3111,8 @@
       <sctap:questionTitle>Utrum repugnet angelo componi ex pluribus distinctis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d3q1</sctap:gitRepository>
@@ -2790,6 +3129,8 @@
       <sctap:questionTitle>Utrum species rei visibilis multiplicetur per medium corporale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d4q1</sctap:gitRepository>
@@ -2806,6 +3147,8 @@
       <sctap:questionTitle>Utrum sensibile causet in sensu exteriori speciem differentem ab actu</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.4.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d4q2</sctap:gitRepository>
@@ -2822,6 +3165,8 @@
       <sctap:questionTitle>Utrum in sensu interiori sit necesse ponere speciem differentem ab actu</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.4.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d4q3</sctap:gitRepository>
@@ -2838,6 +3183,8 @@
       <sctap:questionTitle>An in parte intellectiva sit necesse ponere speciem distinctam ab actu</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.4.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d4q4</sctap:gitRepository>
@@ -2854,6 +3201,8 @@
       <sctap:questionTitle>Utrum angelus cognoscat omnia per species distinctas ab essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.4.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d4q5</sctap:gitRepository>
@@ -2870,6 +3219,8 @@
       <sctap:questionTitle>Utrum amor angeli differat a substantia sua</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d5q1</sctap:gitRepository>
@@ -2886,6 +3237,8 @@
       <sctap:questionTitle>Utrum peccatum angeli sit aliquid positivum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.5.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d5q2</sctap:gitRepository>
@@ -2902,6 +3255,8 @@
       <sctap:questionTitle>An angelus potuerit peccare in primo instanti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d5-6"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d5-6q1</sctap:gitRepository>
@@ -2918,6 +3273,8 @@
       <sctap:questionTitle>Utrum angelus beatus possit peccare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d7q1</sctap:gitRepository>
@@ -2934,6 +3291,8 @@
       <sctap:questionTitle>Utrum daemones semper sint in actu malo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.7.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d7q2</sctap:gitRepository>
@@ -2950,6 +3309,8 @@
       <sctap:questionTitle>An angelus possit naturaliter cognoscere cogitationes nostras</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d8q1</sctap:gitRepository>
@@ -2966,6 +3327,8 @@
       <sctap:questionTitle>Utrum unus angelus possit alteri loqui</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d9-10"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d9-10q1</sctap:gitRepository>
@@ -2982,6 +3345,8 @@
       <sctap:questionTitle>An angelus custodiens possit causare aliquid in homine</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d11"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d11q1</sctap:gitRepository>
@@ -2998,6 +3363,8 @@
       <sctap:questionTitle>Utrum materia sit in rebus transmutabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d12q1</sctap:gitRepository>
@@ -3014,6 +3381,8 @@
       <sctap:questionTitle>Utrum in caelo sit materia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.11.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d12q2</sctap:gitRepository>
@@ -3030,6 +3399,8 @@
       <sctap:questionTitle>Utrum sol causet lumen in medio distinctum a sole et medio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d13"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d13q1</sctap:gitRepository>
@@ -3046,6 +3417,8 @@
       <sctap:questionTitle>Utrum caelum moveatur a propria forma</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d14q1</sctap:gitRepository>
@@ -3062,6 +3435,8 @@
       <sctap:questionTitle>Utrum in brutis sit forma sensitiva educta de potentia materiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d15"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d15q1</sctap:gitRepository>
@@ -3078,6 +3453,8 @@
       <sctap:questionTitle>Utrum imago animae sit eiusdem rationis cum imagine angeli</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d16-17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d16-17q1</sctap:gitRepository>
@@ -3094,6 +3471,8 @@
       <sctap:questionTitle>Utrum necesse sit ponere rationes seminales in materia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d18"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d18q1</sctap:gitRepository>
@@ -3110,6 +3489,8 @@
       <sctap:questionTitle>Utrum si Adam non peccasset, fuisset mortuus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d19"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d19q1</sctap:gitRepository>
@@ -3126,6 +3507,8 @@
       <sctap:questionTitle>Utrum si Adam non peccasset, soli illi fuissent geniti qui modo sunt electi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:2.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b2d20"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b2d20q1</sctap:gitRepository>
@@ -3142,6 +3525,8 @@
       <sctap:questionTitle>Utrum includat contradictionem naturam humanam uniri Filio Dei</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d1q1</sctap:gitRepository>
@@ -3158,6 +3543,8 @@
       <sctap:questionTitle>Utrum suppositum creatum possit assumere naturam humanam in unitate suppositi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.1.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d1q2</sctap:gitRepository>
@@ -3174,6 +3561,8 @@
       <sctap:questionTitle>Utrum tres personae possint assumere eandem naturam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.1.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d1q3</sctap:gitRepository>
@@ -3190,6 +3579,8 @@
       <sctap:questionTitle>Utrum assumptio naturae suffecisset ad redemptionem humanam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.1.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d1q4</sctap:gitRepository>
@@ -3206,6 +3597,8 @@
       <sctap:questionTitle>Utrum in corpore Christi sit aliqua quantitas distincta a corpore Christi et qualitatibus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d2q1</sctap:gitRepository>
@@ -3222,6 +3615,8 @@
       <sctap:questionTitle>Utrum Filius Dei assumpsit integram humanitatem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.2.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d2q2</sctap:gitRepository>
@@ -3238,6 +3633,8 @@
       <sctap:questionTitle>Utrum beata Virgo prius fuit in originali peccato quam sanctificata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d3q1</sctap:gitRepository>
@@ -3254,6 +3651,8 @@
       <sctap:questionTitle>Utrum beata Virgo fuerit vera mater Christi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d4q1</sctap:gitRepository>
@@ -3270,6 +3669,8 @@
       <sctap:questionTitle>Utrum natura humana in Christo sit persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d5q1</sctap:gitRepository>
@@ -3286,6 +3687,8 @@
       <sctap:questionTitle>Utrum in Christo sint plura esse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d6"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d6q1</sctap:gitRepository>
@@ -3302,6 +3705,8 @@
       <sctap:questionTitle>Utrum communicatio idiomatum sit propria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d7q1</sctap:gitRepository>
@@ -3318,6 +3723,8 @@
       <sctap:questionTitle>Utrum in Christo sint duae filiationes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d8q1</sctap:gitRepository>
@@ -3334,6 +3741,8 @@
       <sctap:questionTitle>Utrum Christus sit adorandus adoratione latriae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d9"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d9q1</sctap:gitRepository>
@@ -3350,6 +3759,8 @@
       <sctap:questionTitle>Utrum Christus sit Filius Dei adoptivus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d10"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d10q1</sctap:gitRepository>
@@ -3366,6 +3777,8 @@
       <sctap:questionTitle>Utrum Christus sit creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d11"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d11q1</sctap:gitRepository>
@@ -3382,6 +3795,8 @@
       <sctap:questionTitle>Utrum Christus potuit peccare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d12q1</sctap:gitRepository>
@@ -3398,6 +3813,8 @@
       <sctap:questionTitle>An in anima Christi sit aliqua gratia creata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d13"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d13q1</sctap:gitRepository>
@@ -3414,6 +3831,8 @@
       <sctap:questionTitle>Utrum in anima Christi fuit gratia vel gloria in summo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.13.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d13"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d13q2</sctap:gitRepository>
@@ -3430,6 +3849,8 @@
       <sctap:questionTitle>Utrum anima Christi videat creaturas in Verbo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d14q1</sctap:gitRepository>
@@ -3446,6 +3867,8 @@
       <sctap:questionTitle>Utrum anima Christi eodem actu quo videt Verbum videat creaturas in Verbo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.14.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d14q2</sctap:gitRepository>
@@ -3462,6 +3885,8 @@
       <sctap:questionTitle>Utrum anima Christi cognoscat creaturas per cognitionem infusam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.14.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d14q3</sctap:gitRepository>
@@ -3478,6 +3903,8 @@
       <sctap:questionTitle>Utrum anima Christi acquisivit scientias modo humano</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.14.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d14q4</sctap:gitRepository>
@@ -3494,6 +3921,8 @@
       <sctap:questionTitle>An in Christo fuerint simul summus dolor et summum gaudium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d15"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d15q1</sctap:gitRepository>
@@ -3510,6 +3939,8 @@
       <sctap:questionTitle>Utrum corpus Christi sit mors</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.15.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d15"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d15q2</sctap:gitRepository>
@@ -3526,6 +3957,8 @@
       <sctap:questionTitle>Utrum crucifixio Christi passiva fuit aliqua res distincta ab omnibus absolutis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.15.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d15"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d15q3</sctap:gitRepository>
@@ -3542,6 +3975,8 @@
       <sctap:questionTitle>Utrum Christus habuit timorem immoderatum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.15.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d15"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d15q4</sctap:gitRepository>
@@ -3558,6 +3993,8 @@
       <sctap:questionTitle>Utrum Christus meruerit per carentiam omnis dominii rerum temporalium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d16"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d16q1</sctap:gitRepository>
@@ -3574,6 +4011,8 @@
       <sctap:questionTitle>Utrum Christus potuit peccare in primo instanti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d18"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d18q1</sctap:gitRepository>
@@ -3590,6 +4029,8 @@
       <sctap:questionTitle>Utrum mors Dei et hominis fuerit necessaria ad redemptionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d20"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d20q1</sctap:gitRepository>
@@ -3606,6 +4047,8 @@
       <sctap:questionTitle>Utrum fides sit necessaria ad salutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.19.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d23"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d23q1</sctap:gitRepository>
@@ -3622,6 +4065,8 @@
       <sctap:questionTitle>Utrum spes sit virtus theologica distincta a fide et caritate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.20.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d26"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d26q1</sctap:gitRepository>
@@ -3638,6 +4083,8 @@
       <sctap:questionTitle>Utrum caritas sit necessaria ad salutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.21.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d27"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d27q1</sctap:gitRepository>
@@ -3654,6 +4101,8 @@
       <sctap:questionTitle>Utrum in homine sint aliquae passiones</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.22.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d33q1</sctap:gitRepository>
@@ -3670,6 +4119,8 @@
       <sctap:questionTitle>Utrum indigeamus acquirere virtutes moderativas passionum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.22.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d33q2</sctap:gitRepository>
@@ -3686,6 +4137,8 @@
       <sctap:questionTitle>Utrum virtutes distinguantur in genere moris ex circumstantiis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.22.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d33q3</sctap:gitRepository>
@@ -3702,6 +4155,8 @@
       <sctap:questionTitle>Utrum sit una prudentia omnes virtutes connectans</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.22.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d33q4</sctap:gitRepository>
@@ -3718,6 +4173,8 @@
       <sctap:questionTitle>Utrum iustitia, temperantia et fortitudo connectantur in se ipsis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:3.22.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/distinctio/wcr-b3d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b3d33q5</sctap:gitRepository>
@@ -3734,6 +4191,8 @@
       <sctap:questionTitle>Utrum Sacramenta novae legis auferant peccatum originale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q1</sctap:gitRepository>
@@ -3750,6 +4209,8 @@
       <sctap:questionTitle>Utrum Baptismus sit Sacramentum necessarium ad salutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q2</sctap:gitRepository>
@@ -3766,6 +4227,8 @@
       <sctap:questionTitle>Utrum corpus Christi sit realiter in Sacramento</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q3</sctap:gitRepository>
@@ -3782,6 +4245,8 @@
       <sctap:questionTitle>Utrum corpus Christi in Eucharistia habeat easdem proprietates quas habet in caelo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q4</sctap:gitRepository>
@@ -3798,6 +4263,8 @@
       <sctap:questionTitle>Utrum quantitas panis possit seperari ab omni materia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q5</sctap:gitRepository>
@@ -3814,6 +4281,8 @@
       <sctap:questionTitle>Utrum accidentia separata post consecrationem possint agere et pati sicut ante</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q6</sctap:gitRepository>
@@ -3830,6 +4299,8 @@
       <sctap:questionTitle>Utrum peccatum mortale deleatur per poenitentiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q7</sctap:gitRepository>
@@ -3846,6 +4317,8 @@
       <sctap:questionTitle>Utrum Sacramentum poenitentiae requiratur praeter poenitentiam-virtutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q8</sctap:gitRepository>
@@ -3862,6 +4335,8 @@
       <sctap:questionTitle>Utrum resurrectio generalis hominum sit futura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q9</sctap:gitRepository>
@@ -3878,6 +4353,8 @@
       <sctap:questionTitle>Utrum beatitudo aeterna hominum sit futura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q10</sctap:gitRepository>
@@ -3893,6 +4370,8 @@
       <sctap:questionTitle>Utrum aeterna punitio malorum sit futura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonreportatio:4.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcr-b4q11</sctap:gitRepository>

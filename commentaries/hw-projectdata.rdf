@@ -15,11 +15,27 @@
       <dc:title>Henricus de Werl Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>hw</sctap:slug>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.werlcommentary</sctap:dtsurn>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/distinctio/hw-b1prol"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/distinctio/hw-b1prol">
+      <dc:title>Librum 1, Prologus</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/librum/hw-b1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/werlcommentary/librum/hw-b1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.werlcommentary:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/item/hw-b1prolq1">
@@ -31,8 +47,10 @@
       <sctap:questionTitle>Utrum facultas theologiae sit tamquam de subiecto primo de deo sub deitatis ratione</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.werlcommentary:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/distinctio/hw-b1prol"/>
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/hw-b1prolq1</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Avicenna"/>
@@ -366,8 +384,10 @@
       <sctap:questionTitle>Utrum theologia sit scientia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.werlcommentary:1.1.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/distinctio/hw-b1prol"/>
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/hw-b1prolq2</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -691,8 +711,10 @@
       <sctap:questionTitle>Utrum scientia theologiae sit scientia practica vel speculativa</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.werlcommentary:1.1.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/werlcommentary/distinctio/hw-b1prol"/>
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/hw-b1prolq2</sctap:gitRepository>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>

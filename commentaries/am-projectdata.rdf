@@ -15,6 +15,7 @@
       <dc:title>Albertus Magnus Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
@@ -49,31 +50,10 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa5"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa6"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa7"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa9"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa10"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa11"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa12"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa13"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa14"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa15"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa16"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa17"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pFa18"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa19"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa20"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa21"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa22"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d26"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
@@ -100,6 +80,223 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1">
+      <dc:title>Librum I, Distinctio I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa11"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa12"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa13"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa15"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa16"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa17"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pFa18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pFa18"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa20"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa21"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa21"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa22"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pHa22"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d26">
+      <dc:title>Librum I, Distinctio XXVI</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pA">
+      <dc:title>Librum I, Distinctio I, pars A</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pB">
+      <dc:title>Librum I, Distinctio I, pars B</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa11"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa12"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa13"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pBa15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pC">
+      <dc:title>Librum I, Distinctio I, pars C</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa16"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pCa17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pD">
+      <dc:title>Librum I, Distinctio I, pars D</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pE">
+      <dc:title>Librum I, Distinctio I, pars E</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pF">
+      <dc:title>Librum I, Distinctio I, pars F</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pFa18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pFa18"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pG">
+      <dc:title>Librum I, Distinctio I, pars G</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pGa20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d1pI">
+      <dc:title>Librum I, Distinctio I, pars I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pIa23"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/pars/am-l1d26pA">
+      <dc:title>Librum I, Distinctio XXVI, pars A</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/pars"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-l1d26"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/albertusmagnuscommentary/librum/am-librum1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.2.1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/albertusmagnuscommentary/item/am-l1d26pAa1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/albertusmagnuscommentary/item/am-l1d1pAa1">
       <dc:title>Librum I, Distinctio I, pars A, Articulus 1</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusMangus"/>
@@ -109,8 +306,10 @@
       <sctap:questionTitle>Quomodo investigat subjectum Theologiae?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa1"/>
@@ -125,8 +324,10 @@
       <sctap:questionTitle>Quid sit subjectum Theologiae?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa2"/>
@@ -141,8 +342,10 @@
       <sctap:questionTitle>An Theologia sit una scientia, vel plures?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i3</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa3"/>
@@ -157,8 +360,10 @@
       <sctap:questionTitle>An Theologia sit scientia speculativa, vel practica?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i4</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa4"/>
@@ -173,8 +378,10 @@
       <sctap:questionTitle>De modis exponendi sacram Scripturam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i5</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa5"/>
@@ -189,8 +396,10 @@
       <sctap:questionTitle>An divisio bona sit in res, et signa?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i6</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa6</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa6"/>
@@ -205,8 +414,10 @@
       <sctap:questionTitle>An Sacramenta veteris legis conferebant gratiam?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.1.i7</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pAa7</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pAa7"/>
@@ -221,8 +432,10 @@
       <sctap:questionTitle>An res bene dividantur in fruibiles, et utibiles?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa8</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa8"/>
@@ -237,8 +450,10 @@
       <sctap:questionTitle>An res bene dividantur in fruibiles, et utibiles?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa8</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa8"/>
@@ -253,8 +468,10 @@
       <sctap:questionTitle>An beatitudine sit fruendum?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i3</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa9</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa9"/>
@@ -269,8 +486,10 @@
       <sctap:questionTitle>An creaturae juvent hominem ad beatitudinem?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i4</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa10</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa10"/>
@@ -285,8 +504,10 @@
       <sctap:questionTitle>An homines medii sint inter res utibiles, et fruibiles?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i5</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa11</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa11"/>
@@ -301,8 +522,10 @@
       <sctap:questionTitle>An diffinitio prima verbi frui sit bona?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i6</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa12</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa12"/>
@@ -317,8 +540,10 @@
       <sctap:questionTitle>An prima diffinitio verbi uti sit bona?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i7</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa13</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa13"/>
@@ -333,8 +558,10 @@
       <sctap:questionTitle>An sint tres res quibus fruendum est?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i8</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa14</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa14"/>
@@ -349,8 +576,10 @@
       <sctap:questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.2.i9</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pB"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pBa15</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pBa15"/>
@@ -365,8 +594,10 @@
       <sctap:questionTitle>An secunda diffinitio uti sit bona?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.3.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pC"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pCa16</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pCa16"/>
@@ -381,8 +612,10 @@
       <sctap:questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.3.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pC"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pCa17</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pCa17"/>
@@ -397,8 +630,10 @@
       <sctap:questionTitle>An Deus possit cognosci ab aliquo creato intellectu?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.6.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pF"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pFa18</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pFa18"/>
@@ -413,8 +648,10 @@
       <sctap:questionTitle>An Deus fruatur seipso?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.7.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pG"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pGa19</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pGa19"/>
@@ -429,8 +666,10 @@
       <sctap:questionTitle>In omne quod est in quantum est, est bonum?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.7.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pG"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pGa20</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pGa20"/>
@@ -445,8 +684,10 @@
       <sctap:questionTitle>An virtutibus fruendum sit?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.8.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pH"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pHa21</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pHa21"/>
@@ -461,8 +702,10 @@
       <sctap:questionTitle>An bona voluntate sine virtutibus sit fruendum?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.8.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pH"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pHa22</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pHa22"/>
@@ -477,8 +720,10 @@
       <sctap:questionTitle>An per omnes potentias animae fruemur?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.1.9.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d1pI"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d1pIa23</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d1pIa23"/>
@@ -492,8 +737,10 @@
       <sctap:questionTitle>Quid sit hypostasis?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.albertusmagnuscommentary:1.2.1.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmanguscommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/albertusmagnuscommentary/distinctio/am-l1d26pA"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/am-l1d26pAa1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/albertusmagnuscommentary/transcription/am-l1d26pAa1"/>

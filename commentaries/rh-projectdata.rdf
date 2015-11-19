@@ -15,6 +15,7 @@
       <dc:title>Holcot Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book3"/>
@@ -51,6 +52,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
@@ -71,6 +74,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
@@ -91,6 +96,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:3</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
@@ -103,6 +110,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
@@ -133,6 +142,8 @@
       <sctap:questionTitle>Principia: De obiecto actus credenda, utrum sit ipsum complexum vel res significata per complexum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/principia"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1prin1</sctap:gitRepository>
@@ -149,6 +160,8 @@
       <sctap:questionTitle>Utrum quilibet viator existens in gratia, assentiendo articulis fidei, mereatur vitam aeternam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q1</sctap:gitRepository>
@@ -165,6 +178,8 @@
       <sctap:questionTitle>Utrum voluntas creata in utendo ut fruendo sit libera libertate contradictionis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1prin</sctap:gitRepository>
@@ -181,6 +196,8 @@
       <sctap:questionTitle>Utrum viator tenatur frui soli Deo.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q3</sctap:gitRepository>
@@ -197,6 +214,8 @@
       <sctap:questionTitle>Utrum Deus sit tres personae distinctae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q4</sctap:gitRepository>
@@ -214,6 +233,8 @@
       <sctap:questionTitle>Utrum aliqua res simpliciter simplex sit in genere.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q5</sctap:gitRepository>
@@ -231,6 +252,8 @@
       <sctap:questionTitle>Principia: Circa principium secundi libri in quo arguitur de causalitate Dei respectu creaturae, quaero istam quaestionem: Utrum Deus sit causa effective omnium aliorum se.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/principia"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2prin2</sctap:gitRepository>
@@ -247,6 +270,8 @@
       <sctap:questionTitle>Utrum creator generis humani iuste gubernat genus humanum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q1</sctap:gitRepository>
@@ -263,6 +288,8 @@
       <sctap:questionTitle>Utrum Deus ab aeterno sciverit se producturum mundum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q2</sctap:gitRepository>
@@ -281,6 +308,8 @@
       <sctap:questionTitle>Utrum angelo confirmatio conveniat deputari ad custodiendum hominem viatorem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q3</sctap:gitRepository>
@@ -297,6 +326,8 @@
       <sctap:questionTitle>Utrum daemones libere peccaverunt.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q4</sctap:gitRepository>
@@ -313,6 +344,8 @@
       <sctap:questionTitle>Utrum stellae sint creatae ut per lumen et motum sint in signa et tempora.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q5</sctap:gitRepository>
@@ -330,6 +363,8 @@
 or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/principia"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:3.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/</sctap:gitRepository>
@@ -346,6 +381,8 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sc
       <sctap:questionTitle>Utrum filius Dei incarnari potuit.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:3.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b3q1</sctap:gitRepository>
@@ -385,6 +422,8 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sc
 or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum informans gratia conferatur.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4prin4</sctap:gitRepository>
@@ -401,6 +440,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum baptismus rite susceptus conferat gratiam baptizatio.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q1</sctap:gitRepository>
@@ -417,6 +458,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum confirmatio sit sacramentum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q2</sctap:gitRepository>
@@ -433,6 +476,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum in sacramento euchariste sub speciebus panis vere et realiter existat corpus Christi.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q3</sctap:gitRepository>
@@ -449,6 +494,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum peccator possit satisfacere Deo pro peccato mortali.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q4</sctap:gitRepository>
@@ -465,6 +512,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum quilibet sacerdos posset quemlibet absolvere a quocumque peccato.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q5</sctap:gitRepository>
@@ -481,6 +530,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum confessio sacerdoti facienda sit homini necessaria ad salutem.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q6</sctap:gitRepository>
@@ -500,6 +551,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum poenitenti et confesso non proprio sacerdoti, habenti tamen commissionem generalem audiendi confessiones necesse sit eadem peccata iterum confiteri proprio sacerdoti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q7</sctap:gitRepository>
@@ -525,6 +578,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q8</sctap:gitRepository>
@@ -547,6 +602,8 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <sctap:questionTitle>Sermo finalis: ‘Cursum consummavi, fidem servavi,’ Tim. 4.  Sollicitudo scolastica studiosissima circa sacrae theologiae notitiam adquirendam comparatur amicitae amatoris qui per laboriosam militiam nititur quaerere sibi sponsam.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/sermo"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/</sctap:gitRepository>

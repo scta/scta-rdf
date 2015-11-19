@@ -916,4 +916,16 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prolq2-scsvmp"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_14_15_a">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cur non sit Filius etiam Spiritus Sanctus, cum et ipse a Patre exeat, sicut in Evangelio legitur 52. Exit enim, non quomodo natus, sed quomodo datus.</dc:title>
+      <sctap:quotation>cur non sit Filius etiam Spiritus Sanctus, cum et ipse a Patre exeat, sicut in Evangelio legitur 52. Exit enim, non quomodo natus, sed quomodo datus.</sctap:quotation>
+      <sctap:fromWork rdf:resource="http://scta.info/resource/Work/Augustine_DeTrinitate"/>
+      <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:citation>(PL 42)</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
+      <sctap:fromBook>5</sctap:fromBook>
+      <sctap:fromChapter>14</sctap:fromChapter>
+      <sctap:fromChapter>15</sctap:fromChapter>
+   </rdf:Description>
 </rdf:RDF>

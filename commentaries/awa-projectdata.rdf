@@ -15,6 +15,7 @@
       <dc:title>Wodeham Abbreviatio</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>awa</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum4"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/b1-col-qun"/>
@@ -45,6 +46,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-col"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-prol"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
@@ -77,6 +80,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l4q5"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l4q5"/>
    </rdf:Description>
@@ -88,6 +93,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/b1-col-qun"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/b1-col-qun"/>
    </rdf:Description>
@@ -99,6 +106,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1prolq1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1prolq1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1prolq2"/>
@@ -112,6 +121,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d1q2"/>
@@ -149,6 +160,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d2q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d2q1"/>
    </rdf:Description>
@@ -160,6 +173,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
    </rdf:Description>
@@ -171,6 +186,8 @@
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1prolq1"/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-col"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/b1-col-qun</sctap:gitRepository>
@@ -187,6 +204,8 @@
       <sctap:questionTitle>Utrum, secundum quod tactum est in collatione, studium sacrae theologiae sit meritorium vitae aeternae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1prolq1</sctap:gitRepository>
@@ -210,6 +229,8 @@
       <sctap:questionTitle>Utrum studium Sacrae Scripturae impositum alicui in foro poenitentiae pro omissione contraria sit meritorium. </sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.2.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1prolq2</sctap:gitRepository>
@@ -1658,6 +1679,8 @@
       <sctap:questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debeatur pro mercede visio Dei et eius fruitio.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q1</sctap:gitRepository>
@@ -1681,6 +1704,8 @@
       <sctap:questionTitle>Utrum fruitio beatifica differat ab ipsa anima.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q2</sctap:gitRepository>
@@ -1704,6 +1729,8 @@
       <sctap:questionTitle>Utrum fruitio realiter distinguatur ab omni cognitione.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q3</sctap:gitRepository>
@@ -1727,6 +1754,8 @@
       <sctap:questionTitle>Utrum fruitio realiter distinguatur a delectatione.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q4</sctap:gitRepository>
@@ -1750,6 +1779,8 @@
       <sctap:questionTitle>Utrum generaliter omnis delectatio sit dilectio vel odium, seu volitio aut nolitio.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q5</sctap:gitRepository>
@@ -1773,6 +1804,8 @@
       <sctap:questionTitle>Utrum voluntas necessario vel libere principiet actus suos.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q6</sctap:gitRepository>
@@ -1796,6 +1829,8 @@
       <sctap:questionTitle>Utrum voluntas sola sit causa effectiva suae volitionis liberae supposita communi Dei influentia vel concausatione.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q7</sctap:gitRepository>
@@ -1819,6 +1854,8 @@
       <sctap:questionTitle>Utrum voluntas possit simul et subito producere actum voluntarium meritorie et libere dilectionis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q8</sctap:gitRepository>
@@ -1842,6 +1879,8 @@
       <sctap:questionTitle>Utrum voluntas libere possit subito suspendere actum suum sive ab actu habito cessare.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q9</sctap:gitRepository>
@@ -1865,6 +1904,8 @@
       <sctap:questionTitle>Utrum creatura rationalis clare videns Deum necessario diligat ipsum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i10</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q10</sctap:gitRepository>
@@ -1888,6 +1929,8 @@
       <sctap:questionTitle>Undecimo circa distinctionem primam quaero: Utrum solus Deus sit licite a creatura rationali ultimate fruibilis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i11</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q11</sctap:gitRepository>
@@ -1911,6 +1954,8 @@
       <sctap:questionTitle>Utrum haec sit possibilis: creatura rationalis fruitur una persona divina non fruendo alia. </sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i12</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q12</sctap:gitRepository>
@@ -1934,6 +1979,8 @@
       <sctap:questionTitle>Utrum liceat filium Dei plus diligere vel frui eo quam patrem vel spiritum sanctum.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i13</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q13</sctap:gitRepository>
@@ -1957,6 +2004,8 @@
       <sctap:questionTitle>Utrum fruitio beatifica sit actus intellectus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.3.i14</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/b1-d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d1q14</sctap:gitRepository>
@@ -1980,6 +2029,8 @@
       <sctap:questionTitle>Utrum in entibus sit tantum unus Deus.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/awa-l1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/awa-l1d2q1</sctap:gitRepository>
@@ -2003,6 +2054,8 @@
       <sctap:questionTitle>Utrum mens humana sit imago trinitatis increatae sicut in rebus aliis factis propter hominem est vestigium eiusdem trinitatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/distinctio/awa-l1d3"/>
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
@@ -2498,6 +2551,7 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio//secundusarticulus">
       <rdf:type rdf:resource="http://scta.info/resource/"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6</sctap:dtsurn>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-scihri"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siqcie"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tisine"/>
@@ -2658,6 +2712,7 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio//a2primumdubium">
       <rdf:type rdf:resource="http://scta.info/resource/"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1</sctap:dtsurn>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-scihri"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siqcie"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tisine"/>
@@ -2673,6 +2728,7 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio//a2secundudubium">
       <rdf:type rdf:resource="http://scta.info/resource/"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2</sctap:dtsurn>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spevqn"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pqqsee"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ssqsap"/>
@@ -2741,6 +2797,7 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio//a2tertiumdubium">
       <rdf:type rdf:resource="http://scta.info/resource/"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3</sctap:dtsurn>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdsan"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-evqtej"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-itpics"/>
@@ -2767,6 +2824,7 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio//a2quartumdubium">
       <rdf:type rdf:resource="http://scta.info/resource/"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4</sctap:dtsurn>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uavpin"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pnpcai"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ioepei"/>
@@ -2792,6 +2850,7 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/dubium/a2quintumdubium">
       <rdf:type rdf:resource="http://scta.info/resource/dubium"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5</sctap:dtsurn>
       <sctap:questionTitle>an partes imagines creatae sint aequales</sctap:questionTitle>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdphev"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pcssma"/>
@@ -2841,6 +2900,8 @@
       <sctap:paragraphNumber>1</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qnveid"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.1.p1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qnveid">
       <dc:title>Paragraph awal1d3q1-qnveid</dc:title>
@@ -2851,6 +2912,8 @@
       <sctap:paragraphNumber>2</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idteit"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-cdtvet"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.2.p2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-1"/>
    </rdf:Description>
@@ -2863,6 +2926,8 @@
       <sctap:paragraphNumber>3</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-immnsm"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qnveid"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.2.p3</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-2"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/ps"/>
@@ -2877,6 +2942,8 @@
       <sctap:paragraphNumber>4</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ismnrd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idteit"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.2.p4</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-2"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
@@ -2893,6 +2960,8 @@
       <sctap:paragraphNumber>5</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isqati"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-immnsm"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.2.p5</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isqati">
       <dc:title>Paragraph awal1d3q1-isqati</dc:title>
@@ -2903,6 +2972,8 @@
       <sctap:paragraphNumber>6</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aopmld"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ismnrd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.2.p6</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -2917,6 +2988,8 @@
       <sctap:paragraphNumber>7</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aieqce"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isqati"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.3.p7</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-5"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
@@ -2937,6 +3010,8 @@
       <sctap:paragraphNumber>8</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iehpep"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aopmld"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.3.p8</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-8"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -2951,6 +3026,8 @@
       <sctap:paragraphNumber>9</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qsalpd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aieqce"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.3.p9</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-9"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -2965,6 +3042,8 @@
       <sctap:paragraphNumber>10</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iiqadm"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iehpep"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.3.p10</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-10"/>
    </rdf:Description>
@@ -2977,6 +3056,8 @@
       <sctap:paragraphNumber>11</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-cpcscc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qsalpd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.4.p11</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-cpcscc">
       <dc:title>Paragraph awal1d3q1-cpcscc</dc:title>
@@ -2987,6 +3068,8 @@
       <sctap:paragraphNumber>12</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idovis"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iiqadm"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.1.p12</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idovis">
       <dc:title>Paragraph awal1d3q1-idovis</dc:title>
@@ -2997,6 +3080,8 @@
       <sctap:paragraphNumber>13</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-eseqda"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-cpcscc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.p13</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Hercules"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-11"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Hercules"/>
@@ -3013,6 +3098,8 @@
       <sctap:paragraphNumber>14</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-peiuaa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idovis"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.p14</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-peiuaa">
       <dc:title>Paragraph awal1d3q1-peiuaa</dc:title>
@@ -3023,6 +3110,8 @@
       <sctap:paragraphNumber>15</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aeppit"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-eseqda"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.p15</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aeppit">
       <dc:title>Paragraph awal1d3q1-aeppit</dc:title>
@@ -3032,6 +3121,8 @@
       <sctap:paragraphNumber>16</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-advqah"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-peiuaa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.p16</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-advqah">
       <dc:title>Paragraph awal1d3q1-advqah</dc:title>
@@ -3042,6 +3133,8 @@
       <sctap:paragraphNumber>17</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ntqiqr"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aeppit"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.1.p17</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Hercules"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-14"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Hercules"/>
@@ -3056,6 +3149,8 @@
       <sctap:paragraphNumber>18</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ehdspi"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-advqah"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.1.p18</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-16"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
@@ -3070,6 +3165,8 @@
       <sctap:paragraphNumber>19</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-scihri"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ntqiqr"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.5.2.1.p19</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-18"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
@@ -3084,6 +3181,8 @@
       <sctap:paragraphNumber>20</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siqcie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ehdspi"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.p20</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siqcie">
       <dc:title>Paragraph awal1d3q1-siqcie</dc:title>
@@ -3094,6 +3193,8 @@
       <sctap:paragraphNumber>21</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tisine"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-scihri"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.p21</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tisine">
       <dc:title>Paragraph awal1d3q1-tisine</dc:title>
@@ -3104,6 +3205,8 @@
       <sctap:paragraphNumber>22</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qisqfe"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siqcie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.p22</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-20"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -3118,6 +3221,8 @@
       <sctap:paragraphNumber>23</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qqscie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tisine"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.p23</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-21"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -3134,6 +3239,8 @@
       <sctap:paragraphNumber>24</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rapaoe"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qisqfe"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.p24</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rapaoe">
       <dc:title>Paragraph awal1d3q1-rapaoe</dc:title>
@@ -3144,6 +3251,8 @@
       <sctap:paragraphNumber>25</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sqeesa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qqscie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.1.p25</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sqeesa">
       <dc:title>Paragraph awal1d3q1-sqeesa</dc:title>
@@ -3154,6 +3263,8 @@
       <sctap:paragraphNumber>26</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdssa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rapaoe"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.1.p26</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-22"/>
    </rdf:Description>
@@ -3166,6 +3277,8 @@
       <sctap:paragraphNumber>27</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdmiv"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sqeesa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.1.p27</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdmiv">
       <dc:title>Paragraph awal1d3q1-atdmiv</dc:title>
@@ -3176,6 +3289,8 @@
       <sctap:paragraphNumber>28</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqbiao"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdssa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.1.p28</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqbiao">
       <dc:title>Paragraph awal1d3q1-aqbiao</dc:title>
@@ -3186,6 +3301,8 @@
       <sctap:paragraphNumber>29</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqetis"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdmiv"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.1.p29</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Scotus"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-23"/>
    </rdf:Description>
@@ -3198,6 +3315,8 @@
       <sctap:paragraphNumber>30</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spevqn"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqbiao"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.1.1.p30</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spevqn">
       <dc:title>Paragraph awal1d3q1-spevqn</dc:title>
@@ -3208,6 +3327,8 @@
       <sctap:paragraphNumber>31</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pqqsee"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqetis"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.p31</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pqqsee">
       <dc:title>Paragraph awal1d3q1-pqqsee</dc:title>
@@ -3218,6 +3339,8 @@
       <sctap:paragraphNumber>32</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ssqsap"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spevqn"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.1.p32</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-24"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -3240,6 +3363,8 @@
       <sctap:paragraphNumber>33</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidicd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pqqsee"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.1.p33</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidicd">
       <dc:title>Paragraph awal1d3q1-aidicd</dc:title>
@@ -3250,6 +3375,8 @@
       <sctap:paragraphNumber>34</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-icdpad"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ssqsap"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.2.p34</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-29"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -3266,6 +3393,8 @@
       <sctap:paragraphNumber>35</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pctdqg"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidicd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.2.p35</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pctdqg">
       <dc:title>Paragraph awal1d3q1-pctdqg</dc:title>
@@ -3276,6 +3405,8 @@
       <sctap:paragraphNumber>36</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siecva"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-icdpad"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p36</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-30"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -3290,6 +3421,8 @@
       <sctap:paragraphNumber>37</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tpcrdi"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pctdqg"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p37</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tpcrdi">
       <dc:title>Paragraph awal1d3q1-tpcrdi</dc:title>
@@ -3300,6 +3433,8 @@
       <sctap:paragraphNumber>38</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qpnrdi"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siecva"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p38</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qpnrdi">
       <dc:title>Paragraph awal1d3q1-qpnrdi</dc:title>
@@ -3310,6 +3445,8 @@
       <sctap:paragraphNumber>39</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qppepv"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tpcrdi"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p39</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qppepv">
       <dc:title>Paragraph awal1d3q1-qppepv</dc:title>
@@ -3320,6 +3457,8 @@
       <sctap:paragraphNumber>40</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spdsdv"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qpnrdi"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p40</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-31"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
@@ -3348,6 +3487,8 @@
       <sctap:paragraphNumber>41</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spvive"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qppepv"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p41</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-40"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
@@ -3388,6 +3529,8 @@
       <sctap:paragraphNumber>42</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qinros"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spdsdv"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p42</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qinros">
       <dc:title>Paragraph awal1d3q1-qinros</dc:title>
@@ -3398,6 +3541,8 @@
       <sctap:paragraphNumber>43</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-oivthc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-spvive"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p43</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-oivthc">
       <dc:title>Paragraph awal1d3q1-oivthc</dc:title>
@@ -3408,6 +3553,8 @@
       <sctap:paragraphNumber>44</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-npspev"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qinros"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p44</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-npspev">
       <dc:title>Paragraph awal1d3q1-npspev</dc:title>
@@ -3418,6 +3565,8 @@
       <sctap:paragraphNumber>45</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dpspau"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-oivthc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p45</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dpspau">
       <dc:title>Paragraph awal1d3q1-dpspau</dc:title>
@@ -3428,6 +3577,8 @@
       <sctap:paragraphNumber>46</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uiiqao"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-npspev"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p46</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uiiqao">
       <dc:title>Paragraph awal1d3q1-uiiqao</dc:title>
@@ -3438,6 +3589,8 @@
       <sctap:paragraphNumber>47</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-diciad"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dpspau"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p47</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Socrates"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-55"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
@@ -3452,6 +3605,8 @@
       <sctap:paragraphNumber>48</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdienm"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uiiqao"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p48</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdienm">
       <dc:title>Paragraph awal1d3q1-tdienm</dc:title>
@@ -3462,6 +3617,8 @@
       <sctap:paragraphNumber>49</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdipie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-diciad"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p49</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdipie">
       <dc:title>Paragraph awal1d3q1-qdipie</dc:title>
@@ -3472,6 +3629,8 @@
       <sctap:paragraphNumber>50</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-psvasp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdienm"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p50</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-psvasp">
       <dc:title>Paragraph awal1d3q1-psvasp</dc:title>
@@ -3482,6 +3641,8 @@
       <sctap:paragraphNumber>51</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sdipie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdipie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p51</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sdipie">
       <dc:title>Paragraph awal1d3q1-sdipie</dc:title>
@@ -3492,6 +3653,8 @@
       <sctap:paragraphNumber>52</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-inoads"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-psvasp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.3.p52</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-18"/>
    </rdf:Description>
@@ -3504,6 +3667,8 @@
       <sctap:paragraphNumber>53</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ipresq"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sdipie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p53</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-19"/>
    </rdf:Description>
@@ -3516,6 +3681,8 @@
       <sctap:paragraphNumber>54</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apiigp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-inoads"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p54</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apiigp">
       <dc:title>Paragraph awal1d3q1-apiigp</dc:title>
@@ -3526,6 +3693,8 @@
       <sctap:paragraphNumber>55</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asrean"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ipresq"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p55</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asrean">
       <dc:title>Paragraph awal1d3q1-asrean</dc:title>
@@ -3536,6 +3705,8 @@
       <sctap:paragraphNumber>56</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atsdia"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apiigp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p56</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atsdia">
       <dc:title>Paragraph awal1d3q1-atsdia</dc:title>
@@ -3546,6 +3717,8 @@
       <sctap:paragraphNumber>57</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqqnci"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asrean"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p57</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-58"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
@@ -3560,6 +3733,8 @@
       <sctap:paragraphNumber>58</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqdcaa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atsdia"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p58</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqdcaa">
       <dc:title>Paragraph awal1d3q1-aqdcaa</dc:title>
@@ -3570,6 +3745,8 @@
       <sctap:paragraphNumber>59</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asbpeo"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqqnci"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p59</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-60"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
@@ -3598,6 +3775,8 @@
       <sctap:paragraphNumber>60</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pcscqe"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqdcaa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p60</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-69"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
@@ -3624,6 +3803,8 @@
       <sctap:paragraphNumber>61</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ascpps"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asbpeo"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p61</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ascpps">
       <dc:title>Paragraph awal1d3q1-ascpps</dc:title>
@@ -3634,6 +3815,8 @@
       <sctap:paragraphNumber>62</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aonadd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pcscqe"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p62</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aonadd">
       <dc:title>Paragraph awal1d3q1-aonadd</dc:title>
@@ -3644,6 +3827,8 @@
       <sctap:paragraphNumber>63</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-antsis"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ascpps"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p63</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-antsis">
       <dc:title>Paragraph awal1d3q1-antsis</dc:title>
@@ -3654,6 +3839,8 @@
       <sctap:paragraphNumber>64</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-addeva"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aonadd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p64</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-addeva">
       <dc:title>Paragraph awal1d3q1-addeva</dc:title>
@@ -3664,6 +3851,8 @@
       <sctap:paragraphNumber>65</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aubqif"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-antsis"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p65</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aubqif">
       <dc:title>Paragraph awal1d3q1-aubqif</dc:title>
@@ -3674,6 +3863,8 @@
       <sctap:paragraphNumber>66</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aseudi"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-addeva"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p66</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aseudi">
       <dc:title>Paragraph awal1d3q1-aseudi</dc:title>
@@ -3684,6 +3875,8 @@
       <sctap:paragraphNumber>67</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uteqsc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aubqif"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p67</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uteqsc">
       <dc:title>Paragraph awal1d3q1-uteqsc</dc:title>
@@ -3694,6 +3887,8 @@
       <sctap:paragraphNumber>68</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdsat"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aseudi"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p68</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdsat">
       <dc:title>Paragraph awal1d3q1-atdsat</dc:title>
@@ -3704,6 +3899,8 @@
       <sctap:paragraphNumber>69</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqdaps"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uteqsc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p69</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqdaps">
       <dc:title>Paragraph awal1d3q1-aqdaps</dc:title>
@@ -3714,6 +3911,8 @@
       <sctap:paragraphNumber>70</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-arvssc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdsat"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p70</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-arvssc">
       <dc:title>Paragraph awal1d3q1-arvssc</dc:title>
@@ -3724,6 +3923,8 @@
       <sctap:paragraphNumber>71</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-addvvf"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqdaps"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p71</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-addvvf">
       <dc:title>Paragraph awal1d3q1-addvvf</dc:title>
@@ -3734,6 +3935,8 @@
       <sctap:paragraphNumber>72</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sedpvs"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-arvssc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p72</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sedpvs">
       <dc:title>Paragraph awal1d3q1-sedpvs</dc:title>
@@ -3744,6 +3947,8 @@
       <sctap:paragraphNumber>73</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-adddas"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-addvvf"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p73</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-adddas">
       <dc:title>Paragraph awal1d3q1-adddas</dc:title>
@@ -3753,6 +3958,8 @@
       <sctap:paragraphNumber>74</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-adqiac"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sedpvs"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p74</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Sortes"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-77"/>
    </rdf:Description>
@@ -3764,6 +3971,8 @@
       <sctap:paragraphNumber>75</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iqsapa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-adddas"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p75</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iqsapa">
       <dc:title>Paragraph awal1d3q1-iqsapa</dc:title>
@@ -3773,6 +3982,8 @@
       <sctap:paragraphNumber>76</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dcqrdn"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-adqiac"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p76</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dcqrdn">
       <dc:title>Paragraph awal1d3q1-dcqrdn</dc:title>
@@ -3782,6 +3993,8 @@
       <sctap:paragraphNumber>77</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-itensp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iqsapa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p77</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-itensp">
       <dc:title>Paragraph awal1d3q1-itensp</dc:title>
@@ -3791,6 +4004,8 @@
       <sctap:paragraphNumber>78</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apneae"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dcqrdn"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p78</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apneae">
       <dc:title>Paragraph awal1d3q1-apneae</dc:title>
@@ -3800,6 +4015,8 @@
       <sctap:paragraphNumber>79</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdmep"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-itensp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p79</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdmep">
       <dc:title>Paragraph awal1d3q1-asdmep</dc:title>
@@ -3809,6 +4026,8 @@
       <sctap:paragraphNumber>80</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-saludg"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apneae"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p80</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-saludg">
       <dc:title>Paragraph awal1d3q1-saludg</dc:title>
@@ -3818,6 +4037,8 @@
       <sctap:paragraphNumber>81</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-salpnp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdmep"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p81</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-salpnp">
       <dc:title>Paragraph awal1d3q1-salpnp</dc:title>
@@ -3827,6 +4048,8 @@
       <sctap:paragraphNumber>82</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apasis"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-saludg"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.4.p82</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apasis">
       <dc:title>Paragraph awal1d3q1-apasis</dc:title>
@@ -3837,6 +4060,8 @@
       <sctap:paragraphNumber>83</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dqsiea"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-salpnp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.1.p83</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dqsiea">
       <dc:title>Paragraph awal1d3q1-dqsiea</dc:title>
@@ -3847,6 +4072,8 @@
       <sctap:paragraphNumber>84</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asanis"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apasis"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.1.p84</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asanis">
       <dc:title>Paragraph awal1d3q1-asanis</dc:title>
@@ -3857,6 +4084,8 @@
       <sctap:paragraphNumber>85</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-hqcsif"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-dqsiea"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p85</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-hqcsif">
       <dc:title>Paragraph awal1d3q1-hqcsif</dc:title>
@@ -3867,6 +4096,8 @@
       <sctap:paragraphNumber>86</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ctpasd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asanis"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p86</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ctpasd">
       <dc:title>Paragraph awal1d3q1-ctpasd</dc:title>
@@ -3877,6 +4108,8 @@
       <sctap:paragraphNumber>87</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-prhmvm"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-hqcsif"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p87</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-prhmvm">
       <dc:title>Paragraph awal1d3q1-prhmvm</dc:title>
@@ -3887,6 +4120,8 @@
       <sctap:paragraphNumber>88</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-echmvr"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ctpasd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p88</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-echmvr">
       <dc:title>Paragraph awal1d3q1-echmvr</dc:title>
@@ -3897,6 +4132,8 @@
       <sctap:paragraphNumber>89</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apftpr"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-prhmvm"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p89</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apftpr">
       <dc:title>Paragraph awal1d3q1-apftpr</dc:title>
@@ -3907,6 +4144,8 @@
       <sctap:paragraphNumber>90</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aapeas"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-echmvr"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p90</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aapeas">
       <dc:title>Paragraph awal1d3q1-aapeas</dc:title>
@@ -3917,6 +4156,8 @@
       <sctap:paragraphNumber>91</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rmvpsc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apftpr"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p91</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rmvpsc">
       <dc:title>Paragraph awal1d3q1-rmvpsc</dc:title>
@@ -3927,6 +4168,8 @@
       <sctap:paragraphNumber>92</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-araiqp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aapeas"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p92</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-araiqp">
       <dc:title>Paragraph awal1d3q1-araiqp</dc:title>
@@ -3936,6 +4179,8 @@
       <sctap:paragraphNumber>93</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-esddvh"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rmvpsc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p93</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-esddvh">
       <dc:title>Paragraph awal1d3q1-esddvh</dc:title>
@@ -3945,6 +4190,8 @@
       <sctap:paragraphNumber>94</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdsan"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-araiqp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.2.5.2.p94</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdsan">
       <dc:title>Paragraph awal1d3q1-tdsan</dc:title>
@@ -3955,6 +4202,8 @@
       <sctap:paragraphNumber>95</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-evqtej"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-esddvh"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.p95</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-evqtej">
       <dc:title>Paragraph awal1d3q1-evqtej</dc:title>
@@ -3965,6 +4214,8 @@
       <sctap:paragraphNumber>96</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-itpics"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-tdsan"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.1.p96</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-78"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/DeGenesiAdLitteram"/>
@@ -3981,6 +4232,8 @@
       <sctap:paragraphNumber>97</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pqppaa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-evqtej"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.1.p97</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-79"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -3995,6 +4248,8 @@
       <sctap:paragraphNumber>98</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qpaaci"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-itpics"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.1.p98</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-80"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -4009,6 +4264,8 @@
       <sctap:paragraphNumber>99</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qiqecc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pqppaa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.1.p99</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qiqecc">
       <dc:title>Paragraph awal1d3q1-qiqecc</dc:title>
@@ -4019,6 +4276,8 @@
       <sctap:paragraphNumber>100</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aocdim"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qpaaci"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.1.p100</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-81"/>
    </rdf:Description>
@@ -4031,6 +4290,8 @@
       <sctap:paragraphNumber>101</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pnppan"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qiqecc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.2.p101</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-24"/>
    </rdf:Description>
@@ -4043,6 +4304,8 @@
       <sctap:paragraphNumber>102</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ppeeac"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aocdim"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.2.p102</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-82"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -4061,6 +4324,8 @@
       <sctap:paragraphNumber>103</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pmcdie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pnppan"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.2.p103</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-83"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
@@ -4075,6 +4340,8 @@
       <sctap:paragraphNumber>104</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidaps"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ppeeac"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.2.p104</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-29"/>
    </rdf:Description>
@@ -4087,6 +4354,8 @@
       <sctap:paragraphNumber>105</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siptap"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pmcdie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.3.p105</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-85"/>
    </rdf:Description>
@@ -4099,6 +4368,8 @@
       <sctap:paragraphNumber>106</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rudtau"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidaps"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.3.p106</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-86"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -4113,6 +4384,8 @@
       <sctap:paragraphNumber>107</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apapai"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-siptap"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.3.p107</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-88"/>
    </rdf:Description>
@@ -4125,6 +4398,8 @@
       <sctap:paragraphNumber>108</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ecippp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rudtau"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.1.p108</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-89"/>
    </rdf:Description>
@@ -4137,6 +4412,8 @@
       <sctap:paragraphNumber>109</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sqeidp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apapai"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.1.p109</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sqeidp">
       <dc:title>Paragraph awal1d3q1-sqeidp</dc:title>
@@ -4147,6 +4424,8 @@
       <sctap:paragraphNumber>110</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdcvo"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ecippp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.1.p110</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdcvo">
       <dc:title>Paragraph awal1d3q1-atdcvo</dc:title>
@@ -4157,6 +4436,8 @@
       <sctap:paragraphNumber>111</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asbscd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sqeidp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.1.p111</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asbscd">
       <dc:title>Paragraph awal1d3q1-asbscd</dc:title>
@@ -4167,6 +4448,8 @@
       <sctap:paragraphNumber>112</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atvoac"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atdcvo"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.2.p112</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-90"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustinus"/>
@@ -4185,6 +4468,8 @@
       <sctap:paragraphNumber>113</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqropt"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asbscd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.3.p113</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqropt">
       <dc:title>Paragraph awal1d3q1-aqropt</dc:title>
@@ -4195,6 +4480,8 @@
       <sctap:paragraphNumber>114</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqqenc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atvoac"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.4.p114</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-94"/>
    </rdf:Description>
@@ -4207,6 +4494,8 @@
       <sctap:paragraphNumber>115</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-acecam"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqropt"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.5.p115</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-acecam">
       <dc:title>Paragraph awal1d3q1-acecam</dc:title>
@@ -4217,6 +4506,8 @@
       <sctap:paragraphNumber>116</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uavpin"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqqenc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.3.4.5.p116</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uavpin">
       <dc:title>Paragraph awal1d3q1-uavpin</dc:title>
@@ -4227,6 +4518,8 @@
       <sctap:paragraphNumber>117</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pnpcai"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-acecam"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.1.p117</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-95"/>
    </rdf:Description>
@@ -4239,6 +4532,8 @@
       <sctap:paragraphNumber>118</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ioepei"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-uavpin"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.1.p118</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ioepei">
       <dc:title>Paragraph awal1d3q1-ioepei</dc:title>
@@ -4249,6 +4544,8 @@
       <sctap:paragraphNumber>119</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-schehp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pnpcai"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.1.p119</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-schehp">
       <dc:title>Paragraph awal1d3q1-schehp</dc:title>
@@ -4259,6 +4556,8 @@
       <sctap:paragraphNumber>120</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivpeai"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ioepei"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p120</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivpeai">
       <dc:title>Paragraph awal1d3q1-ivpeai</dc:title>
@@ -4269,6 +4568,8 @@
       <sctap:paragraphNumber>121</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-inmins"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-schehp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p121</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-inmins">
       <dc:title>Paragraph awal1d3q1-inmins</dc:title>
@@ -4279,6 +4580,8 @@
       <sctap:paragraphNumber>122</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivppqi"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivpeai"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p122</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivppqi">
       <dc:title>Paragraph awal1d3q1-ivppqi</dc:title>
@@ -4289,6 +4592,8 @@
       <sctap:paragraphNumber>123</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isncnu"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-inmins"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p123</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isncnu">
       <dc:title>Paragraph awal1d3q1-isncnu</dc:title>
@@ -4299,6 +4604,8 @@
       <sctap:paragraphNumber>124</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ichrca"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivppqi"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p124</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ichrca">
       <dc:title>Paragraph awal1d3q1-ichrca</dc:title>
@@ -4309,6 +4616,8 @@
       <sctap:paragraphNumber>125</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idqaid"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isncnu"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p125</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-96"/>
    </rdf:Description>
@@ -4321,6 +4630,8 @@
       <sctap:paragraphNumber>126</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idqsie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ichrca"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p126</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-97"/>
    </rdf:Description>
@@ -4333,6 +4644,8 @@
       <sctap:paragraphNumber>127</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivqvni"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idqaid"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p127</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivqvni">
       <dc:title>Paragraph awal1d3q1-ivqvni</dc:title>
@@ -4343,6 +4656,8 @@
       <sctap:paragraphNumber>128</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apiivh"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-idqsie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.2.p128</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apiivh">
       <dc:title>Paragraph awal1d3q1-apiivh</dc:title>
@@ -4353,6 +4668,8 @@
       <sctap:paragraphNumber>129</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdsoc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ivqvni"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p129</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdsoc">
       <dc:title>Paragraph awal1d3q1-asdsoc</dc:title>
@@ -4363,6 +4680,8 @@
       <sctap:paragraphNumber>130</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atapee"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apiivh"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p130</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atapee">
       <dc:title>Paragraph awal1d3q1-atapee</dc:title>
@@ -4373,6 +4692,8 @@
       <sctap:paragraphNumber>131</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqconv"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdsoc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p131</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqconv">
       <dc:title>Paragraph awal1d3q1-aqconv</dc:title>
@@ -4383,6 +4704,8 @@
       <sctap:paragraphNumber>132</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqmeip"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atapee"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p132</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqmeip">
       <dc:title>Paragraph awal1d3q1-aqmeip</dc:title>
@@ -4393,6 +4716,8 @@
       <sctap:paragraphNumber>133</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asndca"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqconv"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p133</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asndca">
       <dc:title>Paragraph awal1d3q1-asndca</dc:title>
@@ -4403,6 +4728,8 @@
       <sctap:paragraphNumber>134</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdeep"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqmeip"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p134</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdeep">
       <dc:title>Paragraph awal1d3q1-asdeep</dc:title>
@@ -4413,6 +4740,8 @@
       <sctap:paragraphNumber>135</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aodsid"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asndca"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p135</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aodsid">
       <dc:title>Paragraph awal1d3q1-aodsid</dc:title>
@@ -4423,6 +4752,8 @@
       <sctap:paragraphNumber>136</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-andscp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdeep"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p136</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-andscp">
       <dc:title>Paragraph awal1d3q1-andscp</dc:title>
@@ -4433,6 +4764,8 @@
       <sctap:paragraphNumber>137</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdphev"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aodsid"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.4.3.p137</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdphev">
       <dc:title>Paragraph awal1d3q1-qdphev</dc:title>
@@ -4443,6 +4776,8 @@
       <sctap:paragraphNumber>138</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pcssma"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-andscp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p138</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-98"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -4457,6 +4792,8 @@
       <sctap:paragraphNumber>139</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sisnac"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qdphev"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p139</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sisnac">
       <dc:title>Paragraph awal1d3q1-sisnac</dc:title>
@@ -4467,6 +4804,8 @@
       <sctap:paragraphNumber>140</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-titedr"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pcssma"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p140</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-99"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
@@ -4483,6 +4822,8 @@
       <sctap:paragraphNumber>141</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qisqii"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sisnac"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p141</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/HilaryOfPoitiers"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-101"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
@@ -4497,6 +4838,8 @@
       <sctap:paragraphNumber>142</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qitqei"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-titedr"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p142</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-103"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -4511,6 +4854,8 @@
       <sctap:paragraphNumber>143</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isseie"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qisqii"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p143</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-104"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
@@ -4525,6 +4870,8 @@
       <sctap:paragraphNumber>144</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aoavsa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-qitqei"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.1.p144</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aoavsa">
       <dc:title>Paragraph awal1d3q1-aoavsa</dc:title>
@@ -4535,6 +4882,8 @@
       <sctap:paragraphNumber>145</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pdtols"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-isseie"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.p145</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-105"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
@@ -4551,6 +4900,8 @@
       <sctap:paragraphNumber>146</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pifase"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aoavsa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.p146</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-37"/>
    </rdf:Description>
@@ -4563,6 +4914,8 @@
       <sctap:paragraphNumber>147</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-enbida"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pdtols"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.p147</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/wodehamabbreviatio/title/awa-l1d3q1-38"/>
    </rdf:Description>
@@ -4575,6 +4928,8 @@
       <sctap:paragraphNumber>148</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidadt"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-pifase"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.p148</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-107"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
@@ -4589,6 +4944,8 @@
       <sctap:paragraphNumber>149</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ampced"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-enbida"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.1.p149</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-109"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
@@ -4605,6 +4962,8 @@
       <sctap:paragraphNumber>150</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-eshssa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aidadt"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.1.p150</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-112"/>
    </rdf:Description>
@@ -4617,6 +4976,8 @@
       <sctap:paragraphNumber>151</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sdieip"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ampced"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.1.p151</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sdieip">
       <dc:title>Paragraph awal1d3q1-sdieip</dc:title>
@@ -4626,6 +4987,8 @@
       <sctap:paragraphNumber>152</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ehpdep"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-eshssa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.1.p152</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ehpdep">
       <dc:title>Paragraph awal1d3q1-ehpdep</dc:title>
@@ -4635,6 +4998,8 @@
       <sctap:paragraphNumber>153</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-stdhna"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-sdieip"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.1.p153</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-117"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
@@ -4648,6 +5013,8 @@
       <sctap:paragraphNumber>154</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aeddar"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ehpdep"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.2.1.p154</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aeddar">
       <dc:title>Paragraph awal1d3q1-aeddar</dc:title>
@@ -4658,6 +5025,8 @@
       <sctap:paragraphNumber>155</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apliqa"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-stdhna"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.5.p155</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Peter"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-119"/>
    </rdf:Description>
@@ -4670,6 +5039,8 @@
       <sctap:paragraphNumber>156</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ascaqo"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aeddar"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.6.p156</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-120"/>
    </rdf:Description>
@@ -4682,6 +5053,8 @@
       <sctap:paragraphNumber>157</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atpvac"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apliqa"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.6.p157</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-121"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
@@ -4696,6 +5069,8 @@
       <sctap:paragraphNumber>158</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atphtc"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-ascaqo"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.6.p158</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atphtc">
       <dc:title>Paragraph awal1d3q1-atphtc</dc:title>
@@ -4706,6 +5081,8 @@
       <sctap:paragraphNumber>159</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrtei"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atpvac"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.6.p159</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrtei">
       <dc:title>Paragraph awal1d3q1-aqrtei</dc:title>
@@ -4716,6 +5093,8 @@
       <sctap:paragraphNumber>160</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrdai"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atphtc"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.6.p160</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-123"/>
    </rdf:Description>
@@ -4728,6 +5107,8 @@
       <sctap:paragraphNumber>161</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdpnd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrtei"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.6.p161</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdpnd">
       <dc:title>Paragraph awal1d3q1-asdpnd</dc:title>
@@ -4738,6 +5119,8 @@
       <sctap:paragraphNumber>162</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-deiipe"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrdai"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.7.p162</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-deiipe">
       <dc:title>Paragraph awal1d3q1-deiipe</dc:title>
@@ -4748,6 +5131,8 @@
       <sctap:paragraphNumber>163</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aureso"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asdpnd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.7.p163</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aureso">
       <dc:title>Paragraph awal1d3q1-aureso</dc:title>
@@ -4758,6 +5143,8 @@
       <sctap:paragraphNumber>164</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iilfis"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-deiipe"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.7.p164</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iilfis">
       <dc:title>Paragraph awal1d3q1-iilfis</dc:title>
@@ -4768,6 +5155,8 @@
       <sctap:paragraphNumber>165</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iieids"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aureso"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.7.p165</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iieids">
       <dc:title>Paragraph awal1d3q1-iieids</dc:title>
@@ -4778,6 +5167,8 @@
       <sctap:paragraphNumber>166</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-etavvm"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iilfis"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.7.p166</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-etavvm">
       <dc:title>Paragraph awal1d3q1-etavvm</dc:title>
@@ -4788,6 +5179,8 @@
       <sctap:paragraphNumber>167</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apaaat"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-iieids"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.7.p167</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apaaat">
       <dc:title>Paragraph awal1d3q1-apaaat</dc:title>
@@ -4798,6 +5191,8 @@
       <sctap:paragraphNumber>168</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asp"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-etavvm"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p168</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asp">
       <dc:title>Paragraph awal1d3q1-asp</dc:title>
@@ -4808,6 +5203,8 @@
       <sctap:paragraphNumber>169</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atccmi"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-apaaat"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p169</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atccmi">
       <dc:title>Paragraph awal1d3q1-atccmi</dc:title>
@@ -4818,6 +5215,8 @@
       <sctap:paragraphNumber>170</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rqhpms"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asp"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p170</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rqhpms">
       <dc:title>Paragraph awal1d3q1-rqhpms</dc:title>
@@ -4828,6 +5227,8 @@
       <sctap:paragraphNumber>171</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqacev"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-atccmi"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p171</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-125"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
@@ -4842,6 +5243,8 @@
       <sctap:paragraphNumber>172</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-arcasd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-rqhpms"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p172</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-arcasd">
       <dc:title>Paragraph awal1d3q1-arcasd</dc:title>
@@ -4852,6 +5255,8 @@
       <sctap:paragraphNumber>173</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrcme"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqacev"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p173</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Lombard"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-127"/>
    </rdf:Description>
@@ -4864,6 +5269,8 @@
       <sctap:paragraphNumber>174</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asqrpd"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-arcasd"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p174</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-asqrpd">
       <dc:title>Paragraph awal1d3q1-asqrpd</dc:title>
@@ -4874,6 +5281,8 @@
       <sctap:paragraphNumber>175</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal1d3q1-aqrcme"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:1.5.i1.1.6.5.8.p175</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/name/awa-l1d3q1-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -7555,6 +7964,8 @@
       <sctap:questionTitle>Utrum quantitas terminata panis consecrandi sit aliqua vera res extra animam distincta realiter a substantia et qualitate cuius est.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
@@ -7595,12 +8006,14 @@
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/articulus/awa-l4q5a1">
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l4q5"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.2</sctap:dtsurn>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3609"/>
       <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3668"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/articulus/awa-l4q5a2">
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l4q5"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3480">
       <dc:title>Paragraph awal4q5-d1e3480</dc:title>
@@ -7610,6 +8023,8 @@
       <sctap:paragraphNumber>1</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3609"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.1.p1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Wodeham"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l4q5-1"/>
    </rdf:Description>
@@ -7621,6 +8036,8 @@
       <sctap:paragraphNumber>2</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3668"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3480"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.2.p2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3668">
       <dc:title>Paragraph awal4q5-d1e3668</dc:title>
@@ -7630,6 +8047,8 @@
       <sctap:paragraphNumber>3</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e3609"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.2.p3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Ockham"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l4q5-2"/>
    </rdf:Description>
@@ -7641,6 +8060,8 @@
       <sctap:paragraphNumber>6</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5278">
       <dc:title>Paragraph awal4q5-d1e5278</dc:title>
@@ -7650,6 +8071,8 @@
       <sctap:paragraphNumber>8</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5350"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5350">
       <dc:title>Paragraph awal4q5-d1e5350</dc:title>
@@ -7659,6 +8082,8 @@
       <sctap:paragraphNumber>9</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5405"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5278"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l4q5-3"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
@@ -7672,6 +8097,8 @@
       <sctap:paragraphNumber>10</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5469"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5350"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p10</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
       <sctap:hasName rdf:resource="http://scta.info/text/wodehamabbreviatio/name/awa-l4q5-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -7685,6 +8112,8 @@
       <sctap:paragraphNumber>11</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5511"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5405"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p11</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5511">
       <dc:title>Paragraph awal4q5-d1e5511</dc:title>
@@ -7694,6 +8123,8 @@
       <sctap:paragraphNumber>12</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5602"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5469"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p12</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5602">
       <dc:title>Paragraph awal4q5-d1e5602</dc:title>
@@ -7703,6 +8134,8 @@
       <sctap:paragraphNumber>13</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5688"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5511"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p13</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5688">
       <dc:title>Paragraph awal4q5-d1e5688</dc:title>
@@ -7712,6 +8145,8 @@
       <sctap:paragraphNumber>14</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5703"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5602"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p14</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5703">
       <dc:title>Paragraph awal4q5-d1e5703</dc:title>
@@ -7721,6 +8156,8 @@
       <sctap:paragraphNumber>15</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e7506"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5688"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.4.p15</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e7506">
       <dc:title>Paragraph awal4q5-d1e7506</dc:title>
@@ -7730,6 +8167,8 @@
       <sctap:paragraphNumber>16</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e7558"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e5703"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.5.p16</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e7558">
       <dc:title>Paragraph awal4q5-d1e7558</dc:title>
@@ -7739,6 +8178,8 @@
       <sctap:paragraphNumber>17</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e9248"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e7506"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.5.p17</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e9248">
       <dc:title>Paragraph awal4q5-d1e9248</dc:title>
@@ -7748,6 +8189,8 @@
       <sctap:paragraphNumber>18</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e9293"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e7558"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.7.p18</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e9293">
       <dc:title>Paragraph awal4q5-d1e9293</dc:title>
@@ -7757,6 +8200,8 @@
       <sctap:paragraphNumber>19</sctap:paragraphNumber>
       <sctap:next rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/"/>
       <sctap:previous rdf:resource="http://scta.info/text/wodehamabbreviatio/paragraph/awal4q5-d1e9248"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.wodehamabbreviatio:2.i1.7.p19</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/name/awa-l4q5-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>

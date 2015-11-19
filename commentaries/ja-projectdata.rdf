@@ -15,6 +15,7 @@
       <dc:title>Jacobus de Altavila Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>ja</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/librum/ja-book1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item2"/>
@@ -47,6 +48,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item3"/>
@@ -103,6 +106,8 @@
       <sctap:questionTitle>Utrum veritates theologicae scientiae contrarientur veritatibus principiorum naturalis luminis et sensualis experientiae.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item1</sctap:gitRepository>
@@ -133,6 +138,8 @@
       <sctap:questionTitle>Utrum studens in sacra scriptura non credens sicut sancta ecclesia credit erret</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item2</sctap:gitRepository>
@@ -163,6 +170,8 @@
       <sctap:questionTitle>Utrum pro studio sacrae theologiae ex caritate procedente debetur pro mercede visio Dei et eius fruitio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item3</sctap:gitRepository>
@@ -193,6 +202,8 @@
       <sctap:questionTitle>Utrum inter creaturae totius usum et Dei solius fruitionem natum sit rationali creaturae facere aliquimodo commutationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item4</sctap:gitRepository>
@@ -223,6 +234,8 @@
       <sctap:questionTitle>Utrum creatura rationalis viatrix et beatrix ineffabilem habere possit notitiam de divina essentia.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item5</sctap:gitRepository>
@@ -253,6 +266,8 @@
       <sctap:questionTitle>Utrum in entibus fore unum primum seu Deum unicum possit a viatore efficaciter esse scitum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item6</sctap:gitRepository>
@@ -283,6 +298,8 @@
       <sctap:questionTitle>Utrum in Deo sit omnimoda simplicitas et ex natura rei a divina perfectione excludens pluralitatem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item7</sctap:gitRepository>
@@ -313,6 +330,8 @@
       <sctap:questionTitle>Utrum trinitas increata per rationes a viatore non ... per viam vestigii aut imaginis sit investigabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item8</sctap:gitRepository>
@@ -343,6 +362,8 @@
       <sctap:questionTitle>Utrum generationis qua Deus genuit Deum essentia divina sit terminus formalis aut materiale principium.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item9</sctap:gitRepository>
@@ -373,6 +394,8 @@
       <sctap:questionTitle>Utrum potentia generativa existens in Filio Dei possit exire in actum generandi.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item10</sctap:gitRepository>
@@ -403,6 +426,8 @@
       <sctap:questionTitle>Utrum sola immensa natura deitatis alietatem excludit cuiuslibet mutabilitatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item11</sctap:gitRepository>
@@ -433,6 +458,8 @@
       <sctap:questionTitle>Utrum a Patre et Filio coaeternus Spiritus Sanctus procedat per modum voluntatis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item12</sctap:gitRepository>
@@ -463,6 +490,8 @@
       <sctap:questionTitle>Utrum spiritus sanctus taliter a Patre et Filio tamquam ab unico principio procedat, ut nec genitus nec ingenitus dici debeat.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item13</sctap:gitRepository>
@@ -493,6 +522,8 @@
       <sctap:questionTitle>Utrum Spiritus Sancti diffusio in mente viatoris rationali sit temporalis processio distincta a sua spiratione aeterna.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item14</sctap:gitRepository>
@@ -523,6 +554,8 @@
       <sctap:questionTitle>Utrum ad Deum et proximum meritorie diligendum Spiritus Sanctus sufficit absque eo quod aliquis creatus habitus rationali mente inhaereat.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item15</sctap:gitRepository>
@@ -553,6 +586,8 @@
       <sctap:questionTitle>Utrum caritas creata augmentum suscipere valeat in iusti viatoris anima</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item16</sctap:gitRepository>
@@ -583,6 +618,8 @@
       <sctap:questionTitle>Utrum personae divinae summe coaequales circumincessivae in invicem sunt existentes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item17</sctap:gitRepository>
@@ -613,6 +650,8 @@
       <sctap:questionTitle>Utrum Deus per sui ipsius comprehensivam scientiam omnium entium et possibilium distinctam habeat notitiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item18</sctap:gitRepository>
@@ -643,6 +682,8 @@
       <sctap:questionTitle>Utrum divinae scientiae et quod actu quorandam futurorum ineffabilis certitudo ipsorum, quae non necessitas sed contingentia, sint ad aliquam contradictionem antecedentis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item19</sctap:gitRepository>
@@ -666,6 +707,8 @@
       <sctap:questionTitle>Utrum quaelibet intellectualis creatura sit absque quocumque, cur divina voluntate antecedente aeternaliter praedestinata vel reprobata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item20</sctap:gitRepository>
@@ -689,6 +732,8 @@
       <sctap:questionTitle>Utrum immensus vigor simpliciter divinae essentiae existens ratio formalis convertibiliter adaequata omnipotentiae possit res meliores quam sunt efficere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item21</sctap:gitRepository>
@@ -719,6 +764,8 @@
       <sctap:questionTitle>Utrum divinum velle infrustrabile quodlibet possibile bonum et solum tale possit efficere ("circa distinctiones ultimas de divina voluntate")</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item22</sctap:gitRepository>
@@ -748,6 +795,8 @@
       <sctap:questionTitle>Utrum divina voluntas, respectu omni iusta sit cunctorum entium et motionum metrum primum et regula.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.altavillacommentary:1.i23</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ja-item23</sctap:gitRepository>

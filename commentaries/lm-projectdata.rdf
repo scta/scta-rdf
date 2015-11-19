@@ -15,6 +15,7 @@
       <dc:title>Lambertus Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>lm</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/librum/lm-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/librum/lb-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/librum/lb-book3"/>
@@ -152,6 +153,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1-prol-q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1d1q1"/>
@@ -226,6 +229,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio34"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio35"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio36"/>
@@ -294,6 +299,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio63"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio64"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio65"/>
@@ -426,6 +433,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio97"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio98"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio65"/>
@@ -492,6 +501,8 @@
       <sctap:questionTitle>Utrum theologia sit scientia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
@@ -1444,6 +1455,8 @@
       <sctap:questionTitle>De quo est tamquam de subiecto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.1.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1-prol-q2</sctap:gitRepository>
@@ -1467,6 +1480,8 @@
       <sctap:questionTitle>Utrum solo Deo sit fruendum et omnibus aliis utendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d1q1</sctap:gitRepository>
@@ -1490,6 +1505,8 @@
       <sctap:questionTitle>Utrum Deus sit cognoscibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d2q1</sctap:gitRepository>
@@ -1513,6 +1530,8 @@
       <sctap:questionTitle>Utrum vestigium creatoris sit in omni creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d3q1</sctap:gitRepository>
@@ -1536,6 +1555,8 @@
       <sctap:questionTitle>De medio quod est imago, secundum quod in homine imago Dei reperitur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.4.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d3q2</sctap:gitRepository>
@@ -1561,6 +1582,8 @@
       <sctap:questionTitle>Utrum divinae generationis essentia potest esse terminus a quo vel ad quem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d5q1</sctap:gitRepository>
@@ -1586,6 +1609,8 @@
       <sctap:questionTitle>Utrum potentia qua Pater generat sit in Filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d6and7-q1</sctap:gitRepository>
@@ -1609,6 +1634,8 @@
       <sctap:questionTitle>Utrum divina essentia sit summe simplex et in fine simplicitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d8q1</sctap:gitRepository>
@@ -1632,6 +1659,8 @@
       <sctap:questionTitle>Utrum aeternitas reperitur in Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-b1d9q1</sctap:gitRepository>
@@ -1655,6 +1684,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio per modum amoris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio11</sctap:gitRepository>
@@ -1678,6 +1709,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus temporaliter procedit solum a Patre et Filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio12</sctap:gitRepository>
@@ -1701,6 +1734,8 @@
       <sctap:questionTitle>Utrum caritas qua diligimus Deum et proximum sit Spiritus Sanctus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio13</sctap:gitRepository>
@@ -1724,6 +1759,8 @@
       <sctap:questionTitle>Utrum caritas potest augeri et minui</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.11.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio14</sctap:gitRepository>
@@ -1747,6 +1784,8 @@
       <sctap:questionTitle>Utrum in divinis sit aequalitas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio15</sctap:gitRepository>
@@ -1770,6 +1809,8 @@
       <sctap:questionTitle/>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio16</sctap:gitRepository>
@@ -1793,6 +1834,8 @@
       <sctap:questionTitle>Utrum persona significet substantiam vel proprietatem in divinis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio17</sctap:gitRepository>
@@ -1816,6 +1859,8 @@
       <sctap:questionTitle>Utrum in divinis personis sit numerus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio18</sctap:gitRepository>
@@ -1839,6 +1884,8 @@
       <sctap:questionTitle>Utrum in divinis sit relatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio19</sctap:gitRepository>
@@ -1863,6 +1910,8 @@
                     passiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio20</sctap:gitRepository>
@@ -1886,6 +1935,8 @@
       <sctap:questionTitle>Utrum temporaliter aliquid de Deo dicatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio21</sctap:gitRepository>
@@ -1909,6 +1960,8 @@
       <sctap:questionTitle>Utrum Pater sapiens sit sapientia genita</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.19.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio22</sctap:gitRepository>
@@ -1932,6 +1985,8 @@
       <sctap:questionTitle>Utrum notiones sive proprietates similiter personae sint divina essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.20.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio23</sctap:gitRepository>
@@ -1955,6 +2010,8 @@
       <sctap:questionTitle>Utrum scientia Dei sit univoca scientiae nostrae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.21.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio24</sctap:gitRepository>
@@ -1978,6 +2035,8 @@
       <sctap:questionTitle>Utrum Deus sit in omnibus rebus essentialiter, potentialiter et praesentialiter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.22.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio25</sctap:gitRepository>
@@ -2001,6 +2060,8 @@
       <sctap:questionTitle>Utrum praescientia Dei infallibilis sit causa rerum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.23.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio26</sctap:gitRepository>
@@ -2024,6 +2085,8 @@
       <sctap:questionTitle>Utrum praedestinatio habeat aliquam causam meritoriam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.24.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio27</sctap:gitRepository>
@@ -2050,6 +2113,8 @@
                     quaecumque vult</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.25.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio28</sctap:gitRepository>
@@ -2073,6 +2138,8 @@
       <sctap:questionTitle>Utrum potentia Dei sit infinita aut limitanda aut coartanda</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.26.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio29</sctap:gitRepository>
@@ -2096,6 +2163,8 @@
       <sctap:questionTitle>Utrum bonitatem quae resultat ex ordine universi Deus potuit meliorem facere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.27.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio30</sctap:gitRepository>
@@ -2119,6 +2188,8 @@
       <sctap:questionTitle>Utrum voluntas Dei sit causa rerum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.28.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio31</sctap:gitRepository>
@@ -2142,6 +2213,8 @@
       <sctap:questionTitle>Utrum malum sit expediens universo et conferens ad completum universi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.29.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio32</sctap:gitRepository>
@@ -2165,6 +2238,8 @@
       <sctap:questionTitle>Utrum omnes teneamur conformare voluntatem nostram voluntati divinae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:1.30.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio33</sctap:gitRepository>
@@ -2188,6 +2263,8 @@
       <sctap:questionTitle>Utrum mundus sit aeternus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio34</sctap:gitRepository>
@@ -2211,6 +2288,8 @@
       <sctap:questionTitle>Utrum caelum empireum sit corpus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio35</sctap:gitRepository>
@@ -2234,6 +2313,8 @@
       <sctap:questionTitle>Utrum angeli fuerint creati in gratia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio36</sctap:gitRepository>
@@ -2257,6 +2338,8 @@
       <sctap:questionTitle>Utrum angeli intelligant per species</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.3.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio37</sctap:gitRepository>
@@ -2280,6 +2363,8 @@
       <sctap:questionTitle>Utrum angeli boni sint confirmati in bono, et mali in malo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio38</sctap:gitRepository>
@@ -2303,6 +2388,8 @@
       <sctap:questionTitle>Utrum in angelis tam bonis quam malis sit praelatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio39</sctap:gitRepository>
@@ -2326,6 +2413,8 @@
       <sctap:questionTitle>Utrum demones possunt transmutare corpora</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio40</sctap:gitRepository>
@@ -2349,6 +2438,8 @@
       <sctap:questionTitle>Utrum substantialiter demones et etiam angeli boni intrent corpora nostra</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio41</sctap:gitRepository>
@@ -2372,6 +2463,8 @@
       <sctap:questionTitle>Utrum angeli loquantur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio42</sctap:gitRepository>
@@ -2395,6 +2488,8 @@
       <sctap:questionTitle>Utrum custodia angelorum in via sit homini necessaria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio43</sctap:gitRepository>
@@ -2418,6 +2513,8 @@
       <sctap:questionTitle>Utrum omnia creata sunt simul in materia et specie</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio44</sctap:gitRepository>
@@ -2441,6 +2538,8 @@
       <sctap:questionTitle>A quo movetur caelum et praecipue primum caelum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio45</sctap:gitRepository>
@@ -2465,6 +2564,8 @@
                     anima</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio46</sctap:gitRepository>
@@ -2488,6 +2589,8 @@
       <sctap:questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio47</sctap:gitRepository>
@@ -2511,6 +2614,8 @@
       <sctap:questionTitle>Utrum formatio Evae ex costa fuerit miraculosa aut naturalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio47</sctap:gitRepository>
@@ -2534,6 +2639,8 @@
       <sctap:questionTitle>Utrum temptatio una sola fuerit qua temptatus fuit primus homo vel plures</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio48</sctap:gitRepository>
@@ -2557,6 +2664,8 @@
       <sctap:questionTitle>Utrum primus homo ante peccatum habuit suae creationis claram cognitionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio49</sctap:gitRepository>
@@ -2580,6 +2689,8 @@
       <sctap:questionTitle>Utrum liberum arbitrium una ratione reperitur in omni intellectuali natura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio50</sctap:gitRepository>
@@ -2603,6 +2714,8 @@
       <sctap:questionTitle>Utrum gratia qua Deo grati sumus sit creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio51</sctap:gitRepository>
@@ -2627,6 +2740,8 @@
                     damnabiliter peccare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.19.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio52</sctap:gitRepository>
@@ -2650,6 +2765,8 @@
       <sctap:questionTitle>Quid sit peccatum originale, an fomes, an culpa, an concupiscentia, an reatus, an pena</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.20.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio53</sctap:gitRepository>
@@ -2674,6 +2791,8 @@
                     secundum corpulentam substantiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.21.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio54</sctap:gitRepository>
@@ -2697,6 +2816,8 @@
       <sctap:questionTitle>Utrum omnium praecedentium peccata traiciantur in parvulos</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.22.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio55</sctap:gitRepository>
@@ -2720,6 +2841,8 @@
       <sctap:questionTitle>An malum sit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.23.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio56</sctap:gitRepository>
@@ -2744,6 +2867,8 @@
                     concupitum contra legem Dei</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.24.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio57</sctap:gitRepository>
@@ -2767,6 +2892,8 @@
       <sctap:questionTitle>Utrum omnis actus sive actio sit a Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.25.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio58</sctap:gitRepository>
@@ -2790,6 +2917,8 @@
       <sctap:questionTitle>Utrum voluntatis qualitas pensetur ex fine</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.26.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio59</sctap:gitRepository>
@@ -2813,6 +2942,8 @@
       <sctap:questionTitle>Utrum secundum theologum aliquid sit indifferens in operibus voluntatis deliberativae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.27.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio60</sctap:gitRepository>
@@ -2836,6 +2967,8 @@
       <sctap:questionTitle>In quo fundatur reatus sicut in causa</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.28.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio61</sctap:gitRepository>
@@ -2859,6 +2992,8 @@
       <sctap:questionTitle>Utrum peccatum in Spiritum Sanctum sit spirituale peccatum et distinctum contra alia peccata</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:2.29.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio62</sctap:gitRepository>
@@ -2882,6 +3017,8 @@
       <sctap:questionTitle>Utrum conveniebat Deum incarnari</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio63</sctap:gitRepository>
@@ -2906,6 +3043,8 @@
                     irrationalem et etiam contra naturam pure intellectualem, sicut est natura angelica</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio64</sctap:gitRepository>
@@ -2929,6 +3068,8 @@
       <sctap:questionTitle>Utrum Christus fuit in lumbis Abrahae sicut et alii homines</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio65</sctap:gitRepository>
@@ -2952,6 +3093,8 @@
       <sctap:questionTitle>Utrum virgo gloriosa fuerit vere mater Christi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio66</sctap:gitRepository>
@@ -2975,6 +3118,8 @@
       <sctap:questionTitle>Utrum assumere primo convenit divinae personae aut naturae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio67</sctap:gitRepository>
@@ -2999,6 +3144,8 @@
                     Deus est homo; Filius Dei est homo; quia in omnibus videtur eadem ratio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio68</sctap:gitRepository>
@@ -3022,6 +3169,8 @@
       <sctap:questionTitle>Utrum Christus sit unum tantum aut duo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio69</sctap:gitRepository>
@@ -3045,6 +3194,8 @@
       <sctap:questionTitle>Utrum in Christo sit tantum una filiatio vel plures</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio70</sctap:gitRepository>
@@ -3068,6 +3219,8 @@
       <sctap:questionTitle>Utrum Christi humanitas adoranda sit latria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio71</sctap:gitRepository>
@@ -3091,6 +3244,8 @@
       <sctap:questionTitle>Utrum Christi secundum quod homo sit persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio72</sctap:gitRepository>
@@ -3114,6 +3269,8 @@
       <sctap:questionTitle>Utrum Christus potuit peccare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio73</sctap:gitRepository>
@@ -3137,6 +3294,8 @@
       <sctap:questionTitle>Utrum Christus a conceptione habuit plenitudinem sapientiae et gratiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio74</sctap:gitRepository>
@@ -3160,6 +3319,8 @@
       <sctap:questionTitle>Utrum anima Christi scit omnia quae Deus scit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio75</sctap:gitRepository>
@@ -3183,6 +3344,8 @@
       <sctap:questionTitle>Utrum Christus assumpsit omnes defectus nostros</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio76</sctap:gitRepository>
@@ -3206,6 +3369,8 @@
       <sctap:questionTitle>Utrum Christi passio omnes passiones omnium excesserit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio77</sctap:gitRepository>
@@ -3229,6 +3394,8 @@
       <sctap:questionTitle>Utrum in Christi voluntatibus fuerit contrarietas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio49</sctap:gitRepository>
@@ -3252,6 +3419,8 @@
       <sctap:questionTitle>Utrum Christus sibi mereri aliquid potuit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio79</sctap:gitRepository>
@@ -3275,6 +3444,8 @@
       <sctap:questionTitle>Utrum iustificatio nostra a peccato sit opus passionis Christi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio80</sctap:gitRepository>
@@ -3298,6 +3469,8 @@
       <sctap:questionTitle>Utrum nostrae redemptionis alius modus sit possibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.19.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio81</sctap:gitRepository>
@@ -3321,6 +3494,8 @@
       <sctap:questionTitle>Utrum Christus in triduo fuerit homo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.20.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio82</sctap:gitRepository>
@@ -3344,6 +3519,8 @@
       <sctap:questionTitle>Utrum fides sit virtus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.21.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio83</sctap:gitRepository>
@@ -3367,6 +3544,8 @@
       <sctap:questionTitle>Utrum idem possit esse simul scitum et creditum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.22.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio84</sctap:gitRepository>
@@ -3390,6 +3569,8 @@
       <sctap:questionTitle>Utrum umquam suffecerit credere de Deo quia Deus est et inquerentibus se remunerator sit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.23.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio85</sctap:gitRepository>
@@ -3413,6 +3594,8 @@
       <sctap:questionTitle>Utrum spes sit virtus specialis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.24.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio86</sctap:gitRepository>
@@ -3436,6 +3619,8 @@
       <sctap:questionTitle>Utrum caritas sit forma omnium virtutum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.25.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio87</sctap:gitRepository>
@@ -3459,6 +3644,8 @@
       <sctap:questionTitle>Utrum omnia sint diligenda ex caritate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.26.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio88</sctap:gitRepository>
@@ -3482,6 +3669,8 @@
       <sctap:questionTitle>Utrum aliquis scriptus in libro vitae possit deleri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.27.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio89</sctap:gitRepository>
@@ -3505,6 +3694,8 @@
       <sctap:questionTitle>Utrum quatuor sunt virtutes cardinales, scilicet prudentia, iustitia, fortitudo et temperantia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.28.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio61</sctap:gitRepository>
@@ -3528,6 +3719,8 @@
       <sctap:questionTitle>Utrum dona sint virtutes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.29.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio91</sctap:gitRepository>
@@ -3552,6 +3745,8 @@
                     intellectu et scientia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.30.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio92</sctap:gitRepository>
@@ -3575,6 +3770,8 @@
       <sctap:questionTitle>Utrum virtutes theologicae sint adinvicem connexae, ita quod qui habet unam, habeat omnes</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.31.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio93</sctap:gitRepository>
@@ -3598,6 +3795,8 @@
       <sctap:questionTitle>Utrum tantum decem sint praecepta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.32.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio94</sctap:gitRepository>
@@ -3621,6 +3820,8 @@
       <sctap:questionTitle>Utrum omne mendacium sit peccatum mortale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.33.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio95</sctap:gitRepository>
@@ -3644,6 +3845,8 @@
       <sctap:questionTitle>Utrum omne periurium sit peccatum mortale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.34.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio96</sctap:gitRepository>
@@ -3668,6 +3871,8 @@
                     significant, et hoc ratione operis operati</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.1.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio97</sctap:gitRepository>
@@ -3692,6 +3897,8 @@
                     Christum expresso</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.2.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio98</sctap:gitRepository>
@@ -3715,6 +3922,8 @@
       <sctap:questionTitle>Quare magis virtute baptismi remittitur pena culpae actualis quam originalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.3.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio65</sctap:gitRepository>
@@ -3738,6 +3947,8 @@
       <sctap:questionTitle>De potestate baptismi, quam retinuit et dare potuit, utrum fuerit potestas purgandi a peccato</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.4.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio100</sctap:gitRepository>
@@ -3761,6 +3972,8 @@
       <sctap:questionTitle>Utrum intentio baptizantis necessario requiratur in baptismo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.5.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio101</sctap:gitRepository>
@@ -3785,6 +3998,8 @@
                     baptisimalis potest seipsam confirmare et roborare</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.6.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio102</sctap:gitRepository>
@@ -3809,6 +4024,8 @@
                     Hoc est corpus meum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.7.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio103</sctap:gitRepository>
@@ -3833,6 +4050,8 @@
                     sub qualibet eius 101 witnesse</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.8.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio104</sctap:gitRepository>
@@ -3856,6 +4075,8 @@
       <sctap:questionTitle>Utrum in sacramento eucharistiae accidentia sint sine subiecto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.9.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio105</sctap:gitRepository>
@@ -3879,6 +4100,8 @@
       <sctap:questionTitle>Utrum poenitentia sit virtus specialis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.10.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio106</sctap:gitRepository>
@@ -3902,6 +4125,8 @@
       <sctap:questionTitle>Utrum sacramentum poenitentiae habeat witnesses et quales</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.11.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio107</sctap:gitRepository>
@@ -3925,6 +4150,8 @@
       <sctap:questionTitle>Utrum in Ecclesia Dei sint claves</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.12.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio108</sctap:gitRepository>
@@ -3948,6 +4175,8 @@
       <sctap:questionTitle>Utrum tantum duae sunt claves</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.12.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio109</sctap:gitRepository>
@@ -3971,6 +4200,8 @@
       <sctap:questionTitle>Utrum relaxatio sive indulgentia habeat effectum an non</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.12.i3</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio110</sctap:gitRepository>
@@ -3994,6 +4225,8 @@
       <sctap:questionTitle>Utrum in aliquem ferenda sit excommunicatio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.12.i4</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio111</sctap:gitRepository>
@@ -4017,6 +4250,8 @@
       <sctap:questionTitle>Utrum extrema unctio sit sacramentum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.13.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestin112</sctap:gitRepository>
@@ -4040,6 +4275,8 @@
       <sctap:questionTitle>Utrum ordo sit sacramentum unum vel plura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.14.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio113</sctap:gitRepository>
@@ -4063,6 +4300,8 @@
       <sctap:questionTitle>Utrum haeretici ab ecclesia recisi sacros ordines conferre possunt</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.15.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio114</sctap:gitRepository>
@@ -4086,6 +4325,8 @@
       <sctap:questionTitle>Utrum matrimonium sit infirmis in remedium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.16.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio115</sctap:gitRepository>
@@ -4109,6 +4350,8 @@
       <sctap:questionTitle>Utrum consensus efficiens matrimonium sit in copulationem carnalem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.17.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio116</sctap:gitRepository>
@@ -4133,6 +4376,8 @@
                     in officium vel in remedium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.18.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio117</sctap:gitRepository>
@@ -4156,6 +4401,8 @@
       <sctap:questionTitle>Utrum petenti semper solvendum sit debitum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.19.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio118</sctap:gitRepository>
@@ -4179,6 +4426,8 @@
       <sctap:questionTitle>Utrum causa fornicationis liceat viro uxorem dimittere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.20.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio119</sctap:gitRepository>
@@ -4202,6 +4451,8 @@
       <sctap:questionTitle>De quibus est votum, an de hiis quae cadunt sub praecepto, an de hiis quae cadunt sub consilio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.21.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio120</sctap:gitRepository>
@@ -4225,6 +4476,8 @@
       <sctap:questionTitle>Utrum votum continentiae respicit dispensationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.21.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio121</sctap:gitRepository>
@@ -4248,6 +4501,8 @@
       <sctap:questionTitle>Utrum cognatio spiritualis impedit matrimonium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.22.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio122</sctap:gitRepository>
@@ -4271,6 +4526,8 @@
       <sctap:questionTitle>Utrum resurrectio mortuorum erit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.23.i1</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio123</sctap:gitRepository>
@@ -4294,6 +4551,8 @@
                     agilitas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.lambertuscommentary:3.35.23.i2</sctap:dtsurn>
+      <sctap:level>5</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/lm-quaestio124</sctap:gitRepository>

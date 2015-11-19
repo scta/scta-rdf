@@ -15,6 +15,7 @@
       <dc:title>William Crathron Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>wc</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/librum/wc-l1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
@@ -46,6 +47,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
@@ -100,6 +103,8 @@
       <sctap:questionTitle>Utrum notitia evidens articulorum fidei sit possibilis viatori in virtute luminis naturalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q1</sctap:gitRepository>
@@ -116,6 +121,8 @@
       <sctap:questionTitle>Utrum omne cognitum a viatore sit res singularis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q2</sctap:gitRepository>
@@ -132,6 +139,8 @@
       <sctap:questionTitle>Utrum viator intelligat cum continuo et tempore</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q3</sctap:gitRepository>
@@ -148,6 +157,8 @@
       <sctap:questionTitle>Utrum viator possit scire scientia proprie dicta quod sit tantum unus deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q4</sctap:gitRepository>
@@ -164,6 +175,8 @@
       <sctap:questionTitle>Utrum unitati numerali essentiae divinae vel naturae divinae sit compossibilis multitudo personarum vel suppositorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q5</sctap:gitRepository>
@@ -180,6 +193,8 @@
       <sctap:questionTitle>Utrum viator naturaliter cognoscat deum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q6</sctap:gitRepository>
@@ -196,6 +211,8 @@
       <sctap:questionTitle>Utrum omnis creatura rationalis sit imago trinitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q7</sctap:gitRepository>
@@ -212,6 +229,8 @@
       <sctap:questionTitle>Utrum haec sit vera: Deus genuit Deum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q8</sctap:gitRepository>
@@ -228,6 +247,8 @@
       <sctap:questionTitle>Utrum Filius generetur de substantia Patris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q8A</sctap:gitRepository>
@@ -244,6 +265,8 @@
       <sctap:questionTitle>Utrum Pater genuit Filium voluntate vel natura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q8B</sctap:gitRepository>
@@ -260,6 +283,8 @@
       <sctap:questionTitle>Utrum potentia generativa Patris sit aliquid absolutum vel respectivum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q9</sctap:gitRepository>
@@ -276,6 +301,8 @@
       <sctap:questionTitle>Utrum Pater possit communicare Filio potentiam generandi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q10</sctap:gitRepository>
@@ -292,6 +319,8 @@
       <sctap:questionTitle>Utrum aliquod praedicamentum possit vere praedicari de termino supponente pro deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q11</sctap:gitRepository>
@@ -308,6 +337,8 @@
       <sctap:questionTitle>Utrum ens et alia, quae convertuntur cum ente, primo cognoscantur a nobis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q12</sctap:gitRepository>
@@ -324,6 +355,8 @@
       <sctap:questionTitle>De praedicamentis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q13</sctap:gitRepository>
@@ -340,6 +373,8 @@
       <sctap:questionTitle>Utrum sit aliqua quantitas, quae non est substantia vel qualitas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q14</sctap:gitRepository>
@@ -356,6 +391,8 @@
       <sctap:questionTitle>Utrum  aliqua res omnino indivisibilis possit esse longa,lata et profunda</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q15</sctap:gitRepository>
@@ -372,6 +409,8 @@
       <sctap:questionTitle>Utrum tempus sit aliquid positivum reale vel aliqua res producta a deo vel ab aliquo alio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q16</sctap:gitRepository>
@@ -388,6 +427,8 @@
       <sctap:questionTitle>Utrum aliqua qualitas possit augeri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q17</sctap:gitRepository>
@@ -404,6 +445,8 @@
       <sctap:questionTitle>Utrum relatio sit distincta res a fundamento</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q18</sctap:gitRepository>
@@ -420,6 +463,8 @@
       <sctap:questionTitle>Utrum deus cognoscat necessario futura contingentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q19</sctap:gitRepository>
@@ -435,6 +480,8 @@
       <sctap:questionTitle>Utrum proprietas relativa sit omnibus modis idem cum essentia divina</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q20</sctap:gitRepository>

@@ -15,6 +15,7 @@
       <dc:title>Chatton Reportatio</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug>wcl</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonlectura</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonlectura/librum/wcl-book1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
    </rdf:Description>
@@ -25,6 +26,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonlectura:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
    </rdf:Description>
@@ -36,6 +39,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonlectura/librum/wcl-book1"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonlectura:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/chattonlectura/item/wcl-b1d1q1"/>
    </rdf:Description>
@@ -47,6 +52,8 @@
       <sctap:questionTitle>Utrum requiratur quod Deus sit finis actus amoris viatoris erga Deum et proximum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.chattonlectura:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcl-b1d1q1</sctap:gitRepository>

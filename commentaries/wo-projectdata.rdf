@@ -15,6 +15,7 @@
       <dc:title>Ockham Commentary</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
       <sctap:slug/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary</sctap:dtsurn>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book3"/>
@@ -202,6 +203,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
@@ -386,6 +389,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b2q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b2q3"/>
@@ -434,6 +439,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b3q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b3q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b3q3"/>
@@ -466,6 +473,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b4q2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b4q3"/>
@@ -507,6 +516,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1prolq1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1prolq1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1prolq2"/>
@@ -540,6 +551,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d1q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d1q2"/>
@@ -561,6 +574,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d2q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d2q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d2q2"/>
@@ -592,6 +607,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d3q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d3q2"/>
@@ -621,6 +638,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d4q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d4q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d4q2"/>
@@ -634,6 +653,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d5q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d5q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d5q2"/>
@@ -649,6 +670,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d6q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d6q1"/>
    </rdf:Description>
@@ -660,6 +683,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d7q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d7q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d7q2"/>
@@ -675,6 +700,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d8q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d8q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d8q2"/>
@@ -698,6 +725,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d9q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d9q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d9q2"/>
@@ -713,6 +742,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d10q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d10q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d10q2"/>
@@ -726,6 +757,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d11q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d11q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d11q2"/>
@@ -739,6 +772,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d12q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d12q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d12q2"/>
@@ -754,6 +789,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d13q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d13q1"/>
    </rdf:Description>
@@ -765,6 +802,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d14q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d14q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d14q2"/>
@@ -778,6 +817,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d15q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d15q1"/>
    </rdf:Description>
@@ -789,6 +830,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d16q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d16q1"/>
    </rdf:Description>
@@ -800,6 +843,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d17q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d17q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d17q2"/>
@@ -825,6 +870,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d18q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d18q1"/>
    </rdf:Description>
@@ -836,6 +883,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d19q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d19q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d19q2"/>
@@ -849,6 +898,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d20q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d20q1"/>
    </rdf:Description>
@@ -860,6 +911,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d21q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d21q1"/>
    </rdf:Description>
@@ -871,6 +924,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.23</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d22q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d22q1"/>
    </rdf:Description>
@@ -882,6 +937,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>024</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.24</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d23q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d23q1"/>
    </rdf:Description>
@@ -893,6 +950,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>025</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.25</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d24q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d24q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d24q2"/>
@@ -906,6 +965,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>026</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.26</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d25q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d25q1"/>
    </rdf:Description>
@@ -917,6 +978,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>027</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.27</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d26q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d26q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d26q2"/>
@@ -932,6 +995,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>028</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.28</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d27q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d27q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d27q2"/>
@@ -947,6 +1012,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>029</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.29</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d28q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d28q1"/>
    </rdf:Description>
@@ -958,6 +1025,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>030</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.30</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d29q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d29q1"/>
    </rdf:Description>
@@ -969,6 +1038,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>031</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.31</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d30q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d30q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d30q2"/>
@@ -988,6 +1059,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>032</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.32</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d31q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d31q1"/>
    </rdf:Description>
@@ -999,6 +1072,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>033</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.33</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d32q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d32q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d32q2"/>
@@ -1012,6 +1087,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>034</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.34</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d33q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d33q1"/>
    </rdf:Description>
@@ -1023,6 +1100,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>035</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.35</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d34q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d34q1"/>
    </rdf:Description>
@@ -1034,6 +1113,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>036</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d35q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d35q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d35q2"/>
@@ -1055,6 +1136,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>037</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.37</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d36q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d36q1"/>
    </rdf:Description>
@@ -1066,6 +1149,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>038</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.38</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d37q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d37q1"/>
    </rdf:Description>
@@ -1077,6 +1162,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>039</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.39</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d38q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d38q1"/>
    </rdf:Description>
@@ -1088,6 +1175,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>040</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.40</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d39q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d39q1"/>
    </rdf:Description>
@@ -1099,6 +1188,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>041</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.41</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d40q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d40q1"/>
    </rdf:Description>
@@ -1110,6 +1201,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>042</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>042</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.42</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d41q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d41q1"/>
    </rdf:Description>
@@ -1121,6 +1214,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>043</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>043</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.43</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d42q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d42q1"/>
    </rdf:Description>
@@ -1132,6 +1227,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>044</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>044</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.44</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d43q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d43q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d43q2"/>
@@ -1145,6 +1242,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>045</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>045</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.45</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d44q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d44q1"/>
    </rdf:Description>
@@ -1156,6 +1255,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>046</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>046</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.46</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d45q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d45q1"/>
    </rdf:Description>
@@ -1167,6 +1268,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>047</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>047</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.47</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d46q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d46q1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d46q2"/>
@@ -1180,6 +1283,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>048</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>048</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.48</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d47q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d47q1"/>
    </rdf:Description>
@@ -1191,6 +1296,8 @@
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/ockhamcommentary/librum/wo-book1"/>
       <sctap:sectionOrderNumber>049</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>049</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.49</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d48q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ockhamcommentary/item/wo-b1d48q1"/>
    </rdf:Description>
@@ -1203,6 +1310,8 @@
       <sctap:questionTitle>Utrum sit possibile intellectum viatoris habere notitiam evidentem de veritatibus theologiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq1</sctap:gitRepository>
@@ -1219,6 +1328,8 @@
       <sctap:questionTitle>Utrum notitia evidens veritatum theologiae sit scientia proprie dicta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq2</sctap:gitRepository>
@@ -1235,6 +1346,8 @@
       <sctap:questionTitle>Utrum passio scibilis de aliquo scientia proprie dicta differat ab eo realiter</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq3</sctap:gitRepository>
@@ -1251,6 +1364,8 @@
       <sctap:questionTitle>Utrum omnis passio sit demonstrabilis de suo subiecto primo a priori</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq4</sctap:gitRepository>
@@ -1267,6 +1382,8 @@
       <sctap:questionTitle>Utrum in omni demonstratione definitio sit medium demonstrandi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq5</sctap:gitRepository>
@@ -1283,6 +1400,8 @@
       <sctap:questionTitle>Utrum sola propositio per se secundo modo dicendi per se sit scibilis scientia proprie dicta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq6</sctap:gitRepository>
@@ -1299,6 +1418,8 @@
       <sctap:questionTitle>Utrum theologia quae de communi lege habetur a theologis sit scientia proprie dicta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq7</sctap:gitRepository>
@@ -1315,6 +1436,8 @@
       <sctap:questionTitle>Utrum habitus theologiae sit realiter unus secundum numerum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq8</sctap:gitRepository>
@@ -1331,6 +1454,8 @@
       <sctap:questionTitle>Utrum Deus sub propria ratione deitatis sit subiectum theologiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq9</sctap:gitRepository>
@@ -1347,6 +1472,8 @@
       <sctap:questionTitle>Utrum sola operatio potentiae sensitivae sit praxis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i10</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq10</sctap:gitRepository>
@@ -1363,6 +1490,8 @@
       <sctap:questionTitle>Utrum notitia practica et speculativa distinguantur per fines vel per obiecta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i11</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq11</sctap:gitRepository>
@@ -1379,6 +1508,8 @@
       <sctap:questionTitle>Utrum habitus theologicus sit speculativus vel practicus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.1.i12</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1prol"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1prolq12</sctap:gitRepository>
@@ -1395,6 +1526,8 @@
       <sctap:questionTitle>Utrum tantum omni alio a Deo sit utendum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d1q1</sctap:gitRepository>
@@ -1411,6 +1544,8 @@
       <sctap:questionTitle>Utrum frui sit actus solius voluntatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d1q2</sctap:gitRepository>
@@ -1427,6 +1562,8 @@
       <sctap:questionTitle>Utrum fruitio sit qualitas realiter distincta a delectatione</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d1q3</sctap:gitRepository>
@@ -1443,6 +1580,8 @@
       <sctap:questionTitle>Utrum solus Deus sit debitum obiectum fruitionis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d1q4</sctap:gitRepository>
@@ -1459,6 +1598,8 @@
       <sctap:questionTitle>Utrum voluntas possit frui essentia non fruendo persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d1q5</sctap:gitRepository>
@@ -1475,6 +1616,8 @@
       <sctap:questionTitle>Utrum voluntas contingenter et libere fruatur fine ultimo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.2.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d1q6</sctap:gitRepository>
@@ -1491,6 +1634,8 @@
       <sctap:questionTitle>Utrum sit omnimoda identitas inter essentiam divinam et perfectiones attributales</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q1</sctap:gitRepository>
@@ -1507,6 +1652,8 @@
       <sctap:questionTitle>Utrum perfectiones attributales sint ipsa divina essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q2</sctap:gitRepository>
@@ -1523,6 +1670,8 @@
       <sctap:questionTitle>Utrum aliquid reale possit distingui secundum rationem ab aliquo reali</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q3</sctap:gitRepository>
@@ -1539,6 +1688,8 @@
       <sctap:questionTitle>Utrum universale sit vera res extra animam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q4</sctap:gitRepository>
@@ -1555,6 +1706,8 @@
       <sctap:questionTitle>Utrum universale sit vera res realiter distincta ab individuo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q5</sctap:gitRepository>
@@ -1571,6 +1724,8 @@
       <sctap:questionTitle>Utrum universale sit realiter extra animam, non distinctum realiter ab individuo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q6</sctap:gitRepository>
@@ -1587,6 +1742,8 @@
       <sctap:questionTitle>Utrum universale et commune univocum sit quomodocumque realiter a parte rei extra animam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q7</sctap:gitRepository>
@@ -1603,6 +1760,8 @@
       <sctap:questionTitle>Utrum universale et commune univocum sit aliquid reale exsistens alicubi subiective</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q8</sctap:gitRepository>
@@ -1619,6 +1778,8 @@
       <sctap:questionTitle>Utrum aliquod universale sit univocum Deo et creaturae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q9</sctap:gitRepository>
@@ -1635,6 +1796,8 @@
       <sctap:questionTitle>Utrum sit tantum unus Deus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i10</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q10</sctap:gitRepository>
@@ -1651,6 +1814,8 @@
       <sctap:questionTitle>Utrum cum unitate divina stet pluralitas personarum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.3.i11</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d2"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d2q11</sctap:gitRepository>
@@ -1667,6 +1832,8 @@
       <sctap:questionTitle>Utrum primum cognitum ab intellectu nostro sit divina essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q1</sctap:gitRepository>
@@ -1683,6 +1850,8 @@
       <sctap:questionTitle>Utrum divina essentia sit a nobis cognoscibilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q2</sctap:gitRepository>
@@ -1699,6 +1868,8 @@
       <sctap:questionTitle>Utrum de Deo possimus habere plures conceptus quidditativos</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q3</sctap:gitRepository>
@@ -1715,6 +1886,8 @@
       <sctap:questionTitle>Utrum Deum esset sit per se et naturaliter notum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q4</sctap:gitRepository>
@@ -1731,6 +1904,8 @@
       <sctap:questionTitle>Utrum universale communissimum sit primum cognitum a nobis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q5</sctap:gitRepository>
@@ -1747,6 +1922,8 @@
       <sctap:questionTitle>Utrum prima notitia intellectus primitate generationis sit notitia intuitiva alicuius singularis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q6</sctap:gitRepository>
@@ -1763,6 +1940,8 @@
       <sctap:questionTitle>Utrum singulare possit distincte cognosci ante cognitionem entis vel cuiuscumque universalis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q7</sctap:gitRepository>
@@ -1779,6 +1958,8 @@
       <sctap:questionTitle>Utrum ens commune sit obiectum primum et adaequatum intellectus nostri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q8</sctap:gitRepository>
@@ -1795,6 +1976,8 @@
       <sctap:questionTitle>Utrum in omni creatura sit vestigium trinitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q9</sctap:gitRepository>
@@ -1811,6 +1994,8 @@
       <sctap:questionTitle>Utrum creatura rationalis sit imago trinitatis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.4.i10</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d3"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d3q10</sctap:gitRepository>
@@ -1827,6 +2012,8 @@
       <sctap:questionTitle>Utrum haec sit concedenda: Deus generat Deum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.5.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d4q1</sctap:gitRepository>
@@ -1843,6 +2030,8 @@
       <sctap:questionTitle>Utrum haec sit concedenda: Deus est Pater et Filius et Spiritus Sanctus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.5.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d4"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d4q2</sctap:gitRepository>
@@ -1859,6 +2048,8 @@
       <sctap:questionTitle>Utrum essentia divina generet vel generetur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.6.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d5q1</sctap:gitRepository>
@@ -1875,6 +2066,8 @@
       <sctap:questionTitle>Utrum Filius generetur de substantia Patris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.6.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d5q2</sctap:gitRepository>
@@ -1891,6 +2084,8 @@
       <sctap:questionTitle>Utrum essentia sit terminus formalis generationis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.6.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d5"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d5q3</sctap:gitRepository>
@@ -1907,6 +2102,8 @@
       <sctap:questionTitle>Utrum Pater genuit Filium natura vel voluntate</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.7.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d6"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d6q1</sctap:gitRepository>
@@ -1923,6 +2120,8 @@
       <sctap:questionTitle>Utrum potentia generandi in Patre sit aliquid absolutum vel respectivum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.8.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d7q1</sctap:gitRepository>
@@ -1939,6 +2138,8 @@
       <sctap:questionTitle>Utrum absolutum sub ratione essentiae vel sub ratione aliqua attributali sit potentia generandi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.8.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d7q2</sctap:gitRepository>
@@ -1955,6 +2156,8 @@
       <sctap:questionTitle>Utrum potentia generandi possit communicari Filio a Patre</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.8.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d7"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d7q3</sctap:gitRepository>
@@ -1971,6 +2174,8 @@
       <sctap:questionTitle>Utrum simplicitati divinae repugnat esse in aliquo genere praedicamentali</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q1</sctap:gitRepository>
@@ -1987,6 +2192,8 @@
       <sctap:questionTitle>Utrum aliquod simpliciter simplex possit esse in genere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q2</sctap:gitRepository>
@@ -2003,6 +2210,8 @@
       <sctap:questionTitle>Utrum omne genus dividatur in suas species per differentias constitutivas specierum et divisivas ipsius</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q3</sctap:gitRepository>
@@ -2019,6 +2228,8 @@
       <sctap:questionTitle>Utrum genus et differentia importent eandem rem primo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q4</sctap:gitRepository>
@@ -2035,6 +2246,8 @@
       <sctap:questionTitle>Utrum Deus possit definiri definitione non data per additamentum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q5</sctap:gitRepository>
@@ -2051,6 +2264,8 @@
       <sctap:questionTitle>Utrum in omni definitione completissima debeant poni omnes differentiae essentiales cum genere primo generalissimo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q6</sctap:gitRepository>
@@ -2067,6 +2282,8 @@
       <sctap:questionTitle>Utrum solus Deus sit immutabilis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.9.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d8"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d8q7</sctap:gitRepository>
@@ -2083,6 +2300,8 @@
       <sctap:questionTitle>Utrum Filius vere generetur a Patre</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.10.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d9"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d9q1</sctap:gitRepository>
@@ -2099,6 +2318,8 @@
       <sctap:questionTitle>Utrum generatio in divinis sit univoca vel aequivoca</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.10.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d9"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d9q2</sctap:gitRepository>
@@ -2115,6 +2336,8 @@
       <sctap:questionTitle>Utrum generatio Filii sit aeterna</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.10.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d9"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d9q3</sctap:gitRepository>
@@ -2131,6 +2354,8 @@
       <sctap:questionTitle>Utrum voluntas sit principium productivum Spiritus Sancti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.11.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d10"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d10q1</sctap:gitRepository>
@@ -2147,6 +2372,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus libere producatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.11.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d10"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d10q2</sctap:gitRepository>
@@ -2163,6 +2390,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus procedat a Patre et Filio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.12.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d11"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d11q1</sctap:gitRepository>
@@ -2179,6 +2408,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus posset distingui a Filio si ab eo non procederet</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.12.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d11"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d11q2</sctap:gitRepository>
@@ -2195,6 +2426,8 @@
       <sctap:questionTitle>Utrum Pater et Filius sint unum principium spirans Spiritum Sanctum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.13.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d12q1</sctap:gitRepository>
@@ -2211,6 +2444,8 @@
       <sctap:questionTitle>Utrum Pater et Filius spirent Spiritum Sanctum in quantum sunt unum vel in quantum sunt distincti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.13.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d12q2</sctap:gitRepository>
@@ -2227,6 +2462,8 @@
       <sctap:questionTitle>Utrum Pater et Filius spirent omnino uniformiter Spiritum Sanctum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.13.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d12"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d12q3</sctap:gitRepository>
@@ -2243,6 +2480,8 @@
       <sctap:questionTitle>Utrum generatio Filii sit spiratio Spiritus Sancti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.14.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d13"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d13q1</sctap:gitRepository>
@@ -2259,6 +2498,8 @@
       <sctap:questionTitle>Utrum Spiritui Sancto competat duplex processio</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.15.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d14q1</sctap:gitRepository>
@@ -2275,6 +2516,8 @@
       <sctap:questionTitle>Utrum Spiritus Sanctus detur in propria persona vel tantum secundum dona sua</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.15.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d14"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d14q2</sctap:gitRepository>
@@ -2291,6 +2534,8 @@
       <sctap:questionTitle>Utrum quaelibet persona possit mittere et mitti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.16.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d15"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d15q1</sctap:gitRepository>
@@ -2307,6 +2552,8 @@
       <sctap:questionTitle>Utrum divina persona visibiliter mittatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.17.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d16"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d16q1</sctap:gitRepository>
@@ -2323,6 +2570,8 @@
       <sctap:questionTitle>Utrum praeter Spiritum Sanctum necesse sit ponere caritatem absolutam creatam, animam formaliter informantem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q1</sctap:gitRepository>
@@ -2339,6 +2588,8 @@
       <sctap:questionTitle>Utrum actus voluntatis posset esse meritorius sine caritate formaliter animam informante</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q2</sctap:gitRepository>
@@ -2355,6 +2606,8 @@
       <sctap:questionTitle>Utrum omni actui meritorio caritas creata praesupponatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q3</sctap:gitRepository>
@@ -2371,6 +2624,8 @@
       <sctap:questionTitle>Utrum caritas possit augeri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q4</sctap:gitRepository>
@@ -2387,6 +2642,8 @@
       <sctap:questionTitle>Utrum caritas praeexsistens remaneat in fine augmentationis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q5</sctap:gitRepository>
@@ -2403,6 +2660,8 @@
       <sctap:questionTitle>Utrum in augmentatione caritas aliquid realiter differens a priori sibi adveniat</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q6</sctap:gitRepository>
@@ -2419,6 +2678,8 @@
       <sctap:questionTitle>Utrum in augmentatione caritatis illud quod additur sit eiusdem speciei specialissimae cum caritate praecedente</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q7</sctap:gitRepository>
@@ -2435,6 +2696,8 @@
       <sctap:questionTitle>Utrum sit dare summam caritatem cui repugnet augmentari</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.18.i8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d17"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d17q8</sctap:gitRepository>
@@ -2451,6 +2714,8 @@
       <sctap:questionTitle>Utrum donum dicat proprietatem personalem Spiritus Sancti</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.19.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d18"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d18q1</sctap:gitRepository>
@@ -2467,6 +2732,8 @@
       <sctap:questionTitle>Utrum personae divinae sint secundum magnitudinem perfecte aequales</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.20.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d19"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d19q1</sctap:gitRepository>
@@ -2483,6 +2750,8 @@
       <sctap:questionTitle>Utrum quaelibet persona sit in alis per circumincessionem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.20.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d19"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d19q2</sctap:gitRepository>
@@ -2499,6 +2768,8 @@
       <sctap:questionTitle>Utrum personae divinae sint aequales secundum potentiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.21.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d20"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d20q1</sctap:gitRepository>
@@ -2515,6 +2786,8 @@
       <sctap:questionTitle>Utrum haec sit concedenda de virtute sermonis 'Solus Pater est Deus'</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.22.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d21"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d21q1</sctap:gitRepository>
@@ -2531,6 +2804,8 @@
       <sctap:questionTitle>Utrum viator possit aliquod nomen imponere ad distincte significandum divinam essentiam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.23.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d22"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d22q1</sctap:gitRepository>
@@ -2547,6 +2822,8 @@
       <sctap:questionTitle>Utrum hoc nomen 'persona' sit nomen primae intentionis vel secundae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.24.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d23"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d23q1</sctap:gitRepository>
@@ -2563,6 +2840,8 @@
       <sctap:questionTitle>Utrum unitas qua Deus dicitur unus sit aliquid additum Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.25.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d24"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d24q1</sctap:gitRepository>
@@ -2579,6 +2858,8 @@
       <sctap:questionTitle>Utrum Trinitas personarum sit verus numerus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.25.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d24"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d24q2</sctap:gitRepository>
@@ -2595,6 +2876,8 @@
       <sctap:questionTitle>Utrum 'persona' in divinis dicatur secundum substantiam vel secundum relationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.26.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d25"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d25q1</sctap:gitRepository>
@@ -2611,6 +2894,8 @@
       <sctap:questionTitle>Utrum personae divinae constituantur et distinguantur per relationes originis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.27.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d26"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d26q1</sctap:gitRepository>
@@ -2627,6 +2912,8 @@
       <sctap:questionTitle>Utrum divinae personae constituantur et distinguantur per relationes sub ratione relationum vel per aliquam aliam rationem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.27.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d26"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d26q2</sctap:gitRepository>
@@ -2643,6 +2930,8 @@
       <sctap:questionTitle>Utrum omnes relationes divinae sint constitutivae personarum divinarum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.27.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d26"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d26q3</sctap:gitRepository>
@@ -2659,6 +2948,8 @@
       <sctap:questionTitle>Utrum in eadem persona sint plures proprietates</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.28.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d27"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d27q1</sctap:gitRepository>
@@ -2675,6 +2966,8 @@
       <sctap:questionTitle>Utrum verbum intellectus creati sit vera qualitas subiective producta in mente</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.28.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d27"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d27q2</sctap:gitRepository>
@@ -2691,6 +2984,8 @@
       <sctap:questionTitle>Utrum solus Filius sit Verbum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.28.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d27"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d27q3</sctap:gitRepository>
@@ -2707,6 +3002,8 @@
       <sctap:questionTitle>Utrum innascibilitas sit proprietas constituva Patris</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.29.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d28"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d28q1</sctap:gitRepository>
@@ -2723,6 +3020,8 @@
       <sctap:questionTitle>Utrum principium dicatur univoce de omnibus illis in Deo de quibus vere praedicatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.30.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d29"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d29q1</sctap:gitRepository>
@@ -2739,6 +3038,8 @@
       <sctap:questionTitle>Utrum Deus realiter vel secundum rationem referatur ad creaturam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.31.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d30q1</sctap:gitRepository>
@@ -2755,6 +3056,8 @@
       <sctap:questionTitle>Utrum respectus extrinsecus advenientes importent res distinctas ad absolutis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.31.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d30q2</sctap:gitRepository>
@@ -2771,6 +3074,8 @@
       <sctap:questionTitle>Utrum de intentione Philosophi fuerit ponere quemcumque respectum a parte rei distinctum ab omnibus absolutis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.31.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d30q3</sctap:gitRepository>
@@ -2787,6 +3092,8 @@
       <sctap:questionTitle>Utrum secundum rei veritatem respectus distinguatur a parte rei ab absolutis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.31.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d30q4</sctap:gitRepository>
@@ -2803,6 +3110,8 @@
       <sctap:questionTitle>Utrum relatio temporalis Dei ad creatum sit relatio realis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.31.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d30"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d30q5</sctap:gitRepository>
@@ -2819,6 +3128,8 @@
       <sctap:questionTitle>Utrum identitas, similitudo et aequalitas sint relationes reales in divinis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.32.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d31"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d31q1</sctap:gitRepository>
@@ -2835,6 +3146,8 @@
       <sctap:questionTitle>Utrum Pater sit sapiens sapienta genita</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.33.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d32"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d32q1</sctap:gitRepository>
@@ -2851,6 +3164,8 @@
       <sctap:questionTitle>Utrum Pater et Filius diligant se Spiritu Sancto</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.33.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d32"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d32q2</sctap:gitRepository>
@@ -2867,6 +3182,8 @@
       <sctap:questionTitle>Utrum proprietas divina sit realiter tam essentia quam persona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.34.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d33"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d33q1</sctap:gitRepository>
@@ -2883,6 +3200,8 @@
       <sctap:questionTitle>Utrum persona sit realiter divina essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.35.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d34"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d34q1</sctap:gitRepository>
@@ -2899,6 +3218,8 @@
       <sctap:questionTitle>Utrum in Deo sit scientia ex natura rei</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d35q1</sctap:gitRepository>
@@ -2915,6 +3236,8 @@
       <sctap:questionTitle>Utrum Deus intelligat omnia alia a se distincte</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d35q2</sctap:gitRepository>
@@ -2931,6 +3254,8 @@
       <sctap:questionTitle>Utrum divina essentia sit primum obiectum intellectus sui</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d35q3</sctap:gitRepository>
@@ -2947,6 +3272,8 @@
       <sctap:questionTitle>Utrum in Deo necessario requirantur distinctae relationes rationes rationis ad ipsa intelligibilia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d35q4</sctap:gitRepository>
@@ -2963,6 +3290,8 @@
       <sctap:questionTitle>Utrum Deus intelligat omnia alia a se per ideas eorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d35q5</sctap:gitRepository>
@@ -2979,6 +3308,8 @@
       <sctap:questionTitle>Utrum ideae in mente divina sint practicae vel speculativae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.36.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d35"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d35q6</sctap:gitRepository>
@@ -2995,6 +3326,8 @@
       <sctap:questionTitle>Utrum perfectiones creaturarum in Deo distinguantur inter se realiter et a divina essentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.37.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d36"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d36q1</sctap:gitRepository>
@@ -3011,6 +3344,8 @@
       <sctap:questionTitle>Utrum esse ubique et in omnibus rebus per essentiam, praesentiam, potentiam sit proprium soli Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.38.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d37"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d37q1</sctap:gitRepository>
@@ -3027,6 +3362,8 @@
       <sctap:questionTitle>Utrum Deus habeat scientiam determinatam et necessariam omnium futurorum contingentium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.39.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d38"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d38q1</sctap:gitRepository>
@@ -3043,6 +3380,8 @@
       <sctap:questionTitle>Utrum Deus possit scire plura quam scit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.40.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d39"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d39q1</sctap:gitRepository>
@@ -3059,6 +3398,8 @@
       <sctap:questionTitle>Utrum sit possibile aliquem praedestinatum damnari et praescitum salvari</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.41.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d40"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d40q1</sctap:gitRepository>
@@ -3075,6 +3416,8 @@
       <sctap:questionTitle>Utrum in praedestinato sit aliqua causa suae praedestinationis et in reprobato aliqua causa suae reprobationis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.42.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d41"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d41q1</sctap:gitRepository>
@@ -3091,6 +3434,8 @@
       <sctap:questionTitle>Utrum Deus possit facere omne possibile fieri a creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.43.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d42"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d42q1</sctap:gitRepository>
@@ -3107,6 +3452,8 @@
       <sctap:questionTitle>Utrum Deus possit facere aliqua quae non facit nec faciet</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.44.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d43"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d43q1</sctap:gitRepository>
@@ -3123,6 +3470,8 @@
       <sctap:questionTitle>Utrum prius conveniat Deo non posse facere impossibile quam impossibili non posse fieri a Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.44.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d43"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d43q2</sctap:gitRepository>
@@ -3139,6 +3488,8 @@
       <sctap:questionTitle>Utrum Deus posset facere mundum meliorem isto mundo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.45.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d44"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d44q1</sctap:gitRepository>
@@ -3155,6 +3506,8 @@
       <sctap:questionTitle>Utrum voluntas Dei sit cause immediata et prima omnium eorum quae fiunt</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.46.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d45"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d45q1</sctap:gitRepository>
@@ -3171,6 +3524,8 @@
       <sctap:questionTitle>Utrum voluntas divina per quamcumque potentiam creaturae possit impediri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.47.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d46"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d46q1</sctap:gitRepository>
@@ -3187,6 +3542,8 @@
       <sctap:questionTitle>Utrum per rationem naturalem possit probari quod voluntas divina semper impletur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.47.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d46"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d46q2</sctap:gitRepository>
@@ -3203,6 +3560,8 @@
       <sctap:questionTitle>Utrum Deus possit praecipere malum fieri</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.48.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d47"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d47q1</sctap:gitRepository>
@@ -3219,6 +3578,8 @@
       <sctap:questionTitle>Utrum quaelibet voluntas creata teneatur se conformare divinae voluntati</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:1.49.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/distinctio/wo-b1d48"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b1d48q1</sctap:gitRepository>
@@ -3235,6 +3596,8 @@
       <sctap:questionTitle>Utrum creatio actio qua Deus denominatur formaliter creans differat ex natura rei a creatore</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q1</sctap:gitRepository>
@@ -3251,6 +3614,8 @@
       <sctap:questionTitle>Utrum creatio passio differat a creatura</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q2</sctap:gitRepository>
@@ -3267,6 +3632,8 @@
       <sctap:questionTitle>Utrum Deus sit prima causa et immediata omnium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q3</sctap:gitRepository>
@@ -3283,6 +3650,8 @@
       <sctap:questionTitle>Utrum Deus sit agens naturale vel liberum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q4</sctap:gitRepository>
@@ -3299,6 +3668,8 @@
       <sctap:questionTitle>Utrum Deus sit causa omnium secundum intentionem philosophorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q5</sctap:gitRepository>
@@ -3315,6 +3686,8 @@
       <sctap:questionTitle>Utrum contradicat creaturae habere potentiam creandi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q6</sctap:gitRepository>
@@ -3331,6 +3704,8 @@
       <sctap:questionTitle>Utrum motus sit vera res extra animam differens realiter a mobili et a termino</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q7</sctap:gitRepository>
@@ -3347,6 +3722,8 @@
       <sctap:questionTitle>Utrum duratio angeli differat ab essentia vel exsistentia angeli</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q8</sctap:gitRepository>
@@ -3363,6 +3740,8 @@
       <sctap:questionTitle>Utrum mensura sit semper notior et nobilior mensurato</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q9</sctap:gitRepository>
@@ -3379,6 +3758,8 @@
       <sctap:questionTitle>Utrum tempus habeat esse reale extra animam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q10</sctap:gitRepository>
@@ -3395,6 +3776,8 @@
       <sctap:questionTitle>Utrum tempus sit mensura angelorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q11</sctap:gitRepository>
@@ -3411,6 +3794,8 @@
       <sctap:questionTitle>Utrum angelus intelligat alia a se per essentiam suam vel per species</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q12</sctap:gitRepository>
@@ -3427,6 +3812,8 @@
       <sctap:questionTitle>Utrum angelus superior intelligat per pauciores species quam inferior</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q13</sctap:gitRepository>
@@ -3443,6 +3830,8 @@
       <sctap:questionTitle>Utrum angelus accipiat cognitionem a rebus spiritualibus vel corporalibus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q14</sctap:gitRepository>
@@ -3459,6 +3848,8 @@
       <sctap:questionTitle>Utrum angelus malus semper sit in actu malo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q15</sctap:gitRepository>
@@ -3475,6 +3866,8 @@
       <sctap:questionTitle>Utrum angelus possit loqui intellectualiter alteri angelo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q16</sctap:gitRepository>
@@ -3491,6 +3884,8 @@
       <sctap:questionTitle>Utrum actus rectus et reflexus sint idem realiter aut diversi actus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q17</sctap:gitRepository>
@@ -3507,6 +3902,8 @@
       <sctap:questionTitle>Utrum in caelo sit materia eiusdem rationis cum materia istorum inferiorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q18</sctap:gitRepository>
@@ -3523,6 +3920,8 @@
       <sctap:questionTitle>Utrum creatura aliqua sit cause productionis animalium</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q19</sctap:gitRepository>
@@ -3539,6 +3938,8 @@
       <sctap:questionTitle>Utrum memoria, intellectus et voluntas sint potentiae realiter distinctae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:2.i20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b2q20</sctap:gitRepository>
@@ -3555,6 +3956,8 @@
       <sctap:questionTitle>Utrum solus Filius univit sibi naturam humanam in unitate suppositi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q1</sctap:gitRepository>
@@ -3571,6 +3974,8 @@
       <sctap:questionTitle>Utrum sensibile imprimat speciem suam in medio realiter distinctam ab eo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q2</sctap:gitRepository>
@@ -3587,6 +3992,8 @@
       <sctap:questionTitle>Utrum in potentia sensitiva vel in organo causetur aliqua species praeter actum sentiendi praevia naturaliter ipsi actui sentiendi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q3</sctap:gitRepository>
@@ -3603,6 +4010,8 @@
       <sctap:questionTitle>Utrum potentiae sensitivae differant realiter ab ipsa anima sensitiva et inter se</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q4</sctap:gitRepository>
@@ -3619,6 +4028,8 @@
       <sctap:questionTitle>Utrum in beata Virgine fuerit fomes peccati</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q5</sctap:gitRepository>
@@ -3635,6 +4046,8 @@
       <sctap:questionTitle>Utrum beata Virgo debeat dici parens Christi secundum naturam humanam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q6</sctap:gitRepository>
@@ -3651,6 +4064,8 @@
       <sctap:questionTitle>Utrum habitus sit qualitas absoluta effectiva actus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q7</sctap:gitRepository>
@@ -3667,6 +4082,8 @@
       <sctap:questionTitle>Utrum anima Christi habuit summam gratiam possibilem haberi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q8</sctap:gitRepository>
@@ -3683,6 +4100,8 @@
       <sctap:questionTitle>Utrum necesse sit ponere in viatore tres virtutes theologicas quae possunt remanere in patria</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q9</sctap:gitRepository>
@@ -3699,6 +4118,8 @@
       <sctap:questionTitle>Utrum haec sit concedenda: Deus factus est homo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q10</sctap:gitRepository>
@@ -3715,6 +4136,8 @@
       <sctap:questionTitle>Utrum habitus virtuosus sit in parte intellectiva subiective</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q11</sctap:gitRepository>
@@ -3731,6 +4154,8 @@
       <sctap:questionTitle>Utrum omnis habitus virtuosus generetur ex actibus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:3.i12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b3q12</sctap:gitRepository>
@@ -3747,6 +4172,8 @@
       <sctap:questionTitle>Utrum sacramenta Novae Legis sint causae effectivae gratiae</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q1</sctap:gitRepository>
@@ -3763,6 +4190,8 @@
       <sctap:questionTitle>Utrum cuilibet digne recipienti Baptismum character imprimatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q2</sctap:gitRepository>
@@ -3779,6 +4208,8 @@
       <sctap:questionTitle>Utrum quilibet digne recipiens sacramentum Bapismi recipiat gratiam et omnes virtutes necessarias ad salutem</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q3</sctap:gitRepository>
@@ -3795,6 +4226,8 @@
       <sctap:questionTitle>Utrum Baptismus tollat omnem culpam</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q4</sctap:gitRepository>
@@ -3811,6 +4244,8 @@
       <sctap:questionTitle>Utrum omnis poena in Baptismo remittatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q5</sctap:gitRepository>
@@ -3827,6 +4262,8 @@
       <sctap:questionTitle>Utrum corpus Christi realiter sub speciebus panis contineatur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q6</sctap:gitRepository>
@@ -3843,6 +4280,8 @@
       <sctap:questionTitle>Utrum omnis actio et passio et omne accidens possit inesse corpori Christi exsistenti in Eucharistia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q7</sctap:gitRepository>
@@ -3859,6 +4298,8 @@
       <sctap:questionTitle>Utrum substantia panis transubstantietur in corpus Christi</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q8</sctap:gitRepository>
@@ -3875,6 +4316,8 @@
       <sctap:questionTitle>Utrum accidentia separata a subiecto in Eucharistia uniformiter se habeant ad actionem et passionem sicut quando erant coniuncta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q9</sctap:gitRepository>
@@ -3891,6 +4334,8 @@
       <sctap:questionTitle>Utrum sine Poenitentia possit deleri peccatum mortale</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q10</sctap:gitRepository>
@@ -3907,6 +4352,8 @@
       <sctap:questionTitle>Utrum cuilbet poenitenti per sacramentum Poenitentiae gratia et virtutes infundantur</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q11</sctap:gitRepository>
@@ -3923,6 +4370,8 @@
       <sctap:questionTitle>Utrum omnes homines resurgent incorruptibiles</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q12</sctap:gitRepository>
@@ -3939,6 +4388,8 @@
       <sctap:questionTitle>Utrum idem homo numero resurget qui prius vixit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q13</sctap:gitRepository>
@@ -3955,6 +4406,8 @@
       <sctap:questionTitle>Utrum anima separata habeat memoriam tam actualem quam habitualem illorum quae novit coniuncta</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q14</sctap:gitRepository>
@@ -3971,6 +4424,8 @@
       <sctap:questionTitle>Utrum quilibet videns divinam essentiam necessario comprehendat divinitatem et omnes creaturas</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q15</sctap:gitRepository>
@@ -3986,6 +4441,8 @@
       <sctap:questionTitle>Utrum voluntas beata necessario fruatur Deo</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.ockhamcommentary:4.i16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wo-b4q16</sctap:gitRepository>
