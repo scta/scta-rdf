@@ -29,20 +29,22 @@
   <div id="body">
     <div id="pl-librum1" class="toplevel" type="librum">
       <head>Librum I</head>
-      <item id="pl-l1prol" type="prologus" subtype="librum1-prologus">
-        <fileName filestem="pl-l1prol"/>
-        <title>Librum I, Prologus</title>
-        <questionTitle/>
-        <hasWitnesses>
-          <witness ref="#P">
-            <folio>4r</folio>
-            <folio>4v</folio>
-          </witness>
-          <witness ref="#Pb">
-            <folio>1r</folio>
-          </witness>
-        </hasWitnesses>
-      </item>
+      <div id="pl-l1proldiv" type='distinctio' subtype="librum1-prologus">
+        <item id="pl-l1prol" type="prologus">
+          <fileName filestem="pl-l1prol"/>
+          <title>Librum I, Prologus</title>
+          <questionTitle/>
+          <hasWitnesses>
+            <witness ref="#P">
+              <folio>4r</folio>
+              <folio>4v</folio>
+            </witness>
+            <witness ref="#Pb">
+              <folio>1r</folio>
+            </witness>
+          </hasWitnesses>
+        </item>
+      </div>
       <div id="pl-l1d1" type="distinctio" subtype="librum1-distinctio1">
         <head>Librum I, distinctio 1</head>
         <item id="pl-l1d1c1" type="capitulus">
@@ -833,6 +835,7 @@
           </manualRDFs>
         </item>
       </div>
+      <!-- possible confusion here regarding number of chapters -->
       <div id="pl-l1d22" type="distinctio">
         <head>DISTINCTIO XXII</head>
         <item id="pl-l1d22c1" type="capitulus">

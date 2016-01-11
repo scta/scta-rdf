@@ -2247,7 +2247,7 @@
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-2"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-3"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Avicenna"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-5"/>
@@ -2267,7 +2267,7 @@
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-12"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-13"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-14"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-15"/>
@@ -2275,13 +2275,13 @@
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-16"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q14-17"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/deHebdomadibus"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/DeHebdomadibus"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q14-1"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/Soliloquiorum"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Soliloquies"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q14-2"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/Enchiridion"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q14-3"/>
-      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deLiberoArbitrio"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q14-4"/>
       <sctap:mentions rdf:resource="http://scta.info/resource/work/deDivinisNominibus"/>
       <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q14-5"/>
@@ -2316,7 +2316,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q14-4">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
       <sctap:elementText>Dionysius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
@@ -2338,7 +2338,7 @@
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q14-7">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
-      <sctap:elementText>Dionisyus</sctap:elementText>
+      <sctap:elementText/>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
    </rdf:Description>
@@ -2386,7 +2386,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q14-14">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
       <sctap:elementText>Boethius</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
@@ -2414,14 +2414,14 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q14-1">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deHebdomadibus"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/DeHebdomadibus"/>
       <sctap:elementText>De hebdomadibus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q14-2">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Soliloquiorum"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Soliloquies"/>
       <sctap:elementText>Soliloquiorum</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
@@ -2435,15 +2435,17 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q14-4">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
-      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
-      <sctap:elementText>De libero arbitrio</sctap:elementText>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deLiberoArbitrio"/>
+      <sctap:elementText>De
+                        libero arbitrio</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q14-5">
       <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDivinisNominibus"/>
-      <sctap:elementText>De divinis nominibus</sctap:elementText>
+      <sctap:elementText>De divinis
+                        nominibus</sctap:elementText>
       <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
    </rdf:Description>
@@ -2469,10 +2471,6 @@
       <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
       <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
       <sctap:transcriptionType>Critical</sctap:transcriptionType>
-      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>
-      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>
-      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>
-      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>
       <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14/paragraph/"/>

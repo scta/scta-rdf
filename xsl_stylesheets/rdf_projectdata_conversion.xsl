@@ -241,7 +241,7 @@
                 <xsl:variable name="item-level" select="count(ancestor::*)"/>
                 <xsl:variable name="item-dtsurn">
                   <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
-                  <xsl:value-of select="concat($dtsurn, ':', $divcount, '.i', $sectionnumber)"/>
+                  <xsl:value-of select="concat($dtsurn, ':', $divcount, '.i', $totalnumber)"/>
                   
                   <!--
                   <xsl:choose>
@@ -333,6 +333,16 @@
                         <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
                         <sctap:hasTitle rdf:resource="http://scta.info/text/{$cid}/title/{$objectId}"/>
                      </xsl:for-each>
+                  
+                    <xsl:for-each select="document($extraction-file)//tei:body//tei:quote[@type='commentary']">
+                      <xsl:variable name="commentarySectionUrl" select="./@source"></xsl:variable>
+                      <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
+                      <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
+                      <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
+                      <sctap:quotes rdf:resource="{$commentarySectionUrl}"/>
+                      <sctap:hasQuote rdf:resource="http://scta.info/text/{$cid}/quote/{$objectId}"/>
+                    </xsl:for-each>
+                  
                     <xsl:for-each select="document($extraction-file)//tei:body//tei:quote[@ana]">
                         <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
                         <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
@@ -347,8 +357,9 @@
                       "passage" refers to passage that is not a sentences commentary section
                       "commentary" refers to sentences commentary unit. If commentary unit requires target which is SCTA Url -->
                   
-                  <!-- type="commentary" is non sentences commentary passage -->
-                  <xsl:for-each select="document($extraction-file)//tei:body//tei:ref[@type='commentary']">
+                  <!-- type="commentary" is sentences commentary passage -->
+                  <!-- [not(ancestor::tei:bibl] excludes references made in bibl elements -->
+                  <xsl:for-each select="document($extraction-file)//tei:body//tei:ref[@type='commentary'][not(ancestor::tei:bibl)]">
                     <xsl:variable name="commentarySectionUrl" select="./@target"></xsl:variable>
                     <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                     <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
@@ -356,7 +367,7 @@
                     <sctap:references rdf:resource="{$commentarySectionUrl}"/>
                     <sctap:hasRef rdf:resource="http://scta.info/text/{$cid}/ref/{$objectId}"/>
                   </xsl:for-each>
-                  <!-- type="passage" is non sentences commentary passage -->
+                  <!-- type="passage" is not sentences commentary passage -->
                   <xsl:for-each select="document($extraction-file)//tei:body//tei:ref[@type='passage']">
                     <xsl:variable name="passageRef" select="./@ana"></xsl:variable>
                     <xsl:variable name="passageID" select="substring-after($passageRef, '#')"></xsl:variable>
@@ -584,6 +595,16 @@
                       <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
                       <sctap:hasTitle rdf:resource="http://scta.info/text/{$cid}/title/{$objectId}"/>
                     </xsl:for-each>
+                    
+                    <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote[@type='commentary']">
+                      <xsl:variable name="commentarySectionUrl" select="./@source"></xsl:variable>
+                      <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
+                      <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
+                      <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
+                      <sctap:quotes rdf:resource="{$commentarySectionUrl}"/>
+                      <sctap:hasQuote rdf:resource="http://scta.info/text/{$cid}/quote/{$objectId}"/>
+                    </xsl:for-each>
+                    
                     <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote[@ana]">
                       <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
                       <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
@@ -597,8 +618,9 @@
                       "passage" refers to passage that is not a sentences commentary section
                       "commentary" refers to sentences commentary unit. If commentary unit requires target which is SCTA Url -->
                     
-                    <!-- type="commentary" is non sentences commentary passage -->
-                    <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[@type='commentary']">
+                    <!-- type="commentary" is not sentences commentary passage -->
+                    <!-- [not(ancestor::tei:bibl] excludes references made in bibl elements -->
+                    <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[@type='commentary'][not(ancestor::tei:bibl)]">
                       <xsl:variable name="commentarySectionUrl" select="./@target"></xsl:variable>
                       <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                       <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
