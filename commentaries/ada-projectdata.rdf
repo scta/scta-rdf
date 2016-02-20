@@ -32,6 +32,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1d1p1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1d1p1q2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1d1p1q2"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anconacommentary/witness/ada-troyes"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/witness/ada-troyes">
+      <dc:title>Troyes, Bibl. Munc. 296</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>troyes</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/librum/ada-l1">
       <dc:title>Librum 1</dc:title>

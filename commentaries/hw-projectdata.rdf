@@ -20,6 +20,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/werlcommentary/witness/hw-vat"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/werlcommentary/witness/hw-vat">
+      <dc:title>Vatican</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HenricusDeWerl"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>vat</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/werlcommentary/distinctio/hw-b1prol">
       <dc:title>Librum 1, Prologus</dc:title>

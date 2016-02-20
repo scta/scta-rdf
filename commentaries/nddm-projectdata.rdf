@@ -88,6 +88,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d10q5"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d10q6"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d10q7"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/dinkelsbuhllectura/witness/nddm-bnf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/dinkelsbuhllectura/witness/nddm-bnf">
+      <dc:title>TM 536</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/NicolasDeDinkelsbuhl"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/dinkelsbuhllectura/librum/nddm-librum4">
       <dc:title>Librum IV</dc:title>

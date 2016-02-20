@@ -40,6 +40,20 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item21"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item22"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/altavillacommentary/item/ja-item23"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/ja-mun"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/altavillacommentary/witness/ja-erf"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/ja-mun">
+      <dc:title>Munich</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>mun</sctap:hasSlug>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/witness/ja-erf">
+      <dc:title>Erfurt</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>erf</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/altavillacommentary/librum/ja-book1">
       <dc:title>Book I</dc:title>

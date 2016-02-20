@@ -217,6 +217,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/aquilacommentary/item/pda-l4d34q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/aquilacommentary/item/pda-l4d34q2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/aquilacommentary/item/pda-l4d34q3"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/aquilacommentary/witness/pda-"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquilacommentary/witness/pda-">
+      <dc:title/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PeterDeAquila"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/aquilacommentary/librum/pda-l2">
       <dc:title>Librum II</dc:title>

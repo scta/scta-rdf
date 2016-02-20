@@ -26,6 +26,27 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/riminicommentary/item/gdr-l1d1q3"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/gdr-bnf15889"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/gdr-bnf15890"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/riminicommentary/witness/gdr-bnf15891"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/gdr-bnf15889">
+      <dc:title>Paris, BnF, Latin 15889 </dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15889</sctap:hasSlug>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/gdr-bnf15890">
+      <dc:title>Paris, BnF, Latin 15890 </dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15890</sctap:hasSlug>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/riminicommentary/witness/gdr-bnf15891">
+      <dc:title>Paris, BnF, Latin 15891 </dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bnf15891</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/distinctio/gdr-l1prol">
       <dc:title>Librum 1, Prologus</dc:title>

@@ -252,6 +252,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q116"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q117"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q118"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/olivicommentary/witness/pjo-vat1116"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/witness/pjo-vat1116">
+      <dc:title>Vat lat. 1116</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PeterJeanOlivi"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>vat1116</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/item/pjo-l2q1">
       <dc:title>Librum II, Quaestio 1</dc:title>
@@ -2541,9 +2548,87 @@
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/olivicommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/commentary"/>
+      <sctap:editedBy>Bernardus Jansen S. I.</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/pjo-l2q15</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q15-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q15-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q15-2"/>
+      <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q15-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotele</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q15-1">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q15-2">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/transcription/pjo-l2q15">
+      <dc:title>Librum II, Quaestio 15</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PeterJeanOlivi"/>
+      <role:EDT>Bernardus Jansen S. I.</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/olivicommentary/pjo-l2q15/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/item/pjo-l2q16">
       <dc:title>Librum II, Quaestio 16</dc:title>
@@ -2559,9 +2644,1319 @@
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/olivicommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/commentary"/>
+      <sctap:editedBy>Bernardus Jansen S. I.</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/pjo-l2q16</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Plato"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Proclus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-20"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-21"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-31"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-32"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-33"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-37"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Moses"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-39"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-40"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-41"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-42"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-43"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-44"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-45"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-46"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-47"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-48"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-49"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Damascenus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-50"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-51"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-52"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-53"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselmus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-54"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Damascenus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-55"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-56"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-57"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-58"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-59"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Simplicius"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-60"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-61"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-62"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-63"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-64"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-65"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-66"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-67"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-68"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-69"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-70"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/olivicommentary/name/pjo-l2q16-71"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Division"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/CelestialHierarchy"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCausis"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-9"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-10"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-11"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Predicaments"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-12"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-13"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-14"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCaeloetMundo"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-15"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-16"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deGeneratione"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SuperGenesimadLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-20"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Predicaments"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-21"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Quolibet"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-23"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-24"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-25"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-26"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SupraGenesimadLitteram"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-27"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deVeraReligione"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-28"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-29"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deDivinisNominibus"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-30"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-31"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-32"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deVeraReligione"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-33"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SuperGenesim"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-34"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Genesis"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-35"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deUnitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-36"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-37"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-39"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Scripture"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-40"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SupraGenesim"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-41"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-42"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCivitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-43"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-44"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-45"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Scripture"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-46"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-47"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-48"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-49"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCaeloetMundo"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-50"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SuperPraedicamenta"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-51"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/SuperGenesim"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-52"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-53"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-54"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deGeneratione"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-55"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-56"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deCaeloetMundo"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-57"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/olivicommentary/title/pjo-l2q16-58"/>
+      <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-3">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Averroes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>Dionysius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-9">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Plato"/>
+      <sctap:elementText>Platonici</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-10">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Peripatetici</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-11">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Proclus"/>
+      <sctap:elementText>Procli</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-12">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Averrois</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-13">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-14">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-15">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-16">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-17">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-18">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-19">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-20">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Averroes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-21">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-22">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotele</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-23">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustini</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-24">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustini</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-25">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-26">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-27">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-28">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-29">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-30">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-31">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-32">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-33">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-34">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>Dionysius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-35">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-36">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-37">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-38">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Moses"/>
+      <sctap:elementText>Moyse</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-39">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Boethius"/>
+      <sctap:elementText>Boethius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-40">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-41">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-42">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Averroes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-43">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-44">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Averrois</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-45">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-46">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-47">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-48">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-49">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>Dionysio</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-50">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Damascenus"/>
+      <sctap:elementText>Damascenum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-51">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Dionysius"/>
+      <sctap:elementText>Dionysium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-52">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustini</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-53">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-54">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselmus"/>
+      <sctap:elementText>Anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-55">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Damascenus"/>
+      <sctap:elementText>Damascenus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-56">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-57">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-58">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotele</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-59">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteli</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-60">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Simplicius"/>
+      <sctap:elementText>Simplicius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-61">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-62">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-63">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-64">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-65">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-66">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-67">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-68">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Averroes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-69">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-70">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-71">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-1">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-2">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>De anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-3">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-4">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-5">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Division"/>
+      <sctap:elementText>Divisionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-6">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/CelestialHierarchy"/>
+      <sctap:elementText>Angelicae Hierarchiae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-7">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:elementText>Confessionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-8">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-9">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCausis"/>
+      <sctap:elementText>De causis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-10">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-11">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-12">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Predicaments"/>
+      <sctap:elementText>Praedicamentis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-13">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-14">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:elementText>De generatione</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-15">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCaeloetMundo"/>
+      <sctap:elementText>De caelo et mundo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-16">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>De anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-17">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-18">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deGeneratione"/>
+      <sctap:elementText/>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-19">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-20">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SuperGenesimadLitteram"/>
+      <sctap:elementText>Super Genesim ad
+                        litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-21">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Predicaments"/>
+      <sctap:elementText>Praedicamentis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-22">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Quolibet"/>
+      <sctap:elementText>Quolibet</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-23">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-24">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-25">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-26">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:elementText>Confessionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-27">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SupraGenesimadLitteram"/>
+      <sctap:elementText>Supra Genesim ad litteram</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-28">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deVeraReligione"/>
+      <sctap:elementText>De vera religione</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-29">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>De Trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-30">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deDivinisNominibus"/>
+      <sctap:elementText>De divinis nominibus,</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-31">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>De Trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-32">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:elementText>Confessionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-33">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deVeraReligione"/>
+      <sctap:elementText>De
+                        vera religione</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-34">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SuperGenesim"/>
+      <sctap:elementText>Super Genesim</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-35">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Genesis"/>
+      <sctap:elementText>Genesis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-36">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deUnitate"/>
+      <sctap:elementText>De unitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-37">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-38">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:elementText>Confessionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-39">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-40">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Scripture"/>
+      <sctap:elementText>Scriptura</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-41">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SupraGenesim"/>
+      <sctap:elementText>Supra Genesim</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-42">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Confessions"/>
+      <sctap:elementText>Confessionum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-43">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCivitate"/>
+      <sctap:elementText>De Civitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-44">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>De Trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-45">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:elementText>De concordia</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-46">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Scripture"/>
+      <sctap:elementText>Scriptura</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-47">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>Ethicis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-48">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:elementText/>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-49">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>De anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-50">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCaeloetMundo"/>
+      <sctap:elementText>De caelo et mundo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-51">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SuperPraedicamenta"/>
+      <sctap:elementText>Super praedicamenta</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-52">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/SuperGenesim"/>
+      <sctap:elementText>Super Genesim</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-53">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysicae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-54">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-55">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deGeneratione"/>
+      <sctap:elementText>De generatione</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-56">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>De anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-57">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deCaeloetMundo"/>
+      <sctap:elementText>De caelo et mundo</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/title/pjo-l2q16-58">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Physics"/>
+      <sctap:elementText>Physicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/olivicommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/transcription/pjo-l2q16">
+      <dc:title>Librum II, Quaestio 16</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/PeterJeanOlivi"/>
+      <role:EDT>Bernardus Jansen S. I.</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/olivicommentary/pjo-l2q16/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/item/pjo-l2q17">
       <dc:title>Librum II, Quaestio 17</dc:title>

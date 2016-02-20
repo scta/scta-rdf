@@ -6,153 +6,90 @@
         <commentaryid>aquinasscriptum</commentaryid>
         <commentaryslug>ta</commentaryslug>
         <authorUri>http://scta.info/resource/person/Aquinas</authorUri>
-        <parentUri>http://scta.info/text/ockhamscriptum/commentary</parentUri>
-        <textfilesdir/>
+        <parentUri>http://scta.info/text/aquinasscriptum/commentary</parentUri>
+        <textfilesdir>/Users/JCWitt/Documents/MedievalThinkers/ThomasAquinas/Transcriptions/</textfilesdir>
         <webbase>null</webbase>
         <questionListSource>Corpus Thomisticum</questionListSource>
         <questionListOriginalEditor></questionListOriginalEditor>
         <questionListEncoder>Jeffrey C. Witt</questionListEncoder>
+      <hasWitnesses>
+        <witness id="H">
+          <slug>harv245</slug>
+          <title>Cambridge, Mass., Harvard University, Houghton Library, MS Lat 245</title>
+          <initial>H</initial>
+          <canvasBase>http://iiif.lib.harvard.edu/manifests/drs:51994085/canvas/</canvasBase>
+          <manifestOfficial>http://iiif.lib.harvard.edu/manifests/drs:51994085</manifestOfficial>
+        </witness>
+      </hasWitnesses>
     </header>
     <div id="body">
-      <div id="ta-l1" type="librum">
+      <div id="ta-l1" type="librum" subtype="librum1">
          <head>Librum I</head>
+          <div id="ta-l1prol" type="distinctio" subtype="librum1-prologus">
+            <head>Librum I, Prologus</head>
+            <item xml:id="ta-l1prolq1" type="articulus">
+              <fileName filestem="ta-l1prolq1"/>
+              <title>Lib. 1, prol., q. 1</title>
+              <questionTitle/>
+            </item>
+          </div>
          <div id="ta-l1d1" type="distinctio">
             <head>Librum I, Distinctio 1</head>
-            <item xml:id="ta-l1d1q1a1" type="articulus">
-               <fileName filestem="ta-l1d1q1a1">ta-l1d1q1a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 1 a. 1 tit.</title>
+            <item xml:id="ta-l1d1q1" type="quaestio">
+               <fileName filestem="ta-l1d1q1"/>
+               <title>Super Sent., lib. 1 d. 1, q. 1</title>
                <questionTitle>Utrum frui sit actus intellectus</questionTitle>
             </item>
-            <item xml:id="ta-l1d1q1a2" type="articulus">
-               <fileName filestem="ta-l1d1q1a2">ta-l1d1q1a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 1 a. 2 tit.</title>
-               <questionTitle>Utrum uti sit actus rationis</questionTitle>
-            </item>
-            <item xml:id="ta-l1d1q2a1" type="articulus">
-               <fileName filestem="ta-l1d1q2a1">ta-l1d1q2a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 2 a. 1 tit.</title>
-               <questionTitle>Utrum fruendum sit solo Deo</questionTitle>
-            </item>
-            <item xml:id="ta-l1d1q2a2" type="articulus">
-               <fileName filestem="ta-l1d1q2a2">ta-l1d1q2a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 2 a. 2 tit.</title>
-               <questionTitle>Utrum fruamur Deo una fruitione</questionTitle>
-            </item>
-            <item xml:id="ta-l1d1q3a1" type="articulus">
-               <fileName filestem="ta-l1d1q3a1">ta-l1d1q3a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 3 a. 1 tit.</title>
-               <questionTitle>Utrum utendum sit omnibus aliis a Deo</questionTitle>
-            </item>
-            <item xml:id="ta-l1d1q4a1" type="articulus">
-               <fileName filestem="ta-l1d1q4a1">ta-l1d1q4a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 4 a. 1 tit.</title>
-               <questionTitle>Utrum frui conveniat omnibus rebus</questionTitle>
-            </item>
-            <item xml:id="ta-l1d1q4a2" type="articulus">
-               <fileName filestem="ta-l1d1q4a2">ta-l1d1q4a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 1 q. 4 a. 2 tit.</title>
-               <questionTitle>Utrum usus conveniat existentibus in patria</questionTitle>
-            </item>
+           <item xml:id="ta-l1d1q2" type="quaestio">
+             <fileName filestem="ta-l1d1q2"/>
+             <title>Super Sent., lib. 1 d. 1, q. 2</title>
+             <questionTitle>Utrum fruendum sit solo Deo</questionTitle>
+           </item>
+           <item xml:id="ta-l1d1q3" type="quaestio">
+             <fileName filestem="ta-l1d1q3"/>
+             <title>Super Sent., lib. 1 d. 1, q. 3</title>
+             <questionTitle>Utrum utendum sit omnibus aliis a Deo</questionTitle>
+           </item>
+           <item xml:id="ta-l1d1q4" type="quaestio">
+             <fileName filestem="ta-l1d1q4"/>
+             <title>Super Sent., lib. 1 d. 1, q. 4</title>
+             <questionTitle>Utrum frui conveniat omnibus rebus</questionTitle>
+           </item>
          </div>
          <div id="ta-l1d2" type="distinctio">
             <head>Librum I, Distinctio 2</head>
             <item xml:id="ta-l1d2q1a1" type="quaestio">
                <fileName filestem="ta-l1d2q1a1">ta-l1d2q1a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 2 q. 1 a. 1 tit.</title>
+               <title>Super Sent., lib. 1 d. 2 q. 1</title>
                <questionTitle>Utrum Deus sit tantum unus</questionTitle>
-            </item>
-            <item xml:id="ta-l1d2q1a2" type="quaestio">
-               <fileName filestem="ta-l1d2q1a2">ta-l1d2q1a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 2 q. 1 a. 2 tit.</title>
-               <questionTitle>Utrum in Deo sint plura attributa</questionTitle>
-            </item>
-            <item xml:id="ta-l1d2q1a3" type="quaestio">
-               <fileName filestem="ta-l1d2q1a3">ta-l1d2q1a3.xml</fileName>
-               <title>Super Sent., lib. 1 d. 2 q. 1 a. 3 tit.</title>
-               <questionTitle>Utrum pluralitas rationum, quibus attributa differunt, sit tantum in intellectu, vel etiam in Deo</questionTitle>
-            </item>
-            <item xml:id="ta-l1d2q1a4" type="quaestio">
-               <fileName filestem="ta-l1d2q1a4">ta-l1d2q1a4.xml</fileName>
-               <title>Super Sent., lib. 1 d. 2 q. 1 a. 4 tit.</title>
-               <questionTitle>Utrum in divinis sint plures personae</questionTitle>
-            </item>
-            <item xml:id="ta-l1d2q1a5" type="quaestio">
-               <fileName filestem="ta-l1d2q1a5">ta-l1d2q1a5.xml</fileName>
-               <title>Super Sent., lib. 1 d. 2 q. 1 a. 5 tit.</title>
-               <questionTitle>Utrum divinae personae differant realiter aut tantum ratione</questionTitle>
             </item>
          </div>
          <div id="ta-l1d3" type="distinctio">
-            <head> Librum I, Distinctio 3</head>
-            <item xml:id="ta-l1d3q1a1" type="articulus">
-               <fileName filestem="ta-l1d3q1a1">ta-l1d3q1a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 1 a. 1 tit.</title>
-               <questionTitle>Utrum Deus possit cognosci ab intellectu creato</questionTitle>
+           <head>Librum I, Distinctio 3</head>
+           <item xml:id="ta-l1d3q1" type="quaestio">
+             <fileName filestem="ta-l1d3q1"/>
+             <title>Super Sent., lib. 1 d. 3 q. 1</title>
+             <questionTitle/>
+           </item>
+           <item xml:id="ta-l1d3q2" type="quaestio">
+             <fileName filestem="ta-l1d3q2"/>
+             <title>Super Sent., lib. 1 d. 3 q. 2</title>
+             <questionTitle/>
+           </item>
+           <item xml:id="ta-l1d3q3" type="quaestio">
+               <fileName filestem="ta-l1d3q3"/>
+               <title>Super Sent., lib. 1 d. 3 q. 3</title>
+               <questionTitle/>
             </item>
-            <item xml:id="ta-l1d3q1a2" type="articulus">
-               <fileName filestem="ta-l1d3q1a2">ta-l1d3q1a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 1 a. 2 tit.</title>
-               <questionTitle>Utrum Deum esse sit per se notum</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q1a3" type="articulus">
-               <fileName filestem="ta-l1d3q1a3">ta-l1d3q1a3.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 1 a. 3 tit.</title>
-               <questionTitle>Utrum Deus possit cognosci ab homine per creaturas</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q1a4" type="articulus">
-               <fileName filestem="ta-l1d3q1a4">ta-l1d3q1a4.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 1 a. 4 tit.</title>
-               <questionTitle>Utrum philosophi naturali cognitione cognoverint Trinitatem ex creaturis</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q2a1" type="articulus">
-               <fileName filestem="ta-l1d3q2a1">ta-l1d3q2a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 2 a. 1 tit.</title>
-               <questionTitle>Utrum similitudo Dei in creaturis, possit dici vestigium</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q2a2" type="articulus">
-               <fileName filestem="ta-l1d3q2a2">ta-l1d3q2a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 2 a. 2 tit.</title>
-               <questionTitle>Utrum partes vestigii sint tres tantum vel duae</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q2a3" type="articulus">
-               <fileName filestem="ta-l1d3q2a3">ta-l1d3q2a3.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 2 a. 3 tit.</title>
-               <questionTitle>Utrum in omni creatura sit vestigium</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q3a1" type="articulus">
-               <fileName filestem="ta-l1d3q3a1">ta-l1d3q3a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 3 a. 1 tit.</title>
-               <questionTitle>Utrum tantum mens sit subjectum imaginis</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q4a1" type="articulus">
-               <fileName filestem="ta-l1d3q4a1">ta-l1d3q4a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 4 a. 1 tit.</title>
-               <questionTitle>Utrum memoria pertineat ad imaginem</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q4a2" type="articulus">
-               <fileName filestem="ta-l1d3q4a2">ta-l1d3q4a2.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 4 a. 2 tit.</title>
-               <questionTitle>Utrum potentiae animae sint essentia ejus</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q4a3" type="articulus">
-               <fileName filestem="ta-l1d3q4a3">ta-l1d3q4a3.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 4 a. 3 tit.</title>
-               <questionTitle>Utrum una potentia oriatur ex alia</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q4a4" type="articulus">
-               <fileName filestem="ta-l1d3q4a4">ta-l1d3q4a4.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 4 a. 4 tit.</title>
-               <questionTitle>Utrum imago attendatur in potentiis rationalibus respectu quorumlibet objectorum</questionTitle>
-            </item>
-            <item xml:id="ta-l1d3q4a5" type="articulus">
-               <fileName filestem="ta-l1d3q4a5">ta-l1d3q4a5.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 4 a. 5 tit.</title>
-               <questionTitle>Utrum potentiae rationales sint semper in actu respectu objectorum, in quibus attenditur imago</questionTitle>
+            <item xml:id="ta-l1d3q4" type="quaestio">
+               <fileName filestem="ta-l1d3q4"/>
+               <title>Super Sent., lib. 1 d. 3 q. 4</title>
+               <questionTitle/>
             </item>
             <item xml:id="ta-l1d3q5a1" type="articulus">
-               <fileName filestem="ta-l1d3q5a1">ta-l1d3q5a1.xml</fileName>
-               <title>Super Sent., lib. 1 d. 3 q. 5 a. 1 tit.</title>
-               <questionTitle>Utrum hae partes imaginis, mens, notitia et amor differant ab aliis partibus</questionTitle>
+               <fileName filestem="ta-l1d3q5"/>
+               <title>Super Sent., lib. 1 d. 3 q. 5</title>
+               <questionTitle/>
             </item>
         </div>
          <div id="ta-l1d4" type="distinctio">
@@ -2945,146 +2882,92 @@
          <head>Librum III</head>
          <div id="ta-l3d1" type="distinctio">
             <head>Librum III, Distinctio 1</head>
-            <item xml:id="ta-l3d1q1a1" type="articulus">
-               <fileName filestem="ta-l3d1q1a1">ta-l3d1q1a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 1 a. 1 tit.</title>
+            <item xml:id="ta-l3d1q1" type="quaestio">
+               <fileName filestem="ta-l3d1q1"/>
+               <title>Super Sent., lib. 3 d. 1 q. 1</title>
                <questionTitle>Utrum Deum incarnari fuerit possibile</questionTitle>
+               <hasWitnesses>
+                 <witness ref="#H">
+                   <folio c="a" canvasslug="canvas-51994129.json">1r</folio>
+                   <folio canvasslug="canvas-51994130.json">1v</folio>
+                   <folio canvasslug="canvas-51994130.json">2r</folio>
+                   <folio canvasslug="canvas-51994131.json">2v</folio>
+                   <folio canvasslug="canvas-51994131.json">3r</folio>
+                   <folio canvasslug="canvas-51994132.json">3v</folio>
+                   <folio canvasslug="canvas-51994132.json">4r</folio>
+                   <folio canvasslug="canvas-51994133.json">4v</folio>
+                   <folio canvasslug="canvas-51994133.json">5r</folio>
+                 </witness>
+              </hasWitnesses>
             </item>
-            <item xml:id="ta-l3d1q1a2" type="articulus">
-               <fileName filestem="ta-l3d1q1a2">ta-l3d1q1a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 1 a. 2 tit.</title>
-               <questionTitle>Utrum Deum incarnari fuerit congruum</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q1a3" type="articulus">
-               <fileName filestem="ta-l3d1q1a3">ta-l3d1q1a3.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 1 a. 3 tit.</title>
-               <questionTitle>Utrum si homo non peccasset, Deus fuisset incarnatus</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q1a4" type="articulus">
-               <fileName filestem="ta-l3d1q1a4">ta-l3d1q1a4.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 1 a. 4 tit.</title>
-               <questionTitle>Utrum decuerit Deum tantum differre incarnationem suam</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q2a1" type="articulus">
-               <fileName filestem="ta-l3d1q2a1">ta-l3d1q2a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 2 a. 1 tit.</title>
+            <item xml:id="ta-l3d1q2" type="quaestio">
+               <fileName filestem="ta-l3d1q2"/>
+               <title>Super Sent., lib. 3 d. 1 q. 2</title>
                <questionTitle>Utrum una persona sine alia possit carnem assumere</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q2a2" type="articulus">
-               <fileName filestem="ta-l3d1q2a2">ta-l3d1q2a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 2 a. 2 tit.</title>
-               <questionTitle>Utrum magis fuerit conveniens filium incarnari vel patrem vel spiritum sanctum</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q2a3" type="articulus">
-               <fileName filestem="ta-l3d1q2a3">ta-l3d1q2a3.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 2 a. 3 tit.</title>
-               <questionTitle>Utrum pater potuit carnem assumere, et etiam spiritus sanctus</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q2a4" type="articulus">
-               <fileName filestem="ta-l3d1q2a4">ta-l3d1q2a4.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 2 a. 4 tit.</title>
-               <questionTitle>Utrum pater et filius et spiritus sanctus possit eamdem numero naturam assumere</questionTitle>
-            </item>
-            <item xml:id="ta-l3d1q2a5" type="articulus">
-               <fileName filestem="ta-l3d1q2a5">ta-l3d1q2a5.xml</fileName>
-               <title>Super Sent., lib. 3 d. 1 q. 2 a. 5 tit.</title>
-               <questionTitle>Utrum una persona possit assumere duas humanas naturas</questionTitle>
+              <hasWitnesses>
+                <witness ref="#H">
+                  <folio canvasslug="canvas-51994133.json">5r</folio>
+                  <folio canvasslug="canvas-51994134.json">5v</folio>
+                  <folio canvasslug="canvas-51994134.json">6r</folio>
+                  <folio canvasslug="canvas-51994135.json">6v</folio>
+                  <folio canvasslug="canvas-51994135.json">7r</folio>
+                  <folio canvasslug="canvas-51994136.json">7v</folio>
+                  <folio canvasslug="canvas-51994136.json">8r</folio>
+                  <folio canvasslug="canvas-51994137.json">8v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
          </div>
          <div id="ta-l3d2" type="distinctio">
             <head>Librum III, Distinctio 2</head>
-            <item xml:id="ta-l3d2q1a1" type="articulus">
-               <fileName filestem="ta-l3d2q1a1">ta-l3d2q1a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 2 q. 1 a. 1 tit.</title>
+            <item xml:id="ta-l3d2q1" type="quaestio">
+               <fileName filestem="ta-l3d2q1"/>
+               <title>Super Sent., lib. 3 d. 2 q. 1</title>
                <questionTitle>Utrum natura humana sit prae aliis assumptibilis</questionTitle>
+              <hasWitnesses>
+                <witness ref="#H">
+                  <folio canvasslug="canvas-51994137.json">8v</folio>
+                  <folio canvasslug="canvas-51994137.json">9r</folio>
+                  <folio canvasslug="canvas-51994138.json">9v</folio>
+                  <folio canvasslug="canvas-51994138.json">10r</folio>
+                  <folio canvasslug="canvas-51994139.json">10v</folio>
+                  <folio canvasslug="canvas-51994139.json">11r</folio>
+                  <folio canvasslug="canvas-51994140.json">11v</folio>
+                </witness>
+              </hasWitnesses>
             </item>
-            <item xml:id="ta-l3d2q1a2" type="articulus">
-               <fileName filestem="ta-l3d2q1a2">ta-l3d2q1a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 2 q. 1 a. 2 tit.</title>
-               <questionTitle>Utrum filius Dei humanam naturam assumere debuit</questionTitle>
-            </item>
-            <item xml:id="ta-l3d2q1a3" type="articulus">
-               <fileName filestem="ta-l3d2q1a3">ta-l3d2q1a3.xml</fileName>
-               <title>Super Sent., lib. 3 d. 2 q. 1 a. 3 tit.</title>
-               <questionTitle>Utrum filius Dei carnem humanam assumpserit</questionTitle>
-            </item>
-            <item xml:id="ta-l3d2q2a1" type="articulus">
-               <fileName filestem="ta-l3d2q2a1">ta-l3d2q2a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 2 q. 2 a. 1 tit.</title>
+            <item xml:id="ta-l3d2q2" type="quaestio">
+               <fileName filestem="ta-l3d2q2a1">ta-l3d2q2.xml</fileName>
+               <title>Super Sent., lib. 3 d. 2 q. 2</title>
                <questionTitle>Utrum assumpserit carnem mediante anima</questionTitle>
-            </item>
-            <item xml:id="ta-l3d2q2a2" type="articulus">
-               <fileName filestem="ta-l3d2q2a2">ta-l3d2q2a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 2 q. 2 a. 2 tit.</title>
-               <questionTitle>Utrum natura humana sit assumpta mediante gratia</questionTitle>
-            </item>
-            <item xml:id="ta-l3d2q2a3" type="articulus">
-               <fileName filestem="ta-l3d2q2a3">ta-l3d2q2a3.xml</fileName>
-               <title>Super Sent., lib. 3 d. 2 q. 2 a. 3 tit.</title>
-               <questionTitle>Utrum caro prius fuerit concepta quam assumpta</questionTitle>
             </item>
          </div>
          <div id="ta-l3d3" type="distinctio">
             <head>Librum III, Distinctio 3</head>
-            <item xml:id="ta-l3d3q1a1" type="articulus">
-               <fileName filestem="ta-l3d3q1a1">ta-l3d3q1a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 1 a. 1 tit.</title>
+            <item xml:id="ta-l3d3q1" type="quaestio">
+               <fileName filestem="ta-l3d3q1"/>
+               <title>Super Sent., lib. 3 d. 3 q. 1</title>
                <questionTitle>Utrum beata virgo fuerit ante sanctificata quam conceptio ejus finiretur</questionTitle>
             </item>
-            <item xml:id="ta-l3d3q1a2" type="articulus">
-               <fileName filestem="ta-l3d3q1a2">ta-l3d3q1a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 1 a. 2 tit.</title>
-               <questionTitle>Utrum beatissima virgo per sanctificationem in utero fuerit totaliter ab originali mundata</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q2a1" type="articulus">
-               <fileName filestem="ta-l3d3q2a1">ta-l3d3q2a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 2 a. 1 tit.</title>
+            <item xml:id="ta-l3d3q2" type="quaestio">
+               <fileName filestem="ta-l3d3q2"/>
+               <title>Super Sent., lib. 3 d. 3 q. 2</title>
                <questionTitle>Utrum virgo aliquid active ad Christi conceptionem operata fuerit</questionTitle>
             </item>
-            <item xml:id="ta-l3d3q2a2" type="articulus">
-               <fileName filestem="ta-l3d3q2a2">ta-l3d3q2a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 2 a. 2 tit.</title>
-               <questionTitle>Utrum generatio Christi ex virgine sit naturalis vel miraculosa</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q3a1" type="articulus">
-               <fileName filestem="ta-l3d3q3a1">ta-l3d3q3a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 3 a. 1 tit.</title>
+            <item xml:id="ta-l3d3q3" type="quaestio">
+               <fileName filestem="ta-l3d3q3"/>
+               <title>Super Sent., lib. 3 d. 3 q. 3</title>
                <questionTitle>Utrum conveniebat virgini salvatoris conceptionem nuntiari</questionTitle>
             </item>
-            <item xml:id="ta-l3d3q3a2" type="articulus">
-               <fileName filestem="ta-l3d3q3a2">ta-l3d3q3a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 3 a. 2 tit.</title>
-               <questionTitle>Utrum Annuntiatio debuit fieri per Angelum</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q4a1" type="articulus">
-               <fileName filestem="ta-l3d3q4a1">ta-l3d3q4a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 4 a. 1 tit.</title>
+            <item xml:id="ta-l3d3q4" type="quaestio">
+               <fileName filestem="ta-l3d3q4"/>
+               <title>Super Sent., lib. 3 d. 3 q. 4</title>
                <questionTitle>Utrum caro Christi in antiquis patribus fuerit peccato obnoxia</questionTitle>
             </item>
-            <item xml:id="ta-l3d3q4a2" type="articulus">
-               <fileName filestem="ta-l3d3q4a2">ta-l3d3q4a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 4 a. 2 tit.</title>
-               <questionTitle>Utrum caro Christi fuit in antiquis patribus secundum quantitatem determinatam</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q4a3" type="articulus">
-               <fileName filestem="ta-l3d3q4a3">ta-l3d3q4a3.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 4 a. 3 tit.</title>
-               <questionTitle>Utrum solus Christus in Abraham non fuerit decimatus</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q5a1" type="articulus">
-               <fileName filestem="ta-l3d3q5a1">ta-l3d3q5a1.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 5 a. 1 tit.</title>
+            <item xml:id="ta-l3d3q5" type="quaestio">
+               <fileName filestem="ta-l3d3q5"/>
+               <title>Super Sent., lib. 3 d. 3 q. 5</title>
                <questionTitle>Utrum corpus Christi fuerit ex purissimis virginis sanguinibus</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q5a2" type="articulus">
-               <fileName filestem="ta-l3d3q5a2">ta-l3d3q5a2.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 5 a. 2 tit.</title>
-               <questionTitle>Utrum conceptio corporis Christi fuerit subito, vel successive</questionTitle>
-            </item>
-            <item xml:id="ta-l3d3q5a3" type="articulus">
-               <fileName filestem="ta-l3d3q5a3">ta-l3d3q5a3.xml</fileName>
-               <title>Super Sent., lib. 3 d. 3 q. 5 a. 3 tit.</title>
-               <questionTitle>Utrum Christo sanctificari conveniat, scilicet ut indigeret sanctificatione</questionTitle>
             </item>
          </div>
          <div id="ta-l3d4" type="distinctio">

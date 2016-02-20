@@ -71,6 +71,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d40et41q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d42per44q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1d45per48q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/vargascommentary/witness/atv-Paris1490"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/witness/atv-Paris1490">
+      <dc:title>Paris, 1490</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>Paris1490</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/vargascommentary/librum/atv-librum1">
       <dc:title>Librum I</dc:title>
@@ -9636,9 +9643,180 @@
       <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1prol"/>
+      <sctap:editedBy>Luciana Cioca</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq3</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustinus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-17"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-18"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-19"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-22"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq3-38"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/vargascommentary/title/atv-l1prolq3-12"/>
+      <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>beatus Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustinus"/>
+      <sctap:elementText>beatus Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-17">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Philosophus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-18">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
+      <sctap:elementText>Commentator</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-19">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-22">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristoteles</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq3-38">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Aristotelem</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/title/atv-l1prolq3-12">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Metaphysics"/>
+      <sctap:elementText>Metaphysice</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3">
+      <dc:title>Librum I, Prologus, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <role:EDT>Luciana Cioca</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq3"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq3/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/vargascommentary/atv-l1prolq3/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq4">
       <dc:title>Librum I, prologus, q. 4</dc:title>
@@ -9654,9 +9832,106 @@
       <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/vargascommentary/distinctio/atv-l1prol"/>
+      <sctap:editedBy>Luciana Cioca</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/atv-l1prolq4</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/IsidoreOfSeville"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq4-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/vargascommentary/name/atv-l1prolq4-7"/>
+      <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq4-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/IsidoreOfSeville"/>
+      <sctap:elementText>Isidorus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/name/atv-l1prolq4-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>beatum Augustinum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/vargascommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4">
+      <dc:title>Librum I, Prologus, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlphonsusVargas"/>
+      <role:EDT>Luciana Cioca</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq4"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/vargascommentary/transcription/atv-l1prolq4/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/vargascommentary/atv-l1prolq4/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/vargascommentary/item/atv-l1prolq5">
       <dc:title>Librum I, prologus, q. 5</dc:title>

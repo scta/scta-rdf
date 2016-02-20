@@ -39,6 +39,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/crathorncommentary/witness/wc-"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/witness/wc-">
+      <dc:title/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/librum/wc-l1">
       <dc:title>Librum 1</dc:title>

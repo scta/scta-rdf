@@ -30,6 +30,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d10q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d11q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/anon1commentary/item/anon1-l1d19q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/anon1commentary/witness/anon1-penn727"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anon1commentary/witness/anon1-penn727">
+      <dc:title>Upenn Codex 727</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/anon1"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn727</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anon1commentary/librum/anon1-l1">
       <dc:title>Librum I</dc:title>

@@ -18,6 +18,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q24"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c5"/>
@@ -31,8 +32,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c9"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q31"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio109"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio133"/>
@@ -50,7 +51,6 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c9"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio23"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io1_5">
@@ -148,6 +148,7 @@
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p1q4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q5"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d3q3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io3_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -173,6 +174,28 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c5"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c6"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io4_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dicit ei Iesus vade voca virum tuum et veni huc</dc:title>
+      <sctap:quotation>dicit ei Iesus vade voca virum tuum et veni huc</sctap:quotation>
+      <sctap:citation>Evangelium secundum Ioannem 4:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io4_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quinque enim viros habuisti et nunc quem habes non est tuus vir hoc vere dixisti</dc:title>
+      <sctap:quotation>quinque enim viros habuisti et nunc quem habes non est tuus vir hoc vere dixisti</sctap:quotation>
+      <sctap:citation>Evangelium secundum Ioannem 4:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io4_24">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>spiritus est Deus et eos qui adorant eum in spiritu et veritate oportet adorare</dc:title>
@@ -182,7 +205,6 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d26c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io4_42">
@@ -322,17 +344,6 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/io8_42">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>dixit ergo eis Iesus si Deus pater vester esset diligeretis utique me ego enim ex Deo processi et veni neque enim a me ipso veni sed ille me misit</dc:title>
-      <sctap:quotation>dixit ergo eis Iesus si Deus pater vester esset diligeretis utique me ego enim ex Deo processi et veni neque enim a me ipso veni sed ille me misit</sctap:quotation>
-      <sctap:citation>Evangelium secundum Ioannem 8:42</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
-      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>42</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c5"/>
-   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io8_44">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>vos ex patre diabolo estis et desideria patris vestri vultis facere ille homicida erat ab initio et in veritate non stetit quia non est veritas in eo cum loquitur mendacium ex propriis loquitur quia mendax est et pater eius</dc:title>
@@ -406,7 +417,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>36</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c14"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io11_50">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -499,6 +510,7 @@
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d19c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d19c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d19c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io14_16">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -560,7 +572,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>14</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d16c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d16c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d16c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io15_1">
@@ -611,7 +624,6 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d12c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d13c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d13c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d29c3"/>
    </rdf:Description>
@@ -680,6 +692,7 @@
       <sctap:fromBiblicalChapter>16</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q10"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d8c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c2"/>
@@ -716,6 +729,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>16</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io17_1">
@@ -742,6 +756,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d21c3"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io17_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et nunc clarifica me tu Pater apud temet ipsum claritatem quam habui priusquam mundus esset apud te</dc:title>
+      <sctap:quotation>et nunc clarifica me tu Pater apud temet ipsum claritatem quam habui priusquam mundus esset apud te</sctap:quotation>
+      <sctap:citation>Evangelium secundum Ioannem 17:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q10"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io17_19">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et pro eis ego sanctifico me ipsum ut sint et ipsi sanctificati in veritate</dc:title>
@@ -751,7 +776,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c14"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io17_24">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -775,9 +800,8 @@
       <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p1q1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p1q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q13"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d13c3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d13c3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io20_23">

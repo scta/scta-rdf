@@ -39,8 +39,6 @@
       <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/"/>
       <sctap:citation/>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prq1-sdqqam"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1d3qun-aqqenc"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
@@ -89,12 +87,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d31c2-d1e3539"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c9"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d35c9-d1e3570"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d36c2-d1e3524"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d37c4-d1e3528"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l7-veqins"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio10"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l10-scpimc"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio18"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l18-uaesgh"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -104,8 +107,6 @@
       <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/"/>
       <sctap:citation/>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prq1-sdqqam"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1d3qun-aqqenc"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d8-qun"/>
@@ -154,12 +155,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d31c2-d1e3539"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c9"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d35c9-d1e3570"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d36c2-d1e3524"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d37c4-d1e3528"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l7-veqins"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio10"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l10-scpimc"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio18"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l18-uaesgh"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Ambrose_ExpositioSecundumLucam_1_25_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

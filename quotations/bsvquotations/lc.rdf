@@ -55,6 +55,17 @@
       <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc2_49">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et ait ad illos quid est quod me quaerebatis nesciebatis quia in his quae Patris mei sunt oportet me esse</dc:title>
+      <sctap:quotation>et ait ad illos quid est quod me quaerebatis nesciebatis quia in his quae Patris mei sunt oportet me esse</sctap:quotation>
+      <sctap:citation>Evangelium secundum Lucam 2:49</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>49</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q8"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc3_22">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et descendit Spiritus Sanctus corporali specie sicut columba in ipsum et vox de caelo facta est tu es Filius meus dilectus in te conplacuit mihi</dc:title>
@@ -97,7 +108,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
       <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q13"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc7_22">
@@ -122,6 +133,17 @@
       <sctap:fromBiblicalVerse>50</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc8_16">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nemo autem lucernam accendens operit eam vaso aut subtus lectum ponit sed supra candelabrum ponit ut intrantes videant lumen</dc:title>
+      <sctap:quotation>nemo autem lucernam accendens operit eam vaso aut subtus lectum ponit sed supra candelabrum ponit ut intrantes videant lumen</sctap:quotation>
+      <sctap:citation>Evangelium secundum Lucam 8:16</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc10_36">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>quis horum trium videtur tibi proximus fuisse illi qui incidit in latrones</dc:title>
@@ -132,28 +154,6 @@
       <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>36</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p1q1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc11_2">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>et ait illis cum oratis dicite Pater sanctificetur nomen tuum adveniat regnum tuum</dc:title>
-      <sctap:quotation>et ait illis cum oratis dicite Pater sanctificetur nomen tuum adveniat regnum tuum</sctap:quotation>
-      <sctap:citation>Evangelium secundum Lucam 11:2</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
-      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c3"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc11_3">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>panem nostrum cotidianum da nobis cotidie</dc:title>
-      <sctap:quotation>panem nostrum cotidianum da nobis cotidie</sctap:quotation>
-      <sctap:citation>Evangelium secundum Lucam 11:3</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
-      <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d18c5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc11_9">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -198,17 +198,6 @@
       <sctap:fromBiblicalChapter>18</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d27c5"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc19_26">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>dico autem vobis quia omni habenti dabitur ab eo autem qui non habet et quod habet auferetur ab eo</dc:title>
-      <sctap:quotation>dico autem vobis quia omni habenti dabitur ab eo autem qui non habet et quod habet auferetur ab eo</sctap:quotation>
-      <sctap:citation>Evangelium secundum Lucam 19:26</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
-      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc19_30">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

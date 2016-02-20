@@ -127,6 +127,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1d47q2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1d48q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1d48q2"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/ddbrugescommentary/witness/ddb-erfurt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/witness/ddb-erfurt">
+      <dc:title>Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>erfurt</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/librum/ddb-librum1">
       <dc:title>Librum I</dc:title>

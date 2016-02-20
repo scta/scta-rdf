@@ -203,6 +203,28 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/rothwellcommentary/item/wdr-l4d48"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/rothwellcommentary/item/wdr-l4d49"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/rothwellcommentary/item/wdr-l4d50"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/rothwellcommentary/witness/wdr-wettf15"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/rothwellcommentary/witness/wdr-penn"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/rothwellcommentary/witness/wdr-gks1363"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/wdr-wettf15">
+      <dc:title>Aarau, Aargauer Kantonsbibliothek, MsWettF 15</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamDeRothwell"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>wettf15</sctap:hasSlug>
+      <sctap:manifestOfficial>http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/manifest.json</sctap:manifestOfficial>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/wdr-penn">
+      <dc:title>Philadelphia, University of Pennsylvania, Ms. Codex 686</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamDeRothwell"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>penn</sctap:hasSlug>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/wdr-gks1363">
+      <dc:title>Copenhagen, Danish Royal Library, GKS 1363 </dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamDeRothwell"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>gks1363</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/librum/wdr-l1">
       <dc:title>Librum I</dc:title>
@@ -797,7 +819,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>107v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A107v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_107v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1prol"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1prol">
@@ -1381,9 +1403,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>107v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A107v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_107v.json"/>
       <sctap:hasFolio>108r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A108r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_108r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d1">
@@ -2066,7 +2088,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>108r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A108r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_108r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d2">
@@ -2859,11 +2881,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>108r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A108r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_108r.json"/>
       <sctap:hasFolio>108v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A108v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_108v.json"/>
       <sctap:hasFolio>109r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A109r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_109r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d3">
@@ -3694,7 +3716,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>109r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A109r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_109r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d4">
@@ -3980,9 +4002,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>109r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A109r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_109r.json"/>
       <sctap:hasFolio>109v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A109v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_109v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d5">
@@ -4144,7 +4166,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>109v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A109v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_109v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d6">
@@ -4388,9 +4410,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>109v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A109v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_109v.json"/>
       <sctap:hasFolio>110r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A110r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_110r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d7">
@@ -4889,7 +4911,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>110r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A110r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_110r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d8">
@@ -5073,7 +5095,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>110v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A110v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_110v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d9"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d9">
@@ -5206,7 +5228,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>111r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A111r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_111r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d10"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d10">
@@ -5284,7 +5306,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>111r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A111r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_111r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d11"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d11">
@@ -5376,7 +5398,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>111r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A111r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_111r.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d12">
@@ -5478,9 +5500,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>111r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A111r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_111r.json"/>
       <sctap:hasFolio>111v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A111v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_111v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d13"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d13">
@@ -5528,9 +5550,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>111v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A111v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_111v.json"/>
       <sctap:hasFolio>112r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A112r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_112r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d14">
       <dc:title>wdr-l1d14 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5565,9 +5587,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>112r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A112r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_112r.json"/>
       <sctap:hasFolio>112v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A112v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_112v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d15">
       <dc:title>wdr-l1d15 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5606,7 +5628,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>112v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A112v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_112v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d16">
       <dc:title>wdr-l1d16 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5643,11 +5665,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>112v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A112v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_112v.json"/>
       <sctap:hasFolio>113r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A113r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_113r.json"/>
       <sctap:hasFolio>113v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A113v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_113v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d17">
       <dc:title>wdr-l1d17 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5684,9 +5706,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>113r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A113r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_113r.json"/>
       <sctap:hasFolio>113v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A113v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_113v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d18">
       <dc:title>wdr-l1d18 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5723,9 +5745,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>113v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A113v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_113v.json"/>
       <sctap:hasFolio>114r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A114r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_114r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d19">
       <dc:title>wdr-l1d19 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5764,7 +5786,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>114r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A114r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_114r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d20">
       <dc:title>wdr-l1d20 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5799,9 +5821,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>114r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A114r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_114r.json"/>
       <sctap:hasFolio>114v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A114v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_114v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d21">
       <dc:title>wdr-l1d21 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5838,7 +5860,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>114v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A114v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_114v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d22">
       <dc:title>wdr-l1d22 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5873,9 +5895,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>114v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A114v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_114v.json"/>
       <sctap:hasFolio>115r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A115r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_115r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d23">
       <dc:title>wdr-l1d23 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5912,7 +5934,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>115r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A115r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_115r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d24">
       <dc:title>wdr-l1d24 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5949,9 +5971,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>115r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A115r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_115r.json"/>
       <sctap:hasFolio>115v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A115v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_115v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d25">
       <dc:title>wdr-l1d25 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -5986,9 +6008,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>115v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A115v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_115v.json"/>
       <sctap:hasFolio>116r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A116r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_116r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d26">
       <dc:title>wdr-l1d26 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6025,7 +6047,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>116r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A116r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_116r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d27">
       <dc:title>wdr-l1d27 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6062,9 +6084,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>116r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A116r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_116r.json"/>
       <sctap:hasFolio>116v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A116v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_116v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d28">
       <dc:title>wdr-l1d28 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6101,7 +6123,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>116v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A116v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_116v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d29">
       <dc:title>wdr-l1d29 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6136,9 +6158,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>116v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A116v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_116v.json"/>
       <sctap:hasFolio>117r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A117r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_117r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d30">
       <dc:title>wdr-l1d30 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6175,7 +6197,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>117r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A117r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_117r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d31">
       <dc:title>wdr-l1d31 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6212,7 +6234,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>117v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A117v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_117v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d32">
       <dc:title>wdr-l1d32 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6247,9 +6269,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>117v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A117v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_117v.json"/>
       <sctap:hasFolio>118r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A118r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_118r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d33">
       <dc:title>wdr-l1d33 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6286,7 +6308,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>118r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A118r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_118r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d34">
       <dc:title>wdr-l1d34 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6323,9 +6345,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>118r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A118r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_118r.json"/>
       <sctap:hasFolio>118v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A118v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_118v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d35">
       <dc:title>wdr-l1d35 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6360,7 +6382,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>118v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A118v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_118v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d36">
       <dc:title>wdr-l1d36 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6397,9 +6419,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>118v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A118v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_118v.json"/>
       <sctap:hasFolio>119r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A119r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_119r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d37">
       <dc:title>wdr-l1d37 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6438,9 +6460,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>119r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A119r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_119r.json"/>
       <sctap:hasFolio>119v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A119v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_119v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d38">
       <dc:title>wdr-l1d38 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6475,7 +6497,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>119v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A119v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_119v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d39">
       <dc:title>wdr-l1d39 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6512,9 +6534,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>120r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A120r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_120r.json"/>
       <sctap:hasFolio>120r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A120r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_120r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d40">
       <dc:title>wdr-l1d40 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6551,9 +6573,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>120r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A120r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_120r.json"/>
       <sctap:hasFolio>120v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A120v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_120v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d41">
       <dc:title>wdr-l1d41 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6590,9 +6612,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>120v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A120v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_120v.json"/>
       <sctap:hasFolio>121r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A121r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_121r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d42">
       <dc:title>wdr-l1d42 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6629,7 +6651,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>121r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A121r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_121r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d43">
       <dc:title>wdr-l1d43 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6664,9 +6686,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>121r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A121r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_121r.json"/>
       <sctap:hasFolio>121v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A121v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_121v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d44">
       <dc:title>wdr-l1d44 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6703,7 +6725,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>121v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A121v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_121v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d45">
       <dc:title>wdr-l1d45 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6740,9 +6762,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>121v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A121v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_121v.json"/>
       <sctap:hasFolio>122r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A122r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_122r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d46">
       <dc:title>wdr-l1d46 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6779,9 +6801,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>122r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A122r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_122r.json"/>
       <sctap:hasFolio>122v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A122v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_122v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/penn_wdr-l1d47">
       <dc:title>wdr-l1d47 [Philadelphia, University of Pennsylvania, Ms. Codex 686]</dc:title>
@@ -6820,7 +6842,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>122v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A122v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_122v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d48"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l1d48">
@@ -6879,9 +6901,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>122v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A122v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_122v.json"/>
       <sctap:hasFolio>123r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A123r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_123r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d2">
       <dc:title>Librum II, Distinctio 2</dc:title>
@@ -6908,9 +6930,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>123r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A123r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_123r.json"/>
       <sctap:hasFolio>123v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A123v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_123v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d3">
       <dc:title>Librum II, Distinctio 3</dc:title>
@@ -6937,9 +6959,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>123v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A123v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_123v.json"/>
       <sctap:hasFolio>124r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A124r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_124r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d4">
       <dc:title>Librum II, Distinctio 4</dc:title>
@@ -6966,9 +6988,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>124r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A124r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_124r.json"/>
       <sctap:hasFolio>124v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A124v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_124v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d5">
       <dc:title>Librum II, Distinctio 5</dc:title>
@@ -6995,7 +7017,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>124v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A124v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_124v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d6">
       <dc:title>Librum II, Distinctio 6</dc:title>
@@ -7022,9 +7044,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>124v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A124v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_124v.json"/>
       <sctap:hasFolio>125r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A125r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_125r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d7">
       <dc:title>Librum II, Distinctio 7</dc:title>
@@ -7051,7 +7073,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>125r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A125r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_125r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d8">
       <dc:title>Librum II, Distinctio 8</dc:title>
@@ -7078,9 +7100,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>125r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A125r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_125r.json"/>
       <sctap:hasFolio>125v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A125v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_125v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d9">
       <dc:title>Librum II, Distinctio 9</dc:title>
@@ -7107,9 +7129,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>125v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A125v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_125v.json"/>
       <sctap:hasFolio>126r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A126r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_126r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d10">
       <dc:title>Librum II, Distinctio 10</dc:title>
@@ -7136,7 +7158,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>126r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A126r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_126r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d11">
       <dc:title>Librum II, Distinctio 11</dc:title>
@@ -7163,9 +7185,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>126r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A126r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_126r.json"/>
       <sctap:hasFolio>126v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A126v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_126v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d12">
       <dc:title>Librum II, Distinctio 12</dc:title>
@@ -7192,9 +7214,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>126v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A126v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_126v.json"/>
       <sctap:hasFolio>127r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A127r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_127r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d13">
       <dc:title>Librum II, Distinctio 13</dc:title>
@@ -7221,7 +7243,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>127r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A127r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_127r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d14">
       <dc:title>Librum II, Distinctio 14</dc:title>
@@ -7248,9 +7270,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>127r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A127r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_127r.json"/>
       <sctap:hasFolio>127v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A127v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_127v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d15">
       <dc:title>Librum II, Distinctio 15</dc:title>
@@ -7277,9 +7299,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>127v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A127v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_127v.json"/>
       <sctap:hasFolio>128r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A128r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_128r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d16">
       <dc:title>Librum II, Distinctio 16</dc:title>
@@ -7306,7 +7328,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>128r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A128r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_128r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d17">
       <dc:title>Librum II, Distinctio 17</dc:title>
@@ -7333,9 +7355,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>128r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A128r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_128r.json"/>
       <sctap:hasFolio>128v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A128v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_128v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d18">
       <dc:title>Librum II, Distinctio 18</dc:title>
@@ -7362,9 +7384,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>128v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A128v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_128v.json"/>
       <sctap:hasFolio>129r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A129r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_129r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d19">
       <dc:title>Librum II, Distinctio 19</dc:title>
@@ -7391,9 +7413,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>129r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A129r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_129r.json"/>
       <sctap:hasFolio>129v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A129v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_129v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d20">
       <dc:title>Librum II, Distinctio 20</dc:title>
@@ -7420,7 +7442,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>129v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A129v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_129v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d21">
       <dc:title>Librum II, Distinctio 21</dc:title>
@@ -7447,9 +7469,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>129v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A129v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_129v.json"/>
       <sctap:hasFolio>130r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A130r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_130r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d22">
       <dc:title>Librum II, Distinctio 22</dc:title>
@@ -7476,9 +7498,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>130r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A130r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_130r.json"/>
       <sctap:hasFolio>130v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A130v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_130v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d23">
       <dc:title>Librum II, Distinctio 23</dc:title>
@@ -7505,7 +7527,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>130v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A130v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_130v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d24">
       <dc:title>Librum II, Distinctio 24</dc:title>
@@ -7532,11 +7554,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>130v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A130v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_130v.json"/>
       <sctap:hasFolio>131r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A131r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_131r.json"/>
       <sctap:hasFolio>131v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A131v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_131v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d25">
       <dc:title>Librum II, Distinctio 25</dc:title>
@@ -7563,9 +7585,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>131v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A131v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_131v.json"/>
       <sctap:hasFolio>132r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A132r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_132r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d26">
       <dc:title>Librum II, Distinctio 26</dc:title>
@@ -7592,7 +7614,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>132r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A132r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_132r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d27">
       <dc:title>Librum II, Distinctio 27</dc:title>
@@ -7619,9 +7641,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>132r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A132r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_132r.json"/>
       <sctap:hasFolio>132v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A132v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_132v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d28">
       <dc:title>Librum II, Distinctio 28</dc:title>
@@ -7648,7 +7670,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>132v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A132v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_132v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d29">
       <dc:title>Librum II, Distinctio 29</dc:title>
@@ -7675,9 +7697,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>132v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A132v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_132v.json"/>
       <sctap:hasFolio>133r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A133r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_133r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d30">
       <dc:title>Librum II, Distinctio 30</dc:title>
@@ -7704,7 +7726,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>133r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A133r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_133r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d31">
       <dc:title>Librum II, Distinctio 31</dc:title>
@@ -7731,9 +7753,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>133r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A133r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_133r.json"/>
       <sctap:hasFolio>133v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A133v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_133v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d32">
       <dc:title>Librum II, Distinctio 32</dc:title>
@@ -7760,7 +7782,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>133v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A133v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_133v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d33">
       <dc:title>Librum II, Distinctio 33</dc:title>
@@ -7787,7 +7809,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>133v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A133v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_133v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d34">
       <dc:title>Librum II, Distinctio 34</dc:title>
@@ -7814,7 +7836,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>134r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A134r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_134r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d35">
       <dc:title>Librum II, Distinctio 35</dc:title>
@@ -7841,9 +7863,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>134r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A134r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_134r.json"/>
       <sctap:hasFolio>134v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A134v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_134v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d36">
       <dc:title>Librum II, Distinctio 36</dc:title>
@@ -7870,9 +7892,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>134v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A134v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_134v.json"/>
       <sctap:hasFolio>135r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A135r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_135r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d37">
       <dc:title>Librum II, Distinctio 37</dc:title>
@@ -7899,7 +7921,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>135r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A135r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_135r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d38">
       <dc:title>Librum II, Distinctio 38</dc:title>
@@ -7926,7 +7948,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>135r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A135r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_135r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d39">
       <dc:title>Librum II, Distinctio 39</dc:title>
@@ -7953,7 +7975,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>135v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A135v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_135v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d40">
       <dc:title>Librum II, Distinctio 40</dc:title>
@@ -7980,9 +8002,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>135v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A135v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_135v.json"/>
       <sctap:hasFolio>136r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A136r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_136r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d41">
       <dc:title>Librum II, Distinctio 41</dc:title>
@@ -8009,9 +8031,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>136r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A136r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_136r.json"/>
       <sctap:hasFolio>136v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A136v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_136v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d42">
       <dc:title>Librum II, Distinctio 42</dc:title>
@@ -8038,9 +8060,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>136v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A136v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_136v.json"/>
       <sctap:hasFolio>137r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A137r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_137r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d43">
       <dc:title>Librum II, Distinctio 43</dc:title>
@@ -8067,7 +8089,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>137r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A137r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_137r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l2d44">
       <dc:title>Librum II, Distinctio 44</dc:title>
@@ -8094,9 +8116,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>137r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A137r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_137r.json"/>
       <sctap:hasFolio>137v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A137v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_137v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d1">
       <dc:title>Librum III, Distinctio 1</dc:title>
@@ -8123,7 +8145,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>137v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A137v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_137v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d2">
       <dc:title>Librum III, Distinctio 2</dc:title>
@@ -8150,9 +8172,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>137v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A137v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_137v.json"/>
       <sctap:hasFolio>138r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A138r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_138r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d3">
       <dc:title>Librum III, Distinctio 3</dc:title>
@@ -8179,9 +8201,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>138r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A138r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_138r.json"/>
       <sctap:hasFolio>138v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A138v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_138v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d4">
       <dc:title>Librum III, Distinctio 4</dc:title>
@@ -8208,7 +8230,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>138v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A138v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_138v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d5">
       <dc:title>Librum III, Distinctio 5</dc:title>
@@ -8235,9 +8257,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>138v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A138v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_138v.json"/>
       <sctap:hasFolio>139r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A139r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_139r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d6">
       <dc:title>Librum III, Distinctio 6</dc:title>
@@ -8264,9 +8286,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>139r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A139r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_139r.json"/>
       <sctap:hasFolio>139v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A139v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_139v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d7">
       <dc:title>Librum III, Distinctio 7</dc:title>
@@ -8293,7 +8315,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>139v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A139v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_139v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d8">
       <dc:title>Librum III, Distinctio 8</dc:title>
@@ -8320,7 +8342,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>140r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A140r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_140r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d9">
       <dc:title>Librum III, Distinctio 9</dc:title>
@@ -8347,9 +8369,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>140r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A140r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_140r.json"/>
       <sctap:hasFolio>140v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A140v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_140v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d10">
       <dc:title>Librum III, Distinctio 10</dc:title>
@@ -8376,9 +8398,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>140v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A140v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_140v.json"/>
       <sctap:hasFolio>141r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A141r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_141r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d11">
       <dc:title>Librum III, Distinctio 11</dc:title>
@@ -8405,7 +8427,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>141r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A141r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_141r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d12">
       <dc:title>Librum III, Distinctio 12</dc:title>
@@ -8432,9 +8454,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>141r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A141r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_141r.json"/>
       <sctap:hasFolio>141v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A141v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_141v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d13">
       <dc:title>Librum III, Distinctio 13</dc:title>
@@ -8461,7 +8483,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>141v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A141v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_141v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d14">
       <dc:title>Librum III, Distinctio 14</dc:title>
@@ -8488,11 +8510,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>141v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A141v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_141v.json"/>
       <sctap:hasFolio>142r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A142r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_142r.json"/>
       <sctap:hasFolio>142v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A142v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_142v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d15">
       <dc:title>Librum III, Distinctio 15</dc:title>
@@ -8519,7 +8541,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>142v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A142v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_142v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d16">
       <dc:title>Librum III, Distinctio 16</dc:title>
@@ -8546,9 +8568,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>142v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A142v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_142v.json"/>
       <sctap:hasFolio>143r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A143r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_143r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d17">
       <dc:title>Librum III, Distinctio 17</dc:title>
@@ -8575,7 +8597,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>143r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A143r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_143r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d18">
       <dc:title>Librum III, Distinctio 18</dc:title>
@@ -8602,9 +8624,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>143r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A143r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_143r.json"/>
       <sctap:hasFolio>143v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A143v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_143v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d19">
       <dc:title>Librum III, Distinctio 19</dc:title>
@@ -8631,9 +8653,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>143v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A143v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_143v.json"/>
       <sctap:hasFolio>144r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A144r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_144r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d20">
       <dc:title>Librum III, Distinctio 20</dc:title>
@@ -8660,9 +8682,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>144r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A144r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_144r.json"/>
       <sctap:hasFolio>144v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A144v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_144v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d21">
       <dc:title>Librum III, Distinctio 21</dc:title>
@@ -8689,9 +8711,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>144v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A144v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_144v.json"/>
       <sctap:hasFolio>145r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A145r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_145r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d22">
       <dc:title>Librum III, Distinctio 22</dc:title>
@@ -8718,9 +8740,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>145r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A145r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_145r.json"/>
       <sctap:hasFolio>145v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A145v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_145v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d23">
       <dc:title>Librum III, Distinctio 23</dc:title>
@@ -8747,11 +8769,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>145v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A145v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_145v.json"/>
       <sctap:hasFolio>146r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A146r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_146r.json"/>
       <sctap:hasFolio>146v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A146v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_146v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d24">
       <dc:title>Librum III, Distinctio 24</dc:title>
@@ -8778,7 +8800,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>146v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A146v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_146v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d25">
       <dc:title>Librum III, Distinctio 25</dc:title>
@@ -8805,11 +8827,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>146v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A146v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_146v.json"/>
       <sctap:hasFolio>147r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A147r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_147r.json"/>
       <sctap:hasFolio>147v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A147v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_147v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d26">
       <dc:title>Librum III, Distinctio 26</dc:title>
@@ -8836,9 +8858,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>147v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A147v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_147v.json"/>
       <sctap:hasFolio>148r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A148r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_148r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d27">
       <dc:title>Librum III, Distinctio 27</dc:title>
@@ -8865,9 +8887,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>148r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A148r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_148r.json"/>
       <sctap:hasFolio>148v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A148v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_148v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d28">
       <dc:title>Librum III, Distinctio 28</dc:title>
@@ -8894,7 +8916,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>148v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A148v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_148v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d29">
       <dc:title>Librum III, Distinctio 29</dc:title>
@@ -8921,11 +8943,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>148v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A148v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_148v.json"/>
       <sctap:hasFolio>149r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A149r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_149r.json"/>
       <sctap:hasFolio>149v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A149v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_149v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d30">
       <dc:title>Librum III, Distinctio 30</dc:title>
@@ -8952,7 +8974,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>149v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A149v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_149v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d31">
       <dc:title>Librum III, Distinctio 31</dc:title>
@@ -8979,9 +9001,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>149v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A149v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_149v.json"/>
       <sctap:hasFolio>150r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A150r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_150r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d32">
       <dc:title>Librum III, Distinctio 32</dc:title>
@@ -9008,9 +9030,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>150r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A150r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_150r.json"/>
       <sctap:hasFolio>150v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A150v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_150v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d33">
       <dc:title>Librum III, Distinctio 33</dc:title>
@@ -9037,11 +9059,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>150v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A150v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_150v.json"/>
       <sctap:hasFolio>151r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A151r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_151r.json"/>
       <sctap:hasFolio>151v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A151v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_151v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d34">
       <dc:title>Librum III, Distinctio 34</dc:title>
@@ -9068,11 +9090,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>151v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A151v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_151v.json"/>
       <sctap:hasFolio>152r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A152r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_152r.json"/>
       <sctap:hasFolio>152v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A152v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_152v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d35">
       <dc:title>Librum III, Distinctio 35</dc:title>
@@ -9099,9 +9121,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>152v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A152v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_152v.json"/>
       <sctap:hasFolio>153r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A153r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_153r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d36">
       <dc:title>Librum III, Distinctio 36</dc:title>
@@ -9128,9 +9150,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>153r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A153r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_153r.json"/>
       <sctap:hasFolio>153v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A153v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_153v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d37">
       <dc:title>Librum III, Distinctio 37</dc:title>
@@ -9157,9 +9179,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>153v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A153v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_153v.json"/>
       <sctap:hasFolio>154r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A154r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_154r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d38">
       <dc:title>Librum III, Distinctio 38</dc:title>
@@ -9186,13 +9208,13 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>154r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A154r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_154r.json"/>
       <sctap:hasFolio>154v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A154v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_154v.json"/>
       <sctap:hasFolio>155r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A155r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_155r.json"/>
       <sctap:hasFolio>155v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A155v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_155v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d39">
       <dc:title>Librum III, Distinctio 39</dc:title>
@@ -9219,9 +9241,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>155v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A155v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_155v.json"/>
       <sctap:hasFolio>156r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A156r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_156r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l3d40">
       <dc:title>Librum III, Distinctio 40</dc:title>
@@ -9248,11 +9270,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>156r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A156r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_156r.json"/>
       <sctap:hasFolio>156v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A156v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_156v.json"/>
       <sctap:hasFolio>157r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A157r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_157r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/item/wdr-l4d1">
       <dc:title>Librum IV, Distinctio 1</dc:title>
@@ -10055,9 +10077,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>157r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A157r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_157r.json"/>
       <sctap:hasFolio>157v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A157v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_157v.json"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l4d1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/transcription/wettf15_wdr-l4d1">
@@ -11277,7 +11299,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>157v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A157v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_157v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d2">
       <dc:title>wdr-l4d2 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11315,9 +11337,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>157v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A157v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_157v.json"/>
       <sctap:hasFolio>158r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A158r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_158r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d3">
       <dc:title>wdr-l4d3 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11357,9 +11379,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>158r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A158r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_158r.json"/>
       <sctap:hasFolio>158v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A158v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_158v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d4">
       <dc:title>wdr-l4d4 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11397,9 +11419,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>158v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A158v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_158v.json"/>
       <sctap:hasFolio>159r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A159r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_159r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d5">
       <dc:title>wdr-l4d5 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11443,7 +11465,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>159r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A159r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_159r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d6">
       <dc:title>wdr-l4d6 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11481,9 +11503,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>159r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A159r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_159r.json"/>
       <sctap:hasFolio>159v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A159v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_159v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d7">
       <dc:title>wdr-l4d7 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11523,9 +11545,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>159v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A159v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_159v.json"/>
       <sctap:hasFolio>160r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A160r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_160r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d8">
       <dc:title>wdr-l4d8 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11567,9 +11589,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>160r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A160r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_160r.json"/>
       <sctap:hasFolio>160v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A160v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_160v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d9">
       <dc:title>wdr-l4d9 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11607,7 +11629,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>160v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A160v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_160v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d10">
       <dc:title>wdr-l4d10 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11645,9 +11667,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>160v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A160v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_160v.json"/>
       <sctap:hasFolio>161r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A161r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_161r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d11">
       <dc:title>wdr-l4d11 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11689,9 +11711,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>161r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A161r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_161r.json"/>
       <sctap:hasFolio>161v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A161v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_161v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d12">
       <dc:title>wdr-l4d12 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11729,7 +11751,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>161v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A161v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_161v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d13">
       <dc:title>wdr-l4d13 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11767,9 +11789,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>161v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A161v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_161v.json"/>
       <sctap:hasFolio>162r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A162r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_162r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d14">
       <dc:title>wdr-l4d14 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11809,9 +11831,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>162r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A162r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_162r.json"/>
       <sctap:hasFolio>162v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A162v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_162v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d15">
       <dc:title>wdr-l4d15 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11853,9 +11875,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>162v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A162v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_162v.json"/>
       <sctap:hasFolio>163r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A163r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_163r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d16">
       <dc:title>wdr-l4d16 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11897,11 +11919,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>163r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A163r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_163r.json"/>
       <sctap:hasFolio>163v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A163v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_163v.json"/>
       <sctap:hasFolio>164r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A164r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_164r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d17">
       <dc:title>wdr-l4d17 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11949,9 +11971,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>164r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A164r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_164r.json"/>
       <sctap:hasFolio>164v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A164v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_164v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d18">
       <dc:title>wdr-l4d18 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -11993,9 +12015,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>164v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A164v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_164v.json"/>
       <sctap:hasFolio>165r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A165r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_165r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d19">
       <dc:title>wdr-l4d19 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12035,9 +12057,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>165r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A165r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_165r.json"/>
       <sctap:hasFolio>165v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A165v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_165v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d20">
       <dc:title>wdr-l4d20 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12079,7 +12101,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>165v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A165v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_165v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d21">
       <dc:title>wdr-l4d21 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12119,9 +12141,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>165v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A165v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_165v.json"/>
       <sctap:hasFolio>166r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A166r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_166r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d22">
       <dc:title>wdr-l4d22 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12159,9 +12181,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>166r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A166r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_166r.json"/>
       <sctap:hasFolio>166v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A166v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_166v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d23">
       <dc:title>wdr-l4d23 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12201,9 +12223,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>166v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A166v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_166v.json"/>
       <sctap:hasFolio>167</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A167"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_167.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d24">
       <dc:title>wdr-l4d24 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12241,7 +12263,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>167r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A167r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_167r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d25">
       <dc:title>wdr-l4d25 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12279,7 +12301,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>167r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A167r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_167r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d26">
       <dc:title>wdr-l4d26 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12319,9 +12341,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>167r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A167r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_167r.json"/>
       <sctap:hasFolio>167v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A167v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_167v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d27">
       <dc:title>wdr-l4d27 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12361,9 +12383,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>167v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A167v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_167v.json"/>
       <sctap:hasFolio>168r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d28">
       <dc:title>wdr-l4d28 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12401,7 +12423,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>168r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d29">
       <dc:title>wdr-l4d29 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12439,7 +12461,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>168r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d30">
       <dc:title>wdr-l4d30 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12477,9 +12499,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>168r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168r.json"/>
       <sctap:hasFolio>168v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d31">
       <dc:title>wdr-l4d31 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12517,7 +12539,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>168v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d32">
       <dc:title>wdr-l4d32 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12557,9 +12579,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>168v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A168v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_168v.json"/>
       <sctap:hasFolio>169r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d33">
       <dc:title>wdr-l4d33 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12597,7 +12619,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>169r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d34">
       <dc:title>wdr-l4d34 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12635,9 +12657,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>169r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169r.json"/>
       <sctap:hasFolio>169v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d35">
       <dc:title>wdr-l4d35 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12675,7 +12697,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>169v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d36">
       <dc:title>wdr-l4d36 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12713,7 +12735,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>169v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d37">
       <dc:title>wdr-l4d37 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12751,9 +12773,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>169v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A169v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_169v.json"/>
       <sctap:hasFolio>170r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A170r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_170r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d38">
       <dc:title>wdr-l4d38 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12795,9 +12817,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>170r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A170r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_170r.json"/>
       <sctap:hasFolio>170v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A170v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_170v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d39">
       <dc:title>wdr-l4d39 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12835,7 +12857,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>170v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A170v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_170v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d40">
       <dc:title>wdr-l4d40 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12873,7 +12895,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>170v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A170v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_170v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d41">
       <dc:title>wdr-l4d41 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12911,9 +12933,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>170v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A170v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_170v.json"/>
       <sctap:hasFolio>171r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A171r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_171r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d42">
       <dc:title>wdr-l4d42 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12951,9 +12973,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>171r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A171r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_171r.json"/>
       <sctap:hasFolio>171v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A171v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_171v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d43">
       <dc:title>wdr-l4d43 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -12993,9 +13015,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>171v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A171v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_171v.json"/>
       <sctap:hasFolio>172r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A172r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_172r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d44">
       <dc:title>wdr-l4d44 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -13037,9 +13059,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>172r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A172r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_172r.json"/>
       <sctap:hasFolio>172v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A172v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_172v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d45">
       <dc:title>wdr-l4d45 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -13081,7 +13103,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>172v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A172v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_172v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d46">
       <dc:title>wdr-l4d46 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -13121,9 +13143,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>172v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A172v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_172v.json"/>
       <sctap:hasFolio>173r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A173r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_173r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d47">
       <dc:title>wdr-l4d47 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -13163,9 +13185,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>173r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A173r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_173r.json"/>
       <sctap:hasFolio>173v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A173v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_173v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d48">
       <dc:title>wdr-l4d48 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -13203,11 +13225,11 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>173v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A173v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_173v.json"/>
       <sctap:hasFolio>174r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A174r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_174r.json"/>
       <sctap:hasFolio>174v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A174v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_174v.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d49">
       <dc:title>wdr-l4d49 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>
@@ -13252,9 +13274,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>wettf15</sctap:hasSlug>
       <sctap:hasFolio>174v</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A174v"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_174v.json"/>
       <sctap:hasFolio>175r</sctap:hasFolio>
-      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/wdr-wettf15/canvas/A175r"/>
+      <sctap:isOnCanvas rdf:resource="http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/kba-WettF0015_175r.json"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/rothwellcommentary/witness/gks1363_wdr-l4d50">
       <dc:title>wdr-l4d50 [Copenhagen, Danish Royal Library, GKS 1363 ]</dc:title>

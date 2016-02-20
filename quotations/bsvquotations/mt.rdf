@@ -65,6 +65,17 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q7"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q7"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt5_8">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>beati mundo corde quoniam ipsi Deum videbunt</dc:title>
+      <sctap:quotation>beati mundo corde quoniam ipsi Deum videbunt</sctap:quotation>
+      <sctap:citation>Evangelium secundum Matthæum 5:8</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt5_17">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>nolite putare quoniam veni solvere legem aut prophetas non veni solvere sed adimplere</dc:title>
@@ -131,6 +142,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
       <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt6_10">
@@ -243,7 +255,6 @@
       <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>21</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d43c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d43c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt11_27">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -299,18 +310,6 @@
       <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>50</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d45c6"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d45c6"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt13_27">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>accedentes autem servi patris familias dixerunt ei domine nonne bonum semen seminasti in agro tuo unde ergo habet zizania</dc:title>
-      <sctap:quotation>accedentes autem servi patris familias dixerunt ei domine nonne bonum semen seminasti in agro tuo unde ergo habet zizania</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 13:27</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>27</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt13_28">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -432,6 +431,7 @@
       <sctap:fromBiblicalChapter>22</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>40</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt23_37">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -444,7 +444,6 @@
       <sctap:fromBiblicalVerse>37</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q38"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt24_12">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -466,6 +465,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
       <sctap:fromBiblicalChapter>25</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt25_41">

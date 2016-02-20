@@ -145,6 +145,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio122"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio123"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-quaestio124"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/lambertuscommentary/witness/lm-bruss"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/witness/lm-bruss">
+      <dc:title>Brussels</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/LambertusDeMonte"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>bruss</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/lambertuscommentary/librum/lm-book1">
       <dc:title>Book I</dc:title>

@@ -9,6 +9,17 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor3_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>fiduciam autem talem habemus per Christum ad Deum</dc:title>
+      <sctap:quotation>fiduciam autem talem habemus per Christum ad Deum</sctap:quotation>
+      <sctap:citation>Epistula II ad Corinthios 3:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/halescommentary/item/adh-l1prol"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor3_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>non quod sufficientes simus cogitare aliquid a nobis quasi ex nobis sed sufficientia nostra ex Deo est</dc:title>
@@ -18,8 +29,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
       <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio19"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio100"/>
    </rdf:Description>
@@ -32,7 +43,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
       <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d25c8"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d25c8"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor4_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -43,7 +54,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
       <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d1c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1prol"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor4_6">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -65,7 +76,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
       <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d1c6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor5_7">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -88,6 +99,18 @@
       <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio43"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor6_7">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>in verbo veritatis in virtute Dei per arma iustitiae a dextris et sinistris</dc:title>
+      <sctap:quotation>in verbo veritatis in virtute Dei per arma iustitiae a dextris et sinistris</sctap:quotation>
+      <sctap:citation>Epistula II ad Corinthios 6:7</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
+      <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d31c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor10_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -109,7 +132,30 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
       <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>14</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d26c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d26c1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor12_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>scio hominem in Christo ante annos quattuordecim sive in corpore nescio sive extra corpus nescio Deus scit raptum eiusmodi usque ad tertium caelum</dc:title>
+      <sctap:quotation>scio hominem in Christo ante annos quattuordecim sive in corpore nescio sive extra corpus nescio Deus scit raptum eiusmodi usque ad tertium caelum</sctap:quotation>
+      <sctap:citation>Epistula II ad Corinthios 12:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor12_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quoniam raptus est in paradisum et audivit arcana verba quae non licet homini loqui</dc:title>
+      <sctap:quotation>quoniam raptus est in paradisum et audivit arcana verba quae non licet homini loqui</sctap:quotation>
+      <sctap:citation>Epistula II ad Corinthios 12:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/IIcor"/>
+      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/IIcor12_7">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

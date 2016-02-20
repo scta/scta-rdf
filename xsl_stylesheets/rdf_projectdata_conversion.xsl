@@ -89,8 +89,31 @@
                         <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
                         <sctap:hasItem rdf:resource="http://scta.info/text/{$cid}/item/{$fs}"/>
                     </xsl:for-each>
+                  
+                    <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+                      <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+                      <sctap:hasWitness rdf:resource="http://scta.info/text/{$cid}/witness/{$commentaryslug}-{$wit-slug}"/>
+                    </xsl:for-each>
                 </rdf:Description>
+          <!-- create witness entry for each witness for entire commentary -->
+          <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+            <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
+            <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
+            <xsl:variable name="wit-canvasbase"><xsl:value-of select="./cavnasBase"/></xsl:variable>
             
+            <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+            <rdf:Description rdf:about="http://scta.info/text/{$cid}/witness/{$commentaryslug}-{$wit-slug}">
+              <dc:title><xsl:value-of select="$wit-title"/></dc:title>
+              <role:AUT rdf:resource="{$author-uri}"/>
+              <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+              <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
+              <xsl:if test="./manifestOfficial">
+                <xsl:variable name="wit-manifestofficial"><xsl:value-of select="./manifestOfficial"/></xsl:variable>
+                <sctap:manifestOfficial><xsl:value-of select="$wit-manifestofficial"></xsl:value-of></sctap:manifestOfficial>
+              </xsl:if>
+            </rdf:Description>
+          </xsl:for-each>
+            <!-- end of create witness for entire commentary -->
             <xsl:if test=".//div[@type='librum']">
               
                 <xsl:for-each select=".//div[@type='librum']">
@@ -806,7 +829,7 @@
                     <xsl:variable name="partOfTitle"><xsl:value-of select="./preceding::fileName[1]/following-sibling::tei:title"/></xsl:variable>
                     <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
                     <xsl:variable name="iiif-ms-name" select="concat($commentaryslug, '-', $wit-slug)"/>
-                    
+                    <xsl:variable name="canvasBase"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/canvasBase"/></xsl:variable>
                   
                     
                   <rdf:Description rdf:about="http://scta.info/text/{$cid}/witness/{$wit-slug}_{$fs}">
@@ -817,10 +840,20 @@
                     <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
                     <xsl:for-each select="./folio">
                       <xsl:variable name="folionumber" select="./text()"/>
-                      <xsl:variable name="canvas-slug" select="concat($wit-initial, $folionumber)"></xsl:variable>
-                      
                       <sctap:hasFolio><xsl:value-of select="$folionumber"></xsl:value-of></sctap:hasFolio>
-                      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
+                      <xsl:choose>
+                        <xsl:when test="./@canvasslug">
+                          
+                          <xsl:variable name="canvas-slug" select="./@canvasslug"></xsl:variable>
+                          <xsl:variable name="canvasid" select="concat($canvasBase, $canvas-slug)"></xsl:variable>
+                          <sctap:isOnCanvas rdf:resource="{$canvasid}"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:variable name="canvas-slug" select="concat($wit-initial, $folionumber)"></xsl:variable>
+                          <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                      
                       
                     </xsl:for-each>
                       

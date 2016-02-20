@@ -17,6 +17,8 @@
         <slug>wettf15</slug>
         <title>Aarau, Aargauer Kantonsbibliothek, MsWettF 15</title>
         <initial>A</initial>
+        <canvasBase>http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/canvas/</canvasBase>
+        <manifestOfficial>http://www.e-codices.unifr.ch/metadata/iiif/kba-WettF0015/manifest.json</manifestOfficial>
       </witness>
       <witness id="P">
         <slug>penn</slug>
@@ -39,7 +41,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>107v</folio>
+            <folio canvasslug="kba-WettF0015_107v.json">107v</folio>
           </witness>
           <witness ref="#P">
             <folio>24r</folio>
@@ -51,8 +53,8 @@
         <title>Librum I, Distinctio 1</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>107v</folio>
-            <folio>108r</folio>
+            <folio canvasslug="kba-WettF0015_107v.json">107v</folio>
+            <folio canvasslug="kba-WettF0015_108r.json">108r</folio>
           </witness>
           <witness ref="#P">
             <folio>24r</folio>
@@ -66,7 +68,7 @@
         <!-- Utrum deus per essentiam sit unus -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>108r</folio>
+            <folio canvasslug="kba-WettF0015_108r.json">108r</folio> <!-- a -->
           </witness>
           <witness ref="#P">
             <folio>24v</folio>
@@ -83,9 +85,9 @@
         <!-- P also perpetuates this false division by starting the Question with "Queritur" which is the customary of way of starting a new distinction -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>108r</folio>
-            <folio>108v</folio>
-            <folio>109r</folio>
+            <folio canvasslug="kba-WettF0015_108r.json">108r</folio>
+            <folio canvasslug="kba-WettF0015_108v.json">108v</folio>
+            <folio canvasslug="kba-WettF0015_109r.json">109r</folio>
           </witness>
           <witness ref="#P">
             <folio>24v</folio> <!-- 24vb-25va-25vb -->
@@ -100,7 +102,7 @@
         <!-- Queritur Utrum generatio in divinis -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>109r</folio>
+            <folio canvasslug="kba-WettF0015_109r.json">109r</folio> <!-- a -->
           </witness>
           <witness ref="#P">
             <folio>25v</folio>
@@ -114,8 +116,8 @@
         <!-- Quaeritur utrum essentia divina sit generans -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>109r</folio>
-            <folio>109v</folio>
+            <folio canvasslug="kba-WettF0015_109r.json">109r</folio> <!-- b -->
+            <folio canvasslug="kba-WettF0015_109v.json">109v</folio>
           </witness>
           <witness ref="#P">
             <folio>26r</folio> <!-- 26ra-26rb -->
@@ -128,7 +130,7 @@
         <!-- Queritur utrum Pater genuerit Filium necessitate -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>109v</folio> <!-- 109va -->
+            <folio canvasslug="kba-WettF0015_109v.json">109v</folio> <!-- 109va -->
           </witness>
           <witness ref="#P">
             <folio>26r</folio>
@@ -142,8 +144,8 @@
         <!-- Utrum in Patre sit potentia generandi -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>109v</folio> <!-- 109vb-110ra -->
-            <folio>110r</folio>
+            <folio canvasslug="kba-WettF0015_109v.json">109v</folio> <!-- 109vb-110ra -->
+            <folio canvasslug="kba-WettF0015_110r.json">110r</folio>
           </witness>
           <witness ref="#P">
             <folio>26v</folio> <!-- 26va-26vb -->
@@ -156,7 +158,7 @@
         <!-- Utrum esse sit deo proporium -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>110r</folio> <!-- 110ra-110rb-110va -->
+            <folio canvasslug="kba-WettF0015_110r.json">110r</folio> <!-- 110ra-110rb-110va -->
           </witness>
           <witness ref="#P">
             <folio>26v</folio>
@@ -171,7 +173,7 @@
         <!-- Utrum propter generationem distinguatur Pater a Filio personaliter -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>110v</folio> <!-- 110va-110vb; stops at last of line of 110vb; distinction 11 starts on first line of 111ra -->
+            <folio canvasslug="kba-WettF0015_110v.json">110v</folio> <!-- 110va-110vb; stops at last of line of 110vb; distinction 11 starts on first line of 111ra -->
           </witness>
           <witness ref="#P">
             <folio>27v</folio> <!-- 27va-27vb-28ra -->
@@ -185,7 +187,7 @@
         <!-- Utrum in divinis sunt plures modi procedendi -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>111r</folio> <!-- 111ra -->
+            <folio canvasslug="kba-WettF0015_111r.json">111r</folio> <!-- 111ra -->
           </witness>
           <witness ref="#P">
             <folio>28r</folio> <!-- 28ra-28rb-->
@@ -198,7 +200,7 @@
         <!-- Si Spiritus Sanctus procedat a Patre et Filio -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>111r</folio>
+            <folio canvasslug="kba-WettF0015_111r.json">111r</folio>
           </witness>
           <witness ref="#P">
             <folio>28r</folio> <!-- 28rb-28va -->
@@ -212,7 +214,7 @@
         <!-- Utrum spiritus sanctus prius procedat a patre quam a filio -->
         <hasWitnesses>
           <witness ref="#A"> <!-- identified as d. 13 in A -->
-            <folio>111r</folio> <!-- 111rb -->
+            <folio canvasslug="kba-WettF0015_111r.json">111r</folio> <!-- 111rb -->
           </witness>
           <witness ref="#P">
             <folio>28v</folio> <!-- 28va -->
@@ -225,8 +227,8 @@
         <!-- an proceessio sit in Divinis -->
         <hasWitnesses>
           <witness ref="#A"> <!-- identified as d. 14 in A -->
-            <folio>111r</folio> <!-- 111rb-111va -->
-            <folio>111v</folio>
+            <folio canvasslug="kba-WettF0015_111r.json">111r</folio> <!-- 111rb-111va -->
+            <folio canvasslug="kba-WettF0015_111v.json">111v</folio>
           </witness>
           <witness ref="#P">
             <folio>28v</folio> <!-- 28va-29ra -->
@@ -240,8 +242,8 @@
         <!-- Utrum aliqua procession spiritus sancti sit temporalis -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>111v</folio>
-            <folio>112r</folio>
+            <folio canvasslug="kba-WettF0015_111v.json">111v</folio>
+            <folio canvasslug="kba-WettF0015_112r.json">112r</folio>
           </witness>
           <witness ref="#P">
             <folio>29r</folio>
@@ -253,8 +255,8 @@
         <title>Librum I, Distinctio 15</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>112r</folio>
-            <folio>112v</folio>
+            <folio canvasslug="kba-WettF0015_112r.json">112r</folio>
+            <folio canvasslug="kba-WettF0015_112v.json">112v</folio>
           </witness>
           <witness ref="#P">
             <folio>29r</folio>
@@ -268,7 +270,7 @@
         <title>Librum I, Distinctio 16</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>112v</folio>
+            <folio canvasslug="kba-WettF0015_112v.json">112v</folio>
           </witness>
           <witness ref="#P">
             <folio>30r</folio>
@@ -281,9 +283,9 @@
         <title>Librum I, Distinctio 17</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>112v</folio>
-            <folio>113r</folio>
-            <folio>113v</folio>
+            <folio canvasslug="kba-WettF0015_112v.json">112v</folio>
+            <folio canvasslug="kba-WettF0015_113r.json">113r</folio>
+            <folio canvasslug="kba-WettF0015_113v.json">113v</folio>
           </witness>
           <witness ref="#P">
             <folio>30v</folio>
@@ -296,8 +298,8 @@
         <title>Librum I, Distinctio 18</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>113r</folio>
-            <folio>113v</folio>
+            <folio canvasslug="kba-WettF0015_113r.json">113r</folio>
+            <folio canvasslug="kba-WettF0015_113v.json">113v</folio>
           </witness>
           <witness ref="#P">
             <folio>31r</folio>
@@ -310,8 +312,8 @@
         <title>Librum I, Distinctio 19</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>113v</folio>
-            <folio>114r</folio>
+            <folio canvasslug="kba-WettF0015_113v.json">113v</folio>
+            <folio canvasslug="kba-WettF0015_114r.json">114r</folio>
           </witness>
           <witness ref="#P">
             <folio>31v</folio>
@@ -325,7 +327,7 @@
         <title>Librum I, Distinctio 20</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>114r</folio>
+            <folio canvasslug="kba-WettF0015_114r.json">114r</folio>
           </witness>
           <witness ref="#P">
             <folio>32v</folio> 
@@ -337,8 +339,8 @@
         <title>Librum I, Distinctio 21</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>114r</folio>
-            <folio>114v</folio>
+            <folio canvasslug="kba-WettF0015_114r.json">114r</folio>
+            <folio canvasslug="kba-WettF0015_114v.json">114v</folio>
           </witness>
           <witness ref="#P">
             <folio>32v</folio>
@@ -351,7 +353,7 @@
         <title>Librum I, Distinctio 22</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>114v</folio>
+            <folio canvasslug="kba-WettF0015_114v.json">114v</folio>
           </witness>
           <witness ref="#P">
             <folio>33r</folio>
@@ -363,8 +365,8 @@
         <title>Librum I, Distinctio 23</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>114v</folio>
-            <folio>115r</folio>
+            <folio canvasslug="kba-WettF0015_114v.json">114v</folio>
+            <folio canvasslug="kba-WettF0015_115r.json">115r</folio>
           </witness>
           <witness ref="#P">
             <folio>33r</folio>
@@ -377,7 +379,7 @@
         <title>Librum I, Distinctio 24</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>115r</folio>
+            <folio canvasslug="kba-WettF0015_115r.json">115r</folio>
           </witness>
           <witness ref="#P">
             <folio>33v</folio>
@@ -390,8 +392,8 @@
         <title>Librum I, Distinctio 25</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>115r</folio>
-            <folio>115v</folio>
+            <folio canvasslug="kba-WettF0015_115r.json">115r</folio>
+            <folio canvasslug="kba-WettF0015_115v.json">115v</folio>
           </witness>
           <witness ref="#P">
             <folio>34r</folio>
@@ -403,8 +405,8 @@
         <title>Librum I, Distinctio 26</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>115v</folio>
-            <folio>116r</folio>
+            <folio canvasslug="kba-WettF0015_115v.json">115v</folio>
+            <folio canvasslug="kba-WettF0015_116r.json">116r</folio>
           </witness>
           <witness ref="#P">
             <folio>34r</folio>
@@ -417,7 +419,7 @@
         <title>Librum I, Distinctio 27</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>116r</folio>
+            <folio canvasslug="kba-WettF0015_116r.json">116r</folio>
           </witness>
           <witness ref="#P">
             <folio>34v</folio>
@@ -430,8 +432,8 @@
         <title>Librum I, Distinctio 28</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>116r</folio>
-            <folio>116v</folio>
+            <folio canvasslug="kba-WettF0015_116r.json">116r</folio>
+            <folio canvasslug="kba-WettF0015_116v.json">116v</folio>
           </witness>
           <witness ref="#P">
             <folio>35r</folio>
@@ -444,7 +446,7 @@
         <title>Librum I, Distinctio 29</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>116v</folio>
+            <folio canvasslug="kba-WettF0015_116v.json">116v</folio>
           </witness>
           <witness ref="#P">
             <folio>35v</folio>
@@ -456,8 +458,8 @@
         <title>Librum I, Distinctio 30</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>116v</folio>
-            <folio>117r</folio>
+            <folio canvasslug="kba-WettF0015_116v.json">116v</folio>
+            <folio canvasslug="kba-WettF0015_117r.json">117r</folio>
           </witness>
           <witness ref="#P">
             <folio>35v</folio>
@@ -470,7 +472,7 @@
         <title>Librum I, Distinctio 31</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>117r</folio>
+            <folio canvasslug="kba-WettF0015_117r.json">117r</folio>
           </witness>
           <witness ref="#P">
             <folio>36r</folio>
@@ -483,7 +485,7 @@
         <title>Librum I, Distinctio 32</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>117v</folio>
+            <folio canvasslug="kba-WettF0015_117v.json">117v</folio>
           </witness>
           <witness ref="#P">
             <folio>36v</folio>
@@ -496,8 +498,8 @@
         <!-- Queritur Utrum peccatum sit contrarie opinari circa notiones -->
         <hasWitnesses>
           <witness ref="#A"> <!-- identified as 34 in heading of A -->
-            <folio>117v</folio> <!-- 117vb-118ra -->
-            <folio>118r</folio>
+            <folio canvasslug="kba-WettF0015_117v.json">117v</folio> <!-- 117vb-118ra -->
+            <folio canvasslug="kba-WettF0015_118r.json">118r</folio>
           </witness>
           <witness ref="#P">
             <folio>36v</folio>
@@ -510,7 +512,7 @@
         <title>Librum I, Distinctio 34</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>118r</folio>
+            <folio canvasslug="kba-WettF0015_118r.json">118r</folio>
           </witness>
           <witness ref="#P">
             <folio>37r</folio>
@@ -523,8 +525,8 @@
         <title>Librum I, Distinctio 35</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>118r</folio>
-            <folio>118v</folio>
+            <folio canvasslug="kba-WettF0015_118r.json">118r</folio>
+            <folio canvasslug="kba-WettF0015_118v.json">118v</folio>
           </witness>
           <witness ref="#P">
             <folio>37v</folio>
@@ -536,7 +538,7 @@
         <title>Librum I, Distinctio 36</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>118v</folio>
+            <folio canvasslug="kba-WettF0015_118v.json">118v</folio>
           </witness>
           <witness ref="#P">
             <folio>37v</folio>
@@ -549,8 +551,8 @@
         <title>Librum I, Distinctio 37</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>118v</folio>
-            <folio>119r</folio>
+            <folio canvasslug="kba-WettF0015_118v.json">118v</folio>
+            <folio canvasslug="kba-WettF0015_119r.json">119r</folio>
           </witness>
           <witness ref="#P">
             <folio>38r</folio>
@@ -564,8 +566,8 @@
         <title>Librum I, Distinctio 38</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>119r</folio>
-            <folio>119v</folio>
+            <folio canvasslug="kba-WettF0015_119r.json">119r</folio>
+            <folio canvasslug="kba-WettF0015_119v.json">119v</folio>
           </witness>
           <witness ref="#P">
             <folio>39r</folio>
@@ -577,7 +579,7 @@
         <title>Librum I, Distinctio 39</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>119v</folio>
+            <folio canvasslug="kba-WettF0015_119v.json">119v</folio>
           </witness>
           <witness ref="#P">
             <folio>39r</folio>
@@ -590,8 +592,8 @@
         <title>Librum I, Distinctio 40</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>120r</folio>
-            <folio>120r</folio>
+            <folio canvasslug="kba-WettF0015_120r.json">120r</folio>
+            <folio canvasslug="kba-WettF0015_120r.json">120r</folio>
           </witness>
           <witness ref="#P">
             <folio>39v</folio>
@@ -604,8 +606,8 @@
         <title>Librum I, Distinctio 41</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>120r</folio>
-            <folio>120v</folio>
+            <folio canvasslug="kba-WettF0015_120r.json">120r</folio>
+            <folio canvasslug="kba-WettF0015_120v.json">120v</folio>
           </witness>
           <witness ref="#P">
             <folio>40r</folio>
@@ -618,8 +620,8 @@
         <title>Librum I, Distinctio 42</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>120v</folio>
-            <folio>121r</folio>
+            <folio canvasslug="kba-WettF0015_120v.json">120v</folio>
+            <folio canvasslug="kba-WettF0015_121r.json">121r</folio>
           </witness>
           <witness ref="#P">
             <folio>40v</folio>
@@ -632,7 +634,7 @@
         <title>Librum I, Distinctio 43</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>121r</folio>
+            <folio canvasslug="kba-WettF0015_121r.json">121r</folio>
           </witness>
           <witness ref="#P">
             <folio>41r</folio>
@@ -644,8 +646,8 @@
         <title>Librum I, Distinctio 44</title>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>121r</folio>
-            <folio>121v</folio>
+            <folio canvasslug="kba-WettF0015_121r.json">121r</folio>
+            <folio canvasslug="kba-WettF0015_121v.json">121v</folio>
           </witness>
           <witness ref="#P">
             <folio>41r</folio>
@@ -659,7 +661,7 @@
         <!-- Utrum voluntas sit in Deo -->
         <hasWitnesses>
           <witness ref="#A">
-            <folio>121v</folio> <!-- 121va-121vb -->
+            <folio canvasslug="kba-WettF0015_121v.json">121v</folio> <!-- 121va-121vb -->
           </witness>
           <witness ref="#P">
             <folio>41v</folio>
@@ -673,8 +675,8 @@
         <!-- Utrum deus velit omnes homines salvari -->
         <hasWitnesses>
           <witness ref="#A"> <!-- identified as 47 in A -->
-            <folio>121v</folio> <!-- 121vb-122rb -->
-            <folio>122r</folio>
+            <folio canvasslug="kba-WettF0015_121v.json">121v</folio> <!-- 121vb-122rb -->
+            <folio canvasslug="kba-WettF0015_122r.json">122r</folio>
           </witness>
           <witness ref="#P">
             <folio>42r</folio>
@@ -688,8 +690,8 @@
         <!-- utrum voluntas beneplaciti possit impedire -->
         <hasWitnesses>
           <witness ref="#A"> <!-- identified as 48 in A -->
-            <folio>122r</folio> <!-- 122rb-122v -->
-            <folio>122v</folio>
+            <folio canvasslug="kba-WettF0015_122r.json">122r</folio> <!-- 122rb-122v -->
+            <folio canvasslug="kba-WettF0015_122v.json">122v</folio>
           </witness>
           <witness ref="#P">
             <folio>42v</folio> <!-- 42vb-43rb -->
@@ -703,7 +705,7 @@
         <!-- utrum voluntas humana possit conformari divinae -->
         <hasWitnesses>
           <witness ref="#A"> <!-- identified as 49 in A -->
-            <folio>122v</folio> <!-- 122va-122vb -->
+            <folio canvasslug="kba-WettF0015_122v.json">122v</folio> <!-- 122va-122vb -->
           </witness>
           <witness ref="#P">
             <folio>43r</folio> <!-- 43rb-43va-43vb-->
@@ -720,8 +722,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>122v</folio>
-            <folio>123r</folio>
+            <folio canvasslug="kba-WettF0015_122v.json">122v</folio>
+            <folio canvasslug="kba-WettF0015_123r.json">123r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -732,8 +734,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>123r</folio>
-            <folio>123v</folio>
+            <folio canvasslug="kba-WettF0015_123r.json">123r</folio>
+            <folio canvasslug="kba-WettF0015_123v.json">123v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -744,8 +746,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>123v</folio>
-            <folio>124r</folio>
+            <folio canvasslug="kba-WettF0015_123v.json">123v</folio>
+            <folio canvasslug="kba-WettF0015_124r.json">124r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -756,8 +758,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>124r</folio>
-            <folio>124v</folio>
+            <folio canvasslug="kba-WettF0015_124r.json">124r</folio>
+            <folio canvasslug="kba-WettF0015_124v.json">124v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -768,7 +770,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>124v</folio>
+            <folio canvasslug="kba-WettF0015_124v.json">124v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -779,8 +781,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>124v</folio>
-            <folio>125r</folio>
+            <folio canvasslug="kba-WettF0015_124v.json">124v</folio>
+            <folio canvasslug="kba-WettF0015_125r.json">125r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -791,7 +793,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>125r</folio>
+            <folio canvasslug="kba-WettF0015_125r.json">125r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -802,8 +804,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>125r</folio>
-            <folio>125v</folio>
+            <folio canvasslug="kba-WettF0015_125r.json">125r</folio>
+            <folio canvasslug="kba-WettF0015_125v.json">125v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -814,8 +816,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>125v</folio>
-            <folio>126r</folio>
+            <folio canvasslug="kba-WettF0015_125v.json">125v</folio>
+            <folio canvasslug="kba-WettF0015_126r.json">126r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -826,7 +828,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>126r</folio>
+            <folio canvasslug="kba-WettF0015_126r.json">126r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -837,8 +839,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>126r</folio>
-            <folio>126v</folio>
+            <folio canvasslug="kba-WettF0015_126r.json">126r</folio>
+            <folio canvasslug="kba-WettF0015_126v.json">126v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -849,8 +851,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>126v</folio>
-            <folio>127r</folio>
+            <folio canvasslug="kba-WettF0015_126v.json">126v</folio>
+            <folio canvasslug="kba-WettF0015_127r.json">127r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -861,7 +863,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>127r</folio>
+            <folio canvasslug="kba-WettF0015_127r.json">127r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -872,8 +874,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>127r</folio>
-            <folio>127v</folio>
+            <folio canvasslug="kba-WettF0015_127r.json">127r</folio>
+            <folio canvasslug="kba-WettF0015_127v.json">127v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -884,8 +886,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>127v</folio>
-            <folio>128r</folio>
+            <folio canvasslug="kba-WettF0015_127v.json">127v</folio>
+            <folio canvasslug="kba-WettF0015_128r.json">128r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -896,7 +898,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>128r</folio>
+            <folio canvasslug="kba-WettF0015_128r.json">128r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -907,8 +909,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>128r</folio>
-            <folio>128v</folio>
+            <folio canvasslug="kba-WettF0015_128r.json">128r</folio>
+            <folio canvasslug="kba-WettF0015_128v.json">128v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -919,8 +921,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>128v</folio>
-            <folio>129r</folio>
+            <folio canvasslug="kba-WettF0015_128v.json">128v</folio>
+            <folio canvasslug="kba-WettF0015_129r.json">129r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -931,8 +933,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>129r</folio>
-            <folio>129v</folio>
+            <folio canvasslug="kba-WettF0015_129r.json">129r</folio>
+            <folio canvasslug="kba-WettF0015_129v.json">129v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -943,7 +945,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>129v</folio>
+            <folio canvasslug="kba-WettF0015_129v.json">129v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -954,8 +956,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>129v</folio>
-            <folio>130r</folio>
+            <folio canvasslug="kba-WettF0015_129v.json">129v</folio>
+            <folio canvasslug="kba-WettF0015_130r.json">130r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -966,8 +968,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>130r</folio>
-            <folio>130v</folio>
+            <folio canvasslug="kba-WettF0015_130r.json">130r</folio>
+            <folio canvasslug="kba-WettF0015_130v.json">130v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -978,7 +980,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>130v</folio>
+            <folio canvasslug="kba-WettF0015_130v.json">130v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -989,9 +991,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>130v</folio>
-            <folio>131r</folio>
-            <folio>131v</folio>
+            <folio canvasslug="kba-WettF0015_130v.json">130v</folio>
+            <folio canvasslug="kba-WettF0015_131r.json">131r</folio>
+            <folio canvasslug="kba-WettF0015_131v.json">131v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1002,8 +1004,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>131v</folio>
-            <folio>132r</folio>
+            <folio canvasslug="kba-WettF0015_131v.json">131v</folio>
+            <folio canvasslug="kba-WettF0015_132r.json">132r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1014,7 +1016,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>132r</folio>
+            <folio canvasslug="kba-WettF0015_132r.json">132r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1025,8 +1027,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>132r</folio>
-            <folio>132v</folio>
+            <folio canvasslug="kba-WettF0015_132r.json">132r</folio>
+            <folio canvasslug="kba-WettF0015_132v.json">132v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1037,7 +1039,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>132v</folio>
+            <folio canvasslug="kba-WettF0015_132v.json">132v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1048,8 +1050,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>132v</folio>
-            <folio>133r</folio>
+            <folio canvasslug="kba-WettF0015_132v.json">132v</folio>
+            <folio canvasslug="kba-WettF0015_133r.json">133r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1060,7 +1062,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>133r</folio>
+            <folio canvasslug="kba-WettF0015_133r.json">133r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1071,8 +1073,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>133r</folio>
-            <folio>133v</folio>
+            <folio canvasslug="kba-WettF0015_133r.json">133r</folio>
+            <folio canvasslug="kba-WettF0015_133v.json">133v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1083,7 +1085,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>133v</folio>
+            <folio canvasslug="kba-WettF0015_133v.json">133v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1094,7 +1096,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>133v</folio>
+            <folio canvasslug="kba-WettF0015_133v.json">133v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1105,7 +1107,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>134r</folio>
+            <folio canvasslug="kba-WettF0015_134r.json">134r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1116,8 +1118,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>134r</folio>
-            <folio>134v</folio>
+            <folio canvasslug="kba-WettF0015_134r.json">134r</folio>
+            <folio canvasslug="kba-WettF0015_134v.json">134v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1128,8 +1130,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>134v</folio>
-            <folio>135r</folio>
+            <folio canvasslug="kba-WettF0015_134v.json">134v</folio>
+            <folio canvasslug="kba-WettF0015_135r.json">135r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1140,7 +1142,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>135r</folio>
+            <folio canvasslug="kba-WettF0015_135r.json">135r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1151,7 +1153,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>135r</folio>
+            <folio canvasslug="kba-WettF0015_135r.json">135r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1162,7 +1164,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>135v</folio>
+            <folio canvasslug="kba-WettF0015_135v.json">135v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1173,8 +1175,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>135v</folio>
-            <folio>136r</folio>
+            <folio canvasslug="kba-WettF0015_135v.json">135v</folio>
+            <folio canvasslug="kba-WettF0015_136r.json">136r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1185,8 +1187,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>136r</folio>
-            <folio>136v</folio>
+            <folio canvasslug="kba-WettF0015_136r.json">136r</folio>
+            <folio canvasslug="kba-WettF0015_136v.json">136v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1197,8 +1199,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>136v</folio>
-            <folio>137r</folio>
+            <folio canvasslug="kba-WettF0015_136v.json">136v</folio>
+            <folio canvasslug="kba-WettF0015_137r.json">137r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1209,7 +1211,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>137r</folio>
+            <folio canvasslug="kba-WettF0015_137r.json">137r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1220,8 +1222,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>137r</folio>
-            <folio>137v</folio>
+            <folio canvasslug="kba-WettF0015_137r.json">137r</folio>
+            <folio canvasslug="kba-WettF0015_137v.json">137v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1235,7 +1237,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>137v</folio>
+            <folio canvasslug="kba-WettF0015_137v.json">137v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1246,8 +1248,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">137v</folio>
-            <folio c="a">138r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_137v.json">137v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_138r.json">138r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1258,8 +1260,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">138r</folio>
-            <folio>138v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_138r.json">138r</folio>
+            <folio canvasslug="kba-WettF0015_138v.json">138v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1270,7 +1272,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">138v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_138v.json">138v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1281,8 +1283,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">138v</folio>
-            <folio>139r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_138v.json">138v</folio>
+            <folio canvasslug="kba-WettF0015_139r.json">139r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1293,8 +1295,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">139r</folio>
-            <folio>139v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_139r.json">139r</folio>
+            <folio canvasslug="kba-WettF0015_139v.json">139v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1305,7 +1307,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio>139v</folio> <!-- column b -->
+            <folio canvasslug="kba-WettF0015_139v.json">139v</folio> <!-- column b -->
           </witness>
         </hasWitnesses>
       </item>
@@ -1316,7 +1318,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">140r</folio> 
+            <folio c="a" canvasslug="kba-WettF0015_140r.json">140r</folio> 
           </witness>
         </hasWitnesses>
       </item>
@@ -1327,8 +1329,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">140r</folio>
-            <folio>140v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_140r.json">140r</folio>
+            <folio canvasslug="kba-WettF0015_140v.json">140v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1339,8 +1341,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">140v</folio>
-            <folio>141r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_140v.json">140v</folio>
+            <folio canvasslug="kba-WettF0015_141r.json">141r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1351,7 +1353,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">141r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_141r.json">141r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1362,8 +1364,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">141r</folio>
-            <folio>141v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_141r.json">141r</folio>
+            <folio canvasslug="kba-WettF0015_141v.json">141v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1374,7 +1376,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">141v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_141v.json">141v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1385,9 +1387,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">141v</folio>
-            <folio>142r</folio>
-            <folio>142v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_141v.json">141v</folio>
+            <folio canvasslug="kba-WettF0015_142r.json">142r</folio>
+            <folio canvasslug="kba-WettF0015_142v.json">142v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1398,7 +1400,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">142v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_142v.json">142v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1409,8 +1411,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">142v</folio>
-            <folio>143r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_142v.json">142v</folio>
+            <folio canvasslug="kba-WettF0015_143r.json">143r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1421,7 +1423,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">143r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_143r.json">143r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1432,8 +1434,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">143r</folio>
-            <folio>143v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_143r.json">143r</folio>
+            <folio canvasslug="kba-WettF0015_143v.json">143v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1444,8 +1446,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">143v</folio>
-            <folio>144r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_143v.json">143v</folio>
+            <folio canvasslug="kba-WettF0015_144r.json">144r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1456,8 +1458,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">144r</folio>
-            <folio>144v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_144r.json">144r</folio>
+            <folio canvasslug="kba-WettF0015_144v.json">144v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1468,8 +1470,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">144v</folio>
-            <folio>145r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_144v.json">144v</folio>
+            <folio canvasslug="kba-WettF0015_145r.json">145r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1480,8 +1482,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">145r</folio>
-            <folio>145v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_145r.json">145r</folio>
+            <folio canvasslug="kba-WettF0015_145v.json">145v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1492,9 +1494,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">145v</folio>
-            <folio>146r</folio>
-            <folio>146v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_145v.json">145v</folio>
+            <folio canvasslug="kba-WettF0015_146r.json">146r</folio>
+            <folio canvasslug="kba-WettF0015_146v.json">146v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1505,7 +1507,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">146v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_146v.json">146v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1516,9 +1518,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">146v</folio>
-            <folio>147r</folio>
-            <folio>147v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_146v.json">146v</folio>
+            <folio canvasslug="kba-WettF0015_147r.json">147r</folio>
+            <folio canvasslug="kba-WettF0015_147v.json">147v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1529,8 +1531,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">147v</folio>
-            <folio>148r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_147v.json">147v</folio>
+            <folio canvasslug="kba-WettF0015_148r.json">148r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1541,8 +1543,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">148r</folio>
-            <folio>148v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_148r.json">148r</folio>
+            <folio canvasslug="kba-WettF0015_148v.json">148v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1553,7 +1555,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">148v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_148v.json">148v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1564,9 +1566,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">148v</folio>
-            <folio>149r</folio>
-            <folio>149v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_148v.json">148v</folio>
+            <folio canvasslug="kba-WettF0015_149r.json">149r</folio>
+            <folio canvasslug="kba-WettF0015_149v.json">149v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1577,7 +1579,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">149v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_149v.json">149v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1588,8 +1590,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">149v</folio>
-            <folio>150r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_149v.json">149v</folio>
+            <folio canvasslug="kba-WettF0015_150r.json">150r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1600,8 +1602,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">150r</folio>
-            <folio>150v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_150r.json">150r</folio>
+            <folio canvasslug="kba-WettF0015_150v.json">150v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1612,9 +1614,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">150v</folio>
-            <folio>151r</folio>
-            <folio>151v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_150v.json">150v</folio>
+            <folio canvasslug="kba-WettF0015_151r.json">151r</folio>
+            <folio canvasslug="kba-WettF0015_151v.json">151v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1625,9 +1627,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">151v</folio>
-            <folio>152r</folio>
-            <folio>152v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_151v.json">151v</folio>
+            <folio canvasslug="kba-WettF0015_152r.json">152r</folio>
+            <folio canvasslug="kba-WettF0015_152v.json">152v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1638,8 +1640,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">152v</folio>
-            <folio>153r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_152v.json">152v</folio>
+            <folio canvasslug="kba-WettF0015_153r.json">153r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1650,8 +1652,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">153r</folio>
-            <folio>153v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_153r.json">153r</folio>
+            <folio canvasslug="kba-WettF0015_153v.json">153v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1662,8 +1664,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">153v</folio>
-            <folio>154r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_153v.json">153v</folio>
+            <folio canvasslug="kba-WettF0015_154r.json">154r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1674,10 +1676,10 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">154r</folio>
-            <folio>154v</folio>
-            <folio>155r</folio>
-            <folio>155v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_154r.json">154r</folio>
+            <folio canvasslug="kba-WettF0015_154v.json">154v</folio>
+            <folio canvasslug="kba-WettF0015_155r.json">155r</folio>
+            <folio canvasslug="kba-WettF0015_155v.json">155v</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1688,8 +1690,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">155v</folio>
-            <folio>156r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_155v.json">155v</folio>
+            <folio canvasslug="kba-WettF0015_156r.json">156r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1700,9 +1702,9 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">156r</folio>
-            <folio>156v</folio>
-            <folio>157r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_156r.json">156r</folio>
+            <folio canvasslug="kba-WettF0015_156v.json">156v</folio>
+            <folio canvasslug="kba-WettF0015_157r.json">157r</folio>
           </witness>
         </hasWitnesses>
       </item>
@@ -1716,8 +1718,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">157r</folio>
-            <folio>157v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_157r.json">157r</folio>
+            <folio canvasslug="kba-WettF0015_157v.json">157v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">1r</folio>
@@ -1734,7 +1736,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">157v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_157v.json">157v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">2v</folio>
@@ -1749,8 +1751,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">157v</folio>
-            <folio>158r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_157v.json">157v</folio>
+            <folio canvasslug="kba-WettF0015_158r.json">158r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">3r</folio>
@@ -1766,8 +1768,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">158r</folio>
-            <folio>158v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_158r.json">158r</folio>
+            <folio canvasslug="kba-WettF0015_158v.json">158v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">4r</folio>
@@ -1782,8 +1784,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">158v</folio>
-            <folio>159r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_158v.json">158v</folio>
+            <folio canvasslug="kba-WettF0015_159r.json">159r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">4v</folio>
@@ -1801,7 +1803,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">159r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_159r.json">159r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">6v</folio>
@@ -1816,8 +1818,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">159r</folio>
-            <folio>159v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_159r.json">159r</folio>
+            <folio canvasslug="kba-WettF0015_159v.json">159v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">7r</folio>
@@ -1833,8 +1835,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">159v</folio>
-            <folio>160r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_159v.json">159v</folio>
+            <folio canvasslug="kba-WettF0015_160r.json">160r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">8r</folio>
@@ -1851,8 +1853,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">160r</folio>
-            <folio>160v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_160r.json">160r</folio>
+            <folio canvasslug="kba-WettF0015_160v.json">160v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">9v</folio>
@@ -1867,7 +1869,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">160v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_160v.json">160v</folio>
           </witness>
           <witness ref="#D">
             <!-- there is a strange mistake here in D
@@ -1887,8 +1889,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="b">160v</folio>
-            <folio>161r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_160v.json">160v</folio>
+            <folio canvasslug="kba-WettF0015_161r.json">161r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">10v</folio>
@@ -1905,8 +1907,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">161r</folio>
-            <folio>161v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_161r.json">161r</folio>
+            <folio canvasslug="kba-WettF0015_161v.json">161v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">12r</folio>
@@ -1921,7 +1923,7 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">161v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_161v.json">161v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">12v</folio>
@@ -1937,8 +1939,8 @@
         <questionTitle/>
         <hasWitnesses>
           <witness ref="#A">
-            <folio c="a">161v</folio>
-            <folio>162r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_161v.json">161v</folio>
+            <folio canvasslug="kba-WettF0015_162r.json">162r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">13v</folio>
@@ -1955,8 +1957,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 14 but is actually 15 -->
-            <folio c="a">162r</folio>
-            <folio>162v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_162r.json">162r</folio>
+            <folio canvasslug="kba-WettF0015_162v.json">162v</folio>
           </witness>
           <witness ref="#D">
             <!-- not that D mistakenly combines the last question of 14 with the first question of 15;
@@ -1976,8 +1978,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 15 but is actually 16 -->
-            <folio c="a">162v</folio>
-            <folio>163r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_162v.json">162v</folio>
+            <folio canvasslug="kba-WettF0015_163r.json">163r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">16r</folio>
@@ -1995,9 +1997,9 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 16 but is actually 17 -->
-            <folio c="a">163r</folio>
-            <folio>163v</folio>
-            <folio>164r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_163r.json">163r</folio>
+            <folio canvasslug="kba-WettF0015_163v.json">163v</folio>
+            <folio canvasslug="kba-WettF0015_164r.json">164r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">17v</folio>
@@ -2018,8 +2020,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 17 but is actually 18 -->
-            <folio c="a">164r</folio>
-            <folio>164v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_164r.json">164r</folio>
+            <folio canvasslug="kba-WettF0015_164v.json">164v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">20v</folio>
@@ -2037,8 +2039,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 18 but is actually 19 -->
-            <folio c="b">164v</folio>
-            <folio>165r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_164v.json">164v</folio>
+            <folio canvasslug="kba-WettF0015_165r.json">165r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">22r</folio>
@@ -2056,8 +2058,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 19 but is actually 20 -->
-            <folio c="a">165r</folio>
-            <folio>165v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_165r.json">165r</folio>
+            <folio canvasslug="kba-WettF0015_165v.json">165v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">23r</folio>
@@ -2075,7 +2077,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 20 but is actually 21 -->
-            <folio c="a">165v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_165v.json">165v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">24v</folio>
@@ -2092,8 +2094,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 21 but is actually 22 -->
-            <folio c="b">165v</folio>
-            <folio>166r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_165v.json">165v</folio>
+            <folio canvasslug="kba-WettF0015_166r.json">166r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">25v</folio>
@@ -2109,8 +2111,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 22 but is actually 23 -->
-            <folio c="a">166r</folio>
-            <folio>166v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_166r.json">166r</folio>
+            <folio canvasslug="kba-WettF0015_166v.json">166v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">26r</folio>
@@ -2127,8 +2129,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 21 but is actually 24 -->
-            <folio c="a">166v</folio>
-            <folio>167</folio>
+            <folio c="a" canvasslug="kba-WettF0015_166v.json">166v</folio>
+            <folio canvasslug="kba-WettF0015_167.json">167</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">27r</folio>
@@ -2144,7 +2146,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 22 but is actually 25 -->
-            <folio c="a">167r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_167r.json">167r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">27v</folio>
@@ -2160,7 +2162,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 23 but is actually 26 -->
-            <folio c="b">167r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_167r.json">167r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">28r</folio>
@@ -2177,8 +2179,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 24 but is actually 27 -->
-            <folio c="b">167r</folio>
-            <folio>167v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_167r.json">167r</folio>
+            <folio canvasslug="kba-WettF0015_167v.json">167v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">29r</folio>
@@ -2195,8 +2197,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 25 but is actually 28 -->
-            <folio c="b">167v</folio>
-            <folio>168r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_167v.json">167v</folio>
+            <folio canvasslug="kba-WettF0015_168r.json">168r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">30r</folio>
@@ -2212,7 +2214,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 26 but is actually 29 -->
-            <folio c="a">168r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_168r.json">168r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">30v</folio>
@@ -2228,7 +2230,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 27 but is actually 30 -->
-            <folio c="a">168r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_168r.json">168r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">31r</folio>
@@ -2244,8 +2246,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 28 but is actually 31 -->
-            <folio c="b">168r</folio>
-            <folio>168v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_168r.json">168r</folio>
+            <folio canvasslug="kba-WettF0015_168v.json">168v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">31v</folio>
@@ -2261,7 +2263,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 29 but is actually 32 -->
-            <folio c="a">168v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_168v.json">168v</folio>
           </witness>
           <witness ref="#D">
             <!-- seems like another mistaek occurs here where last question of 31 
@@ -2280,8 +2282,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 30 but is actually 33 -->
-            <folio c="b">168v</folio>
-            <folio>169r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_168v.json">168v</folio>
+            <folio canvasslug="kba-WettF0015_169r.json">169r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">33r</folio>
@@ -2297,7 +2299,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 31 but is actually 34 -->
-            <folio c="a">169r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_169r.json">169r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">33v</folio>
@@ -2313,8 +2315,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 32 but is actually 35 -->
-            <folio c="b">169r</folio>
-            <folio>169v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_169r.json">169r</folio>
+            <folio canvasslug="kba-WettF0015_169v.json">169v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">34r</folio>
@@ -2330,7 +2332,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 33 but is actually 36 -->
-            <folio c="a">169v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_169v.json">169v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">34v</folio>
@@ -2346,7 +2348,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 34 but is actually 37 -->
-            <folio c="a">169v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_169v.json">169v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">35r</folio>
@@ -2362,8 +2364,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 35 but is actually 38 -->
-            <folio c="b">169v</folio>
-            <folio>170r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_169v.json">169v</folio>
+            <folio canvasslug="kba-WettF0015_170r.json">170r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">35v</folio>
@@ -2381,8 +2383,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 36 but is actually 39 -->
-            <folio c="b">170r</folio>
-            <folio>170v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_170r.json">170r</folio>
+            <folio canvasslug="kba-WettF0015_170v.json">170v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">37r</folio>
@@ -2398,7 +2400,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 37 but is actually 40 -->
-            <folio c="a">170v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_170v.json">170v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">37v</folio>
@@ -2414,7 +2416,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 38 but is actually 41 -->
-            <folio c="b">170v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_170v.json">170v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">38r</folio>
@@ -2430,8 +2432,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 39 but is actually 42 -->
-            <folio c="b">170v</folio>
-            <folio>171r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_170v.json">170v</folio>
+            <folio canvasslug="kba-WettF0015_171r.json">171r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">38v</folio>
@@ -2447,8 +2449,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 40 but is actually 43 -->
-            <folio c="b">171r</folio>
-            <folio>171v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_171r.json">171r</folio>
+            <folio canvasslug="kba-WettF0015_171v.json">171v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">39r</folio>
@@ -2465,8 +2467,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 41 but is actually 44 -->
-            <folio c="a">171v</folio>
-            <folio>172r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_171v.json">171v</folio>
+            <folio canvasslug="kba-WettF0015_172r.json">172r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">40r</folio>
@@ -2484,8 +2486,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 42 but is actually 45 -->
-            <folio c="a">172r</folio>
-            <folio>172v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_172r.json">172r</folio>
+            <folio canvasslug="kba-WettF0015_172v.json">172v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">41v</folio>
@@ -2503,7 +2505,7 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 43 but is actually 46 -->
-            <folio c="a">172v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_172v.json">172v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">43r</folio>
@@ -2520,8 +2522,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 44 but is actually 47 -->
-            <folio c="b">172v</folio>
-            <folio>173r</folio>
+            <folio c="b" canvasslug="kba-WettF0015_172v.json">172v</folio>
+            <folio canvasslug="kba-WettF0015_173r.json">173r</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">44r</folio>
@@ -2538,8 +2540,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 45 but is actually 48 -->
-            <folio c="b">173r</folio>
-            <folio>173v</folio>
+            <folio c="b" canvasslug="kba-WettF0015_173r.json">173r</folio>
+            <folio canvasslug="kba-WettF0015_173v.json">173v</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">45r</folio>
@@ -2555,9 +2557,9 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 46 but is actually 49 -->
-            <folio c="a">173v</folio>
-            <folio>174r</folio>
-            <folio>174v</folio>
+            <folio c="a" canvasslug="kba-WettF0015_173v.json">173v</folio>
+            <folio canvasslug="kba-WettF0015_174r.json">174r</folio>
+            <folio canvasslug="kba-WettF0015_174v.json">174v</folio>
           </witness>
           <witness ref="#D">
             <folio c="b">45v</folio>
@@ -2577,8 +2579,8 @@
         <hasWitnesses>
           <witness ref="#A">
             <!-- says 47 but is actually 50 -->
-            <folio c="a">174v</folio>
-            <folio>175r</folio>
+            <folio c="a" canvasslug="kba-WettF0015_174v.json">174v</folio>
+            <folio canvasslug="kba-WettF0015_175r.json">175r</folio>
           </witness>
           <witness ref="#D">
             <folio c="a">48r</folio>

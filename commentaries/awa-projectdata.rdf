@@ -38,6 +38,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d2q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d3q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l4q5"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/wodehamabbreviatio/witness/awa-paris1512"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/witness/awa-paris1512">
+      <dc:title>Paris, 1512</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Wodeham"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>paris1512</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/wodehamabbreviatio/librum/awa-librum1">
       <dc:title>Librum 1</dc:title>

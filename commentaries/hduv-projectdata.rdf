@@ -171,6 +171,13 @@
       <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q1"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q2"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/hugolinocommentary/item/hduv-l4d43q3"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hugolinocommentary/witness/hduv-"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/witness/hduv-">
+      <dc:title/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/HugolinoOfOrvieto"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/hugolinocommentary/distinctio/hduv-l1prin1">
       <dc:title/>

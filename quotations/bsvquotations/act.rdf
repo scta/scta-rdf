@@ -9,6 +9,28 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act1_1">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>primum quidem sermonem feci de omnibus o Theophile quae coepit Iesus facere et docere</dc:title>
+      <sctap:quotation>primum quidem sermonem feci de omnibus o Theophile quae coepit Iesus facere et docere</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 1:1</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act1_5">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>quia Iohannes quidem baptizavit aqua vos autem baptizabimini Spiritu Sancto non post multos hos dies</dc:title>
+      <sctap:quotation>quia Iohannes quidem baptizavit aqua vos autem baptizabimini Spiritu Sancto non post multos hos dies</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 1:5</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act1_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>sed accipietis virtutem supervenientis Spiritus Sancti in vos et eritis mihi testes in Hierusalem et in omni Iudaea et Samaria et usque ad ultimum terrae</dc:title>
@@ -19,6 +41,28 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act2_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et apparuerunt illis dispertitae linguae tamquam ignis seditque supra singulos eorum</dc:title>
+      <sctap:quotation>et apparuerunt illis dispertitae linguae tamquam ignis seditque supra singulos eorum</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 2:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act2_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et erit in novissimis diebus dicit Dominus effundam de Spiritu meo super omnem carnem et prophetabunt filii vestri et filiae vestrae et iuvenes vestri visiones videbunt et seniores vestri somnia somniabunt</dc:title>
+      <sctap:quotation>et erit in novissimis diebus dicit Dominus effundam de Spiritu meo super omnem carnem et prophetabunt filii vestri et filiae vestrae et iuvenes vestri visiones videbunt et seniores vestri somnia somniabunt</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 2:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act2_27">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -40,7 +84,18 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
       <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>33</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d14c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act4_12">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et non est in alio aliquo salus nec enim nomen aliud est sub caelo datum hominibus in quo oportet nos salvos fieri</dc:title>
+      <sctap:quotation>et non est in alio aliquo salus nec enim nomen aliud est sub caelo datum hominibus in quo oportet nos salvos fieri</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 4:12</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p1q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act4_32">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -62,7 +117,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
       <sctap:fromBiblicalChapter>5</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d8c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d8c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act5_39">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -76,6 +131,39 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act8_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>qui cum venissent oraverunt pro ipsis ut acciperent Spiritum Sanctum</dc:title>
+      <sctap:quotation>qui cum venissent oraverunt pro ipsis ut acciperent Spiritum Sanctum</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 8:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act8_17">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>tunc inponebant manus super illos et accipiebant Spiritum Sanctum</dc:title>
+      <sctap:quotation>tunc inponebant manus super illos et accipiebant Spiritum Sanctum</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 8:17</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act8_18">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>cum vidisset autem Simon quia per inpositionem manus apostolorum daretur Spiritus Sanctus obtulit eis pecuniam</dc:title>
+      <sctap:quotation>cum vidisset autem Simon quia per inpositionem manus apostolorum daretur Spiritus Sanctus obtulit eis pecuniam</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 8:18</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c3"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act10_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et videt caelum apertum et descendens vas quoddam velut linteum magnum quattuor initiis submitti de caelo in terram</dc:title>
@@ -87,6 +175,17 @@
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio123"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act15_20">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sed scribere ad eos ut abstineant se a contaminationibus simulacrorum et fornicatione et suffocatis et sanguine</dc:title>
+      <sctap:quotation>sed scribere ad eos ut abstineant se a contaminationibus simulacrorum et fornicatione et suffocatis et sanguine</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 15:20</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p2q5"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/act17_28">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>in ipso enim vivimus et movemur et sumus sicut et quidam vestrum poetarum dixerunt ipsius enim et genus sumus</dc:title>
@@ -96,8 +195,41 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
       <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d36c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio37"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio37"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act19_2">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixitque ad eos si Spiritum Sanctum accepistis credentes at illi ad eum sed neque si Spiritus Sanctus est audivimus</dc:title>
+      <sctap:quotation>dixitque ad eos si Spiritum Sanctum accepistis credentes at illi ad eum sed neque si Spiritus Sanctus est audivimus</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 19:2</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act19_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ille vero ait in quo ergo baptizati estis qui dixerunt in Iohannis baptismate</dc:title>
+      <sctap:quotation>ille vero ait in quo ergo baptizati estis qui dixerunt in Iohannis baptismate</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 19:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/act19_4">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit autem Paulus Iohannes baptizavit baptisma paenitentiae populum dicens in eum qui venturus esset post ipsum ut crederent hoc est in Iesum</dc:title>
+      <sctap:quotation>dixit autem Paulus Iohannes baptizavit baptisma paenitentiae populum dicens in eum qui venturus esset post ipsum ut crederent hoc est in Iesum</sctap:quotation>
+      <sctap:citation>Actus Apostolorum 19:4</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/act"/>
+      <sctap:fromBiblicalChapter>19</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
    </rdf:Description>
 </rdf:RDF>

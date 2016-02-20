@@ -18,9 +18,9 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d9c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d10c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d32c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d9c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d10c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d32c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor1_26">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -33,6 +33,17 @@
       <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_6">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>sapientiam autem loquimur inter perfectos sapientiam vero non huius saeculi neque principum huius saeculi qui destruuntur</dc:title>
+      <sctap:quotation>sapientiam autem loquimur inter perfectos sapientiam vero non huius saeculi neque principum huius saeculi qui destruuntur</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 2:6</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>quam nemo principum huius saeculi cognovit si enim cognovissent numquam Dominum gloriae crucifixissent</dc:title>
@@ -44,17 +55,6 @@
       <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q1"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_9">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>sed sicut scriptum est quod oculus non vidit nec auris audivit nec in cor hominis ascendit quae praeparavit Deus his qui diligunt illum</dc:title>
-      <sctap:quotation>sed sicut scriptum est quod oculus non vidit nec auris audivit nec in cor hominis ascendit quae praeparavit Deus his qui diligunt illum</sctap:quotation>
-      <sctap:citation>Epistula I ad Corinthios 2:9</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
-      <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d35c4"/>
-   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>quis enim scit hominum quae sint hominis nisi spiritus hominis qui in ipso est ita et quae Dei sunt nemo cognovit nisi Spiritus Dei</dc:title>
@@ -64,8 +64,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>2</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d18c4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c12"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d18c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d24c12"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor2_12">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -89,6 +89,18 @@
       <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio7"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor3_6">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ego plantavi Apollo rigavit sed Deus incrementum dedit</dc:title>
+      <sctap:quotation>ego plantavi Apollo rigavit sed Deus incrementum dedit</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 3:6</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor3_8">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>qui plantat autem et qui rigat unum sunt unusquisque autem propriam mercedem accipiet secundum suum laborem</dc:title>
@@ -98,7 +110,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>8</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d31c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor3_22">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -109,7 +121,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>3</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>22</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d1c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor4_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -132,18 +144,18 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c3"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor6_17">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor6_16">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>qui autem adheret Domino unus spiritus est</dc:title>
-      <sctap:quotation>qui autem adheret Domino unus spiritus est</sctap:quotation>
-      <sctap:citation>Epistula I ad Corinthios 6:17</sctap:citation>
+      <dc:title>an nescitis quoniam qui adheret meretrici unum corpus efficitur erunt enim inquit duo in carne una</dc:title>
+      <sctap:quotation>an nescitis quoniam qui adheret meretrici unum corpus efficitur erunt enim inquit duo in carne una</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 6:16</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>6</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>17</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c4"/>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q50"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor7_25">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -154,7 +166,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d41c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor8_1">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -165,7 +177,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>1</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d28c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d28c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor8_3">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -198,8 +210,9 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d39c4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d39c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d39c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d23c3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor10_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -245,8 +258,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>11</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>7</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d16c3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d24c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d16c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d24c7"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor11_28">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -259,17 +272,6 @@
       <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q14"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_3">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>ideo notum vobis facio quod nemo in Spiritu Dei loquens dicit anathema Iesu et nemo potest dicere Dominus Iesus nisi in Spiritu Sancto</dc:title>
-      <sctap:quotation>ideo notum vobis facio quod nemo in Spiritu Dei loquens dicit anathema Iesu et nemo potest dicere Dominus Iesus nisi in Spiritu Sancto</sctap:quotation>
-      <sctap:citation>Epistula I ad Corinthios 12:3</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
-      <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d46c7"/>
-   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_6">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et divisiones operationum sunt idem vero Deus qui operatur omnia in omnibus</dc:title>
@@ -280,7 +282,7 @@
       <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d41c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -291,7 +293,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor12_13">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -302,7 +305,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>12</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d14c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_1">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -316,7 +319,7 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d17-q2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d17c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c4"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_2">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -329,6 +332,18 @@
       <sctap:fromBiblicalVerse>2</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_3">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et si distribuero in cibos pauperum omnes facultates meas et si tradidero corpus meum ut ardeam caritatem autem non habuero nihil mihi prodest</dc:title>
+      <sctap:quotation>et si distribuero in cibos pauperum omnes facultates meas et si tradidero corpus meum ut ardeam caritatem autem non habuero nihil mihi prodest</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 13:3</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
+      <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d1p1q2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_4">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -361,7 +376,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d37c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d37c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_10">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -383,13 +398,16 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>13</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q22"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d19c4"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b1d31c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d1c6"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d23c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d19c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d1c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d23c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor13_13">
@@ -417,19 +435,19 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q17"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d26c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d27c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d26c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d27c7"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_33">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_16">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>nolite seduci corrumpunt mores bonos conloquia mala</dc:title>
-      <sctap:quotation>nolite seduci corrumpunt mores bonos conloquia mala</sctap:quotation>
-      <sctap:citation>Epistula I ad Corinthios 15:33</sctap:citation>
+      <dc:title>nam si mortui non resurgunt neque Christus resurrexit</dc:title>
+      <sctap:quotation>nam si mortui non resurgunt neque Christus resurrexit</sctap:quotation>
+      <sctap:citation>Epistula I ad Corinthios 15:16</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>33</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b11d1c2"/>
+      <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_44">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -440,7 +458,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>44</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_45">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -451,7 +469,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>45</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d19c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Icor15_46">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -462,6 +480,6 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/Icor"/>
       <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>46</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-b2d20c6"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d20c6"/>
    </rdf:Description>
 </rdf:RDF>

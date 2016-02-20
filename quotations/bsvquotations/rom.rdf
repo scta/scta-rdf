@@ -52,6 +52,7 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d2-qun"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamabbreviatio/item/awa-l1d2q1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d3c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio25"/>
@@ -171,6 +172,10 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c6"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
@@ -276,6 +281,7 @@
       <sctap:fromBiblicalVerse>9</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_10">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -286,7 +292,6 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>10</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d19c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d29c4"/>
@@ -302,7 +307,6 @@
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c5"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d34c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_14">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -335,6 +339,7 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d47c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio83"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_21">
@@ -369,6 +374,7 @@
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>28</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio98"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_29">
@@ -383,16 +389,16 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c4"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_32">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_38">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>qui etiam Filio suo non pepercit sed pro nobis omnibus tradidit illum quomodo non etiam cum illo omnia nobis donabit</dc:title>
-      <sctap:quotation>qui etiam Filio suo non pepercit sed pro nobis omnibus tradidit illum quomodo non etiam cum illo omnia nobis donabit</sctap:quotation>
-      <sctap:citation>Epistula ad Romanos 8:32</sctap:citation>
+      <dc:title>certus sum enim quia neque mors neque vita neque angeli neque principatus neque instantia neque futura neque fortitudines</dc:title>
+      <sctap:quotation>certus sum enim quia neque mors neque vita neque angeli neque principatus neque instantia neque futura neque fortitudines</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 8:38</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>32</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c14"/>
+      <sctap:fromBiblicalVerse>38</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d17c6"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -403,17 +409,6 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
       <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>11</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_12">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>non ex operibus sed ex vocante dictum est ei quia maior serviet minori</dc:title>
-      <sctap:quotation>non ex operibus sed ex vocante dictum est ei quia maior serviet minori</sctap:quotation>
-      <sctap:citation>Epistula ad Romanos 9:12</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
-      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>12</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_13">
@@ -451,7 +446,6 @@
       <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>18</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d40c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d41c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_19">
@@ -467,7 +461,7 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d42c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d45c5"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d46c1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom9_21">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -577,7 +571,6 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c5"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d29c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c3"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio37"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio68"/>
    </rdf:Description>
@@ -637,6 +630,17 @@
       <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom15_25">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>nunc igitur proficiscar in Hierusalem ministrare sanctis</dc:title>
+      <sctap:quotation>nunc igitur proficiscar in Hierusalem ministrare sanctis</sctap:quotation>
+      <sctap:citation>Epistula ad Romanos 15:25</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
+      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom16_27">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
