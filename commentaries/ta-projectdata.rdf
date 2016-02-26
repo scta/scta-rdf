@@ -17696,9 +17696,169 @@
       <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/aquinasscriptum/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/aquinasscriptum/distinctio/ta-l3d3"/>
+      <sctap:editedBy/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ta-l3d3q1</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ambrose"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Ammbrose"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/lc"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/aquinasscriptum/title/ta-l3d3q1-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/lc"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/aquinasscriptum/title/ta-l3d3q1-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/sap"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/aquinasscriptum/title/ta-l3d3q1-3"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc1_15"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/aquinasscriptum/quote/ta-l3d3q1-14"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/sap1_4"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/aquinasscriptum/quote/ta-l3d3q1-26"/>
+      <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
+      <sctap:elementText>Anselmus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Ambrose"/>
+      <sctap:elementText>Ambrosius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/name/ta-l3d3q1-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Ammbrose"/>
+      <sctap:elementText>Ambrosius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/title/ta-l3d3q1-1">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/lc"/>
+      <sctap:elementText>Lucae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/title/ta-l3d3q1-2">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/lc"/>
+      <sctap:elementText>Luc.</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/title/ta-l3d3q1-3">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/sap"/>
+      <sctap:elementText>sapientiae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/quote/ta-l3d3q1-14">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/lc1_15"/>
+      <sctap:elementText>spiritu sancto replebitur adhuc ex utero matris suae</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/quote/ta-l3d3q1-26">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/sap1_4"/>
+      <sctap:elementText>in malevolam animam non introibit sapientia, nec habitabit in corpore subdito peccatis</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/aquinasscriptum/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1">
+      <dc:title>Librum III, Distinctio 3, Quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Aquinas"/>
+      <role:EDT/>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/aquinasscriptum/transcription/ta-l3d3q1/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/aquinasscriptum/ta-l3d3q1/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/aquinasscriptum/item/ta-l3d3q2">
       <dc:title>Super Sent., lib. 3 d. 3 q. 2</dc:title>

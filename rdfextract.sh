@@ -1,19 +1,30 @@
-#1 /bin/bash
+# /bin/bash
 echo "Creating projectfiles metadata";
+projectfilesbase="/Users/JCWitt/Desktop/scta-projectfiles/"
 base="/Users/JCWitt/Desktop/scta/";
 
+echo "getting projectfiles version for $projectfilesbase"
 
-for f in $base/projectfiles/*.xml
+cd $projectfilesbase
+projectfilesversion="$( git describe --tags --always)"
+cd $base
+echo $projectfilesversion
+
+for f in $projectfilesbase/*.xml
 do
 
 	filename=$(basename "$f");
 	extension="${filename##*.}";
 	filename="${filename%.*}";
 	echo "Creating metadata assertion for $filename"
-	saxon "-warnings:silent -s:$base/projectfiles/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/commentaries/$filename.rdf";
+	saxon "-warnings:silent -s:$projectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/commentaries/$filename.rdf";
 done
-
 echo "Projectfiles meta data created";
+
+
+echo "Begin top level archive collection creation"
+saxon "-warnings:silent -s:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "-xsl:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "-o:$base/scta.rdf" "projectfilesversion=$projectfilesversion";
+
 
 #echo "Being quotation extraction from auctoritates"
 #saxon "-s:$base/xsl_stylesheets/rdf_auctoritatesquotes_conversion.xsl" "-xsl:$base/xsl_stylesheets/rdf_auctoritatesquotes_conversion.xsl" "-o:$base/quotations/auctoritatesquotations.rdf";

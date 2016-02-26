@@ -840,10 +840,35 @@
                     <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
                     <xsl:for-each select="./folio">
                       <xsl:variable name="folionumber" select="./text()"/>
-                      <sctap:hasFolio><xsl:value-of select="$folionumber"></xsl:value-of></sctap:hasFolio>
+                      <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $folionumber)"/>
+                      <sctap:hasFolioSide rdf:resource="{$foliosideurl}"/>
                       <xsl:choose>
                         <xsl:when test="./@canvasslug">
-                          
+                          <xsl:variable name="canvas-slug" select="./@canvasslug"></xsl:variable>
+                          <xsl:variable name="canvasid" select="concat($canvasBase, $canvas-slug)"></xsl:variable>
+                          <sctap:isOnCanvas rdf:resource="{$canvasid}"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:variable name="canvas-slug" select="concat($wit-initial, $folionumber)"></xsl:variable>
+                          <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:for-each>
+                    
+                    <xsl:if test="document($transcription-text-path)">
+                        <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}"/>
+                    </xsl:if>
+                   <!-- could include isPartOf to manuscript identifier
+                       could also inclue folio numbers if these are included in main project file -->
+                   </rdf:Description>
+                  
+                  <xsl:for-each select="folio">
+                    <xsl:variable name="folionumber" select="./text()"/>
+                    <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $folionumber)"/>
+                    <rdf:Description rdf:about="{$foliosideurl}">
+                      <dc:title><xsl:value-of select="$folionumber"/></dc:title>
+                      <xsl:choose>
+                        <xsl:when test="./@canvasslug">
                           <xsl:variable name="canvas-slug" select="./@canvasslug"></xsl:variable>
                           <xsl:variable name="canvasid" select="concat($canvasBase, $canvas-slug)"></xsl:variable>
                           <sctap:isOnCanvas rdf:resource="{$canvasid}"/>
@@ -854,17 +879,17 @@
                         </xsl:otherwise>
                       </xsl:choose>
                       
-                      
-                    </xsl:for-each>
-                      
+                      <!-- selection of next and previous is going to have erros because project file lists a folio twice when one item ends on a folio and then begins on another -->
+                      <xsl:variable name="nextFolionumber" select="./following-sibling::folio[1]/text()"/>
+                      <xsl:variable name="nextFoliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $nextFolionumber)"/>
+                      <sctap:nextFolioSide rdf:resource="{$nextFoliosideurl}"/>
+                      <xsl:variable name="previousFolionumber" select="./preceding-sibling::folio[1]/text()"/>
+                      <xsl:variable name="previousFoliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $previousFolionumber)"/>
+                      <sctap:previousFolioSide rdf:resource="{$previousFoliosideurl}"/>
+                    </rdf:Description>
                     
                     
-                    <xsl:if test="document($transcription-text-path)">
-                        <sctap:hasTranscription rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}"/>
-                    </xsl:if>
-                   <!-- could include isPartOf to manuscript identifier
-                       could also inclue folio numbers if these are included in main project file -->
-                   </rdf:Description>
+                  </xsl:for-each>
                     
                     
                     
@@ -931,7 +956,27 @@
                                         <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
                                             <xsl:variable name="imagefilename" select="./preceding-sibling::tei:graphic/@url"/>
                                             <xsl:variable name="canvasname" select="substring-before($imagefilename, '.')"/>
-                                            <xsl:variable name="ulx" select="./@ulx"/>
+                                          <!-- this is not a good way to do this; this whole section needs to be written -->
+                                          <!-- right now I'm trying to just go the folio number without the preceding sigla -->
+                                          <!-- not this will fail if there is Sigla that reads Ar15r; the first "r" will not be removed and the result will be r15r -->
+                                            <xsl:variable name="folioname" select="translate($canvasname, 'ABCDEFGHIJKLMNOPQRSTUVabcdefghijklmnopqstuwxyz', '') "/>
+                                          <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $folioname)"/>
+                                          
+                                          <xsl:variable name="canvasid">
+                                          <xsl:choose>
+                                            <xsl:when test="./ancestor::tei:surface/@select">
+                                              <xsl:variable name="witessid" select="translate(./ancestor::tei:surface/@ana, '#', '')"></xsl:variable>
+                                              <xsl:variable name="canvasbase" select="//witness[@xml:id=$witessid]/@xml:base"></xsl:variable>
+                                              <xsl:variable name="canvas-slug" select="./ancestor::tei:surface/@select"></xsl:variable>
+                                              <xsl:value-of select="concat($canvasBase, $canvas-slug)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                              <xsl:value-of select="concat('http://scta.info/iiif/', $commentaryslug, '-', $wit-slug, '/canvas/', $canvasname)"/>
+                                            </xsl:otherwise>
+                                          </xsl:choose>
+                                          </xsl:variable>
+                                            
+                                          <xsl:variable name="ulx" select="./@ulx"/>
                                             <xsl:variable name="uly" select="./@uly"/>
                                             <xsl:variable name="lrx" select="./@lrx"/>
                                             <xsl:variable name="lry" select="./@lry"/>
@@ -943,7 +988,8 @@
                                                 <rdf:type rdf:resource="http://scta.info/resource/zone"/>
                                                 <!-- problem here with slug since iiif slug is prefaced with pg or pp etc -->
                                                 <sctap:isZoneOf rdf:resource="http://scta.info/text/{$cid}/transcription/{$wit-slug}_{$fs}/paragraph/{$pid}"/>
-                                                <sctap:isZoneOn rdf:resource="http://scta.info/iiif/{$commentaryslug}-{$wit-slug}/canvas/{$canvasname}"/>
+                                                <sctap:isZoneOn rdf:resource="{$canvasid}"/>
+                                                <sctap:hasFolioSide rdf:resource="{$foliosideurl}"/>
                                                 <sctap:ulx><xsl:value-of select="$ulx"/></sctap:ulx>
                                                 <sctap:uly><xsl:value-of select="$uly"/></sctap:uly>
                                                 <sctap:lrx><xsl:value-of select="$lrx"/></sctap:lrx>
