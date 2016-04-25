@@ -466,7 +466,7 @@
               <!-- BEGIN Div resource creation -->
               
               <xsl:for-each  select="document($extraction-file)//tei:body/tei:div//tei:div">
-                <xsl:variable name="div-number"><xsl:number count="./tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
+                <xsl:variable name="div-number"><xsl:number count="tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
                 <!-- <xsl:if test="./@xml:id"> -->
                   <xsl:variable name="divisionID">
                  <xsl:choose>
@@ -594,7 +594,7 @@
                     <sctap:previous rdf:resource="http://scta.info/text/{$cid}/paragraph/{$previouspid}"/>
                     
                     <!-- cts urn creation for paragraphs -->
-                    <xsl:variable name="div-number"><xsl:number count="./tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
+                    <xsl:variable name="div-number"><xsl:number count="tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
                     <xsl:variable name="paragraph-dtsurn">
                       <xsl:choose>
                         <xsl:when test="document($extraction-file)//tei:body/tei:div//tei:div">
