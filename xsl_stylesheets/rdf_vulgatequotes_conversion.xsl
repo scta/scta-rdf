@@ -2,6 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sctar="http://scta.info/resource/" xmlns:sctap="http://scta.info/property/">
     
+    <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
+    
     <xsl:template match="/">
         <xsl:variable name="workid" select="/romanliturgy/@elibro"/>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -32,7 +34,7 @@
         <xsl:variable name="versenumber" select="./@num"/>
         <xsl:variable name="verse" select="."/>
         <xsl:variable name="verseid" select="concat($workid, $chapterNumber, '_', $versenumber)"/>
-        <xsl:for-each select="distinct-values(collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//rdf:Description[rdf:type[@rdf:resource='http://scta.info/resource/item']]//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $verseid)])">
+        <xsl:for-each select="distinct-values(collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//rdf:Description[rdf:type[@rdf:resource='http://scta.info/resource/item']]//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $verseid)])">
         <!-- <xsl:for-each select="distinct-values(document('/Users/JCWitt/Desktop/scta/commentaries/pp-projectdata.rdf')//rdf:Description[rdf:type[@rdf:resource='http://scta.info/resource/item']]//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $verseid)])"> -->
             <rdf:Description rdf:about="http://scta.info/resource/quotation/{$verseid}">
                 <rdf:type rdf:resource="http://scta.info/resource/quotation"/> 
@@ -43,7 +45,7 @@
                 <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/{$workid}"/>
                 <sctap:fromBiblicalChapter><xsl:value-of select="$chapterNumber"/></sctap:fromBiblicalChapter>
                 <sctap:fromBiblicalVerse><xsl:value-of select="$versenumber"/></sctap:fromBiblicalVerse>
-                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $verseid)]">
+                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $verseid)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:quotedBy rdf:resource="{$itemid}"/>
                 </xsl:for-each>

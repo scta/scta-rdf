@@ -109,8 +109,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>1r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/1r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra1r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/1r">
+      <dc:title>1r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra1r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/1r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq2">
       <dc:title>Librum I, Prologus, Quaestio 2</dc:title>
@@ -136,8 +143,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>7v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/7v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra7v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/7v">
+      <dc:title>7v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra7v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/7v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq3">
       <dc:title>Librum I, Prologus, Quaestio 3</dc:title>
@@ -163,8 +177,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>12r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/12r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra12r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/12r">
+      <dc:title>12r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra12r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/12r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq4">
       <dc:title>Librum I, Prologus, Quaestio 4</dc:title>
@@ -190,8 +211,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>15v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/15v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra15v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/15v">
+      <dc:title>15v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra15v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/15v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1prolq5">
       <dc:title>Librum I, Prologus, Quaestio 5</dc:title>
@@ -217,8 +245,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>19r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/19r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra19r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/19r">
+      <dc:title>19r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra19r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/19r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1d1q1">
       <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
@@ -244,8 +279,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>24v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/24v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra24v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/24v">
+      <dc:title>24v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra24v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/24v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1d1q2">
       <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
@@ -271,8 +313,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>27v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/27v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra27v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/27v">
+      <dc:title>27v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra27v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/27v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/riminicommentary/item/gdr-l1d1q3">
       <dc:title>Librum I, Distinctio 1, Quaestio 3</dc:title>
@@ -297,8 +346,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Rimini"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf15890</sctap:hasSlug>
-      <sctap:hasFolio>32v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/32v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra32v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/gdr-bnf15890/32v">
+      <dc:title>32v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/gdr-bnf15890/canvas/Ra32v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/gdr-bnf15890/list/32v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/gdr-bnf15890/"/>
    </rdf:Description>
 </rdf:RDF>
 

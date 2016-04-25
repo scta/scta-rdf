@@ -388,6 +388,7 @@
       <sctap:fromBiblicalVerse>29</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d35c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d4q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom8_38">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -619,17 +620,6 @@
       <sctap:fromBiblicalChapter>14</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/fitzralphcommentary/item/rfr-quaestio1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/rom15_4">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>quaecumque enim scripta sunt ad nostram doctrinam scripta sunt ut per patientiam et consolationem scripturarum spem habeamus</dc:title>
-      <sctap:quotation>quaecumque enim scripta sunt ad nostram doctrinam scripta sunt ut per patientiam et consolationem scripturarum spem habeamus</sctap:quotation>
-      <sctap:citation>Epistula ad Romanos 15:4</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/rom"/>
-      <sctap:fromBiblicalChapter>15</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/rom15_25">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

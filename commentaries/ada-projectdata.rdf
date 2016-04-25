@@ -142,8 +142,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>4r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/4r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T4r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/4r">
+      <dc:title>4r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T4r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/4r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp1q2">
       <dc:title>Librum I, Prologus, Pars 1, Quaestio 2</dc:title>
@@ -169,8 +176,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>5v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/5v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T5v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/5v">
+      <dc:title>5v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T5v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/5v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp1q3">
       <dc:title>Librum I, Prologus,  Pars 1, Quaestio 3</dc:title>
@@ -196,8 +210,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
-      <sctap:hasFolio>6r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-/6r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/6r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-/6r">
+      <dc:title>6r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/6r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-/list/6r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp2q1">
       <dc:title>Librum I, Prologus, Pars 2, Quaestio 1</dc:title>
@@ -223,8 +244,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>7r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/7r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T7r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/7r">
+      <dc:title>7r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T7r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/7r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2">
       <dc:title>Librum I, Prologus, Pars 2, Quaestio 2</dc:title>
@@ -240,18 +268,248 @@
       <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anconacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/distinctio/ada-l1prol"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ada-l1prolp2q2</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anconacommentary/transcription/ada-l1prolp2q2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-2"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Icor"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-4"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/Icor"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-6"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-8"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/anconacommentary/quote/pp2q2QAqmppis"/>
+      <sctap:references rdf:resource="http://scta.info/resource/quotation/Icor12_8 #Icor12_9"/>
+      <sctap:hasRef rdf:resource="http://scta.info/text/anconacommentary/ref/ada-l1prolp2q2-3"/>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anconacommentary/transcription/troyes_ada-l1prolp2q2"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/anconacommentary/witness/troyes_ada-l1prolp2q2"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/anconacommentary/transcription/troyes_ada-l1prolp2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e107">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e117">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e203">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e231">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e236">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.3.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e358">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.3.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e419">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.3.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e511">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.4</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d3e640">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i5.1.5</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-3">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>Apostolum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-4">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:elementText>Philosophum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>Gregorium</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-6">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Paul"/>
+      <sctap:elementText>Apostolus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>Beatum Gregorius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q2-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>Ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-2">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>De Trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-3">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Icor"/>
+      <sctap:elementText>Ia 
+            Ad Corinthios</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-4">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>Ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-5">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Ethics"/>
+      <sctap:elementText>Ethicorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-6">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Icor"/>
+      <sctap:elementText>prima Ad Corinthios</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-7">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deTrinitate"/>
+      <sctap:elementText>De Trinitate</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q2-8">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/PosteriorAnalytics"/>
+      <sctap:elementText>Posteriorum</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/quote/pp2q2QAqmppis">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b"/>
+      <sctap:elementText>"quod multi pollent 
+              ipsa fide qui non pollent ista scientia."</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/ref/ada-l1prolp2q2-3">
+      <rdf:type rdf:resource="http://scta.info/resource/refElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Icor12_8 #Icor12_9"/>
+      <sctap:elementText>Apostolum Ia 
+            Ad Corinthios XII,</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/witness/troyes_ada-l1prolp2q2">
       <dc:title>ada-l1prolp2q2 [Troyes, Bibl. Munc. 296]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>8r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/8r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T8r"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/anconacommentary/transcription/troyes_ada-l1prolp2q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/8r">
+      <dc:title>8r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T8r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/8r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/transcription/troyes_ada-l1prolp2q2">
+      <dc:title>Librum 1, Prologus, Pars II, quaestio 2 [Troyes Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/anconacommentary/ada-l1prolp2q2/transcription/troyes"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3">
       <dc:title>Librum I, Prologus,  Pars 2, Quaestio 3</dc:title>
@@ -267,18 +525,136 @@
       <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/anconacommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/distinctio/ada-l1prol"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ada-l1prolp2q3</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anconacommentary/transcription/ada-l1prolp2q3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-5"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Iio"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-7"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/JohnDamascenus"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-8"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q3-3"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/work/IIpetr"/>
+      <sctap:hasTitle rdf:resource="http://scta.info/text/anconacommentary/title/ada-l1prolp2q3-4"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/lc10_23"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/anconacommentary/quote/p2q3QBboqqvv"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio1_1 #Iio1_2"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/anconacommentary/quote/p2q3QBaevvan"/>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/anconacommentary/transcription/troyes_ada-l1prolp2q3"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/anconacommentary/witness/_ada-l1prolp2q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e107">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e117">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e177">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e182">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1.2.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e259">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1.2.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e335">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1.2.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/division/d5e634">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.anconacommentary:1.1.i6.1.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-5">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>Augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-7">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Iio"/>
+      <sctap:elementText>Ioannes</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/name/ada-l1prolp2q3-8">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/JohnDamascenus"/>
+      <sctap:elementText>Damascenus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q3-3">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/deAnima"/>
+      <sctap:elementText>De anima</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/title/ada-l1prolp2q3-4">
+      <rdf:type rdf:resource="http://scta.info/resource/titleElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/IIpetr"/>
+      <sctap:elementText>II Petri</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/quote/p2q3QBboqqvv">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/lc10_23"/>
+      <sctap:elementText>"beati
+          oculi qui vident quae vos videtis"</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/anconacommentary/quote/p2q3QBaevvan">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/Iio1_1 #Iio1_2"/>
+      <sctap:elementText>"audivimus et vidimus oculis nostris 
+              et manus nostrae pertractaverunt de verbo vitae", hoc 
+              supple, "annuntiamus nobis".</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/anconacommentary/paragraph/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/witness/_ada-l1prolp2q3">
       <dc:title>ada-l1prolp2q3 []</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
-      <sctap:hasFolio>9r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-/9r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/9r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-/9r">
+      <dc:title>9r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/9r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-/list/9r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp3q1">
       <dc:title>Librum I, Prologus,  Pars 3, Quaestio 1</dc:title>
@@ -304,8 +680,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
-      <sctap:hasFolio>10r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-/10r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/10r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-/10r">
+      <dc:title>10r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/10r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-/list/10r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp3q2">
       <dc:title>Librum I, Prologus,  Pars 3, Quaestio 2</dc:title>
@@ -331,8 +714,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
-      <sctap:hasFolio>11v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-/11v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/11v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-/11v">
+      <dc:title>11v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/11v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-/list/11v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp3q3">
       <dc:title>Librum I, Prologus,  Pars 3, Quaestio 3</dc:title>
@@ -358,8 +748,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
-      <sctap:hasFolio>12r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-/12r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/12r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-/12r">
+      <dc:title>12r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/12r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-/list/12r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp4q1">
       <dc:title>Librum I, Prologus,  Pars 4, Quaestio 1</dc:title>
@@ -385,8 +782,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
-      <sctap:hasFolio>13r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-/13r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/13r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-/13r">
+      <dc:title>13r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-/canvas/13r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-/list/13r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp4q2">
       <dc:title>Librum I, Prologus,  Pars 4, Quaestio 2</dc:title>
@@ -412,8 +816,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>15v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/15v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T15v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/15v">
+      <dc:title>15v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T15v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/15v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1prolp4q3">
       <dc:title>Librum I, Prologus,  Pars 4, Quaestio 3</dc:title>
@@ -439,8 +850,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>16v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/16v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T16v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/16v">
+      <dc:title>16v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T16v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/16v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1d1p1q1">
       <dc:title>Librum I, Distinctio 1, Pars 1, Quaestio 1</dc:title>
@@ -466,8 +884,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>18v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/18v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T18v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/18v">
+      <dc:title>18v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T18v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/18v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1d1p1q2">
       <dc:title>Librum I, Distinctio 1, Pars 1, Quaestio 2</dc:title>
@@ -493,8 +918,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>19v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/19v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T19v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/19v">
+      <dc:title>19v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T19v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/19v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/anconacommentary/item/ada-l1d1p1q2">
       <dc:title>Librum I, Distinctio 1, Pars 1, Quaestio 3</dc:title>
@@ -519,8 +951,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>troyes</sctap:hasSlug>
-      <sctap:hasFolio>20v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/20v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T20v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ada-troyes/20v">
+      <dc:title>20v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ada-troyes/canvas/T20v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ada-troyes/list/20v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ada-troyes/"/>
    </rdf:Description>
 </rdf:RDF>
 

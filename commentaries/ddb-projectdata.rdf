@@ -1018,12 +1018,24 @@
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1princI"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/ddbrugescommentary/witness/erfurt_ddb-l1princI"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1princI"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/witness/erfurt_ddb-l1princI">
       <dc:title>ddb-l1princI [Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1princI"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1princI">
+      <dc:title>Librum I, Principium I [Erfurt Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1princI"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/ddbrugescommentary/ddb-l1princI/transcription/erfurt"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq1">
       <dc:title>Librum I, Prologus, Quaestio 1</dc:title>
@@ -1043,12 +1055,24 @@
       <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq1"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/ddbrugescommentary/witness/erfurt_ddb-l1prolq1"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/witness/erfurt_ddb-l1prolq1">
       <dc:title>ddb-l1prolq1 [Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1prolq1">
+      <dc:title>Librum I, Prologus, Quaestio 1 [Erfurt Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq1"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/ddbrugescommentary/ddb-l1prolq1/transcription/erfurt"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq2">
       <dc:title>Librum I, Prologus, Quaestio 2</dc:title>
@@ -1064,16 +1088,73 @@
       <sctap:level>4</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/ddbrugescommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/ddbrugescommentary/distinctio/ddb-l1prol"/>
+      <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/ddb-l1prolq2</sctap:gitRepository>
-      <sctap:status>Not Started</sctap:status>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/ddbrugescommentary/name/ddb-l1prolq2-1"/>
+      <sctap:mentions rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:hasName rdf:resource="http://scta.info/text/ddbrugescommentary/name/ddb-l1prolq2-2"/>
+      <sctap:quotes rdf:resource="http://scta.info/resource/quotation/act10_9"/>
+      <sctap:hasQuote rdf:resource="http://scta.info/text/ddbrugescommentary/quote/ddb-l1prolq2-1"/>
+      <sctap:status>In Progress</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/ddbrugescommentary/witness/erfurt_ddb-l1prolq2"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1prolq2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/name/ddb-l1prolq2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/GregoryGreat"/>
+      <sctap:elementText>beatus 
+            gregorius</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/name/ddb-l1prolq2-2">
+      <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
+      <sctap:elementText>beatus augustinus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/quote/ddb-l1prolq2-1">
+      <rdf:type rdf:resource="http://scta.info/resource/quoteElement"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/act10_9"/>
+      <sctap:elementText>Ascendit petrus ad superiora 
+          domus</sctap:elementText>
+      <sctap:isPartOfItem rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq2"/>
+      <sctap:isPartOfParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/paragraph/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2">
+      <dc:title>Librum I, Principium I [Erfurt Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq2"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2/paragraph/"/>
+      <sctap:hasParagraph rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/ddb-l1prolq2/paragraph/"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/ddbrugescommentary/ddb-l1prolq2/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/witness/erfurt_ddb-l1prolq2">
       <dc:title>ddb-l1prolq2 [Codex Amplonianus", UB Erfurt, Dep. Erf. CA. 2° 131.]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
+      <sctap:hasTranscription rdf:resource="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1prolq2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/transcription/erfurt_ddb-l1prolq2">
+      <dc:title>Librum I, Prologus, Questio 2 [Erfurt Transcription]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
+      <role:EDT>Jeffrey C. Witt</role:EDT>
+      <sctap:status>In Progress</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/ddbrugescommentary/item/ddb-l1prolq2"/>
+      <sctap:transcriptionType>Documentary</sctap:transcriptionType>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/ddbrugescommentary/ddb-l1prolq2/transcription/erfurt"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d1q1">
       <dc:title>Librum I, Distinctio 1, Quaestio 1</dc:title>
@@ -1099,8 +1180,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>17v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/17v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E17v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/17v">
+      <dc:title>17v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E17v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/17v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d1q2">
       <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
@@ -1126,8 +1214,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>20r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/20r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E20r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/20r">
+      <dc:title>20r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E20r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/20r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d2q1">
       <dc:title>Librum I, Distinctio 2, Quaestio 1</dc:title>
@@ -1153,8 +1248,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>21r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/21r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E21r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/21r">
+      <dc:title>21r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E21r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/21r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d2q2">
       <dc:title>Librum I, Distinctio 2, Quaestio 2</dc:title>
@@ -1180,8 +1282,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>22v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/22v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E22v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/22v">
+      <dc:title>22v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E22v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/22v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d3q1">
       <dc:title>Librum I, Distinctio 3, Quaestio 1</dc:title>
@@ -1207,8 +1316,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>23r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/23r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E23r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/23r">
+      <dc:title>23r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E23r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/23r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d3q2">
       <dc:title>Librum I, Distinctio 3, Quaestio 2</dc:title>
@@ -1234,8 +1350,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>23v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/23v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E23v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/23v">
+      <dc:title>23v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E23v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/23v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d3q3">
       <dc:title>Librum I, Distinctio 3, Quaestio 3</dc:title>
@@ -1261,8 +1384,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>28v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/28v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E28v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/28v">
+      <dc:title>28v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E28v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/28v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d4q1">
       <dc:title>Librum I, Distinctio 4, Quaestio 1</dc:title>
@@ -1288,8 +1418,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>29r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/29r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E29r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/29r">
+      <dc:title>29r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E29r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/29r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d5q1">
       <dc:title>Librum I, Distinctio 5, Quaestio 1</dc:title>
@@ -1315,8 +1452,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>29v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/29v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E29v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/29v">
+      <dc:title>29v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E29v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/29v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d5q2">
       <dc:title>Librum I, Distinctio 5, Quaestio 2</dc:title>
@@ -1342,8 +1486,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>29v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/29v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E29v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/29v">
+      <dc:title>29v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E29v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/29v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d5q3">
       <dc:title>Librum I, Distinctio 5, Quaestio 3</dc:title>
@@ -1369,8 +1520,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>30v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/30v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E30v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/30v">
+      <dc:title>30v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E30v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/30v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d6q1">
       <dc:title>Librum I, Distinctio 6, Quaestio 1</dc:title>
@@ -1396,8 +1554,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>30v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/30v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E30v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/30v">
+      <dc:title>30v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E30v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/30v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d7q1">
       <dc:title>Librum I, Distinctio 7, Quaestio 1</dc:title>
@@ -1423,8 +1588,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>31v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/31v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E31v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/31v">
+      <dc:title>31v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E31v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/31v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d7q2">
       <dc:title>Librum I, Distinctio 7, Quaestio 2</dc:title>
@@ -1450,8 +1622,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>33r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/33r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E33r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/33r">
+      <dc:title>33r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E33r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/33r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d8q1">
       <dc:title>Librum I, Distinctio 8, Quaestio 1</dc:title>
@@ -1477,8 +1656,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>33v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/33v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E33v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/33v">
+      <dc:title>33v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E33v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/33v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d8q2">
       <dc:title>Librum I, Distinctio 8, Quaestio 2</dc:title>
@@ -1504,8 +1690,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>33v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/33v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E33v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/33v">
+      <dc:title>33v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E33v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/33v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d8q3">
       <dc:title>Librum I, Distinctio 8, Quaestio 3</dc:title>
@@ -1531,8 +1724,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>34v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/34v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E34v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/34v">
+      <dc:title>34v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E34v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/34v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d8q4">
       <dc:title>Librum I, Distinctio 8, Quaestio 4</dc:title>
@@ -1558,8 +1758,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>34v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/34v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E34v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/34v">
+      <dc:title>34v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E34v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/34v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d9q1">
       <dc:title>Librum I, Distinctio 9, Quaestio 1</dc:title>
@@ -1585,8 +1792,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>35v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/35v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E35v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/35v">
+      <dc:title>35v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E35v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/35v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d9q2">
       <dc:title>Librum I, Distinctio 9, Quaestio 2</dc:title>
@@ -1612,8 +1826,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>35v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/35v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E35v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/35v">
+      <dc:title>35v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E35v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/35v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d10q1">
       <dc:title>Librum I, Distinctio 10, Quaestio 1</dc:title>
@@ -1639,8 +1860,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>36r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/36r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E36r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/36r">
+      <dc:title>36r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E36r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/36r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d10q2">
       <dc:title>Librum I, Distinctio 10, Quaestio 2</dc:title>
@@ -1666,8 +1894,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>37r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/37r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E37r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/37r">
+      <dc:title>37r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E37r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/37r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d10q3">
       <dc:title>Librum I, Distinctio 10, Quaestio 3</dc:title>
@@ -1693,8 +1928,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>37r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/37r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E37r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/37r">
+      <dc:title>37r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E37r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/37r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d10q4">
       <dc:title>Librum I, Distinctio 10, Quaestio 4</dc:title>
@@ -1720,8 +1962,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d11q1">
       <dc:title>Librum I, Distinctio 11, Quaestio 1</dc:title>
@@ -1747,8 +1996,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>38v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/38v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E38v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/38v">
+      <dc:title>38v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E38v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/38v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d11q2">
       <dc:title>Librum I, Distinctio 11, Quaestio 2</dc:title>
@@ -1774,8 +2030,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>39v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/39v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E39v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/39v">
+      <dc:title>39v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E39v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/39v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d11q3">
       <dc:title>Librum I, Distinctio 11, Quaestio 3</dc:title>
@@ -1801,8 +2064,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d11q4">
       <dc:title>Librum I, Distinctio 11, Quaestio 4</dc:title>
@@ -1828,8 +2098,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>40r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/40r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E40r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/40r">
+      <dc:title>40r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E40r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/40r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d12q1">
       <dc:title>Librum I, Distinctio 12, Quaestio 1</dc:title>
@@ -1855,8 +2132,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>42r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/42r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E42r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/42r">
+      <dc:title>42r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E42r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/42r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d13q1">
       <dc:title>Librum I, Distinctio 13, Quaestio 1</dc:title>
@@ -1882,8 +2166,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>43v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/43v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E43v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/43v">
+      <dc:title>43v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E43v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/43v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d13q2">
       <dc:title>Librum I, Distinctio 13, Quaestio 2</dc:title>
@@ -1909,8 +2200,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>43v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/43v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E43v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/43v">
+      <dc:title>43v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E43v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/43v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d13q3">
       <dc:title>Librum I, Distinctio 13, Quaestio 3</dc:title>
@@ -1936,8 +2234,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>44r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/44r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E44r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/44r">
+      <dc:title>44r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E44r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/44r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d14q1">
       <dc:title>Librum I, Distinctio 14, Quaestio 1</dc:title>
@@ -1963,8 +2268,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>44r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/44r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E44r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/44r">
+      <dc:title>44r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E44r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/44r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d14q2">
       <dc:title>Librum I, Distinctio 14, Quaestio 2</dc:title>
@@ -1990,8 +2302,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>45r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/45r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E45r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/45r">
+      <dc:title>45r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E45r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/45r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d15q1">
       <dc:title>Librum I, Distinctio 15, Quaestio 1</dc:title>
@@ -2017,8 +2336,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>45r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/45r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E45r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/45r">
+      <dc:title>45r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E45r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/45r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d15q2">
       <dc:title>Librum I, Distinctio 15, Quaestio 2</dc:title>
@@ -2044,8 +2370,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>46r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/46r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E46r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/46r">
+      <dc:title>46r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E46r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/46r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d16q1">
       <dc:title>Librum I, Distinctio 16, Quaestio 1</dc:title>
@@ -2071,8 +2404,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>46v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/46v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E46v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/46v">
+      <dc:title>46v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E46v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/46v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d17p1q1">
       <dc:title>Librum I, Distinctio 17, Pars 1, Quaestio 1</dc:title>
@@ -2098,8 +2438,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>47v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/47v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E47v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/47v">
+      <dc:title>47v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E47v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/47v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d17p1q2">
       <dc:title>Librum I, Distinctio 17, Pars 1 Quaestio 2</dc:title>
@@ -2125,8 +2472,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>49v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/49v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E49v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/49v">
+      <dc:title>49v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E49v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/49v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d17p2q1">
       <dc:title>Librum I, Distinctio 17, Pars 2, Quaestio 1</dc:title>
@@ -2152,8 +2506,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>50r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/50r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E50r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/50r">
+      <dc:title>50r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E50r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/50r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d17p2q2">
       <dc:title>Librum I, Distinctio 17, Pars 2, Quaestio 2</dc:title>
@@ -2179,8 +2540,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>54r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/54r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E54r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/54r">
+      <dc:title>54r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E54r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/54r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d17p2q3">
       <dc:title>Librum I, Distinctio 17, Pars 2, Quaestio 3</dc:title>
@@ -2206,8 +2574,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d17p2q4">
       <dc:title>Librum I, Distinctio 17, Pars 2, Quaestio 4</dc:title>
@@ -2233,8 +2608,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d18et19q1">
       <dc:title>Librum I, Distinctio 18 et 19, Quaestio 1</dc:title>
@@ -2260,8 +2642,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>57r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/57r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E57r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/57r">
+      <dc:title>57r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E57r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/57r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d18et19q2">
       <dc:title>Librum I, Distinctio 18 et 19, Quaestio 2</dc:title>
@@ -2287,8 +2676,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>57v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/57v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E57v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/57v">
+      <dc:title>57v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E57v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/57v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d18et19q3">
       <dc:title>Librum I, Distinctio 18 et 19, Quaestio 3</dc:title>
@@ -2314,8 +2710,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d18et19q4">
       <dc:title>Librum I, Distinctio 18 et 19, Quaestio 4</dc:title>
@@ -2341,8 +2744,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>58r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/58r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E58r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/58r">
+      <dc:title>58r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E58r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/58r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d20et21q1">
       <dc:title>Librum I, Distinctio 20 et 21, Quaestio 1</dc:title>
@@ -2368,8 +2778,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>58v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/58v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E58v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/58v">
+      <dc:title>58v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E58v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/58v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d20et21q2">
       <dc:title>Librum I, Distinctio 20 et 21, Quaestio 2</dc:title>
@@ -2395,8 +2812,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>59r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/59r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E59r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/59r">
+      <dc:title>59r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E59r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/59r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d22et23q1">
       <dc:title>Librum I, Distinctio 22 et 23, Quaestio 1</dc:title>
@@ -2422,8 +2846,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>60r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/60r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E60r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/60r">
+      <dc:title>60r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E60r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/60r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d22et23q2">
       <dc:title>Librum I, Distinctio 22 et 23, Quaestio 2</dc:title>
@@ -2449,8 +2880,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d22et23q3">
       <dc:title>Librum I, Distinctio 22 et 23, Quaestio 3</dc:title>
@@ -2476,8 +2914,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d22et23q4">
       <dc:title>Librum I, Distinctio 22 et 23, Quaestio 4</dc:title>
@@ -2503,8 +2948,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d24q1">
       <dc:title>Librum I, Distinctio 24, Quaestio 1</dc:title>
@@ -2530,8 +2982,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>60v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/60v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E60v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/60v">
+      <dc:title>60v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E60v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/60v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d24q2">
       <dc:title>Librum I, Distinctio 24, Quaestio 2</dc:title>
@@ -2557,8 +3016,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>61v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/61v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E61v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/61v">
+      <dc:title>61v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E61v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/61v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d25q1">
       <dc:title>Librum I, Distinctio 25, Quaestio 1</dc:title>
@@ -2584,8 +3050,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>63r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/63r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E63r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/63r">
+      <dc:title>63r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E63r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/63r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d25q2">
       <dc:title>Librum I, Distinctio 25, Quaestio 2</dc:title>
@@ -2611,8 +3084,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>63r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/63r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E63r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/63r">
+      <dc:title>63r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E63r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/63r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d26q1">
       <dc:title>Librum I, Distinctio 26, Quaestio 1</dc:title>
@@ -2638,8 +3118,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>64r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/64r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E64r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/64r">
+      <dc:title>64r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E64r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/64r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d27q1">
       <dc:title>Librum I, Distinctio 27, Quaestio 1</dc:title>
@@ -2665,8 +3152,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>64r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/64r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E64r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/64r">
+      <dc:title>64r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E64r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/64r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d27q2">
       <dc:title>Librum I, Distinctio 27, Quaestio 2</dc:title>
@@ -2692,8 +3186,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>65v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/65v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E65v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/65v">
+      <dc:title>65v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E65v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/65v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d28q1">
       <dc:title>Librum I, Distinctio 28, Quaestio 1</dc:title>
@@ -2719,8 +3220,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>67r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/67r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E67r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/67r">
+      <dc:title>67r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E67r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/67r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d28q2">
       <dc:title>Librum I, Distinctio 28, Quaestio 2</dc:title>
@@ -2746,8 +3254,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>67v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/67v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E67v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/67v">
+      <dc:title>67v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E67v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/67v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d29q1">
       <dc:title>Librum I, Distinctio 29, Quaestio 1</dc:title>
@@ -2773,8 +3288,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>69r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/69r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E69r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/69r">
+      <dc:title>69r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E69r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/69r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d29q2">
       <dc:title>Librum I, Distinctio 29, Quaestio 2</dc:title>
@@ -2800,8 +3322,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>70r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/70r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E70r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/70r">
+      <dc:title>70r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E70r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/70r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d30q1">
       <dc:title>Librum I, Distinctio 30, Quaestio 1</dc:title>
@@ -2827,8 +3356,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>70v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/70v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E70v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/70v">
+      <dc:title>70v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E70v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/70v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d30q2">
       <dc:title>Librum I, Distinctio 30, Quaestio 2</dc:title>
@@ -2854,8 +3390,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>71r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/71r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E71r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/71r">
+      <dc:title>71r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E71r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/71r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d30q3">
       <dc:title>Librum I, Distinctio 30, Quaestio 3</dc:title>
@@ -2881,8 +3424,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>73v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/73v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E73v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/73v">
+      <dc:title>73v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E73v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/73v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d31q1">
       <dc:title>Librum I, Distinctio 31, Quaestio 1</dc:title>
@@ -2908,8 +3458,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>74v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/74v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E74v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/74v">
+      <dc:title>74v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E74v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/74v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d32q1">
       <dc:title>Librum I, Distinctio 32, Quaestio 1</dc:title>
@@ -2935,8 +3492,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>78r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/78r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E78r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/78r">
+      <dc:title>78r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E78r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/78r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d32q2">
       <dc:title>Librum I, Distinctio 32, Quaestio 2</dc:title>
@@ -2962,8 +3526,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>78r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/78r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E78r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/78r">
+      <dc:title>78r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E78r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/78r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d34q1">
       <dc:title>Librum I, Distinctio 34, Quaestio 1</dc:title>
@@ -2989,8 +3560,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>80r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/80r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E80r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/80r">
+      <dc:title>80r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E80r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/80r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d34q2">
       <dc:title>Librum I, Distinctio 34, Quaestio 2</dc:title>
@@ -3016,8 +3594,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>80r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/80r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E80r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/80r">
+      <dc:title>80r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E80r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/80r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d34q3">
       <dc:title>Librum I, Distinctio 34, Quaestio 3</dc:title>
@@ -3043,8 +3628,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>80r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/80r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E80r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/80r">
+      <dc:title>80r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E80r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/80r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d34q4">
       <dc:title>Librum I, Distinctio 34, Quaestio 4</dc:title>
@@ -3070,8 +3662,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>82v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/82v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E82v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/82v">
+      <dc:title>82v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E82v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/82v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d35q1">
       <dc:title>Librum I, Distinctio 35, Quaestio 1</dc:title>
@@ -3097,8 +3696,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>82v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/82v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E82v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/82v">
+      <dc:title>82v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E82v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/82v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d35q2">
       <dc:title>Librum I, Distinctio 35, Quaestio 2</dc:title>
@@ -3124,8 +3730,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>83r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/83r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E83r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/83r">
+      <dc:title>83r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E83r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/83r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d35q3">
       <dc:title>Librum I, Distinctio 35, Quaestio 3</dc:title>
@@ -3151,8 +3764,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d35q4">
       <dc:title>Librum I, Distinctio 35, Quaestio 4</dc:title>
@@ -3178,8 +3798,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/84v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/84v">
+      <dc:title>84v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/84v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d36q1">
       <dc:title>Librum I, Distinctio 36, Quaestio 1</dc:title>
@@ -3205,8 +3832,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/84v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/84v">
+      <dc:title>84v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/84v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d36q2">
       <dc:title>Librum I, Distinctio 36, Quaestio 2</dc:title>
@@ -3232,8 +3866,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>86r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/86r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E86r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/86r">
+      <dc:title>86r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E86r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/86r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d36q3">
       <dc:title>Librum I, Distinctio 36, Quaestio 3</dc:title>
@@ -3259,8 +3900,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/84v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/84v">
+      <dc:title>84v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/84v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d36q4">
       <dc:title>Librum I, Distinctio 36, Quaestio 4</dc:title>
@@ -3286,8 +3934,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>84v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/84v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/84v">
+      <dc:title>84v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E84v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/84v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d37q1">
       <dc:title>Librum I, Distinctio 37, Quaestio 1</dc:title>
@@ -3313,8 +3968,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>87r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/87r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E87r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/87r">
+      <dc:title>87r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E87r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/87r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d37q2">
       <dc:title>Librum I, Distinctio 37, Quaestio 2</dc:title>
@@ -3340,8 +4002,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d37q3">
       <dc:title>Librum I, Distinctio 37, Quaestio 3</dc:title>
@@ -3367,8 +4036,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d37q4">
       <dc:title>Librum I, Distinctio 37, Quaestio 4</dc:title>
@@ -3394,8 +4070,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>87v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/87v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E87v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/87v">
+      <dc:title>87v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E87v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/87v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d38q1">
       <dc:title>Librum I, Distinctio 38, Quaestio 1</dc:title>
@@ -3421,8 +4104,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>89v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/89v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E89v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/89v">
+      <dc:title>89v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E89v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/89v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d38q2">
       <dc:title>Librum I, Distinctio 38, Quaestio 2</dc:title>
@@ -3448,8 +4138,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>89v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/89v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E89v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/89v">
+      <dc:title>89v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E89v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/89v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d38q3">
       <dc:title>Librum I, Distinctio 38, Quaestio 3</dc:title>
@@ -3475,8 +4172,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>90v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/90v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E90v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/90v">
+      <dc:title>90v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E90v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/90v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d39q1">
       <dc:title>Librum I, Distinctio 39, Quaestio 1</dc:title>
@@ -3502,8 +4206,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>91r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/91r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E91r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/91r">
+      <dc:title>91r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E91r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/91r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d39q2">
       <dc:title>Librum I, Distinctio 39, Quaestio 2</dc:title>
@@ -3529,8 +4240,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d39q3">
       <dc:title>Librum I, Distinctio 39, Quaestio 3</dc:title>
@@ -3556,8 +4274,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d40q1">
       <dc:title>Librum I, Distinctio 40, Quaestio 1</dc:title>
@@ -3583,8 +4308,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>91v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/91v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E91v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/91v">
+      <dc:title>91v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E91v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/91v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d40q2">
       <dc:title>Librum I, Distinctio 40, Quaestio 2</dc:title>
@@ -3610,8 +4342,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d41q1">
       <dc:title>Librum I, Distinctio 41, Quaestio 1</dc:title>
@@ -3637,8 +4376,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>92v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/92v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E92v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/92v">
+      <dc:title>92v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E92v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/92v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d41q2">
       <dc:title>Librum I, Distinctio 41, Quaestio 2</dc:title>
@@ -3664,8 +4410,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>93r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/93r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/93r">
+      <dc:title>93r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/93r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d42q1">
       <dc:title>Librum I, Distinctio 42, Quaestio 1</dc:title>
@@ -3691,8 +4444,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>93r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/93r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/93r">
+      <dc:title>93r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/93r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d43q1">
       <dc:title>Librum I, Distinctio 43, Quaestio 1</dc:title>
@@ -3718,8 +4478,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>93v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/93v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/93v">
+      <dc:title>93v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/93v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d43q2">
       <dc:title>Librum I, Distinctio 43, Quaestio 2</dc:title>
@@ -3745,8 +4512,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>93v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/93v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/93v">
+      <dc:title>93v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E93v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/93v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d44q1">
       <dc:title>Librum I, Distinctio 44, Quaestio 1</dc:title>
@@ -3772,8 +4546,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>94r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/94r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E94r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/94r">
+      <dc:title>94r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E94r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/94r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d44q2">
       <dc:title>Librum I, Distinctio 44, Quaestio 2</dc:title>
@@ -3799,8 +4580,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>94r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/94r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E94r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/94r">
+      <dc:title>94r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E94r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/94r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d45q1">
       <dc:title>Librum I, Distinctio 45, Quaestio 1</dc:title>
@@ -3826,8 +4614,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>95r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/95r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E95r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/95r">
+      <dc:title>95r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E95r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/95r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d45q2">
       <dc:title>Librum I, Distinctio 45, Quaestio 2</dc:title>
@@ -3853,8 +4648,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d47q1">
       <dc:title>Librum I, Distinctio 47, Quaestio 1</dc:title>
@@ -3880,8 +4682,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>95v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/95v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E95v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/95v">
+      <dc:title>95v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E95v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/95v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d47q2">
       <dc:title>Librum I, Distinctio 47, Quaestio 2</dc:title>
@@ -3907,8 +4716,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d48q1">
       <dc:title>Librum I, Distinctio 48, Quaestio 1</dc:title>
@@ -3934,8 +4750,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio>95v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/95v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E95v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/95v">
+      <dc:title>95v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E95v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/95v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/item/ddb-l1d48q2">
       <dc:title>Librum I, Distinctio 48, Quaestio 2</dc:title>
@@ -3960,8 +4783,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/DionysiusDeBruges"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>erfurt</sctap:hasSlug>
-      <sctap:hasFolio/>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/ddb-erfurt/">
+      <dc:title/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/ddb-erfurt/canvas/E"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/ddb-erfurt/list/"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/ddb-erfurt/"/>
    </rdf:Description>
 </rdf:RDF>    
 

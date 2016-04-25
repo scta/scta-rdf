@@ -305,6 +305,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q1"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d3e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i1.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d3e528">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i1.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d3e1514">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i1.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q1-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Lombard"/>
@@ -488,6 +503,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q2"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d5e102">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i2.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d5e201">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i2.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d5e625">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i2.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q2-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Avicenna"/>
@@ -590,6 +620,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q3"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d6e113">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i3.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d6e591">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i3.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d6e2387">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i3.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q3-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -801,6 +846,11 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q4"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q4"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d7e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q4"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i4.1</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/transcription/pjo-l2q4">
       <dc:title>Librum II, Quaestio 4</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/PeterJeanOlivi"/>
@@ -980,6 +1030,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q5"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d8e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i5.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d8e321">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i5.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d8e719">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q5"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i5.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q5-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -1702,6 +1767,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q8"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q8"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d11e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q8"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i8.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d11e158">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q8"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i8.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d11e264">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q8"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i8.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q8-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/HilaryOfPoitiers"/>
@@ -2050,6 +2130,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q13"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q13"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d12e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q13"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i13.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d12e205">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q13"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i13.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d12e307">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q13"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i13.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q13-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Augustine"/>
@@ -2299,6 +2394,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d13e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i14.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d13e224">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i14.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d13e242">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q14"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i14.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q14-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -2559,6 +2669,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d14e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i15.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d14e155">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i15.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d14e185">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q15"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i15.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q15-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -2907,6 +3032,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d15e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i16.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d15e414">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i16.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d15e776">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q16"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i16.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q16-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -3994,6 +4134,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q17"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q17"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d16e114">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q17"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i17.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d16e315">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q17"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i17.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d16e1024">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q17"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i17.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q17-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Averroes"/>
@@ -4391,6 +4546,16 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q34"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q34"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d17e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q34"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i34.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d17e135">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q34"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i34.2</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q34-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -4805,6 +4970,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q37"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q37"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d20e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q37"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i37.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d20e251">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q37"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i37.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d20e389">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q37"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i37.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q37-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -5260,6 +5440,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q49"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q49"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d21e116">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q49"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i49.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d21e677">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q49"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i49.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d21e833">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q49"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i49.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q49-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -5520,6 +5715,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q50"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q50"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d22e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q50"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i50.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d22e352">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q50"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i50.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d22e533">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q50"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i50.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q50-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -6005,6 +6215,21 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q55"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q55"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d23e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q55"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i55.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d23e123">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q55"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i55.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d23e315">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q55"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i55.3</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q55-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -6214,6 +6439,26 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q56"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q56"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d24e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q56"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i56.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d24e129">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q56"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i56.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d24e157">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q56"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i56.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d24e169">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q56"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i56.4</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q56-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -6454,6 +6699,21 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q67"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/olivicommentary/transcription/pjo-l2q67"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d25e105">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q67"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i67.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d25e149">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q67"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i67.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/olivicommentary/division/d25e207">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q67"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.olivicommentary:1.i67.3</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/olivicommentary/name/pjo-l2q67-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>

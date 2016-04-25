@@ -12,7 +12,7 @@
    <rdf:Description rdf:about="http://scta.info/scta">
       <dc:title>Sentences Commentary Text Archive</dc:title>
       <sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
-      <sctap:projectfilesversion>e2492e2</sctap:projectfilesversion>
+      <sctap:projectfilesversion>07ac0bd</sctap:projectfilesversion>
       <dcterms:hasPart rdf:resource="http://scta.info/text/anconacommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/halescommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -22,6 +22,7 @@
       <dcterms:hasPart rdf:resource="http://scta.info/text/vargascommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamordinatio/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/wodehamabbreviatio/commentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/bonaventurecommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ddbrugescommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/riminicommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/sienacommentary/commentary"/>
@@ -44,7 +45,7 @@
       <dcterms:hasPart rdf:resource="http://scta.info/text/aquinasscriptum/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/strasbourgcommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
+      <dcterms:hasPart rdf:resource=""/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/chattonreportatio/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/rothwellcommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/ockhamcommentary/commentary"/>

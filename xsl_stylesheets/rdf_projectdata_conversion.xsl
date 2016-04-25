@@ -467,9 +467,25 @@
               
               <xsl:for-each  select="document($extraction-file)//tei:body/tei:div//tei:div">
                 <xsl:variable name="div-number"><xsl:number count="./tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
-                <xsl:if test="./@xml:id">
-                <xsl:variable name="divisionID" select="./@xml:id"/>
-                <xsl:variable name="divisionType" select="./@type"/>
+                <!-- <xsl:if test="./@xml:id"> -->
+                  <xsl:variable name="divisionID">
+                 <xsl:choose>
+                   <xsl:when test="./@xml:id">
+                     <xsl:value-of select="./@xml:id"/>
+                   </xsl:when>
+                   <xsl:otherwise>
+                     <xsl:value-of select="generate-id()"/>
+                   </xsl:otherwise>
+                 </xsl:choose> 
+                </xsl:variable>
+                <xsl:variable name="divisionType">
+                  <xsl:choose>
+                    <xsl:when test="./@type">
+                      <xsl:value-of select="./@type"/>
+                    </xsl:when>
+                    <xsl:otherwise>division</xsl:otherwise>
+                  </xsl:choose> 
+                </xsl:variable>
                   
                 <rdf:Description rdf:about="http://scta.info/text/{$cid}/{$divisionType}/{$divisionID}">
                   <rdf:type rdf:resource="http://scta.info/resource/{$divisionType}"/>
@@ -520,7 +536,7 @@
                   </xsl:for-each>
                   
                 </rdf:Description>
-                </xsl:if>
+                <!-- </xsl:if> -->
               </xsl:for-each>
               <!-- END Div resource creation -->
               
@@ -878,7 +894,7 @@
                           <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
                         </xsl:otherwise>
                       </xsl:choose>
-                      
+                      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/{$commentaryslug}-{$wit-slug}/list/{$folionumber}"/>
                       <!-- selection of next and previous is going to have erros because project file lists a folio twice when one item ends on a folio and then begins on another -->
                       <xsl:variable name="nextFolionumber" select="./following-sibling::folio[1]/text()"/>
                       <xsl:variable name="nextFoliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $nextFolionumber)"/>

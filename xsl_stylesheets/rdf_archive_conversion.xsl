@@ -4,6 +4,7 @@
   
   <xsl:param name="projectfilesversion">null</xsl:param>
   <xsl:output method="xml" indent="yes"/>
+  <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
   
   <xsl:template match="/">
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -25,7 +26,7 @@
       <sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
       <sctap:projectfilesversion><xsl:value-of select="$projectfilesversion"/></sctap:projectfilesversion>
       <!-- This templates create the top level collection, containing all commentaries. -->
-      <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')/rdf:RDF/rdf:Description[./rdf:type/@rdf:resource = 'http://scta.info/resource/commentarius']">
+      <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./rdf:type/@rdf:resource = 'http://scta.info/resource/commentarius']">
       <xsl:variable name="commentaryid" select="./@rdf:about"/>
         <dcterms:hasPart rdf:resource="{$commentaryid}"/>
       </xsl:for-each>

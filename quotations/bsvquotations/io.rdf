@@ -48,21 +48,8 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>4</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b3q4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio23"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/io1_5">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>et lux in tenebris lucet et tenebrae eam non conprehenderunt</dc:title>
-      <sctap:quotation>et lux in tenebris lucet et tenebrae eam non conprehenderunt</sctap:quotation>
-      <sctap:citation>Evangelium secundum Ioannem 1:5</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
-      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>5</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io1_9">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -101,6 +88,7 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio10"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio130"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d7q2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io1_17">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -206,6 +194,7 @@
       <sctap:fromBiblicalChapter>4</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d26c7"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d9q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io4_42">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -357,6 +346,28 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d3c4"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio98"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io8_55">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et non cognovistis eum ego autem novi eum et si dixero quia non scio eum ero similis vobis mendax sed scio eum et sermonem eius servo</dc:title>
+      <sctap:quotation>et non cognovistis eum ego autem novi eum et si dixero quia non scio eum ero similis vobis mendax sed scio eum et sermonem eius servo</sctap:quotation>
+      <sctap:citation>Evangelium secundum Ioannem 8:55</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>55</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d12q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/io8_58">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>dixit eis Iesus amen amen dico vobis antequam Abraham fieret ego sum</dc:title>
+      <sctap:quotation>dixit eis Iesus amen amen dico vobis antequam Abraham fieret ego sum</sctap:quotation>
+      <sctap:citation>Evangelium secundum Ioannem 8:58</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
+      <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>58</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d12q1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io10_9">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>ego sum ostium per me si quis introierit salvabitur et ingredietur et egredietur et pascua inveniet</dc:title>
@@ -418,6 +429,7 @@
       <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>36</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d15c4"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q5"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io11_50">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -575,6 +587,7 @@
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d16c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d16c2"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d16c2"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d11q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io15_1">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -691,7 +704,6 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>16</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>13</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lambertuscommentary/item/lm-b1prolq1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q10"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d8c1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d11c2"/>
@@ -752,9 +764,9 @@
       <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/io"/>
       <sctap:fromBiblicalChapter>17</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>3</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q1"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-d3-qun"/>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d21c3"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1d1q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/io17_5">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>

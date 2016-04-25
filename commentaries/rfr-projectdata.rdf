@@ -1385,15 +1385,43 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>oriel15</sctap:hasSlug>
-      <sctap:hasFolio>1v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/1v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O1v"/>
-      <sctap:hasFolio>2r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/2r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O2r"/>
-      <sctap:hasFolio>2v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/2v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O2v"/>
-      <sctap:hasFolio>3r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/3r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O3r"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/rfr-oriel15/1v">
+      <dc:title>1v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O1v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/rfr-oriel15/list/1v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/2r"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/rfr-oriel15/2r">
+      <dc:title>2r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O2r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/rfr-oriel15/list/2r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/2v"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/1v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/rfr-oriel15/2v">
+      <dc:title>2v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O2v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/rfr-oriel15/list/2v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/3r"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/2r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/rfr-oriel15/3r">
+      <dc:title>3r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rfr-oriel15/canvas/O3r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/rfr-oriel15/list/3r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rfr-oriel15/2v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/fitzralphcommentary/transcription/oriel15_rfr-quaestio1">
       <dc:title>Librum I, Prologus, Quaestio 1 [Oriel 15 Transcription]</dc:title>

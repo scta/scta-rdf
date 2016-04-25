@@ -3,8 +3,9 @@
     version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sctar="http://scta.info/resource/" xmlns:sctap="http://scta.info/property/">
     
     <xsl:param name="workscitedrdf">/Users/JCWitt/Desktop/scta/works/workscited.rdf</xsl:param>
+    <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
     
-<xsl:output method="xml" indent="yes"/>
+    <xsl:output method="xml" indent="yes"/>
     
     <xsl:template match="/">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -36,7 +37,7 @@
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasWork rdf:resource="{$itemid}"/>
                 </xsl:for-each> -->
-                <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:mentions[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
+                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:mentions[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:mentionedBy rdf:resource="{$itemid}"/>
                 </xsl:for-each>

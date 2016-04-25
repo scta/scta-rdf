@@ -1055,6 +1055,34 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/sienacommentary/transcription/gds-l1prolq1"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/sienacommentary/transcription/gds-l1prolq1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/rationesprincipales/d2e121">
+      <rdf:type rdf:resource="http://scta.info/resource/rationesprincipales"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i1.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d2e139">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i1.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d2e157">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i1.3</sctap:dtsurn>
+      <sctap:questionTitle>An omnes scientiae speculativae unam intendant veritatem.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d2e374">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i1.4</sctap:dtsurn>
+      <sctap:questionTitle>An veritas considerata a Theologo contineatur sub veritate considerata a Metaphysico.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d2e541">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i1.5</sctap:dtsurn>
+      <sctap:questionTitle>An de eadem veritate possit considerare Theologus et Metaphysicus, aliaeque scientiae, stante earundem scientiarum diversitate.</sctap:questionTitle>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/sienacommentary/name/gds-l1prolq1-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Anselm"/>
@@ -1644,6 +1672,50 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/sienacommentary/transcription/gds-l1prolq2"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/sienacommentary/transcription/gds-l1prolq2"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d3e121">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d3e136">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d3e148">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d3e171">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.4</sctap:dtsurn>
+      <sctap:questionTitle>An obiectum adaequatum nostri intellectus sit quidditas rei materialis.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d3e286">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.5</sctap:dtsurn>
+      <sctap:questionTitle>An obiectum Metaphysicae sit aequalis ambitus cum obiecto adaequato nostrae potentiae intellectivae. [A, 18]</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d3e444">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.6</sctap:dtsurn>
+      <sctap:questionTitle>Utrum Deus sub absoluta ratione deitatis sit infinitus, et subiectum in Theologia sub tali ratione absoluta.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d3e611">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.7</sctap:dtsurn>
+      <sctap:questionTitle>An veritas, quam scimus de Deo contineatur sub obiecto nostri intellectus.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d3e712">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq2"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i2.8</sctap:dtsurn>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/sienacommentary/name/gds-l1prolq2-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
       <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
@@ -1990,6 +2062,39 @@
       <sctap:status>draft</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/sienacommentary/transcription/gds-l1prolq3"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/sienacommentary/transcription/gds-l1prolq3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d4e121">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i3.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d4e136">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i3.2</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d4e148">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i3.3</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d4e171">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i3.4</sctap:dtsurn>
+      <sctap:questionTitle>Utrum articuli Fidei sint principia Theologiae.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/articulus/d4e237">
+      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i3.5</sctap:dtsurn>
+      <sctap:questionTitle>Utrum certitudo veritatis Theologicae dependeat a superiori scientia sicut a subalternante.</sctap:questionTitle>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/sienacommentary/division/d4e328">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sienacommentary/item/gds-l1prolq3"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.sienacommentary:1.1.i3.6</sctap:dtsurn>
+      <sctap:questionTitle>An certitudo veritatis in hac scientia addat aliquid supra certitudinem Fidei, ratione cuius certitudinis faciat adhaesionem Fidei firmiorem.</sctap:questionTitle>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/sienacommentary/transcription/gds-l1prolq3">
       <dc:title>Librum I, Prologus, Quaestio 3</dc:title>

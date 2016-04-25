@@ -10,7 +10,7 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <rdf:Description rdf:about="http://scta.info/text/chattonlectura/commentary">
+   <rdf:Description rdf:about="">
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Chatton Reportatio</dc:title>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
@@ -22,8 +22,8 @@
    <rdf:Description rdf:about="http://scta.info/text/chattonlectura/librum/wcl-book1">
       <dc:title>Librum I</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
+      <dcterms:isPartOf rdf:resource=""/>
+      <sctap:isPartOfCommentary rdf:resource=""/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:dtsurn>urn:dts:latinLit:sentences.chattonlectura:1</sctap:dtsurn>
@@ -35,7 +35,7 @@
       <dc:title>Librum I, Distinctio 1</dc:title>
       <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/librum/wcl-book1"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource=""/>
       <sctap:isPartOfBook rdf:resource="http://scta.info/text/chattonlectura/librum/wcl-book1"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
@@ -54,7 +54,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:dtsurn>urn:dts:latinLit:sentences.chattonlectura:1.1.i1</sctap:dtsurn>
       <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/chattonlectura/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource=""/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/chattonlectura/distinctio/wcl-b1d1"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wcl-b1d1q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>

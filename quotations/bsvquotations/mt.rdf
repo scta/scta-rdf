@@ -19,6 +19,7 @@
       <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q15"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d4q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt3_11">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -200,6 +201,17 @@
       <sctap:fromBiblicalChapter>7</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d36c2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt9_6">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>ut sciatis autem quoniam Filius hominis habet potestatem in terra dimittendi peccata tunc ait paralytico surge tolle lectum tuum et vade in domum tuam</dc:title>
+      <sctap:quotation>ut sciatis autem quoniam Filius hominis habet potestatem in terra dimittendi peccata tunc ait paralytico surge tolle lectum tuum et vade in domum tuam</sctap:quotation>
+      <sctap:citation>Evangelium secundum Matthæum 9:6</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
+      <sctap:fromBiblicalChapter>9</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>6</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d10q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt9_12">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -471,99 +483,4 @@
    <rdf:Description rdf:about="http://scta.info/resource/quotation/mt25_41">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>tunc dicet et his qui a sinistris erunt discedite a me maledicti in ignem aeternum qui paratus est diabolo et angelis eius</dc:title>
-      <sctap:quotation>tunc dicet et his qui a sinistris erunt discedite a me maledicti in ignem aeternum qui paratus est diabolo et angelis eius</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 25:41</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>25</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>41</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l2d6c3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio6"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt26_24">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Filius quidem hominis vadit sicut scriptum est de illo vae autem homini illi per quem Filius hominis traditur bonum erat ei si natus non fuisset homo ille</dc:title>
-      <sctap:quotation>Filius quidem hominis vadit sicut scriptum est de illo vae autem homini illi per quem Filius hominis traditur bonum erat ei si natus non fuisset homo ille</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 26:24</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>24</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt26_25">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>respondens autem Iudas qui tradidit eum dixit numquid ego sum rabbi ait illi tu dixisti</dc:title>
-      <sctap:quotation>respondens autem Iudas qui tradidit eum dixit numquid ego sum rabbi ait illi tu dixisti</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 26:25</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>25</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt26_26">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>cenantibus autem eis accepit Iesus panem et benedixit ac fregit deditque discipulis suis et ait accipite et comedite hoc est corpus meum</dc:title>
-      <sctap:quotation>cenantibus autem eis accepit Iesus panem et benedixit ac fregit deditque discipulis suis et ait accipite et comedite hoc est corpus meum</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 26:26</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>26</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/olivicommentary/item/pjo-l2q50"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt26_53">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>an putas quia non possum rogare Patrem meum et exhibebit mihi modo plus quam duodecim legiones angelorum</dc:title>
-      <sctap:quotation>an putas quia non possum rogare Patrem meum et exhibebit mihi modo plus quam duodecim legiones angelorum</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 26:53</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>53</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q31"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d43c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio108"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio123"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt26_63">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>Iesus autem tacebat et princeps sacerdotum ait illi adiuro te per Deum vivum ut dicas nobis si tu es Christus Filius Dei</dc:title>
-      <sctap:quotation>Iesus autem tacebat et princeps sacerdotum ait illi adiuro te per Deum vivum ut dicas nobis si tu es Christus Filius Dei</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 26:63</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>26</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>63</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio131"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt28_19">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>euntes ergo docete omnes gentes baptizantes eos in nomine Patris et Filii et Spiritus Sancti</dc:title>
-      <sctap:quotation>euntes ergo docete omnes gentes baptizantes eos in nomine Patris et Filii et Spiritus Sancti</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 28:19</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>28</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>19</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p1q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/dinkelsbuhllectura/item/nddm-l4d2p2q2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d2c5"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d14c2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/quotation/mt28_20">
-      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
-      <dc:title>docentes eos servare omnia quaecumque mandavi vobis et ecce ego vobiscum sum omnibus diebus usque ad consummationem saeculi</dc:title>
-      <sctap:quotation>docentes eos servare omnia quaecumque mandavi vobis et ecce ego vobiscum sum omnibus diebus usque ad consummationem saeculi</sctap:quotation>
-      <sctap:citation>Evangelium secundum Matthæum 28:20</sctap:citation>
-      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/mt"/>
-      <sctap:fromBiblicalChapter>28</sctap:fromBiblicalChapter>
-      <sctap:fromBiblicalVerse>20</sctap:fromBiblicalVerse>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio14"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
-   </rdf:Description>
-</rdf:RDF>
+      <sctap:quotation>tunc dicet et his qui a sinistris erunt discedite a me maledicti in ignem aet

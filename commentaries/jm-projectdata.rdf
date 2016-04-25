@@ -165,19 +165,8 @@
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q1</sctap:gitRepository>
-      <sctap:status>In Progress</sctap:status>
+      <sctap:status>Not Started</sctap:status>
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q1"/>
-      <sctap:hasTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q1">
-      <dc:title/>
-      <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
-      <role:EDT/>
-      <sctap:status>In Progress</sctap:status>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-      <sctap:isTranscriptionOf rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
-      <sctap:transcriptionType>Critical</sctap:transcriptionType>
-      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/mirecourtcommentary/jm-l1q1/transcription/critical"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q2">
       <dc:title>Librum I, Questio 2</dc:title>

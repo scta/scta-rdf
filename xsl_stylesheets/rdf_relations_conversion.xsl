@@ -3,7 +3,7 @@
     version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sctar="http://scta.info/resource/" xmlns:sctap="http://scta.info/property/">
     
 <xsl:output method="xml" indent="yes"/>
-    
+  <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
     <xsl:template match="/">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
             xmlns:sctap="http://scta.info/property/"
@@ -26,11 +26,11 @@
       <!-- item resources are excluded for the moment, to avoid redundancy for all subsections and paragraphs, since references and quotes are logged at the section/paragraph level 
         and at the item level -->
       
-      <xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:abbreviates | 
-        collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:references[contains(@rdf:resource, 'text')][parent::node()[not(contains(@rdf:about, 'item'))]] | 
-        collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:references[contains(@rdf:resource, 'passage')] |
-        collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:copies | 
-        collection('/Users/JCWitt/Desktop/scta/commentaries/?select=[a-zA-Z]*.rdf')//sctap:quotes[contains(@rdf:resource, 'text')][parent::node()[not(contains(@rdf:about, 'item'))]]">
+      <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:abbreviates | 
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:references[contains(@rdf:resource, 'text')][parent::node()[not(contains(@rdf:about, 'item'))]] | 
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:references[contains(@rdf:resource, 'passage')] |
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:copies | 
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:quotes[contains(@rdf:resource, 'text')][parent::node()[not(contains(@rdf:about, 'item'))]]">
         <!-- below all resources are going to receive a passive relationship. The patient-resource-id is the subject that the action is being done to.
           The agent resource is the agent of the acting being done. It answers the question, doneBy whome? -->
         <xsl:variable name="patient-resource-id" select="./@rdf:resource"/>

@@ -155,8 +155,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>144ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/144ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/144ra">
+      <dc:title>144ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/144ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q2">
       <dc:title>Quaestio 2</dc:title>
@@ -182,8 +189,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>144ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/144ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/144ra">
+      <dc:title>144ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/144ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q3">
       <dc:title>Quaestio 3</dc:title>
@@ -209,8 +223,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>145vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/145vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L145vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/145vb">
+      <dc:title>145vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L145vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/145vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q4">
       <dc:title>Quaestio 4</dc:title>
@@ -236,8 +257,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>147va</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/147va"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L147va"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/147va">
+      <dc:title>147va</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L147va"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/147va"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q5">
       <dc:title>Quaestio 5</dc:title>
@@ -263,8 +291,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>149ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/149ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L149ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/149ra">
+      <dc:title>149ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L149ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/149ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q6">
       <dc:title>Quaestio 6</dc:title>
@@ -290,8 +325,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>150vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/150vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L150vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/150vb">
+      <dc:title>150vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L150vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/150vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q7">
       <dc:title>Quaestio 7</dc:title>
@@ -317,8 +359,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>152v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/152v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L152v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/152v">
+      <dc:title>152v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L152v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/152v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q8">
       <dc:title>Quaestio 8</dc:title>
@@ -344,8 +393,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>154vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/154vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L154vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/154vb">
+      <dc:title>154vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L154vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/154vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q9">
       <dc:title>Quaestio 9</dc:title>
@@ -371,8 +427,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>157ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/157ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L157ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/157ra">
+      <dc:title>157ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L157ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/157ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q10">
       <dc:title>Quaestio 10</dc:title>
@@ -398,8 +461,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>159rb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/159rb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L159rb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/159rb">
+      <dc:title>159rb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L159rb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/159rb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q11">
       <dc:title>Quaestio 11</dc:title>
@@ -425,8 +495,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>163ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/163ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L163ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/163ra">
+      <dc:title>163ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L163ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/163ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q1">
       <dc:title>Quaestio 1</dc:title>
@@ -452,8 +529,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>208ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/208ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L208ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/208ra">
+      <dc:title>208ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L208ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/208ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q2">
       <dc:title>Quaestio 2</dc:title>
@@ -479,8 +563,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>209vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/209vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L209vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/209vb">
+      <dc:title>209vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L209vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/209vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q2">
       <dc:title>Quaestio 2</dc:title>
@@ -506,8 +597,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>211ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/211ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L211ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/211ra">
+      <dc:title>211ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L211ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/211ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q3">
       <dc:title>Quaestio 3</dc:title>
@@ -533,8 +631,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>213vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/213vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L213vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/213vb">
+      <dc:title>213vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L213vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/213vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q4">
       <dc:title>Quaestio 4</dc:title>
@@ -560,8 +665,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>216rb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/216rb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L216rb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/216rb">
+      <dc:title>216rb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L216rb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/216rb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q5">
       <dc:title>Quaestio 5</dc:title>
@@ -587,8 +699,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>218vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/218vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L218vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/218vb">
+      <dc:title>218vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L218vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/218vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q6">
       <dc:title>Quaestio 6</dc:title>
@@ -614,8 +733,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>221rb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/221rb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L221rb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/221rb">
+      <dc:title>221rb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L221rb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/221rb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q7">
       <dc:title>Quaestio 7</dc:title>
@@ -653,6 +779,16 @@
       <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/qda/transcription/als-l3q7"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/qda/transcription/als-l3q7"/>
       <sctap:hasWitness rdf:resource="http://scta.info/text/qda/witness/leipzig_als-l3q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/qda/division/d2e401">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/qda/item/als-l3q7"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i19.1</sctap:dtsurn>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/qda/division/d2e482">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/qda/item/als-l3q7"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i19.2</sctap:dtsurn>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/name/als-l3q7-1">
       <rdf:type rdf:resource="http://scta.info/resource/nameElement"/>
@@ -751,8 +887,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>222vb</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/222vb"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L222vb"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/222vb">
+      <dc:title>222vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L222vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/222vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q8">
       <dc:title>Quaestio 8</dc:title>
@@ -778,8 +921,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>225ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/225ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L225ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/225ra">
+      <dc:title>225ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L225ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/225ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q9">
       <dc:title>Quaestio 9</dc:title>
@@ -805,8 +955,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>226v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/226v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L226v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/226v">
+      <dc:title>226v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L226v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/226v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q10">
       <dc:title>Quaestio 10</dc:title>
@@ -832,8 +989,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>229ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/229ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L229ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/229ra">
+      <dc:title>229ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L229ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/229ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q11">
       <dc:title>Quaestio 11</dc:title>
@@ -859,8 +1023,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>231ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/231ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L231ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/231ra">
+      <dc:title>231ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L231ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/231ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q12">
       <dc:title>Quaestio 12</dc:title>
@@ -885,8 +1056,15 @@
       <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
-      <sctap:hasFolio>233ra</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/233ra"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L233ra"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/233ra">
+      <dc:title>233ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L233ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/233ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
    </rdf:Description>
 </rdf:RDF>
 

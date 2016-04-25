@@ -4306,6 +4306,17 @@
       <sctap:hasWitness rdf:resource="http://scta.info/text/tarantasiacommentary/witness/toulouse1652_pdt-l1prolq1"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/tarantasiacommentary/transcription/toulouse1652_pdt-l1prolq1"/>
    </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/division/d3e83">
+      <rdf:type rdf:resource="http://scta.info/resource/division"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1prolq1"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.tarantasiacommentary:1.1.i1.1</sctap:dtsurn>
+      <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e3453"/>
+      <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e3457"/>
+      <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e3461"/>
+      <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e3465"/>
+      <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e3470"/>
+      <sctap:hasParagraphExemplar rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e3476"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/articulus/pdtl1prolq1a1">
       <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
       <dcterms:isPartOf rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1prolq1"/>
@@ -5814,13 +5825,34 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf14556</sctap:hasSlug>
-      <sctap:hasFolio>1v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/1v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P1v"/>
-      <sctap:hasFolio>2r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2r"/>
-      <sctap:hasFolio>2v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2v"/>
       <sctap:hasTranscription rdf:resource="http://scta.info/text/tarantasiacommentary/transcription/bnf14556_pdt-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/1v">
+      <dc:title>1v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P1v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/1v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2r"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/2r">
+      <dc:title>2r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/2r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2v"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/1v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/2v">
+      <dc:title>2v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/2v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/transcription/bnf14556_pdt-l1prolq1">
       <dc:title>Librum I, Prologus, Questio 1 [Paris, BnF ms. 14556 Transcription]</dc:title>
@@ -5963,7 +5995,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/zone"/>
       <sctap:isZoneOf rdf:resource="http://scta.info/text/tarantasiacommentary/transcription/bnf14556_pdt-l1prolq1/paragraph/pdtl1prolq1-d1e3480"/>
       <sctap:isZoneOn rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P1v"/>
-      <sctap:hasFolio>1v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/1v"/>
       <sctap:ulx>804</sctap:ulx>
       <sctap:uly>3505</sctap:uly>
       <sctap:lrx>2201</sctap:lrx>
@@ -7130,12 +7162,33 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf14556</sctap:hasSlug>
-      <sctap:hasFolio>2v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2v"/>
-      <sctap:hasFolio>3r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3r"/>
-      <sctap:hasFolio>3v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/2v">
+      <dc:title>2v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P2v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/2v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3r"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/3r">
+      <dc:title>3r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/3r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3v"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/2v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/3v">
+      <dc:title>3v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/3v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3r"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d1q2">
       <dc:title>Librum I, Distinctio 1, Quaestio 2</dc:title>
@@ -7161,10 +7214,24 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf14556</sctap:hasSlug>
-      <sctap:hasFolio>3v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3v"/>
-      <sctap:hasFolio>4r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/3v">
+      <dc:title>3v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P3v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/3v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4r"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/4r">
+      <dc:title>4r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/4r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/3v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q1">
       <dc:title>Librum I, Distinctio 2, Quaestio 1</dc:title>
@@ -7190,12 +7257,33 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf14556</sctap:hasSlug>
-      <sctap:hasFolio>4r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4r"/>
-      <sctap:hasFolio>4v</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4v"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4v"/>
-      <sctap:hasFolio>5r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/5r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P5r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/4r">
+      <dc:title>4r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/4r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4v"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/4v">
+      <dc:title>4v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P4v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/4v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/5r"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/5r">
+      <dc:title>5r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P5r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/5r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/4v"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d2q2">
       <dc:title>Librum I, Distinctio 2, Quaestio 2</dc:title>
@@ -7221,8 +7309,15 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PetrusDeTarantasia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>bnf14556</sctap:hasSlug>
-      <sctap:hasFolio>5r</sctap:hasFolio>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/5r"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P5r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/pdt-bnf14556/5r">
+      <dc:title>5r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/pdt-bnf14556/canvas/P5r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/pdt-bnf14556/list/5r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/pdt-bnf14556/"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/tarantasiacommentary/item/pdt-l1d3q1">
       <dc:title>Librum I, Distinctio 3, Quaestio 1</dc:title>

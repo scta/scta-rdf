@@ -9,6 +9,18 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:owl="http://www.w3.org/2002/07/owl#">
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc1_15">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>erit enim magnus coram Domino et vinum et sicera non bibet et Spiritu Sancto replebitur adhuc ex utero matris suae</dc:title>
+      <sctap:quotation>erit enim magnus coram Domino et vinum et sicera non bibet et Spiritu Sancto replebitur adhuc ex utero matris suae</sctap:quotation>
+      <sctap:citation>Evangelium secundum Lucam 1:15</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
+      <sctap:fromBiblicalChapter>1</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>15</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l3d3q1"/>
+   </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc1_17">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
       <dc:title>et ipse praecedet ante illum in spiritu et virtute Heliae ut convertat corda patrum in filios et incredibiles ad prudentiam iustorum parare Domino plebem perfectam</dc:title>
@@ -143,6 +155,17 @@
       <sctap:fromBiblicalChapter>8</sctap:fromBiblicalChapter>
       <sctap:fromBiblicalVerse>16</sctap:fromBiblicalVerse>
       <sctap:quotedBy rdf:resource="http://scta.info/text/aquinasscriptum/item/ta-l1prolq1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/quotation/lc10_23">
+      <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
+      <dc:title>et conversus ad discipulos suos dixit beati oculi qui vident quae videtis</dc:title>
+      <sctap:quotation>et conversus ad discipulos suos dixit beati oculi qui vident quae videtis</sctap:quotation>
+      <sctap:citation>Evangelium secundum Lucam 10:23</sctap:citation>
+      <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
+      <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/lc"/>
+      <sctap:fromBiblicalChapter>10</sctap:fromBiblicalChapter>
+      <sctap:fromBiblicalVerse>23</sctap:fromBiblicalVerse>
+      <sctap:quotedBy rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q3"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/lc10_36">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
