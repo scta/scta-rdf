@@ -12,7 +12,7 @@
    <rdf:Description rdf:about="http://scta.info/scta">
       <dc:title>Sentences Commentary Text Archive</dc:title>
       <sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
-      <sctap:projectfilesversion>07ac0bd</sctap:projectfilesversion>
+      <sctap:projectfilesversion>1549552</sctap:projectfilesversion>
       <dcterms:hasPart rdf:resource="http://scta.info/text/anconacommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/halescommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -31,6 +31,7 @@
       <dcterms:hasPart rdf:resource="http://scta.info/text/altavillacommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/scotusordinatio/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lombardsententia/janhuscommentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/lambertuscommentary/commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/dinkelsbuhllectura/commentary"/>

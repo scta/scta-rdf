@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/commentary">
+      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+      <dc:title>John Hiltalingen of Basel Commentary</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <sctap:slug>jhb</sctap:slug>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary</sctap:dtsurn>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jbh-l1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q36"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/jhb-clm26711"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/jhb-clm26711">
+      <dc:title>Bayerishce StaatsBibliothek, Clm 26711</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1">
+      <dc:title>Librum I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1</sctap:dtsurn>
+      <sctap:level>2</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1prin"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1prol"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d4"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d5"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d6"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d7"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d8"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d9"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d10"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d12"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d14"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d15"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d16"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d17"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d18"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d20"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d23"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d26"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d28"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d30"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d32"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d34"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d36"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d38"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d40"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d41"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d42"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d45"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d46"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d47"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jbh-l1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q36"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1prin">
+      <dc:title>Librum I, Principium I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.1</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jbh-l1q1"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jbh-l1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1prol">
+      <dc:title>Librum I, Prologus</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.2</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d1">
+      <dc:title>Librum I, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.3</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d2">
+      <dc:title>Librum I, Distinctio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.4</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d3">
+      <dc:title>Librum I, Distinctio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.5</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d4">
+      <dc:title>Librum I, Distinctio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.6</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d5">
+      <dc:title>Librum I, Distinctio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.7</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d6">
+      <dc:title>Librum I, Distinctio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.8</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d7">
+      <dc:title>Librum I, Distinctio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.9</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d8">
+      <dc:title>Librum I, Distinctio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.10</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d9">
+      <dc:title>Librum I, Distinctio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.11</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d10">
+      <dc:title>Librum I, Distinctio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.12</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d12">
+      <dc:title>Librum I, Distinctio 12</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.13</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d14">
+      <dc:title>Librum I, Distinctio 14</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.14</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d15">
+      <dc:title>Librum I, Distinctio 15</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.15</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d16">
+      <dc:title>Librum I, Distinctio 16</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.16</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d17">
+      <dc:title>Librum I, Distinctio 17</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.17</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d18">
+      <dc:title>Librum I, Distinctio 18</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.18</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d19">
+      <dc:title>Librum I, Distinctio 19</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.19</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d20">
+      <dc:title>Librum I, Distinctio 20</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.20</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d23">
+      <dc:title>Librum I, Distinctio 23</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.21</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d26">
+      <dc:title>Librum I, Distinctio 26</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.22</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d28">
+      <dc:title>Librum I, Distinctio 28</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.23</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d30">
+      <dc:title>Librum I, Distinctio 30</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>024</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.24</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d32">
+      <dc:title>Librum I, Distinctio 32</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>025</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.25</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d34">
+      <dc:title>Librum I, Distinctio 34</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>026</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.26</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d36">
+      <dc:title>Librum I, Distinctio 36</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>027</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.27</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d38">
+      <dc:title>Librum I, Distinctio 38</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>028</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.28</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d40">
+      <dc:title>Librum I, Distinctio 40</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>029</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.29</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d41">
+      <dc:title>Librum I, Distinctio 41</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>030</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.30</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d42">
+      <dc:title>Librum I, Distinctio 42</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>031</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.31</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d45">
+      <dc:title>Librum I, Distinctio 45</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>032</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.32</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d46">
+      <dc:title>Librum I, Distinctio 46</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>033</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.33</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d47">
+      <dc:title>Librum I, Distinctio 47</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <sctap:isPartOfBook rdf:resource="http://scta.info/text/hiltalingencommentary/librum/jhb-librum1"/>
+      <sctap:sectionOrderNumber>034</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.34</sctap:dtsurn>
+      <sctap:level>3</sctap:level>
+      <dcterms:hasPart rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q36"/>
+      <sctap:hasItem rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q36"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jbh-l1q1">
+      <dc:title>Librum I, quaestio 1</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2"/>
+      <sctap:questionTitle>Utrum vultus primi summa et totalis pulchritudo sit omnis perfectionis radicalis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.1.i1</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1prin"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jbh-l1q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jbh-l1q1"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jbh-l1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jbh-l1q1">
+      <dc:title>jbh-l1q1 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/3r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L3r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/3r">
+      <dc:title>3r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L3r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/3r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2">
+      <dc:title>Librum, Quaestio 2</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jbh-l1q1"/>
+      <sctap:questionTitle>Utrum veritatem sincerim fidei christianae impossibile viatorem perfecte cognoscere efficacia rationis humanae 
+					sine speciali dei illustratione et fundmaneto fidei catholiae ac firma adhaesiva</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/questio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.2.i2</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1prol"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q2"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q2">
+      <dc:title>jhb-l1q2 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/13v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L13v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/13v">
+      <dc:title>13v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L13v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/13v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3">
+      <dc:title>Librum I, Quaestio 3</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q2"/>
+      <sctap:questionTitle>Utrum universaliter quaelibet et sola perfectio Deo intrinseca et immensa fruitionis 
+						ordinatae sic ratio sufficit obiectiva</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.3.i3</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d1"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q3"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q3">
+      <dc:title>jhb-l1q3 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/41r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L41r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/41r">
+      <dc:title>41r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L41r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/41r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4">
+      <dc:title>Librum I, Quaestio 4</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q3"/>
+      <sctap:questionTitle>Utrum studens sacrae theologiae sciens sacrae scripturae textum deum esse trium et unum sufficienter possit probare 
+						vel inquirere per studium bonum et meritorium</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.4.i4</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d2"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q4</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q4"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q4">
+      <dc:title>jhb-l1q4 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/53r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L53r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/53r">
+      <dc:title>53r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L53r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/53r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5">
+      <dc:title>Librum I, Quaestio 5</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q4"/>
+      <sctap:questionTitle>Utrum anima intellectiva ex eo quod est suorum actuum formaliter active et perceptiva sit imago divinae trinitatis propire representativa</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.5.i5</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d3"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q5</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q5"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q5">
+      <dc:title>jhb-l1q5 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/60v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L60v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/60v">
+      <dc:title>60v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L60v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/60v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6">
+      <dc:title>Librum I, Quaestio 6</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q5"/>
+      <sctap:questionTitle>Utrum sine motu et successione Deus generet Deum aeterna et vera generatione</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.6.i6</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d4"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q6</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q6"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q6">
+      <dc:title>jhb-l1q6 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/63v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L63v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/63v">
+      <dc:title>63v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L63v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/63v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7">
+      <dc:title>Quaestio 7</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q6"/>
+      <sctap:questionTitle>utrum tam impossibile sit idem esse principium generativum sui ipsius quam impossibile est plures esse causas totales simul et semel unius</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.7.i7</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d5"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q7</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q7"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q7">
+      <dc:title>jhb-l1q7 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/66r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L66r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/66r">
+      <dc:title>66r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L66r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/66r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8">
+      <dc:title>Librum I, Quaestio 8</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q7"/>
+      <sctap:questionTitle>Utrum memoria patris libere et complacenter fecunda ad productionem verbi intrinsice ac naturaliter sic determinata</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.8.i8</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d6"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q8</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q8"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q8">
+      <dc:title>jhb-l1q8 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/69r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L69r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/69r">
+      <dc:title>69r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L69r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/69r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9">
+      <dc:title>Librum I, Quaestio 9</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q8"/>
+      <sctap:questionTitle>Utrum patrem aeternum generativa potentia verbum divinum producere personaliter sit perfectio immensa simpliciter</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.9.i9</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d7"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q9</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q9"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q9">
+      <dc:title>jhb-l1q9 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/71r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L71r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/71r">
+      <dc:title>71r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L71r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/71r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10">
+      <dc:title>Librum I, Quaestio 10</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q9"/>
+      <sctap:questionTitle>Utrum sola essentia divina sit summe simplex et necessaria simpliciter</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.10.i10</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d8"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q10</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q10"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q10">
+      <dc:title>jhb-l1q10 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/74v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L74v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/74v">
+      <dc:title>74v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L74v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/74v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11">
+      <dc:title>Librum I, Quaestio 11</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q10"/>
+      <sctap:questionTitle>Utrum pater communicando verbo coeternitatem includat a se respectu illius omnem mensurativam prioritatem</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.11.i11</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d9"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q11</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q11"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q11">
+      <dc:title>jhb-l1q11 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/78v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L78v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/78v">
+      <dc:title>78v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L78v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/78v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12">
+      <dc:title>Librum I, Quaestio 12</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q11"/>
+      <sctap:questionTitle>Utrum pater et verbum per unicum modum agendi naturalem et liberum distinctum a se spirent spiritum sanctum</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.12.i12</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d10"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q12</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q12"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q12">
+      <dc:title>jhb-l1q12 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/81v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L81v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/81v">
+      <dc:title>81v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L81v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/81v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13">
+      <dc:title>Librum I, Quaestio 13</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q12"/>
+      <sctap:questionTitle>Utrum spiritus sanctus taliter a patre et filio procedat quia nec genitus nec ingenitus dici vere valeat</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.13.i13</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d12"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q13</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q13"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q13"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q13">
+      <dc:title>jhb-l1q13 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/88r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L88r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/88r">
+      <dc:title>88r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L88r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/88r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14">
+      <dc:title>Librum I, Quaestio 14</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q13"/>
+      <sctap:questionTitle>Utrum spiritus sancti diffinitio in mente viatoris rationali sit temporalis processio distincta a sua spiratio aeternali</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.14.i14</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d14"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q14</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q14"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q14"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q14">
+      <dc:title>jhb-l1q14 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/90v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L90v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/90v">
+      <dc:title>90v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L90v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/90v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15">
+      <dc:title>Librum I, Quaestio 15</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q14"/>
+      <sctap:questionTitle>Utrum personae divinae temporalis missio sit eiusdem in mente</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.15.i15</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d15"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q15</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q15"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q15"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q15">
+      <dc:title>jhb-l1q15 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/93v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L93v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/93v">
+      <dc:title>93v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L93v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/93v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16">
+      <dc:title>Librum I, Quaestio 16</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q15"/>
+      <sctap:questionTitle>Utrum a speciebus quilibet visibiliter mittitur spiritus sanctus obiective vitaliter causaliter immutari possit intellectus et sensus</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.16.i16</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d16"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q16</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q16"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q16"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q16">
+      <dc:title>jhb-l1q16 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/96v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L96v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/96v">
+      <dc:title>96v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L96v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/96v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17">
+      <dc:title>Librum I, Quaestio 17</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q16"/>
+      <sctap:questionTitle>Utrum sola increati spiritus natura sit dilectio fruitiva qui mens rationalis viatoris intrinsece formaliter et sufficienter est iusta</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.17.i17</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d17"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q17</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q17"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q17"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q17">
+      <dc:title>jhb-l1q17 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/99r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L99r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/99r">
+      <dc:title>99r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L99r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/99r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18">
+      <dc:title>Librum I, Quaestio 18</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q17"/>
+      <sctap:questionTitle>Utrum per caritatem gradualem intensionem viator iustus capere possit sui iusti esse sine termino meliorationem</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.17.i18</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d17"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q18</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q18"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q18"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q18">
+      <dc:title>jhb-l1q18 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/102r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L102r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/102r">
+      <dc:title>102r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L102r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/102r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19">
+      <dc:title>Librum I, Quaestio 19</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q18"/>
+      <sctap:questionTitle>Utrum motus dilectionis meritoriae et ratio diligendi caritatis gratuitae sint commutabiliter ad extra distincte</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.18.i19</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d18"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q19</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q19"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q19"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q19">
+      <dc:title>jhb-l1q19 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/105r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L105r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/105r">
+      <dc:title>105r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L105r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/105r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20">
+      <dc:title>Librum I, Quaestio 20</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q19"/>
+      <sctap:questionTitle>Utrum propter donum aeternum temporaliter datum gratuite quilibet iustus deo obligetur infinite</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.18.i20</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d18"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q20</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q20"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q20">
+      <dc:title>jhb-l1q20 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/107v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L107v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/107v">
+      <dc:title>107v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L107v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/107v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21">
+      <dc:title>Librum I, Quaestio 21</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q20"/>
+      <sctap:questionTitle>Utrum personae divinae aequales in perfectione se ipsisi distinguantur infinite</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.19.i21</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d19"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q21</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q21"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q21"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q21">
+      <dc:title>jhb-l1q21 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/110r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L110r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/110r">
+      <dc:title>110r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L110r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/110r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22">
+      <dc:title>Librum I, Quaestio 22</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q21"/>
+      <sctap:questionTitle>Utrum persona divinae propter summam possibile aequalitatem et qualiter habeant cuiuslibet possibilis aequalem potentiam et activam potestatem</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.20.i22</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d20"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q22</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q22"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q22"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q22">
+      <dc:title>jhb-l1q22 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/113r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L113r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/113r">
+      <dc:title>113r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L113r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/113r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23">
+      <dc:title>Librum I, Quaestio 23</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q22"/>
+      <sctap:questionTitle>Utrum intellectu viatoris aliquis conceptus sic formabilis propositionis deo et creaturis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.21.i23</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d23"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q23</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q23"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q23"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q23">
+      <dc:title>jhb-l1q23 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/116r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L116r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/116r">
+      <dc:title>116r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L116r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/116r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26">
+      <dc:title>Librum I, Quaestio 24</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q23"/>
+      <sctap:questionTitle>Utrum praecise tot sint personae divinae idem omnino essentiae quot sunt proprietates relative ab eadem indistincte</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.22.i24</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d26"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q26</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q26"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q26"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q26">
+      <dc:title>jhb-l1q26 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/118v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L118v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/118v">
+      <dc:title>118v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L118v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/118v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25">
+      <dc:title>Librum I, Quaestio 25</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:questionTitle>Utrum pater aeternus suum producens incommutabile verbum et vinc?m proprie posset dici eius principium</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.23.i25</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d28"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-b1q25</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-b1q25"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-b1q25"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-b1q25">
+      <dc:title>jhb-b1q25 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/121r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L121r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/121r">
+      <dc:title>121r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L121r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/121r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26">
+      <dc:title>Librum I, Quaestio 26</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-b1q25"/>
+      <sctap:questionTitle>Utrum aeterna unitas in patre aequalis species imaginis genitae connexus usus inmunere realiter referri possint ad aliquem productum in tempore</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.24.i26</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d30"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q26</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q26"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q26"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q26">
+      <dc:title>jhb-l1q26 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/124r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L124r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/124r">
+      <dc:title>124r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L124r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/124r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27">
+      <dc:title>Librum I, Quaestio 27</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q26"/>
+      <sctap:questionTitle>Utrum patris et filii dilectionis et amoris ratio sit spiritus sanctus eorum nexus et commotio</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.25.i27</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d32"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q27</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q27"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q27"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q27">
+      <dc:title>jhb-l1q27 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/126v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L126v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/126v">
+      <dc:title>126v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L126v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/126v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28">
+      <dc:title>Librum I, Quaestio 28</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q27"/>
+      <sctap:questionTitle>Utrum divina essentia sui ipsius et omnium aeterna sit mutua notitia suae immensitati perfectione adaequata</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.26.i28</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d34"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q28</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q28"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q28"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q28">
+      <dc:title>jhb-l1q28 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/128v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L128v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/128v">
+      <dc:title>128v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L128v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/128v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29">
+      <dc:title>Quaestio 29</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q28"/>
+      <sctap:questionTitle>Utrum deus qui est scientia et veritas infallis et pura bonitas imitabilis sine sui immutatione sit intime praesens omnibus creaturis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.27.i29</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d36"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q29</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q29"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q29"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q29">
+      <dc:title>jhb-l1q29 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/130v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L130v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/130v">
+      <dc:title>130v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L130v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/130v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30">
+      <dc:title>Librum I, Quaestio 30</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q29"/>
+      <sctap:questionTitle>Utrum divinae praescientiae respectu futuri veri contingenter correspondeat aliquam ratio causalis efficientiae</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.28.i30</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d38"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q30</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q30"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q30"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q30">
+      <dc:title>jhb-l1q30 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/133r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L133r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/133r">
+      <dc:title>133r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L133r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/133r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31">
+      <dc:title>Librum I, Quaestio 31</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q30"/>
+      <sctap:questionTitle>Utrum praedestinatio aeternaliter clare in verbo relevari possit dampnatio sua finalis certitudinaliter</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.29.i31</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d40"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q31</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q31"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q31"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q31">
+      <dc:title>jhb-l1q31 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/136r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L136r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/136r">
+      <dc:title>136r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L136r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/136r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32">
+      <dc:title>Librum I, Quaestio 32</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q31"/>
+      <sctap:questionTitle>Utrum praedestinationis vel reprobationis aeternalis nulla omnino possit formi causalis ratio temporalis</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.30.i32</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d41"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q32</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q32"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q32"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q32">
+      <dc:title>jhb-l1q32 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/139r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L139r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/139r">
+      <dc:title>139r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L139r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/139r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33">
+      <dc:title>Librum I, Quaestio 33</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q32"/>
+      <sctap:questionTitle>Utrum immensus vigor simpliciter divinae essentiae sit ratio formalis convertibiliter adaequata omnipotentiae</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.31.i33</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d42"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q33</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q33"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q33"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q33">
+      <dc:title>jhb-l1q33 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/142v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L142v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/142v">
+      <dc:title>142v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L142v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/142v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34">
+      <dc:title>Librum I, Quaestio 34</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q33"/>
+      <sctap:questionTitle>Utrum voluntas divina per se et immediate regulet cunctas creaturarum motiones ad suum honorem et universi decorem perfecte</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.32.i34</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d45"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q34</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q34"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q34"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q34">
+      <dc:title>jhb-l1q34 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/145r"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L145r"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/145r">
+      <dc:title>145r</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L145r"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/145r"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35">
+      <dc:title>Librum I, Quaestio 35</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q36"/>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q34"/>
+      <sctap:questionTitle>Utrum divinum velle frustrabile quodlibet possibile bonum et solum tale possit efficere</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.33.i35</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d46"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q35</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q35"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q35"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q35">
+      <dc:title>jhb-l1q35 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/150v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L150v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/150v">
+      <dc:title>150v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L150v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/150v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/item/jhb-l1q36">
+      <dc:title>Quaestio 36</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/hiltalingencommentary/item/jhb-l1q35"/>
+      <sctap:questionTitle>Utrum voluntas rationalis actus sive sui conformitate ad quodlibet velle divinum possit esse iustus et rectus</sctap:questionTitle>
+      <rdf:type rdf:resource="http://scta.info/resource/item"/>
+      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.hiltalingencommentary:1.34.i36</sctap:dtsurn>
+      <sctap:level>4</sctap:level>
+      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/hiltalingencommentary/commentary"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/hiltalingencommentary/distinctio/jhb-l1d47"/>
+      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jhb-l1q36</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/hiltalingencommentary/transcription/jhb-l1q36"/>
+      <sctap:hasWitness rdf:resource="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q36"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/text/hiltalingencommentary/witness/clm26711_jhb-l1q36">
+      <dc:title>jhb-l1q36 [Bayerishce StaatsBibliothek, Clm 26711]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnHiltalingenBasel"/>
+      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <sctap:hasSlug>clm26711</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/150v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L150v"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/jhb-clm26711/150v">
+      <dc:title>150v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/jhb-clm26711/canvas/L150v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/jhb-clm26711/list/150v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/jhb-clm26711/"/>
+   </rdf:Description>
+</rdf:RDF>
+
