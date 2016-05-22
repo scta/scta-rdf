@@ -10,490 +10,499 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/commentary">
-      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+   <rdf:Description rdf:about="http://scta.info/resource/crathorncommentary">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <dc:title>William Crathron Commentary</dc:title>
-      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sententia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:slug>wc</sctap:slug>
+      <sctap:shortId>crathorncommentary</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary</sctap:dtsurn>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/librum/wc-l1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/crathorncommentary/witness/wc-"/>
+      <sctap:level>1</sctap:level>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/wc-l1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q8A"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q8B"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q12"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q13"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q14"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q15"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q16"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q17"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q18"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q19"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q20"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/crathorncommentary/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/witness/wc-">
+   <rdf:Description rdf:about="http://scta.info/resource/crathorncommentary/">
       <dc:title/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug/>
+      <sctap:shortId>crathorncommentary/</sctap:shortId>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/librum/wc-l1">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1">
       <dc:title>Librum 1</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q1">
-      <dc:title>Librum I, Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q8A"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q8B"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q12"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q13"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q14"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q15"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q16"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q17"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q18"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q19"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q20"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q1">
+      <dc:title>Librum I, Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
       <sctap:questionTitle>Utrum notitia evidens articulorum fidei sit possibilis viatori in virtute luminis naturalis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i1</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q1"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q2">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q2">
       <dc:title>Librum I, Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q1"/>
       <sctap:questionTitle>Utrum omne cognitum a viatore sit res singularis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i2</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q2"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q3">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q3">
       <dc:title>Librum I, Quaestio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q2"/>
       <sctap:questionTitle>Utrum viator intelligat cum continuo et tempore</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i3</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q3</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q3"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q3/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q4">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q4">
       <dc:title>Librum I, Quaestio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q4</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q3"/>
       <sctap:questionTitle>Utrum viator possit scire scientia proprie dicta quod sit tantum unus deus</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i4</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q4</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q4"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q4/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q5">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q5">
       <dc:title>Librum I, Quaestio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q5</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q4"/>
       <sctap:questionTitle>Utrum unitati numerali essentiae divinae vel naturae divinae sit compossibilis multitudo personarum vel suppositorum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i5</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q5</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q5"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q5/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q6">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q6">
       <dc:title>Librum I, Quaestio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q6</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q5"/>
       <sctap:questionTitle>Utrum viator naturaliter cognoscat deum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i6</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q6</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q6</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q6"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q6/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q7">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q7">
       <dc:title>Librum I, Quaestio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q7</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q6"/>
       <sctap:questionTitle>Utrum omnis creatura rationalis sit imago trinitatis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i7</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q7</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q7</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q7"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q7/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q8">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q8">
       <dc:title>Librum I, Quaestio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q8</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q7"/>
       <sctap:questionTitle>Utrum haec sit vera: Deus genuit Deum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i8</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q8</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q8</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q8"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q8/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q8A">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q8A">
       <dc:title>Librum I, Quaestio 8A</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q8A</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8"/>
       <sctap:questionTitle>Utrum Filius generetur de substantia Patris</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i9</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q8A</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q8A</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q8A"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q8A/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q8B">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q8B">
       <dc:title>Librum I, Quaestio 8B</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q8B</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8A"/>
       <sctap:questionTitle>Utrum Pater genuit Filium voluntate vel natura</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i10</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q8B</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q8B</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q8B"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q8B/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q9">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q9">
       <dc:title>Librum I, Quaestio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q9</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q8B"/>
       <sctap:questionTitle>Utrum potentia generativa Patris sit aliquid absolutum vel respectivum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i11</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q9</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q9</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q9"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q9/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q10">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q10">
       <dc:title>Librum I, Quaestio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q10</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q9"/>
       <sctap:questionTitle>Utrum Pater possit communicare Filio potentiam generandi</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i12</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q10</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q10</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q10"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q10/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q11">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q11">
       <dc:title>Librum I, Quaestio 11</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q11</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q10"/>
       <sctap:questionTitle>Utrum aliquod praedicamentum possit vere praedicari de termino supponente pro deo</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i13</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q11</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q11</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q11"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q11/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q12">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q12">
       <dc:title>Librum I, Quaestio 12</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q12</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q11"/>
       <sctap:questionTitle>Utrum ens et alia, quae convertuntur cum ente, primo cognoscantur a nobis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i14</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q12</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q12</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q12"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q12/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q13">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q13">
       <dc:title>Librum I, Quaestio 13</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q13</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q12"/>
       <sctap:questionTitle>De praedicamentis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i15</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q13</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q13</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q13"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q13/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q14">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q14">
       <dc:title>Librum I, Quaestio 14</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q14</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q13"/>
       <sctap:questionTitle>Utrum sit aliqua quantitas, quae non est substantia vel qualitas</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i16</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q14</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q14</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q14"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q14/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q15">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q15">
       <dc:title>Librum I, Quaestio 15</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q15</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q14"/>
       <sctap:questionTitle>Utrum  aliqua res omnino indivisibilis possit esse longa,lata et profunda</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i17</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q15</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q15</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q15"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q15/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q16">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q16">
       <dc:title>Librum I, Quaestio 16</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q16</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q15"/>
       <sctap:questionTitle>Utrum tempus sit aliquid positivum reale vel aliqua res producta a deo vel ab aliquo alio</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i18</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q16</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q16</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q16"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q16/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q17">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q17">
       <dc:title>Librum I, Quaestio 17</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q17</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q16"/>
       <sctap:questionTitle>Utrum aliqua qualitas possit augeri</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i19</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q17</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q17</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q17"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q17/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q18">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q18">
       <dc:title>Librum I, Quaestio 18</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q18</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q17"/>
       <sctap:questionTitle>Utrum relatio sit distincta res a fundamento</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i20</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q18</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q18</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q18"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q18/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q19">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q19">
       <dc:title>Librum I, Quaestio 19</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q19</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q20"/>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q18"/>
       <sctap:questionTitle>Utrum deus cognoscat necessario futura contingentia</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i21</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q19</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q19</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q19"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q19/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/crathorncommentary/item/wc-l1q20">
+   <rdf:Description rdf:about="http://scta.info/resource/wc-l1q20">
       <dc:title>Librum I, Quaestio 20</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/wc-l1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:shortId>wc-l1q20</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:previous rdf:resource="http://scta.info/text/crathorncommentary/item/wc-l1q19"/>
       <sctap:questionTitle>Utrum proprietas relativa sit omnibus modis idem cum essentia divina</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.crathorncommentary:1.i22</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/crathorncommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/wc-l1q20</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/wc-l1q20</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/crathorncommentary/transcription/wc-l1q20"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/wc-l1q20/critical"/>
    </rdf:Description>
 </rdf:RDF>
 

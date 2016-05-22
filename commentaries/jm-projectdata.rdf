@@ -10,882 +10,890 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/commentary">
-      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+   <rdf:Description rdf:about="http://scta.info/resource/mirecourtcommentary">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <dc:title>John Mirecourt Commentary</dc:title>
-      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
-      <sctap:slug>ma</sctap:slug>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary</sctap:dtsurn>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/librum/jm-librum1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q6"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q7"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q8"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q9"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q10"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q11"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q12"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q13"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q14"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q15"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q16"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q17"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q18"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q19"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q20"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q21"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q22"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q23"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q24"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q25"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q26"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q27"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q28"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q29"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q30"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q31"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q32"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q33"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q34"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q35"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q36"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q37"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q38"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/librum/jm-librum1">
-      <dc:title>Librum I</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q5"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q6"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q7"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q8"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q9"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q10"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q11"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q12"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q13"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q14"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q15"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q16"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q17"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q18"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q19"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q20"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q21"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q22"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q23"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q24"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q25"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q26"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q27"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q28"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q29"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q30"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q31"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q32"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q33"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q34"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q35"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q36"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q37"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q38"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q6"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q7"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q8"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q9"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q10"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q11"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q12"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q13"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q14"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q15"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q16"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q17"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q18"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q19"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q20"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q21"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q22"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q23"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q24"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q25"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q26"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q27"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q28"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q29"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q30"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q31"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q32"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q33"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q34"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q35"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q36"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q37"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q38"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q1">
-      <dc:title>Librum I, Questio 1</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sententia"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:slug>ma</sctap:slug>
+      <sctap:shortId>mirecourtcommentary</sctap:shortId>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary</sctap:dtsurn>
+      <sctap:level>1</sctap:level>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/jm-librum1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q12"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q13"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q14"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q15"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q16"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q17"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q18"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q19"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q20"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q21"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q22"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q23"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q24"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q25"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q26"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q27"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q28"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q29"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q30"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q31"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q32"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q33"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q34"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q35"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q36"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q37"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q38"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q39"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q39"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q39"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/jm-librum1">
+      <dc:title>Librum I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q12"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q13"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q14"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q15"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q16"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q17"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q18"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q19"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q20"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q21"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q22"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q23"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q24"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q25"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q26"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q27"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q28"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q29"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q30"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q31"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q32"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q33"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q34"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q35"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q36"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q37"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q38"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q39"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q39"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/jm-l1q39"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q1">
+      <dc:title>Librum I, Questio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
       <sctap:questionTitle>Utrum cognitio sensitiva naturaliter causari vel conservari possit sine obiecto</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i1</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q1"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q2">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q2">
       <dc:title>Librum I, Questio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q1"/>
       <sctap:questionTitle>utrum cognitio sensitiva exterior causari vel conservari possit per potentiam Dei sine obiecto</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i2</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q2"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q3">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q3">
       <dc:title>Librum I, Questio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q4"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q2"/>
       <sctap:questionTitle>utrum res sensibilis cognosci possit ab anima intellectiva</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i3</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q3</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q3"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q3/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q4">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q4">
       <dc:title>Librum I, Questio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q4</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q5"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q3"/>
       <sctap:questionTitle>utrum in cognitione rei existentis vel non existentis causetur entitas aliqua in obiecto vel medio vel organo alia ab actu et habitu in potentia cognitiva</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i4</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q4</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q4"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q4/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q5">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q5">
       <dc:title>Librum I, Questio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q5</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q6"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q4"/>
       <sctap:questionTitle>utrum quelibet cognitio creata cognosci possit ab anima intellectiva</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i5</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q5</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q5"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q5/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q6">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q6">
       <dc:title>Librum I, Questio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q6</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q7"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q5"/>
       <sctap:questionTitle>utrum evidenter cognosci possit a natura creata aliqua veritas</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i6</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q6</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q6</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q6"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q6/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q7">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q7">
       <dc:title>Librum I, Questio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q7</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q8"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q6"/>
       <sctap:questionTitle>utrum per iudicium quodcumque scientificum sciatur sola veritas</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i7</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q7</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q7</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q7"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q7/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q8">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q8">
       <dc:title>Librum I, Questio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q8</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q9"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q7"/>
       <sctap:questionTitle>utrum assensibus alterius rationis simul assentire possit aliquis alicui veritati vel sic esse sicut per aliquam rationem significatur vel alicui veritati</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i8</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q8</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q8</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q8"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q8/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q9">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q9">
       <dc:title>Librum I, Questio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q9</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q10"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q8"/>
       <sctap:questionTitle>utrum cognitiones distinguantur iuxta distinctiones obiectorum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i9</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q9</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q9</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q9"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q9/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q10">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q10">
       <dc:title>Librum I, Questio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q10</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q11"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q9"/>
       <sctap:questionTitle>utrum cognitiones excedant se perfectionaliter proportionaliter secundum excessum obiectorum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i10</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q10</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q10</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q10"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q10/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q11">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q11">
       <dc:title>Librum I, Questio 11</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q11</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q12"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q10"/>
       <sctap:questionTitle>utrum voluntas sit causa effectiva volitionis vel nolitionis sue</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i11</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q11</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q11</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q11"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q11/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q12">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q12">
       <dc:title>Librum I, Questio 12</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q12</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q13"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q11"/>
       <sctap:questionTitle>utrum cuiuslibet volitionis vel nolitionis voluntas sit totalis causa</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i12</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q12</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q12</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q12"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q12/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q13">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q13">
       <dc:title>Librum I, Questio 13</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q13</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q14"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q12"/>
       <sctap:questionTitle>utrum solo Deo sit fruendum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i13</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q13</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q13</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q13"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q13/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q14">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q14">
       <dc:title>Librum I, Questio 14</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q14</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q15"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q13"/>
       <sctap:questionTitle>utrum ratione naturali convinci possit nobis in via solo Deo beatifice esse fruendum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i14</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q14</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q14</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q14"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q14/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q15">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q15">
       <dc:title>Librum I, Questio 15</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q15</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q16"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q14"/>
       <sctap:questionTitle>utrum quolibet alio a Deo sit utendum et solum tali</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i15</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q15</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q15</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q15"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q15/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q16">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q16">
       <dc:title>Librum I, Questio 16</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q16</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q17"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q15"/>
       <sctap:questionTitle>utrum frui Deo sit finis naturalis creature rationalis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i16</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q16</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q16</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q16"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q16/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q17">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q17">
       <dc:title>Librum I, Questio 17</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q17</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q18"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q16"/>
       <sctap:questionTitle>utrum aliquis in via vel in patria concipere vel intelligere possit aliquod quod est Deus, non concipiendo vel intelligendo quodlibet quod est Deus</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i17</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q17</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q17</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q17"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q17/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q18">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q18">
       <dc:title>Librum I, Questio 18</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q18</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q19"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q17"/>
       <sctap:questionTitle>utrum aliquis, in via vel in patria, diligere vel odire possit aliquid quod est Deus non odiendo vel diligendo quodlibet quod est Deus</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i18</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q18</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q18</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q18"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q18/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q19">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q19">
       <dc:title>Librum I, Questio 19</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q19</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q20"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q18"/>
       <sctap:questionTitle>utrum quelibet creata fruitio distinguatur ab anima cognoscente et eius cognitione</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i19</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q19</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q19</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q19"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q19/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q20">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q20">
       <dc:title>Librum I, Questio 20</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q20</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q21"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q19"/>
       <sctap:questionTitle>utrum Deus sit concepibilis a nobis naturaliter aliqua cognitione</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i20</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q20</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q20</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q20"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q20/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q21">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q21">
       <dc:title>Librum I, Questio 21</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q21</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q22"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q20"/>
       <sctap:questionTitle>utrum sit nobis per se notum quod aliquis sit Deus</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i21</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q21</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q21</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q21"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q21/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q22">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q22">
       <dc:title>Librum I, Questio 22</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q22</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q23"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q21"/>
       <sctap:questionTitle>utrum cum hoc quod Deus sit unus stet quod tres persone sint ille unus Deus</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i22</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q22</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q22</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q22"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q22/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q23">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q23">
       <dc:title>Librum I, Questio 23</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q23</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q24"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q22"/>
       <sctap:questionTitle>utrum in qualibet creatura reperiatur vestigium et ymago trinitatis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i23</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q23</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q23</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q23"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q23/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q24">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q24">
       <dc:title>Librum I, Questio 24</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q24</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>024</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q25"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q23"/>
       <sctap:questionTitle>utrum Deus sit ab aliquo producibilis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i24</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q24</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q24</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q24"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q24/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q25">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q25">
       <dc:title>Librum I, Questio 25</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q25</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>025</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>025</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q26"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q24"/>
       <sctap:questionTitle>utrum solus Deus sit omnino immutabilis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i25</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q25</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q25</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q25"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q25/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q26">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q26">
       <dc:title>Librum I, Questio 26</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q26</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>026</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>026</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q27"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q25"/>
       <sctap:questionTitle>utrum Deus cum aliquo sit componibilis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i26</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q26</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q26</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q26"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q26/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q27">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q27">
       <dc:title>Librum I, Questio 27</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q27</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>027</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>027</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q28"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q26"/>
       <sctap:questionTitle>utrum caritas que datur amicis Dei sit ipse spiritus sanctus</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i27</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q27</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q27</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q27"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q27/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q28">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q28">
       <dc:title>Librum I, Questio 28</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q28</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>028</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>028</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q29"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q27"/>
       <sctap:questionTitle>utrum sine caritate creata posset viator diligere Deum super omnia</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i28</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q28</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q28</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q28"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q28/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q29">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q29">
       <dc:title>Librum I, Questio 29</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q29</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>029</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>029</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q30"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q28"/>
       <sctap:questionTitle>utrum sine creata caritate possit aliquis mereri vitam eternam</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i29</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q29</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q29</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q29"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q29/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q30">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q30">
       <dc:title>Librum I, Questio 30</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q30</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>030</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>030</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q31"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q29"/>
       <sctap:questionTitle>utrum persona divina producens sit divine persone producte aliqualiter equalis vel similis</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i30</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q30</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q30</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q30"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q30/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q31">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q31">
       <dc:title>Librum I, Questio 31</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q31</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>031</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>031</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q32"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q30"/>
       <sctap:questionTitle>utrum Deus sit quecumque res que est Deus realiter</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i31</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q31</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q31</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q31"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q31/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q32">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q32">
       <dc:title>Librum I, Questio 32</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q32</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>032</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>032</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q33"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q31"/>
       <sctap:questionTitle>utrum Deus sit quecumque res est Deus formaliter</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i32</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q32</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q32</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q32"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q32/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q33">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q33">
       <dc:title>Librum I, Questio 33</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q33</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>033</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>033</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q34"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q32"/>
       <sctap:questionTitle>utrum Deus sit quelibet res que est Deus totaliter</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i33</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q33</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q33</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q33"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q33/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q34">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q34">
       <dc:title>Librum I, Questio 34</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q34</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>034</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>034</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q35"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q33"/>
       <sctap:questionTitle>utrum quecumque res est Deus fuerit Deus eternaliter</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i34</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q34</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q34</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q34"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q34/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q35">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q35">
       <dc:title>Librum I, Questio 35</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q35</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>035</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>035</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q36"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q34"/>
       <sctap:questionTitle>utrum aliquod futurum possit evidenter a divino intellectu sciri esse futurum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i35</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q35</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q35</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q35"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q35/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q36">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q36">
       <dc:title>Librum I, Questio 36</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q36</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>036</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>036</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q37"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q35"/>
       <sctap:questionTitle>utrum Deus facere possit futurum numquam fore</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i36</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q36</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q36</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q36"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q36/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q37">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q37">
       <dc:title>Librum I, Questio 37</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q37</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>037</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>037</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q38"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q36"/>
       <sctap:questionTitle>utrum futurum revelatum esse futurum possit non esse futurum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i37</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q37</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q37</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q37"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q37/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q38">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q38">
       <dc:title>Librum I, Questio 38</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q38</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>038</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>038</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q37"/>
       <sctap:questionTitle>utrum Deus possit velle vel facere mundum numquam fuisse</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i38</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q38</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q38</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q38"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q38/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q39">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q39">
       <dc:title>Librum I, Questio 39</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q39</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>039</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>039</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q38"/>
       <sctap:questionTitle>utrum Deus omnipotens possit facere quidquid non implicat contradictionem</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i39</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q39"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q39/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q39">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q39">
       <dc:title>Librum I, Questio 39</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q39</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>040</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>040</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
       <sctap:questionTitle>utrum Deus omnipotens possit facere quidquid non implicat contradictionem</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i40</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q39"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q39/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mirecourtcommentary/item/jm-l1q39">
+   <rdf:Description rdf:about="http://scta.info/resource/jm-l1q39">
       <dc:title>Librum I, Questio 39</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/jm-librum1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/JohnMirecourt"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:shortId>jm-l1q39</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>041</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>041</sctap:totalOrderNumber>
       <sctap:previous rdf:resource="http://scta.info/text/mirecourtcommentary/item/jm-l1q39"/>
       <sctap:questionTitle>utrum quilibet teneatur velle talitercumque esse qualitercumque Deus vult esse</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mirecourtcommentary:1.i41</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mirecourtcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/jm-l1q39</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mirecourtcommentary/transcription/jm-l1q39"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/jm-l1q39/critical"/>
    </rdf:Description>
 </rdf:RDF>    
 

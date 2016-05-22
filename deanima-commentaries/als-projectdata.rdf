@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:sctat="http://scta.info/text/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <rdf:Description rdf:about="http://scta.info/resource/qda">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dc:title>Quaestiones in libros De anima</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/http://scta.info/text/deanima"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:slug>als</sctap:slug>
+      <sctap:shortId>qda</sctap:shortId>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.qda</sctap:dtsurn>
+      <sctap:level>1</sctap:level>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/ada-l1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/ada-l3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q12"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/qda/leipzig"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/qda/krakow"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/qda/krakow"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/qda/leipzig">
+      <dc:title>Leipzig, Universitatsbibliothek Leipzig, 1416</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:shortId>qda/leipzig</sctap:shortId>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/qda/krakow">
+      <dc:title>Krakow, Biblioteka Jagielloaska, 635</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:hasSlug>krakow</sctap:hasSlug>
+      <sctap:shortId>qda/krakow</sctap:shortId>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/qda/krakow">
+      <dc:title>Krakow, Biblioteka Jagielloaska, 751</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:hasSlug>krakow</sctap:hasSlug>
+      <sctap:shortId>qda/krakow</sctap:shortId>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/ada-l1">
+      <dc:title>Liber 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/ada-l3">
+      <dc:title>Liber 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q9"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q10"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q11"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q1">
+      <dc:title>Librum 1, Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q2"/>
+      <sctap:questionTitle>Utrum de anima sit scientia tamquam de subiecto proprio et aedequato scientiae huius libris de anima.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q1/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q1/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q1/leipzig">
+      <dc:title>als-l1q1 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/144ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/144ra">
+      <dc:title>144ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/144ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q2">
+      <dc:title>Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q1"/>
+      <sctap:questionTitle>Utrum omnis notitia est bona</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q2/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q2/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q2/leipzig">
+      <dc:title>als-l1q2 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/144ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/144ra">
+      <dc:title>144ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L144ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/144ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q3">
+      <dc:title>Quaestio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q2"/>
+      <sctap:questionTitle>Utrum omnis notitia sit honorabilis vel de numero bonorum honorabilium.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q3/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q3/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q3/leipzig">
+      <dc:title>als-l1q3 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/145vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L145vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/145vb">
+      <dc:title>145vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L145vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/145vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q4">
+      <dc:title>Quaestio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q4</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q3"/>
+      <sctap:questionTitle>Utrum scientia de anima sit de numero difficilimorum</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q4</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q4/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q4/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q4/leipzig">
+      <dc:title>als-l1q4 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/147va"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L147va"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/147va">
+      <dc:title>147va</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L147va"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/147va"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q5">
+      <dc:title>Quaestio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q5</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q4"/>
+      <sctap:questionTitle>Utrum universale vel sit aut posterius sit singularis.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q5</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q5/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q5/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q5/leipzig">
+      <dc:title>als-l1q5 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/149ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L149ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/149ra">
+      <dc:title>149ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L149ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/149ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q6">
+      <dc:title>Quaestio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q6</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q5"/>
+      <sctap:questionTitle>Utrum accidentia magnam partem consequntur ad cognoscendi quod quidem est.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q6</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q6/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q6/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q6/leipzig">
+      <dc:title>als-l1q6 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/150vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L150vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/150vb">
+      <dc:title>150vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L150vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/150vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q7">
+      <dc:title>Quaestio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q7</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q6"/>
+      <sctap:questionTitle>Utrum anima sit actus substantialis</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q7</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q7/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q7/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q7/leipzig">
+      <dc:title>als-l1q7 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/152v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L152v"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/152v">
+      <dc:title>152v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L152v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/152v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q8">
+      <dc:title>Quaestio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q8</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q7"/>
+      <sctap:questionTitle>Utrum omnis anima sit actus primus corporis organici.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q8</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q8/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q8/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q8/leipzig">
+      <dc:title>als-l1q8 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/154vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L154vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/154vb">
+      <dc:title>154vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L154vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/154vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q9">
+      <dc:title>Quaestio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q9</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q8"/>
+      <sctap:questionTitle>Utrum diffinitio animae sit bene data qua dicitur anima est actus primus substantialis corporis physici organici vitam habentis in potentia</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q9</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q9/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q9/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q9/leipzig">
+      <dc:title>als-l1q9 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/157ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L157ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/157ra">
+      <dc:title>157ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L157ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/157ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q10">
+      <dc:title>Quaestio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q10</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q9"/>
+      <sctap:questionTitle>Utrum in eodem animali sed? in? asio() vel i9? equo anima vegetative sit distincta ab anima sensitiva vel sit una anima</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q10</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q10/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q10/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q10/leipzig">
+      <dc:title>als-l1q10 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/159rb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L159rb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/159rb">
+      <dc:title>159rb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L159rb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/159rb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q11">
+      <dc:title>Quaestio 11</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l1q11</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q1"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q10"/>
+      <sctap:questionTitle>Utrum potentiae animae in eodem animato distinguantur ab anima vel sit ipsa auet anima</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l1q11</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l1q11/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l1q11/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l1q11/leipzig">
+      <dc:title>als-l1q11 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/163ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L163ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l1q11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/163ra">
+      <dc:title>163ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L163ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/163ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q1">
+      <dc:title>Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l1q11"/>
+      <sctap:questionTitle>Utrum intellectus humanus sit virtus passiva ab intelligibili</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q1</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q1/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q1/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q1/leipzig">
+      <dc:title>als-l3q1 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/208ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L208ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/208ra">
+      <dc:title>208ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L208ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/208ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q2">
+      <dc:title>Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q2"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q1"/>
+      <sctap:questionTitle>Utrum necesse sit intellectum antequam intelligat esse denudatum ab omni allo quod intelligit</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q2/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q2/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q2/leipzig">
+      <dc:title>als-l3q2 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/209vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L209vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/209vb">
+      <dc:title>209vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L209vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/209vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q2">
+      <dc:title>Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q3"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q2"/>
+      <sctap:questionTitle>Utrum intellectus humanus sit forma substantialis communis</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q2</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q2/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q2/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q2/leipzig">
+      <dc:title>als-l3q2 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/211ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L211ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/211ra">
+      <dc:title>211ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L211ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/211ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q3">
+      <dc:title>Quaestio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q4"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q2"/>
+      <sctap:questionTitle>Utrum intellectus humanus sit forma inconveniens corpori</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q3</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q3/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q3/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q3/leipzig">
+      <dc:title>als-l3q3 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/213vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L213vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/213vb">
+      <dc:title>213vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L213vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/213vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q4">
+      <dc:title>Quaestio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q4</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q5"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q3"/>
+      <sctap:questionTitle>Utrum sit unicus intellectus quo omnes homines intelligentes intelligunt.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q4</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q4/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q4/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q4/leipzig">
+      <dc:title>als-l3q4 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/216rb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L216rb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q4"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/216rb">
+      <dc:title>216rb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L216rb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/216rb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q5">
+      <dc:title>Quaestio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q5</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q6"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q4"/>
+      <sctap:questionTitle>Utrum intellectus humanus sit perpetuus</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q5</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q5/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q5/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q5/leipzig">
+      <dc:title>als-l3q5 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/218vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L218vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/218vb">
+      <dc:title>218vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L218vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/218vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q6">
+      <dc:title>Quaestio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q6</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q7"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q5"/>
+      <sctap:questionTitle>Utrum intellectus possibilis sit pura potentia ita quod non sit aliquis actus sicut materia prima.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q6</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q6/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q6/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q6/leipzig">
+      <dc:title>als-l3q6 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/221rb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L221rb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q6"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/221rb">
+      <dc:title>221rb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L221rb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/221rb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7">
+      <dc:title>Quaestio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:editedBy>Michael StenskjÃ¦r Christensen</sctap:editedBy>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q7</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q8"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q6"/>
+      <sctap:questionTitle>Utrum intellectus humanus possit seipsum intelligere</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q7</sctap:gitRepository>
+      <sctap:status>draft</sctap:status>
+      <sctap:hasStructureDivision rdf:resource="http://scta.info/resource/div-als-l3q7-1"/>
+      <sctap:hasStructureDivision rdf:resource="http://scta.info/resource/div-als-l3q7-2"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q7/critical"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q7/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q7/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/div-als-l3q7-1">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/als-l3q7"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/division"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
+      <sctap:shortId>div-als-l3q7-1</sctap:shortId>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/div-als-l3q7-1/critical"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/div-als-l3q7-1/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/div-als-l3q7-1/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/div-als-l3q7-2">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/als-l3q7"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/division"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
+      <sctap:shortId>div-als-l3q7-2</sctap:shortId>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/div-als-l3q7-2/critical"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/div-als-l3q7-2/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/div-als-l3q7-2/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-1">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:structureElementText>Philosophum</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-2">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:structureElementText>Philosophus</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-3">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:structureElementText>Aristotelis</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-4">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/Aristotle"/>
+      <sctap:structureElementText>Aristotelem</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-1">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Arist.Ph"/>
+      <sctap:structureElementText>Physicorum</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-2">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:structureElementText>Metaphysicae</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-3">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/Arist.APo"/>
+      <sctap:structureElementText>Posteriorum</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7-4">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
+      <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/"/>
+      <sctap:structureElementText>Posteriorum</sctap:structureElementText>
+      <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7/critical/transcription">
+      <dc:title>Quaestiones in libros De anima</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:EDT>Michael StenskjÃ¦r Christensen</role:EDT>
+      <sctap:status>draft</sctap:status>
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/als-l3q7/critical"/>
+      <sctap:transcriptionType>Critical</sctap:transcriptionType>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:hasStructureBlock rdf:resource="http://scta.info/resource//critical"/>
+      <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/qda/als-l3q7/transcription/critical"/>
+      <sctap:hasXML rdf:resource="https://bitbucket.org/jeffreycwitt/als-l3q7/raw/master/als-l3q7.xml"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7/critical">
+      <dc:title>als-l3q7 [Critical]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasTranscription rdf:resource="http://scta.info/resource/als-l3q7/critical/transcription"/>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/als-l3q7/critical/transcription"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q7"/>
+      <sctap:hasSlug>critical</sctap:hasSlug>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q7/leipzig">
+      <dc:title>als-l3q7 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/222vb"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L222vb"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q7"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/222vb">
+      <dc:title>222vb</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L222vb"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/222vb"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q8">
+      <dc:title>Quaestio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q8</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q9"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q7"/>
+      <sctap:questionTitle>Utrum omnis intellectio simplex sit vera.</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q8</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q8/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q8/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q8/leipzig">
+      <dc:title>als-l3q8 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/225ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L225ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q8"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/225ra">
+      <dc:title>225ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L225ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/225ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q9">
+      <dc:title>Quaestio 9</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q9</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q10"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q8"/>
+      <sctap:questionTitle>Utrum intellectus sit v9 s; nativus specierum intelligibilium cessante actuali intellectioni</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q9</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q9/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q9/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q9/leipzig">
+      <dc:title>als-l3q9 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/226v"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L226v"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q9"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/226v">
+      <dc:title>226v</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L226v"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/226v"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q10">
+      <dc:title>Quaestio 10</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q10</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q11"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q9"/>
+      <sctap:questionTitle>Utrum intellectus posset intelligere plura simul</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q10</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q10/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q10/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q10/leipzig">
+      <dc:title>als-l3q10 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/229ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L229ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/229ra">
+      <dc:title>229ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L229ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/229ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q11">
+      <dc:title>Quaestio 11</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q11</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
+      <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q12"/>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q10"/>
+      <sctap:questionTitle>Utrum in homine anima intellectiva sit alia a sensitiva</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q11</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q11/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q11/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q11/leipzig">
+      <dc:title>als-l3q11 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/231ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L231ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q11"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/231ra">
+      <dc:title>231ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L231ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/231ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q12">
+      <dc:title>Quaestio 12</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l3"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:shortId>als-l3q12</sctap:shortId>
+      <sctap:level>3</sctap:level>
+      <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
+      <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q11"/>
+      <sctap:questionTitle>Utrum natura faciat aliquid frustra vel et() quandoque deficiat in neccesariis?</sctap:questionTitle>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/als-l3q12</sctap:gitRepository>
+      <sctap:status>Not Started</sctap:status>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/als-l3q12/leipzig"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/als-l3q12/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/als-l3q12/leipzig">
+      <dc:title>als-l3q12 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <sctap:hasSlug>leipzig</sctap:hasSlug>
+      <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/233ra"/>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L233ra"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/als-l3q12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/material/als-leipzig/233ra">
+      <dc:title>233ra</dc:title>
+      <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/als-leipzig/canvas/L233ra"/>
+      <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/als-leipzig/list/233ra"/>
+      <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+      <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/"/>
+   </rdf:Description>
+</rdf:RDF>
+

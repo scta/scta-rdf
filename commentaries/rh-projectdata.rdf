@@ -10,605 +10,577 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/commentary">
-      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+   <rdf:Description rdf:about="http://scta.info/resource/holcotcommentary">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <dc:title>Holcot Commentary</dc:title>
-      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
-      <sctap:slug/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary</sctap:dtsurn>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/librum/rh-book4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q6"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q7"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q8"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/librum/rh-book1">
-      <dc:title>Book I</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q5"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/librum/rh-book2">
-      <dc:title>Book II</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q5"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/librum/rh-book3">
-      <dc:title>Book III</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:3</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/librum/rh-book4">
-      <dc:title>Book IV</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q4"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q5"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q6"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q7"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q8"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q3"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q5"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q6"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q7"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q8"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1prin1">
-      <dc:title>Principia I</dc:title>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sententia"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:slug/>
+      <sctap:shortId>holcotcommentary</sctap:shortId>
+      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary</sctap:dtsurn>
+      <sctap:level>1</sctap:level>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rh-book1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rh-book2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rh-book3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rh-book4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1prin1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1prin"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2prin2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b3q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4prin4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-book1">
+      <dc:title>Book I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1prin1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1prin"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-book2">
+      <dc:title>Book II</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2prin2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2q5"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-book3">
+      <dc:title>Book III</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b3q1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-book4">
+      <dc:title>Book IV</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4prin4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q3"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q5"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q6"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q7"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4q8"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b1prin1">
+      <dc:title>Principia I</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/principia"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b1prin1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
       <sctap:questionTitle>Principia: De obiecto actus credenda, utrum sit ipsum complexum vel res significata per complexum</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/principia"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i1</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1prin1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b1prin1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b1prin1"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b1prin1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q1">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b1q1">
       <dc:title>Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b1q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin1"/>
       <sctap:questionTitle>Utrum quilibet viator existens in gratia, assentiendo articulis fidei, mereatur vitam aeternam.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i2</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b1q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b1q1"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b1q1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1prin">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b1prin">
       <dc:title>Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b1prin</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q1"/>
       <sctap:questionTitle>Utrum voluntas creata in utendo ut fruendo sit libera libertate contradictionis.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i3</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1prin</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b1prin</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b1prin"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b1prin/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q3">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b1q3">
       <dc:title>Quaestio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b1q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q4"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1prin"/>
       <sctap:questionTitle>Utrum viator tenatur frui soli Deo.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i4</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q3</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b1q3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b1q3"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b1q3/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q4">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b1q4">
       <dc:title>Quaestio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b1q4</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q5"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q3"/>
       <sctap:questionTitle>Utrum Deus sit tres personae distinctae.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i5</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q4</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b1q4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b1q4"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Jews"/>
-            </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b1q5">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b1q4/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b1q5">
       <dc:title>Quaestio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b1q5</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q4"/>
       <sctap:questionTitle>Utrum aliqua res simpliciter simplex sit in genere.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:1.i6</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b1q5</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b1q5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b1q5"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Iio5_7"/>
-            </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2prin2">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b1q5/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b2prin2">
       <dc:title>Principia II</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/principia"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b2prin2</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b1q5"/>
       <sctap:questionTitle>Principia: Circa principium secundi libri in quo arguitur de causalitate Dei respectu creaturae, quaero istam quaestionem: Utrum Deus sit causa effective omnium aliorum se.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/principia"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i7</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2prin2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b2prin2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b2prin2"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b2prin2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q1">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b2q1">
       <dc:title>Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b2q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2prin2"/>
       <sctap:questionTitle>Utrum creator generis humani iuste gubernat genus humanum.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i8</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b2q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b2q1"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b2q1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q2">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b2q2">
       <dc:title>Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b2q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q1"/>
       <sctap:questionTitle>Utrum Deus ab aeterno sciverit se producturum mundum.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i9</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b2q2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b2q2"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_a"/>
-                <!-- f. i.5.vb of Lyon edition -->
-            </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q3">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b2q2/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b2q3">
       <dc:title>Quaestio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b2q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q4"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
       <sctap:questionTitle>Utrum angelo confirmatio conveniat deputari ad custodiendum hominem viatorem.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i10</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q3</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b2q3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b2q3"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b2q3/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q4">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b2q4">
       <dc:title>Quaestio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b2q4</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q5"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q3"/>
       <sctap:questionTitle>Utrum daemones libere peccaverunt.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i11</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q4</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b2q4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b2q4"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b2q4/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b2q5">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b2q5">
       <dc:title>Quaestio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b2q5</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q4"/>
       <sctap:questionTitle>Utrum stellae sint creatae ut per lumen et motum sint in signa et tempora.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:2.i12</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b2q5</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b2q5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b2q5"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b2q5/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/">
+   <rdf:Description rdf:about="http://scta.info/resource/">
       <dc:title>Principia III</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book3"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/principia"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId/>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q5"/>
       <sctap:questionTitle>Principia (?): Utrum Filius Dei assumpsit naturam humani in unitatem suppositi.
 or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/principia"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:3.i13</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource//critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b3q1">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b3q1">
       <dc:title>Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book3"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b3q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
       <sctap:questionTitle>Utrum filius Dei incarnari potuit.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:3.i14</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b3q1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b3q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b3q1"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_6_18_a"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_7_20_a"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_a"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt26_24"/> 
-      <!-- see Holcot pdf 347 -->
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mc14_21"/> 
-      <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Suetonius"/> 
-      <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/work/DeVitaCaesarum"/> 
-      <!-- see Holcot pdf 347 -->
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Caligula"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Aristotle"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/Ethics"/> 
-      <!-- Holcot seems to be quoting from Ethics III but I'm not sure if its a direct quote-->
-                <!-- 2 augustine quote and anselm quote on PDF 352b -->
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/Icor10_13"/> 
-      <!-- see Holcot PDF 353a -->
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/mt10_23"/> 
-      <!-- see Holcot PDF 355, q. 1, a. 4 -->
-                
-            </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4prin4">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b3q1/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4prin4">
       <dc:title>Principia IV</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book4"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4prin4</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
       <sctap:questionTitle>Principia (IV): Utrum viator existens in gratia ordinate utendo et fruendo posset vitare omne peccatum.
 or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum informans gratia conferatur.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i15</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4prin4</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4prin4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4prin4"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4prin4/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q1">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q1">
       <dc:title>Quaestio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book4"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q1</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4prin4"/>
       <sctap:questionTitle>Utrum baptismus rite susceptus conferat gratiam baptizatio.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i16</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q1"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q2">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q2">
       <dc:title>Quaestio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book4"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q2</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q3"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q1"/>
       <sctap:questionTitle>Utrum confirmatio sit sacramentum.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i17</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q2"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q3">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q3">
       <dc:title>Quaestio 3</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book4"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q3</sctap:shortId>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
       <sctap:questionTitle>Utrum in sacramento euchariste sub speciebus panis vere et realiter existat corpus Christi.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i18</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q3</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q3</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q3"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q3/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q4">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q4">
       <dc:title>Quaestio 4</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q4</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q5"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q2"/>
       <sctap:questionTitle>Utrum peccator possit satisfacere Deo pro peccato mortali.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i19</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q4</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q4</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q4"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q4/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q5">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q5">
       <dc:title>Quaestio 5</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q5</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q6"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q4"/>
       <sctap:questionTitle>Utrum quilibet sacerdos posset quemlibet absolvere a quocumque peccato.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i20</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q5</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q5</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q5"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q5/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q6">
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q6">
       <dc:title>Quaestio 6</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q6</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q7"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q5"/>
       <sctap:questionTitle>Utrum confessio sacerdoti facienda sit homini necessaria ad salutem.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i21</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q6</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q6</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q6"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/io20_22"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/io20_23"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Bernard_DePraecepto_2_5_a"/>
-                </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q7">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q6/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q7">
       <dc:title>Quaestio 7</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q7</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q8"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q6"/>
       <sctap:questionTitle>Utrum poenitenti et confesso non proprio sacerdoti, habenti tamen commissionem generalem audiendi confessiones necesse sit eadem peccata iterum confiteri proprio sacerdoti</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i22</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q7</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q7</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q7"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_22_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_21_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_2_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_20_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_35_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_24_b"/> 
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_CurDeusHomo_1_11_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/ro8_3"/>
-                </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/rh-b4q8">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q7/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rh-b4q8">
       <dc:title>Quaestio 8</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId>rh-b4q8</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/holcotcommentary/item/"/>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q7"/>
       <sctap:questionTitle>Utrum finale praemium boni viatoris sit aeterna beatitude.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i23</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rh-b4q8</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rh-b4q8</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/rh-b4q8"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a"/>
-                    <sctap:references resource="http://scta.info/text/lombardsententia/distinction/pl-b4d49"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/io17_3"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_Confessions_10_23_33_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/aa-consolatio-34"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Anselm_DeConcordia_3_13_a"/>
-                    <sctap:quotes resource="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_3_7_a"/>
-                </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/holcotcommentary/item/">
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rh-b4q8/critical"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/">
       <dc:title>Sermo finalis</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rh-book4"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/sermo"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:shortId/>
+      <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
       <sctap:previous rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b4q8"/>
       <sctap:questionTitle>Sermo finalis: ‘Cursum consummavi, fidem servavi,’ Tim. 4.  Sollicitudo scolastica studiosissima circa sacrae theologiae notitiam adquirendam comparatur amicitae amatoris qui per laboriosam militiam nititur quaerere sibi sponsam.</sctap:questionTitle>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/sermo"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.holcotcommentary:4.i24</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/holcotcommentary/commentary"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/holcotcommentary/transcription/"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource//critical"/>
    </rdf:Description>
 </rdf:RDF>
 

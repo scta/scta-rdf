@@ -13,9 +13,11 @@
    <rdf:Description rdf:about="http://scta.info/text/qda/commentary">
       <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
       <dc:title>Quaestiones in libros De anima</dc:title>
-      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/http://scta.info/text/deanima"/>
       <sctap:slug>als</sctap:slug>
+      <sctap:shortId>qda</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda</sctap:dtsurn>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/qda/librum/ada-l1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/text/qda/librum/ada-l3"/>
       <sctap:hasItem rdf:resource="http://scta.info/text/qda/item/als-l1q1"/>
@@ -48,19 +50,19 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/als-leipzig">
       <dc:title>Leipzig, Universitatsbibliothek Leipzig, 1416</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/als-krakow">
       <dc:title>Krakow, Biblioteka Jagielloaska, 635</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>krakow</sctap:hasSlug>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/als-krakow">
       <dc:title>Krakow, Biblioteka Jagielloaska, 751</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>krakow</sctap:hasSlug>
    </rdf:Description>
@@ -134,13 +136,14 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q1">
       <dc:title>Librum 1, Quaestio 1</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q2"/>
       <sctap:questionTitle>Utrum de anima sit scientia tamquam de subiecto proprio et aedequato scientiae huius libris de anima.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q1</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i1</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -152,7 +155,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q1">
       <dc:title>als-l1q1 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/144ra"/>
@@ -167,7 +170,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q2">
       <dc:title>Quaestio 2</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q3"/>
@@ -175,6 +178,7 @@
       <sctap:questionTitle>Utrum omnis notitia est bona</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q2</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i2</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -186,7 +190,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q2">
       <dc:title>als-l1q2 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/144ra"/>
@@ -201,7 +205,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q3">
       <dc:title>Quaestio 3</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q4"/>
@@ -209,6 +213,7 @@
       <sctap:questionTitle>Utrum omnis notitia sit honorabilis vel de numero bonorum honorabilium.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q3</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i3</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -220,7 +225,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q3">
       <dc:title>als-l1q3 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/145vb"/>
@@ -235,7 +240,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q4">
       <dc:title>Quaestio 4</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q5"/>
@@ -243,6 +248,7 @@
       <sctap:questionTitle>Utrum scientia de anima sit de numero difficilimorum</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q4</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i4</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -254,7 +260,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q4">
       <dc:title>als-l1q4 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/147va"/>
@@ -269,7 +275,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q5">
       <dc:title>Quaestio 5</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q6"/>
@@ -277,6 +283,7 @@
       <sctap:questionTitle>Utrum universale vel sit aut posterius sit singularis.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q5</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i5</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -288,7 +295,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q5">
       <dc:title>als-l1q5 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/149ra"/>
@@ -303,7 +310,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q6">
       <dc:title>Quaestio 6</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q7"/>
@@ -311,6 +318,7 @@
       <sctap:questionTitle>Utrum accidentia magnam partem consequntur ad cognoscendi quod quidem est.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q6</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i6</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -322,7 +330,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q6">
       <dc:title>als-l1q6 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/150vb"/>
@@ -337,7 +345,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q7">
       <dc:title>Quaestio 7</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q8"/>
@@ -345,6 +353,7 @@
       <sctap:questionTitle>Utrum anima sit actus substantialis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q7</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i7</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -356,7 +365,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q7">
       <dc:title>als-l1q7 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/152v"/>
@@ -371,7 +380,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q8">
       <dc:title>Quaestio 8</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q9"/>
@@ -379,6 +388,7 @@
       <sctap:questionTitle>Utrum omnis anima sit actus primus corporis organici.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q8</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i8</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -390,7 +400,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q8">
       <dc:title>als-l1q8 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/154vb"/>
@@ -405,7 +415,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q9">
       <dc:title>Quaestio 9</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q10"/>
@@ -413,6 +423,7 @@
       <sctap:questionTitle>Utrum diffinitio animae sit bene data qua dicitur anima est actus primus substantialis corporis physici organici vitam habentis in potentia</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q9</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i9</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -424,7 +435,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q9">
       <dc:title>als-l1q9 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/157ra"/>
@@ -439,7 +450,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q10">
       <dc:title>Quaestio 10</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l1q11"/>
@@ -447,6 +458,7 @@
       <sctap:questionTitle>Utrum in eodem animali sed? in? asio() vel i9? equo anima vegetative sit distincta ab anima sensitiva vel sit una anima</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q10</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i10</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -458,7 +470,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q10">
       <dc:title>als-l1q10 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/159rb"/>
@@ -473,7 +485,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l1q11">
       <dc:title>Quaestio 11</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q1"/>
@@ -481,6 +493,7 @@
       <sctap:questionTitle>Utrum potentiae animae in eodem animato distinguantur ab anima vel sit ipsa auet anima</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l1q11</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:1.i11</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -492,7 +505,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l1q11">
       <dc:title>als-l1q11 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/163ra"/>
@@ -507,7 +520,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q1">
       <dc:title>Quaestio 1</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q2"/>
@@ -515,6 +528,7 @@
       <sctap:questionTitle>Utrum intellectus humanus sit virtus passiva ab intelligibili</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q1</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i12</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -526,7 +540,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q1">
       <dc:title>als-l3q1 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/208ra"/>
@@ -541,7 +555,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q2">
       <dc:title>Quaestio 2</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q2"/>
@@ -549,6 +563,7 @@
       <sctap:questionTitle>Utrum necesse sit intellectum antequam intelligat esse denudatum ab omni allo quod intelligit</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q2</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i13</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -560,7 +575,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q2">
       <dc:title>als-l3q2 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/209vb"/>
@@ -575,7 +590,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q2">
       <dc:title>Quaestio 2</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q3"/>
@@ -583,6 +598,7 @@
       <sctap:questionTitle>Utrum intellectus humanus sit forma substantialis communis</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q2</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i14</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -594,7 +610,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q2">
       <dc:title>als-l3q2 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/211ra"/>
@@ -609,7 +625,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q3">
       <dc:title>Quaestio 3</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q4"/>
@@ -617,6 +633,7 @@
       <sctap:questionTitle>Utrum intellectus humanus sit forma inconveniens corpori</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q3</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i15</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -628,7 +645,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q3">
       <dc:title>als-l3q3 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/213vb"/>
@@ -643,7 +660,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q4">
       <dc:title>Quaestio 4</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q5"/>
@@ -651,6 +668,7 @@
       <sctap:questionTitle>Utrum sit unicus intellectus quo omnes homines intelligentes intelligunt.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q4</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i16</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -662,7 +680,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q4">
       <dc:title>als-l3q4 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/216rb"/>
@@ -677,7 +695,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q5">
       <dc:title>Quaestio 5</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q6"/>
@@ -685,6 +703,7 @@
       <sctap:questionTitle>Utrum intellectus humanus sit perpetuus</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q5</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i17</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -696,7 +715,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q5">
       <dc:title>als-l3q5 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/218vb"/>
@@ -711,7 +730,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q6">
       <dc:title>Quaestio 6</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q7"/>
@@ -719,6 +738,7 @@
       <sctap:questionTitle>Utrum intellectus possibilis sit pura potentia ita quod non sit aliquis actus sicut materia prima.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q6</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i18</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -730,7 +750,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q6">
       <dc:title>als-l3q6 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/221rb"/>
@@ -745,7 +765,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q7">
       <dc:title>Quaestio 7</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q8"/>
@@ -753,6 +773,7 @@
       <sctap:questionTitle>Utrum intellectus humanus possit seipsum intelligere</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q7</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i19</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -848,7 +869,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/transcription/als-l3q7">
       <dc:title>Quaestiones in libros De anima</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <role:EDT>Michael StenskjÃ¦r Christensen</role:EDT>
       <sctap:status>draft</sctap:status>
       <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
@@ -884,7 +905,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q7">
       <dc:title>als-l3q7 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/222vb"/>
@@ -899,7 +920,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q8">
       <dc:title>Quaestio 8</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q9"/>
@@ -907,6 +928,7 @@
       <sctap:questionTitle>Utrum omnis intellectio simplex sit vera.</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q8</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i20</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -918,7 +940,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q8">
       <dc:title>als-l3q8 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/225ra"/>
@@ -933,7 +955,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q9">
       <dc:title>Quaestio 9</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>021</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q10"/>
@@ -941,6 +963,7 @@
       <sctap:questionTitle>Utrum intellectus sit v9 s; nativus specierum intelligibilium cessante actuali intellectioni</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q9</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i21</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -952,7 +975,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q9">
       <dc:title>als-l3q9 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/226v"/>
@@ -967,7 +990,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q10">
       <dc:title>Quaestio 10</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>022</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q11"/>
@@ -975,6 +998,7 @@
       <sctap:questionTitle>Utrum intellectus posset intelligere plura simul</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q10</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i22</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -986,7 +1010,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q10">
       <dc:title>als-l3q10 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/229ra"/>
@@ -1001,7 +1025,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q11">
       <dc:title>Quaestio 11</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>023</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/qda/item/als-l3q12"/>
@@ -1009,6 +1033,7 @@
       <sctap:questionTitle>Utrum in homine anima intellectiva sit alia a sensitiva</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q11</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i23</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -1020,7 +1045,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q11">
       <dc:title>als-l3q11 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/231ra"/>
@@ -1035,13 +1060,14 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/item/als-l3q12">
       <dc:title>Quaestio 12</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>024</sctap:totalOrderNumber>
       <sctap:previous rdf:resource="http://scta.info/text/qda/item/als-l3q11"/>
       <sctap:questionTitle>Utrum natura faciat aliquid frustra vel et() quandoque deficiat in neccesariis?</sctap:questionTitle>
       <rdf:type rdf:resource="http://scta.info/resource/item"/>
       <rdf:type rdf:resource="http://scta.info/resource/quaestio"/>
+      <sctap:shortId>als-l3q12</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.qda:2.i24</sctap:dtsurn>
       <sctap:level>3</sctap:level>
       <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/qda/commentary"/>
@@ -1053,7 +1079,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/text/qda/witness/leipzig_als-l3q12">
       <dc:title>als-l3q12 [Leipzig, Universitatsbibliothek Leipzig, 1416]</dc:title>
-      <role:AUT rdf:resource="orUri&gt;http://scta.info/resource/person/AlbertusDeSaxonia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>leipzig</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/als-leipzig/233ra"/>

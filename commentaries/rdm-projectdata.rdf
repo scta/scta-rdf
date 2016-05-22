@@ -10,144 +10,163 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/commentary">
-      <rdf:type rdf:resource="http://scta.info/resource/commentarius"/>
+   <rdf:Description rdf:about="http://scta.info/resource/mediavillacommentary">
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <dc:title>Mediavilla Commentary</dc:title>
-      <dcterms:isPartOf rdf:resource="http://scta.info/resource/scta"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/text/sententia"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:slug>rdm</sctap:slug>
+      <sctap:shortId>mediavillacommentary</sctap:shortId>
       <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary</sctap:dtsurn>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum2"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum3"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum4"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a2"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/rdm-walt349"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/rdm-brixze1591"/>
+      <sctap:level>1</sctap:level>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-librum1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-librum2"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-librum3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-librum4"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1a1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1a2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d2a1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d2a2"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/mediavillacommentary/walt349"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/mediavillacommentary/brixze1591"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/rdm-walt349">
+   <rdf:Description rdf:about="http://scta.info/resource/mediavillacommentary/walt349">
       <dc:title>Baltimore, Walters ms. 349 15</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>walt349</sctap:hasSlug>
+      <sctap:shortId>mediavillacommentary/walt349</sctap:shortId>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/rdm-brixze1591">
+   <rdf:Description rdf:about="http://scta.info/resource/mediavillacommentary/brixze1591">
       <dc:title>Brixae 1591</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
+      <sctap:shortId>mediavillacommentary/brixze1591</sctap:shortId>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/librum/rdm-librum1">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-librum1">
       <dc:title>Librum I</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:1</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/librum/rdm-librum2">
-      <dc:title>Librum II</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:2</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/librum/rdm-librum3">
-      <dc:title>Librum III</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/librum/rdm-librum4">
-      <dc:title>Librum IV</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/librum"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:4</sctap:dtsurn>
-      <sctap:level>2</sctap:level>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d1">
-      <dc:title>Librum III, Distinctio 1</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum3"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:isPartOfBook rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum3"/>
-      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.1</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d2">
-      <dc:title>Librum III, Distinctio 2</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/distinctio"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum3"/>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <sctap:isPartOfBook rdf:resource="http://scta.info/text/mediavillacommentary/librum/rdm-librum3"/>
-      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.2</sctap:dtsurn>
-      <sctap:level>3</sctap:level>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a2"/>
-      <sctap:hasItem rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a2"/>
-   </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int">
-      <dc:title>Librum III, Distinctio 1, Circa textum</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-librum2">
+      <dc:title>Librum II</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-librum3">
+      <dc:title>Librum III</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-l3d1"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-l3d2"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1a1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1a2"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d2a1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d2a2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1">
+      <dc:title>Librum III, Distinctio 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>3</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-librum3"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1a1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1a2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d2">
+      <dc:title>Librum III, Distinctio 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>3</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-librum3"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d2a1"/>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d2a2"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-librum4">
+      <dc:title>Librum IV</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <sctap:level>2</sctap:level>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
+      <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1int">
+      <dc:title>Librum III, Distinctio 1, Circa textum</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-l3d1"/>
+      <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/introitus"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:shortId>rdm-l3d1int</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>001</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1"/>
       <sctap:questionTitle/>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/introitus"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.1.i1</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d1"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rdm-l3d1int</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rdm-l3d1int</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mediavillacommentary/transcription/rdm-l3d1int"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1int"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/rdm-l3d1int/brixze1591"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rdm-l3d1int/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1int">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1int/brixze1591">
       <dc:title>rdm-l3d1int [Brixae 1591]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/3"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B3"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/material/rdm-brixze1591/3">
       <dc:title>3</dc:title>
@@ -156,29 +175,30 @@
       <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
       <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1a1">
       <dc:title>Librum III, Distinctio 1, Articulus 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-l3d1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:shortId>rdm-l3d1a1</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2"/>
       <sctap:previous rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
       <sctap:questionTitle/>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.1.i2</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d1"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rdm-l3d1a1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rdm-l3d1a1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mediavillacommentary/transcription/rdm-l3d1a1"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1a1"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/rdm-l3d1a1/brixze1591"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rdm-l3d1a1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1a1">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1a1/brixze1591">
       <dc:title>rdm-l3d1a1 [Brixae 1591]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/3"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B3"/>
@@ -192,6 +212,7 @@
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B7"/>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/8"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B8"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/rdm-l3d1a1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/material/rdm-brixze1591/3">
       <dc:title>3</dc:title>
@@ -235,29 +256,30 @@
       <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
       <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/7"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1a2">
       <dc:title>Librum III, Distinctio 1, Articulus 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-l3d1"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:shortId>rdm-l3d1a2</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
       <sctap:previous rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a1"/>
       <sctap:questionTitle/>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.1.i3</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d1"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rdm-l3d1a2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rdm-l3d1a2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mediavillacommentary/transcription/rdm-l3d1a2"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1a2"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/rdm-l3d1a2/brixze1591"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rdm-l3d1a2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1a2">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1a2/brixze1591">
       <dc:title>rdm-l3d1a2 [Brixae 1591]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/9"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B9"/>
@@ -271,6 +293,7 @@
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B13"/>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/14"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B14"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/rdm-l3d1a2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/material/rdm-brixze1591/9">
       <dc:title>9</dc:title>
@@ -314,32 +337,34 @@
       <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
       <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/13"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1int">
       <dc:title>Librum III, Distinctio 1, Circa textum</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-l3d2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/introitus"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:shortId>rdm-l3d1int</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1"/>
       <sctap:previous rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1a2"/>
       <sctap:questionTitle/>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/introitus"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.2.i4</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d2"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rdm-l3d1int</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rdm-l3d1int</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mediavillacommentary/transcription/rdm-l3d1int"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1int"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/rdm-l3d1int/brixze1591"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rdm-l3d1int/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d1int">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d1int/brixze1591">
       <dc:title>rdm-l3d1int [Brixae 1591]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/15"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B15"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/material/rdm-brixze1591/15">
       <dc:title>15</dc:title>
@@ -348,29 +373,30 @@
       <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
       <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d2a1">
       <dc:title>Librum III, Distinctio 2, Articulus 1</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-l3d2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:shortId>rdm-l3d2a1</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:next rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a2"/>
       <sctap:previous rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d1int"/>
       <sctap:questionTitle/>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.2.i5</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d2"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rdm-l3d2a1</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rdm-l3d2a1</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mediavillacommentary/transcription/rdm-l3d2a1"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d2a1"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/rdm-l3d2a1/brixze1591"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rdm-l3d2a1/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d2a1">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d2a1/brixze1591">
       <dc:title>rdm-l3d2a1 [Brixae 1591]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/15"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B15"/>
@@ -384,6 +410,7 @@
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B19"/>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/20"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B20"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/rdm-l3d2a1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/material/rdm-brixze1591/15">
       <dc:title>15</dc:title>
@@ -427,28 +454,29 @@
       <sctap:nextFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/"/>
       <sctap:previousFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/19"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a2">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d2a2">
       <dc:title>Librum III, Distinctio 2, Articulus 2</dc:title>
+      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-l3d2"/>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
+      <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:shortId>rdm-l3d2a2</sctap:shortId>
+      <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:previous rdf:resource="http://scta.info/text/mediavillacommentary/item/rdm-l3d2a1"/>
       <sctap:questionTitle/>
-      <rdf:type rdf:resource="http://scta.info/resource/item"/>
-      <rdf:type rdf:resource="http://scta.info/resource/articulus"/>
-      <sctap:dtsurn>urn:dts:latinLit:sentences.mediavillacommentary:3.2.i6</sctap:dtsurn>
-      <sctap:level>4</sctap:level>
-      <sctap:isPartOfCommentary rdf:resource="http://scta.info/text/mediavillacommentary/commentary"/>
-      <dcterms:isPartOf rdf:resource="http://scta.info/text/mediavillacommentary/distinctio/rdm-l3d2"/>
-      <sctap:gitRepository>http://bitbucket.org/jeffreycwitt/rdm-l3d2a2</sctap:gitRepository>
+      <sctap:gitRepository>https://bitbucket.org/jeffreycwitt/rdm-l3d2a2</sctap:gitRepository>
       <sctap:status>Not Started</sctap:status>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/text/mediavillacommentary/transcription/rdm-l3d2a2"/>
-      <sctap:hasWitness rdf:resource="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d2a2"/>
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/rdm-l3d2a2/brixze1591"/>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/rdm-l3d2a2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/mediavillacommentary/witness/brixze1591_rdm-l3d2a2">
+   <rdf:Description rdf:about="http://scta.info/resource/rdm-l3d2a2/brixze1591">
       <dc:title>rdm-l3d2a2 [Brixae 1591]</dc:title>
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
-      <rdf:type rdf:resource="http://scta.info/resource/witness"/>
+      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:hasSlug>brixze1591</sctap:hasSlug>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/20"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B20"/>
@@ -460,6 +488,7 @@
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B23"/>
       <sctap:hasFolioSide rdf:resource="http://scta.info/resource/material/rdm-brixze1591/24"/>
       <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/rdm-brixze1591/canvas/B24"/>
+      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/rdm-l3d2a2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/material/rdm-brixze1591/20">
       <dc:title>20</dc:title>
