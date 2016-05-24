@@ -37,9 +37,9 @@
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasWork rdf:resource="{$itemid}"/>
                 </xsl:for-each>
-                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:mentions[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
+                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
-                    <sctap:mentionedBy rdf:resource="{$itemid}"/>
+                    <sctap:hasInstance rdf:resource="{$itemid}"/>
                 </xsl:for-each>
                 
                 </rdf:Description>

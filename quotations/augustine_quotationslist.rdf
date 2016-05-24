@@ -17,10 +17,6 @@
       <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:citation/>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q3-d1e163"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l1-ctindr"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_deTrinitate_14_1_3_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -33,11 +29,6 @@
       <sctap:fromBook>14</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>3</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/anconacommentary/item/ada-l1prolp2q2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/vargascommentary/item/atv-l1prolq1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/vargascommentary/paragraph/atvl1prolq1-d1e3715"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/tarantasiacommentary/item/pdt-l1prolq1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/tarantasiacommentary/paragraph/pdtl1prolq1-d1e4624"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_ContraEpistulamManichaei_5_6_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -47,10 +38,6 @@
       <sctap:quoteAuthor rdf:resource="http://scta.info/resource/person/Augustine"/>
       <sctap:citation>PL 42:</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio76"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l76-srepip"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/d1l74smpsfc"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_13_7_10_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -99,8 +86,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1prol"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1prol-qifacc"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -113,8 +98,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1prol"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1prol-qifacc"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_1_c">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -127,8 +110,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1prol"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1prol-nidqhc"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_1_2_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -147,8 +128,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1prol"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1prol-nidqhc"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -167,8 +146,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c1-ueeeis"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -187,8 +164,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c1-eqadta"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_2_2_c">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -219,8 +194,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c2-ieieas"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -237,8 +210,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>4</sctap:fromChapter>
       <sctap:fromChapter>4</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c2-faeand"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_5_5_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -263,8 +234,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>5</sctap:fromChapter>
       <sctap:fromChapter>5</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c2-riqhud"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_4_4_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -281,8 +250,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>4</sctap:fromChapter>
       <sctap:fromChapter>4</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c2-uaitac"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDoctrinaChristiana_1_22_20_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -299,8 +266,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>22</sctap:fromChapter>
       <sctap:fromChapter>20</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c2-iieipp"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_10_13_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -315,8 +280,6 @@
       <sctap:fromBook>10</sctap:fromBook>
       <sctap:fromChapter>10</sctap:fromChapter>
       <sctap:fromChapter>13</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l1d1c2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/paragraph/pll1d1c2-uaiqfe"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_10_11_17_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -353,7 +316,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>6</sctap:fromChapter>
       <sctap:fromChapter>18</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_7_20_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -366,7 +328,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>7</sctap:fromChapter>
       <sctap:fromChapter>20</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -379,7 +340,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>8</sctap:fromChapter>
       <sctap:fromChapter>23</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeLiberoArbitrio_3_8_23_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -392,7 +352,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>8</sctap:fromChapter>
       <sctap:fromChapter>23</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b3q1"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Confessionum_1_12_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -415,8 +374,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>10</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q16-d1e251"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Confessionum_13_9_10_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -429,10 +386,6 @@
       <sctap:fromBook>13</sctap:fromBook>
       <sctap:fromChapter>9</sctap:fromChapter>
       <sctap:fromChapter>10</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q16"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q16-d1e251"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q16-d1e921"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_17_29_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -445,8 +398,6 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>17</sctap:fromChapter>
       <sctap:fromChapter>29</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q19-d1e234"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_11_12_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -459,8 +410,6 @@
       <sctap:fromBook>5</sctap:fromBook>
       <sctap:fromChapter>11</sctap:fromChapter>
       <sctap:fromChapter>12</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q19-d1e234"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_6_10_11_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -473,14 +422,6 @@
       <sctap:fromBook>6</sctap:fromBook>
       <sctap:fromChapter>10</sctap:fromChapter>
       <sctap:fromChapter>11</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q19-d1e282"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q28-d1e3304"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l59-uatdcb"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio68"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l68-apldei"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_19_34_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -493,8 +434,6 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>19</sctap:fromChapter>
       <sctap:fromChapter>34</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q19-d1e282"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_3_9_18_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -507,8 +446,6 @@
       <sctap:fromBook>3</sctap:fromBook>
       <sctap:fromChapter>19</sctap:fromChapter>
       <sctap:fromChapter>18</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l59-uatdcb"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_14_15_21_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -521,10 +458,6 @@
       <sctap:fromBook>14</sctap:fromBook>
       <sctap:fromChapter>15</sctap:fromChapter>
       <sctap:fromChapter>21</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio59"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l59-uatdcb"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio70"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l70-tahfho"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_ContraIulianum_4_3_33_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -537,8 +470,6 @@
       <sctap:fromBook>4</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:fromChapter>33</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q19-d1e347"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_8_3_5_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -551,8 +482,6 @@
       <sctap:fromBook>8</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:fromChapter>5</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q19"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q19-d1e347"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_1_1_1_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -565,10 +494,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q6"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q6-d1e413"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/item/lectio30"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/plaoulcommentary/paragraph/l30-esdrsi"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Sermo351_2_2_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -580,8 +505,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
       <sctap:fromBook>2</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b4-q3"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/lombardsententia/item/pl-l4d4c2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_1_2_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -594,8 +517,6 @@
       <sctap:fromBook>5</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q21-d1e3270"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_3_4_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -608,8 +529,6 @@
       <sctap:fromBook>5</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:fromChapter>4</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q21-d1e3350"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_10_11_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -622,8 +541,6 @@
       <sctap:fromBook>5</sctap:fromBook>
       <sctap:fromChapter>10</sctap:fromChapter>
       <sctap:fromChapter>11</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q21"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q21-d1e3577"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_7_1_2_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -636,8 +553,6 @@
       <sctap:fromBook>7</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q23"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q23-d1e3586"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_7_2_3_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -650,8 +565,6 @@
       <sctap:fromBook>7</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
       <sctap:fromChapter>3</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q23"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q23-d1e3614"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Confessions_10_29_40_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -664,8 +577,6 @@
       <sctap:fromBook>10</sctap:fromBook>
       <sctap:fromChapter>29</sctap:fromChapter>
       <sctap:fromChapter>40</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q26"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q26-d1e3534"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_13_22_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -678,8 +589,6 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>13</sctap:fromChapter>
       <sctap:fromChapter>22</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q27-d1e3202"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_13_22_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -692,8 +601,6 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>13</sctap:fromChapter>
       <sctap:fromChapter>22</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q27-d1e3224"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_4_6_12_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -706,8 +613,6 @@
       <sctap:fromBook>4</sctap:fromBook>
       <sctap:fromChapter>6</sctap:fromChapter>
       <sctap:fromChapter>12</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q27-d1e3623"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_4_6_12_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -720,8 +625,6 @@
       <sctap:fromBook>4</sctap:fromBook>
       <sctap:fromChapter>6</sctap:fromChapter>
       <sctap:fromChapter>12</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q27-d1e3623"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_onGenesis_5_16_34_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -734,8 +637,6 @@
       <sctap:fromBook>4</sctap:fromBook>
       <sctap:fromChapter>6</sctap:fromChapter>
       <sctap:fromChapter>12</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q28-d1e3304"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeDiversisQuaestionibus_46_2_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -746,8 +647,6 @@
       <sctap:citation>Augustine, (PL 40)</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q28-d1e3304"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_7_13_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -760,8 +659,6 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>7</sctap:fromChapter>
       <sctap:fromChapter>13</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q28"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q28-d1e3560"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_8_9_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -774,8 +671,6 @@
       <sctap:fromBook>5</sctap:fromBook>
       <sctap:fromChapter>8</sctap:fromChapter>
       <sctap:fromChapter>9</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q29-d1e3375"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_20_38_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -800,8 +695,6 @@
       <sctap:fromBook>18</sctap:fromBook>
       <sctap:fromChapter>51</sctap:fromChapter>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q32-d1e3234"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_21_24_1_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -814,8 +707,6 @@
       <sctap:fromBook>21</sctap:fromBook>
       <sctap:fromChapter>24</sctap:fromChapter>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q32-d1e3526"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Enchiridion_1_26_100_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -828,10 +719,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>26</sctap:fromChapter>
       <sctap:fromChapter>100</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q32"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q32-d1e3526"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q32-d1e4284"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_12_25_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -843,8 +730,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
       <sctap:fromBook>12</sctap:fromBook>
       <sctap:fromChapter>25</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q37"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q37-d1e3454"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeCivitateDei_12_18_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -856,8 +741,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Patristic"/>
       <sctap:fromBook>12</sctap:fromBook>
       <sctap:fromChapter>18</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q39"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q39-d1e3530"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/passage/Augustine_Enchiridion_32_121_a">
       <rdf:type rdf:resource="http://scta.info/resource/passage"/>
@@ -880,8 +763,6 @@
       <sctap:fromBook>8</sctap:fromBook>
       <sctap:fromChapter>3</sctap:fromChapter>
       <sctap:fromChapter>5</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q29"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q29-d1e3420"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_15_16_26_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -894,14 +775,6 @@
       <sctap:fromBook>15</sctap:fromBook>
       <sctap:fromChapter>16</sctap:fromChapter>
       <sctap:fromChapter>26</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prolq2-epqivs"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prolq2-asicnd"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prolq2-sqncis"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_Enchiridion_1_31_117_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -914,8 +787,6 @@
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>31</sctap:fromChapter>
       <sctap:fromChapter>117</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/item/b1-prol-q2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/wodehamordinatio/paragraph/b1prolq2-scsvmp"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Augustine_DeTrinitate_5_14_15_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -928,7 +799,5 @@
       <sctap:fromBook>5</sctap:fromBook>
       <sctap:fromChapter>14</sctap:fromChapter>
       <sctap:fromChapter>15</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q11"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q11-d1e377"/>
    </rdf:Description>
 </rdf:RDF>

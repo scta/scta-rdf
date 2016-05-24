@@ -58,17 +58,17 @@
                     </xsl:choose>
                 </xsl:for-each>
               <!-- this for each intends to go through every xml/rdf file and check and see if ther eis a quote that matches the current node. If so, it creates a quotation entry -->  
-                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]|sctap:references[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]">
+                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isIstanceOf[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]|sctap:references[@rdf:resource=concat('http://scta.info/resource/quotation/', $quoteid)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <xsl:choose>
                         <xsl:when test="./name() eq 'quotes'">
-                            <sctap:quotedBy rdf:resource="{$itemid}"/>
+                            <sctap:hasInstance rdf:resource="{$itemid}"/>
                         </xsl:when>
                         <xsl:when test="./name() eq 'references'">
-                            <sctap:referencedBy rdf:resource="{$itemid}"/>
+                            <sctap:hasInstance rdf:resource="{$itemid}"/>
                         </xsl:when>
                         <xsl:otherwise>
-                            <sctap:quotedBy rdf:resource="{$itemid}"/>
+                            <sctap:hasInstance rdf:resource="{$itemid}"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:for-each>
@@ -102,9 +102,9 @@
                 </xsl:choose>
             </xsl:for-each>
             
-            <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:references[@rdf:resource=concat('http://scta.info/resource/passage/', $passageid)]">
+            <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/resource/passage/', $passageid)]">
                 <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
-                <sctap:referencedBy rdf:resource="{$itemid}"/>
+                <sctap:hasInstance rdf:resource="{$itemid}"/>
             </xsl:for-each>
             
         </rdf:Description>

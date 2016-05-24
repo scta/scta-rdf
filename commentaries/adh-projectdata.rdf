@@ -350,7 +350,7 @@
       <sctap:hasManifestation rdf:resource="http://scta.info/resource/adh-l1prol/critical"/>
       <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/adh-l1prol/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-1">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-N-1">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
@@ -358,7 +358,7 @@
       <sctap:structureElementText>Augustinus</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-2">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-N-2">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
@@ -366,7 +366,7 @@
       <sctap:structureElementText>Augustinus</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-3">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-N-3">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
@@ -374,7 +374,7 @@
       <sctap:structureElementText>Ioannes Damascenus</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/halescommentary/quote/adh-l1prol-5">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-Q-5">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -383,7 +383,7 @@
             te ne quaesieris.</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/halescommentary/quote/adh-l1prol-6">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-Q-6">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -392,7 +392,7 @@
               ad opes quas habere non potes.</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/halescommentary/quote/adh-l1prol-7">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-Q-7">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -402,7 +402,7 @@
             ex Deo est.</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/halescommentary/quote/adh-l1prol-13">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-Q-13">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -411,7 +411,7 @@
               transcendere terminos ad videndum Dominum;</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/halescommentary/quote/adh-l1prol-14">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-Q-14">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -420,7 +420,7 @@
               terminos circa montem.</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/halescommentary/quote/adh-l1prol-17">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1prol-Q-17">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -734,7 +734,7 @@
       <sctap:hasManifestation rdf:resource="http://scta.info/resource/div-adh-l1d1-26/critical"/>
       <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/div-adh-l1d1-26/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/adh-l1d1-3">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1d1-N-3">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
@@ -742,7 +742,7 @@
       <sctap:structureElementText>Augustinus</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/adh-l1d1-1">
+   <rdf:Description rdf:about="http://scta.info/resource/adh-l1d1-T-1">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>

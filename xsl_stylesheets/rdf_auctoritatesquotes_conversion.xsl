@@ -29,7 +29,7 @@
         <xsl:variable name="quotation"><xsl:value-of select="."/></xsl:variable>
         <xsl:variable name="workid"><xsl:value-of select="//body/div/@xml:id"/></xsl:variable>
         <xsl:variable name="footnote"><xsl:value-of select="//div[@type='footnotes']//item[@corresp=$idhash]"/></xsl:variable>
-        <xsl:for-each select="distinct-values(collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $id)])">
+        <xsl:for-each select="distinct-values(collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:inInstanceOf[@rdf:resource=concat('http://scta.info/resource/quotation/', $id)])">
             <rdf:Description rdf:about="http://scta.info/resource/quotation/{$id}">
                 <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
                 <dc:title><xsl:value-of select="$quotation"></xsl:value-of></dc:title>
@@ -41,7 +41,7 @@
                 
                 <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:quotes[@rdf:resource=concat('http://scta.info/resource/quotation/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
-                    <sctap:quotedBy rdf:resource="{$itemid}"/>
+                    <sctap:hasInstance rdf:resource="{$itemid}"/>
                 </xsl:for-each>
                 
                 </rdf:Description>

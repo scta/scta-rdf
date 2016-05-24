@@ -1090,7 +1090,7 @@
       <sctap:hasManifestation rdf:resource="http://scta.info/resource/ddb-l1prolq2/erfurt"/>
       <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/ddb-l1prolq2/critical"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/ddb-l1prolq2-1">
+   <rdf:Description rdf:about="http://scta.info/resource/ddb-l1prolq2-N-1">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
@@ -1099,7 +1099,7 @@
             gregorius</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/resource/ddb-l1prolq2-2">
+   <rdf:Description rdf:about="http://scta.info/resource/ddb-l1prolq2-N-2">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
@@ -1107,7 +1107,7 @@
       <sctap:structureElementText>beatus augustinus</sctap:structureElementText>
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/"/>
    </rdf:Description>
-   <rdf:Description rdf:about="http://scta.info/text/ddbrugescommentary/quote/ddb-l1prolq2-1">
+   <rdf:Description rdf:about="http://scta.info/resource/ddb-l1prolq2-Q-1">
       <rdf:type rdf:resource="http://scta.info/resource/expression"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>

@@ -30,9 +30,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/"/>
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/holcotcommentary/item/rh-b2q2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Aristotle_Metaphysics_2_1_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -44,8 +41,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/"/>
       <sctap:fromBook>2</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Aristotle_PosteriorAnalytics_1_2_b">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -57,15 +52,5 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/"/>
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>2</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/werlcommentary/item/hw-b1prolq2"/>
    </rdf:Description>
 </rdf:RDF>

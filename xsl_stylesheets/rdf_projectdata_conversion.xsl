@@ -584,7 +584,7 @@
                 <xsl:variable name="nameID" select="substring-after($nameRef, '#')"></xsl:variable>
                 <xsl:variable name="totalNames" select="count(document($extraction-file)//tei:body//tei:name)"/>
                 <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalNames - $totalFollowingNames)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-N-', $totalNames - $totalFollowingNames)"/>
                 <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
@@ -593,7 +593,7 @@
                 <xsl:variable name="titleID" select="substring-after($titleRef, '#')"></xsl:variable>
                 <xsl:variable name="totalTitles" select="count(document($extraction-file)//tei:body//tei:title)"/>
                 <xsl:variable name="totalFollowingTitles" select="count(.//following::tei:title)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalTitles - $totalFollowingTitles)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-T-', $totalTitles - $totalFollowingTitles)"/>
                 <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
@@ -601,7 +601,7 @@
                 <xsl:variable name="commentarySectionUrl" select="./@source"></xsl:variable>
                 <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
                 <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
                 <sctap:quotes rdf:resource="{$commentarySectionUrl}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
@@ -610,7 +610,7 @@
                 <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
                 <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
                 <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
                 <sctap:quotes rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
@@ -624,7 +624,7 @@
                 <xsl:variable name="commentarySectionUrl" select="./@target"></xsl:variable>
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                 <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
                 <sctap:references rdf:resource="{$commentarySectionUrl}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource{$objectId}"/>
               </xsl:for-each>
@@ -634,7 +634,7 @@
                 <xsl:variable name="passageID" select="substring-after($passageRef, '#')"></xsl:variable>
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                 <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
                 <sctap:references rdf:resource="http://scta.info/resource/passage/{$passageID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
@@ -644,7 +644,7 @@
                 <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                 <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
-                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
+                <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
                 <sctap:references rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
@@ -664,8 +664,8 @@
           <xsl:variable name="nameID" select="substring-after($nameRef, '#')"/>
           <xsl:variable name="totalNames" select="count(document($extraction-file)//tei:body//tei:name)"/>
           <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
-          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalNames - $totalFollowingNames)"/>
-          <xsl:variable name="paragraphParent" select=".//preceding::tei:paragraph[@xml:id]"/>
+          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-N-', $totalNames - $totalFollowingNames)"/>
+        	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
@@ -686,8 +686,8 @@
           <xsl:variable name="titleID" select="substring-after($titleRef, '#')"></xsl:variable>
           <xsl:variable name="totalTitles" select="count(document($extraction-file)//tei:body//tei:title)"/>
           <xsl:variable name="totalFollowingTitles" select="count(.//following::tei:title)"></xsl:variable>
-          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalTitles - $totalFollowingTitles)"/>
-          <xsl:variable name="paragraphParent" select=".//preceding::tei:paragraph[@xml:id]"/>
+          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-T-', $totalTitles - $totalFollowingTitles)"/>
+        	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
@@ -702,9 +702,9 @@
           <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
           <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
           <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
-          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalQuotes - $totalFollowingQuotes)"/>
-          <xsl:variable name="paragraphParent" select=".//preceding::tei:paragraph[@xml:id]"/>
-          <rdf:Description rdf:about="http://scta.info/text/{$cid}/quote/{$objectId}">
+          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
+          <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
+          <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
@@ -723,9 +723,9 @@
           <xsl:variable name="refID" select="substring-after($refRef, '#')"></xsl:variable>
           <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
           <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
-          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
-          <xsl:variable name="paragraphParent" select=".//preceding::tei:paragraph[@xml:id]"/>
-          <rdf:Description rdf:about="http://scta.info/text/{$cid}/ref/{$objectId}">
+          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
+        	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
+          <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementRef"/>
@@ -740,9 +740,9 @@
           <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
           <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
           <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
-          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalRefs - $totalFollowingRefs)"/>
-          <xsl:variable name="paragraphParent" select=".//preceding::tei:paragraph[@xml:id]"/>
-          <rdf:Description rdf:about="http://scta.info/text/{$cid}/ref/{$objectId}">
+          <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
+        	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
+          <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementRef"/>

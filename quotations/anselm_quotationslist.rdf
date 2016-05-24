@@ -129,8 +129,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
       <sctap:fromBook>1</sctap:fromBook>
       <sctap:fromChapter>1</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q1"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q1-sppilp"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_CurDeusHomo_2_17_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -142,8 +140,6 @@
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
       <sctap:fromBook>2</sctap:fromBook>
       <sctap:fromChapter>17</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q27"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q27-d1e3523"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_DeProcessioneSpiritusSancti_7_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -154,8 +150,6 @@
       <sctap:citation>Anselmus, De processione Spiritus Sancti, c. 7 </sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
       <sctap:fromChapter>7</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q23"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q23-d1e3347"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/quotation/Anselm_Monologion_48_a">
       <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
@@ -166,7 +160,5 @@
       <sctap:citation>Anselmus, Monologion, c. 48</sctap:citation>
       <sctap:quotationType rdf:resource="http://scta.info/resource/quotationType/Scholastic"/>
       <sctap:fromChapter>48</sctap:fromChapter>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/item/pg-b1q24"/>
-      <sctap:quotedBy rdf:resource="http://scta.info/text/graciliscommentary/paragraph/pgb1q24-d1e3676"/>
    </rdf:Description>
 </rdf:RDF>

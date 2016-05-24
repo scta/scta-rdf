@@ -40,7 +40,7 @@
 			<dc:title>Sentences Commentaries</dc:title>
 			<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
 			<sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
-			<sctap:shortId>sentences</sctap:shortId>
+			<sctap:shortId>sententia</sctap:shortId>
 			<!-- This templates create the top level collection, containing all commentaries. -->
 			<xsl:for-each select="collection(concat($sentences-rdf-home, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
 				<xsl:variable name="commentaryid" select="./@rdf:about"/>
