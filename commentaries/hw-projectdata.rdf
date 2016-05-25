@@ -44,7 +44,7 @@
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hw-b1prol"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/hw-b1prolq1"/>
@@ -60,7 +60,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/hw-b1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/hw-b1prolq1"/>
@@ -75,7 +75,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <sctap:shortId>hw-b1prolq1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -381,7 +381,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <sctap:shortId>hw-b1prolq2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -681,7 +681,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <sctap:shortId>hw-b1prolq2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>

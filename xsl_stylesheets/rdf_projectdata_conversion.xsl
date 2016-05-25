@@ -171,7 +171,7 @@
     			
     			
     			<!-- TODO: decide if hasTopLevelExpression is necessary -->
-    			<sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
+    			<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
           
           <!-- get Order Number -->
     			<xsl:variable name="totalnumber"><xsl:number count="div" level="any"/></xsl:variable>
@@ -243,7 +243,7 @@
     			
     			<sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
     			<sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-    			<sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
+    			<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
     			<sctap:shortId><xsl:value-of select="$fs"/></sctap:shortId>
     			<sctap:level><xsl:value-of select="$item-level"/></sctap:level>
     			
@@ -490,6 +490,7 @@
     					<!-- TODO: had dcterms:isPartOf that points to the immediate parent resource, mostly likely structureType=structureDivision but could be structureType=structureItem -->
     					
     					<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
+    					<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
     					<sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
     					<sctap:shortId><xsl:value-of select="$pid"/></sctap:shortId>
     					

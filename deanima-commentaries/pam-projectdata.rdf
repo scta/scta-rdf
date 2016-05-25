@@ -129,7 +129,7 @@
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d1s1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d1s2"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d1s1d1"/>
@@ -152,7 +152,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d1s1d1"/>
@@ -170,7 +170,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d1s2d1"/>
@@ -191,7 +191,7 @@
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d2s1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d2s2"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d2s3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d2s1d1"/>
@@ -218,7 +218,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp2"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d2s1d1"/>
@@ -233,7 +233,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp2"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d2s2pro"/>
@@ -249,7 +249,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp2"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>008</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d2s3d1"/>
@@ -277,7 +277,7 @@
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d3s6"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d3s7"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d3s10"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>009</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s1d1"/>
@@ -333,7 +333,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>010</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s1d1"/>
@@ -348,7 +348,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>011</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s2d1"/>
@@ -364,7 +364,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>012</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s3pro"/>
@@ -381,7 +381,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>013</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s4pro"/>
@@ -402,7 +402,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>014</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s5d1"/>
@@ -423,7 +423,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>015</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s6pro"/>
@@ -444,7 +444,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>016</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s7pro"/>
@@ -461,7 +461,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>017</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d3s10pro"/>
@@ -480,7 +480,7 @@
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d4s1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/pam-d4s2"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>018</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d4s1proem"/>
@@ -510,7 +510,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp4"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>019</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d4s1proem"/>
@@ -529,7 +529,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/pam-disp4"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>020</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pam-d4s2proem"/>
@@ -548,7 +548,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s1d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -629,7 +629,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s1d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -674,7 +674,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s1d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -719,7 +719,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s1d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -764,7 +764,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s1d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -818,7 +818,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s2d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -863,7 +863,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s2d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -917,7 +917,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s2d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -962,7 +962,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s2d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -1034,7 +1034,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d1s2d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -1106,7 +1106,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s1d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -1151,7 +1151,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s1d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -1286,7 +1286,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s2pro</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -1331,7 +1331,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s2d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -1421,7 +1421,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s2d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -1475,7 +1475,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -1538,7 +1538,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -1583,7 +1583,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -1637,7 +1637,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -1700,7 +1700,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -1754,7 +1754,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d6</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -1844,7 +1844,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s3d7</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -1952,7 +1952,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2105,7 +2105,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d2s5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2231,7 +2231,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s1d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2276,7 +2276,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s1d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2339,7 +2339,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s2d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2384,7 +2384,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s2d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2429,7 +2429,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s2d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -2528,7 +2528,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s3pro</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2564,7 +2564,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s3d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2627,7 +2627,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s3d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -2726,7 +2726,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s3d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -2807,7 +2807,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4pro</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2852,7 +2852,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2897,7 +2897,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -2951,7 +2951,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -3005,7 +3005,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -3068,7 +3068,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -3113,7 +3113,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d6</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -3167,7 +3167,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s4d7</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -3212,7 +3212,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -3248,7 +3248,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -3320,7 +3320,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -3365,7 +3365,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -3491,7 +3491,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -3545,7 +3545,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d6</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -3608,7 +3608,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d7</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -3653,7 +3653,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s5d8</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -3716,7 +3716,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6pro</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -3752,7 +3752,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -3815,7 +3815,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -3851,7 +3851,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -3905,7 +3905,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -3950,7 +3950,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -3986,7 +3986,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d6</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -4040,7 +4040,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s6d7</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -4085,7 +4085,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s7pro</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -4121,7 +4121,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s7d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -4184,7 +4184,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s7d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -4229,7 +4229,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s7d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -4274,7 +4274,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s8</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -4337,7 +4337,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s9</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -4454,7 +4454,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s10pro</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -4499,7 +4499,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s10d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -4589,7 +4589,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s10d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -4661,7 +4661,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d3s10d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -4751,7 +4751,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s1proem</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -4787,7 +4787,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s1d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -4850,7 +4850,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s1d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -4895,7 +4895,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s1d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -4976,7 +4976,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s1d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -5066,7 +5066,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s1d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -5120,7 +5120,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2proem</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -5156,7 +5156,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -5237,7 +5237,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -5372,7 +5372,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -5471,7 +5471,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -5543,7 +5543,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -5633,7 +5633,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d6</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -5687,7 +5687,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s2d7</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -5732,7 +5732,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -5840,7 +5840,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -5903,7 +5903,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/PlacidusAegidiusMelander"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:shortId>pam-d4s5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>

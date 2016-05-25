@@ -59,7 +59,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b1prin1"/>
@@ -78,7 +78,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b2prin2"/>
@@ -97,7 +97,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/"/>
@@ -112,7 +112,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rh-b4prin4"/>
@@ -133,7 +133,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/principia"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b1prin1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -151,7 +151,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b1q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -170,7 +170,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b1prin</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -189,7 +189,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b1q3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -208,7 +208,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b1q4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -227,7 +227,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b1q5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -246,7 +246,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/principia"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b2prin2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -265,7 +265,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b2q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -284,7 +284,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b2q2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -303,7 +303,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b2q3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -322,7 +322,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b2q4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -341,7 +341,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b2q5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -360,7 +360,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/principia"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId/>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -380,7 +380,7 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sc
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b3q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -399,7 +399,7 @@ or: Utrum viae vivendi, quas Christus docuit, sint meritoriae vitae eternae.</sc
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4prin4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -419,7 +419,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -438,7 +438,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -457,7 +457,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -476,7 +476,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q4</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -495,7 +495,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q5</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -514,7 +514,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q6</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -533,7 +533,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q7</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -552,7 +552,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId>rh-b4q8</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -571,7 +571,7 @@ or: Utrum cum omni sacramento debito modo suscepto recipienti sacramentum inform
       <role:AUT rdf:resource="http://scta.info/resource/person/Holcot"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/sermo"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <sctap:shortId/>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>

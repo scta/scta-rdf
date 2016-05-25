@@ -62,7 +62,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wc-l1q1"/>
@@ -95,7 +95,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -113,7 +113,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -132,7 +132,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -151,7 +151,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -170,7 +170,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -189,7 +189,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q6</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -208,7 +208,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q7</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -227,7 +227,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q8</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -246,7 +246,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q8A</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
@@ -265,7 +265,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q8B</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
@@ -284,7 +284,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q9</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
@@ -303,7 +303,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q10</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
@@ -322,7 +322,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q11</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
@@ -341,7 +341,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q12</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
@@ -360,7 +360,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q13</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
@@ -379,7 +379,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q14</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
@@ -398,7 +398,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q15</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
@@ -417,7 +417,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q16</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
@@ -436,7 +436,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q17</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
@@ -455,7 +455,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q18</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
@@ -474,7 +474,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q19</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
@@ -493,7 +493,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WilliamCrathorn"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <sctap:shortId>wc-l1q20</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>

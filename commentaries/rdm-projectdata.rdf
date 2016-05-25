@@ -57,7 +57,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
    </rdf:Description>
@@ -70,7 +70,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
    </rdf:Description>
@@ -85,7 +85,7 @@
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-l3d1"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/rdm-l3d2"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
@@ -104,7 +104,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-librum3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
@@ -120,7 +120,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/rdm-librum3"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rdm-l3d1int"/>
@@ -136,7 +136,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>007</sctap:totalOrderNumber>
    </rdf:Description>
@@ -147,7 +147,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/introitus"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:shortId>rdm-l3d1int</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -182,7 +182,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:shortId>rdm-l3d1a1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -263,7 +263,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:shortId>rdm-l3d1a2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -344,7 +344,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/introitus"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:shortId>rdm-l3d1int</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -380,7 +380,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:shortId>rdm-l3d2a1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -461,7 +461,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RicardusDeMediavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/articulus"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <sctap:shortId>rdm-l3d2a2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>

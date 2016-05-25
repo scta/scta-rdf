@@ -9,16 +9,19 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
-   <rdf:Description rdf:about="http://scta.info/scta">
+   <rdf:Description rdf:about="http://scta.info/resource/scta">
       <dc:title>Sentences Commentary Text Archive</dc:title>
+      <dc:description>A top level Work Group for all Work Groups in the archive</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:scta</sctap:dtsurn>
-      <sctap:shortId>SCTA</sctap:shortId>
+      <sctap:shortId>scta</sctap:shortId>
       <sctap:projectfilesversion>1549552</sctap:projectfilesversion>
       <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/sententia"/>
       <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/deanima"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/sententia">
       <dc:title>Sentences Commentaries</dc:title>
+      <dc:description>A Work Group for all commentaries on the Sentences of Peter Lombard</dc:description>
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
       <sctap:shortId>sententia</sctap:shortId>
@@ -61,6 +64,7 @@
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/deanima">
       <dc:title>De Anima Commentaries</dc:title>
+      <dc:description>A Work Group for all commentaries on Aristotle's De Anima</dc:description>
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:deanima</sctap:dtsurn>
       <sctap:shortId>deanima</sctap:shortId>

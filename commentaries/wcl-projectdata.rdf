@@ -34,7 +34,7 @@
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/wcl-b1d1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wcl-b1d1q1"/>
@@ -48,7 +48,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/wcl-book1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/wcl-b1d1q1"/>
@@ -60,7 +60,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/WalterChatton"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
       <sctap:shortId>wcl-b1d1q1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>

@@ -81,7 +81,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l1q1"/>
@@ -105,7 +105,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/als-l3q1"/>
@@ -129,7 +129,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -164,7 +164,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -200,7 +200,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -236,7 +236,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -272,7 +272,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -308,7 +308,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q6</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -344,7 +344,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q7</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -380,7 +380,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q8</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -416,7 +416,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q9</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
@@ -452,7 +452,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q10</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
@@ -488,7 +488,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l1q11</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
@@ -524,7 +524,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -560,7 +560,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -596,7 +596,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -632,7 +632,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -668,7 +668,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -704,7 +704,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -740,7 +740,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q6</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -777,7 +777,7 @@
       <sctap:editedBy>Michael StenskjÃ¦r Christensen</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q7</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -946,7 +946,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q8</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
@@ -982,7 +982,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q9</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
@@ -1018,7 +1018,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q10</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
@@ -1054,7 +1054,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q11</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
@@ -1090,7 +1090,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AlbertusDeSaxonia"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:shortId>als-l3q12</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>

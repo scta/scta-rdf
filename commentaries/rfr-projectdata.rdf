@@ -74,7 +74,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rfr-quaestio1"/>
@@ -89,7 +89,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rfr-quaestio3"/>
@@ -120,7 +120,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rfr-quaestio21"/>
@@ -140,7 +140,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>005</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rfr-quaestio28"/>
@@ -154,7 +154,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>006</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/rfr-quaestio29"/>
@@ -168,7 +168,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -1300,7 +1300,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2559,7 +2559,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2578,7 +2578,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2597,7 +2597,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -2616,7 +2616,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio6</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -2635,7 +2635,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio7</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -2654,7 +2654,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio8</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -2673,7 +2673,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio9</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -2692,7 +2692,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio10</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -2711,7 +2711,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio11</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
@@ -2730,7 +2730,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio12</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
@@ -2749,7 +2749,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio13</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
@@ -2768,7 +2768,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio14</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
@@ -2787,7 +2787,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio15</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
@@ -2806,7 +2806,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio16</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
@@ -2825,7 +2825,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio17</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
@@ -2844,7 +2844,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio18</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
@@ -2863,7 +2863,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio19</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
@@ -2882,7 +2882,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio20</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
@@ -2901,7 +2901,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio21</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -2920,7 +2920,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio22</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -2939,7 +2939,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio23</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -2958,7 +2958,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio24</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -2977,7 +2977,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio25</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -2996,7 +2996,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio26</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -3015,7 +3015,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio27</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -3034,7 +3034,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio28</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -3053,7 +3053,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio29</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -3072,7 +3072,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/RichardFitzRalph"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <sctap:shortId>rfr-quaestio30</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>

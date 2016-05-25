@@ -24,10 +24,12 @@
   </xsl:template>
   
   <xsl:template name="create-archive">
-    <rdf:Description rdf:about="http://scta.info/scta">
+    <rdf:Description rdf:about="http://scta.info/resource/scta">
       <dc:title>Sentences Commentary Text Archive</dc:title>
+    	<dc:description>A top level Work Group for all Work Groups in the archive</dc:description>
+    	<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:scta</sctap:dtsurn>
-    	<sctap:shortId>SCTA</sctap:shortId>
+    	<sctap:shortId>scta</sctap:shortId>
       <sctap:projectfilesversion><xsl:value-of select="$projectfilesversion"/></sctap:projectfilesversion>
       <!-- This templates create the top level collection, containing all commentaries. -->
     	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/sententia"/>
@@ -38,6 +40,7 @@
 	<xsl:template name="create-sententia-work-group">
 		<rdf:Description rdf:about="http://scta.info/resource/sententia">
 			<dc:title>Sentences Commentaries</dc:title>
+			<dc:description>A Work Group for all commentaries on the Sentences of Peter Lombard</dc:description>
 			<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
 			<sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
 			<sctap:shortId>sententia</sctap:shortId>
@@ -53,6 +56,7 @@
 	<xsl:template name="create-deanima-work-group">
 		<rdf:Description rdf:about="http://scta.info/resource/deanima">
 			<dc:title>De Anima Commentaries</dc:title>
+			<dc:description>A Work Group for all commentaries on Aristotle's De Anima</dc:description>
 			<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
 			<sctap:dtsurn>urn:dts:latinLit:deanima</sctap:dtsurn>
 			<sctap:shortId>deanima</sctap:shortId>

@@ -57,7 +57,7 @@
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/ada-l1prol"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/ada-l1d1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ada-l1prolp1q1"/>
@@ -85,7 +85,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>003</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ada-l1prolp1q1"/>
@@ -110,7 +110,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>3</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/ada-l1"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>004</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ada-l1d1p1q1"/>
@@ -124,7 +124,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp1q1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -159,7 +159,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp1q2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -195,7 +195,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp1q3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -231,7 +231,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp2q1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -268,7 +268,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp2q2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -555,7 +555,7 @@
       <sctap:editedBy>Jeffrey C. Witt</sctap:editedBy>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp2q3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -728,7 +728,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp3q1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -764,7 +764,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp3q2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -800,7 +800,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp3q3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
@@ -836,7 +836,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp4q1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
@@ -872,7 +872,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp4q2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
@@ -908,7 +908,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1prolp4q3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
@@ -944,7 +944,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1d1p1q1</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -980,7 +980,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1d1p1q2</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -1016,7 +1016,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/AugustinusDeAncona"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:shortId>ada-l1d1p1q3</sctap:shortId>
       <sctap:level>4</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>

@@ -71,7 +71,7 @@
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>2</sctap:level>
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/body"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
       <sctap:totalOrderNumber>002</sctap:totalOrderNumber>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ja-item1"/>
@@ -105,7 +105,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item1</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>001</sctap:sectionOrderNumber>
@@ -139,7 +139,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item2</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>002</sctap:sectionOrderNumber>
@@ -174,7 +174,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item3</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>003</sctap:sectionOrderNumber>
@@ -209,7 +209,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item4</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>004</sctap:sectionOrderNumber>
@@ -244,7 +244,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item5</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>005</sctap:sectionOrderNumber>
@@ -279,7 +279,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item6</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>006</sctap:sectionOrderNumber>
@@ -314,7 +314,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item7</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>007</sctap:sectionOrderNumber>
@@ -349,7 +349,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item8</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>008</sctap:sectionOrderNumber>
@@ -384,7 +384,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item9</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>009</sctap:sectionOrderNumber>
@@ -419,7 +419,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item10</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>010</sctap:sectionOrderNumber>
@@ -454,7 +454,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item11</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>011</sctap:sectionOrderNumber>
@@ -489,7 +489,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item12</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>012</sctap:sectionOrderNumber>
@@ -524,7 +524,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item13</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>013</sctap:sectionOrderNumber>
@@ -559,7 +559,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item14</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>014</sctap:sectionOrderNumber>
@@ -594,7 +594,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item15</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>015</sctap:sectionOrderNumber>
@@ -629,7 +629,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item16</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>016</sctap:sectionOrderNumber>
@@ -664,7 +664,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item17</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>017</sctap:sectionOrderNumber>
@@ -699,7 +699,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item18</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>018</sctap:sectionOrderNumber>
@@ -734,7 +734,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item19</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>019</sctap:sectionOrderNumber>
@@ -761,7 +761,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item20</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>020</sctap:sectionOrderNumber>
@@ -788,7 +788,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item21</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>021</sctap:sectionOrderNumber>
@@ -823,7 +823,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item22</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>022</sctap:sectionOrderNumber>
@@ -858,7 +858,7 @@
       <role:AUT rdf:resource="http://scta.info/resource/person/JacobusDeAltavilla"/>
       <sctap:expressionType rdf:resource="http://scta.info/resource/quaestio"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:hasTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:shortId>ja-item23</sctap:shortId>
       <sctap:level>3</sctap:level>
       <sctap:sectionOrderNumber>023</sctap:sectionOrderNumber>
