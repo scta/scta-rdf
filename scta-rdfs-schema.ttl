@@ -102,8 +102,8 @@ sctar:structureType
 ##############################################
 
 sctar:reference
-	rdf:type rdfs:Class .
-	rdfs:label "A generic reference resource class"
+	rdf:type rdfs:Class ;
+	rdfs:label "A generic reference resource class" .
 
 	sctar:person
 		rdfs:subClassOf sctar:reference .
@@ -117,7 +117,7 @@ sctar:reference
 sctar:referenceType
 	rdf:type rdfs:Class ;
 	rdfs:label "reference type" ;
-	dc:description "a generence class for categorizing reference types"
+	dc:description "a generence class for categorizing reference types" .
 
 
 sctar:scholastic 
