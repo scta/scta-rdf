@@ -61,7 +61,7 @@
 			<sctap:dtsurn>urn:dts:latinLit:deanima</sctap:dtsurn>
 			<sctap:shortId>deanima</sctap:shortId>
 			<!-- This templates create the top level collection, containing all commentaries. -->
-			<xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+			<xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
 				<xsl:variable name="commentaryid" select="./@rdf:about"/>
 				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
 			</xsl:for-each>

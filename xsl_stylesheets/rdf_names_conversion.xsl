@@ -25,19 +25,19 @@
         <xsl:variable name="id"><xsl:value-of select="./@xml:id"/></xsl:variable>
         
         <xsl:variable name="person-type"><xsl:value-of select="./parent::tei:listPerson/@type"/></xsl:variable>
-            <rdf:Description rdf:about="http://scta.info/resource/person/{$id}">
+            <rdf:Description rdf:about="http://scta.info/resource/{$id}">
                 <rdf:type rdf:resource="http://scta.info/resource/person"/>
                 <dc:title><xsl:value-of select="./tei:persName[@xml:lang='en']"></xsl:value-of></dc:title>
-                <sctap:personType rdf:resource="http://scta.info/resource/persontype/{$person-type}"/>
+                <sctap:personType rdf:resource="http://scta.info/resource/{$person-type}"/>
                 <xsl:if test="./tei:note[@type='dbpedia-url']">
                     <xsl:variable name="dbpedia-url"><xsl:value-of select="./tei:note[@type='dbpedia-url']"/></xsl:variable>
                     <owl:sameAs rdf:resource="{$dbpedia-url}"/>
                 </xsl:if>
-                <xsl:for-each select="document($workscitedrdf)//sctap:workAuthor[@rdf:resource=concat('http://scta.info/resources/person/', $id)]">
+                <xsl:for-each select="document($workscitedrdf)//sctap:workAuthor[@rdf:resource=concat('http://scta.info/resources/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasWork rdf:resource="{$itemid}"/>
                 </xsl:for-each>
-                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
+                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/person/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasInstance rdf:resource="{$itemid}"/>
                 </xsl:for-each>

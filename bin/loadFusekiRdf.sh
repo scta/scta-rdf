@@ -64,8 +64,15 @@
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/augustine_quotationslist.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/lombard_quotationslist.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/canonlaw_quotations.rdf
-	./s-post http://localhost:3030/ds/data default $rdfbase/RDFSchemaNEW.ttl
-	#./s-post http://localhost:3030/ds/data default $rdfbase/manualRdfList.ttl
+	
+	#load rdfs schema
+	echo "loading scta rdfs schema"
+	./s-post http://localhost:3030/ds/data default $rdfbase/scta-rdfs-schema.ttl
+	#load scta expression types
+	
+	echo "loading scta expression types"
+	./s-post http://localhost:3030/ds/data default $rdfbase/scta_expression_types.ttl
+	
 	echo "trying jsonld"
 	./s-post http://localhost:3030/ds/data default $jsonldbase/scta-collection.jsonld
 
@@ -86,6 +93,9 @@
 	./s-post http://localhost:3030/ds/data default $jsonldbase/atv-Paris1490.jsonld
 	./s-post http://localhost:3030/ds/data default /Users/jcwitt/Projects/scta/scta-site/public/pl-zbsSII72.jsonld
 	./s-post http://localhost:3030/ds/data default /Users/jcwitt/Projects/scta/scta-site/public/ta-harv245.jsonld
+
+	echo "loading scta articles"
+	./s-post http://localhost:3030/ds/data default $rdfbase/articles.ttl
 
 	echo "loading scta build"
 	./s-post http://localhost:3030/ds/data default $rdfbase/buildversion.ttl

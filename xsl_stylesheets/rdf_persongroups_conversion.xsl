@@ -24,7 +24,7 @@
     <xsl:template match="tei:personGrp">         
         <xsl:variable name="id"><xsl:value-of select="./@xml:id"/></xsl:variable>
         <!-- ideally this would be resource/persongroup; but righ tnow the projectfile extraction doesn't have a way of separating names and groups names -->
-            <rdf:Description rdf:about="http://scta.info/resource/person/{$id}">
+            <rdf:Description rdf:about="http://scta.info/resource/{$id}">
                 <rdf:type rdf:resource="http://scta.info/resource/persongroup"/>
                 <dc:title><xsl:value-of select="./tei:persName"></xsl:value-of></dc:title>
                 <!--<xsl:variable name="persongroup-type"><xsl:value-of select="./parent::tei:listPerson/@type"/></xsl:variable> -->
@@ -37,7 +37,7 @@
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasWork rdf:resource="{$itemid}"/>
                 </xsl:for-each> -->
-                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:mentions[@rdf:resource=concat('http://scta.info/resource/person/', $id)]">
+                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:mentions[@rdf:resource=concat('http://scta.info/resource/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:mentionedBy rdf:resource="{$itemid}"/>
                 </xsl:for-each>

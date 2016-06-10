@@ -14,16 +14,27 @@
   <xsl:param name="parent-uri"><xsl:value-of select="//header/parentUri"/></xsl:param>
   <xsl:param name="textfilesdir"><xsl:value-of select="//header/textfilesdir"/></xsl:param>
   <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
-  <xsl:param name="gitRepoBase">https://bitbucket.org/jeffreycwitt/</xsl:param>
+	
+  <xsl:variable name="gitRepoBase">
+  	<xsl:choose>
+  		<xsl:when test="//header/gitRepoBase">
+  			<xsl:value-of select="//header/gitRepoBase"/>
+  		</xsl:when>
+  		<xsl:otherwise>https://bitbucket.org/jeffreycwitt/</xsl:otherwise>
+  	</xsl:choose>
+  </xsl:variable>
   
   <xsl:variable name="dtsurn"><xsl:value-of select="concat('urn:dts:latinLit:sentences', '.', $cid)"/></xsl:variable>
 
+	<xsl:variable name="sponsors" select="//header/sponsors"/>
+	<xsl:variable name="description" select="//header/description"/>
+		
 	<xsl:variable name="parentWorkGroup">
 		<xsl:choose>
 			<xsl:when test="//header/parentWorkGroup">
 				<xsl:value-of select="//header/parentWorkGroup"/>
 			</xsl:when>
-			<xsl:otherwise>sententia</xsl:otherwise>
+			<xsl:otherwise>http//scta.info/resource/sententia</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
 	
@@ -75,8 +86,18 @@
 			<rdf:type rdf:resource="http://scta.info/resource/expression"/>
 			<dc:title><xsl:value-of select="$commentaryname"/></dc:title>
 		    <!-- TODO: parent of expresion should be WORK, not WorkGroup -->
-    		<dcterms:isPartOf rdf:resource="http://scta.info/text/{$parentWorkGroup}"/>
+    		<dcterms:isPartOf rdf:resource="{$parentWorkGroup}"/>
     		<role:AUT rdf:resource="{$author-uri}"/>
+    		<!-- log description -->
+    		<xsl:choose>
+    			<xsl:when test="$description">
+    				<xsl:value-of select="$description"/>
+    			</xsl:when>
+    			<xsl:otherwise>
+    				<dc:description>Commentary on the Sentences by <xsl:value-of select="$author"/></dc:description>
+    			</xsl:otherwise>
+    		</xsl:choose>
+    		<!-- end log description -->
     		
     		<sctap:slug><xsl:value-of select="$commentaryslug"/></sctap:slug>
 		    <sctap:shortId><xsl:value-of select="$cid"/></sctap:shortId>
@@ -88,6 +109,11 @@
     			but this means De Anima commentaries are going to be erroneously marked -->
     			<sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
 		    
+		    <!--Log any sponsors of this top level expression -->
+		    <xsl:for-each select="$sponsors//sponsor">
+		    	<sctap:hasSponsor rdf:resource="http://scta.info/resource/{@id}"/>
+		    </xsl:for-each>
+    		
     		<!-- identify second level expression parts -->
 				<xsl:for-each select="./div">
 					<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
@@ -107,6 +133,7 @@
         	<!-- TODO: add hasCanonicalManifestation; but this needs to be indicated in the project file header -->
         </xsl:for-each>
 		  </rdf:Description>
+    	
     	
     	
       <!-- create manifestation entry for each manifestation corresponding to the top level expression -->
@@ -133,15 +160,26 @@
     		this is born digital manifestation, that doesn't have physical copy somewhere; 
     		but it is still a manifestation -->
     	
-    	<!-- end of top level manifestation creation --> 
-    		
+    		<!-- end of top level manifestation creation --> 
+    	
+    		<!-- BEGIN create resources for any sponors of top level expression -->
+    	<xsl:for-each select="$sponsors//sponsor">
+    		<rdf:Description rdf:about="http://scta.info/resource/{@id}">
+    			<dc:title><xsl:value-of select="./name"/></dc:title>
+    			<rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+    			<sctap:link rdf:resource="{./link}"></sctap:link>
+    			<sctap:logo rdf:resource="{./logo}"></sctap:logo>
+    		</rdf:Description>
+    	</xsl:for-each>
+    	<!-- END resource createion for sponsors -->
+    	
     	<!-- begin creation of all structureType=structureCollections that are not topLevel Expressions -->
     	
     	<xsl:for-each select=".//div">
     		<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
         <xsl:variable name="title"><xsl:value-of select="./head"/></xsl:variable>
-    		<xsl:variable name="expressionType"><xsl:value-of select="./type"/></xsl:variable>
-    		<xsl:variable name="expressionSubType"><xsl:value-of select="./subtype"/></xsl:variable>
+    		<xsl:variable name="expressionType"><xsl:value-of select="./@type"/></xsl:variable>
+    		<xsl:variable name="expressionSubType"><xsl:value-of select="./@subtype"/></xsl:variable>
     		<xsl:variable name="parentExpression"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
     		
         
@@ -150,11 +188,21 @@
         	<rdf:type rdf:resource="http://scta.info/resource/expression"/>
     			<role:AUT rdf:resource="{$author-uri}"/>
     			
-    			<!-- TODO: create conditional to handle cases where no expression type is listed -->
-    			<sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
-    			<!-- TODO create conditional to handle cases where not expressionSubtype is given;
-    				decide if expressionSubType should just be a second expressionType -->
-    			<sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionSubType}"/>
+    			<!-- check if special expression type is given -->
+    			<xsl:choose>
+    				<xsl:when test="$expressionType">
+    					<sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
+    				</xsl:when>
+    			<!-- if no special expression type is given default to generic division -->
+    				<xsl:otherwise>
+    					<sctap:expressionType rdf:resource="http://scta.info/resource/division"/>
+    				</xsl:otherwise>
+    			</xsl:choose>
+    			<!-- add expressionSubType as just another expressionType if there is one -->
+    			<xsl:if test="$expressionSubType">
+    				<sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionSubType}"/>	
+    			</xsl:if>
+    			
     			
     			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
     			<sctap:level><xsl:value-of select="count(ancestor::*)"/></sctap:level>
@@ -379,10 +427,13 @@
             </xsl:variable>
     			
     			<rdf:Description rdf:about="http://scta.info/resource/{$divisionID}">
+    				<dc:title><xsl:value-of select="./tei:head"/></dc:title>
     				<rdf:type rdf:resource="http://scta.info/resource/expression"/>
     				<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$fs}"/>
     				
     				<sctap:expressionType rdf:resource="http://scta.info/resource/{$divisionExpressionType}"/>
+    				<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
+    				<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
     				<sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
     				
     				<sctap:shortId><xsl:value-of select="$divisionID"/></sctap:shortId>
@@ -422,7 +473,7 @@
     					<sctap:hasStructureDivision rdf:resource="http://scta.info/resource/{$divisionID}"/>
     				</xsl:for-each>
     				<!-- END child structureDivision identifications -->
-    					
+    				
     				<!-- BEGIN structureBlock identifications -->
               <xsl:for-each select=".//tei:p">
                 <xsl:if test="./@xml:id">
@@ -586,7 +637,7 @@
                 <xsl:variable name="totalNames" select="count(document($extraction-file)//tei:body//tei:name)"/>
                 <xsl:variable name="totalFollowingNames" select="count(.//following::tei:name)"></xsl:variable>
                 <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-N-', $totalNames - $totalFollowingNames)"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/person/{$nameID}"/>
+                <sctap:mentions rdf:resource="http://scta.info/resource/{$nameID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
               <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:title[@ref]">
@@ -595,7 +646,7 @@
                 <xsl:variable name="totalTitles" select="count(document($extraction-file)//tei:body//tei:title)"/>
                 <xsl:variable name="totalFollowingTitles" select="count(.//following::tei:title)"></xsl:variable>
                 <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-T-', $totalTitles - $totalFollowingTitles)"/>
-                <sctap:mentions rdf:resource="http://scta.info/resource/work/{$titleID}"/>
+                <sctap:mentions rdf:resource="http://scta.info/resource/{$titleID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
               <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote[@type='commentary']">
@@ -612,7 +663,7 @@
                 <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
                 <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
                 <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
-                <sctap:quotes rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
+                <sctap:quotes rdf:resource="http://scta.info/resource/{$quoteID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
               <!-- three types of refs; default is "quotation" and does not need to be declared, 
@@ -636,7 +687,7 @@
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                 <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
                 <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
-                <sctap:references rdf:resource="http://scta.info/resource/passage/{$passageID}"/>
+                <sctap:references rdf:resource="http://scta.info/resource/{$passageID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
               <!-- default is ref referring to quotation resource or type="quotation" -->  
@@ -646,7 +697,7 @@
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                 <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
                 <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
-                <sctap:references rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
+                <sctap:references rdf:resource="http://scta.info/resource/{$quoteID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
               
@@ -671,7 +722,7 @@
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
-            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/person/{$nameID}"/>
+            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$nameID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
           	
@@ -693,7 +744,7 @@
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
-            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/work/{$titleID}"/>
+            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$titleID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
           </rdf:Description>
@@ -709,7 +760,7 @@
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
-            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
+            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
           </rdf:Description>
@@ -730,7 +781,7 @@
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementRef"/>
-            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/passage/{$refID}"/>
+            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$refID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
           </rdf:Description>
@@ -747,7 +798,7 @@
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
             <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementRef"/>
-            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/quotation/{$quoteID}"/>
+            <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
           </rdf:Description>
@@ -802,7 +853,59 @@
             		
             	<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml"/>
             </rdf:Description>
-            
+          	
+          	<!-- BEGIN manifestation and transcription resource creation for structureDivision for critical manifestation -->
+          	<xsl:for-each select="document($text-path)//tei:body/tei:div//tei:div">
+          		<!-- only creates division resource if that division has been assigned an id -->
+          		<xsl:if test="./@xml:id">
+          			<xsl:variable name="divisionId" select="./@xml:id"/>
+          			<xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
+          			
+          			<!-- create manifestation for critical structureDivision -->
+          			<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/critical">
+          				<dc:title>Paragraph <xsl:value-of select="$divisionId"/></dc:title>
+          				<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+          				<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical"/>
+          				<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
+          				<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
+          				<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
+          			</rdf:Description>
+          			
+          			<!-- create transcription for critical structureDivision -->
+          			<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/critical/transcription">
+          				<dc:title>Paragraph <xsl:value-of select="$divisionId"/> [critical transcription]</dc:title>
+          				<rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+          				<sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/critical/division/{$divisionId}"/>
+          				<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
+          				<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$divisionId}/critical"/>
+          				<!-- add transcription type
+              			TODO: not ideal to be harding this; should be getting from projectdata file or transcription.xml file -->
+          				<sctap:transcriptionType>Critical</sctap:transcriptionType>
+          				<!-- TODO: this chould change to point to existDB that can actually return a new TEI file with just the paragraph -->
+          				<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$divisionId}"/>
+          				<!-- could add path to plain text version of paragraph -->
+          				
+          				<!-- begin status Declaration Block -->
+          				<!-- TODO: refactor this into a reusable function -->
+          				<xsl:choose>
+          					<xsl:when test="document($text-path)//tei:revisionDesc/@status">
+          						<sctap:status><xsl:value-of select="document($text-path)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
+          					</xsl:when>
+          					<xsl:when test="document($text-path)">
+          						<sctap:status>In Progress</sctap:status>
+          					</xsl:when>
+          					<xsl:otherwise>
+          						<sctap:status>Not Started</sctap:status>
+          					</xsl:otherwise>
+          				</xsl:choose>
+          				
+          			</rdf:Description>
+          			
+          		</xsl:if>
+          	</xsl:for-each>
+          	<!-- END manifestation and transcription resource creation for structureBlock for critical manifestation -->
+           
+           <!-- BEGIN manifestation and transcription resource creation for structureBlock for critical manifestation -->
             <xsl:for-each select="document($text-path)//tei:body//tei:p">
               <!-- only creates paragraph resource if that paragraph has been assigned an id -->
               <xsl:if test="./@xml:id">
@@ -851,6 +954,7 @@
               	
               </xsl:if>
             </xsl:for-each>
+          	<!-- END manifestation and transcription resource creation for structureBlock for critical manifestation -->
           </xsl:if>
     		
     		<!-- create manifestation of critical manifesation at structureItem level -->
@@ -981,7 +1085,66 @@
     					<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$wit-slug}_{$fs}.xml"/>
 	          </rdf:Description>
     				
-	          <!-- create paragraph resources for each paragraph in transcription -->
+    				
+    				<!-- BEGIN create structureDivision manifesation and transcription resources from each diplomatic manifestation -->
+    				
+    				<xsl:for-each select="document($transcription-text-path)//tei:body/tei:div//tei:div">
+    					<!-- only creates division resource if that division has been assigned an id -->
+    					<xsl:if test="./@xml:id">
+    						<xsl:variable name="divisionId" select="./@xml:id"/>
+    						<xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
+    						
+    						<!-- create manifestation for structureDivision -->
+    						<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}">
+    							<dc:title>Paragraph <xsl:value-of select="$divisionId"/></dc:title>
+    							<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+    							<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
+    							<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
+    							<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
+    							<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
+    						</rdf:Description>
+    						
+    						<!-- create transcription for non-critical/documentary structureDivision -->
+    						
+    						
+    						<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription">
+    							<dc:title>Division <xsl:value-of select="$divisionId"/></dc:title>
+    							<rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+    							<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/transcription"/>
+    							<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}"/>
+    							<!-- add transcription type -->
+    							<sctap:transcriptionType>Documentary</sctap:transcriptionType>
+    							<sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$wit-slug}/division/{$divisionId}"/>
+    							
+    							<xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$divisionId_ref]">
+    								<xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
+    								<!-- TODO: simplifying name scheme for has Zone -->
+    								<sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/division/{$divisionId}/{$position}"/>
+    							</xsl:for-each>
+    							<sctap:hasXML rdf:resource="https://bitbucket.org/jeffreycwitt/{$fs}/raw/master/{$wit-slug}_{$fs}.xml#{$divisionId}"/>
+    							<!-- could add path to plain text version of paragraph -->
+    							
+    							<!-- begin status Declaration Block -->
+    							<!-- TODO: refactor this into a reusable function -->
+    							<xsl:choose>
+    								<xsl:when test="document($transcription-text-path)//tei:revisionDesc/@status">
+    									<sctap:status><xsl:value-of select="document($text-path)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
+    								</xsl:when>
+    								<xsl:when test="document($transcription-text-path)">
+    									<sctap:status>In Progress</sctap:status>
+    								</xsl:when>
+    								<xsl:otherwise>
+    									<sctap:status>Not Started</sctap:status>
+    								</xsl:otherwise>
+    							</xsl:choose>
+    							<!-- end status Declaration block -->
+    						</rdf:Description>
+    					</xsl:if>
+    				</xsl:for-each>
+    						<!-- END manifestation and Transcription resource creation for structureDivisions -->
+    				
+    				
+	          <!-- create structureBlock manifestation and transcription resources for each expression structureBlock -->
 	          <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
               <!-- only creates paragraph resource if that paragraph has been assigned an id -->
               <xsl:if test="./@xml:id">

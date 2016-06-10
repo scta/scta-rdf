@@ -68,7 +68,9 @@
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:deanima</sctap:dtsurn>
       <sctap:shortId>deanima</sctap:shortId>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/qda"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/anon2deanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/melanderdeanima"/>
    </rdf:Description>
 </rdf:RDF>

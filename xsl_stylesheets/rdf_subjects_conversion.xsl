@@ -25,7 +25,7 @@
     <xsl:template name="category">
         <xsl:variable name="id"><xsl:value-of select="./@xml:id"/></xsl:variable>
         <!--<xsl:variable name="dbpedia-url"><xsl:value-of select="./tei:note[@type='dbpedia-url']"/></xsl:variable>-->
-            <rdf:Description rdf:about="http://scta.info/resource/subject/{$id}">
+            <rdf:Description rdf:about="http://scta.info/resource/{$id}">
                 <rdf:type rdf:resource="http://scta.info/resource/subject"/>
                 <dc:title><xsl:value-of select="./tei:catDesc"></xsl:value-of></dc:title>
                 <!-- since subject identifications are going to be external to mark up this should run a separate set of files that match item ids to subjectids -->
@@ -37,12 +37,12 @@
                     <xsl:when test="./child::tei:category">
                         <xsl:for-each select="./child::tei:category">
                             <xsl:variable name="childid" select="./@xml:id"></xsl:variable>
-                            <dcterms:hasPart rdf:resource="http://scta.info/resource/subject/{$childid}"/>
+                            <dcterms:hasPart rdf:resource="http://scta.info/resource/{$childid}"/>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:when test="./parent::tei:category">
                         <xsl:variable name="parentid" select="./parent::tei:category/@xml:id"></xsl:variable>
-                        <dcterms:isPartOf rdf:resource="http://scta.info/resource/subject/{$parentid}"/>
+                        <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentid}"/>
                     </xsl:when>
                 </xsl:choose>
             </rdf:Description>

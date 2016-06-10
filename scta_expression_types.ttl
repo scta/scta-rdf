@@ -1,0 +1,92 @@
+@prefix scta: <http://scta.info/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dbpedia: <http://dbpedia.org/ontology/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix role: <http://www.loc.gov/loc.terms/relators/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>    
+
+@prefix sctar: <http://scta.info/resource/>
+@prefix sctap: <http://scta.info/property/>
+
+
+sctar:librum 
+	rdf:type sctar:expressionType ; 
+	dc:title "Book Division" ;  
+	dc:description "The typical top level division of a Sentences Commentary" ;
+	sctap:level 1 ;
+	sctap:hasSubExpressionType sctar:librum1 ;
+	sctap:hasSubExpressionType sctar:librum2 ;
+	sctap:hasSubExpressionType sctar:librum3 ;
+	sctap:hasSubExpressionType sctar:librum4 ;
+	sctap:hasChildExpressionType sctar:distinctio .
+
+sctar:librum1
+	rdf:type sctar:expressionType ; 
+	dc:title "Book 1 Division" ;  
+	dc:description "Book 1 division of Sentences and Sentences Commentaries; deals with questions of the divine nature" ;
+	sctap:level 2 ;
+	dcterms:isPartOf sctar:librum ;
+	sctap:hasChildExpressionType sctar:librum1-prologus ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio1 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio2 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio3 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio4 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio5 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio6 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio7 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio8 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio9 ;
+	sctap:hasChildExpressionType sctar:librum1-distinctio10 .
+	# and so on
+
+sctar:librum2
+	rdf:type sctar:expressionType ; 
+	dc:title "Book 2 Division" ; 
+	dc:description "Book 2 division of Sentences and Sentences Commentaries; deals with questions about creation" ;
+	sctap:level 2 ;
+	dcterms:isPartOf sctar:librum .
+
+sctar:librum3
+	rdf:type sctar:expressionType ; 
+	dc:title "Book 3 Division" ;
+	dc:description "Book 3 division of Sentences and Sentences Commentaries; deals with questions about Christ" ;
+	sctap:level 2 ;
+	dcterms:isPartOf sctar:librum .
+
+sctar:librum4
+	rdf:type sctar:expressionType ; 
+	dc:title "Book 4 Division" ;
+	dc:description "Book 4 division of Sentences and Sentences Commentaries; deals with questions about Church and Sacraments" ;
+	sctap:level 2 ;
+	dcterms:isPartOf sctar:librum .
+
+sctar:distinctio 
+	rdf:type sctar:expressionType ; 
+	dc:title "Distinction Division" ; 
+	dc:description "A basic division of a book type in a Sentences Commentary" ;
+	sctap:level 1 ;
+	sctap:hasParentExpressionType sctar:librum ;
+	sctap:hasSubExpressionType sctar:librum1-prologus ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio1 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio2 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio3 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio4 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio5 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio6 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio7 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio8 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio9 ;
+	sctap:hasSubExpressionType sctar:librum1-distinctio10 .
+
+sctar:librum1-prologus
+	rdf:type sctar:expressionType ; 
+	dc:title "Book 1 Prologue" ;
+	dc:description "Division of Book 1 that usually discusses theological science and faith" ;
+	sctap:level 2 ;
+	dcterms:isPartOf sctar:distinctio .
+		
