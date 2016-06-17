@@ -122,7 +122,7 @@
 	      
 	      <!-- identify all resources with structureType=itemStructure -->
     		
-    		<xsl:for-each select="./div//item">
+    		<xsl:for-each select=".//item">
             <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
             <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
         </xsl:for-each>
@@ -241,7 +241,8 @@
     	</xsl:for-each>
     	
     	<!-- BEGIN structureType=structureItem expression resource creation -->
-    	<xsl:for-each select="./div//item">
+    	<!-- NOTE: changed ./div//item to .//item. This should be better, but keep your eye out for unanticipated consequences -->
+    	<xsl:for-each select=".//item">
     		<!-- TODO go through variable and see what is being used and delete what is not being used -->
 	      <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
 	      <xsl:variable name="title"><xsl:value-of select="title"/></xsl:variable>
@@ -300,11 +301,11 @@
     			
     			<xsl:if test="./following::item[1]">
 	           <xsl:variable name="next-item" select="./following::item[1]/fileName/@filestem"></xsl:variable>
-	           <sctap:next rdf:resource="http://scta.info/text/{$cid}/item/{$next-item}"/>
+	           <sctap:next rdf:resource="http://scta.info/resource/{$next-item}"/>
     			</xsl:if>
     			<xsl:if test="./preceding::item[1]">
     				<xsl:variable name="previous-item" select="./preceding::item[1]/fileName/@filestem"></xsl:variable>
-    				<sctap:previous rdf:resource="http://scta.info/text/{$cid}/item/{$previous-item}"/>
+    				<sctap:previous rdf:resource="http://scta.info/resource/{$previous-item}"/>
     			</xsl:if>
     			
     			<!-- TODO: consider adding questionTitle attribute to higher level divs as well -->

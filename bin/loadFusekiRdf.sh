@@ -34,6 +34,16 @@
 			./s-post http://localhost:3030/ds/data default $rdfbase/deanima-commentaries/${filename}.rdf
 		done	
 
+	#load summulaelogicales commentaries.
+	for f in $rdfbase/summulaelogicales-commentaries/* 
+		do
+			filename=$(basename "$f");
+			extension="${filename##*.}";
+			filename="${filename%.*}";
+			echo "$rdfbase/summulaelogicales-commentaries/${filename}.rdf"
+			./s-post http://localhost:3030/ds/data default $rdfbase/summulaelogicales-commentaries/${filename}.rdf
+		done	
+
 	./s-post http://localhost:3030/ds/data default $rdfbase/names/persongroups.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/names/Prosopography.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/works/workscited.rdf
@@ -93,6 +103,7 @@
 	./s-post http://localhost:3030/ds/data default $jsonldbase/atv-Paris1490.jsonld
 	./s-post http://localhost:3030/ds/data default /Users/jcwitt/Projects/scta/scta-site/public/pl-zbsSII72.jsonld
 	./s-post http://localhost:3030/ds/data default /Users/jcwitt/Projects/scta/scta-site/public/ta-harv245.jsonld
+	./s-post http://localhost:3030/ds/data default $jsonldbase/phsl-avignon311.jsonld
 
 	echo "loading scta articles"
 	./s-post http://localhost:3030/ds/data default $rdfbase/articles.ttl

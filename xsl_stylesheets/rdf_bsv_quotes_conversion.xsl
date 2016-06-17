@@ -36,8 +36,8 @@
                 <dc:title><xsl:value-of select="$verse"></xsl:value-of></dc:title>
                 <sctap:quotation><xsl:value-of select="$verse"/></sctap:quotation>
                 <sctap:citation><xsl:value-of select="$worktitle"/><xsl:text> </xsl:text><xsl:value-of select="$chapterNumber"/><xsl:text>:</xsl:text><xsl:value-of select="$versenumber"/></sctap:citation>
-                <sctap:quotationType rdf:resource="http://scta.info/resource/quoteType/Biblical"/>
-                <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/biblicalWork/{$workid}"/>
+                <sctap:quotationType rdf:resource="http://scta.info/resource/biblical"/>
+                <sctap:fromBiblicalBook rdf:resource="http://scta.info/resource/{$workid}"/>
                 <sctap:fromBiblicalChapter><xsl:value-of select="$chapterNumber"/></sctap:fromBiblicalChapter>
                 <sctap:fromBiblicalVerse><xsl:value-of select="$versenumber"/></sctap:fromBiblicalVerse>
             	<xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/resource/', $verseid)]">

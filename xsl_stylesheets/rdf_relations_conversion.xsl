@@ -27,10 +27,11 @@
         and at the item level -->
       
       <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:abbreviates | 
-        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:references | 
-        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:references[contains(@rdf:resource, 'passage')] |
-        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:copies | 
-        collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:quotes">
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:references | 
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:references[contains(@rdf:resource, 'passage')] |
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:copies | 
+        collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:quotes |
+      	collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:isInstanceOf">
         <!-- below all resources are going to receive a passive relationship. The patient-resource-id is the subject that the action is being done to.
           The agent resource is the agent of the acting being done. It answers the question, doneBy whome? -->
         <xsl:variable name="patient-resource-id" select="./@rdf:resource"/>
@@ -49,6 +50,9 @@
             <xsl:when test="./name() = 'sctap:quotes'">
               <sctap:quotedBy rdf:resource="{$agent-resource-id}"/>
             </xsl:when>
+          	<xsl:when test="./name() = 'sctap:isInstanceOf'">
+          		<sctap:hasInstance rdf:resource="{$agent-resource-id}"/>
+          	</xsl:when>
             <xsl:otherwise>
               <text>nothing matched</text>
             </xsl:otherwise>

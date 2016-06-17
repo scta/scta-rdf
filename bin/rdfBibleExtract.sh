@@ -7,11 +7,19 @@ date
 
 if [ "$scope" == 'all' ]; then
 	echo "scope for all has not yet been set up"
+	for f in $base/bible_text/nova-vulgata/*.xml
+	do
+		filename=$(basename "$f");
+		extension="${filename##*.}";
+		bookid="${filename%.*}";
+		echo "Being quotation extraction from Biblia Sacra Vulgate for $bookid";
+		saxon "-s:/$base/bible_text/Biblia_Sacra_Vulgata/Biblia_Sacra_Vulgata.xml" "-xsl:$base/scta-rdf/xsl_stylesheets/rdf_bsvQuick_quotes_conversion.xsl" "-o:$base/scta-rdf/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
+	done
 else
 	echo "Being quotation extraction from Biblia Sacra Vulgate for $scope";
 	date
 	bookid=$scope
-	saxon "-s:/$base/bible_text/Biblia_Sacra_Vulgata/Biblia_Sacra_Vulgata.xml" "-xsl:$base/scta-rdf/xsl_stylesheets/rdf_bsv_quotes_conversion.xsl" "-o:$base/scta-rdf/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
+	saxon "-s:/$base/bible_text/Biblia_Sacra_Vulgata/Biblia_Sacra_Vulgata.xml" "-xsl:$base/scta-rdf/xsl_stylesheets/rdf_bsvQuick_quotes_conversion.xsl" "-o:$base/scta-rdf/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
 	date
 fi
 

@@ -8,10 +8,10 @@
 @prefix role: <http://www.loc.gov/loc.terms/relators/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>    
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .    
 
-@prefix sctar: <http://scta.info/resource/>
-@prefix sctap: <http://scta.info/property/>
+@prefix sctar: <http://scta.info/resource/> .
+@prefix sctap: <http://scta.info/property/> .
 
 ######################################################
 # CORE CLASSES
@@ -74,7 +74,7 @@ sctar:structureType
 	  sctar:structureElement
 			rdfs:subClassOf sctar:structureType ; 
 			rdfs:label "Structure Element" ;
-	    dc:description "a resource with a structureType of structureElement is an element contained with a structureBlock, but they are not part of a hierachy, thus they do not have a parentPart or childParts, they simply have a 'isPartOfStructureBlock' property" .
+	    dc:description "a resource with a structureType of structureElement is an element contained with a structureBlock, but they are not part of a hierachy, thus they do not have a parentPart or childParts, they simply have a isPartOfStructureBlock property" .
 
 				sctar:structureElementType
 					rdfs:subClassOf sctar:structureElement ;
@@ -192,7 +192,7 @@ sctap:contentInfo
    	#rdfs:range scta:element .
 
   dc:description
-		rdfs:subPropertyOf sctap:contentInfo ;
+		rdfs:subPropertyOf sctap:contentInfo .
 	
 	sctap:questionTitle				
 		rdfs:subPropertyOf sctap:contentInfo .

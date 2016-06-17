@@ -28,7 +28,7 @@
             <rdf:Description rdf:about="http://scta.info/resource/{$id}">
                 <rdf:type rdf:resource="http://scta.info/resource/person"/>
                 <dc:title><xsl:value-of select="./tei:persName[@xml:lang='en']"></xsl:value-of></dc:title>
-                <sctap:personType rdf:resource="http://scta.info/resource/{$person-type}"/>
+            	<sctap:personType rdf:resource="http://scta.info/resource/{lower-case($person-type)}"/>
                 <xsl:if test="./tei:note[@type='dbpedia-url']">
                     <xsl:variable name="dbpedia-url"><xsl:value-of select="./tei:note[@type='dbpedia-url']"/></xsl:variable>
                     <owl:sameAs rdf:resource="{$dbpedia-url}"/>
@@ -37,10 +37,10 @@
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasWork rdf:resource="{$itemid}"/>
                 </xsl:for-each>
-                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/person/', $id)]">
+                <!--<xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/person/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasInstance rdf:resource="{$itemid}"/>
-                </xsl:for-each>
+                </xsl:for-each>-->
                 
                 </rdf:Description>
     </xsl:template>

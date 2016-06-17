@@ -6,6 +6,7 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:variable name="sentences-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
 	<xsl:variable name="deanima-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/deanima-commentaries/</xsl:variable>
+	<xsl:variable name="summulaelogicales-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/summulaelogicales-commentaries/</xsl:variable>
   
   <xsl:template match="/">
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -20,6 +21,7 @@
       <xsl:call-template name="create-archive"/>
     	<xsl:call-template name="create-sententia-work-group"/>
     	<xsl:call-template name="create-deanima-work-group"/>
+    	<xsl:call-template name="create-summulaelogicales-work-group"/>
     </rdf:RDF>
   </xsl:template>
   
@@ -34,6 +36,7 @@
       <!-- This templates create the top level collection, containing all commentaries. -->
     	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/sententia"/>
     	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/deanima"/>
+    	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/summulaelogicales"/>
     </rdf:Description>
   </xsl:template>
 	
@@ -62,6 +65,22 @@
 			<sctap:shortId>deanima</sctap:shortId>
 			<!-- This templates create the top level collection, containing all commentaries. -->
 			<xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+				<xsl:variable name="commentaryid" select="./@rdf:about"/>
+				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
+			</xsl:for-each>
+		</rdf:Description>
+	</xsl:template>
+	
+	<xsl:template name="create-summulaelogicales-work-group">
+		<rdf:Description rdf:about="http://scta.info/resource/summulaelogicales">
+			<dc:title>Summulae logicales and commentaries</dc:title>
+			<dc:description>A Work Group for the Summulae Logicales and the Commentary Tradition</dc:description>
+			<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+			<sctap:dtsurn>urn:dts:latinLit:summulaelogicales</sctap:dtsurn>
+			<sctap:shortId>summulaelogicales</sctap:shortId>
+			<!-- This templates create the top level collection, containing all commentaries. -->
+			<!-- TODO: it should be looking of type=expression level=1 instead of expressionType=commentary --> 
+			<xsl:for-each select="collection(concat($summulaelogicales-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
 				<xsl:variable name="commentaryid" select="./@rdf:about"/>
 				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
 			</xsl:for-each>

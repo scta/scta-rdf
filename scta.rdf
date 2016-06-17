@@ -18,6 +18,7 @@
       <sctap:projectfilesversion>1549552</sctap:projectfilesversion>
       <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/sententia"/>
       <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/deanima"/>
+      <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/summulaelogicales"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/sententia">
       <dc:title>Sentences Commentaries</dc:title>
@@ -61,6 +62,7 @@
       <dcterms:hasPart rdf:resource="http://scta.info/resource/chattonreportatio"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/rothwellcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/ockhamcommentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/vaurouilloncommentary"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/deanima">
       <dc:title>De Anima Commentaries</dc:title>
@@ -72,5 +74,13 @@
       <dcterms:hasPart rdf:resource="http://scta.info/resource/qda"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/anon2deanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/melanderdeanima"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/summulaelogicales">
+      <dc:title>Summulae logicales and commentaries</dc:title>
+      <dc:description>A Work Group for the Summulae Logicales and the Commentary Tradition</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:summulaelogicales</sctap:dtsurn>
+      <sctap:shortId>summulaelogicales</sctap:shortId>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
    </rdf:Description>
 </rdf:RDF>

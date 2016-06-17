@@ -30,12 +30,12 @@
                 <sctap:workTitle><xsl:value-of select="./tei:title"></xsl:value-of></sctap:workTitle>
                 <xsl:variable name="authorid" select="translate(./tei:author/@ref, '#', '')"></xsl:variable>
                 <sctap:workAuthor rdf:resource="http://scta.info/resource/{$authorid}"/>
-                <sctap:workType rdf:resource="http://scta.info/resource/{$work-type}"/>
+            	<sctap:workType rdf:resource="http://scta.info/resource/{lower-case($work-type)}"/>
                 <!--<owl:sameAs rdf:resource="{$dbpedia-url}"/>-->
-                <xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/resource/', $id)]">
+                <!--<xsl:for-each select="collection(concat($commentary-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:isInstanceOf[@rdf:resource=concat('http://scta.info/resource/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:hasInstance rdf:resource="{$itemid}"/>
-                </xsl:for-each>
+                </xsl:for-each> -->
                 <!--<xsl:for-each select="collection('/Users/JCWitt/Desktop/scta/quotations/?select=[a-zA-Z]*.rdf')//sctap:fromWork[@rdf:resource=concat('http://scta.info/resource/Work/', $id)]">
                     <xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
                     <sctap:quotationUsed rdf:resource="{$itemid}"/>
