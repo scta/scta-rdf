@@ -101,6 +101,10 @@
     		
     		<sctap:slug><xsl:value-of select="$commentaryslug"/></sctap:slug>
 		    <sctap:shortId><xsl:value-of select="$cid"/></sctap:shortId>
+    		<xsl:if test="//header/rcsid">
+    			<sctap:rcsid><xsl:value-of select="//header/rcsid"/></sctap:rcsid>
+    			
+    		</xsl:if>
 		    <sctap:dtsurn><xsl:value-of select="$dtsurn"/></sctap:dtsurn>
 				<sctap:level>1</sctap:level>
     		<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
@@ -132,37 +136,126 @@
         	<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
         	<!-- TODO: add hasCanonicalManifestation; but this needs to be indicated in the project file header -->
         </xsl:for-each>
+    		<!-- TODO: has Manifestation for critical needs to be conditional based on information in project file header -->
+    		<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
 		  </rdf:Description>
     	
-    	
-    	
-      <!-- create manifestation entry for each manifestation corresponding to the top level expression -->
+    	<!-- create manifestation entry for each manifestation corresponding to the top level expression -->
       <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
         <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
         <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
-        <xsl:variable name="wit-canvasbase"><xsl:value-of select="./cavnasBase"/></xsl:variable>
+        <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
         <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
         
       	<rdf:Description rdf:about="http://scta.info/resource/{$cid}/{$wit-slug}">
           <dc:title><xsl:value-of select="$wit-title"/></dc:title>
       		<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
           <role:AUT rdf:resource="{$author-uri}"/>
+      		<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      		<sctap:level>1</sctap:level>
           <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
       		<sctap:shortId><xsl:value-of select="concat($cid, '/', $wit-slug)"/></sctap:shortId>
           <xsl:if test="./manifestOfficial">
             <xsl:variable name="wit-manifestofficial"><xsl:value-of select="./manifestOfficial"/></xsl:variable>
             <sctap:manifestOfficial><xsl:value-of select="$wit-manifestofficial"></xsl:value-of></sctap:manifestOfficial>
           </xsl:if>
+      		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
+      		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
+      		
+      		<xsl:for-each select="//div[@id='body']/div">
+      			<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
+      			<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
+      		</xsl:for-each>
+      		
+      		<!-- identify all resources with structureType=itemStructure -->
+      		
+      		<xsl:for-each select="//div[@id='body']//item">
+      			<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+      			<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
+      		</xsl:for-each>
         </rdf:Description>
       </xsl:for-each>
     	
-    	<!-- TODO: another manifestation of the critical editions should be added; 
-    		this is born digital manifestation, that doesn't have physical copy somewhere; 
-    		but it is still a manifestation -->
+    	<rdf:Description rdf:about="http://scta.info/resource/{$cid}/critical">
+    			<dc:title>Critical Manifestation</dc:title>
+    			<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+    			<role:AUT rdf:resource="{$author-uri}"/>
+    			<sctap:hasSlug>critical</sctap:hasSlug>
+    			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    			<sctap:level>1</sctap:level>
+    			<sctap:shortId><xsl:value-of select="concat($cid, '/critical')"/></sctap:shortId>
+    			<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
+    			<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
+	    		<xsl:for-each select="./div">
+	    			<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
+	    			<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}/critical"/>
+	    		</xsl:for-each>
+	    		
+	    		<!-- identify all resources with structureType=itemStructure -->
+	    		
+	    		<xsl:for-each select=".//item">
+	    			<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+	    			<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical"/>
+	    		</xsl:for-each>
+    			
+    		</rdf:Description>
+    	<!-- end of top level manifestation creation -->
     	
-    		<!-- end of top level manifestation creation --> 
+    	<!-- create transcription entry for each transcription corresponding to the top level expression -->
+    	<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+    		<xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
+    		<xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
+    		<xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
+    		<xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+    		
+    		<rdf:Description rdf:about="http://scta.info/resource/{$cid}/{$wit-slug}/transcription">
+    			<dc:title><xsl:value-of select="$wit-title"/> transcription</dc:title>
+    			<rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+    			<role:AUT rdf:resource="{$author-uri}"/>
+    			<sctap:level>1</sctap:level>
+    			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    			<sctap:shortId><xsl:value-of select="concat($cid, '/', $wit-slug, '/transcription')"/></sctap:shortId>
+    			<xsl:if test="./manifestOfficial">
+    				<xsl:variable name="wit-manifestofficial"><xsl:value-of select="./manifestOfficial"/></xsl:variable>
+    				<sctap:manifestOfficial><xsl:value-of select="$wit-manifestofficial"></xsl:value-of></sctap:manifestOfficial>
+    			</xsl:if>
+    			<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$cid}/{$wit-slug}/transcription"/>
+    			
+    			<xsl:for-each select="//div[@id='body']/div">
+    				<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
+    				<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}/transcription"/>
+    			</xsl:for-each>
+    			<!-- identify all resources with structureType=itemStructure -->
+    			<xsl:for-each select="//div[@id='body']//item">
+    				<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+    				<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/transcription"/>
+    			</xsl:for-each>
+    		</rdf:Description>
+    		
+    	</xsl:for-each>
     	
-    		<!-- BEGIN create resources for any sponors of top level expression -->
+    		<rdf:Description rdf:about="http://scta.info/resource/{$cid}/critical/transcription">
+    			<dc:title>Critical Transcription</dc:title>
+    			<rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+    			<role:AUT rdf:resource="{$author-uri}"/>
+    			<sctap:hasSlug>critical</sctap:hasSlug>
+    			<sctap:level>1</sctap:level>
+    			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    			<sctap:shortId><xsl:value-of select="concat($cid, '/critical/transcription')"/></sctap:shortId>
+    			<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$cid}/critical/transcription"/>
+		    	<xsl:for-each select="./div">
+		    		<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
+		    		<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}/critical/transcription"/>
+		    	</xsl:for-each>
+		    	<!-- identify all resources with structureType=itemStructure -->
+		    	<xsl:for-each select=".//item">
+		    		<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+		    		<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
+		    	</xsl:for-each>
+		    	</rdf:Description>
+		    <!-- end of top level transcription creation -->
+    	
+    	<!-- BEGIN create resources for any sponors of top level expression -->
     	<xsl:for-each select="$sponsors//sponsor">
     		<rdf:Description rdf:about="http://scta.info/resource/{@id}">
     			<dc:title><xsl:value-of select="./name"/></dc:title>
@@ -206,6 +299,7 @@
     			
     			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
     			<sctap:level><xsl:value-of select="count(ancestor::*)"/></sctap:level>
+    			<sctap:shortId><xsl:value-of select="$divid"/></sctap:shortId>
     			
     			<!-- identify parent expression resource -->
     			<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentExpression}"/>
@@ -726,7 +820,8 @@
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$nameID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
-          	
+          	<sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
+          	<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
           	<!-- TODO addd manifestation identifcation create; use the block of code used above to make these assertsion at the item, div, and block level 
           	this will be block will repeated in each of the three following structureElements creation. Therefore it should be placed in separate function, 
           	so it can be resued 7 seven different times 
@@ -748,6 +843,8 @@
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$titleID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
+          	<sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
+          	<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
           </rdf:Description>
         </xsl:for-each>
         <xsl:for-each select="document($extraction-file)//tei:body//tei:quote[@ana]">
@@ -764,6 +861,8 @@
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
+          	<sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
+          	<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
           </rdf:Description>
         </xsl:for-each>
         
@@ -785,6 +884,8 @@
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$refID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
+          	<sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
+          	<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
           </rdf:Description>
         </xsl:for-each>
         <!-- default type="quotation" -->
@@ -802,6 +903,8 @@
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
             <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
+          	<sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
+          	<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
           </rdf:Description>
         </xsl:for-each>
         <!-- resource creation for Sentences Commentary passage is not needed -->        
@@ -834,6 +937,7 @@
               </xsl:choose>
               
               <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+            	<sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
               <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$fs}/critical"/>
               <!-- TODO: infomration about nameing of critical edition and type should come from project data or transcription file rather 
                 than being hard coded. It works as is, if there is only one critical transcription, but if there were more than one it 
@@ -843,16 +947,19 @@
               <xsl:for-each select="document($text-path)//tei:body//tei:p">
                 <xsl:variable name="pid" select="./@xml:id"/>
                 <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
-              	<sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}/critical"/>
+              	<sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}/critical/transcription"/>
               </xsl:for-each>
-              <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/critical"/>
+              <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$fs}/critical/transcription"/>
             	<!-- NOTE: so if there was more than one critical transcription or we were mapping multiple version 
             		the transcription for an earlier editions would point to a previous tagged point in the commit history like so:
             		"https://bitbucket.org/jeffreycwitt/{$fs}/raw/1.0/{$fs}.xml" -->
             	<!-- requirement to lower case is bitbucket oddity that changges repo to lower case;
             		this would need to be adjusted after a switch to gitbut if github did not force repo names to lower case --> 
             		
-            	<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml"/>
+            	<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml"/>
+            	<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$fs}/critical/transcription"/>
+            	<sctap:shortId><xsl:value-of select="concat($fs, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
+            	<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
             </rdf:Description>
           	
           	<!-- BEGIN manifestation and transcription resource creation for structureDivision for critical manifestation -->
@@ -864,9 +971,11 @@
           			
           			<!-- create manifestation for critical structureDivision -->
           			<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/critical">
-          				<dc:title>Paragraph <xsl:value-of select="$divisionId"/></dc:title>
+          				<dc:title>Division <xsl:value-of select="$divisionId"/></dc:title>
           				<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
           				<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical"/>
+          				<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+          				<sctap:shortId><xsl:value-of select="concat($divisionId, '/critical')"/></sctap:shortId>
           				<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
           				<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
           				<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
@@ -874,16 +983,20 @@
           			
           			<!-- create transcription for critical structureDivision -->
           			<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/critical/transcription">
-          				<dc:title>Paragraph <xsl:value-of select="$divisionId"/> [critical transcription]</dc:title>
+          				<dc:title>Division <xsl:value-of select="$divisionId"/> [critical transcription]</dc:title>
           				<rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-          				<sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/critical/division/{$divisionId}"/>
+          				<sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$divisionId}/critical/transcription"/>
+          				<sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
           				<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
           				<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$divisionId}/critical"/>
           				<!-- add transcription type
               			TODO: not ideal to be harding this; should be getting from projectdata file or transcription.xml file -->
           				<sctap:transcriptionType>Critical</sctap:transcriptionType>
-          				<!-- TODO: this chould change to point to existDB that can actually return a new TEI file with just the paragraph -->
-          				<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$divisionId}"/>
+          				<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$divisionId}"/>
+          				<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$divisionId}/critical/transcription"/>
+          				<sctap:shortId><xsl:value-of select="concat($divisionId, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
+          				<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
+          				
           				<!-- could add path to plain text version of paragraph -->
           				
           				<!-- begin status Declaration Block -->
@@ -917,7 +1030,10 @@
               	<rdf:Description rdf:about="http://scta.info/resource/{$pid}/critical">
               		<dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
               		<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+              		<sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
               		<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical"/>
+              		<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+              		<sctap:shortId><xsl:value-of select="concat($pid, '/critical')"/></sctap:shortId>
               		<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
               		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/critical/transcription"/>
               		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/critical/transcription"/>
@@ -927,14 +1043,19 @@
               	<rdf:Description rdf:about="http://scta.info/resource/{$pid}/critical/transcription">
                   <dc:title>Paragraph <xsl:value-of select="$pid"/> [critical transcription]</dc:title>
                   <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-                  <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/critical/paragraph/{$pid}"/>
+              		<sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
+                  <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$pid}/critical/transcription"/>
               		<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
               		<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$pid}/critical"/>
               		<!-- add transcription type
               			TODO: not ideal to be harding this; should be getting from projectdata file or transcription.xml file -->
               		<sctap:transcriptionType>Critical</sctap:transcriptionType>
               		<!-- TODO: this chould change to point to existDB that can actually return a new TEI file with just the paragraph -->
-              		<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$pid}"/>
+              		<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$pid}"/>
+              		<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$pid}/critical/transcription"/>
+              		<sctap:shortId><xsl:value-of select="concat($pid, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
+              		<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
+              		
                   <!-- could add path to plain text version of paragraph -->
               		
               		<!-- begin status Declaration Block -->
@@ -965,9 +1086,12 @@
     				<dc:title><xsl:value-of select="$fs"/> [Critical]</dc:title>
     				<role:AUT rdf:resource="{$author-uri}"/>
     				<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+    				<sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
     				<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
     				<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
     				<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$fs}"/>
+    				<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+    				<sctap:shortId><xsl:value-of select="concat($fs, '/critical')"/></sctap:shortId>
     				<sctap:hasSlug><xsl:value-of>critical</xsl:value-of></sctap:hasSlug>
     			</rdf:Description>
     		</xsl:if>
@@ -988,6 +1112,9 @@
           	<dc:title><xsl:value-of select="$partOf"/> [<xsl:value-of select="$wit-title"/>]</dc:title>
             <role:AUT rdf:resource="{$author-uri}"/>
             <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+          	<sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+          	<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          	<sctap:shortId><xsl:value-of select="concat($fs, '/', $wit-slug)"/></sctap:shortId>
             <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
             <xsl:for-each select="./folio">
               <xsl:variable name="folionumber" select="./text()"/>
@@ -1070,6 +1197,7 @@
 	              
 	              
               <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+    					<sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
     					<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
 	          	<sctap:transcriptionType>Documentary</sctap:transcriptionType>
               <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
@@ -1080,10 +1208,13 @@
 	              	<sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
 	              </xsl:if>
               </xsl:for-each>
-              <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$wit-slug}"/>
+              <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$fs}/{$wit-slug}/transcription"/>
     					<!-- requirement to lower case is bitbucket oddity that changges repo to lower case;
             		this would need to be adjusted after a switch to gitbut if github did not force repo names to lower case -->
-    					<sctap:hasXML rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$wit-slug}_{$fs}.xml"/>
+    					<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$wit-slug}_{$fs}.xml"/>
+    					<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$fs}/{$wit-slug}/transcription"/>
+    					<sctap:shortId><xsl:value-of select="concat($fs, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>
+    					<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
 	          </rdf:Description>
     				
     				
@@ -1099,8 +1230,11 @@
     						<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}">
     							<dc:title>Paragraph <xsl:value-of select="$divisionId"/></dc:title>
     							<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+    							<sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
     							<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
     							<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
+    							<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+    							<sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug)"/></sctap:shortId>
     							<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
     							<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
     						</rdf:Description>
@@ -1111,18 +1245,22 @@
     						<rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription">
     							<dc:title>Division <xsl:value-of select="$divisionId"/></dc:title>
     							<rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+    							<sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
     							<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/transcription"/>
     							<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}"/>
     							<!-- add transcription type -->
     							<sctap:transcriptionType>Documentary</sctap:transcriptionType>
-    							<sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$wit-slug}/division/{$divisionId}"/>
+    							<sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$divisionId}/{$wit-slug}/transcription"/>
     							
     							<xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$divisionId_ref]">
     								<xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
     								<!-- TODO: simplifying name scheme for has Zone -->
     								<sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/division/{$divisionId}/{$position}"/>
     							</xsl:for-each>
-    							<sctap:hasXML rdf:resource="https://bitbucket.org/jeffreycwitt/{$fs}/raw/master/{$wit-slug}_{$fs}.xml#{$divisionId}"/>
+    							<sctap:hasDocument rdf:resource="https://bitbucket.org/jeffreycwitt/{$fs}/raw/master/{$wit-slug}_{$fs}.xml#{$divisionId}"/>
+    							<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$divisionId}/{$wit-slug}/transcription"/>
+    							<sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>
+    							<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
     							<!-- could add path to plain text version of paragraph -->
     							
     							<!-- begin status Declaration Block -->
@@ -1156,7 +1294,10 @@
               	<rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}">
               		<dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
               		<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+              		<sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
               		<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
+              		<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+              		<sctap:shortId><xsl:value-of select="concat($pid, '/', $wit-slug)"/></sctap:shortId>
               		<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
               		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
               		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
@@ -1168,17 +1309,21 @@
               	<rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}/transcription">
 	                <dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
 	                <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+              		<sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
               		<sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/transcription"/>
               		<sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}"/>
               		<!-- add transcription type -->
               		<sctap:transcriptionType>Documentary</sctap:transcriptionType>
-	                <sctap:plaintext rdf:resource="http://text.scta.info/plaintext/{$cid}/{$fs}/transcription/{$wit-slug}/paragraph/{$pid}"/>
+              		<sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$pid}/{$wit-slug}/transcription"/>
 	                <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
                     <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
 	                	<!-- TODO: simplifying name scheme for has Zone -->
                     <sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/paragraph/{$pid}/{$position}"/>
                   </xsl:for-each>
-	              	<sctap:hasXML rdf:resource="https://bitbucket.org/jeffreycwitt/{$fs}/raw/master/{$wit-slug}_{$fs}.xml#{$pid}"/>
+	              	<sctap:hasDocument rdf:resource="https://bitbucket.org/jeffreycwitt/{$fs}/raw/master/{$wit-slug}_{$fs}.xml#{$pid}"/>
+              		<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$pid}/{$wit-slug}/transcription"/>
+              		<sctap:shortId><xsl:value-of select="concat($pid, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>
+              		<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
 	                  <!-- could add path to plain text version of paragraph -->
               		
               		<!-- begin status Declaration Block -->

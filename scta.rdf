@@ -10,15 +10,65 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:tei="http://www.tei-c.org/ns/1.0">
    <rdf:Description rdf:about="http://scta.info/resource/scta">
-      <dc:title>Sentences Commentary Text Archive</dc:title>
+      <dc:title>Scholastic Commentaries and Texts Archive</dc:title>
       <dc:description>A top level Work Group for all Work Groups in the archive</dc:description>
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:scta</sctap:dtsurn>
       <sctap:shortId>scta</sctap:shortId>
-      <sctap:projectfilesversion>1549552</sctap:projectfilesversion>
-      <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/sententia"/>
-      <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/deanima"/>
-      <sctap:hasWorkGroup rdf:resource="http://scta.info/resource/summulaelogicales"/>
+      <sctap:projectfilesversion>8721ad4</sctap:projectfilesversion>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/sententia"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/deanima"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/summulaelogicales"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiuscommentarius"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/uncategorized"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/halescommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/albertusmagnuscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/anon1commentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/vargascommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamordinatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamabbreviatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/bonaventurecommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/ddbrugescommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/riminicommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/sienacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/romacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hugolinocommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/nataliscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/scotusordinatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/janhuscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hiltalingencommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/lambertuscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dinkelsbuhllectura"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/aquilacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/tarantasiacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/graciliscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/olivicommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/lombardsententia"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/plaoulcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/aquinasscriptum"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/strasbourgcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/chattonreportatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/rothwellcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/ockhamcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/vaurouilloncommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/anon2deanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusdeanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusangelica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussyncategoreumata"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/sententia">
       <dc:title>Sentences Commentaries</dc:title>
@@ -27,42 +77,83 @@
       <sctap:dtsurn>urn:dts:latinLit:sentences</sctap:dtsurn>
       <sctap:shortId>sententia</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/anconacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/halescommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/halescommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/albertusmagnuscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/albertusmagnuscommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/anon1commentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/anon1commentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/vargascommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/vargascommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/wodehamordinatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamordinatio"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/wodehamabbreviatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamabbreviatio"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/bonaventurecommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/bonaventurecommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/ddbrugescommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/ddbrugescommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/riminicommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/riminicommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/sienacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/sienacommentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/romacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/romacommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hugolinocommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hugolinocommentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/nataliscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/nataliscommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/werlcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/altavillacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/scotusordinatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/scotusordinatio"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/janhuscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/janhuscommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hiltalingencommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hiltalingencommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/lambertuscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/lambertuscommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/dinkelsbuhllectura"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dinkelsbuhllectura"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/aquilacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/aquilacommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/tarantasiacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/tarantasiacommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/graciliscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/graciliscommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/olivicommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/olivicommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/lombardsententia"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/lombardsententia"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/plaoulcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/plaoulcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/mediavillacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/mediavillacommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/fitzralphcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/holcotcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/holcotcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/aquinasscriptum"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/aquinasscriptum"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/strasbourgcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/strasbourgcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/crathorncommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/crathorncommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/chattonlectura"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/chattonlectura"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/chattonreportatio"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/chattonreportatio"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/rothwellcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/rothwellcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/ockhamcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/ockhamcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/vaurouilloncommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/vaurouilloncommentary"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/deanima">
       <dc:title>De Anima Commentaries</dc:title>
@@ -71,9 +162,25 @@
       <sctap:dtsurn>urn:dts:latinLit:deanima</sctap:dtsurn>
       <sctap:shortId>deanima</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/qda"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/qda"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/anon2deanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/anon2deanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusdeanima"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/dionysiuscommentarius">
+      <dc:title>Commentaries on the corpus of Pseudo-Dionysius</dc:title>
+      <dc:description>A Work Group for all commentaries on the corpus of Pseudo-Dionysius</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:dionysiuscommentarius</sctap:dtsurn>
+      <sctap:shortId>dionysiuscommentarius</sctap:shortId>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusangelica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusangelica"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/summulaelogicales">
       <dc:title>Summulae logicales and commentaries</dc:title>
@@ -82,5 +189,15 @@
       <sctap:dtsurn>urn:dts:latinLit:summulaelogicales</sctap:dtsurn>
       <sctap:shortId>summulaelogicales</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/uncategorized">
+      <dc:title>Uncategorized</dc:title>
+      <dc:description>A Work Group for Uncategorized Texts</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:uncategorized</sctap:dtsurn>
+      <sctap:shortId>uncategorized</sctap:shortId>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanussyncategoreumata"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussyncategoreumata"/>
    </rdf:Description>
 </rdf:RDF>

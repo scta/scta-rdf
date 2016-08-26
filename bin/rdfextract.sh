@@ -2,7 +2,7 @@
 echo "Creating projectfiles metadata";
 projectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles/"
 deanimaprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-deanima/"
-summulaelogicalesprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-summulaelogicales/"
+petrushispanusprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-petrushispanus/"
 base="/Users/jcwitt/Projects/scta/scta-rdf/";
 
 echo "getting projectfiles version for $projectfilesbase"
@@ -38,14 +38,14 @@ do
 done
 echo "Projectfiles meta data created for de anima commentaries";
 
-for f in $summulaelogicalesprojectfilesbase/*.xml
+for f in $petrushispanusprojectfilesbase/*.xml
 do
 
 	filename=$(basename "$f");
 	extension="${filename##*.}";
 	filename="${filename%.*}";
 	echo "Creating metadata assertion for $filename"
-	saxon "-warnings:silent" "-s:$summulaelogicalesprojectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/summulaelogicales-commentaries/$filename.rdf";
+	saxon "-warnings:silent" "-s:$petrushispanusprojectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/petrushispanus-texts/$filename.rdf";
 done
 echo "Projectfiles meta data created for summulae logicales commentaries";
 
@@ -73,7 +73,9 @@ saxon "-warnings:silent" "-s:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "
 	echo "Begin Workcited Metadata extraction";
 	saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/workscited.xml/" "-xsl:$base/xsl_stylesheets/rdf_works_conversion.xsl" "-o:$base/works/workscited.rdf";
 	echo "Begin Nameslist Metadata extraction";
-	saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/Prosopography.xml/" "-xsl:$base/xsl_stylesheets/rdf_names_conversion.xsl" "-o:$base/names/Prosopography.rdf";
+	echo "TEMPORARAILY SKIPPING NAME BUILD; don't forget to run in Oxygen after extraction has finished."
+	#commented out, because saxon is causing error when requesting file from RCS server.
+	#saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/Prosopography.xml/" "-xsl:$base/xsl_stylesheets/rdf_names_conversion.xsl" "-o:$base/names/Prosopography.rdf";
 	echo "Begin PersonGroupList Metadata extraction";
 	saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/persongroups.xml/" "-xsl:$base/xsl_stylesheets/rdf_persongroups_conversion.xsl" "-o:$base/names/persongroups.rdf";
 	echo "Begin Subjectlist Metadata extraction";

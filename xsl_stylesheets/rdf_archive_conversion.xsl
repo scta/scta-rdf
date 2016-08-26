@@ -6,7 +6,7 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:variable name="sentences-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
 	<xsl:variable name="deanima-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/deanima-commentaries/</xsl:variable>
-	<xsl:variable name="summulaelogicales-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/summulaelogicales-commentaries/</xsl:variable>
+	<xsl:variable name="summulaelogicales-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/petrushispanus-texts/</xsl:variable>
   
   <xsl:template match="/">
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
@@ -21,22 +21,45 @@
       <xsl:call-template name="create-archive"/>
     	<xsl:call-template name="create-sententia-work-group"/>
     	<xsl:call-template name="create-deanima-work-group"/>
+    	<xsl:call-template name="create-dionysius-work-group"/>
     	<xsl:call-template name="create-summulaelogicales-work-group"/>
+    	<xsl:call-template name="create-uncategorized-work-group"/>
     </rdf:RDF>
   </xsl:template>
   
   <xsl:template name="create-archive">
     <rdf:Description rdf:about="http://scta.info/resource/scta">
-      <dc:title>Sentences Commentary Text Archive</dc:title>
+      <dc:title>Scholastic Commentaries and Texts Archive</dc:title>
     	<dc:description>A top level Work Group for all Work Groups in the archive</dc:description>
     	<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:scta</sctap:dtsurn>
     	<sctap:shortId>scta</sctap:shortId>
       <sctap:projectfilesversion><xsl:value-of select="$projectfilesversion"/></sctap:projectfilesversion>
       <!-- This templates create the top level collection, containing all commentaries. -->
-    	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/sententia"/>
-    	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/deanima"/>
-    	<sctap:hasWorkGroup rdf:resource="http://scta.info/resource/summulaelogicales"/>
+    	<dcterms:hasPart rdf:resource="http://scta.info/resource/sententia"/>
+    	<dcterms:hasPart rdf:resource="http://scta.info/resource/deanima"/>
+    	<dcterms:hasPart rdf:resource="http://scta.info/resource/summulaelogicales"/>
+    	<dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiuscommentarius"/>
+    	<dcterms:hasPart rdf:resource="http://scta.info/resource/uncategorized"/>
+    	
+    	
+    	<!-- adding expressions -->
+    	<xsl:for-each select="collection(concat($sentences-rdf-home, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+    		<xsl:variable name="commentaryid" select="./@rdf:about"/>
+    		<sctap:hasExpression rdf:resource="{$commentaryid}"/>
+    	</xsl:for-each>
+    	<xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+    		<xsl:variable name="commentaryid" select="./@rdf:about"/>
+    		<sctap:hasExpression rdf:resource="{$commentaryid}"/>
+    	</xsl:for-each>
+    	
+    	<!-- temporary manually added expressions -->
+    	<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusdeanima"/>
+    	<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusangelica"/>
+    	<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
+    	<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+    	<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussyncategoreumata"/>
+    	<!-- end of manually added expressions -->
     </rdf:Description>
   </xsl:template>
 	
@@ -52,6 +75,7 @@
 				<xsl:variable name="commentaryid" select="./@rdf:about"/>
 				<!-- hasPart is for the moment functioning as hasExpression --> 
 				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
+				<sctap:hasExpression rdf:resource="{$commentaryid}"/>
 			</xsl:for-each>
 		</rdf:Description>
 	</xsl:template>
@@ -67,7 +91,32 @@
 			<xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
 				<xsl:variable name="commentaryid" select="./@rdf:about"/>
 				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
+				<sctap:hasExpression rdf:resource="{$commentaryid}"/>
 			</xsl:for-each>
+			<!-- manually added deanima commentaries -->
+			<dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusdeanima"/>
+		</rdf:Description>
+	</xsl:template>
+	
+	<xsl:template name="create-dionysius-work-group">
+		<rdf:Description rdf:about="http://scta.info/resource/dionysiuscommentarius">
+			<dc:title>Commentaries on the corpus of Pseudo-Dionysius</dc:title>
+			<dc:description>A Work Group for all commentaries on the corpus of Pseudo-Dionysius</dc:description>
+			<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+			<sctap:dtsurn>urn:dts:latinLit:dionysiuscommentarius</sctap:dtsurn>
+			<sctap:shortId>dionysiuscommentarius</sctap:shortId>
+			<!-- This templates create the top level collection, containing all commentaries. -->
+			<!--xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+				<xsl:variable name="commentaryid" select="./@rdf:about"/>
+				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
+			</xsl:for-each>
+			-->
+			<!-- manually added deanima commentaries -->
+			<dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusangelica"/>
+			<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusangelica"/>
+			<dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
+			<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
+			
 		</rdf:Description>
 	</xsl:template>
 	
@@ -80,10 +129,27 @@
 			<sctap:shortId>summulaelogicales</sctap:shortId>
 			<!-- This templates create the top level collection, containing all commentaries. -->
 			<!-- TODO: it should be looking of type=expression level=1 instead of expressionType=commentary --> 
-			<xsl:for-each select="collection(concat($summulaelogicales-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
-				<xsl:variable name="commentaryid" select="./@rdf:about"/>
-				<dcterms:hasPart rdf:resource="{$commentaryid}"/>
-			</xsl:for-each>
+			<!-- <xsl:for-each select="collection(concat($summulaelogicales-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+				<xsl:variable name="commentaryid" select="./@rdf:about"/> -->
+			<dcterms:hasPart rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+			<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+			<!-- </xsl:for-each> -->
+		</rdf:Description>
+	</xsl:template>
+	<xsl:template name="create-uncategorized-work-group">
+		<rdf:Description rdf:about="http://scta.info/resource/uncategorized">
+			<dc:title>Uncategorized</dc:title>
+			<dc:description>A Work Group for Uncategorized Texts</dc:description>
+			<rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+			<sctap:dtsurn>urn:dts:latinLit:uncategorized</sctap:dtsurn>
+			<sctap:shortId>uncategorized</sctap:shortId>
+			<!-- This templates create the top level collection, containing all commentaries. -->
+			<!-- TODO: it should be looking of type=expression level=1 instead of expressionType=commentary --> 
+			<!-- <xsl:for-each select="collection(concat($summulaelogicales-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+			<xsl:variable name="commentaryid" select="./@rdf:about"/> -->
+			<dcterms:hasPart rdf:resource="http://scta.info/resource/hispanussyncategoreumata"/>
+			<sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussyncategoreumata"/>
+			<!-- </xsl:for-each> -->
 		</rdf:Description>
 	</xsl:template>
 </xsl:stylesheet>
