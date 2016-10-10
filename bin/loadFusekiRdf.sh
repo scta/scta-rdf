@@ -5,7 +5,7 @@
 	## this is a temporary place for jsonld manifest to load from
 	## they should load from the scta-site/public folder;
 	## but right now fuseki is having a problem loading any manifest with a search blocks
-	jsonldbase="/Users/jcwitt/Projects/scta/scta-manifests-no-search-block"
+	jsonldbase="/Users/jcwitt/Projects/scta/scta-codices/canvases"
 
 	#update build version file
 	$rdfbase/bin/logbuild.sh
@@ -54,6 +54,17 @@
 	./s-post http://localhost:3030/ds/data default $rdfbase/relations/relations.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/auctoritatesquotations.rdf
 	#./s-post http://localhost:3030/ds/data default $rdfbase/quotations/bsaquotations.rdf
+
+	#load codices
+	echo "begin loading codices data"
+	for f in $rdfbase/codices/*
+		do
+			filename=$(basename "$f");
+			extension="${filename##*.}";
+			filename="${filename%.*}";
+			echo "$rdfbase/codices/${filename}.rdf"
+			./s-post http://localhost:3030/ds/data default $rdfbase/codices/${filename}.rdf
+		done
 
 	for f in $rdfbase/quotations/bsvquotations/*
 	do

@@ -73,9 +73,9 @@ saxon "-warnings:silent" "-s:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "
 	echo "Begin Workcited Metadata extraction";
 	saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/workscited.xml/" "-xsl:$base/xsl_stylesheets/rdf_works_conversion.xsl" "-o:$base/works/workscited.rdf";
 	echo "Begin Nameslist Metadata extraction";
-	echo "TEMPORARAILY SKIPPING NAME BUILD; don't forget to run in Oxygen after extraction has finished."
+	#echo "TEMPORARAILY SKIPPING NAME BUILD; don't forget to run in Oxygen after extraction has finished."
 	#commented out, because saxon is causing error when requesting file from RCS server.
-	#saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/Prosopography.xml/" "-xsl:$base/xsl_stylesheets/rdf_names_conversion.xsl" "-o:$base/names/Prosopography.rdf";
+	saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/Prosopography.xml/" "-xsl:$base/xsl_stylesheets/rdf_names_conversion.xsl" "-o:$base/names/Prosopography.rdf";
 	echo "Begin PersonGroupList Metadata extraction";
 	saxon "-s:/Users/jcwitt/Projects/lombardpress/lombardpress-lists/persongroups.xml/" "-xsl:$base/xsl_stylesheets/rdf_persongroups_conversion.xsl" "-o:$base/names/persongroups.rdf";
 	echo "Begin Subjectlist Metadata extraction";
@@ -86,6 +86,3 @@ saxon "-warnings:silent" "-s:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "
 
 # Code for individual project file extraction
 # saxon -warnings:silent "-s:/Users/jcwitt/Projects/scta/scta-projectfiles/wdr-projectdata.xml" "-xsl:/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:/Users/jcwitt/Projects/scta/scta-rdf/commentaries/wdr-projectdata.rdf";
-
-
-

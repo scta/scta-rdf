@@ -61,8 +61,10 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/ockhamcommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/vaurouilloncommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/summahalensis"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/qda"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/anon2deanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/vargasdeanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusdeanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusangelica"/>
@@ -163,10 +165,14 @@
       <sctap:shortId>deanima</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/summahalensis"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/summahalensis"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/qda"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/qda"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/anon2deanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/anon2deanima"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/vargasdeanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/vargasdeanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusdeanima"/>

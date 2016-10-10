@@ -28,6 +28,7 @@
 
 	<xsl:variable name="sponsors" select="//header/sponsors"/>
 	<xsl:variable name="description" select="//header/description"/>
+	<xsl:variable name="canoncial-top-level-manifestation" select="//header/canonical-top-level-manifestation"/>
 		
 	<xsl:variable name="parentWorkGroup">
 		<xsl:choose>
@@ -134,10 +135,16 @@
         <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
           <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
         	<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-        	<!-- TODO: add hasCanonicalManifestation; but this needs to be indicated in the project file header -->
         </xsl:for-each>
-    		<!-- TODO: has Manifestation for critical needs to be conditional based on information in project file header -->
     		<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+    		<xsl:choose>
+    			<xsl:when test="$canoncial-top-level-manifestation">
+    			</xsl:when>
+    			<xsl:otherwise>
+    				<sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+    			</xsl:otherwise>
+    		</xsl:choose>
+    		
 		  </rdf:Description>
     	
     	<!-- create manifestation entry for each manifestation corresponding to the top level expression -->
@@ -214,6 +221,7 @@
     			<role:AUT rdf:resource="{$author-uri}"/>
     			<sctap:level>1</sctap:level>
     			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    			<sctap:transcriptionType>Diplomatic</sctap:transcriptionType>
     			<sctap:shortId><xsl:value-of select="concat($cid, '/', $wit-slug, '/transcription')"/></sctap:shortId>
     			<xsl:if test="./manifestOfficial">
     				<xsl:variable name="wit-manifestofficial"><xsl:value-of select="./manifestOfficial"/></xsl:variable>
@@ -241,6 +249,7 @@
     			<sctap:hasSlug>critical</sctap:hasSlug>
     			<sctap:level>1</sctap:level>
     			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    			<sctap:transcriptionType>Critical</sctap:transcriptionType>
     			<sctap:shortId><xsl:value-of select="concat($cid, '/critical/transcription')"/></sctap:shortId>
     			<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$cid}/critical/transcription"/>
 		    	<xsl:for-each select="./div">
@@ -269,6 +278,7 @@
     	<!-- begin creation of all structureType=structureCollections that are not topLevel Expressions -->
     	
     	<xsl:for-each select=".//div">
+    		<xsl:variable name="current-div" select="."/>
     		<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
         <xsl:variable name="title"><xsl:value-of select="./head"/></xsl:variable>
     		<xsl:variable name="expressionType"><xsl:value-of select="./@type"/></xsl:variable>
@@ -326,13 +336,64 @@
           <sctap:dtsurn><xsl:value-of select="concat($dtsurn, ':', $divcount)"/></sctap:dtsurn>
           -->      
     			
+    			<!-- list manifestations of this div -->
+    			<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+    				<xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+    				<xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
+    				<xsl:if test=".//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+    					<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
+    				</xsl:if>
+    				
+    			</xsl:for-each>
+    			<!--TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
+    				<!-- <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>-->
+    			
+    			
     			<!-- list all items within this div -->
     			<xsl:for-each select=".//item">
     				<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
     				<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>    
     			</xsl:for-each>
     		</rdf:Description>
+    		
+    		<!-- create manifestation for each non-top-level div -->
+    		
+    		<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+    			<xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
+    			<xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+    			<xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
+    			<xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
+    			<xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+    				<rdf:Description rdf:about="http://scta.info/resource/{$divid}/{$wit-slug}">
+    					<dc:title><xsl:value-of select="$wit-title"/></dc:title>
+    					<rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+    					<role:AUT rdf:resource="{$author-uri}"/>
+    					<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    					<sctap:level><xsl:value-of select="$current-div/count(ancestor::*)"/></sctap:level>
+    						<sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
+    						<sctap:shortId><xsl:value-of select="concat($divid, '/', $wit-slug)"/></sctap:shortId>
+    						
+    						<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}/transcription"/>
+    						<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}/transcription"/>
+    						
+    						<xsl:for-each select="$current-div/div">
+    							<xsl:variable name="newdivid"><xsl:value-of select="./@id"/></xsl:variable>
+    							<dcterms:hasPart rdf:resource="http://scta.info/resource/{$newdivid}/{$wit-slug}"/>
+    						</xsl:for-each>
+    						
+    						<!-- identify all resources with structureType=itemStructure -->
+    						
+    						<xsl:for-each select="$current-div//item">
+    							<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+    							<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
+    						</xsl:for-each>
+    					</rdf:Description>
+    				
+    			</xsl:if>
+    		</xsl:for-each>
     	</xsl:for-each>
+    	
+    	
     	
     	<!-- BEGIN structureType=structureItem expression resource creation -->
     	<!-- NOTE: changed ./div//item to .//item. This should be better, but keep your eye out for unanticipated consequences -->
@@ -960,6 +1021,7 @@
             	<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$fs}/critical/transcription"/>
             	<sctap:shortId><xsl:value-of select="concat($fs, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
             	<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
+            	
             </rdf:Description>
           	
           	<!-- BEGIN manifestation and transcription resource creation for structureDivision for critical manifestation -->
@@ -1012,7 +1074,7 @@
           						<sctap:status>Not Started</sctap:status>
           					</xsl:otherwise>
           				</xsl:choose>
-          				
+          				<sctap:transcriptionType>Critical</sctap:transcriptionType>
           			</rdf:Description>
           			
           		</xsl:if>
@@ -1118,8 +1180,9 @@
             <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
             <xsl:for-each select="./folio">
               <xsl:variable name="folionumber" select="./text()"/>
-              <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $folionumber)"/>
-              <sctap:hasFolioSide rdf:resource="{$foliosideurl}"/>
+            	<!-- TODO: change here could cause break in IIIF range creation; make adjustments and then remove this comment once everything is working again -->
+              <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folionumber)"/>
+              <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
               <xsl:choose>
                 <xsl:when test="./@canvasslug">
                   <xsl:variable name="canvas-slug" select="./@canvasslug"></xsl:variable>
@@ -1350,7 +1413,10 @@
               			<!-- right now I'm trying to just go the folio number without the preceding sigla -->
               			<!-- not this will fail if there is Sigla that reads Ar15r; the first "r" will not be removed and the result will be r15r -->
               			<xsl:variable name="folioname" select="translate($canvasname, 'ABCDEFGHIJKLMNOPQRSTUVabcdefghijklmnopqstuwxyz', '') "/>
-              			<xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $folioname)"/>
+              			
+              			<!-- <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material', $commentaryslug, '-', $wit-slug, '/', $folioname)"/> -->
+              			<!-- changed to... --> <!-- this will mess up anywhere were codex ids are identical such as "sorb" and "sorb" and "vat" and "vat" which I believe is only a problem with Wodeham and Plaoul -->
+              			<xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folioname)"/>
                       
                     <xsl:variable name="canvasid">
                     <xsl:choose>
@@ -1380,7 +1446,7 @@
                       <!-- problem here with slug since iiif slug is prefaced with pg or pp etc -->
                     	<sctap:isZoneOf rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
                       <sctap:isZoneOn rdf:resource="{$canvasid}"/>
-                      <sctap:hasFolioSide rdf:resource="{$foliosideurl}"/>
+                      <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
                       <sctap:ulx><xsl:value-of select="$ulx"/></sctap:ulx>
                       <sctap:uly><xsl:value-of select="$uly"/></sctap:uly>
                       <sctap:lrx><xsl:value-of select="$lrx"/></sctap:lrx>
