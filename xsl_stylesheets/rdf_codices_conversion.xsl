@@ -40,11 +40,20 @@
 	</xsl:template>
 	<xsl:template match="surface">
 		<xsl:variable name="surfaceid" select="./shortid"/>
+		<xsl:variable name="order-number"><xsl:number count="//surface"/></xsl:variable>
 		<rdf:Description rdf:about="http://scta.info/resource/{$surfaceid}">
 			<rdf:type rdf:resource="http://scta.info/resource/surface"/>
 			<dc:title>
 				<xsl:value-of select="./label"/>
 			</dc:title>
+			
+			<sctap:order><xsl:value-of select="format-number($order-number, '000')"/></sctap:order>
+			<xsl:if test="./preceding-sibling::surface[1]">
+				<sctap:previous rdf:resource="http://scta.info/resource/{./preceding-sibling::surface[1]/shortid}"/>	
+			</xsl:if>
+			<xsl:if test="./following-sibling::surface[1]">
+				<sctap:next rdf:resource="http://scta.info/resource/{./following-sibling::surface[1]/shortid}"/>	
+			</xsl:if>
 			<xsl:for-each select="./hasISurfaces//ISurface">
 				<xsl:variable name="isurfaceid" select="./shortid"/>
 				<xsl:variable name="canvasslug" select="./canvasslug"/>

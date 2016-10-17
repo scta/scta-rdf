@@ -3,6 +3,7 @@ echo "Creating projectfiles metadata";
 projectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles/"
 deanimaprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-deanima/"
 petrushispanusprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-petrushispanus/"
+codicesfilesbase="/Users/jcwitt/Projects/scta/scta-codices/"
 base="/Users/jcwitt/Projects/scta/scta-rdf/";
 
 echo "getting projectfiles version for $projectfilesbase"
@@ -49,8 +50,19 @@ do
 done
 echo "Projectfiles meta data created for summulae logicales commentaries";
 
-## begin top level creation
+echo "Begin codices meta data creation"
+for f in $codicesfilesbase/*.xml
+do
+	filename=$(basename "$f");
+	extension="${filename##*.}";
+	filename="${filename%.*}";
+	echo "Creating metadata assertion for $filename"
+	saxon "-warnings:silent" "-s:$codicesfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_codices_conversion.xsl" "-o:$base/codices/$filename.rdf";
+done
+echo "Codices Metadata completed";
 
+
+## begin top level creation
 echo "Begin top level archive collection creation"
 saxon "-warnings:silent" "-s:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "-xsl:$base/xsl_stylesheets/rdf_archive_conversion.xsl" "-o:$base/scta.rdf" "projectfilesversion=$projectfilesversion";
 

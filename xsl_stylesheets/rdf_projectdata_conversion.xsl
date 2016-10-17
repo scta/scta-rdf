@@ -166,6 +166,7 @@
             <xsl:variable name="wit-manifestofficial"><xsl:value-of select="./manifestOfficial"/></xsl:variable>
             <sctap:manifestOfficial><xsl:value-of select="$wit-manifestofficial"></xsl:value-of></sctap:manifestOfficial>
           </xsl:if>
+      		<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$cid}"/>
       		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
       		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
       		
@@ -340,13 +341,13 @@
     			<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
     				<xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
     				<xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
-    				<xsl:if test=".//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+    				<xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
     					<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
     				</xsl:if>
     				
     			</xsl:for-each>
     			<!--TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
-    				<!-- <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>-->
+    				<!-- <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/critical"/>-->
     			
     			
     			<!-- list all items within this div -->
@@ -372,7 +373,7 @@
     					<sctap:level><xsl:value-of select="$current-div/count(ancestor::*)"/></sctap:level>
     						<sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
     						<sctap:shortId><xsl:value-of select="concat($divid, '/', $wit-slug)"/></sctap:shortId>
-    						
+    						<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divid}"/>
     						<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}/transcription"/>
     						<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}/transcription"/>
     						
@@ -876,7 +877,7 @@
         	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-            <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+            <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$nameID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
@@ -899,7 +900,7 @@
         	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-            <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+            <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$titleID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
@@ -917,7 +918,7 @@
           <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-            <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+          	<sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
@@ -940,7 +941,7 @@
         	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-            <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+          	<sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementRef"/>
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$refID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
@@ -959,7 +960,7 @@
         	<xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
           <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
             <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-            <sctap:expressionType rdf:resource="http://scta.info/resource/structureElement"/>
+          	<sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
             <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementRef"/>
             <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
             <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
@@ -1183,7 +1184,7 @@
             	<!-- TODO: change here could cause break in IIIF range creation; make adjustments and then remove this comment once everything is working again -->
               <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folionumber)"/>
               <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
-              <xsl:choose>
+             <!-- <xsl:choose>
                 <xsl:when test="./@canvasslug">
                   <xsl:variable name="canvas-slug" select="./@canvasslug"></xsl:variable>
                   <xsl:variable name="canvasid" select="concat($canvasBase, $canvas-slug)"></xsl:variable>
@@ -1193,7 +1194,7 @@
                   <xsl:variable name="canvas-slug" select="concat($wit-initial, $folionumber)"></xsl:variable>
                   <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
                 </xsl:otherwise>
-              </xsl:choose>
+              </xsl:choose> -->
             </xsl:for-each>
           	
           	<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$fs}"/>
@@ -1206,7 +1207,8 @@
                could also inclue folio numbers if these are included in main project file -->
           </rdf:Description>
     			
-    			<xsl:for-each select="folio">
+    			<!-- should be removed 
+    				<xsl:for-each select="folio">
             <xsl:variable name="folionumber" select="./text()"/>
             <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $folionumber)"/>
             <rdf:Description rdf:about="{$foliosideurl}">
@@ -1223,7 +1225,7 @@
                 </xsl:otherwise>
               </xsl:choose>
               <sctap:hasAnnotationList rdf:resource="http://scta.info/iiif/{$commentaryslug}-{$wit-slug}/list/{$folionumber}"/>
-              <!-- selection of next and previous is going to have erros because project file lists a folio twice when one item ends on a folio and then begins on another -->
+             
               <xsl:variable name="nextFolionumber" select="./following-sibling::folio[1]/text()"/>
               <xsl:variable name="nextFoliosideurl" select="concat('http://scta.info/resource/material/', $commentaryslug, '-', $wit-slug, '/', $nextFolionumber)"/>
               <sctap:nextFolioSide rdf:resource="{$nextFoliosideurl}"/>
@@ -1232,6 +1234,7 @@
               <sctap:previousFolioSide rdf:resource="{$previousFoliosideurl}"/>
             </rdf:Description>
     			</xsl:for-each>
+    		-->
     			
     			<xsl:if test="document($transcription-text-path)">
 	          <xsl:variable name="transcript-title" select="document($transcription-text-path)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -1352,6 +1355,18 @@
               <xsl:if test="./@xml:id">
 	              <xsl:variable name="pid" select="./@xml:id"/>
 	              <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
+              	<xsl:variable name="surface">
+              		<xsl:choose>
+              		<xsl:when test="doc($transcription-text-path)//tei:pb">
+              			<xsl:value-of select="concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n)"/>
+              		</xsl:when>
+              		<xsl:otherwise>
+              			<xsl:value-of select="concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', ''))"/>
+              		</xsl:otherwise>
+              		</xsl:choose>
+              			
+              	</xsl:variable>
+              		
 	              
               	<!-- create manifestation for structureBlock -->
               	<rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}">
@@ -1364,6 +1379,7 @@
               		<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
               		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
               		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
+              		<sctap:hasSurface rdf:resource="{$surface}"/>
               	</rdf:Description>
               	
               	<!-- create transcription for non-critical/documentary structureBlock -->
@@ -1445,7 +1461,7 @@
                       <rdf:type rdf:resource="http://scta.info/resource/zone"/>
                       <!-- problem here with slug since iiif slug is prefaced with pg or pp etc -->
                     	<sctap:isZoneOf rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
-                      <sctap:isZoneOn rdf:resource="{$canvasid}"/>
+                      <!-- to be deleted <sctap:isZoneOn rdf:resource="{$canvasid}"/> -->
                       <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
                       <sctap:ulx><xsl:value-of select="$ulx"/></sctap:ulx>
                       <sctap:uly><xsl:value-of select="$uly"/></sctap:uly>
