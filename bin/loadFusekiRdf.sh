@@ -27,25 +27,25 @@
 			./s-post http://localhost:3030/ds/data default $rdfbase/commentaries/${filename}.rdf
 		done
 
-	#load de anima commentaries.
-	for f in $rdfbase/deanima-commentaries/*
-		do
-			filename=$(basename "$f");
-			extension="${filename##*.}";
-			filename="${filename%.*}";
-			echo "$rdfbase/deanima-commentaries/${filename}.rdf"
-			./s-post http://localhost:3030/ds/data default $rdfbase/deanima-commentaries/${filename}.rdf
-		done
-
-	#load summulaelogicales commentaries.
-	for f in $rdfbase/petrushispanus-texts/*
-		do
-			filename=$(basename "$f");
-			extension="${filename##*.}";
-			filename="${filename%.*}";
-			echo "$rdfbase/petrushispanus-texts/${filename}.rdf"
-			./s-post http://localhost:3030/ds/data default $rdfbase/petrushispanus-texts/${filename}.rdf
-		done
+	# #load de anima commentaries.
+	# for f in $rdfbase/deanima-commentaries/*
+	# 	do
+	# 		filename=$(basename "$f");
+	# 		extension="${filename##*.}";
+	# 		filename="${filename%.*}";
+	# 		echo "$rdfbase/deanima-commentaries/${filename}.rdf"
+	# 		./s-post http://localhost:3030/ds/data default $rdfbase/deanima-commentaries/${filename}.rdf
+	# 	done
+	#
+	# #load summulaelogicales commentaries.
+	# for f in $rdfbase/petrushispanus-texts/*
+	# 	do
+	# 		filename=$(basename "$f");
+	# 		extension="${filename##*.}";
+	# 		filename="${filename%.*}";
+	# 		echo "$rdfbase/petrushispanus-texts/${filename}.rdf"
+	# 		./s-post http://localhost:3030/ds/data default $rdfbase/petrushispanus-texts/${filename}.rdf
+	# 	done
 
 	./s-post http://localhost:3030/ds/data default $rdfbase/names/persongroups.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/names/Prosopography.rdf

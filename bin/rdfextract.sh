@@ -1,8 +1,8 @@
 # /bin/bash
 echo "Creating projectfiles metadata";
 projectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles/"
-deanimaprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-deanima/"
-petrushispanusprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-petrushispanus/"
+#deanimaprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-deanima/"
+#petrushispanusprojectfilesbase="/Users/jcwitt/Projects/scta/scta-projectfiles-petrushispanus/"
 codicesfilesbase="/Users/jcwitt/Projects/scta/scta-codices/"
 base="/Users/jcwitt/Projects/scta/scta-rdf/";
 
@@ -24,31 +24,31 @@ do
 	echo "Creating metadata assertion for $filename"
 	saxon "-warnings:silent" "-s:$projectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/commentaries/$filename.rdf";
 done
-echo "Projectfiles meta data created for sentences commentaries";
+echo "Projectfiles meta data created for all projectfiles";
 
 ## begin creation of de anima commentaries
 
-for f in $deanimaprojectfilesbase/*.xml
-do
-
-	filename=$(basename "$f");
-	extension="${filename##*.}";
-	filename="${filename%.*}";
-	echo "Creating metadata assertion for $filename"
-	saxon "-warnings:silent" "-s:$deanimaprojectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/deanima-commentaries/$filename.rdf";
-done
-echo "Projectfiles meta data created for de anima commentaries";
-
-for f in $petrushispanusprojectfilesbase/*.xml
-do
-
-	filename=$(basename "$f");
-	extension="${filename##*.}";
-	filename="${filename%.*}";
-	echo "Creating metadata assertion for $filename"
-	saxon "-warnings:silent" "-s:$petrushispanusprojectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/petrushispanus-texts/$filename.rdf";
-done
-echo "Projectfiles meta data created for summulae logicales commentaries";
+# for f in $deanimaprojectfilesbase/*.xml
+# do
+#
+# 	filename=$(basename "$f");
+# 	extension="${filename##*.}";
+# 	filename="${filename%.*}";
+# 	echo "Creating metadata assertion for $filename"
+# 	saxon "-warnings:silent" "-s:$deanimaprojectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/deanima-commentaries/$filename.rdf";
+# done
+# echo "Projectfiles meta data created for de anima commentaries";
+#
+# for f in $petrushispanusprojectfilesbase/*.xml
+# do
+#
+# 	filename=$(basename "$f");
+# 	extension="${filename##*.}";
+# 	filename="${filename%.*}";
+# 	echo "Creating metadata assertion for $filename"
+# 	saxon "-warnings:silent" "-s:$petrushispanusprojectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/petrushispanus-texts/$filename.rdf";
+# done
+# echo "Projectfiles meta data created for summulae logicales commentaries";
 
 echo "Begin codices meta data creation"
 for f in $codicesfilesbase/*.xml

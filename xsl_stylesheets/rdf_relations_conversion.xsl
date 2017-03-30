@@ -4,6 +4,7 @@
     
 <xsl:output method="xml" indent="yes"/>
   <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
+	<xsl:variable name="deanima-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/deanima-commentaries/</xsl:variable>
     <xsl:template match="/">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
             xmlns:sctap="http://scta.info/property/"
@@ -31,13 +32,17 @@
         collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:references[contains(@rdf:resource, 'passage')] |
         collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:copies | 
         collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:quotes |
-      	collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:isInstanceOf">
+      	collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:isInstanceOf |
+      	collection(concat($commentary-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:isRelatedTo">
         <!-- below all resources are going to receive a passive relationship. The patient-resource-id is the subject that the action is being done to.
           The agent resource is the agent of the acting being done. It answers the question, doneBy whome? -->
         <xsl:variable name="patient-resource-id" select="./@rdf:resource"/>
         <xsl:variable name="agent-resource-id" select="./parent::rdf:Description/@rdf:about"/>
         <rdf:Description rdf:about="{$patient-resource-id}">
           <xsl:choose>
+          	<xsl:when test="./name() = 'sctap:isRelatedTo'">
+          		<sctap:isRelatedTo rdf:resource="{$agent-resource-id}"/>
+          	</xsl:when>
             <xsl:when test="./name() = 'sctap:abbreviates'">
               <sctap:abbreviatedBy rdf:resource="{$agent-resource-id}"/>
             </xsl:when>
@@ -59,5 +64,39 @@
           </xsl:choose>
         </rdf:Description>
       </xsl:for-each>
+    	<!--
+    	 
+    	<xsl:for-each select="collection(concat($deanima-rdf-home, '?select=[a-zA-Z]*.rdf'))//sctap:abbreviates | 
+    		collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:references | 
+    		collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:references[contains(@rdf:resource, 'passage')] |
+    		collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:copies | 
+    		collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:quotes |
+    		collection(concat($deanima-rdf-home, '?select=[a-zA-Z0-9]*.rdf'))//sctap:isInstanceOf">
+    		
+    		<xsl:variable name="patient-resource-id" select="./@rdf:resource"/>
+    		<xsl:variable name="agent-resource-id" select="./parent::rdf:Description/@rdf:about"/>
+    		<rdf:Description rdf:about="{$patient-resource-id}">
+    			<xsl:choose>
+    				<xsl:when test="./name() = 'sctap:abbreviates'">
+    					<sctap:abbreviatedBy rdf:resource="{$agent-resource-id}"/>
+    				</xsl:when>
+    				<xsl:when test="./name() = 'sctap:copies'">
+    					<sctap:copiedBy rdf:resource="{$agent-resource-id}"/>
+    				</xsl:when>
+    				<xsl:when test="./name() = 'sctap:references'">
+    					<sctap:referencedBy rdf:resource="{$agent-resource-id}"/>
+    				</xsl:when>
+    				<xsl:when test="./name() = 'sctap:quotes'">
+    					<sctap:quotedBy rdf:resource="{$agent-resource-id}"/>
+    				</xsl:when>
+    				<xsl:when test="./name() = 'sctap:isInstanceOf'">
+    					<sctap:hasInstance rdf:resource="{$agent-resource-id}"/>
+    				</xsl:when>
+    				<xsl:otherwise>
+    					<text>nothing matched</text>
+    				</xsl:otherwise>
+    			</xsl:choose>
+    		</rdf:Description>
+    	</xsl:for-each> -->
     </xsl:template>
 </xsl:stylesheet>

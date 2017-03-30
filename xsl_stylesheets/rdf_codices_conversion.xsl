@@ -28,7 +28,7 @@
 			<dc:title>
 				<xsl:value-of select="./title"/>
 			</dc:title>
-			<xsl:for-each select="./item">
+			<xsl:for-each select="./hasItems//item">
 				<xsl:variable name="codex-item-id" select="./shortid"/>
 				<sctap:hasCodexItem rdf:resource="http://scta.info/resource/{$codex-item-id}"/>
 			</xsl:for-each>
@@ -37,7 +37,20 @@
 				<sctap:hasSurface rdf:resource="http://scta.info/resource/{$surfaceid}"/>
 			</xsl:for-each>
 		</rdf:Description>
+		<xsl:for-each select="./hasItems//item">
+			<xsl:variable name="icodexid" select="./shortid"/>
+			<xsl:variable name="official-manifest" select="./manifestOfficial"/>
+			<rdf:Description rdf:about="http://scta.info/resource/{$icodexid}">
+				<rdf:type rdf:resource="http://scta.info/resource/icodex"/>
+				<sctap:hasOfficialManifest rdf:resource="{$official-manifest}"/>
+			  <sctap:canvasPagedType><xsl:value-of select="./canvasPagedType"/></sctap:canvasPagedType>
+				<sctap:isCodexItemOf rdf:resource="http://scta.info/resource/{$codexid}"/>
+			</rdf:Description>
+			
+		</xsl:for-each>
 	</xsl:template>
+	
+	
 	<xsl:template match="surface">
 		<xsl:variable name="surfaceid" select="./shortid"/>
 		<xsl:variable name="order-number"><xsl:number count="//surface"/></xsl:variable>

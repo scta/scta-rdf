@@ -11,7 +11,9 @@
   <xsl:param name="cid"><xsl:value-of select="//header/commentaryid"/></xsl:param>
   <xsl:param name="commentaryslug"><xsl:value-of select="//header/commentaryslug"/></xsl:param>
   <xsl:param name="author-uri"><xsl:value-of select="//header/authorUri"/></xsl:param>
-  <xsl:param name="parent-uri"><xsl:value-of select="//header/parentUri"/></xsl:param>
+  <!-- depreciating parent-uri as a required assertion in project file <xsl:param name="parent-uri">http://scta.info/resource/<xsl:value-of select="//header/parentUri"/></xsl:param> 
+       parant-uri is a dumb name. It just the uri of the top level expression -->
+  <xsl:param name="parent-uri">http://scta.info/resource/<xsl:value-of select="$cid"/></xsl:param>
   <xsl:param name="textfilesdir"><xsl:value-of select="//header/textfilesdir"/></xsl:param>
   <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
 	
@@ -81,18 +83,19 @@
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
       xmlns:collex="http://www.collex.org/schema#" 
       xmlns:dcterms="http://purl.org/dc/terms/" 
-      xmlns:dc="http://purl.org/dc/elements/1.1/">    
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:ldp="http://www.w3.org/ns/ldp#">    
     	
     	<rdf:Description rdf:about="http://scta.info/resource/{$cid}">
-			<rdf:type rdf:resource="http://scta.info/resource/expression"/>
-			<dc:title><xsl:value-of select="$commentaryname"/></dc:title>
+			 <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+			 <dc:title><xsl:value-of select="$commentaryname"/></dc:title>
 		    <!-- TODO: parent of expresion should be WORK, not WorkGroup -->
     		<dcterms:isPartOf rdf:resource="{$parentWorkGroup}"/>
     		<role:AUT rdf:resource="{$author-uri}"/>
     		<!-- log description -->
     		<xsl:choose>
     			<xsl:when test="$description">
-    				<xsl:value-of select="$description"/>
+    			  <dc:description><xsl:value-of select="$description"/></dc:description>
     			</xsl:when>
     			<xsl:otherwise>
     				<dc:description>Commentary on the Sentences by <xsl:value-of select="$author"/></dc:description>
@@ -119,11 +122,26 @@
 		    	<sctap:hasSponsor rdf:resource="http://scta.info/resource/{@id}"/>
 		    </xsl:for-each>
     		
+    		<!-- log questionlist source, editor, and encoder -->
+    	  <xsl:if test="/listofFileNames/header[1]/questionListSource[1]">
+    	    <sctap:questionListSource><xsl:value-of select="/listofFileNames/header[1]/questionListSource[1]"/></sctap:questionListSource>
+    	  </xsl:if>
+    	  <xsl:if test="/listofFileNames/header[1]/questionListOriginalEditor[1]">
+    	    <sctap:questionListEditor><xsl:value-of select="/listofFileNames/header[1]/questionListOriginalEditor[1]"/></sctap:questionListEditor>
+    	  </xsl:if>
+    	  <xsl:if test="/listofFileNames/header[1]/questionListEncoder[1]">
+    	    <sctap:questionListEncoder><xsl:value-of select="/listofFileNames/header[1]/questionListEncoder[1]"/></sctap:questionListEncoder>
+    	  </xsl:if>
+    	  
     		<!-- identify second level expression parts -->
 				<xsl:for-each select="./div">
 					<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
 					<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}"/>
 				</xsl:for-each>
+    		<xsl:for-each select="./item">
+    			<xsl:variable name="direct-child-part"><xsl:value-of select="./@id"/></xsl:variable>
+    			<dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}"/>
+    		</xsl:for-each>
 	      
 	      <!-- identify all resources with structureType=itemStructure -->
     		
@@ -145,6 +163,8 @@
     			</xsl:otherwise>
     		</xsl:choose>
     		
+    		<!-- create ldn inbox -->
+    	  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}"/>
 		  </rdf:Description>
     	
     	<!-- create manifestation entry for each manifestation corresponding to the top level expression -->
@@ -170,10 +190,16 @@
       		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
       		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
       		
+      		<!-- Identify direct child parts -->
       		<xsl:for-each select="//div[@id='body']/div">
       			<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
       			<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
       		</xsl:for-each>
+      		<xsl:for-each select="//div[@id='body']/item">
+      			<xsl:variable name="direct-child-part"><xsl:value-of select="./@id"/></xsl:variable>
+      			<dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}/{$wit-slug}"/>
+      		</xsl:for-each>
+      		<!-- END; Identify direct child parts -->
       		
       		<!-- identify all resources with structureType=itemStructure -->
       		
@@ -181,6 +207,9 @@
       			<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
       			<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
       		</xsl:for-each>
+      	  
+      	  <!-- create ldn inbox -->
+      	  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}/{$wit-slug}"/>
         </rdf:Description>
       </xsl:for-each>
     	
@@ -206,6 +235,8 @@
 	    			<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical"/>
 	    		</xsl:for-each>
     			
+    	   <!-- create ldn inbox -->
+    	   <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}/critical"/>
     		</rdf:Description>
     	<!-- end of top level manifestation creation -->
     	
@@ -239,6 +270,9 @@
     				<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
     				<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/transcription"/>
     			</xsl:for-each>
+    		  
+    		  <!-- create ldn inbox -->
+    		  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
     		</rdf:Description>
     		
     	</xsl:for-each>
@@ -262,7 +296,10 @@
 		    		<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
 		    		<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
 		    	</xsl:for-each>
-		    	</rdf:Description>
+    		  
+    		  <!-- create ldn inbox -->
+    		  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}/critical/transcription"/>
+		    </rdf:Description>
 		    <!-- end of top level transcription creation -->
     	
     	<!-- BEGIN create resources for any sponors of top level expression -->
@@ -281,16 +318,21 @@
     	<xsl:for-each select=".//div">
     		<xsl:variable name="current-div" select="."/>
     		<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
-        <xsl:variable name="title"><xsl:value-of select="./head"/></xsl:variable>
+    	  <xsl:variable name="title"><xsl:value-of select="./head"/></xsl:variable>
     		<xsl:variable name="expressionType"><xsl:value-of select="./@type"/></xsl:variable>
     		<xsl:variable name="expressionSubType"><xsl:value-of select="./@subtype"/></xsl:variable>
     		<xsl:variable name="parentExpression"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
+    	  <xsl:variable name="divQuestionTitle"><xsl:value-of select="./questionTitle"/></xsl:variable>
+    		<xsl:variable name="current-div-level" select="count(ancestor::*)"/>
     		
         
     		<rdf:Description rdf:about="http://scta.info/resource/{$divid}">
+    			
         	<dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
         	<rdf:type rdf:resource="http://scta.info/resource/expression"/>
     			<role:AUT rdf:resource="{$author-uri}"/>
+    		  
+    		  <sctap:questionTitle><xsl:value-of select="$divQuestionTitle"/></sctap:questionTitle>
     			
     			<!-- check if special expression type is given -->
     			<xsl:choose>
@@ -309,11 +351,20 @@
     			
     			
     			<sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
-    			<sctap:level><xsl:value-of select="count(ancestor::*)"/></sctap:level>
-    			<sctap:shortId><xsl:value-of select="$divid"/></sctap:shortId>
+    			<sctap:level><xsl:value-of select="$current-div-level"/></sctap:level>
+    		  <sctap:shortId><xsl:value-of select="$divid"/></sctap:shortId>
     			
     			<!-- identify parent expression resource -->
-    			<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentExpression}"/>
+    			<xsl:choose>
+    				<!-- this condition is a temporary hack; when id=body is changed to id=commentaryid, this conditional will no longer be necessary -->
+    				<xsl:when test="$current-div-level eq 2">
+    					<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}"/>
+    				</xsl:when>
+    				<xsl:otherwise>
+    					<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentExpression}"/>
+    				</xsl:otherwise>
+    			</xsl:choose>
+    			
     			
     			<!-- identify child expression part -->
     			
@@ -321,7 +372,11 @@
     				<xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
     				<dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}"/>
     			</xsl:for-each>
-    			
+    			<xsl:for-each select="./item">
+    				<!-- TODO: ./fileName/@filestem should be removed and changed to @id when all items have ids and the fileName element is removed -->
+    				<xsl:variable name="direct-child-part"><xsl:value-of select="./fileName/@filestem"/></xsl:variable>
+    				<dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}"/>
+    			</xsl:for-each>
     			
     			<!-- TODO: decide if hasTopLevelExpression is necessary -->
     			<sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
@@ -355,6 +410,9 @@
     				<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
     				<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>    
     			</xsl:for-each>
+    		  
+    		  <!-- create ldn inbox -->
+    		  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divid}"/>
     		</rdf:Description>
     		
     		<!-- create manifestation for each non-top-level div -->
@@ -381,6 +439,23 @@
     							<xsl:variable name="newdivid"><xsl:value-of select="./@id"/></xsl:variable>
     							<dcterms:hasPart rdf:resource="http://scta.info/resource/{$newdivid}/{$wit-slug}"/>
     						</xsl:for-each>
+	    					<!-- identify all direct children items -->
+	    					<xsl:for-each select="$current-div/item">
+	    						<xsl:variable name="direct-child"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+	    						<dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child}/{$wit-slug}"/>
+	    					</xsl:for-each>
+    					
+    					<xsl:choose>
+    						<!-- this condition is a temporary hack; when id=body is changed to id=commentaryid, this conditional will no longer be necessary -->
+    						<xsl:when test="$current-div-level eq 2">
+    							<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+    						</xsl:when>
+    						<xsl:otherwise>
+    							<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentExpression}/{$wit-slug}"/>
+    						</xsl:otherwise>
+    						
+    					</xsl:choose>
+    					
     						
     						<!-- identify all resources with structureType=itemStructure -->
     						
@@ -388,6 +463,9 @@
     							<xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
     							<sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
     						</xsl:for-each>
+    				  
+      				  <!-- create ldn inbox -->
+      				  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divid}/{$wit-slug}"/>
     					</rdf:Description>
     				
     			</xsl:if>
@@ -438,7 +516,15 @@
     		<rdf:Description rdf:about="http://scta.info/resource/{$fs}">
     			<dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
     			<rdf:type rdf:resource="http://scta.info/resource/expression"/>
-    			<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>
+    			<!-- TODO; condition should be removed with <div id=body> is changed to <div id=commentaryid> -->
+    			<xsl:choose>
+    				<xsl:when test="$item-level eq 2">
+    					<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}"/>
+    				</xsl:when>
+    				<xsl:otherwise>
+    					<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
+    				</xsl:otherwise>
+    			</xsl:choose>
     			<role:AUT rdf:resource="{$author-uri}"/>
     			
     			<!-- record editors -->
@@ -547,6 +633,9 @@
     		
     		<!-- TODO: add link to first level structureType division found in the tei document; 
     			this level of div is captured by the following expath in the LombardPress schema //tei:body/tei:div/tei:div -->
+    		  
+    		  <!-- create ldn inbox -->
+    		  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}"/>
     		</rdf:Description>
     		<!-- END Item resource creation -->
     		
@@ -584,7 +673,8 @@
             </xsl:variable>
     			
     			<rdf:Description rdf:about="http://scta.info/resource/{$divisionID}">
-    				<dc:title><xsl:value-of select="./tei:head"/></dc:title>
+    			  <!-- title xpath is set to ./head[1] to ensure that it grabs the first head and not any subtitles -->
+    				<dc:title><xsl:value-of select="./tei:head[1]"/></dc:title>
     				<rdf:type rdf:resource="http://scta.info/resource/expression"/>
     				<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$fs}"/>
     				
@@ -601,12 +691,19 @@
     				-->
     				
     				<!-- BEGIN collect questionTitles from division header -->
+    			  <!-- "questionTitle" attribute value is depreciated. It should be "question-title" -->
             <xsl:choose>
               <xsl:when test="./tei:head/@type='questionTitle'">
                 <sctap:questionTitle><xsl:value-of select="./tei:head[@type='questionTitle']"/></sctap:questionTitle>
               </xsl:when>
+              <xsl:when test="./tei:head/@type='question-title'">
+                <sctap:questionTitle><xsl:value-of select="./tei:head[@type='question-title']"/></sctap:questionTitle>
+              </xsl:when>
               <xsl:when test="./tei:head/tei:seg/@type='questionTitle'">
                 <sctap:questionTitle><xsl:value-of select="./tei:head/tei:seg[@type='questionTitle']"/></sctap:questionTitle>
+              </xsl:when>
+              <xsl:when test="./tei:head/tei:seg/@type='question-title'">
+                <sctap:questionTitle><xsl:value-of select="./tei:head/tei:seg[@type='question-title']"/></sctap:questionTitle>
               </xsl:when>
             </xsl:choose>
             <!-- END collect questionTitles from divisions headers -->
@@ -677,7 +774,9 @@
     				<!-- create canonicalManifestation and Transcriptions references for structureType=structureDivision -->
     				<sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$canonical-manifestation-id}"/>
     				
-    				
+    			  <!-- create ldn inbox -->
+    			  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionID}"/>
+    			  
     			</rdf:Description>
     		</xsl:for-each>
     		<!-- END Div resource creation -->
@@ -748,6 +847,10 @@
 	                  <xsl:variable name="target" select="./@target"></xsl:variable>
 	                  <sctap:abbreviatedBy rdf:resource="{$target}"/>
 	                </xsl:when>
+    							<xsl:when test="./@property eq 'isRelatedTo'">
+    								<xsl:variable name="target" select="./@target"></xsl:variable>
+    								<sctap:isRelatedTo rdf:resource="{$target}"/>
+    							</xsl:when>
     						</xsl:choose>
     					</xsl:for-each>
                    
@@ -806,7 +909,7 @@
                 <sctap:mentions rdf:resource="http://scta.info/resource/{$titleID}"/>
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
               </xsl:for-each>
-              <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote[@type='commentary']">
+    					<xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote[contains(./@source, 'http://scta.info/resource')]">
                 <xsl:variable name="commentarySectionUrl" select="./@source"></xsl:variable>
                 <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
                 <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
@@ -829,7 +932,7 @@
               
               <!-- type="commentary" is not sentences commentary passage -->
               <!-- [not(ancestor::tei:bibl] excludes references made in bibl elements -->
-              <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[@type='commentary'][not(ancestor::tei:bibl)]">
+              <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[contains(./@target,'http://scta.info/resource')][not(ancestor::tei:bibl)]">
                 <xsl:variable name="commentarySectionUrl" select="./@target"></xsl:variable>
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
                 <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
@@ -838,7 +941,7 @@
                 <sctap:hasStructureElement rdf:resource="http://scta.info/resource{$objectId}"/>
               </xsl:for-each>
               <!-- type="passage" is non sentences commentary passage -->
-              <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[@type='passage']">
+    					<xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[@type='passage']">
                 <xsl:variable name="passageRef" select="./@ana"></xsl:variable>
                 <xsl:variable name="passageID" select="substring-after($passageRef, '#')"></xsl:variable>
                 <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
@@ -860,6 +963,9 @@
               
               <!--- end of logging name, title, quote, and ref asserts for paragraph examplar -->
               
+    				  <!-- create ldn inbox -->
+    				  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}"/>
+    				  
             </rdf:Description>
     			</xsl:if>
     		</xsl:for-each>
@@ -1023,6 +1129,8 @@
             	<sctap:shortId><xsl:value-of select="concat($fs, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
             	<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
             	
+              <!-- create ldn inbox -->
+              <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}/critical/transcription"/>
             </rdf:Description>
           	
           	<!-- BEGIN manifestation and transcription resource creation for structureDivision for critical manifestation -->
@@ -1042,6 +1150,8 @@
           				<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
           				<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
           				<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/critical/transcription"/>
+          			  <!-- create ldn inbox -->
+          			  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionId}/critical"/>
           			</rdf:Description>
           			
           			<!-- create transcription for critical structureDivision -->
@@ -1076,11 +1186,14 @@
           					</xsl:otherwise>
           				</xsl:choose>
           				<sctap:transcriptionType>Critical</sctap:transcriptionType>
+          			  
+          			  <!-- create ldn inbox -->
+          			  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionId}/critical/transcription"/>
           			</rdf:Description>
           			
           		</xsl:if>
           	</xsl:for-each>
-          	<!-- END manifestation and transcription resource creation for structureBlock for critical manifestation -->
+          	<!-- END manifestation and transcription resource creation for structureDivision for critical manifestation -->
            
            <!-- BEGIN manifestation and transcription resource creation for structureBlock for critical manifestation -->
             <xsl:for-each select="document($text-path)//tei:body//tei:p">
@@ -1100,6 +1213,9 @@
               		<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
               		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/critical/transcription"/>
               		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/critical/transcription"/>
+              	  
+              	  <!-- create ldn inbox -->
+              	  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}/critical"/>
               	</rdf:Description>
                 
                 <!-- create transcription for critical structureBlock -->
@@ -1135,6 +1251,8 @@
               			</xsl:otherwise>
               		</xsl:choose>
               		
+              	  <!-- create ldn inbox -->
+              	  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}/critical/transcription"/>
                 </rdf:Description>
               	
               </xsl:if>
@@ -1153,9 +1271,20 @@
     				<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
     				<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$fs}/critical/transcription"/>
     				<sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$fs}"/>
+    				<!-- TODO: conditional should eventually be removed -->
+    				<xsl:choose>
+    					<xsl:when test="$item-level eq 2">
+    						<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+    					</xsl:when>
+    					<xsl:otherwise>
+    						<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}/critical"/>	
+    					</xsl:otherwise>
+    				</xsl:choose>
     				<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
     				<sctap:shortId><xsl:value-of select="concat($fs, '/critical')"/></sctap:shortId>
     				<sctap:hasSlug><xsl:value-of>critical</xsl:value-of></sctap:hasSlug>
+    			  <!-- create ldn inbox -->
+    			  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}/critical"/>
     			</rdf:Description>
     		</xsl:if>
     		
@@ -1177,6 +1306,15 @@
             <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
           	<sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
           	<sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          	<!-- TODO: conditional should eventually be removed -->
+          	<xsl:choose>
+          		<xsl:when test="$item-level eq 2">
+          			<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          		</xsl:when>
+          		<xsl:otherwise>
+          			<dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}/{$wit-slug}"/>	
+          		</xsl:otherwise>
+          	</xsl:choose>
           	<sctap:shortId><xsl:value-of select="concat($fs, '/', $wit-slug)"/></sctap:shortId>
             <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
             <xsl:for-each select="./folio">
@@ -1205,6 +1343,9 @@
           	</xsl:if>
           	<!-- could include isPartOf to manuscript identifier
                could also inclue folio numbers if these are included in main project file -->
+            
+            <!-- create ldn inbox -->
+            <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}/{$wit-slug}"/>
           </rdf:Description>
     			
     			<!-- should be removed 
@@ -1281,6 +1422,9 @@
     					<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$fs}/{$wit-slug}/transcription"/>
     					<sctap:shortId><xsl:value-of select="concat($fs, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>
     					<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>
+    				  
+    				  <!-- create ldn inbox -->
+    				  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}/{$wit-slug}/transcription"/>
 	          </rdf:Description>
     				
     				
@@ -1303,6 +1447,8 @@
     							<sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug)"/></sctap:shortId>
     							<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
     							<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
+    						  <!-- create ldn inbox -->
+    						  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionId}/{$wit-slug}"/>
     						</rdf:Description>
     						
     						<!-- create transcription for non-critical/documentary structureDivision -->
@@ -1343,6 +1489,9 @@
     								</xsl:otherwise>
     							</xsl:choose>
     							<!-- end status Declaration block -->
+    						  
+    						  <!-- create ldn inbox -->
+    						  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionId}/{$wit-slug}/transcription"/>
     						</rdf:Description>
     					</xsl:if>
     				</xsl:for-each>
@@ -1352,16 +1501,17 @@
 	          <!-- create structureBlock manifestation and transcription resources for each expression structureBlock -->
 	          <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
               <!-- only creates paragraph resource if that paragraph has been assigned an id -->
+	            <xsl:variable name="this-paragraph" select="."/>
               <xsl:if test="./@xml:id">
 	              <xsl:variable name="pid" select="./@xml:id"/>
 	              <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
               	<xsl:variable name="surface">
               		<xsl:choose>
               		<xsl:when test="doc($transcription-text-path)//tei:pb">
-              			<xsl:value-of select="concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n)"/>
+              			<xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n), '-', '')"/>
               		</xsl:when>
               		<xsl:otherwise>
-              			<xsl:value-of select="concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', ''))"/>
+              		  <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', '')), '-', '')"/>
               		</xsl:otherwise>
               		</xsl:choose>
               			
@@ -1380,12 +1530,62 @@
               		<sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
               		<sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
               		<sctap:hasSurface rdf:resource="{$surface}"/>
+              	  <!-- create ldn inbox -->
+              	  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}/{$wit-slug}"/>
+              	  <!-- create hasMarginalNote assertion-->
+              	  <xsl:for-each select=".//tei:note[@type='marginal-note']">
+              	    <xsl:variable name="marginal-note-id">
+              	      <xsl:choose>
+              	        <xsl:when test="./@xml:id">
+              	          <xsl:value-of select="./@xml:id"/>
+              	        </xsl:when>
+              	        <xsl:otherwise>
+              	          <xsl:value-of select="concat('mn-', generate-id())"/>
+              	        </xsl:otherwise>
+              	      </xsl:choose> 
+              	    </xsl:variable>
+              	    <sctap:hasMarginalNote rdf:resource="http://scta.info/resource/{$marginal-note-id}"/>
+              	  </xsl:for-each>
               	</rdf:Description>
+                
+                <!-- 
+                  BEGIN Create Mariginal Note Manifestation Resource; like translation this is a special instance Manifestation, 
+                which would have similar proprties to other manifestations like, hasTranscription and hasSurface, etc. 
+                The structureType should perhaps be structureNote and only structureBlocks shouls take this property 
+                The behaviour is similar to a structureElement. But they are slighlty different because there is 
+                no corresponding "expression type for a marginal note.
+                -->
+                <xsl:for-each select=".//tei:note[@type='marginal-note']">
+                  <xsl:variable name="marginal-note-id">
+                    <xsl:choose>
+                      <xsl:when test="./@xml:id">
+                        <xsl:value-of select="./@xml:id"/>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:value-of select="concat('mn-', generate-id())"/>
+                      </xsl:otherwise>
+                    </xsl:choose> 
+                  </xsl:variable>
+                  <rdf:Description rdf:about="http://scta.info/resource/{$marginal-note-id}">
+                    <dc:title>Marginal Note <xsl:value-of select="$marginal-note-id"/></dc:title>
+                    <!--TODO: confirm: marginalNote type, is kind of a sub classs of Manifestation, similar to the way Translation is a subclass of Manifestation -->
+                    <rdf:type rdf:resource="http://scta.info/resource/marginalNote"/> 
+                    <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
+                    <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementMarginalNote"/>
+                    <!-- marginal note is at the manifest level, so it the target of isPartOfStructureBlock should be the corresponding manifestation of the structureBlock in question -->
+                    <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}"/>
+                    <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
+                    <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+                    <sctap:shortId><xsl:value-of select="$marginal-note-id"/></sctap:shortId>
+                    <!--<sctap:hasTranscription rdf:resource=""/>
+                    <sctap:hasCanonicalTranscription rdf:resource=""/> -->
+                    <sctap:hasSurface rdf:resource="{$surface}"/>
+                  </rdf:Description>
+                </xsl:for-each>
+                <!-- end MarginalNote Manifestation Level Resource Creation -->
               	
               	<!-- create transcription for non-critical/documentary structureBlock -->
-	              
-	              
-              	<rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}/transcription">
+	              <rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}/transcription">
 	                <dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
 	                <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
               		<sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
@@ -1419,6 +1619,8 @@
               			</xsl:otherwise>
               		</xsl:choose>
               		<!-- end status Declaration block -->
+              	  <!-- create ldn inbox -->
+              	  <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
 	              </rdf:Description>
               	
               	<xsl:if test="document($transcription-text-path)/tei:TEI/tei:facsimile">
