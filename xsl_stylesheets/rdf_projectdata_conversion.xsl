@@ -18,12 +18,21 @@
   <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
 	
   <xsl:variable name="gitRepoBase">
-  	<xsl:choose>
+    <xsl:choose>
   		<xsl:when test="//header/gitRepoBase">
   			<xsl:value-of select="//header/gitRepoBase"/>
   		</xsl:when>
   		<xsl:otherwise>https://bitbucket.org/jeffreycwitt/</xsl:otherwise>
   	</xsl:choose>
+  </xsl:variable>
+  <!-- git repo style records if there is a "toplevel" git repo for the entire work, or "single" for each item --> 
+  <xsl:variable name="gitRepoStyle">
+    <xsl:choose>
+      <xsl:when test="//header/gitRepoBase/@type">
+        <xsl:value-of select="//header/gitRepoBase/@type"/>
+      </xsl:when>
+      <xsl:otherwise>single</xsl:otherwise>
+    </xsl:choose>
   </xsl:variable>
   
   <xsl:variable name="dtsurn"><xsl:value-of select="concat('urn:dts:latinLit:sentences', '.', $cid)"/></xsl:variable>
@@ -560,7 +569,15 @@
     			-->
     			
     			<!-- record git repo -->
-    			<sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $fs)"/></sctap:gitRepository>
+    		  <xsl:choose>
+    		    <xsl:when test="$gitRepoStyle = 'toplevel'">
+    		      <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $cid)"/></sctap:gitRepository>
+    		    </xsl:when>
+    		    <xsl:otherwise>
+    		      <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $fs)"/></sctap:gitRepository>
+    		    </xsl:otherwise>
+    		  </xsl:choose>
+    		  
     			
     			<!-- BEGIN record status -->
     			<xsl:choose>
@@ -1122,9 +1139,16 @@
             		the transcription for an earlier editions would point to a previous tagged point in the commit history like so:
             		"https://bitbucket.org/jeffreycwitt/{$fs}/raw/1.0/{$fs}.xml" -->
             	<!-- requirement to lower case is bitbucket oddity that changges repo to lower case;
-            		this would need to be adjusted after a switch to gitbut if github did not force repo names to lower case --> 
-            		
-            	<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml"/>
+            		this would need to be adjusted after a switch to gitbut if github did not force repo names to lower case -->
+              <xsl:choose>
+                <xsl:when test="$gitRepoStyle = 'toplevel'">
+                  <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{$fs}.xml"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml"/>
+                </xsl:otherwise>	
+              </xsl:choose>
+            	
             	<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$fs}/critical/transcription"/>
             	<sctap:shortId><xsl:value-of select="concat($fs, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
             	<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
@@ -1165,7 +1189,18 @@
           				<!-- add transcription type
               			TODO: not ideal to be harding this; should be getting from projectdata file or transcription.xml file -->
           				<sctap:transcriptionType>Critical</sctap:transcriptionType>
-          				<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$divisionId}"/>
+          			  
+          			  <xsl:choose>
+          			    <xsl:when test="$gitRepoStyle = 'toplevel'">
+          			      <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{$fs}.xml#{$divisionId}"/>
+          			    </xsl:when>
+          			    <xsl:otherwise>
+          			      <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$divisionId}"/>
+          			    </xsl:otherwise>	
+          			  </xsl:choose>
+          			  
+          			  
+          				
           				<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$divisionId}/critical/transcription"/>
           				<sctap:shortId><xsl:value-of select="concat($divisionId, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
           				<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
@@ -1229,8 +1264,16 @@
               		<!-- add transcription type
               			TODO: not ideal to be harding this; should be getting from projectdata file or transcription.xml file -->
               		<sctap:transcriptionType>Critical</sctap:transcriptionType>
-              		<!-- TODO: this chould change to point to existDB that can actually return a new TEI file with just the paragraph -->
-              		<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$pid}"/>
+              		<!-- set document location, the location the text file that text part can be extracted from -->
+              	  <xsl:choose>
+              	    <xsl:when test="$gitRepoStyle = 'toplevel'">
+              	      <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{$fs}.xml#{$pid}"/>
+              	    </xsl:when>
+              	    <xsl:otherwise>
+              	      <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$fs}.xml#{$pid}"/>
+              	    </xsl:otherwise>	
+              	  </xsl:choose>
+              		<!-- set location text part can be accessed as xml file without an intermediary processing -->
               		<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$pid}/critical/transcription"/>
               		<sctap:shortId><xsl:value-of select="concat($pid, '/', 'critical', '/', 'transcription')"/></sctap:shortId>
               		<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/critical/transcription"/>
@@ -1418,7 +1461,15 @@
               <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$fs}/{$wit-slug}/transcription"/>
     					<!-- requirement to lower case is bitbucket oddity that changges repo to lower case;
             		this would need to be adjusted after a switch to gitbut if github did not force repo names to lower case -->
-    					<sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$wit-slug}_{$fs}.xml"/>
+    				  <xsl:choose>
+    				    <xsl:when test="$gitRepoStyle = 'toplevel'">
+    				      <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{$wit-slug}_{$fs}.xml"/>
+    				    </xsl:when>
+    				    <xsl:otherwise>
+    				      <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{$wit-slug}_{$fs}.xml"/>
+    				    </xsl:otherwise>	
+    				  </xsl:choose>
+    					
     					<sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$fs}/{$wit-slug}/transcription"/>
     					<sctap:shortId><xsl:value-of select="concat($fs, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>
     					<sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/transcription"/>

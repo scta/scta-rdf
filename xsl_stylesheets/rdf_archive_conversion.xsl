@@ -22,6 +22,7 @@
     	<xsl:call-template name="create-deanima-work-group"/>
     	<xsl:call-template name="create-dionysius-work-group"/>
     	<xsl:call-template name="create-summulaelogicales-work-group"/>
+      <xsl:call-template name="create-canonlaw-work-group"/>
     	<xsl:call-template name="create-uncategorized-work-group"/>
     </rdf:RDF>
   </xsl:template>
@@ -39,9 +40,9 @@
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/deanima"/>
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/summulaelogicales"/>
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiuscommentarius"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/canonlaw"/>
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/uncategorized"/>
-    	
-    	
+      
     	<!-- adding expressions -->
     	<xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
     		<xsl:variable name="commentaryid" select="./@rdf:about"/>
@@ -139,6 +140,21 @@
 			</xsl:for-each>
 		</rdf:Description>
 	</xsl:template>
+  <xsl:template name="create-canonlaw-work-group">
+    <rdf:Description rdf:about="http://scta.info/resource/canonlaw">
+      <dc:title>Canon Law</dc:title>
+      <dc:description>A Work Group for the Canon Law Tradition</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:canonlaw</sctap:dtsurn>
+      <sctap:shortId>canonlaw</sctap:shortId>
+      <!-- This templates create the top level collection, containing all commentaries. -->
+      <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./dcterms:isPartOf/@rdf:resource = 'http://scta.info/resource/canonlaw']">
+        <xsl:variable name="commentaryid" select="./@rdf:about"/>
+        <dcterms:hasPart rdf:resource="{$commentaryid}"/>
+        <sctap:hasExpression rdf:resource="{$commentaryid}"/>
+      </xsl:for-each>
+    </rdf:Description>
+  </xsl:template>
 	<xsl:template name="create-uncategorized-work-group">
 		<rdf:Description rdf:about="http://scta.info/resource/uncategorized">
 			<dc:title>Uncategorized</dc:title>

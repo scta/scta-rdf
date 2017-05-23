@@ -15,11 +15,12 @@
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:scta</sctap:dtsurn>
       <sctap:shortId>scta</sctap:shortId>
-      <sctap:projectfilesversion>523f95d</sctap:projectfilesversion>
+      <sctap:projectfilesversion>98d05d8</sctap:projectfilesversion>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/sententia"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/deanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/summulaelogicales"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiuscommentarius"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/canonlaw"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/uncategorized"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/anconacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/novocastrocommentary"/>
@@ -35,6 +36,7 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamabbreviatio"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamlectura"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/bonaventurecommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/liberextra"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/monsterbek_questiones"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-116"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-199"/>
@@ -55,6 +57,7 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/ddbrugescommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/perusiacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/bielcommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/gratiandecretum"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/riminicommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/sienacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/romacommentary"/>
@@ -71,6 +74,8 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/dinkelsbuhllectura"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/melanderdeanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/aquilacommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dionysiusangelica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dionysiusecclesiastica"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/picoapologia"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/tarantasiacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/graciliscommentary"/>
@@ -244,6 +249,10 @@
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:dionysiuscommentarius</sctap:dtsurn>
       <sctap:shortId>dionysiuscommentarius</sctap:shortId>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiusangelica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dionysiusangelica"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiusecclesiastica"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/dionysiusecclesiastica"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusangelica"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusangelica"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusecclesiastica"/>
@@ -257,6 +266,17 @@
       <sctap:shortId>summulaelogicales</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanussummulaelogicales"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/canonlaw">
+      <dc:title>Canon Law</dc:title>
+      <dc:description>A Work Group for the Canon Law Tradition</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:canonlaw</sctap:dtsurn>
+      <sctap:shortId>canonlaw</sctap:shortId>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/liberextra"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/liberextra"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/gratiandecretum"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/gratiandecretum"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/uncategorized">
       <dc:title>Uncategorized</dc:title>
