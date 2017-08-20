@@ -23,7 +23,8 @@
     	<xsl:call-template name="create-dionysius-work-group"/>
     	<xsl:call-template name="create-summulaelogicales-work-group"/>
       <xsl:call-template name="create-canonlaw-work-group"/>
-    	<xsl:call-template name="create-uncategorized-work-group"/>
+      <xsl:call-template name="create-canonlaw-statutes-work-group"/>
+      <xsl:call-template name="create-uncategorized-work-group"/>
     </rdf:RDF>
   </xsl:template>
   
@@ -149,6 +150,27 @@
       <sctap:shortId>canonlaw</sctap:shortId>
       <!-- This templates create the top level collection, containing all commentaries. -->
       <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./dcterms:isPartOf/@rdf:resource = 'http://scta.info/resource/canonlaw']">
+        <xsl:variable name="commentaryid" select="./@rdf:about"/>
+        <dcterms:hasPart rdf:resource="{$commentaryid}"/>
+        <sctap:hasExpression rdf:resource="{$commentaryid}"/>
+      </xsl:for-each>
+      <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./dcterms:isPartOf/@rdf:resource = 'http://scta.info/resource/statutes']">
+        <xsl:variable name="commentaryid" select="./@rdf:about"/>
+        <sctap:hasExpression rdf:resource="{$commentaryid}"/>
+      </xsl:for-each>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/statutes"/>
+    </rdf:Description>
+  </xsl:template>
+  <xsl:template name="create-canonlaw-statutes-work-group">
+    <rdf:Description rdf:about="http://scta.info/resource/statutes">
+      <dc:title>Canon Law Statutes</dc:title>
+      <dc:description>A Work Group for Statues in Canon Law Tradition</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:statutes</sctap:dtsurn>
+      <sctap:shortId>statutes</sctap:shortId>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/canonlaw"/>
+      <!-- This templates create the top level collection, containing all commentaries. -->
+      <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./dcterms:isPartOf/@rdf:resource = 'http://scta.info/resource/statutes']">
         <xsl:variable name="commentaryid" select="./@rdf:about"/>
         <dcterms:hasPart rdf:resource="{$commentaryid}"/>
         <sctap:hasExpression rdf:resource="{$commentaryid}"/>

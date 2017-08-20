@@ -15,7 +15,7 @@
       <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
       <sctap:dtsurn>urn:dts:latinLit:scta</sctap:dtsurn>
       <sctap:shortId>scta</sctap:shortId>
-      <sctap:projectfilesversion>98d05d8</sctap:projectfilesversion>
+      <sctap:projectfilesversion>2c2afce</sctap:projectfilesversion>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/sententia"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/deanima"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/summulaelogicales"/>
@@ -37,17 +37,32 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/wodehamlectura"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/bonaventurecommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/liberextra"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0139"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0140"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0141"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0142"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0143"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0144"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0145"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0146"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0147"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/monsterbek_questiones"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-116"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-199"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusdeanima"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-238"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-242"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-255"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/aer-trip"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-28"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-3"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-318"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-327"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-328"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-348"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-350"/>
-      <sctap:hasExpression rdf:resource="http://scta.info/resource/"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-352"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-353"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-5"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/alexanderexpositio"/>
@@ -55,6 +70,7 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-69"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-9"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/ddbrugescommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/euclidelements"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/perusiacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/bielcommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/gratiandecretum"/>
@@ -63,6 +79,7 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/romacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hugolinocommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/nataliscommentary"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/holcotquodlibeta"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/werlcommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/altavillacommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/almainsuperholcot"/>
@@ -214,20 +231,32 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-199"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/hispanusdeanima"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/hispanusdeanima"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-238"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-238"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/da-242"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-242"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-255"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-255"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/aer-trip"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/aer-trip"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/da-28"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-28"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/da-3"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-3"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-318"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-318"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-327"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-327"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/da-328"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-328"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-348"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-348"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/da-350"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/da-350"/>
-      <dcterms:hasPart rdf:resource="http://scta.info/resource/"/>
-      <sctap:hasExpression rdf:resource="http://scta.info/resource/"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-352"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-352"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/da-353"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/da-353"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/dinsdalequaestiones"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/da-5"/>
@@ -277,6 +306,42 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/liberextra"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/gratiandecretum"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/gratiandecretum"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0139"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0140"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0141"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0142"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0143"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0144"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0145"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0146"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0147"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/statutes"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://scta.info/resource/statutes">
+      <dc:title>Canon Law Statutes</dc:title>
+      <dc:description>A Work Group for Statues in Canon Law Tradition</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:statutes</sctap:dtsurn>
+      <sctap:shortId>statutes</sctap:shortId>
+      <dcterms:isPartOf rdf:resource="http://scta.info/resource/canonlaw"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0139"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0139"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0140"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0140"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0141"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0141"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0142"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0142"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0143"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0143"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0144"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0144"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0145"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0145"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0146"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0146"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/cl-0147"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/cl-0147"/>
    </rdf:Description>
    <rdf:Description rdf:about="http://scta.info/resource/uncategorized">
       <dc:title>Uncategorized</dc:title>
@@ -286,6 +351,8 @@
       <sctap:shortId>uncategorized</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/summahalensis"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/summahalensis"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/euclidelements"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/euclidelements"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/almainsuperholcot"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/almainsuperholcot"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/picoapologia"/>
