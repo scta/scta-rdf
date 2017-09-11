@@ -13,15 +13,24 @@
 @prefix sctar: <http://scta.info/resource/> .
 @prefix sctap: <http://scta.info/property/> .
 
+sctar:sentences-commentary
+	rdf:type sctar:expressionType ;
+	dc:title "Sentences Commentary" ;
+	dc:description "Sentences Commentary" .
 
-sctar:librum 
-	rdf:type sctar:expressionType ; 
-	dc:title "Book Division" ;  
-	dc:description "The typical top level division of a Sentences Commentary" .
+sctar:deanima-commentary
+	rdf:type sctar:expressionType ;
+	dc:title "De Anima Commentary" ;
+	dc:description "De Anima Commentary" .
+
+sctar:librum
+	rdf:type sctar:expressionType ;
+	dc:title "Book Division" ;
+	dc:description "The typical top level division of a medieval" .
 
 sctar:librum1
-	rdf:type sctar:expressionType ; 
-	dc:title "Book 1 Division" ;  
+	rdf:type sctar:expressionType ;
+	dc:title "Book 1 Division" ;
 	dc:description "Book 1 division of Sentences and Sentences Commentaries; deals with questions of the divine nature" ;
 	sctap:expressionType sctar:librum ;
 	sctap:shortId "librum1" ;
@@ -56,36 +65,36 @@ sctar:librum1
 	# and so on
 
 sctar:librum2
-	rdf:type sctar:expressionType ; 
-	dc:title "Book 2 Division" ; 
+	rdf:type sctar:expressionType ;
+	dc:title "Book 2 Division" ;
 	dc:description "Book 2 division of Sentences and Sentences Commentaries; deals with questions about creation" ;
 	sctap:expressionType sctar:librum ;
 	sctap:shortId "librum2" .
-	
+
 
 sctar:librum3
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 3 Division" ;
 	dc:description "Book 3 division of Sentences and Sentences Commentaries; deals with questions about Christ" ;
 	sctap:expressionType sctar:librum ;
 	sctap:shortId "librum3" .
-	
+
 sctar:librum4
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 4 Division" ;
 	dc:description "Book 4 division of Sentences and Sentences Commentaries; deals with questions about Church and Sacraments" ;
 	sctap:expressionType sctar:librum ;
 	sctap:shortId "librum4" .
 
 
-sctar:prologus 
-	rdf:type sctar:expressionType ; 
-	dc:title "Prologus Division" ; 
+sctar:prologus
+	rdf:type sctar:expressionType ;
+	dc:title "Prologus Division" ;
 	dc:description "Basic prologue division that usually precedes distinctions in a book" .
-	
+
 
 sctar:librum1-prologus
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Prologue" ;
 	dc:description "Division of Book 1 that usually discusses theological science and faith" ;
 	sctap:expressionType sctar:prologus ;
@@ -93,13 +102,13 @@ sctar:librum1-prologus
 	sctap:next sctar:librum1-distinctio1 ;
 	dcterms:isPartOf sctar:librum1 .
 
-sctar:distinctio 
-	rdf:type sctar:expressionType ; 
-	dc:title "Distinction Division" ; 
+sctar:distinctio
+	rdf:type sctar:expressionType ;
+	dc:title "Distinction Division" ;
 	dc:description "A basic division of a book type in a Sentences Commentary" .
-	
+
 sctar:librum1-distinctio1
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 1" ;
 	dc:description "Division of Book 1 that usually discusses use and enjoyment" ;
 	sctap:expressionType sctar:distinctio ;
@@ -109,7 +118,7 @@ sctar:librum1-distinctio1
 	sctap:next sctar:librum1-distinctio2 .
 
 sctar:librum1-distinctio2
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 2" ;
 	dc:description "Division of Book 1 that usually discusses God's existence" ;
 	sctap:expressionType sctar:distinctio ;
@@ -119,7 +128,7 @@ sctar:librum1-distinctio2
 	sctap:next sctar:librum1-distinctio3 .
 
 sctar:librum1-distinctio3
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 3" ;
 	dc:description "Division of Book 1 that usually discusses the imago dei" ;
 	sctap:expressionType sctar:distinctio ;
@@ -129,7 +138,7 @@ sctar:librum1-distinctio3
 	sctap:next sctar:librum1-distinctio4 .
 
 sctar:librum1-distinctio4
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 4" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -139,7 +148,7 @@ sctar:librum1-distinctio4
 	sctap:next sctar:librum1-distinctio5 .
 
 sctar:librum1-distinctio5
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 5" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -149,7 +158,7 @@ sctar:librum1-distinctio5
 	sctap:next sctar:librum1-distinctio6 .
 
 sctar:librum1-distinctio6
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 6" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -159,7 +168,7 @@ sctar:librum1-distinctio6
 	sctap:next sctar:librum1-distinctio7 .
 
 sctar:librum1-distinctio7
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 7" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -169,7 +178,7 @@ sctar:librum1-distinctio7
 	sctap:next sctar:librum1-distinctio8 .
 
 sctar:librum1-distinctio8
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 8" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -180,7 +189,7 @@ sctar:librum1-distinctio8
 
 
 sctar:librum1-distinctio9
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 9" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -190,7 +199,7 @@ sctar:librum1-distinctio9
 	sctap:next sctar:librum1-distinctio10 .
 
 sctar:librum1-distinctio10
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 10" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -200,7 +209,7 @@ sctar:librum1-distinctio10
 	sctap:next sctar:librum1-distinctio11 .
 
 sctar:librum1-distinctio11
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 11" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -210,7 +219,7 @@ sctar:librum1-distinctio11
 	sctap:next sctar:librum1-distinctio12 .
 
 sctar:librum1-distinctio12
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 12" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -220,7 +229,7 @@ sctar:librum1-distinctio12
 	sctap:next sctar:librum1-distinctio13 .
 
 sctar:librum1-distinctio13
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 13" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -230,7 +239,7 @@ sctar:librum1-distinctio13
 	sctap:next sctar:librum1-distinctio14 .
 
 sctar:librum1-distinctio14
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 14" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -240,7 +249,7 @@ sctar:librum1-distinctio14
 	sctap:next sctar:librum1-distinctio15 .
 
 sctar:librum1-distinctio15
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 15" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -250,7 +259,7 @@ sctar:librum1-distinctio15
 	sctap:next sctar:librum1-distinctio16 .
 
 sctar:librum1-distinctio16
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 16" ;
 	dc:description "Division of Book 1 that usually discusses " ;
 	sctap:expressionType sctar:distinctio ;
@@ -258,9 +267,9 @@ sctar:librum1-distinctio16
 	dcterms:isPartOf sctar:librum1 ;
 	sctap:previous sctar:librum1-distinctio15 ;
 	sctap:next sctar:librum1-distinctio17 .
-	
+
 sctar:librum1-distinctio17
-	rdf:type sctar:expressionType ; 
+	rdf:type sctar:expressionType ;
 	dc:title "Book 1 Distinctio 17" ;
 	dc:description "Division of Book 1 that usually discusses caritas" ;
 	sctap:expressionType sctar:distinctio ;
@@ -268,3 +277,26 @@ sctar:librum1-distinctio17
 	dcterms:isPartOf sctar:librum1 ;
 	sctap:previous sctar:librum1-distinctio16 ;
 	sctap:next sctar:librum1-distinctio18 .
+
+
+
+sctar:da-liber1
+	rdf:type sctar:expressionType ;
+	dc:title "Book 1 Division" ;
+	dc:description "Book 1 division of De Anima Commentaries; deals with general considerations about a science of the soul" ;
+	sctap:expressionType sctar:librum ;
+	sctap:shortId "da-liber1" .
+
+sctar:da-liber2
+	rdf:type sctar:expressionType ;
+	dc:title "Book 2 Division" ;
+	dc:description "Book 2 division of De Anima Commentaries; deals with definitions of the soul and the sensitive soul" ;
+	sctap:expressionType sctar:librum ;
+	sctap:shortId "da-liber2" .
+
+sctar:da-liber3
+	rdf:type sctar:expressionType ;
+	dc:title "Book 3 Division" ;
+	dc:description "Book 3 division of De Anima Commentaries; deals with the rational soul" ;
+	sctap:expressionType sctar:librum ;
+	sctap:shortId "da-liber3" .

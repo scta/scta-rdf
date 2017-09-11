@@ -6,17 +6,16 @@
   xmlns:sctap="http://scta.info/properties/" 
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" exclude-result-prefixes="sctap">
   
-  <xsl:param name="author"><xsl:value-of select="//header/authorName"/></xsl:param>
-  <xsl:param name="commentaryname"><xsl:value-of select="//header/commentaryName"/></xsl:param>
-  <xsl:param name="cid"><xsl:value-of select="//header/commentaryid"/></xsl:param>
-  <xsl:param name="commentaryslug"><xsl:value-of select="//header/commentaryslug"/></xsl:param>
-  <xsl:param name="author-uri"><xsl:value-of select="//header/authorUri"/></xsl:param>
-  <!-- depreciating parent-uri as a required assertion in project file <xsl:param name="parent-uri">http://scta.info/resource/<xsl:value-of select="//header/parentUri"/></xsl:param> 
-       parant-uri is a dumb name. It just the uri of the top level expression -->
-  <xsl:param name="parent-uri">http://scta.info/resource/<xsl:value-of select="$cid"/></xsl:param>
-  <xsl:param name="textfilesdir"><xsl:value-of select="//header/textfilesdir"/></xsl:param>
-  <xsl:param name="webbase"><xsl:value-of select="//header/webbase"/></xsl:param>
-	
+  <!-- location of text file for crawling -->
+  <xsl:param name="textfilesbase">/Users/jcwitt/Projects/scta/scta-texts/</xsl:param>
+  
+  
+  <xsl:variable name="commentaryname"><xsl:value-of select="//header/commentaryName"/></xsl:variable>
+  <xsl:variable name="cid"><xsl:value-of select="//header/commentaryid"/></xsl:variable>
+  <xsl:variable name="commentaryslug"><xsl:value-of select="//header/commentaryslug"/></xsl:variable>
+  <xsl:variable name="author-uri"><xsl:value-of select="//header/authorUri"/></xsl:variable>
+  <xsl:variable name="textfilesdir"><xsl:value-of select="$textfilesbase"/><xsl:value-of select="$cid"/>/</xsl:variable>
+  
   <xsl:variable name="gitRepoBase">
     <xsl:choose>
   		<xsl:when test="//header/gitRepoBase">
@@ -77,10 +76,8 @@
  	</xsl:template>
   
   <!-- templates to delete unwanted elements -->
-	<xsl:template match="div[@id='frontmatter']"></xsl:template>
-	<xsl:template match="div[@id='backmatter']"></xsl:template>
-  <xsl:template match="header"></xsl:template>
-  <xsl:template match="head"></xsl:template>
+	<xsl:template match="header"></xsl:template>
+ 
   
 	<!-- begin resource creation for top level expression -->  
   <xsl:template match="//div[@id='body']">
@@ -107,7 +104,7 @@
     			  <dc:description><xsl:value-of select="$description"/></dc:description>
     			</xsl:when>
     			<xsl:otherwise>
-    				<dc:description>Commentary on the Sentences by <xsl:value-of select="$author"/></dc:description>
+    				<dc:description>No Description Available</dc:description>
     			</xsl:otherwise>
     		</xsl:choose>
     		<!-- end log description -->
@@ -124,7 +121,18 @@
     		
     		<!-- TODO: Project file headers should indicate expressionType; I'm hard coding to the SentencesCommentary for now;
     			but this means De Anima commentaries are going to be erroneously marked -->
-    			<sctap:expressionType rdf:resource="http://scta.info/resource/commentary"/>
+    	  <xsl:choose>
+    	    <xsl:when test="$parentWorkGroup eq 'http://scta.info/resource/deanima'">
+    	      <sctap:expressionType rdf:resource="http://scta.info/resource/deanima-commentary"/>
+    	    </xsl:when>
+    	    <xsl:when test="$parentWorkGroup eq 'http://scta.info/resource/sententia'">
+    	     <sctap:expressionType rdf:resource="http://scta.info/resource/sentences-commentary"/>
+    	    </xsl:when>
+    	    <xsl:otherwise>
+    	      <sctap:expressionType rdf:resource="http://scta.info/resource/text"/>
+    	    </xsl:otherwise>
+    	  </xsl:choose>
+    			 
 		    
 		    <!--Log any sponsors of this top level expression -->
 		    <xsl:for-each select="$sponsors//sponsor">
