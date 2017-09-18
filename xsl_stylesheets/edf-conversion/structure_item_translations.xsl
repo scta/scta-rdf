@@ -20,14 +20,16 @@
     <xsl:param name="textfilesdir"/>
     <xsl:param name="gitRepoStyle"/>
     <xsl:param name="gitRepoBase"/>
+    <!-- required item level params -->
+    <xsl:param name="fs"/>
+    <xsl:param name="repo-path"/>
+    <xsl:param name="translationTranscriptions"/>
+    <xsl:param name="translationManifestations"/>
     
     
     <!-- Begin create translation manifestation for structureType=structureItem -->
     <xsl:for-each select=".//item">
-      <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
-      <xsl:variable name="repo-path" select="concat($textfilesdir, $fs, '/')"/>
-      <xsl:variable name="translationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[@type='translation']"/>
-      <xsl:variable name="translationManifestations" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/translationManifestations//manifestation"/>
+      
       <xsl:for-each select="$translationManifestations">
         <xsl:variable name="trans-manifestation-slug" select="."/>
        <xsl:call-template name="structure_item_translations_entry">

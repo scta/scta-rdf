@@ -94,22 +94,397 @@
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
       </xsl:call-template>
-      <xsl:call-template name="structure_item_expressions">
-        <xsl:with-param name="cid" select="$cid"/>
-        <xsl:with-param name="author-uri" select="$author-uri"/>
-        <xsl:with-param name="dtsurn" select="$dtsurn"/>
-        <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
-        <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
-        <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-      </xsl:call-template>
-      <xsl:call-template name="structure_item_translations">
-        <xsl:with-param name="cid" select="$cid"/>
-        <xsl:with-param name="author-uri" select="$author-uri"/>
-        <xsl:with-param name="dtsurn" select="$dtsurn"/>
-        <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
-        <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
-        <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-      </xsl:call-template>
+      
+      <!-- begin item level param retrieve and template calls -->
+      <!-- TODO some of the DIV calls could be consolidated in this way -->
+      <!-- IT's ideal to be getting the required params once and then using them in many templates rather than re-retrieving params for each template -->
+      <xsl:for-each select=".//item">
+        <!-- TODO go through variable and see what is being used and delete what is not being used -->
+        <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+        <xsl:variable name="title"><xsl:value-of select="title"/></xsl:variable>
+        <xsl:variable name="expressionType"><xsl:value-of select="@type"/></xsl:variable>
+        <xsl:variable name="bookParent"><xsl:value-of select="./ancestor::div[@type='librum']/@id"/></xsl:variable>
+        <xsl:variable name="distinctionParent"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
+        <xsl:variable name="text-path" select="concat($textfilesdir, $fs, '/', $fs, '.xml')"/>
+        <xsl:variable name="repo-path" select="concat($textfilesdir, $fs, '/')"/>
+        <xsl:variable name="extraction-file" select="if (document(concat($repo-path, 'transcriptions.xml'))) then concat($repo-path, document(concat($repo-path, 'transcriptions.xml'))/transcriptions/transcription[@use-for-extraction='true']) else $text-path"></xsl:variable>
+        <xsl:variable name="info-path" select="concat($repo-path, 'info.xml')"/>
+        <xsl:variable name="totalnumber"><xsl:number count="item" level="any"/></xsl:variable>
+        <xsl:variable name="sectionnumber"><xsl:number count="item"/></xsl:variable>
+        <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
+        <xsl:variable name="distinctio-number"><xsl:number count="div[@type='distinctio']"/></xsl:variable>
+        <xsl:variable name="pars-number"><xsl:number count="div[@type='pars']"/></xsl:variable>
+        <xsl:variable name="item-level" select="count(ancestor::*)"/>
+        <xsl:variable name="expressionParentId" select="./parent::div/@id"/>
+        <!-- TODO decideif item-dtsurn is desired -->
+        <xsl:variable name="item-dtsurn">
+          <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
+          <xsl:value-of select="concat($dtsurn, ':', $divcount, '.i', $totalnumber)"/>
+        </xsl:variable>
+        
+        <xsl:variable name="canonical-filename-slug" select="substring-before(tokenize($extraction-file, '/')[last()], '.xml')"></xsl:variable>
+        <xsl:variable name="canonical-manifestation-id">
+          <xsl:choose>
+            <xsl:when test="contains($canonical-filename-slug, '_')">
+              <xsl:value-of select="substring-before($canonical-filename-slug, '_')"/>
+            </xsl:when>
+            <!-- TODO: not ideal to be hard coding critical here. what if there were more than on critical manifestation -->
+            <xsl:otherwise>critical</xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        
+        <xsl:variable name="itemWitnesses" select="./hasWitnesses/witness"/>
+        <xsl:variable name="manifestations">
+          <manifestations>
+            <xsl:for-each select="$itemWitnesses">
+              <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
+              <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
+              <xsl:variable name="wit-title"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/title"/></xsl:variable>
+              <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
+              <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}">
+                <transcriptions>
+                  <transcription name="transcription" canonical="true" type="diplomatic" transcription-text-path="{$transcription-text-path}"/>
+                </transcriptions>
+                <xsl:for-each select="./folio">
+                  <folio><xsl:value-of select="."/></folio>
+                </xsl:for-each>
+              </manifestation> 
+            </xsl:for-each>
+            <!-- Note: here is a way of combining item witnesses with one or more default manifestations such a 'critical' manifestation -->
+            <!-- if a file without a prefix exist in directory, we assume this is a transcription of a manifestation called 'critical',
+            therefore a manifestation called critical is added to the overall list -->
+            <xsl:if test="document($text-path)">
+              <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" transcription-text-path="{$text-path}">
+                <transcriptions>
+                  <transcription name="transcription" canonical="true" type="critical" transcription-text-path="{$text-path}"/>
+                </transcriptions>
+              </manifestation>
+            </xsl:if>
+          </manifestations>
+        </xsl:variable>
+        <xsl:variable name="translationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[@type='translation']"/>
+        <xsl:variable name="translationManifestations" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/translationManifestations//manifestation"/>
+        
+        <xsl:call-template name="structure_item_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="info-path" select="$info-path"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        
+        <xsl:call-template name="structure_item_translations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="repo-path" select="$repo-path"/>
+          <xsl:with-param name="translationTranscriptions" select="$translationTranscriptions"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+        </xsl:call-template>
+        
+        <xsl:call-template name="structure_item_translation_transcriptions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="repo-path" select="$repo-path"/>
+          <xsl:with-param name="translationTranscriptions" select="$translationTranscriptions"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+        </xsl:call-template>
+        
+        <xsl:call-template name="structure_division_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="info-path" select="$info-path"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_block_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="info-path" select="$info-path"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_element_name_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_element_title_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_element_quote_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_element_ref_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_item_manifestations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_item_transcriptions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_division_manifestations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_division_transcriptions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_block_manifestations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_block_transcriptions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-- required item level params -->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        </xsl:call-template>
+      
+      </xsl:for-each>
       <!--<xsl:apply-templates/>-->
     </rdf:RDF>
   </xsl:template>
@@ -120,7 +495,23 @@
   <xsl:include href="structure_collection_expressions.xsl"/>
   <xsl:include href="structure_collection_manifestations.xsl"/>
   <xsl:include href="structure_item_expressions.xsl"/>
+  <xsl:include href="structure_item_manifestations.xsl"/>
+  <xsl:include href="structure_item_transcriptions.xsl"/>
   <xsl:include href="structure_item_translations.xsl"/>
+  <xsl:include href="structure_item_translation_transcriptions.xsl"/>
+  <xsl:include href="structure_division_expressions.xsl"/>
+  <xsl:include href="structure_division_manifestations.xsl"/>
+  <xsl:include href="structure_division_transcriptions.xsl"/>
+  <xsl:include href="structure_block_expressions.xsl"/>
+  <xsl:include href="structure_block_manifestations.xsl"/>
+  <xsl:include href="structure_block_transcriptions.xsl"/>
+  <xsl:include href="structure_element_name_expressions.xsl"/>
+  <xsl:include href="structure_element_title_expressions.xsl"/>
+  <xsl:include href="structure_element_quote_expressions.xsl"/>
+  <xsl:include href="structure_element_ref_expressions.xsl"/>
+  
+  
+  
   
   
   

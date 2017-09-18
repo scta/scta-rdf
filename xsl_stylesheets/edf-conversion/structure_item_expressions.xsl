@@ -21,61 +21,22 @@
     <xsl:param name="gitRepoStyle"/>
     <xsl:param name="gitRepoBase"/>
     
-    <xsl:for-each select=".//item">
-      <!-- TODO go through variable and see what is being used and delete what is not being used -->
-      <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
-      <xsl:variable name="title"><xsl:value-of select="title"/></xsl:variable>
-      <xsl:variable name="expressionType"><xsl:value-of select="@type"/></xsl:variable>
-      <xsl:variable name="bookParent"><xsl:value-of select="./ancestor::div[@type='librum']/@id"/></xsl:variable>
-      <xsl:variable name="distinctionParent"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
-      <xsl:variable name="text-path" select="concat($textfilesdir, $fs, '/', $fs, '.xml')"/>
-      <xsl:variable name="repo-path" select="concat($textfilesdir, $fs, '/')"/>
-      <xsl:variable name="extraction-file" select="if (document(concat($repo-path, 'transcriptions.xml'))) then concat($repo-path, document(concat($repo-path, 'transcriptions.xml'))/transcriptions/transcription[@use-for-extraction='true']) else $text-path"></xsl:variable>
-      <xsl:variable name="info-path" select="concat($repo-path, 'info.xml')"/>
-      <xsl:variable name="totalnumber"><xsl:number count="item" level="any"/></xsl:variable>
-      <xsl:variable name="sectionnumber"><xsl:number count="item"/></xsl:variable>
-      <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
-      <xsl:variable name="distinctio-number"><xsl:number count="div[@type='distinctio']"/></xsl:variable>
-      <xsl:variable name="pars-number"><xsl:number count="div[@type='pars']"/></xsl:variable>
-      <xsl:variable name="item-level" select="count(ancestor::*)"/>
-      <xsl:variable name="expressionParentId" select="./parent::div/@id"/>
-      <!-- TODO decideif item-dtsurn is desired -->
-      <xsl:variable name="item-dtsurn">
-        <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
-        <xsl:value-of select="concat($dtsurn, ':', $divcount, '.i', $totalnumber)"/>
-      </xsl:variable>
-      
-      <xsl:variable name="canonical-filename-slug" select="substring-before(tokenize($extraction-file, '/')[last()], '.xml')"></xsl:variable>
-      <xsl:variable name="canonical-manifestation-id">
-        <xsl:choose>
-          <xsl:when test="contains($canonical-filename-slug, '_')">
-            <xsl:value-of select="substring-before($canonical-filename-slug, '_')"/>
-          </xsl:when>
-          <!-- TODO: not ideal to be hard coding critical here. what if there were more than on critical manifestation -->
-          <xsl:otherwise>critical</xsl:otherwise>
-        </xsl:choose>
-      </xsl:variable>
-      
-      <xsl:variable name="itemWitnesses" select="./hasWitnesses/witness"/>
-      <xsl:variable name="manifestations">
-        <manifestations>
-        <xsl:for-each select="$itemWitnesses">
-          <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
-          <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
-          <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
-          <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" transcription-text-path="{$transcription-text-path}"/> 
-        </xsl:for-each>
-          <!-- Note: here is a way of combining item witnesses with one or more default manifestations such a 'critical' manifestation -->
-          <!-- if a file without a prefix exist in directory, we assume this is a transcription of a manifestation called 'critical',
-            therefore a manifestation called critical is added to the overall list -->
-          <xsl:if test="document($text-path)">
-            <manifestation wit-slug="critical" transcription-text-path="{$text-path}"/>
-          </xsl:if>
-        </manifestations>
-      </xsl:variable>
-      <xsl:variable name="translationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[@type='translation']"/>
-      <xsl:variable name="translationManifestations" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/translationManifestations//manifestation"/>
-      
+    <!-- item level params -->
+    <xsl:param name="fs"/>
+    <xsl:param name="title"/>
+    <xsl:param name="item-level"/>
+    <xsl:param name="expressionParentId"/>
+    <xsl:param name="extraction-file"/>
+    <xsl:param name="info-path"/>
+    <xsl:param name="expressionType"/>
+    <xsl:param name="sectionnumber"/>
+    <xsl:param name="totalnumber"/>
+    <xsl:param name="text-path"/>
+    <xsl:param name="itemWitnesses"/>
+    <xsl:param name="manifestations"/>
+    <xsl:param name="translationManifestations"/>
+    <xsl:param name="canonical-manifestation-id"/>
+    
       <xsl:call-template name="structure_item_expressions_entry">
         <xsl:with-param name="fs" select="$fs"/>
         <xsl:with-param name="title" select="$title"/>
@@ -97,7 +58,6 @@
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         
       </xsl:call-template>
-    </xsl:for-each>
   </xsl:template>
   <xsl:template name="structure_item_expressions_entry">
     <xsl:param name="fs"/>
@@ -135,9 +95,10 @@
       <role:AUT rdf:resource="{$author-uri}"/>
       
       <!-- record editors -->
-      <xsl:for-each select="document($extraction-file)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
+      <!-- editors at the expression level doesn't seem accurate -->
+      <!--<xsl:for-each select="document($extraction-file)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
         <sctap:editedBy><xsl:value-of select="."/></sctap:editedBy>
-      </xsl:for-each>
+      </xsl:for-each>-->
       
       <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
