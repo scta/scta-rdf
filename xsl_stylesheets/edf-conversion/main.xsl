@@ -134,6 +134,11 @@
         </xsl:variable>
         
         <xsl:variable name="itemWitnesses" select="./hasWitnesses/witness"/>
+        
+        <xsl:variable name="nonTranslationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[not(@type='translation')]"/>
+        <xsl:variable name="translationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[@type='translation']"/>
+        <xsl:variable name="translationManifestations" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/translationManifestations//manifestation"/>
+        
         <xsl:variable name="manifestations">
           <manifestations>
             <xsl:for-each select="$itemWitnesses">
@@ -141,9 +146,19 @@
               <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
               <xsl:variable name="wit-title"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/title"/></xsl:variable>
               <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
-              <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}">
+              <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la">
                 <transcriptions>
-                  <transcription name="transcription" canonical="true" type="diplomatic" transcription-text-path="{$transcription-text-path}"/>
+                  <!--- logging all transcriptions that are listed in transcriptions.xml file that match a witness slug-->
+                  <xsl:for-each select="$nonTranslationTranscriptions">
+                    <xsl:if test="./@isTranscriptionOf=$wit-slug">
+                      <xsl:variable name="transcription-text-path2" select="concat($textfilesdir, $fs, '/', .)"/>
+                      <transcription hash="{./@hash}" name="{./@name}" canonical="{./@canonical}" type="{./@type}" transcription-text-path="{$transcription-text-path2}" hasSuccessor="{./@hasSuccessor}"/>
+                    </xsl:if>
+                  </xsl:for-each>
+                  <!-- checking for default transcriptions based on file names in repo and that are not listed in transcription file-->
+                  <xsl:if test="document($transcription-text-path) and not($nonTranslationTranscriptions//transcription[text()=concat($wit-slug, '_', $fs, '.xml')])">
+                    <transcription hash="head" name="transcription" canonical="true" type="diplomatic" transcription-text-path="{$transcription-text-path}"/>  
+                  </xsl:if>
                 </transcriptions>
                 <xsl:for-each select="./folio">
                   <folio><xsl:value-of select="."/></folio>
@@ -154,16 +169,38 @@
             <!-- if a file without a prefix exist in directory, we assume this is a transcription of a manifestation called 'critical',
             therefore a manifestation called critical is added to the overall list -->
             <xsl:if test="document($text-path)">
-              <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" transcription-text-path="{$text-path}">
+              <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la">
                 <transcriptions>
-                  <transcription name="transcription" canonical="true" type="critical" transcription-text-path="{$text-path}"/>
+                  <!--- logging all transcriptions that are listed in transcriptions.xml file that match 'critical' slug -->
+                  <xsl:for-each select="$nonTranslationTranscriptions">
+                    <xsl:if test="./@isTranscriptionOf='critical'">
+                      <xsl:variable name="transcription-text-path2" select="concat($textfilesdir, $fs, '/', .)"/>
+                      <transcription hash="{./@hash}" name="{./@name}" canonical="{./@canonical}" type="{./@type}" transcription-text-path="{$transcription-text-path2}" hasSuccessor="{./@hasSuccessor}"/>
+                    </xsl:if>
+                  </xsl:for-each>
+                  <!-- checking for default transcriptions based on file names in repo-->
+                  <xsl:if test="document($text-path) and not($nonTranslationTranscriptions//transcription[text()=concat($fs, '.xml')])">
+                    <transcription hash="head" name="transcription" canonical="true" type="critical" transcription-text-path="{$text-path}"/>  
+                  </xsl:if>
                 </transcriptions>
               </manifestation>
             </xsl:if>
+            <xsl:for-each select="$translationManifestations">
+              <xsl:variable name="translationManifestationSlug" select="./@name"/>
+              <manifestation wit-slug="{$translationManifestationSlug}" wit-title="{./@title}" type="translation" lang="{./@lang}">
+                <transcriptions>
+                  <xsl:for-each select="$translationTranscriptions">
+                    <xsl:if test="./@isTranslationOf eq $translationManifestationSlug">
+                      <xsl:variable name="translation-text-path" select="concat($textfilesdir, $fs, '/', .)"/>
+                      <transcription hash="{./@hash}" name="{./@name}" canonical="{./@canonical}" type="translation" transcription-text-path="{$translation-text-path}" hasSuccessor="{./@hasSuccessor}"/>
+                    </xsl:if>
+                  </xsl:for-each>
+                </transcriptions>
+              </manifestation>
+            </xsl:for-each>
           </manifestations>
         </xsl:variable>
-        <xsl:variable name="translationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[@type='translation']"/>
-        <xsl:variable name="translationManifestations" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/translationManifestations//manifestation"/>
+        
         
         <xsl:call-template name="structure_item_expressions">
           <xsl:with-param name="cid" select="$cid"/>
@@ -189,14 +226,14 @@
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         </xsl:call-template>
         
-        <xsl:call-template name="structure_item_translations">
+       <!-- <xsl:call-template name="structure_item_translations">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="dtsurn" select="$dtsurn"/>
           <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
           <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
           <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-          <!-- required item level params -->
+          <!-\- required item level params -\->
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="repo-path" select="$repo-path"/>
           <xsl:with-param name="translationTranscriptions" select="$translationTranscriptions"/>
@@ -210,12 +247,12 @@
           <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
           <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
           <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-          <!-- required item level params -->
+          <!-\- required item level params -\->
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="repo-path" select="$repo-path"/>
           <xsl:with-param name="translationTranscriptions" select="$translationTranscriptions"/>
           <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
-        </xsl:call-template>
+        </xsl:call-template>-->
         
         <xsl:call-template name="structure_division_expressions">
           <xsl:with-param name="cid" select="$cid"/>
@@ -483,6 +520,15 @@
           <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         </xsl:call-template>
+        <xsl:call-template name="structure_element_quote_manifestations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+        </xsl:call-template>
+        <xsl:call-template name="zones">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+        </xsl:call-template>
       
       </xsl:for-each>
       <!--<xsl:apply-templates/>-->
@@ -509,6 +555,8 @@
   <xsl:include href="structure_element_title_expressions.xsl"/>
   <xsl:include href="structure_element_quote_expressions.xsl"/>
   <xsl:include href="structure_element_ref_expressions.xsl"/>
+  <xsl:include href="structure_element_quote_manifestations.xsl"/>
+  <xsl:include href="zones.xsl"/>
   
   
   

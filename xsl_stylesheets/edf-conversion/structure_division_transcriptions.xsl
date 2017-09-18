@@ -138,13 +138,25 @@
         </xsl:for-each>
         
         <xsl:choose>
-          <xsl:when test="$gitRepoStyle = 'toplevel'">
-            <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{tokenize($transcription-text-path, '/')[last()]}#{$divisionId}"/>
+          <xsl:when test="./@hash eq 'head' or not(./@hash)">
+            <xsl:choose>
+              <xsl:when test="$gitRepoStyle = 'toplevel'">
+                <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{tokenize($transcription-text-path, '/')[last()]}#{$divisionId}"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{tokenize($transcription-text-path, '/')[last()]}#{$divisionId}"/>
+              </xsl:otherwise>	
+            </xsl:choose>
+            <sctap:ipfsHash></sctap:ipfsHash>
           </xsl:when>
           <xsl:otherwise>
-            <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{tokenize($transcription-text-path, '/')[last()]}#{$divisionId}"/>
-          </xsl:otherwise>	
+            <sctap:hasDocument rdf:resource="https://gateway.ipfs.io/ipfs/{./@hash}#{$divisionId}"/>
+            <sctap:ipfsHash><xsl:value-of select="./@hash"/></sctap:ipfsHash>
+          </xsl:otherwise>
         </xsl:choose>
+        <xsl:if test="./@hasSuccessor">
+          <sctap:hasSuccessor rdf:resource="{./@hasSuccessor}"></sctap:hasSuccessor>
+        </xsl:if>
         
         <sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$divisionId}/{$wit-slug}/{$transcription-name}"/>
         <sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>

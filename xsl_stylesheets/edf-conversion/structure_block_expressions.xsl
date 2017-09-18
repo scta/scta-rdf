@@ -134,11 +134,14 @@
           </xsl:for-each>
       -->
       <xsl:for-each select="$manifestations//manifestation">
-        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$pid}/{./@wit-slug}"/>
-      </xsl:for-each>
-      
-      <xsl:for-each select="$translationManifestations">
-        <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$pid}/{.}"/>
+        <xsl:choose>
+          <xsl:when test="./@type='translation'">
+            <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$pid}/{./@wit-slug}"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$pid}/{./@wit-slug}"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
           
           <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$pid}/{$canonical-manifestation-id}"/>

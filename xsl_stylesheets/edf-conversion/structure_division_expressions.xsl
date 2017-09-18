@@ -222,14 +222,17 @@
           <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$wit-slug}"/>
         </xsl:for-each>-->
         
+        
         <xsl:for-each select="$manifestations//manifestation">
-          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{./@wit-slug}"/>
+          <xsl:choose>
+            <xsl:when test="./@type='translation'">
+              <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$divisionID}/{./@wit-slug}"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{./@wit-slug}"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:for-each>
-        
-        <xsl:for-each select="$translationManifestations">
-          <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$divisionID}/{.}"/>
-        </xsl:for-each>
-        
         <!-- create canonicalManifestation and Transcriptions references for structureType=structureDivision -->
         <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$canonical-manifestation-id}"/>
         

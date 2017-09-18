@@ -112,15 +112,34 @@
         <sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
         <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
         <!-- begin assert all manifestation Quotes -->
-        <xsl:if test="document($text-path)">
-          <!-- TODO review hard coding of prefix for critical manifestation -->
-          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$objectId}/critical"/>
-        </xsl:if>
-        <xsl:for-each select="$itemWitnesses">
+        
+      <!--<xsl:if test="document($text-path)">
+        <!-\- TODO: review hard coding of prefix for critical manifestation -\->
+        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$objectId}/critical"/>
+      </xsl:if>-->
+        
+        <!--
+          This can be deleted in light of the new system below
+          <xsl:for-each select="$itemWitnesses">
           <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
           <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
           <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$objectId}/{$wit-slug}"/>
-        </xsl:for-each>
+        </xsl:for-each>-->
+      
+      <xsl:for-each select="$manifestations//manifestation">
+        <xsl:choose>
+          <xsl:when test="./@type='translation'">
+            <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$objectId}/{./@wit-slug}"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$objectId}/{./@wit-slug}"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$objectId}/{$canonical-manifestation-id}"/>
+      
+      
+      
         <!-- end log all manifesetaiton quotes -->
       </rdf:Description>
     

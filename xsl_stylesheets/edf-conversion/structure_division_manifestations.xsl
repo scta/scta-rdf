@@ -113,12 +113,23 @@
     
     <rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}">
       <dc:title>Division <xsl:value-of select="$divisionId"/></dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      
       <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
       <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
-      <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
       <sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug)"/></sctap:shortId>
+      
+      <xsl:choose>
+        <xsl:when test="./@type='translation'">
+          <rdf:type rdf:resource="http://scta.info/resource/translation"/>
+          <sctap:isPartOfTopLevelTranslationn rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+          <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
+        </xsl:otherwise>
+      </xsl:choose>
       
       <xsl:for-each select="$transcriptions//transcription">
         <xsl:if test="document(./@transcription-text-path)">

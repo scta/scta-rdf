@@ -41,6 +41,7 @@
       <!-- required item level manifestation params -->
       <xsl:variable name="wit-slug" select="./@wit-slug"/>
       <xsl:variable name="wit-title" select="./@wit-title"/>
+      <xsl:variable name="lang" select="./@lang"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="surfaces" select=".//folio"/>
     
@@ -63,6 +64,7 @@
         <xsl:with-param name="manifestations" select="$manifestations"/>
         <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+        <xsl:with-param name="lang" select="$lang"/>
         <!-- item manifestation level parmaters -->
         <xsl:with-param name="wit-slug" select="$wit-slug"/>
         <xsl:with-param name="wit-title" select="$wit-title"/>
@@ -93,15 +95,28 @@
     <!-- manifestation params -->
     <xsl:param name="wit-slug"/>
     <xsl:param name="wit-title"/>
+    <xsl:param name="lang"/>
     <xsl:param name="transcriptions"/>
     <xsl:param name="surfaces"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$fs}/{$wit-slug}">
       <dc:title><xsl:value-of select="$title"/> [<xsl:value-of select="$wit-title"/>]</dc:title>
+      <dc:language><xsl:value-of select="$lang"/></dc:language>
       <role:AUT rdf:resource="{$author-uri}"/>
-      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <xsl:choose>
+        <xsl:when test="./@type='translation'">
+          <rdf:type rdf:resource="http://scta.info/resource/translation"/>
+          <sctap:isPartOfTopLevelTranslation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$fs}"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+          <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$fs}"/>
+        </xsl:otherwise>
+      </xsl:choose>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+      
       <!-- TODO: conditional should eventually be removed -->
       <xsl:choose>
         <xsl:when test="$item-level eq 2">
@@ -131,7 +146,7 @@
               </xsl:choose> -->
       </xsl:for-each>
       
-      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$fs}"/>
+      
       
       <xsl:for-each select="$transcriptions//transcription">
         <xsl:if test="document(./@transcription-text-path)">

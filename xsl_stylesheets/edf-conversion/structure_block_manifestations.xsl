@@ -129,11 +129,32 @@
       <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
       <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-      <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+      
       <sctap:shortId><xsl:value-of select="concat($pid, '/', $wit-slug)"/></sctap:shortId>
-      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
-      <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
+      
+      
+      <xsl:choose>
+        <xsl:when test="./@type='translation'">
+          <rdf:type rdf:resource="http://scta.info/resource/translation"/>
+          <sctap:isPartOfTopLevelTranslation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$pid}"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+          <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
+        </xsl:otherwise>
+      </xsl:choose>
+      
+      <xsl:for-each select="$transcriptions//transcription">
+        <xsl:if test="document(./@transcription-text-path)">
+          <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/{./@name}"/>
+          <xsl:if test="./@canonical eq 'true'">
+            <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/{./@name}"/>
+          </xsl:if>
+        </xsl:if>
+      </xsl:for-each>
+      
       <sctap:hasSurface rdf:resource="{$paragraph-surface}"/>
       <!-- create ldn inbox -->
       <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}/{$wit-slug}"/>

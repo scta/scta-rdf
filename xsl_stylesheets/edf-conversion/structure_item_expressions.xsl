@@ -54,7 +54,6 @@
         <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
         <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
         <xsl:with-param name="manifestations" select="$manifestations"/>
-        <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         
       </xsl:call-template>
@@ -76,7 +75,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
     
@@ -198,22 +196,19 @@
       </xsl:for-each>-->
       <!-- ============NEW WAY, once confirmed above can be deleted -->
       <xsl:for-each select="$manifestations//manifestation">
-        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$fs}/{./@wit-slug}"/>
+        <xsl:choose>
+          <xsl:when test="./@type='translation'">
+            <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$fs}/{./@wit-slug}"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$fs}/{./@wit-slug}"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
-      <!-- END maniftation recording -->
-        
-        
-      <xsl:for-each select="$translationManifestations">
-        <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$fs}/{.}"/>
-      </xsl:for-each>
+      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$fs}/{$canonical-manifestation-id}"/>
       
       <!-- Identify Canonical Manifestation and canonical for Expression at the structureItem level -->
       <!--TODO: it is not ideal to ripping this information from the file path; it would be better if the projectdata file or transcription.xml file indicated this information -->
-      
-      
-      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$fs}/{$canonical-manifestation-id}"/>
-      <!-- end create canonical Manifestation and Transcription entires -->
-      
       
       
       <!-- TODO: add link to first level structureType division found in the tei document; 
