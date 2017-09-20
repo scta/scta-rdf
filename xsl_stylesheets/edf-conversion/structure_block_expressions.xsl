@@ -13,6 +13,7 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
+  <xsl:import href="expression_properties.xsl"/>
   <xsl:template name="structure_block_expressions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
@@ -96,7 +97,10 @@
     
     <rdf:Description rdf:about="http://scta.info/resource/{$pid}">
           <dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
-          <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+          
+      <!--<rdf:type rdf:resource="http://scta.info/resource/expression"/>-->
+      <xsl:call-template name="expression_properties"/>
+      
           
           <!-- TODO: had dcterms:isPartOf that points to the immediate parent resource, mostly likely structureType=structureDivision but could be structureType=structureItem -->
           
@@ -279,5 +283,6 @@
           <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}"/>
         </rdf:Description>
   </xsl:template>
+  
   
 </xsl:stylesheet>

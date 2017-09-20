@@ -630,7 +630,7 @@
   <xsl:include href="structure_element_quote_manifestations.xsl"/>
   <xsl:include href="zones.xsl"/>
   
-  
+  <!--<xsl:include href="expression_properties.xsl"/>-->
   
   
   

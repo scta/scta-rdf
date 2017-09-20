@@ -13,6 +13,7 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
+  <xsl:import href="expression_properties.xsl"/>
   <xsl:template name="structure_item_expressions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
@@ -79,8 +80,11 @@
     
     
     <rdf:Description rdf:about="http://scta.info/resource/{$fs}">
+      <!-- global properties -->
       <dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+      
+      <!-- BEGIN text global properties -->
+      
       <!-- TODO; condition should be removed with <div id=body> is changed to <div id=commentaryid> -->
       <xsl:choose>
         <xsl:when test="$item-level eq 2">
@@ -90,6 +94,17 @@
           <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
         </xsl:otherwise>
       </xsl:choose>
+      <!-- END text global properties -->
+      
+      <!-- expression properties -->
+      <!--<rdf:type rdf:resource="http://scta.info/resource/expression"/>-->
+      <xsl:call-template name="expression_properties"/>
+      <!-- end expression properties -->
+      
+      <!-- structureItem properties -->
+      
+      <!-- misc properites-->
+      
       <role:AUT rdf:resource="{$author-uri}"/>
       
       <!-- record editors -->
@@ -225,5 +240,6 @@
     </rdf:Description>
     
   </xsl:template>
+  
   
 </xsl:stylesheet>
