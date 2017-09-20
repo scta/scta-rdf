@@ -22,7 +22,9 @@ do
 	extension="${filename##*.}";
 	filename="${filename%.*}";
 	echo "Creating metadata assertion for $filename"
-	saxon "-warnings:silent" "-s:$projectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/commentaries/$filename.rdf";
+	#saxon "-warnings:silent" "-s:$projectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/rdf_projectdata_conversion.xsl" "-o:$base/commentaries/$filename.rdf";
+	saxon "-warnings:silent" "-s:$projectfilesbase/$filename.xml" "-xsl:$base/xsl_stylesheets/edf-conversion/main.xsl" "-o:$base/commentaries/$filename.rdf";
+
 done
 echo "Projectfiles meta data created for all projectfiles";
 

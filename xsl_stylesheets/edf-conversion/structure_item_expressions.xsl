@@ -197,6 +197,12 @@
       <!-- ============NEW WAY, once confirmed above can be deleted -->
       <xsl:for-each select="$manifestations//manifestation">
         <xsl:choose>
+          <!-- all manifestations are being treated the same
+            so no type 'translation is set'
+            TODO: if we wanted translations recorded as "hasTranslation" than the type attribute should be set, 
+            but right now I think they should be treated the same and this conditional can be deleted in all expression 
+            creation files -->
+            
           <xsl:when test="./@type='translation'">
             <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$fs}/{./@wit-slug}"/>
           </xsl:when>

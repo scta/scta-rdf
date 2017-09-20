@@ -88,6 +88,7 @@
             <xsl:with-param name="wit-title" select="$wit-title"/>
             <!-- block level transcription params -->
             <xsl:with-param name="pid" select="$pid"/>
+            <xsl:with-param name="pid_ref" select="$pid_ref"/>
             <!-- transcription params -->
             <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
             <xsl:with-param name="transcription-name" select="$this-transcription/@name"/>

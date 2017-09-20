@@ -131,7 +131,7 @@
           <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
           <!-- only creates paragraph resource if that paragraph has been assigned an id -->
           <xsl:if test="./@xml:id">
-            <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
+            <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/{$transcription-name}"/>
           </xsl:if>
         </xsl:for-each>
         <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$fs}/{$wit-slug}/transcription"/>

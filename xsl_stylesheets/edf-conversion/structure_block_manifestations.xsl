@@ -43,7 +43,6 @@
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
-        
       <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
         <xsl:variable name="this-paragraph" select="."/>
         <!-- only creates paragraph resource if that paragraph has been assigned an id -->

@@ -135,12 +135,86 @@
         
         <xsl:variable name="itemWitnesses" select="./hasWitnesses/witness"/>
         
+        <xsl:variable name="AllTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription"/>
         <xsl:variable name="nonTranslationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[not(@type='translation')]"/>
         <xsl:variable name="translationTranscriptions" select="document(concat($repo-path, 'transcriptions.xml'))//transcription[@type='translation']"/>
         <xsl:variable name="translationManifestations" select="document(concat($repo-path, 'transcriptions.xml'))/transcriptions/translationManifestations//manifestation"/>
         
+        <xsl:variable name="possibleManifestations">
+          <manifestations>
+            <xsl:for-each select="$itemWitnesses">
+              <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
+              <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
+              <xsl:variable name="wit-title"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/title"/></xsl:variable>
+              <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la">
+                <xsl:for-each select="./folio">
+                  <folio><xsl:value-of select="."/></folio>
+                </xsl:for-each>
+              </manifestation>
+            </xsl:for-each>
+            <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la"/>
+            <xsl:for-each select="$translationManifestations">
+              <xsl:variable name="translationManifestationSlug" select="./@name"/>
+              <manifestation wit-slug="{$translationManifestationSlug}" wit-title="{./@title}" type="translation" lang="{./@lang}"/>
+            </xsl:for-each>
+          </manifestations>
+        </xsl:variable>
+        
         <xsl:variable name="manifestations">
           <manifestations>
+          <xsl:for-each select="$possibleManifestations//manifestation">
+            <manifestation wit-ref="{./@wit-ref}" wit-slug="{./@wit-slug}" wit-title="{./@wit-title}" lang="{./@lang}">
+              <xsl:variable name="wit-slug" select="./@wit-slug"/>
+             <transcriptions>
+                <!--- logging all transcriptions that are listed in transcriptions.xml file that match a witness slug-->
+                <xsl:for-each select="$AllTranscriptions[@isTranscriptionOf=$wit-slug]">
+                  <xsl:variable name="transcription-text-path2" select="concat($textfilesdir, $fs, '/', .)"/>
+                  <transcription hash="{./@hash}" name="{./@name}" canonical="{./@canonical}" type="{./@type}" transcription-text-path="{$transcription-text-path2}" hasSuccessor="{./@hasSuccessor}"/>
+                </xsl:for-each>
+                <!-- logging default diplomatic when file exists and no entry in transcription file exists -->
+                <xsl:variable name="diplomatic-transcription-text-path" select="concat($textfilesdir, $fs, '/', ./@wit-slug, '_', $fs, '.xml')"/>
+               
+               <!-- Below this are trying to see if a default file exists that has not be overwrited by a transcripition element
+                 the editional predicate @isTranscriptionOf is added because some transcription files exists that only indicate the extraction file
+                 but should not be used as an override -->
+                <xsl:if test="document($diplomatic-transcription-text-path) and not($AllTranscriptions[@isTranscriptionOf][text()=concat($wit-slug, '_', $fs, '.xml')])">
+                  
+                  <xsl:variable name="canonical">
+                    <!-- check if a transcription for this manifestation has already been set as canonical -->
+                    <xsl:choose>
+                      <xsl:when test="$AllTranscriptions[@isTranscriptionOf=$wit-slug][@canonical='true']">false</xsl:when>
+                      <xsl:otherwise>true</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:variable>
+                  <transcription hash="head" name="transcription" canonical="{$canonical}" type="diplomatic" transcription-text-path="{$diplomatic-transcription-text-path}"/>  
+                </xsl:if>
+               
+               <!-- Below this are trying to see if a default file exists that has not be overwrited by a transcripition element
+                 the editional predicate @isTranscriptionOf is added because some transcription files exists that only indicate the extraction file
+                 but should not be used as an override -->
+               
+               <!-- logging default critical when file exists and no entry in transcription file exists -->
+                <xsl:variable name="critical-transcription-text-path" select="concat($textfilesdir, $fs, '/', $fs, '.xml')"/>
+                <xsl:if test="$wit-slug='critical' and document($critical-transcription-text-path) and not($AllTranscriptions[@isTranscriptionOf][text()=concat($fs, '.xml')])">
+                  <xsl:variable name="canonical">
+                    <!-- check if a transcription for this manifestation has already been set as canonical -->
+                    <xsl:choose>
+                      <xsl:when test="$AllTranscriptions[@isTranscriptionOf=$wit-slug][@canonical='true']">false</xsl:when>
+                      <xsl:otherwise>true</xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:variable>
+                  <transcription hash="head" name="transcription" canonical="{$canonical}" type="critical" transcription-text-path="{$critical-transcription-text-path}"/>  
+                </xsl:if>
+              </transcriptions>
+              <xsl:for-each select="./folio">
+                <folio><xsl:value-of select="."/></folio>
+              </xsl:for-each>
+            </manifestation>
+          </xsl:for-each>
+          </manifestations>
+          
+          <!-- below has been replaced by above -->
+          <!--<manifestations>
             <xsl:for-each select="$itemWitnesses">
               <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
               <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
@@ -148,14 +222,14 @@
               <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
               <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la">
                 <transcriptions>
-                  <!--- logging all transcriptions that are listed in transcriptions.xml file that match a witness slug-->
+                  <!-\-\- logging all transcriptions that are listed in transcriptions.xml file that match a witness slug-\->
                   <xsl:for-each select="$nonTranslationTranscriptions">
                     <xsl:if test="./@isTranscriptionOf=$wit-slug">
                       <xsl:variable name="transcription-text-path2" select="concat($textfilesdir, $fs, '/', .)"/>
                       <transcription hash="{./@hash}" name="{./@name}" canonical="{./@canonical}" type="{./@type}" transcription-text-path="{$transcription-text-path2}" hasSuccessor="{./@hasSuccessor}"/>
                     </xsl:if>
                   </xsl:for-each>
-                  <!-- checking for default transcriptions based on file names in repo and that are not listed in transcription file-->
+                  <!-\- checking for default transcriptions based on file names in repo and that are not listed in transcription file-\->
                   <xsl:if test="document($transcription-text-path) and not($nonTranslationTranscriptions//transcription[text()=concat($wit-slug, '_', $fs, '.xml')])">
                     <transcription hash="head" name="transcription" canonical="true" type="diplomatic" transcription-text-path="{$transcription-text-path}"/>  
                   </xsl:if>
@@ -165,20 +239,20 @@
                 </xsl:for-each>
               </manifestation> 
             </xsl:for-each>
-            <!-- Note: here is a way of combining item witnesses with one or more default manifestations such a 'critical' manifestation -->
-            <!-- if a file without a prefix exist in directory, we assume this is a transcription of a manifestation called 'critical',
-            therefore a manifestation called critical is added to the overall list -->
+            <!-\- Note: here is a way of combining item witnesses with one or more default manifestations such a 'critical' manifestation -\->
+            <!-\- if a file without a prefix exist in directory, we assume this is a transcription of a manifestation called 'critical',
+            therefore a manifestation called critical is added to the overall list -\->
             <xsl:if test="document($text-path)">
               <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la">
                 <transcriptions>
-                  <!--- logging all transcriptions that are listed in transcriptions.xml file that match 'critical' slug -->
+                  <!-\-\- logging all transcriptions that are listed in transcriptions.xml file that match 'critical' slug -\->
                   <xsl:for-each select="$nonTranslationTranscriptions">
                     <xsl:if test="./@isTranscriptionOf='critical'">
                       <xsl:variable name="transcription-text-path2" select="concat($textfilesdir, $fs, '/', .)"/>
                       <transcription hash="{./@hash}" name="{./@name}" canonical="{./@canonical}" type="{./@type}" transcription-text-path="{$transcription-text-path2}" hasSuccessor="{./@hasSuccessor}"/>
                     </xsl:if>
                   </xsl:for-each>
-                  <!-- checking for default transcriptions based on file names in repo-->
+                  <!-\- checking for default transcriptions based on file names in repo-\->
                   <xsl:if test="document($text-path) and not($nonTranslationTranscriptions//transcription[text()=concat($fs, '.xml')])">
                     <transcription hash="head" name="transcription" canonical="true" type="critical" transcription-text-path="{$text-path}"/>  
                   </xsl:if>
@@ -198,7 +272,7 @@
                 </transcriptions>
               </manifestation>
             </xsl:for-each>
-          </manifestations>
+          </manifestations>-->
         </xsl:variable>
         
         
@@ -543,8 +617,6 @@
   <xsl:include href="structure_item_expressions.xsl"/>
   <xsl:include href="structure_item_manifestations.xsl"/>
   <xsl:include href="structure_item_transcriptions.xsl"/>
-  <xsl:include href="structure_item_translations.xsl"/>
-  <xsl:include href="structure_item_translation_transcriptions.xsl"/>
   <xsl:include href="structure_division_expressions.xsl"/>
   <xsl:include href="structure_division_manifestations.xsl"/>
   <xsl:include href="structure_division_transcriptions.xsl"/>
