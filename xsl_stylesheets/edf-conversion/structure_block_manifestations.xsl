@@ -43,6 +43,8 @@
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
+      <xsl:variable name="lang" select="./@lang"/>
+      
       <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
         <xsl:variable name="this-paragraph" select="."/>
         <!-- only creates paragraph resource if that paragraph has been assigned an id -->
@@ -86,6 +88,7 @@
           <xsl:with-param name="wit-title" select="$wit-title"/>
           <xsl:with-param name="transcriptions" select="$transcriptions"/>
           <xsl:with-param name="paragraph-surface" select="$paragraph-surface"/>
+          <xsl:with-param name="lang" select="$lang"/>
           <xsl:with-param name="pid" select="$pid"/>
           
           
@@ -117,6 +120,7 @@
     <xsl:param name="wit-slug"/>
     <xsl:param name="wit-title"/>
     <xsl:param name="transcriptions"/>
+    <xsl:param name="lang"/>
     <xsl:param name="paragraph-surface"/>
     <!-- p level params -->
     <xsl:param name="pid"/>
@@ -124,39 +128,25 @@
     
     
     <rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}">
-      <dc:title>Paragraph <xsl:value-of select="$pid"/></dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
-      <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
+      <!-- BEGIN global properties -->
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title">Paragraph <xsl:value-of select="$pid"/></xsl:with-param>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="concat($pid, '/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END global properties -->
       
-      <sctap:shortId><xsl:value-of select="concat($pid, '/', $wit-slug)"/></sctap:shortId>
-      
-      
-      <xsl:choose>
-        <xsl:when test="./@type='translation'">
-          <rdf:type rdf:resource="http://scta.info/resource/translation"/>
-          <sctap:isPartOfTopLevelTranslation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-          <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$pid}"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
-          <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-          <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$pid}"/>
-        </xsl:otherwise>
-      </xsl:choose>
-      
-      <xsl:for-each select="$transcriptions//transcription">
-        <xsl:if test="document(./@transcription-text-path)">
-          <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/{./@name}"/>
-          <xsl:if test="./@canonical eq 'true'">
-            <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/{./@name}"/>
-          </xsl:if>
-        </xsl:if>
-      </xsl:for-each>
-      
+      <!-- BEGIN manifestation properties -->
+      <xsl:call-template name="manifestation_properties">
+        <xsl:with-param name="lang" select="$lang"/>
+        <xsl:with-param name="topLevelShortId" select="concat($cid, '/', $wit-slug)"/>
+        <xsl:with-param name="isManifestationOfShortId" select="$pid"/>
+        <xsl:with-param name="shortId" select="concat($pid, '/', $wit-slug)"/>
+        <xsl:with-param name="transcriptions" select="$transcriptions"/>
+        <xsl:with-param name="structureType">structureBlock</xsl:with-param>
+      </xsl:call-template>
       <sctap:hasSurface rdf:resource="{$paragraph-surface}"/>
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$pid}/{$wit-slug}"/>
+      
       <!-- create hasMarginalNote assertion-->
       <xsl:for-each select=".//tei:note[@type='marginal-note']">
         <xsl:variable name="marginal-note-id">
@@ -176,6 +166,14 @@
         <xsl:variable name="this-quote-id" select="./@xml:id"/>
         <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$this-quote-id}/{$wit-slug}"/>
       </xsl:for-each>
+      
+      <!-- END manifestation properties -->
+      
+      
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
+      <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
+      
+      
     </rdf:Description>
   </xsl:template>
 </xsl:stylesheet>

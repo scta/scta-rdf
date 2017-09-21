@@ -100,23 +100,35 @@
     <xsl:param name="surfaces"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$fs}/{$wit-slug}">
-      <dc:title><xsl:value-of select="$title"/> [<xsl:value-of select="$wit-title"/>]</dc:title>
-      <dc:language><xsl:value-of select="$lang"/></dc:language>
-      <role:AUT rdf:resource="{$author-uri}"/>
-      <xsl:choose>
-        <xsl:when test="./@type='translation'">
-          <rdf:type rdf:resource="http://scta.info/resource/translation"/>
-          <sctap:isPartOfTopLevelTranslation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-          <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$fs}"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
-          <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-          <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$fs}"/>
-        </xsl:otherwise>
-      </xsl:choose>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      <!-- BEGIN global properties -->
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title"><xsl:value-of select="$title"/> [<xsl:value-of select="$wit-title"/>]</xsl:with-param>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="concat($fs, '/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END global properties -->
       
+      <!-- BEGIN manifestation properties -->
+      <xsl:call-template name="manifestation_properties">
+        <xsl:with-param name="lang" select="$lang"/>
+        <xsl:with-param name="topLevelShortId" select="concat($cid, '/', $wit-slug)"/>
+        <xsl:with-param name="isManifestationOfShortId" select="$fs"/>
+        <xsl:with-param name="shortId" select="concat($fs, '/', $wit-slug)"/>
+        <xsl:with-param name="transcriptions" select="$transcriptions"/>
+        <xsl:with-param name="structureType">structureItem</xsl:with-param>
+      </xsl:call-template>
+      <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
+      <xsl:for-each select="$surfaces">
+        <xsl:variable name="folionumber" select="./text()"/>
+        <!-- TODO: change here could cause break in IIIF range creation; make adjustments and then remove this comment once everything is working again -->
+        <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folionumber)"/>
+        <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
+      </xsl:for-each>
+      <!-- END manifestation properties -->
+      
+      
+      <role:AUT rdf:resource="{$author-uri}"/>
+      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
       <!-- TODO: conditional should eventually be removed -->
       <xsl:choose>
         <xsl:when test="$item-level eq 2">
@@ -126,41 +138,6 @@
           <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}/{$wit-slug}"/>	
         </xsl:otherwise>
       </xsl:choose>
-      <sctap:shortId><xsl:value-of select="concat($fs, '/', $wit-slug)"/></sctap:shortId>
-      <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
-      <xsl:for-each select="$surfaces">
-        <xsl:variable name="folionumber" select="./text()"/>
-        <!-- TODO: change here could cause break in IIIF range creation; make adjustments and then remove this comment once everything is working again -->
-        <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folionumber)"/>
-        <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
-        <!-- <xsl:choose>
-                <xsl:when test="./@canvasslug">
-                  <xsl:variable name="canvas-slug" select="./@canvasslug"></xsl:variable>
-                  <xsl:variable name="canvasid" select="concat($canvasBase, $canvas-slug)"></xsl:variable>
-                  <sctap:isOnCanvas rdf:resource="{$canvasid}"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:variable name="canvas-slug" select="concat($wit-initial, $folionumber)"></xsl:variable>
-                  <sctap:isOnCanvas rdf:resource="http://scta.info/iiif/{$iiif-ms-name}/canvas/{$canvas-slug}"/>
-                </xsl:otherwise>
-              </xsl:choose> -->
-      </xsl:for-each>
-      
-      
-      
-      <xsl:for-each select="$transcriptions//transcription">
-        <xsl:if test="document(./@transcription-text-path)">
-          <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/{./@name}"/>
-          <xsl:if test="./@canonical eq 'true'">
-            <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/{./@name}"/>
-          </xsl:if>
-        </xsl:if>
-      </xsl:for-each>
-      <!-- could include isPartOf to manuscript identifier
-               could also inclue folio numbers if these are included in main project file -->
-      
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}/{$wit-slug}"/>
     </rdf:Description>
     
   </xsl:template>

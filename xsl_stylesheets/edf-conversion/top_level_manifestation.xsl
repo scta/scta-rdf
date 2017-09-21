@@ -25,10 +25,10 @@
       <!-- TODO: this info probably needs to come from somewhere else; each manifestation will have different transcriptions and different number available -->
       <xsl:variable name="transcriptions">
         <transcriptions>
-          <transcription name="transcription"/>
+          <transcription name="transcription" canonical="true"/>
         </transcriptions>
       </xsl:variable>
-      <xsl:variable name="canonical-transcription-name">transcription</xsl:variable>
+      <!--<xsl:variable name="canonical-transcription-name">transcription</xsl:variable>-->
       <xsl:call-template name="top_level_manifestation_entry">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
@@ -37,7 +37,7 @@
         <xsl:with-param name="wit-canvasbase" select="$wit-canvasbase"/>
         <xsl:with-param name="wit-slug" select="$wit-slug"/>
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
-        <xsl:with-param name="canonical-transcription-name" select="$canonical-transcription-name"/>
+        
       </xsl:call-template>
       <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
       <xsl:call-template name="top_level_manifestation_entry">
@@ -48,7 +48,7 @@
         <xsl:with-param name="wit-canvasbase"></xsl:with-param>
         <xsl:with-param name="wit-slug">critical</xsl:with-param>
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
-        <xsl:with-param name="canonical-transcription-name" select="$canonical-transcription-name"/>
+        
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -60,25 +60,36 @@
     <xsl:param name="wit-canvasbase"/>
     <xsl:param name="wit-slug"/>
     <xsl:param name="transcriptions"/>
-    <xsl:param name="canonical-transcription-name"/>
+    <!--<xsl:param name="canonical-transcription-name"/>-->
     
     <rdf:Description rdf:about="http://scta.info/resource/{$cid}/{$wit-slug}">
-      <dc:title><xsl:value-of select="$wit-title"/></dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+      <!-- BEGIN global properties -->
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title"><xsl:value-of select="$wit-title"/></xsl:with-param>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="concat($cid, '/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END global properties -->
+      
+      <!-- BEGIN manifestation properties -->
+      <xsl:call-template name="manifestation_properties">
+        <!--<xsl:with-param name="lang" select="$lang"/>-->
+        <xsl:with-param name="isManifestationOfShortId" select="$cid"/>
+        <xsl:with-param name="shortId" select="concat($cid, '/', $wit-slug)"/>
+        <xsl:with-param name="transcriptions" select="$transcriptions"/>
+        <xsl:with-param name="structureType">structureCollection</xsl:with-param>
+      </xsl:call-template>
+      <!-- END manifstation properties -->
+      
       <role:AUT rdf:resource="{$author-uri}"/>
       <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
       <sctap:level>1</sctap:level>
       <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
-      <sctap:shortId><xsl:value-of select="concat($cid, '/', $wit-slug)"/></sctap:shortId>
+      
       <xsl:if test="./manifestOfficial">
         <xsl:variable name="wit-manifestofficial"><xsl:value-of select="./manifestOfficial"/></xsl:variable>
         <sctap:manifestOfficial><xsl:value-of select="$wit-manifestofficial"></xsl:value-of></sctap:manifestOfficial>
       </xsl:if>
-      <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$cid}"/>
-      <xsl:for-each select="$transcriptions//transcription">
-        <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/{./@name}"/>  
-      </xsl:for-each>
-      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/{$canonical-transcription-name}"/>
       
       <!-- Identify direct child parts -->
       <xsl:for-each select="//div[@id='body']/div">
@@ -98,8 +109,7 @@
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
       </xsl:for-each>
       
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}/{$wit-slug}"/>
+      
     </rdf:Description>
     
   </xsl:template>

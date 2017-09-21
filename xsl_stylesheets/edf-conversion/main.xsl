@@ -636,6 +636,7 @@
   
   <xsl:include href="global_properties.xsl"/>
   <xsl:include href="expression_properties.xsl"/>
+  <xsl:include href="manifestation_properties.xsl"/>
   
   <xsl:include href="structure_collection_properties.xsl"/>
   <xsl:include href="structure_item_properties.xsl"/>

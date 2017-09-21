@@ -44,6 +44,7 @@
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="surfaces" select=".//folio"/>
       <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
+      <xsl:variable name="lang" select="./@lang"/>
       
       <xsl:for-each select="document($transcription-text-path)//tei:body/tei:div//tei:div">
         <!-- only creates division resource if that division has been assigned an id -->
@@ -75,6 +76,7 @@
             <xsl:with-param name="wit-title" select="$wit-title"/>
             <xsl:with-param name="transcriptions" select="$transcriptions"/>
             <xsl:with-param name="surfaces" select="$surfaces"/>
+            <xsl:with-param name="lang" select="$lang"/>
             <!-- div level params -->
             <xsl:with-param name="divisionId" select="$divisionId"/>
             <xsl:with-param name="divisionId_ref" select="$divisionId_ref"/>
@@ -106,41 +108,35 @@
     <xsl:param name="wit-slug"/>
     <xsl:param name="wit-title"/>
     <xsl:param name="transcriptions"/>
+    <xsl:param name="lang"/>
     <xsl:param name="surfaces"/>
     <!-- div level params -->
     <xsl:param name="divisionId"/>
     <xsl:param name="divisionId_ref"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}">
-      <dc:title>Division <xsl:value-of select="$divisionId"/></dc:title>
+      <!-- BEGIN global properties -->
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title">Division <xsl:value-of select="$divisionId"/></xsl:with-param>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="concat($divisionId, '/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END global properties -->
+      
+      <!-- BEGIN manifestation properties -->
+      <xsl:call-template name="manifestation_properties">
+        <xsl:with-param name="lang" select="$lang"/>
+        <xsl:with-param name="topLevelShortId" select="concat($cid, '/', $wit-slug)"/>
+        <xsl:with-param name="isManifestationOfShortId" select="$divisionId"/>
+        <xsl:with-param name="shortId" select="concat($divisionId, '/', $wit-slug)"/>
+        <xsl:with-param name="transcriptions" select="$transcriptions"/>
+        <xsl:with-param name="structureType">structureDivision</xsl:with-param>
+      </xsl:call-template>
+      <!-- END manifestation properties -->
       
       <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
       <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-      <sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug)"/></sctap:shortId>
-      
-      <xsl:choose>
-        <xsl:when test="./@type='translation'">
-          <rdf:type rdf:resource="http://scta.info/resource/translation"/>
-          <sctap:isPartOfTopLevelTranslationn rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-          <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
-          <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-          <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$divisionId}"/>
-        </xsl:otherwise>
-      </xsl:choose>
-      
-      <xsl:for-each select="$transcriptions//transcription">
-        <xsl:if test="document(./@transcription-text-path)">
-          <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/{./@name}"/>
-          <xsl:if test="./@canonical eq 'true'">
-            <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}/{./@name}"/>
-          </xsl:if>
-        </xsl:if>
-      </xsl:for-each>
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionId}/{$wit-slug}"/>
+    
     </rdf:Description>
   </xsl:template>
 </xsl:stylesheet>

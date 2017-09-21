@@ -23,6 +23,7 @@
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
+      <xsl:variable name="lang" select="./@lang"/>
       
       <xsl:for-each select="document($transcription-text-path)//tei:body//tei:quote[@xml:id]">
         <xsl:variable name="this-quote-id" select="./@xml:id"/>
@@ -30,6 +31,7 @@
           <xsl:call-template name="structure_element_quote_manifestations_entry">
             <xsl:with-param name="cid" select="$cid"/>
             <xsl:with-param name="wit-slug" select="$wit-slug"/>
+            <xsl:with-param name="lang" select="$lang"/>
             <xsl:with-param name="pid" select="$pid"/>
             <xsl:with-param name="this-quote-id" select="$this-quote-id"/>
           </xsl:call-template>
@@ -40,29 +42,38 @@
   <xsl:template name="structure_element_quote_manifestations_entry">
     <xsl:param name="cid"/>
     <xsl:param name="wit-slug"/>
+    <xsl:param name="lang"/>
     <!-- p level params -->
     <xsl:param name="pid"/>
     <xsl:param name="this-quote-id"/>
       <rdf:Description rdf:about="http://scta.info/resource/{$this-quote-id}/{$wit-slug}">
-        <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+        
+        <!-- BEGIN global properties -->
+        <xsl:call-template name="global_properties">
+          <xsl:with-param name="title">Quotation <xsl:value-of select="$this-quote-id"/></xsl:with-param>
+          <xsl:with-param name="description"/>
+          <xsl:with-param name="shortId" select="concat($this-quote-id, '/', $wit-slug)"/>
+        </xsl:call-template>
+        <!-- END global properties -->
+        
+        <!-- BEGIN manifestation properties -->
+        <xsl:call-template name="manifestation_properties">
+          <xsl:with-param name="lang" select="$lang"/>
+          <xsl:with-param name="topLevelShortId" select="concat($cid, '/', $wit-slug)"/>
+          <xsl:with-param name="isManifestationOfShortId" select="$this-quote-id"/>
+          <xsl:with-param name="shortId" select="concat($this-quote-id, '/', $wit-slug)"/>
+          <!-- uncomment when ready to add transcription resources <xsl:with-param name="transcriptions" select="$transcriptions"/>-->
+          <xsl:with-param name="structureType">structureDivision</xsl:with-param>
+        </xsl:call-template>
+        <!-- END manifestation properties -->
+        
         <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
         <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
         <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
         <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}"/>
-        <sctap:shortId><xsl:value-of select="concat($this-quote-id, '/', $wit-slug)"/></sctap:shortId>
         
-        <xsl:choose>
-          <xsl:when test="./@type='translation'">
-            <rdf:type rdf:resource="http://scta.info/resource/translation"/>
-            <sctap:isPartOfTopLevelTranslation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-            <sctap:isTranslationOf rdf:resource="http://scta.info/resource/{$this-quote-id}"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
-            <sctap:isPartOfTopLevelManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-            <sctap:isManifestationOf rdf:resource="http://scta.info/resource/{$this-quote-id}"/>
-          </xsl:otherwise>
-        </xsl:choose>
+        
+        
       </rdf:Description>
     
     
