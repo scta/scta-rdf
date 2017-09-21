@@ -13,6 +13,8 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
+  
+  
   <xsl:template name="structure_division_expressions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
@@ -60,7 +62,7 @@
           </xsl:choose> 
         </xsl:variable> 
         
-        <xsl:variable name="divisionExpressionType">
+        <xsl:variable name="expressionType">
           <xsl:choose>
             <xsl:when test="./@type">
               <xsl:value-of select="./@type"/>
@@ -89,7 +91,7 @@
           <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
           <xsl:with-param name="divisionID" select="$divisionID"/>
-          <xsl:with-param name="divisionExpressionType" select="$divisionExpressionType"/>
+          
           <xsl:with-param name="info-path" select="$info-path"/>
           
         </xsl:call-template>
@@ -122,17 +124,34 @@
     
       
       <rdf:Description rdf:about="http://scta.info/resource/{$divisionID}">
-        <!-- title xpath is set to ./head[1] to ensure that it grabs the first head and not any subtitles -->
-        <dc:title><xsl:value-of select="./tei:head[1]"/></dc:title>
-        <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+        <!-- BEGIN global properties -->
+        <xsl:call-template name="global_properties">
+          <!-- title xpath is set to ./head[1] to ensure that it grabs the first head and not any subtitles -->
+          <xsl:with-param name="title" select="./tei:head[1]"/>
+          <xsl:with-param name="description"/>
+          <xsl:with-param name="shortId" select="$divisionID"/>
+        </xsl:call-template>
+        <!-- END global properties -->
+        
+<!-- BEGIN expression properties -->
+        <xsl:call-template name="expression_properties">
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="structureType">structureDivision</xsl:with-param>
+          <xsl:with-param name="topLevelShortId" select="$cid"/>
+          <xsl:with-param name="shortId" select="$divisionID"/>
+        </xsl:call-template>
+<!-- END expression properties -->
+<!-- BEGIN structure type properties -->
+        <xsl:call-template name="structure_division_properties"/>
+<!-- END structure type properties -->
         <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$fs}"/>
-        
-        <sctap:expressionType rdf:resource="http://scta.info/resource/{$divisionExpressionType}"/>
         <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
-        <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
-        <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
         
-        <sctap:shortId><xsl:value-of select="$divisionID"/></sctap:shortId>
+        
+        
+        
+        
         
         <!-- TODO: decide if dts is desired
     					<xsl:variable name="div-urn" select="$div-number"/>
@@ -223,7 +242,7 @@
         </xsl:for-each>-->
         
         
-        <xsl:for-each select="$manifestations//manifestation">
+        <!--<xsl:for-each select="$manifestations//manifestation">
           <xsl:choose>
             <xsl:when test="./@type='translation'">
               <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$divisionID}/{./@wit-slug}"/>
@@ -233,11 +252,10 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:for-each>
-        <!-- create canonicalManifestation and Transcriptions references for structureType=structureDivision -->
-        <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$canonical-manifestation-id}"/>
+        <!-\- create canonicalManifestation and Transcriptions references for structureType=structureDivision -\->
+        <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$canonical-manifestation-id}"/>-->
         
-        <!-- create ldn inbox -->
-        <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionID}"/>
+        
         
       </rdf:Description>
     

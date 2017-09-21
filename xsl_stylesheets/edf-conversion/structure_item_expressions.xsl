@@ -13,7 +13,8 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
-  <xsl:import href="expression_properties.xsl"/>
+  
+  
   <xsl:template name="structure_item_expressions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
@@ -80,163 +81,125 @@
     
     
     <rdf:Description rdf:about="http://scta.info/resource/{$fs}">
-      <!-- global properties -->
-      <dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
-      
-      <!-- BEGIN text global properties -->
-      
-      <!-- TODO; condition should be removed with <div id=body> is changed to <div id=commentaryid> -->
-      <xsl:choose>
-        <xsl:when test="$item-level eq 2">
-          <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
-        </xsl:otherwise>
-      </xsl:choose>
-      <!-- END text global properties -->
-      
-      <!-- expression properties -->
-      <!--<rdf:type rdf:resource="http://scta.info/resource/expression"/>-->
-      <xsl:call-template name="expression_properties"/>
-      <!-- end expression properties -->
-      
-      <!-- structureItem properties -->
-      
-      <!-- misc properites-->
-      
-      <role:AUT rdf:resource="{$author-uri}"/>
-      
-      <!-- record editors -->
-      <!-- editors at the expression level doesn't seem accurate -->
-      <!--<xsl:for-each select="document($extraction-file)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
-        <sctap:editedBy><xsl:value-of select="."/></sctap:editedBy>
-      </xsl:for-each>-->
-      
-      <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
-      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
-      <sctap:shortId><xsl:value-of select="$fs"/></sctap:shortId>
-      <sctap:level><xsl:value-of select="$item-level"/></sctap:level>
-      
-      <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>
-      <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '0000')"/></sctap:totalOrderNumber>
-      
-      <xsl:if test="./following::item[1]">
-        <xsl:variable name="next-item" select="./following::item[1]/fileName/@filestem"></xsl:variable>
-        <sctap:next rdf:resource="http://scta.info/resource/{$next-item}"/>
-      </xsl:if>
-      <xsl:if test="./preceding::item[1]">
-        <xsl:variable name="previous-item" select="./preceding::item[1]/fileName/@filestem"></xsl:variable>
-        <sctap:previous rdf:resource="http://scta.info/resource/{$previous-item}"/>
-      </xsl:if>
-      
-      <!-- TODO: consider adding questionTitle attribute to higher level divs as well -->
-      <xsl:if test="./questionTitle">
-        <sctap:questionTitle><xsl:value-of select="./questionTitle"></xsl:value-of></sctap:questionTitle>
-      </xsl:if>
-      
-      <!-- TODO review wither a dtsurn is desired 
-    			<sctap:dtsurn><xsl:value-of select="$item-dtsurn"/></sctap:dtsurn>
-    			-->
-      
-      <!-- record git repo -->
-      <xsl:choose>
-        <xsl:when test="$gitRepoStyle = 'toplevel'">
-          <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $cid)"/></sctap:gitRepository>
-        </xsl:when>
-        <xsl:otherwise>
-          <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $fs)"/></sctap:gitRepository>
-        </xsl:otherwise>
-      </xsl:choose>
+<!-- BEGIN global properties -->
+        <xsl:call-template name="global_properties">
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="description"/>
+          <xsl:with-param name="shortId" select="$fs"/>
+        </xsl:call-template>
+<!-- END global properties -->
       
       
-      <!-- BEGIN record status -->
-      <xsl:choose>
-        <xsl:when test="document($extraction-file)//tei:revisionDesc/@status">
-          <sctap:status><xsl:value-of select="document($extraction-file)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
-        </xsl:when>
-        <xsl:when test="document($extraction-file)">
-          <sctap:status>In Progress</sctap:status>
-        </xsl:when>
-        <xsl:otherwise>
-          <sctap:status>Not Started</sctap:status>
-        </xsl:otherwise>
-      </xsl:choose>
-      <!-- END record status -->
-      
-      <!-- BEGIN identify strcutreBlock expressions contained by structureItem -->
-      <xsl:for-each select="document($extraction-file)//tei:body//tei:p">
-        <xsl:if test="./@xml:id">
-          <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{@xml:id}"/>
-        </xsl:if>
-      </xsl:for-each>
-      <!-- END record paragraph per item -->
-      
-      <!-- BEGIN identifying all child structureDivision expressions contained by structureItem -->
-      <xsl:for-each select="document($extraction-file)//tei:body/tei:div/tei:div">
-        <xsl:variable name="divisionID">
-          <xsl:choose>
-            <xsl:when test="./@xml:id">
-              <xsl:value-of select="./@xml:id"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <!-- TODO: this block will be used again; best to refactor and create as a separate function -->
-              <xsl:variable name="totalDivs" select="count(document($extraction-file)//tei:body/tei:div//tei:div)"/>
-              <xsl:variable name="totalFollowingDivs" select="count(.//following::tei:div)"></xsl:variable>
-              <xsl:variable name="divId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalDivs - $totalFollowingDivs)"/>
-              <xsl:value-of select="concat('div-', $divId)"/>
-            </xsl:otherwise>
-          </xsl:choose> 
-        </xsl:variable>
-        <dcterms:hasPart rdf:resource="http://scta.info/resource/{$divisionID}"/>
-        <!-- below is replaced by hasPart which is the correct way to walk down the tree from top level collection to lowest block element -->
-        <!-- TODO: this should be deleted in light of above hasPart replacement <sctap:hasStructureDivision rdf:resource="http://scta.info/resource/{$divisionID}"/> -->
-        
-      </xsl:for-each>
-      <!-- END structureDivision identifications -->
-      
-      <!-- ============OLD WAY that required different loops for listed manifestations and default critical =========== -->
-      <!-- get manifestation for critical edition -->
-      <!-- TODO review hard coding of prefix for critical manifestation -->
-      <!--<xsl:if test="document($text-path)">
-      
-        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$fs}/critical"/>
-      </xsl:if>
-      <xsl:for-each select="$itemWitnesses">
-        <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
-        <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
-        <xsl:variable name="transcription-text-path" select="concat($textfilesdir, $fs, '/', $wit-slug, '_', $fs, '.xml')"/>
-        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-      </xsl:for-each>-->
-      <!-- ============NEW WAY, once confirmed above can be deleted -->
-      <xsl:for-each select="$manifestations//manifestation">
+<!-- BEGIN text global properties -->
+        <!-- TODO; condition should be removed with <div id=body> is changed to <div id=commentaryid> -->
+        <role:AUT rdf:resource="{$author-uri}"/>
+        <!-- record editors -->
+        <!-- editors at the expression level doesn't seem accurate -->
+        <!--<xsl:for-each select="document($extraction-file)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
+          <sctap:editedBy><xsl:value-of select="."/></sctap:editedBy>
+        </xsl:for-each>-->
         <xsl:choose>
-          <!-- all manifestations are being treated the same
-            so no type 'translation is set'
-            TODO: if we wanted translations recorded as "hasTranslation" than the type attribute should be set, 
-            but right now I think they should be treated the same and this conditional can be deleted in all expression 
-            creation files -->
-            
-          <xsl:when test="./@type='translation'">
-            <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$fs}/{./@wit-slug}"/>
+          <xsl:when test="$item-level eq 2">
+            <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}"/>
           </xsl:when>
           <xsl:otherwise>
-            <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$fs}/{./@wit-slug}"/>
+            <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
           </xsl:otherwise>
         </xsl:choose>
-      </xsl:for-each>
-      <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$fs}/{$canonical-manifestation-id}"/>
+<!-- END text global properties -->
       
-      <!-- Identify Canonical Manifestation and canonical for Expression at the structureItem level -->
-      <!--TODO: it is not ideal to ripping this information from the file path; it would be better if the projectdata file or transcription.xml file indicated this information -->
+<!-- BEGIN expression properties -->
+        <xsl:call-template name="expression_properties">
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="structureType">structureItem</xsl:with-param>
+          <xsl:with-param name="topLevelShortId" select="$cid"/>
+          <xsl:with-param name="shortId" select="$fs"/>
+        </xsl:call-template>
+<!-- END expression properties -->
+      
+<!-- BEGIN structureItem properties -->
+        <xsl:call-template name="structure_item_properties"/>
+        
+        <!-- BEGIN identify strcutreBlock expressions contained by structureItem -->
+          <xsl:for-each select="document($extraction-file)//tei:body//tei:p">
+            <xsl:if test="./@xml:id">
+              <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{@xml:id}"/>
+            </xsl:if>
+          </xsl:for-each>
+        <!-- END record paragraph per item -->
+        
+        
+      
+      <!-- record git repo -->
+        <xsl:choose>
+          <xsl:when test="$gitRepoStyle = 'toplevel'">
+            <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $cid)"/></sctap:gitRepository>
+          </xsl:when>
+          <xsl:otherwise>
+            <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $fs)"/></sctap:gitRepository>
+          </xsl:otherwise>
+        </xsl:choose>
+<!-- END structureItem properties -->
+      
+      <!-- BEGIN misc properties-->
+        <sctap:level><xsl:value-of select="$item-level"/></sctap:level>
+        <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>
+        <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '0000')"/></sctap:totalOrderNumber>
+        
+        <xsl:if test="./following::item[1]">
+          <xsl:variable name="next-item" select="./following::item[1]/fileName/@filestem"></xsl:variable>
+          <sctap:next rdf:resource="http://scta.info/resource/{$next-item}"/>
+        </xsl:if>
+        <xsl:if test="./preceding::item[1]">
+          <xsl:variable name="previous-item" select="./preceding::item[1]/fileName/@filestem"></xsl:variable>
+          <sctap:previous rdf:resource="http://scta.info/resource/{$previous-item}"/>
+        </xsl:if>
+        <!-- TODO: consider adding questionTitle attribute to higher level divs as well -->
+        <xsl:if test="./questionTitle">
+          <sctap:questionTitle><xsl:value-of select="./questionTitle"></xsl:value-of></sctap:questionTitle>
+        </xsl:if>
+        
+        <!-- BEGIN record status -->
+        <!-- TODO: not sure this applies to expression; sounds like it better applies to transcriptions -->
+        <xsl:choose>
+          <xsl:when test="document($extraction-file)//tei:revisionDesc/@status">
+            <sctap:status><xsl:value-of select="document($extraction-file)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
+          </xsl:when>
+          <xsl:when test="document($extraction-file)">
+            <sctap:status>In Progress</sctap:status>
+          </xsl:when>
+          <xsl:otherwise>
+            <sctap:status>Not Started</sctap:status>
+          </xsl:otherwise>
+        </xsl:choose>
+        <!-- END record status -->
+        
+        <!-- BEGIN identifying all child structureDivision expressions contained by structureItem -->
+        <xsl:for-each select="document($extraction-file)//tei:body/tei:div/tei:div">
+          <xsl:variable name="divisionID">
+            <xsl:choose>
+              <xsl:when test="./@xml:id">
+                <xsl:value-of select="./@xml:id"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <!-- TODO: this block will be used again; best to refactor and create as a separate function -->
+                <xsl:variable name="totalDivs" select="count(document($extraction-file)//tei:body/tei:div//tei:div)"/>
+                <xsl:variable name="totalFollowingDivs" select="count(.//following::tei:div)"></xsl:variable>
+                <xsl:variable name="divId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-', $totalDivs - $totalFollowingDivs)"/>
+                <xsl:value-of select="concat('div-', $divId)"/>
+              </xsl:otherwise>
+            </xsl:choose> 
+          </xsl:variable>
+          <dcterms:hasPart rdf:resource="http://scta.info/resource/{$divisionID}"/>
+          <!-- below is replaced by hasPart which is the correct way to walk down the tree from top level collection to lowest block element -->
+          <!-- TODO: this should be deleted in light of above hasPart replacement <sctap:hasStructureDivision rdf:resource="http://scta.info/resource/{$divisionID}"/> -->
+          
+        </xsl:for-each>
+        <!-- END structureDivision identifications -->
+      <!-- END misc properties -->
       
       
-      <!-- TODO: add link to first level structureType division found in the tei document; 
-    			this level of div is captured by the following expath in the LombardPress schema //tei:body/tei:div/tei:div -->
-      
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$fs}"/>
     </rdf:Description>
     
   </xsl:template>

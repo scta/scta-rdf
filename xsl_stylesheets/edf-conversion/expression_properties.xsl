@@ -14,7 +14,39 @@
   version="2.0">
   
   <xsl:template name="expression_properties">
+    <xsl:param name="expressionType"/>
+    <xsl:param name="expressionSubType"/>
+    <xsl:param name="manifestations"/>
+    <xsl:param name="structureType"/>
+    <xsl:param name="topLevelShortId"/>
+    <xsl:param name="shortId"/>
+    
     <rdf:type rdf:resource="http://scta.info/resource/expression"/>
+    
+    <xsl:if test="$topLevelShortId">
+      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$topLevelShortId}"/>
+    </xsl:if>
+    
+    <xsl:if test="$expressionType">
+      <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
+    </xsl:if>
+    <xsl:if test="$expressionSubType">
+      <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionSubType}"/>
+    </xsl:if>
+    
+    <xsl:choose>
+      <xsl:when test="$structureType='structureCollection'"/>
+      <xsl:otherwise>
+        <xsl:for-each select="$manifestations//manifestation">
+          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$shortId}/{./@wit-slug}"/>
+          <xsl:if test="./@canonical='true'">
+            <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$shortId}/{./@wit-slug}"/>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+    
   </xsl:template>
   
 </xsl:stylesheet>

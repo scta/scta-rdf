@@ -25,22 +25,62 @@
     <xsl:param name="dtsurn"/>
     <xsl:param name="canoncial-top-level-manifestation"/>
     
+    <xsl:variable name="expressionType">
+      <xsl:choose>
+        <xsl:when test="$parentWorkGroup eq 'http://scta.info/resource/deanima'">
+          <sctap:expressionType rdf:resource="http://scta.info/resource/deanima-commentary"/>
+        </xsl:when>
+        <xsl:when test="$parentWorkGroup eq 'http://scta.info/resource/sententia'">
+          <sctap:expressionType rdf:resource="http://scta.info/resource/sentences-commentary"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <sctap:expressionType rdf:resource="http://scta.info/resource/text"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    
     <rdf:Description rdf:about="http://scta.info/resource/{$cid}">
-    <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-    <dc:title><xsl:value-of select="$commentaryname"/></dc:title>
+      <!-- BEGIN global properties -->
+        <xsl:call-template name="global_properties">
+          <xsl:with-param name="title" select="$commentaryname"/>
+          <xsl:with-param name="description" select="$description"/>
+          <xsl:with-param name="shortId" select="$cid"/>
+        </xsl:call-template>
+      <!-- END global properties -->
+      
+      <!-- BEGIN expression properties -->
+      <xsl:call-template name="expression_properties">
+        <xsl:with-param name="expressionType" select="$expressionType"/>
+        <xsl:with-param name="structureType">structureCollection</xsl:with-param>
+        <xsl:with-param name="shortId" select="$cid"/>
+        
+      </xsl:call-template>
+      
+      <!-- TODO: this should be moved into expression properties template -->
+        <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+          <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+        </xsl:for-each>
+        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+        <xsl:choose> 
+          <xsl:when test="$canoncial-top-level-manifestation">
+          </xsl:when>
+          <xsl:otherwise>
+            <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      
+      <!-- END expression properties -->
+      
+      <!-- BEGIN structure collection properties -->
+        <xsl:call-template name="structure_collection_properties"/>
+      <!-- END structure collection properties -->
+    
+      
     <!-- TODO: parent of expresion should be WORK, not WorkGroup -->
     <dcterms:isPartOf rdf:resource="{$parentWorkGroup}"/>
     <role:AUT rdf:resource="{$author-uri}"/>
-    <!-- log description -->
-    <xsl:choose>
-      <xsl:when test="$description">
-        <dc:description><xsl:value-of select="$description"/></dc:description>
-      </xsl:when>
-      <xsl:otherwise>
-        <dc:description>No Description Available</dc:description>
-      </xsl:otherwise>
-    </xsl:choose>
-    <!-- end log description -->
+   
     
     <sctap:slug><xsl:value-of select="$commentaryslug"/></sctap:slug>
     <sctap:shortId><xsl:value-of select="$cid"/></sctap:shortId>
@@ -50,21 +90,11 @@
     </xsl:if>
     <sctap:dtsurn><xsl:value-of select="$dtsurn"/></sctap:dtsurn>
     <sctap:level>1</sctap:level>
-    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    
     
     <!-- TODO: Project file headers should indicate expressionType; I'm hard coding to the SentencesCommentary for now;
     			but this means De Anima commentaries are going to be erroneously marked -->
-    <xsl:choose>
-      <xsl:when test="$parentWorkGroup eq 'http://scta.info/resource/deanima'">
-        <sctap:expressionType rdf:resource="http://scta.info/resource/deanima-commentary"/>
-      </xsl:when>
-      <xsl:when test="$parentWorkGroup eq 'http://scta.info/resource/sententia'">
-        <sctap:expressionType rdf:resource="http://scta.info/resource/sentences-commentary"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <sctap:expressionType rdf:resource="http://scta.info/resource/text"/>
-      </xsl:otherwise>
-    </xsl:choose>
+    
     
     
     <!--Log any sponsors of this top level expression -->
@@ -100,21 +130,9 @@
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
     </xsl:for-each>
     
-    <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
-      <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
-      <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
-    </xsl:for-each>
-    <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
-    <xsl:choose>
-      <xsl:when test="$canoncial-top-level-manifestation">
-      </xsl:when>
-      <xsl:otherwise>
-        <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
-      </xsl:otherwise>
-    </xsl:choose>
     
-    <!-- create ldn inbox -->
-    <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$cid}"/>
+    
+    
   </rdf:Description>
   </xsl:template>
 </xsl:stylesheet>

@@ -37,7 +37,7 @@
   <xsl:variable name="dtsurn"><xsl:value-of select="concat('urn:dts:latinLit:sentences', '.', $cid)"/></xsl:variable>
   
   <xsl:variable name="sponsors" select="//header/sponsors"/>
-  <xsl:variable name="description" select="//header/description"/>
+  <xsl:variable name="description" select="if (//header/description) then //header/description else 'No Description Available'"/>
   <xsl:variable name="canoncial-top-level-manifestation" select="//header/canonical-top-level-manifestation"/>
   
   <xsl:variable name="parentWorkGroup">
@@ -89,6 +89,7 @@
       <xsl:call-template name="structure_collection_expressions">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
+        <xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>
       </xsl:call-template>
       <xsl:call-template name="structure_collection_manifestations">
         <xsl:with-param name="cid" select="$cid"/>
@@ -146,16 +147,18 @@
               <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
               <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
               <xsl:variable name="wit-title"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/title"/></xsl:variable>
-              <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la">
+              
+              <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la" canonical="{$wit-slug eq $canonical-manifestation-id}">
                 <xsl:for-each select="./folio">
                   <folio><xsl:value-of select="."/></folio>
                 </xsl:for-each>
               </manifestation>
             </xsl:for-each>
-            <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la"/>
+            
+            <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la" canonical="{$canonical-manifestation-id eq 'critical'}"/>
             <xsl:for-each select="$translationManifestations">
               <xsl:variable name="translationManifestationSlug" select="./@name"/>
-              <manifestation wit-slug="{$translationManifestationSlug}" wit-title="{./@title}" type="translation" lang="{./@lang}"/>
+              <manifestation wit-slug="{$translationManifestationSlug}" wit-title="{./@title}" type="translation" lang="{./@lang}" canonical="false"/>
             </xsl:for-each>
           </manifestations>
         </xsl:variable>
@@ -163,7 +166,7 @@
         <xsl:variable name="manifestations">
           <manifestations>
           <xsl:for-each select="$possibleManifestations//manifestation">
-            <manifestation wit-ref="{./@wit-ref}" wit-slug="{./@wit-slug}" wit-title="{./@wit-title}" lang="{./@lang}">
+            <manifestation wit-ref="{./@wit-ref}" wit-slug="{./@wit-slug}" wit-title="{./@wit-title}" lang="{./@lang}" canonical="{./@canonical}">
               <xsl:variable name="wit-slug" select="./@wit-slug"/>
              <transcriptions>
                 <!--- logging all transcriptions that are listed in transcriptions.xml file that match a witness slug-->
@@ -629,6 +632,16 @@
   <xsl:include href="structure_element_ref_expressions.xsl"/>
   <xsl:include href="structure_element_quote_manifestations.xsl"/>
   <xsl:include href="zones.xsl"/>
+  
+  
+  <xsl:include href="global_properties.xsl"/>
+  <xsl:include href="expression_properties.xsl"/>
+  
+  <xsl:include href="structure_collection_properties.xsl"/>
+  <xsl:include href="structure_item_properties.xsl"/>
+  <xsl:include href="structure_division_properties.xsl"/>
+  <xsl:include href="structure_block_properties.xsl"/>
+  <xsl:include href="structure_element_properties.xsl"/>
   
   <!--<xsl:include href="expression_properties.xsl"/>-->
   

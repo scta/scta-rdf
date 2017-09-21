@@ -13,9 +13,12 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
+
+  
   <xsl:template name="structure_collection_expressions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
+    <xsl:param name="canoncial-top-level-manifestation"/>
     <!-- TODO: note if edf structured info the same ways sub divisions, 
       this template could be used for top level collections and specific top level scripts could be removed 
     for each would then change to /listofFileNames//div"
@@ -24,11 +27,12 @@
       <xsl:variable name="current-div" select="."/>
       <xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
       <xsl:variable name="title"><xsl:value-of select="./head"/></xsl:variable>
-      <xsl:variable name="expressionType"><xsl:value-of select="./@type"/></xsl:variable>
+      <xsl:variable name="expressionType" select="if (./@type) then ./@type else 'division'"/>
       <xsl:variable name="expressionSubType"><xsl:value-of select="./@subtype"/></xsl:variable>
       <xsl:variable name="parentExpression"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
       <xsl:variable name="divQuestionTitle"><xsl:value-of select="./questionTitle"/></xsl:variable>
       <xsl:variable name="current-div-level" select="count(ancestor::*)"/>
+      
       <xsl:call-template name="structure_collection_expressions_entry">
         <xsl:with-param name="author-uri" select="$author-uri"/>
         <xsl:with-param name="cid" select="$cid"/>
@@ -40,6 +44,7 @@
         <xsl:with-param name="parentExpression" select="$parentExpression"/>
         <xsl:with-param name="divQuestionTitle" select="$divQuestionTitle"/>
         <xsl:with-param name="current-div-level" select="$current-div-level"/>
+        <xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -54,33 +59,52 @@
     <xsl:param name="parentExpression"/>
     <xsl:param name="divQuestionTitle"/>
     <xsl:param name="current-div-level" />
+    <xsl:param name="canoncial-top-level-manifestation" />
+    
     <rdf:Description rdf:about="http://scta.info/resource/{$divid}">
+<!-- BEGIN global properties -->
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title" select="$title"/>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="$divid"/>
+      </xsl:call-template>
+<!-- END global properties -->
       
-      <dc:title><xsl:value-of select="$title"></xsl:value-of></dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-      <role:AUT rdf:resource="{$author-uri}"/>
+<!-- BEGIN expression properties -->
+      <xsl:call-template name="expression_properties">
+        <xsl:with-param name="expressionType" select="$expressionType"/>
+        <xsl:with-param name="expressionSubType" select="$expressionSubType"/>
+        <xsl:with-param name="structureType">structureCollection</xsl:with-param>
+        <xsl:with-param name="topLevelShortId" select="$cid"/>
+        <xsl:with-param name="shortId" select="$divid"/>
+      </xsl:call-template>
       
-      <sctap:questionTitle><xsl:value-of select="$divQuestionTitle"/></sctap:questionTitle>
-      
-      <!-- check if special expression type is given -->
-      <xsl:choose>
-        <xsl:when test="$expressionType">
-          <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
+      <!-- TODO: should be moved into expressions template  -->
+      <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+        <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+        <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
+        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
+        </xsl:if>
+      </xsl:for-each>
+      <!--TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
+      <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/critical"/>
+      <xsl:choose> 
+        <xsl:when test="$canoncial-top-level-manifestation">
         </xsl:when>
-        <!-- if no special expression type is given default to generic division -->
         <xsl:otherwise>
-          <sctap:expressionType rdf:resource="http://scta.info/resource/division"/>
+          <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
         </xsl:otherwise>
       </xsl:choose>
-      <!-- add expressionSubType as just another expressionType if there is one -->
-      <xsl:if test="$expressionSubType">
-        <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionSubType}"/>	
-      </xsl:if>
+<!-- END expression properties -->
+<!-- BEGIN structure properties -->
+      <xsl:call-template name="structure_collection_properties"/>
+<!-- END structure properties -->
       
-      
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+      <role:AUT rdf:resource="{$author-uri}"/>
+      <sctap:questionTitle><xsl:value-of select="$divQuestionTitle"/></sctap:questionTitle>
       <sctap:level><xsl:value-of select="$current-div-level"/></sctap:level>
-      <sctap:shortId><xsl:value-of select="$divid"/></sctap:shortId>
+      
       
       <!-- identify parent expression resource -->
       <xsl:choose>
@@ -106,8 +130,7 @@
         <dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}"/>
       </xsl:for-each>
       
-      <!-- TODO: decide if hasTopLevelExpression is necessary -->
-      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
+      
       
       <!-- get Order Number -->
       <xsl:variable name="totalnumber"><xsl:number count="div" level="any"/></xsl:variable>
@@ -120,16 +143,7 @@
           <sctap:dtsurn><xsl:value-of select="concat($dtsurn, ':', $divcount)"/></sctap:dtsurn>
           -->      
       
-      <!-- list manifestations of this div -->
-      <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
-        <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
-        <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
-        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
-          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
-        </xsl:if>
-      </xsl:for-each>
-      <!--TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
-      <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/critical"/>
+      
       
       
       <!-- list all items within this div -->
@@ -138,8 +152,7 @@
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>    
       </xsl:for-each>
       
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divid}"/>
+      
     </rdf:Description>
     
   </xsl:template>

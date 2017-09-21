@@ -13,6 +13,8 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
+  
+  
   <xsl:template name="structure_element_name_expressions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
@@ -51,7 +53,7 @@
           <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
-          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="expressionType" select="if (./@type) then ./@type else 'name'"/>
           <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
           <xsl:with-param name="totalnumber" select="$totalnumber"/>
           <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
@@ -100,20 +102,37 @@
     <xsl:param name="paragraphParent"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
-      <rdf:type rdf:resource="http://scta.info/resource/expression"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
+      <!-- BEGIN global properties -->
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title">Structure Element <xsl:value-of select="$objectId"/></xsl:with-param>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="$objectId"/>
+      </xsl:call-template>
+      <!-- END global properties -->
+      
+      
+<!-- BEGIN expression properties -->
+      <xsl:call-template name="expression_properties">
+        <xsl:with-param name="expressionType" select="$expressionType"/>
+        <xsl:with-param name="manifestations" select="$manifestations"/>
+        <xsl:with-param name="structureType">structureElement</xsl:with-param>
+        <xsl:with-param name="topLevelShortId" select="$cid"/>
+        <xsl:with-param name="shortId" select="$objectId"/>
+      </xsl:call-template>
+<!-- END expression properties -->
+
+      
+      <!-- BEGIN structure type properties -->
+      <xsl:call-template name="structure_element_properties"/>
       <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementName"/>
       <xsl:if test="$nameRef">
         <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$nameID}"/>
       </xsl:if>
       <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
+      <!-- END structure type properties -->
+    
       <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
-      <sctap:shortId><xsl:value-of select="$objectId"/></sctap:shortId>
-      <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$cid}"/>
-      <!-- TODO addd manifestation identifcation create; use the block of code used above to make these assertsion at the item, div, and block level 
-              	this will be block will repeated in each of the three following structureElements creation. Therefore it should be placed in separate function, 
-              	so it can be resued 7 seven different times 
-              	-->
+      
       
     </rdf:Description>
    
