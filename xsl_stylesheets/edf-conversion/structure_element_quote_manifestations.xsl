@@ -66,14 +66,14 @@
           <xsl:with-param name="structureType">structureDivision</xsl:with-param>
         </xsl:call-template>
         <!-- END manifestation properties -->
-        
-        <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
-        <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
-        <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
-        <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}"/>
-        
-        
-        
+        <!-- BEGIN structure type properties -->
+        <xsl:call-template name="structure_element_properties">
+          <xsl:with-param name="isPartOfStructureBlockShortId" select="concat($pid, '/', $wit-slug)"/>
+          <xsl:with-param name="isPartOfShortId" select="concat($pid, '/', $wit-slug)"/>
+          <xsl:with-param name="elementType">structureElementQuote</xsl:with-param>
+          <xsl:with-param name="elementText" select="."/>
+        </xsl:call-template>
+        <!-- END structure type properties -->
       </rdf:Description>
     
     

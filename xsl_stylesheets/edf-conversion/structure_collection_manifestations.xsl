@@ -116,10 +116,17 @@
         <xsl:with-param name="structureType">structureCollection</xsl:with-param>
       </xsl:call-template>
       <!-- END manifstation properties -->
+      <!-- BEGIN structure collection properties -->
+      <xsl:call-template name="structure_collection_properties">
+        <xsl:with-param name="level" select="$current-div/count(ancestor::*)"/>
+        <xsl:with-param name="items" select="$current-div//item"/>
+        <xsl:with-param name="itemFinisher" select="concat('/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END structure collection properties -->
       
       <role:AUT rdf:resource="{$author-uri}"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
-      <sctap:level><xsl:value-of select="$current-div/count(ancestor::*)"/></sctap:level>
+      
+      
       <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
       
       
@@ -143,14 +150,6 @@
           <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentExpression}/{$wit-slug}"/>
         </xsl:otherwise>
       </xsl:choose>
-      
-      
-      <!-- identify all resources with structureType=itemStructure -->
-      <xsl:for-each select="$current-div//item">
-        <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
-        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-      </xsl:for-each>
-      
       
     </rdf:Description>
     

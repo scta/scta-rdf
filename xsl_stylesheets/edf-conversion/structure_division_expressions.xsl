@@ -26,7 +26,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
-    <xsl:param name="expressionParentId"/>
+    
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
@@ -70,13 +70,16 @@
             <xsl:otherwise>division</xsl:otherwise>
           </xsl:choose> 
         </xsl:variable>
+        
+        
+        <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
       
         <xsl:call-template name="structure_division_expressions_entry">
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="item-level" select="$item-level"/>
           <xsl:with-param name="cid" select="$cid"/>
-          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="ParentId" select="$ParentId"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
           <xsl:with-param name="expressionType" select="$expressionType"/>
@@ -103,7 +106,7 @@
     <xsl:param name="item-level"/>
     <xsl:param name="cid"/>
     
-    <xsl:param name="expressionParentId"/>
+    <xsl:param name="ParentId"/>
     <xsl:param name="author-uri"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="expressionType"/>
@@ -132,8 +135,7 @@
           <xsl:with-param name="shortId" select="$divisionID"/>
         </xsl:call-template>
         <!-- END global properties -->
-        
-<!-- BEGIN expression properties -->
+        <!-- BEGIN expression properties -->
         <xsl:call-template name="expression_properties">
           <xsl:with-param name="expressionType" select="$expressionType"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
@@ -141,17 +143,14 @@
           <xsl:with-param name="topLevelShortId" select="$cid"/>
           <xsl:with-param name="shortId" select="$divisionID"/>
         </xsl:call-template>
-<!-- END expression properties -->
-<!-- BEGIN structure type properties -->
-        <xsl:call-template name="structure_division_properties"/>
-<!-- END structure type properties -->
-        <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$fs}"/>
-        <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
-        
-        
-        
-        
-        
+        <!-- END expression properties -->
+        <!-- BEGIN structure division properties -->
+        <xsl:call-template name="structure_division_properties">
+          <xsl:with-param name="blocks" select=".//tei:p"/>
+          <xsl:with-param name="blockFinisher" select="''"/>
+          <xsl:with-param name="isPartOfStructureItemShortId" select="$fs"/>
+          <xsl:with-param name="isPartOfShortId" select="$ParentId"/>
+        </xsl:call-template>
         
         <!-- TODO: decide if dts is desired
     					<xsl:variable name="div-urn" select="$div-number"/>
@@ -198,13 +197,7 @@
         </xsl:for-each>
         <!-- END child structureDivision identifications -->
         
-        <!-- BEGIN structureBlock identifications -->
-        <xsl:for-each select=".//tei:p">
-          <xsl:if test="./@xml:id">
-            <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{@xml:id}"/>
-          </xsl:if>
-        </xsl:for-each>
-        <!-- END structureBlock collections -->
+        
         
         <!-- Begins connection assertions collection -->      
         <xsl:for-each select="document($info-path)//div[@xml:id=$divisionID]/assertions//assertion">
@@ -227,35 +220,6 @@
             </xsl:when>
           </xsl:choose>
         </xsl:for-each>
-        
-        <!-- get manifestation for critical edition -->
-        <!-- TODO review hard coding of prefix for critical manifestation -->
-<!--     <xsl:if test="document($text-path)">
-          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divisionID}/critical"/>
-        </xsl:if>
-        
-        <xsl:for-each select="$itemWitnesses">
-          <xsl:variable name="wit-ref"><xsl:value-of select="substring-after(./@ref, '#')"/></xsl:variable>
-          <xsl:variable name="wit-slug"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/slug"/></xsl:variable>
-          <xsl:variable name="transcription-slug" select="concat($wit-slug, '_', $fs)"/>
-          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$wit-slug}"/>
-        </xsl:for-each>-->
-        
-        
-        <!--<xsl:for-each select="$manifestations//manifestation">
-          <xsl:choose>
-            <xsl:when test="./@type='translation'">
-              <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$divisionID}/{./@wit-slug}"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{./@wit-slug}"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:for-each>
-        <!-\- create canonicalManifestation and Transcriptions references for structureType=structureDivision -\->
-        <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$divisionID}/{$canonical-manifestation-id}"/>-->
-        
-        
         
       </rdf:Description>
     

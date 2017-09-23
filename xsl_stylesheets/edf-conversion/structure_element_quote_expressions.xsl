@@ -110,8 +110,7 @@
         <xsl:with-param name="shortId" select="$objectId"/>
       </xsl:call-template>
       <!-- END global properties -->
-        
-<!-- BEGIN expression properties -->
+      <!-- BEGIN expression properties -->
       <xsl:call-template name="expression_properties">
         <xsl:with-param name="expressionType" select="$expressionType"/>
         <xsl:with-param name="manifestations" select="$manifestations"/>
@@ -119,26 +118,20 @@
         <xsl:with-param name="topLevelShortId" select="$cid"/>
         <xsl:with-param name="shortId" select="$objectId"/>
       </xsl:call-template>
-<!-- END expression properties -->
+      <!-- END expression properties -->
+      <!-- BEGIN structure type properties -->
+      <xsl:call-template name="structure_element_properties">
+        <xsl:with-param name="isPartOfStructureBlockShortId" select="$paragraphParent"/>
+        <xsl:with-param name="isPartOfShortId" select="$paragraphParent"/>
+        <xsl:with-param name="elementType">structureElementQuote</xsl:with-param>
+        <xsl:with-param name="elementText" select="."/>
+      </xsl:call-template>
+      <!-- END structure type properties -->
+      <xsl:if test="$quoteRef">
+        <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
+      </xsl:if>
       
-<!-- BEGIN structure type properties -->
-      <xsl:call-template name="structure_element_properties"/>
-<!-- END structure type properties -->
-      
-        
-      <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementQuote"/>
-        <xsl:if test="$quoteRef">
-          <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
-        </xsl:if>
-        <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
-        <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
-        
-        <!--<xsl:for-each select="$manifestations//manifestation">
-          <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$objectId}/{./@wit-slug}"/>
-        </xsl:for-each>
-        <!-\- TODO this needs to be added into the above $manifestations loop -\->
-        <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$objectId}/{$canonical-manifestation-id}"/>-->
-      </rdf:Description>
+    </rdf:Description>
     
   </xsl:template>
   

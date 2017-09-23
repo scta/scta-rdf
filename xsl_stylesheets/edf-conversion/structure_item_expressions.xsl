@@ -81,16 +81,15 @@
     
     
     <rdf:Description rdf:about="http://scta.info/resource/{$fs}">
-<!-- BEGIN global properties -->
+      <!-- BEGIN global properties -->
         <xsl:call-template name="global_properties">
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="description"/>
           <xsl:with-param name="shortId" select="$fs"/>
         </xsl:call-template>
-<!-- END global properties -->
+      <!-- END global properties -->
       
-      
-<!-- BEGIN text global properties -->
+      <!-- BEGIN text global properties -->
         <!-- TODO; condition should be removed with <div id=body> is changed to <div id=commentaryid> -->
         <role:AUT rdf:resource="{$author-uri}"/>
         <!-- record editors -->
@@ -106,9 +105,9 @@
             <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
           </xsl:otherwise>
         </xsl:choose>
-<!-- END text global properties -->
+      <!-- END text global properties -->
       
-<!-- BEGIN expression properties -->
+      <!-- BEGIN expression properties -->
         <xsl:call-template name="expression_properties">
           <xsl:with-param name="expressionType" select="$expressionType"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
@@ -116,20 +115,14 @@
           <xsl:with-param name="topLevelShortId" select="$cid"/>
           <xsl:with-param name="shortId" select="$fs"/>
         </xsl:call-template>
-<!-- END expression properties -->
+      <!-- END expression properties -->
       
-<!-- BEGIN structureItem properties -->
-        <xsl:call-template name="structure_item_properties"/>
-        
-        <!-- BEGIN identify strcutreBlock expressions contained by structureItem -->
-          <xsl:for-each select="document($extraction-file)//tei:body//tei:p">
-            <xsl:if test="./@xml:id">
-              <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{@xml:id}"/>
-            </xsl:if>
-          </xsl:for-each>
-        <!-- END record paragraph per item -->
-        
-        
+      <!-- BEGIN structure item properties -->
+        <xsl:call-template name="structure_item_properties">
+          <xsl:with-param name="level" select="$item-level"></xsl:with-param>
+          <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
+          <xsl:with-param name="blockFinisher" select="''"/>
+        </xsl:call-template>
       
       <!-- record git repo -->
         <xsl:choose>
@@ -140,10 +133,10 @@
             <sctap:gitRepository><xsl:value-of select="concat($gitRepoBase, $fs)"/></sctap:gitRepository>
           </xsl:otherwise>
         </xsl:choose>
-<!-- END structureItem properties -->
+      <!-- END structureItem properties -->
       
       <!-- BEGIN misc properties-->
-        <sctap:level><xsl:value-of select="$item-level"/></sctap:level>
+        
         <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>
         <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '0000')"/></sctap:totalOrderNumber>
         

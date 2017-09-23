@@ -73,7 +73,11 @@
       <!-- END expression properties -->
       
       <!-- BEGIN structure collection properties -->
-        <xsl:call-template name="structure_collection_properties"/>
+      <xsl:call-template name="structure_collection_properties">
+        <xsl:with-param name="level">1</xsl:with-param>
+        <xsl:with-param name="items" select="//div[@id='body']//item"/>
+        <xsl:with-param name="itemFinisher" select="''"/>
+      </xsl:call-template>
       <!-- END structure collection properties -->
     
       
@@ -83,21 +87,17 @@
    
     
     <sctap:slug><xsl:value-of select="$commentaryslug"/></sctap:slug>
-    <sctap:shortId><xsl:value-of select="$cid"/></sctap:shortId>
+    
     <xsl:if test="//header/rcsid">
       <sctap:rcsid><xsl:value-of select="//header/rcsid"/></sctap:rcsid>
       
     </xsl:if>
     <sctap:dtsurn><xsl:value-of select="$dtsurn"/></sctap:dtsurn>
-    <sctap:level>1</sctap:level>
-    
     
     <!-- TODO: Project file headers should indicate expressionType; I'm hard coding to the SentencesCommentary for now;
     			but this means De Anima commentaries are going to be erroneously marked -->
     
-    
-    
-    <!--Log any sponsors of this top level expression -->
+      <!--Log any sponsors of this top level expression -->
     <xsl:for-each select="$sponsors//sponsor">
       <sctap:hasSponsor rdf:resource="http://scta.info/resource/{@id}"/>
     </xsl:for-each>
@@ -129,9 +129,6 @@
       <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
     </xsl:for-each>
-    
-    
-    
     
   </rdf:Description>
   </xsl:template>

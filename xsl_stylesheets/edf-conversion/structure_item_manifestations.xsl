@@ -126,9 +126,17 @@
       </xsl:for-each>
       <!-- END manifestation properties -->
       
+      <!-- BEGIN structure item properties -->
+      <xsl:call-template name="structure_item_properties">
+        <xsl:with-param name="level" select="$item-level"></xsl:with-param>
+        <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
+        <xsl:with-param name="blockFinisher" select="concat('/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END structure item properties -->
+      
       
       <role:AUT rdf:resource="{$author-uri}"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
+      
       <!-- TODO: conditional should eventually be removed -->
       <xsl:choose>
         <xsl:when test="$item-level eq 2">

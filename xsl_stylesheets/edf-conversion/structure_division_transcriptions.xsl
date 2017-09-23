@@ -25,7 +25,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
-    <xsl:param name="expressionParentId"/>
+    
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
@@ -54,13 +54,31 @@
           <xsl:if test="./@xml:id">
             <xsl:variable name="divisionId" select="./@xml:id"/>
             <xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
+            <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
+            <xsl:variable name="docWebLink">
+              <xsl:choose>
+                <xsl:when test="./@hash eq 'head' or not(./@hash)">
+                  <xsl:choose>
+                    <xsl:when test="$gitRepoStyle = 'toplevel'">
+                      <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', tokenize($transcription-text-path, '/')[last()], '#', $divisionId)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', tokenize($transcription-text-path, '/')[last()], '#', $divisionId)"/>
+                    </xsl:otherwise>	
+                  </xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="concat('https://gateway.ipfs.io/ipfs/', ./@hash, '#' , $divisionId)"/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
             
             <xsl:call-template name="structure_division_transcriptions_entry">
               <xsl:with-param name="fs" select="$fs"/>
               <xsl:with-param name="title" select="$title"/>
               <xsl:with-param name="item-level" select="$item-level"/>
               <xsl:with-param name="cid" select="$cid"/>
-              <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+              <xsl:with-param name="ParentId" select="$ParentId"/>
               <xsl:with-param name="author-uri" select="$author-uri"/>
               <xsl:with-param name="extraction-file" select="$extraction-file"/>
               <xsl:with-param name="expressionType" select="$expressionType"/>
@@ -84,6 +102,7 @@
               <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
               <xsl:with-param name="transcription-name" select="$this-transcription/@name"/>
               <xsl:with-param name="transcription-type" select="$this-transcription/@type"/>
+              <xsl:with-param name="docWebLink" select="$docWebLink"/>
             </xsl:call-template>
           </xsl:if>
         </xsl:for-each>
@@ -95,7 +114,7 @@
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
     <xsl:param name="cid"/>
-    <xsl:param name="expressionParentId"/>
+    <xsl:param name="ParentId"/>
     <xsl:param name="author-uri"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="expressionType"/>
@@ -120,16 +139,40 @@
     <xsl:param name="transcription-text-path"/>
     <xsl:param name="transcription-name"/>
     <xsl:param name="transcription-type"/>
+    <xsl:param name="docWebLink"/>
     
       <rdf:Description rdf:about="http://scta.info/resource/{$divisionId}/{$wit-slug}/{$transcription-name}">
-        <dc:title>Division <xsl:value-of select="$divisionId"/></dc:title>
-        <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
-        <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
-        <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/{$transcription-name}"/>
-        <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$divisionId}/{$wit-slug}"/>
-        <!-- add transcription type -->
-        <sctap:transcriptionType><xsl:value-of select="$transcription-type"/></sctap:transcriptionType>
-        <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$divisionId}/{$wit-slug}/{$transcription-name}"/>
+        <!-- BEGIN global properties -->
+        <xsl:call-template name="global_properties">
+          <xsl:with-param name="title">Division <xsl:value-of select="$divisionId"/></xsl:with-param>
+          <xsl:with-param name="description"/>
+          <xsl:with-param name="shortId" select="concat($divisionId, '/', $wit-slug, '/', $transcription-name)"/>
+        </xsl:call-template>
+        <!-- END global properties -->
+        
+        <!-- BEGIN transcription properties -->
+        <xsl:call-template name="transcription_properties">
+          <!--<xsl:with-param name="lang" select="$lang"/>-->
+          <xsl:with-param name="topLevelShortId" select="concat($cid, '/', $wit-slug, '/', $transcription-name)"/>
+          <xsl:with-param name="isTranscriptionOfShortId" select="concat($divisionId, '/', $wit-slug)"/>
+          <xsl:with-param name="shortId" select="concat($divisionId, '/', $wit-slug, '/', $transcription-name)"/>
+          <xsl:with-param name="structureType">structureDivision</xsl:with-param>
+          <xsl:with-param name="transcription-type" select="$transcription-type"/>
+          <xsl:with-param name="docWebLink" select="$docWebLink"/>
+          <xsl:with-param name="ipfsHash" select="./@hash"/>
+          <xsl:with-param name="hasSuccessor" select="./@hasSuccessor"/>
+          <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
+        </xsl:call-template>
+        <!-- END transcription properties -->
+        
+        <!-- BEGIN structure division properties -->
+        <xsl:call-template name="structure_division_properties">
+          <xsl:with-param name="blocks" select=".//tei:p"/>
+          <xsl:with-param name="blockFinisher" select="concat('/', $wit-slug, '/', $transcription-name)"/>
+          <xsl:with-param name="isPartOfStructureItemShortId" select="concat($fs, '/', $wit-slug, '/', $transcription-name)"/>
+          <xsl:with-param name="isPartOfShortId" select="concat($ParentId, '/', $wit-slug, '/', $transcription-name)"/>
+        </xsl:call-template>
+        
         
         <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$divisionId_ref]">
           <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
@@ -137,48 +180,8 @@
           <sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/division/{$divisionId}/{$position}"/>
         </xsl:for-each>
         
-        <xsl:choose>
-          <xsl:when test="./@hash eq 'head' or not(./@hash)">
-            <xsl:choose>
-              <xsl:when test="$gitRepoStyle = 'toplevel'">
-                <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($cid)}/raw/master/{$fs}/{tokenize($transcription-text-path, '/')[last()]}#{$divisionId}"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <sctap:hasDocument rdf:resource="{$gitRepoBase}{lower-case($fs)}/raw/master/{tokenize($transcription-text-path, '/')[last()]}#{$divisionId}"/>
-              </xsl:otherwise>	
-            </xsl:choose>
-            <sctap:ipfsHash></sctap:ipfsHash>
-          </xsl:when>
-          <xsl:otherwise>
-            <sctap:hasDocument rdf:resource="https://gateway.ipfs.io/ipfs/{./@hash}#{$divisionId}"/>
-            <sctap:ipfsHash><xsl:value-of select="./@hash"/></sctap:ipfsHash>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:if test="./@hasSuccessor">
-          <sctap:hasSuccessor rdf:resource="{./@hasSuccessor}"></sctap:hasSuccessor>
-        </xsl:if>
-        
-        <sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$divisionId}/{$wit-slug}/{$transcription-name}"/>
-        <sctap:shortId><xsl:value-of select="concat($divisionId, '/', $wit-slug, '/', 'transcription')"/></sctap:shortId>
-        <sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}/{$transcription-name}"/>
-        <!-- could add path to plain text version of paragraph -->
         
         
-        <xsl:choose>
-          <xsl:when test="document($transcription-text-path)//tei:revisionDesc/@status">
-            <sctap:status><xsl:value-of select="document($text-path)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
-          </xsl:when>
-          <xsl:when test="document($transcription-text-path)">
-            <sctap:status>In Progress</sctap:status>
-          </xsl:when>
-          <xsl:otherwise>
-            <sctap:status>Not Started</sctap:status>
-          </xsl:otherwise>
-        </xsl:choose>
-        <!-- end status Declaration block -->
-        
-        <!-- create ldn inbox -->
-        <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divisionId}/{$wit-slug}/{$transcription-name}"/>
       </rdf:Description>
     
     

@@ -108,8 +108,7 @@
           <xsl:with-param name="shortId" select="$objectId"/>
         </xsl:call-template>
         <!-- END global properties -->
-        
-<!-- BEGIN expression properties -->
+        <!-- BEGIN expression properties -->
         <xsl:call-template name="expression_properties">
           <xsl:with-param name="expressionType" select="$expressionType"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
@@ -117,17 +116,17 @@
           <xsl:with-param name="topLevelShortId" select="$cid"/>
           <xsl:with-param name="shortId" select="$objectId"/>
         </xsl:call-template>
-<!-- END expression properties -->
-
-        
+        <!-- END expression properties -->
         <!-- BEGIN structure type properties -->
-        <xsl:call-template name="structure_element_properties"/>
-        <sctap:structureElementType rdf:resource="http://scta.info/resource/structureElementTitle"/>
+        <xsl:call-template name="structure_element_properties">
+          <xsl:with-param name="isPartOfStructureBlockShortId" select="$paragraphParent"/>
+          <xsl:with-param name="isPartOfShortId" select="$paragraphParent"/>
+          <xsl:with-param name="elementType">structureElementTitle</xsl:with-param>
+          <xsl:with-param name="elementText" select="."/>
+        </xsl:call-template>
         <xsl:if test="$titleRef">
           <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$titleID}"/>
         </xsl:if>
-        <sctap:structureElementText><xsl:value-of select="."/></sctap:structureElementText>
-        <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$paragraphParent}"/>
         <!-- END structure type properties -->
       </rdf:Description>
   </xsl:template>

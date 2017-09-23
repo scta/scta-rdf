@@ -13,7 +13,7 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
-  <xsl:template name="structure_collection_manifestations">
+  <xsl:template name="structure_collection_transcriptions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
     <!-- TODO: note if edf structured info the same ways sub divisions, 
@@ -38,7 +38,7 @@
         <xsl:variable name="transcription-name">transcription</xsl:variable>
         
         <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
-          <xsl:call-template name="structure_collection_manifestations_entry">
+          <xsl:call-template name="structure_collection_transcriptions_entry">
             <xsl:with-param name="author-uri" select="$author-uri"/>
             <xsl:with-param name="cid" select="$cid"/>
             <xsl:with-param name="current-div" select="$current-div"/>
@@ -59,7 +59,7 @@
           </xsl:call-template>
         </xsl:if>
         <!-- a second call for a critical edition; again this would not be necessary if all manifestation were required to be declared in edf/projectdata file -->
-        <xsl:call-template name="structure_collection_manifestations_entry">
+        <xsl:call-template name="structure_collection_transcriptions_entry">
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="current-div" select="$current-div"/>
@@ -80,7 +80,7 @@
       </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
-  <xsl:template name="structure_collection_manifestations_entry">
+  <xsl:template name="structure_collection_transcriptions_entry">
     <xsl:param name="author-uri"/>
     <xsl:param name="cid"/>
     <xsl:param name="current-div"/>
@@ -98,16 +98,35 @@
     <xsl:param name="transcription-type"/>
     <xsl:param name="transcription-name"/>
     <rdf:Description rdf:about="http://scta.info/resource/{$divid}/{$wit-slug}/{$transcription-name}">
-      <dc:title><xsl:value-of select="$wit-title"/> transcription</dc:title>
-      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
+      <xsl:call-template name="global_properties">
+        <xsl:with-param name="title"><xsl:value-of select="$wit-title"/> transcription</xsl:with-param>
+        <xsl:with-param name="description"/>
+        <xsl:with-param name="shortId" select="concat($divid, '/', $wit-slug, '/', $transcription-name)"/>
+      </xsl:call-template>
+      <!-- END global properties -->
+      
+      <!-- BEGIN transcription properties -->
+      <xsl:call-template name="transcription_properties">
+        <!--<xsl:with-param name="lang" select="$lang"/>-->
+        <xsl:with-param name="topLevelShortId" select="concat($cid, '/', $wit-slug, '/', $transcription-name)"/>
+        <xsl:with-param name="isTranscriptionOfShortId" select="concat($divid, '/', $wit-slug)"/>
+        <xsl:with-param name="shortId" select="concat($divid, '/', $wit-slug, '/', $transcription-name)"/>
+        <xsl:with-param name="structureType">structureCollection</xsl:with-param>
+        <xsl:with-param name="transcription-type" select="$transcription-type"/>
+      </xsl:call-template>
+      <!-- END transcription properties -->
+      
+      <xsl:call-template name="structure_collection_properties">
+        <xsl:with-param name="level" select="$current-div/count(ancestor::*)"/>
+        <xsl:with-param name="items" select="$current-div//item"/>
+        <xsl:with-param name="itemFinisher" select="concat('/', $wit-slug, '/', $transcription-name)"/>
+      </xsl:call-template>
+      
       <role:AUT rdf:resource="{$author-uri}"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
-      <sctap:transcriptionType><xsl:value-of select="$transcription-type"/></sctap:transcriptionType>
-      <sctap:level><xsl:value-of select="$current-div/count(ancestor::*)"/></sctap:level>
       <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
-      <sctap:shortId><xsl:value-of select="concat($divid, '/', $wit-slug, '/', $transcription-name)"/></sctap:shortId>
-      <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
-      <sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$divid}/{$wit-slug}/{$transcription-name}"/>
+      
+      
+      
       <xsl:for-each select="$current-div/div">
         <xsl:variable name="newdivid"><xsl:value-of select="./@id"/></xsl:variable>
         <dcterms:hasPart rdf:resource="http://scta.info/resource/{$newdivid}/{$wit-slug}/{$transcription-name}"/>
@@ -136,9 +155,6 @@
         <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}/{$transcription-name}"/>
       </xsl:for-each>
-      
-      <!-- create ldn inbox -->
-      <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/{$divid}/{$wit-slug}/{$transcription-name}"/>
     </rdf:Description>
     
     

@@ -25,7 +25,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
-    <xsl:param name="expressionParentId"/>
+    
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
@@ -51,13 +51,14 @@
         <xsl:if test="./@xml:id">
           <xsl:variable name="divisionId" select="./@xml:id"/>
           <xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
+          <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
       
           <xsl:call-template name="structure_division_manifestations_entry">
             <xsl:with-param name="fs" select="$fs"/>
             <xsl:with-param name="title" select="$title"/>
             <xsl:with-param name="item-level" select="$item-level"/>
             <xsl:with-param name="cid" select="$cid"/>
-            <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+            <xsl:with-param name="ParentId" select="$ParentId"/>
             <xsl:with-param name="author-uri" select="$author-uri"/>
             <xsl:with-param name="extraction-file" select="$extraction-file"/>
             <xsl:with-param name="expressionType" select="$expressionType"/>
@@ -90,7 +91,7 @@
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
     <xsl:param name="cid"/>
-    <xsl:param name="expressionParentId"/>
+    <xsl:param name="ParentId"/>
     <xsl:param name="author-uri"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="expressionType"/>
@@ -134,9 +135,16 @@
       </xsl:call-template>
       <!-- END manifestation properties -->
       
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
-      <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-    
+      <!-- BEGIN structure division properties -->
+      <xsl:call-template name="structure_division_properties">
+        <xsl:with-param name="blocks" select=".//tei:p"/>
+        <xsl:with-param name="blockFinisher" select="concat('/', $wit-slug)"/>
+        <xsl:with-param name="isPartOfStructureItemShortId" select="concat($fs, '/', $wit-slug)"/>
+        <xsl:with-param name="isPartOfShortId" select="concat($ParentId, '/', $wit-slug)"/>
+      </xsl:call-template>
+      
+      <!-- TODO still needs to identify hasPart Manifestations -->
+      
     </rdf:Description>
   </xsl:template>
 </xsl:stylesheet>

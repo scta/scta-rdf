@@ -14,7 +14,22 @@
   version="2.0">
   
   <xsl:template name="structure_division_properties">
+    <xsl:param name="blocks"/>
+    <xsl:param name="blockFinisher"/>
+    <xsl:param name="isPartOfStructureItemShortId"/>
+    <xsl:param name="isPartOfShortId"/>
+    
     <sctap:structureType rdf:resource="http://scta.info/resource/structureDivision"/>
+    <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$isPartOfShortId}"/>
+    <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$isPartOfStructureItemShortId}"/>
+    
+    <!-- BEGIN structureBlock identifications -->
+    <xsl:for-each select="$blocks">
+      <xsl:if test="./@xml:id">
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{@xml:id}{$blockFinisher}"/>
+      </xsl:if>
+    </xsl:for-each>
+    <!-- END structureBlock collections -->
   </xsl:template>
   
 </xsl:stylesheet>

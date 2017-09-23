@@ -25,7 +25,6 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
-    <xsl:param name="expressionParentId"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
@@ -44,13 +43,14 @@
           <xsl:if test="./@xml:id">
             <xsl:variable name="pid" select="./@xml:id"/>
             <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
+            <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
           
           <xsl:call-template name="structure_block_expressions_entry">
             <xsl:with-param name="fs" select="$fs"/>
             <xsl:with-param name="title" select="$title"/>
             <xsl:with-param name="item-level" select="$item-level"/>
             <xsl:with-param name="cid" select="$cid"/>
-            <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+            <xsl:with-param name="ParentId" select="$ParentId"/>
             <xsl:with-param name="author-uri" select="$author-uri"/>
             <xsl:with-param name="extraction-file" select="$extraction-file"/>
             <xsl:with-param name="expressionType" select="if (./@type) then ./@type else 'paragraph'"/>
@@ -78,7 +78,7 @@
     <xsl:param name="item-level"/>
     <xsl:param name="cid"/>
     
-    <xsl:param name="expressionParentId"/>
+    <xsl:param name="ParentId"/>
     <xsl:param name="author-uri"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="expressionType"/>
@@ -96,15 +96,14 @@
     <xsl:param name="pid"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$pid}">
-<!-- BEGIN global properties -->
+      <!-- BEGIN global properties -->
       <xsl:call-template name="global_properties">
         <xsl:with-param name="title">Paragraph <xsl:value-of select="$pid"/></xsl:with-param>
         <xsl:with-param name="description"/>
         <xsl:with-param name="shortId" select="$pid"/>
       </xsl:call-template>
-<!-- END global properties -->
-      
-<!-- BEGIN expression properties -->
+      <!-- END global properties -->
+      <!-- BEGIN expression properties -->
       <xsl:call-template name="expression_properties">
         <xsl:with-param name="expressionType" select="$expressionType"/>
         <xsl:with-param name="manifestations" select="$manifestations"/>
@@ -112,21 +111,20 @@
         <xsl:with-param name="topLevelShortId" select="$cid"/>
         <xsl:with-param name="shortId" select="$pid"/>
       </xsl:call-template>
-<!-- END expression properties -->
+      <!-- END expression properties -->
+      <!-- BEGIN structure block properties -->
+      <xsl:call-template name="structure_block_properties">
+        <xsl:with-param name="isPartOfStructureItemShortId" select="$fs"/>
+        <xsl:with-param name="isPartOfShortId" select="$ParentId"/>
+      </xsl:call-template>
       
-<!-- BEGIN structure block properties -->
-      <xsl:call-template name="structure_block_properties"/>
-<!-- END structure block properties -->
+      <!-- begin level creation -->
+      <sctap:level><xsl:value-of select="$item-level + 1"/></sctap:level>
+      <!-- end level creation -->
       
-          
-          <!-- TODO: had dcterms:isPartOf that points to the immediate parent resource, mostly likely structureType=structureDivision but could be structureType=structureItem -->
-          
-          <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
+      <!-- END structure block properties -->
       
-          
-      
-          
-          <!-- indicate status of expression at structureBlock Level -->
+      <!-- indicate status of expression at structureBlock Level -->
           <!-- NOTE: this block is getting used several times; it should be refactored into a function -->
           <xsl:choose>
             <xsl:when test="document($extraction-file)//tei:revisionDesc/@status">
@@ -142,18 +140,7 @@
           <!-- end indicate status -->
           
       
-      <!--<xsl:for-each select="$manifestations//manifestation">
-        <xsl:choose>
-          <xsl:when test="./@type='translation'">
-            <sctap:hasTranslation rdf:resource="http://scta.info/resource/{$pid}/{./@wit-slug}"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$pid}/{./@wit-slug}"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:for-each>
-          
-          <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$pid}/{$canonical-manifestation-id}"/>-->
+      
           
           
           <!-- BEGIN collection of info assertions -->
@@ -209,9 +196,7 @@
               end of dts number creation 
               -->
           
-          <!-- begin level creation -->
-          <sctap:level><xsl:value-of select="$item-level + 1"/></sctap:level>
-          <!-- end level creation -->
+          
           
           <!-- references/referencedBy; loop over references in paragraph themselves.  -->
           <!-- quotes -->

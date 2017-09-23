@@ -96,15 +96,17 @@
           <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
         </xsl:otherwise>
       </xsl:choose>
-<!-- END expression properties -->
-<!-- BEGIN structure properties -->
-      <xsl:call-template name="structure_collection_properties"/>
-<!-- END structure properties -->
+      <!-- END expression properties -->
+      <!-- BEGIN structure collection properties -->
+      <xsl:call-template name="structure_collection_properties">
+        <xsl:with-param name="level" select="$current-div-level"/>
+        <xsl:with-param name="items" select="$current-div//item"/>
+        <xsl:with-param name="itemFinisher" select="''"/>
+      </xsl:call-template>
+      <!-- END structure collection properties -->
       
       <role:AUT rdf:resource="{$author-uri}"/>
       <sctap:questionTitle><xsl:value-of select="$divQuestionTitle"/></sctap:questionTitle>
-      <sctap:level><xsl:value-of select="$current-div-level"/></sctap:level>
-      
       
       <!-- identify parent expression resource -->
       <xsl:choose>
@@ -116,7 +118,6 @@
           <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$parentExpression}"/>
         </xsl:otherwise>
       </xsl:choose>
-      
       
       <!-- identify child expression part -->
       
@@ -130,8 +131,6 @@
         <dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}"/>
       </xsl:for-each>
       
-      
-      
       <!-- get Order Number -->
       <xsl:variable name="totalnumber"><xsl:number count="div" level="any"/></xsl:variable>
       <xsl:variable name="sectionnumber"><xsl:number count="div"/></xsl:variable>
@@ -142,17 +141,6 @@
           <xsl:variable name="divcount"><xsl:number count="div[not(@id='body')]" level="multiple" format="1"/></xsl:variable>
           <sctap:dtsurn><xsl:value-of select="concat($dtsurn, ':', $divcount)"/></sctap:dtsurn>
           -->      
-      
-      
-      
-      
-      <!-- list all items within this div -->
-      <xsl:for-each select=".//item">
-        <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
-        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>    
-      </xsl:for-each>
-      
-      
     </rdf:Description>
     
   </xsl:template>

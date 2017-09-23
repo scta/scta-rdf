@@ -80,10 +80,15 @@
         <xsl:with-param name="structureType">structureCollection</xsl:with-param>
       </xsl:call-template>
       <!-- END manifstation properties -->
+      <!-- BEGIN structure collection properties -->
+      <xsl:call-template name="structure_collection_properties">
+        <xsl:with-param name="level">1</xsl:with-param>
+        <xsl:with-param name="items" select="//div[@id='body']//item"/>
+        <xsl:with-param name="itemFinisher" select="concat('/', $wit-slug)"/>
+      </xsl:call-template>
+      <!-- END structure collection properties -->
       
       <role:AUT rdf:resource="{$author-uri}"/>
-      <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
-      <sctap:level>1</sctap:level>
       <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
       
       <xsl:if test="./manifestOfficial">
@@ -101,14 +106,6 @@
         <dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}/{$wit-slug}"/>
       </xsl:for-each>
       <!-- END; Identify direct child parts -->
-      
-      <!-- identify all resources with structureType=itemStructure -->
-      
-      <xsl:for-each select="//div[@id='body']//item">
-        <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
-        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}/{$wit-slug}"/>
-      </xsl:for-each>
-      
       
     </rdf:Description>
     

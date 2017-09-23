@@ -14,7 +14,22 @@
   version="2.0">
   
   <xsl:template name="structure_collection_properties">
+    <xsl:param name="level"/>
+    <xsl:param name="items"/>
+    <xsl:param name="itemFinisher"/>
+    
     <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+    
+    <xsl:if test="$level">
+      <sctap:level><xsl:value-of select="$level"/></sctap:level>
+    </xsl:if>
+    
+    <!-- identify all resources with structureType=itemStructure -->
+    <xsl:for-each select="$items">
+      <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
+      <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}{$itemFinisher}"/>
+    </xsl:for-each>
+    
   </xsl:template>
   
 </xsl:stylesheet>

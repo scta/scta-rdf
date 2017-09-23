@@ -14,7 +14,11 @@
   version="2.0">
   
   <xsl:template name="structure_block_properties">
+    <xsl:param name="isPartOfStructureItemShortId"/>
+    <xsl:param name="isPartOfShortId"/>
     <sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
+    <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$isPartOfShortId}"/>
+    <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$isPartOfStructureItemShortId}"/>
   </xsl:template>
   
 </xsl:stylesheet>
