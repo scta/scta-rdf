@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  stylesheet="../../edf-conversion/sponsors.xsl"
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:sctap="http://scta.info/property/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sctar="http://scta.info/resource/"
+  xmlns:role="http://www.loc.gov/loc.terms/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:collex="http://www.collex.org/schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:ldp="http://www.w3.org/ns/ldp#"
+  version="2.0">
+  
+  <x:scenario label="Getting sponsors">
+    <x:call template="sponsors">
+      <x:param name="sponsors">
+        <sponsors>
+          <sponsor>
+            <name>First sponsor name</name>
+            <link>https://first-sponsor.org</link>
+            <logo>https://first-sponsor.org/logo.png</logo>
+          </sponsor>
+          <sponsor>
+            <name>Second sponsor name</name>
+            <link>https://second-sponsor.org</link>
+            <logo>https://second-sponsor.org/logo.png</logo>
+          </sponsor>
+        </sponsors>
+      </x:param>  
+    </x:call>
+    <x:expect label="should return content of any level sponsor elements">
+      <rdf:Description rdf:about="http://scta.info/resource/{@id}">
+        <dc:title>First sponsor name</dc:title>
+        <rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+        <sctap:link rdf:resource="https://first-sponsor.org"></sctap:link>
+        <sctap:logo rdf:resource="https://first-sponsor.org/logo.png"></sctap:logo>
+      </rdf:Description>
+      <rdf:Description rdf:about="http://scta.info/resource/{@id}">
+        <dc:title>Second sponsor name</dc:title>
+        <rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+        <sctap:link rdf:resource="https://second-sponsor.org"></sctap:link>
+        <sctap:logo rdf:resource="https://second-sponsor.org/logo.png"></sctap:logo>
+      </rdf:Description>
+    </x:expect>
+  </x:scenario>  
+  
+</x:description>
