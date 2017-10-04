@@ -31,17 +31,18 @@
         <xsl:with-param name="transcription-type">Diplomatic</xsl:with-param>
         <xsl:with-param name="transcription-name">transcription</xsl:with-param>
       </xsl:call-template>
-      <xsl:call-template name="top_level_transcription_entry">
-        <xsl:with-param name="cid" select="$cid"/>
-        <xsl:with-param name="author-uri" select="$author-uri"/>
-        <xsl:with-param name="wit-title">Critical Edition</xsl:with-param>
-        <xsl:with-param name="wit-initial">CE</xsl:with-param>
-        <xsl:with-param name="wit-canvasbase"></xsl:with-param>
-        <xsl:with-param name="wit-slug">critical</xsl:with-param>
-        <xsl:with-param name="transcription-type">Critical</xsl:with-param>
-        <xsl:with-param name="transcription-name">transcription</xsl:with-param>
-      </xsl:call-template>
     </xsl:for-each>
+    <!-- call one for critical transcription even if not listed in witnesses header -->
+    <xsl:call-template name="top_level_transcription_entry">
+      <xsl:with-param name="cid" select="$cid"/>
+      <xsl:with-param name="author-uri" select="$author-uri"/>
+      <xsl:with-param name="wit-title">Critical Edition</xsl:with-param>
+      <xsl:with-param name="wit-initial">CE</xsl:with-param>
+      <xsl:with-param name="wit-canvasbase"></xsl:with-param>
+      <xsl:with-param name="wit-slug">critical</xsl:with-param>
+      <xsl:with-param name="transcription-type">Critical</xsl:with-param>
+      <xsl:with-param name="transcription-name">transcription</xsl:with-param>
+    </xsl:call-template>
   </xsl:template>
   <xsl:template name="top_level_transcription_entry">
     <xsl:param name="cid"/>

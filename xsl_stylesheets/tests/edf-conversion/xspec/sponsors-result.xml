@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:/Users/jcwitt/Projects/xspec/src/compiler/format-xspec-report.xsl"?>
+<x:report xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:test="http://www.jenitennison.com/xslt/unit-test"
+          xmlns:x="http://www.jenitennison.com/xslt/xspec"
+          xmlns:tei="http://www.tei-c.org/ns/1.0"
+          xmlns:sctap="http://scta.info/property/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:sctar="http://scta.info/resource/"
+          xmlns:role="http://www.loc.gov/loc.terms/relators/"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:collex="http://www.collex.org/schema#"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:ldp="http://www.w3.org/ns/ldp#"
+          stylesheet="file:/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/edf-conversion/sponsors.xsl"
+          date="2017-10-04T10:51:59.383-04:00">
+   <x:scenario>
+      <x:label>Getting sponsors</x:label>
+      <x:call template="sponsors">
+         <x:param name="sponsors">
+            <sponsors>
+               <sponsor>
+                  <name>First sponsor name</name>
+                  <link>https://first-sponsor.org</link>
+                  <logo>https://first-sponsor.org/logo.png</logo>
+               </sponsor>
+               <sponsor>
+                  <name>Second sponsor name</name>
+                  <link>https://second-sponsor.org</link>
+                  <logo>https://second-sponsor.org/logo.png</logo>
+               </sponsor>
+            </sponsors>
+         </x:param>
+      </x:call>
+      <x:result>
+         <rdf:Description rdf:about="http://scta.info/resource/">
+            <dc:title>First sponsor name</dc:title>
+            <rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+            <sctap:link rdf:resource="https://first-sponsor.org"/>
+            <sctap:logo rdf:resource="https://first-sponsor.org/logo.png"/>
+         </rdf:Description>
+         <rdf:Description rdf:about="http://scta.info/resource/">
+            <dc:title>Second sponsor name</dc:title>
+            <rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+            <sctap:link rdf:resource="https://second-sponsor.org"/>
+            <sctap:logo rdf:resource="https://second-sponsor.org/logo.png"/>
+         </rdf:Description>
+      </x:result>
+      <x:test successful="true">
+         <x:label>should return content of any level sponsor elements</x:label>
+         <x:expect>
+            <rdf:Description rdf:about="http://scta.info/resource/">
+               <dc:title>First sponsor name</dc:title>
+               <rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+               <sctap:link rdf:resource="https://first-sponsor.org"/>
+               <sctap:logo rdf:resource="https://first-sponsor.org/logo.png"/>
+            </rdf:Description>
+            <rdf:Description rdf:about="http://scta.info/resource/">
+               <dc:title>Second sponsor name</dc:title>
+               <rdf:type rdf:resource="http://scta.info/resource/sponsor"/>
+               <sctap:link rdf:resource="https://second-sponsor.org"/>
+               <sctap:logo rdf:resource="https://second-sponsor.org/logo.png"/>
+            </rdf:Description>
+         </x:expect>
+      </x:test>
+   </x:scenario>
+</x:report>

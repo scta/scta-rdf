@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:/Users/jcwitt/Projects/xspec/src/compiler/format-xspec-report.xsl"?>
+<x:report xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:test="http://www.jenitennison.com/xslt/unit-test"
+          xmlns:x="http://www.jenitennison.com/xslt/xspec"
+          xmlns:tei="http://www.tei-c.org/ns/1.0"
+          xmlns:sctap="http://scta.info/property/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:sctar="http://scta.info/resource/"
+          xmlns:role="http://www.loc.gov/loc.terms/relators/"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:collex="http://www.collex.org/schema#"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:ldp="http://www.w3.org/ns/ldp#"
+          stylesheet="file:/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/edf-conversion/top_level_manifestation.xsl"
+          date="2017-10-04T11:20:31.719-04:00">
+   <x:scenario>
+      <x:label>Creating top level manifestations</x:label>
+      <x:call template="top_level_manifestation">
+         <x:param name="cid">TeST</x:param>
+         <x:param name="author-uri">
+            <xsl:value-of select="doc('/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml')//header/authorUri"/>
+         </x:param>
+         <x:param name="top-level-witnesses">
+            <xsl:value-of select="document('/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml')/listofFileNames/header/hasWitnesses//witness"/>
+         </x:param>
+      </x:call>
+      <x:result>
+         <rdf:Description rdf:about="http://scta.info/resource/TeST/">
+            <dc:title/>
+            <sctap:shortId>TeST/</sctap:shortId>
+            <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/TeST/"/>
+            <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+            <sctap:isManifestationOf rdf:resource="http://scta.info/resource/TeST"/>
+            <sctap:hasTranscription rdf:resource="http://scta.info/resource/TeST//transcription"/>
+            <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/TeST//transcription"/>
+            <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+            <sctap:level>1</sctap:level>
+            <role:AUT rdf:resource=""/>
+            <sctap:hasSlug/>
+         </rdf:Description>
+         <rdf:Description rdf:about="http://scta.info/resource/TeST/critical">
+            <dc:title>Critical Edition</dc:title>
+            <sctap:shortId>TeST/critical</sctap:shortId>
+            <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/TeST/critical"/>
+            <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+            <sctap:isManifestationOf rdf:resource="http://scta.info/resource/TeST"/>
+            <sctap:hasTranscription rdf:resource="http://scta.info/resource/TeST/critical/transcription"/>
+            <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/TeST/critical/transcription"/>
+            <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+            <sctap:level>1</sctap:level>
+            <role:AUT rdf:resource=""/>
+            <sctap:hasSlug>critical</sctap:hasSlug>
+         </rdf:Description>
+      </x:result>
+      <x:test successful="false">
+         <x:label>should return assertions for top level manifestations</x:label>
+         <x:expect>
+            <rdf:Description rdf:about="http://scta.info/resource/augustinedecivitatedei/critical">
+               <dc:title>Augustine's De Civitate Dei</dc:title>
+               <dc:description>test</dc:description>
+               <sctap:shortId>augustinedecivitatedei/critical</sctap:shortId>
+               <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/augustinedecivitatedei/critical"/>
+               <rdf:type rdf:resource="http://scta.info/resource/manifestation"/>
+               <dc:language>la</dc:language>
+               <sctap:isManifestationOf rdf:resource="http://scta.info/resource/augustinedecivitatedei"/>
+               <sctap:hasTranscription rdf:resource="http://scta.info/resource/augustinedecivitatedei/critical/transcription"/>
+               <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/augustinedecivitatedei/critical/transcription"/>
+               <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
+               <sctap:level>1</sctap:level>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l1/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l2/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l3/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l4/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l5/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l6/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l7/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l8/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l9/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l10/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l11/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l12/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l13/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l14/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l15/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l16/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l17/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l18/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l19/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l20/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l21/critical"/>
+               <sctap:hasStructureItem rdf:resource="http://scta.info/resource/adcd-l22/critical"/>
+               <role:AUT rdf:resource="http://scta.info/resource/Augustine"/>
+               <sctap:hasSlug>critical</sctap:hasSlug>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l1/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l2/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l3/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l4/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l5/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l6/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l7/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l8/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l9/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l10/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l11/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l12/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l13/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l14/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l15/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l16/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l17/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l18/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l19/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l20/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l21/critical"/>
+               <dcterms:hasPart rdf:resource="http://scta.info/resource/adcd-l22/critical"/>
+            </rdf:Description>
+         </x:expect>
+      </x:test>
+   </x:scenario>
+</x:report>

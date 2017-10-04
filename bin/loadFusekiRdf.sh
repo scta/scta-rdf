@@ -97,12 +97,13 @@
 	echo "loading scta expression types"
 	./s-post http://localhost:3030/ds/data default $rdfbase/scta_expression_types.ttl
 
-	echo "loading jsonld"
-	for file in $jsonldbase/*.jsonld
-	do
-		echo "loading $file";
-		./s-post http://localhost:3030/ds/data default $file
-	done
+
+	# echo "loading jsonld"
+	# for file in $jsonldbase/*.jsonld
+	# do
+	# 	echo "loading $file";
+	# 	./s-post http://localhost:3030/ds/data default $file
+	# done
 
 	echo "loading scta articles"
 	./s-post http://localhost:3030/ds/data default $rdfbase/articles.ttl

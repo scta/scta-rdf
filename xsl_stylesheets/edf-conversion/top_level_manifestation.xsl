@@ -13,11 +13,19 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
+  <!--
+    uncomment for tests to work 
+    <xsl:import href="global_properties.xsl"/>
+  <xsl:import href="manifestation_properties.xsl"/>
+  <xsl:import href="structure_collection_properties.xsl"/>-->
+  
   <xsl:template name="top_level_manifestation">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
+    <xsl:param name="top-level-witnesses"/>
     
-    <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+    <!--<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">-->
+    <xsl:for-each select="$top-level-witnesses">
       <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
       <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
       <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
@@ -39,18 +47,24 @@
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
         
       </xsl:call-template>
-      <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
-      <xsl:call-template name="top_level_manifestation_entry">
-        <xsl:with-param name="cid" select="$cid"/>
-        <xsl:with-param name="author-uri" select="$author-uri"/>
-        <xsl:with-param name="wit-title">Critical Edition</xsl:with-param>
-        <xsl:with-param name="wit-initial">CE</xsl:with-param>
-        <xsl:with-param name="wit-canvasbase"></xsl:with-param>
-        <xsl:with-param name="wit-slug">critical</xsl:with-param>
-        <xsl:with-param name="transcriptions" select="$transcriptions"/>
-        
-      </xsl:call-template>
     </xsl:for-each>
+    <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
+    <!-- TODO: this info probably needs to come from somewhere else; each manifestation will have different transcriptions and different number available -->
+    <xsl:variable name="transcriptions">
+      <transcriptions>
+        <transcription name="transcription" canonical="true"/>
+      </transcriptions>
+    </xsl:variable>
+    <xsl:call-template name="top_level_manifestation_entry">
+      <xsl:with-param name="cid" select="$cid"/>
+      <xsl:with-param name="author-uri" select="$author-uri"/>
+      <xsl:with-param name="wit-title">Critical Edition</xsl:with-param>
+      <xsl:with-param name="wit-initial">CE</xsl:with-param>
+      <xsl:with-param name="wit-canvasbase"></xsl:with-param>
+      <xsl:with-param name="wit-slug">critical</xsl:with-param>
+      <xsl:with-param name="transcriptions" select="$transcriptions"/>
+      
+    </xsl:call-template>
   </xsl:template>
   <xsl:template name="top_level_manifestation_entry">
     <xsl:param name="cid"/>

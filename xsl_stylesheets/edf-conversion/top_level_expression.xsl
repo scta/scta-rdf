@@ -114,21 +114,21 @@
     </xsl:if>
     
     <!-- identify second level expression parts -->
-    <xsl:for-each select="./div">
+      <xsl:for-each select="//div[@id='body']/div">
       <xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}"/>
     </xsl:for-each>
-    <xsl:for-each select="./item">
+    <xsl:for-each select="//div[@id='body']/item">
       <xsl:variable name="direct-child-part"><xsl:value-of select="./@id"/></xsl:variable>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}"/>
     </xsl:for-each>
     
     <!-- identify all resources with structureType=itemStructure -->
     
-    <xsl:for-each select=".//item">
+    <!--<xsl:for-each select=".//item">
       <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}"/>
-    </xsl:for-each>
+    </xsl:for-each>-->
     
   </rdf:Description>
   </xsl:template>

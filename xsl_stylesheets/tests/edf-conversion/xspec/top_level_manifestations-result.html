@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns:test="http://www.jenitennison.com/xslt/unit-test" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Test Report for Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/edf-conversion/top_level_manifestation.xsl (0/0/1/1)</title>
+      <link rel="stylesheet" type="text/css" href="file:/Users/jcwitt/Projects/xspec/src/reporter/test-report.css" />
+   </head>
+   <body>
+      <h1>Test Report</h1>
+      <p>Stylesheet: <a href="file:/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/edf-conversion/top_level_manifestation.xsl">Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/edf-conversion/top_level_manifestation.xsl</a></p>
+      <p>Tested: 4 October 2017 at 11:20</p>
+      <h2>Contents</h2>
+      <table class="xspec">
+         <col width="85%" />
+         <col width="15%" />
+         <thead>
+            <tr>
+               <th style="text-align: right; font-weight: normal; ">passed/pending/failed/total</th>
+               <th>0/0/1/1</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="failed">
+               <th><a href="#d3e4">Creating top level manifestations</a></th>
+               <th>0/0/1/1</th>
+            </tr>
+         </tbody>
+      </table>
+      <div id="d3e4">
+         <h2 class="failed">Creating top level manifestations<span class="scenario-totals">0/0/1/1</span></h2>
+         <table class="xspec" id="t-d3e4">
+            <col width="85%" />
+            <col width="15%" />
+            <tbody>
+               <tr class="failed">
+                  <th>Creating top level manifestations</th>
+                  <th>0/0/1/1</th>
+               </tr>
+               <tr class="failed">
+                  <td><a href="#d3e86">should return assertions for top level manifestations</a></td>
+                  <td>Failure</td>
+               </tr>
+            </tbody>
+         </table>
+         <h3 id="d3e4">Creating top level manifestations</h3>
+         <h4 id="d3e86">should return assertions for top level manifestations</h4>
+         <table class="xspecResult">
+            <thead>
+               <tr>
+                  <th>Result</th>
+                  <th>Expected Result</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td><pre>&lt;<span class="diff">rdf:Description</span> xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:ldp="http://www.w3.org/ns/ldp#"
+         <span class="diff">rdf:about</span>="http://scta.info/resource/TeST/"&gt;
+   &lt;<span class="diff">dc:title</span> /&gt;
+   &lt;<span class="diff">sctap:shortId</span>&gt;<span class="diff">TeST/</span>&lt;/sctap:shortId&gt;
+   &lt;<span class="diff">ldp:inbox</span> <span class="diff">rdf:resource</span>="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/TeST/" /&gt;
+   &lt;<span class="diff">rdf:type</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/manifestation" /&gt;
+   &lt;<span class="diff">sctap:isManifestationOf</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/TeST" /&gt;
+   &lt;<span class="diff">sctap:hasTranscription</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/TeST//transcription" /&gt;
+   &lt;<span class="diff">sctap:hasCanonicalTranscription</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/TeST//transcription" /&gt;
+   &lt;<span class="diff">sctap:structureType</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/structureCollection" /&gt;
+   &lt;<span class="diff">sctap:level</span>&gt;<span class="diff">1</span>&lt;/sctap:level&gt;
+   &lt;<span class="diff">role:AUT</span> <span class="diff">rdf:resource</span>="" /&gt;
+   &lt;<span class="diff">sctap:hasSlug</span> /&gt;
+&lt;/rdf:Description&gt;&lt;<span class="diff">rdf:Description</span> xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:ldp="http://www.w3.org/ns/ldp#"
+         <span class="diff">rdf:about</span>="http://scta.info/resource/TeST/critical"&gt;
+   &lt;<span class="diff">dc:title</span>&gt;<span class="diff">Critical Edition</span>&lt;/dc:title&gt;
+   &lt;<span class="diff">sctap:shortId</span>&gt;<span class="diff">TeST/critical</span>&lt;/sctap:shortId&gt;
+   &lt;<span class="diff">ldp:inbox</span> <span class="diff">rdf:resource</span>="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/TeST/critical" /&gt;
+   &lt;<span class="diff">rdf:type</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/manifestation" /&gt;
+   &lt;<span class="diff">sctap:isManifestationOf</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/TeST" /&gt;
+   &lt;<span class="diff">sctap:hasTranscription</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/TeST/critical/transcription" /&gt;
+   &lt;<span class="diff">sctap:hasCanonicalTranscription</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/TeST/critical/transcription" /&gt;
+   &lt;<span class="diff">sctap:structureType</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/structureCollection" /&gt;
+   &lt;<span class="diff">sctap:level</span>&gt;<span class="diff">1</span>&lt;/sctap:level&gt;
+   &lt;<span class="diff">role:AUT</span> <span class="diff">rdf:resource</span>="" /&gt;
+   &lt;<span class="diff">sctap:hasSlug</span>&gt;<span class="diff">critical</span>&lt;/sctap:hasSlug&gt;
+&lt;/rdf:Description&gt;</pre></td>
+                  <td><pre>&lt;<span class="diff">rdf:Description</span> xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xmlns:sctap="http://scta.info/property/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:sctar="http://scta.info/resource/"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:collex="http://www.collex.org/schema#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:ldp="http://www.w3.org/ns/ldp#"
+         <span class="diff">rdf:about</span>="http://scta.info/resource/augustinedecivitatedei/critical"&gt;
+   &lt;<span class="diff">dc:title</span>&gt;<span class="diff">Augustine's De Civitate Dei</span>&lt;/dc:title&gt;
+   &lt;<span class="diff">dc:description</span>&gt;<span class="diff">test</span>&lt;/dc:description&gt;
+   &lt;<span class="diff">sctap:shortId</span>&gt;<span class="diff">augustinedecivitatedei/critical</span>&lt;/sctap:shortId&gt;
+   &lt;<span class="diff">ldp:inbox</span> <span class="diff">rdf:resource</span>="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/augustinedecivitatedei/critical" /&gt;
+   &lt;<span class="diff">rdf:type</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/manifestation" /&gt;
+   &lt;<span class="diff">dc:language</span>&gt;<span class="diff">la</span>&lt;/dc:language&gt;
+   &lt;<span class="diff">sctap:isManifestationOf</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/augustinedecivitatedei" /&gt;
+   &lt;<span class="diff">sctap:hasTranscription</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/augustinedecivitatedei/critical/transcription" /&gt;
+   &lt;<span class="diff">sctap:hasCanonicalTranscription</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/augustinedecivitatedei/critical/transcription" /&gt;
+   &lt;<span class="diff">sctap:structureType</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/structureCollection" /&gt;
+   &lt;<span class="diff">sctap:level</span>&gt;<span class="diff">1</span>&lt;/sctap:level&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l1/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l2/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l3/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l4/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l5/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l6/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l7/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l8/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l9/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l10/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l11/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l12/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l13/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l14/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l15/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l16/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l17/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l18/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l19/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l20/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l21/critical" /&gt;
+   &lt;<span class="diff">sctap:hasStructureItem</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l22/critical" /&gt;
+   &lt;<span class="diff">role:AUT</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/Augustine" /&gt;
+   &lt;<span class="diff">sctap:hasSlug</span>&gt;<span class="diff">critical</span>&lt;/sctap:hasSlug&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l1/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l2/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l3/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l4/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l5/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l6/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l7/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l8/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l9/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l10/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l11/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l12/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l13/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l14/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l15/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l16/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l17/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l18/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l19/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l20/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l21/critical" /&gt;
+   &lt;<span class="diff">dcterms:hasPart</span> <span class="diff">rdf:resource</span>="http://scta.info/resource/adcd-l22/critical" /&gt;
+&lt;/rdf:Description&gt;</pre></td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>

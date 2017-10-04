@@ -12,6 +12,6 @@ else
   echo "removing $builddir/$buildname ..."
   rm -rf "$builddir/$buildname"
   echo "recreating $builddir/$buildname ..."
-  mkdir "$builddir/$buildname"
+  cp -R "$builddir/canvases-2017-09-30" "$builddir/$buildname"
   echo "all done"
 fi

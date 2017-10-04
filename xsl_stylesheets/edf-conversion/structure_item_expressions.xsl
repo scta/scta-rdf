@@ -88,25 +88,6 @@
           <xsl:with-param name="shortId" select="$fs"/>
         </xsl:call-template>
       <!-- END global properties -->
-      
-      <!-- BEGIN text global properties -->
-        <!-- TODO; condition should be removed with <div id=body> is changed to <div id=commentaryid> -->
-        <role:AUT rdf:resource="{$author-uri}"/>
-        <!-- record editors -->
-        <!-- editors at the expression level doesn't seem accurate -->
-        <!--<xsl:for-each select="document($extraction-file)/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
-          <sctap:editedBy><xsl:value-of select="."/></sctap:editedBy>
-        </xsl:for-each>-->
-        <xsl:choose>
-          <xsl:when test="$item-level eq 2">
-            <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
-          </xsl:otherwise>
-        </xsl:choose>
-      <!-- END text global properties -->
-      
       <!-- BEGIN expression properties -->
         <xsl:call-template name="expression_properties">
           <xsl:with-param name="expressionType" select="$expressionType"/>
@@ -118,11 +99,21 @@
       <!-- END expression properties -->
       
       <!-- BEGIN structure item properties -->
-        <xsl:call-template name="structure_item_properties">
-          <xsl:with-param name="level" select="$item-level"></xsl:with-param>
-          <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
-          <xsl:with-param name="blockFinisher" select="''"/>
-        </xsl:call-template>
+      <xsl:call-template name="structure_item_properties">
+        <xsl:with-param name="level" select="$item-level"></xsl:with-param>
+        <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
+        <xsl:with-param name="blockFinisher" select="''"/>
+      </xsl:call-template>
+      <role:AUT rdf:resource="{$author-uri}"/>
+     
+      <xsl:choose>
+        <xsl:when test="$item-level eq 2">
+          <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$cid}"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$expressionParentId}"/>	
+        </xsl:otherwise>
+      </xsl:choose>
       
       <!-- record git repo -->
         <xsl:choose>

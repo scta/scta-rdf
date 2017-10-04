@@ -315,6 +315,8 @@
       <sctap:hasExpression rdf:resource="http://scta.info/resource/mirecourtcommentary"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/lambertuscommentary"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/lambertuscommentary"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/mastridisputationestheologicae"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/mastridisputationestheologicae"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/dinkelsbuhllectura"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/dinkelsbuhllectura"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/oytacommentary"/>
@@ -494,6 +496,12 @@
       <sctap:shortId>uncategorized</sctap:shortId>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/summahalensis"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/summahalensis"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/augustinedecivitatedei"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/augustinedecivitatedei"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/augustinedetrinitate"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/augustinedetrinitate"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/bible"/>
+      <sctap:hasExpression rdf:resource="http://scta.info/resource/bible"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/euclidelements"/>
       <sctap:hasExpression rdf:resource="http://scta.info/resource/euclidelements"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/almainsuperholcot"/>

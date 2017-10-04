@@ -40,6 +40,8 @@
   <xsl:variable name="description" select="if (//header/description) then //header/description else 'No Description Available'"/>
   <xsl:variable name="canoncial-top-level-manifestation" select="//header/canonical-top-level-manifestation"/>
   
+  <xsl:variable name="top-level-witnesses" select="/listofFileNames/header/hasWitnesses/witness"/>
+  
   <xsl:variable name="parentWorkGroup">
     <xsl:choose>
       <xsl:when test="//header/parentWorkGroup">
@@ -78,6 +80,7 @@
       <xsl:call-template name="top_level_manifestation">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
+        <xsl:with-param name="top-level-witnesses" select="$top-level-witnesses"/>
       </xsl:call-template>
       <xsl:call-template name="top_level_transcription">
         <xsl:with-param name="cid" select="$cid"/>

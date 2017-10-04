@@ -10,6 +10,6 @@ else
   builddir="/Users/jcwitt/Projects/scta/scta-builds";
 
   echo "creating $builddir/$buildname ..."
-  mkdir "$builddir/$buildname"
+  cp -R "$builddir/canvases-2017-09-30" "$builddir/$buildname"
   echo "all done"
 fi

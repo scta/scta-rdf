@@ -38,6 +38,7 @@
         <xsl:variable name="authorid" select="translate(./bibl/author/@ref, '#', '')"/>
         <xsl:variable name="workid" select="translate(./bibl/title/@ref, '#', '')"/>
         <xsl:variable name="worktitle" select="/bibl/title"/>
+        <xsl:variable name="source" select="./note[@type='source']"/>
             <rdf:Description rdf:about="http://scta.info/resource/{$quoteid}">
                 <rdf:type rdf:resource="http://scta.info/resource/quotation"/>
                 <dc:title><xsl:value-of select="$quote"></xsl:value-of></dc:title>
@@ -46,7 +47,9 @@
                 <sctap:quoteAuthor rdf:resource="http://scta.info/resource/{$authorid}"/>
                 <sctap:citation><xsl:value-of select="$citation"/></sctap:citation>
                 <sctap:quotationType rdf:resource="http://scta.info/resource/{$quoteType}"/>
-                
+                <xsl:if test="$source">
+                  <sctap:source rdf:resource="{$source}"/>
+                </xsl:if>
                 <xsl:for-each select="./bibl/biblScope">
                     <xsl:choose>
                         <xsl:when test="./@type = 'librum'">

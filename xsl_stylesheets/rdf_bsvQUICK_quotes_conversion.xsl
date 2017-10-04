@@ -44,7 +44,7 @@
 					<xsl:variable name="itemid"><xsl:value-of select="./parent::rdf:Description/@rdf:about"/></xsl:variable>
 					<sctap:hasInstance rdf:resource="{$itemid}"/>
 				</xsl:for-each>-->
-				
+			  <sctap:source rdf:resource="{concat('http://scta.info/resource/bible-', $workid)}"></sctap:source>
 			</rdf:Description>
 		</xsl:for-each>
 	</xsl:template>

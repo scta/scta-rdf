@@ -44,6 +44,7 @@
       <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
+      <xsl:variable name="source" select="./@source"/>
       
       <xsl:call-template name="structure_element_quote_expressions_entry">
         <xsl:with-param name="fs" select="$fs"/>
@@ -71,6 +72,7 @@
         <xsl:with-param name="totalFollowingQuotes" select="$totalFollowingQuotes"></xsl:with-param>
         <xsl:with-param name="objectId" select="$objectId"/>
         <xsl:with-param name="paragraphParent" select="$paragraphParent"/>
+        <xsl:with-param name="source" select="$source"/>
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -101,6 +103,7 @@
     <xsl:param name="totalFollowingQuotes"></xsl:param>
     <xsl:param name="objectId"/>
     <xsl:param name="paragraphParent"/>
+    <xsl:param name="source"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
       <!-- BEGIN global properties -->
@@ -129,6 +132,9 @@
       <!-- END structure type properties -->
       <xsl:if test="$quoteRef">
         <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
+      </xsl:if>
+      <xsl:if test="$source">
+        <sctap:source rdf:resource="{$source}"/>
       </xsl:if>
       
     </rdf:Description>
