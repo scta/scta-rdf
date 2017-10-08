@@ -17,6 +17,7 @@
     <xsl:param name="level"/>
     <xsl:param name="items"/>
     <xsl:param name="itemFinisher"/>
+    <xsl:param name="ancestors"/>
     
     <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
     
@@ -29,6 +30,22 @@
       <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
       <sctap:hasStructureItem rdf:resource="http://scta.info/resource/{$fs}{$itemFinisher}"/>
     </xsl:for-each>
+    <!-- identify all ancestors as resource that current node is member of -->
+    <xsl:if test="$ancestors">
+      <xsl:for-each select="$ancestors">
+        <xsl:variable name="ancestorid">
+          <xsl:choose>
+            <xsl:when test="./@id='body'">
+              <xsl:value-of select="$cid"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="./@id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$itemFinisher}"/>
+      </xsl:for-each>
+    </xsl:if>
     
   </xsl:template>
   

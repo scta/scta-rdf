@@ -31,8 +31,9 @@
       <xsl:variable name="expressionSubType"><xsl:value-of select="./@subtype"/></xsl:variable>
       <xsl:variable name="parentExpression"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
       <xsl:variable name="divQuestionTitle"><xsl:value-of select="./questionTitle"/></xsl:variable>
-      <xsl:variable name="current-div-level" select="count(ancestor::*)"/>
       
+      <xsl:variable name="ancestors" select="ancestor::div"/>
+      <xsl:variable name="current-div-level" select="count($ancestors) +1"/>
       <xsl:call-template name="structure_collection_expressions_entry">
         <xsl:with-param name="author-uri" select="$author-uri"/>
         <xsl:with-param name="cid" select="$cid"/>
@@ -43,6 +44,7 @@
         <xsl:with-param name="expressionSubType" select="$expressionSubType"/>
         <xsl:with-param name="parentExpression" select="$parentExpression"/>
         <xsl:with-param name="divQuestionTitle" select="$divQuestionTitle"/>
+        <xsl:with-param name="ancestors" select="$ancestors"/>
         <xsl:with-param name="current-div-level" select="$current-div-level"/>
         <xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>
       </xsl:call-template>
@@ -59,6 +61,7 @@
     <xsl:param name="parentExpression"/>
     <xsl:param name="divQuestionTitle"/>
     <xsl:param name="current-div-level" />
+    <xsl:param name="ancestors" />
     <xsl:param name="canoncial-top-level-manifestation" />
     
     <rdf:Description rdf:about="http://scta.info/resource/{$divid}">
@@ -102,6 +105,7 @@
         <xsl:with-param name="level" select="$current-div-level"/>
         <xsl:with-param name="items" select="$current-div//item"/>
         <xsl:with-param name="itemFinisher" select="''"/>
+        <xsl:with-param name="ancestors" select="$ancestors"/>
       </xsl:call-template>
       <!-- END structure collection properties -->
       

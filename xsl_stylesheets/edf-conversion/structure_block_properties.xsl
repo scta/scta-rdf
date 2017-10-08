@@ -16,9 +16,29 @@
   <xsl:template name="structure_block_properties">
     <xsl:param name="isPartOfStructureItemShortId"/>
     <xsl:param name="isPartOfShortId"/>
+    <xsl:param name="finisher"/>
+    <xsl:param name="ancestors"/>
     <sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
     <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$isPartOfShortId}"/>
     <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$isPartOfStructureItemShortId}"/>
+    
+    
+    <!-- identify all ancestors as resource that current node is member of -->
+    <xsl:if test="$ancestors">
+      <xsl:for-each select="$ancestors//ancestor">
+        <xsl:variable name="ancestorid">
+          <xsl:choose>
+            <xsl:when test="./@id='body'">
+              <xsl:value-of select="$cid"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="./@id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$finisher}"/>
+      </xsl:for-each>
+    </xsl:if>
   </xsl:template>
   
 </xsl:stylesheet>

@@ -25,6 +25,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
+    <xsl:param name="item-ancestors"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
@@ -44,6 +45,18 @@
             <xsl:variable name="pid" select="./@xml:id"/>
             <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
             <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
+          
+            <xsl:variable name="block-ancestors">
+              <ancestors>
+                <xsl:for-each select="$item-ancestors">
+                  <ancestor id="{./@id}"/>
+                </xsl:for-each>
+                <xsl:for-each select="ancestor::tei:div">
+                  <ancestor id="{./@xml:id}"/>
+                </xsl:for-each>
+              </ancestors>
+            </xsl:variable>
+            <xsl:variable name="block-level" select="count($block-ancestors//ancestor) + 1"/>
           
           <xsl:call-template name="structure_block_expressions_entry">
             <xsl:with-param name="fs" select="$fs"/>
@@ -66,6 +79,8 @@
             <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
             <xsl:with-param name="info-path" select="$info-path"/>
             <xsl:with-param name="pid" select="$pid"/>
+            <xsl:with-param name="block-level" select="$block-level"/>
+            <xsl:with-param name="block-ancestors" select="$block-ancestors"/>
             
           </xsl:call-template>
           </xsl:if>
@@ -94,6 +109,8 @@
     <xsl:param name="canonical-manifestation-id"/>
     <xsl:param name="info-path"/>
     <xsl:param name="pid"/>
+    <xsl:param name="block-level"/>
+    <xsl:param name="block-ancestors"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$pid}">
       <!-- BEGIN global properties -->
@@ -116,10 +133,12 @@
       <xsl:call-template name="structure_block_properties">
         <xsl:with-param name="isPartOfStructureItemShortId" select="$fs"/>
         <xsl:with-param name="isPartOfShortId" select="$ParentId"/>
+        <xsl:with-param name="finisher" select="''"/>
+        <xsl:with-param name="ancestors" select="$block-ancestors"/>
       </xsl:call-template>
       
       <!-- begin level creation -->
-      <sctap:level><xsl:value-of select="$item-level + 1"/></sctap:level>
+      <sctap:level><xsl:value-of select="$block-level"/></sctap:level>
       <!-- end level creation -->
       
       <!-- END structure block properties -->

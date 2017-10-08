@@ -26,6 +26,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
+    <xsl:param name="item-ancestors"/>
     <xsl:param name="expressionParentId"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="expressionType"/>
@@ -45,6 +46,21 @@
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
       <xsl:variable name="source" select="./@source"/>
+      
+      <xsl:variable name="element-ancestors">
+        <ancestors>
+          <xsl:for-each select="$item-ancestors">
+            <ancestor id="{./@id}"/>
+          </xsl:for-each>
+          <xsl:for-each select="ancestor::tei:div">
+            <ancestor id="{./@xml:id}"/>
+          </xsl:for-each>
+          <xsl:for-each select="ancestor::tei:p[1]">
+            <ancestor id="{./@xml:id}"/>
+          </xsl:for-each>
+        </ancestors>
+      </xsl:variable>
+      <xsl:variable name="element-level" select="count($element-ancestors//ancestor) + 1"/>
       
       <xsl:call-template name="structure_element_quote_expressions_entry">
         <xsl:with-param name="fs" select="$fs"/>
@@ -73,6 +89,9 @@
         <xsl:with-param name="objectId" select="$objectId"/>
         <xsl:with-param name="paragraphParent" select="$paragraphParent"/>
         <xsl:with-param name="source" select="$source"/>
+        
+        <xsl:with-param name="element-ancestors" select="$element-ancestors"/>
+        <xsl:with-param name="element-level" select="$element-level"/>
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -104,6 +123,8 @@
     <xsl:param name="objectId"/>
     <xsl:param name="paragraphParent"/>
     <xsl:param name="source"/>
+    <xsl:param name="element-ancestors"/>
+    <xsl:param name="element-level"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
       <!-- BEGIN global properties -->
@@ -128,7 +149,10 @@
         <xsl:with-param name="isPartOfShortId" select="$paragraphParent"/>
         <xsl:with-param name="elementType">structureElementQuote</xsl:with-param>
         <xsl:with-param name="elementText" select="."/>
+        <xsl:with-param name="ancestors" select="$element-ancestors"/>
+        <xsl:with-param name="finisher" select="''"/>
       </xsl:call-template>
+      <sctap:level><xsl:value-of select="$element-level"/></sctap:level>
       <!-- END structure type properties -->
       <xsl:if test="$quoteRef">
         <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>

@@ -17,6 +17,8 @@
     <xsl:param name="level"/>
     <xsl:param name="blocks"/>
     <xsl:param name="blockFinisher"/>
+    <xsl:param name="ancestors"/>
+    
     <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
     <xsl:if test="$level">
       <sctap:level><xsl:value-of select="$level"/></sctap:level>
@@ -30,6 +32,23 @@
         <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}{$blockFinisher}"/>
       </xsl:if>
     </xsl:for-each>
+    
+    <!-- identify all ancestors as resource that current node is member of -->
+    <xsl:if test="$ancestors">
+      <xsl:for-each select="$ancestors">
+        <xsl:variable name="ancestorid">
+          <xsl:choose>
+            <xsl:when test="./@id='body'">
+              <xsl:value-of select="$cid"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="./@id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$blockFinisher}"/>
+      </xsl:for-each>
+    </xsl:if>
   </xsl:template>
   
 </xsl:stylesheet>

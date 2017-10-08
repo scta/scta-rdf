@@ -27,6 +27,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
+    <xsl:param name="item-ancestors"/>
     <xsl:param name="expressionParentId"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
@@ -42,6 +43,7 @@
       <xsl:call-template name="structure_item_expressions_entry">
         <xsl:with-param name="fs" select="$fs"/>
         <xsl:with-param name="title" select="$title"/>
+        <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
         <xsl:with-param name="item-level" select="$item-level"/>
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
@@ -63,6 +65,7 @@
   <xsl:template name="structure_item_expressions_entry">
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
+    <xsl:param name="item-ancestors"/>
     <xsl:param name="item-level"/>
     <xsl:param name="cid"/>
     <xsl:param name="expressionParentId"/>
@@ -103,6 +106,7 @@
         <xsl:with-param name="level" select="$item-level"></xsl:with-param>
         <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
         <xsl:with-param name="blockFinisher" select="''"/>
+        <xsl:with-param name="ancestors" select="$item-ancestors"/>
       </xsl:call-template>
       <role:AUT rdf:resource="{$author-uri}"/>
      

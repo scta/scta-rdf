@@ -18,12 +18,32 @@
     <xsl:param name="isPartOfShortId"/>
     <xsl:param name="elementType"/>
     <xsl:param name="elementText"/>
+    <xsl:param name="ancestors"/>
+    <xsl:param name="finisher"/>
     
     <sctap:structureType rdf:resource="http://scta.info/resource/structureElement"/>
     <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$isPartOfShortId}"/>
     <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$isPartOfStructureBlockShortId}"/>
     <sctap:structureElementType rdf:resource="http://scta.info/resource/{$elementType}"/>
     <sctap:structureElementText><xsl:value-of select="$elementText"/></sctap:structureElementText>
+    
+    
+    <!-- identify all ancestors as resource that current node is member of -->
+    <xsl:if test="$ancestors">
+      <xsl:for-each select="$ancestors//ancestor">
+        <xsl:variable name="ancestorid">
+          <xsl:choose>
+            <xsl:when test="./@id='body'">
+              <xsl:value-of select="$cid"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="./@id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$finisher}"/>
+      </xsl:for-each>
+    </xsl:if>
   </xsl:template>
   
 </xsl:stylesheet>

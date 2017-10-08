@@ -122,7 +122,10 @@
         <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
         <xsl:variable name="distinctio-number"><xsl:number count="div[@type='distinctio']"/></xsl:variable>
         <xsl:variable name="pars-number"><xsl:number count="div[@type='pars']"/></xsl:variable>
-        <xsl:variable name="item-level" select="count(ancestor::*)"/>
+        <xsl:variable name="item-ancestors" select="ancestor::div"/>
+        <xsl:variable name="item-level" select="count($item-ancestors) + 1"/>
+        <!--<xsl:variable name="item-level" select="count(ancestor::*)"/>-->
+        
         <xsl:variable name="expressionParentId" select="./parent::div/@id"/>
         <!-- TODO decideif item-dtsurn is desired -->
         <xsl:variable name="item-dtsurn">
@@ -236,6 +239,7 @@
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="info-path" select="$info-path"/>
+          <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
           <xsl:with-param name="item-level" select="$item-level"/>
           <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
@@ -260,6 +264,7 @@
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="info-path" select="$info-path"/>
           <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
           
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
           <xsl:with-param name="expressionType" select="$expressionType"/>
@@ -283,6 +288,7 @@
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="info-path" select="$info-path"/>
           <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
           <xsl:with-param name="expressionType" select="$expressionType"/>
           <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
@@ -348,6 +354,7 @@
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
           <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
           <xsl:with-param name="expressionType" select="$expressionType"/>

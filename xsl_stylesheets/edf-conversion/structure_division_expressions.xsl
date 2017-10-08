@@ -26,7 +26,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
-    
+    <xsl:param name="item-ancestors"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
@@ -41,6 +41,17 @@
       
       <xsl:for-each  select="document($extraction-file)//tei:body/tei:div//tei:div">
         
+        <xsl:variable name="div-ancestors">
+          <ancestors>
+            <xsl:for-each select="$item-ancestors">
+              <ancestor id="{./@id}"/>
+            </xsl:for-each>
+            <xsl:for-each select="ancestor::tei:div">
+              <ancestor id="{./@xml:id}"/>
+            </xsl:for-each>
+          </ancestors>
+        </xsl:variable>
+        <xsl:variable name="div-level" select="count($div-ancestors//ancestor) + 1"/>
         <xsl:variable name="div-number"><xsl:number count="tei:div[parent::*[not(name()='body')]]" level="multiple" format="1"/></xsl:variable>
         <xsl:variable name="divisionID">
           <xsl:choose>
@@ -94,6 +105,8 @@
           <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
           <xsl:with-param name="divisionID" select="$divisionID"/>
+          <xsl:with-param name="div-level" select="$div-level"/>
+          <xsl:with-param name="div-ancestors" select="$div-ancestors"/>
           
           <xsl:with-param name="info-path" select="$info-path"/>
           
@@ -124,6 +137,8 @@
     <xsl:param name="divisionID"/>
     <xsl:param name="divisionExpressionType"/>
     <xsl:param name="info-path"/>
+    <xsl:param name="div-level"/>
+    <xsl:param name="div-ancestors"/>
     
       
       <rdf:Description rdf:about="http://scta.info/resource/{$divisionID}">
@@ -150,8 +165,10 @@
           <xsl:with-param name="blockFinisher" select="''"/>
           <xsl:with-param name="isPartOfStructureItemShortId" select="$fs"/>
           <xsl:with-param name="isPartOfShortId" select="$ParentId"/>
+          <xsl:with-param name="ancestors" select="$div-ancestors"/>
         </xsl:call-template>
         
+        <sctap:level><xsl:value-of select="$div-level"/></sctap:level>
         <!-- TODO: decide if dts is desired
     					<xsl:variable name="div-urn" select="$div-number"/>
     					<sctap:dtsurn><xsl:value-of select="concat($item-dtsurn, '.', $div-urn)"/></sctap:dtsurn>
