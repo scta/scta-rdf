@@ -15,9 +15,9 @@
   
   
     <!--uncomment for tests to work--> 
-    <xsl:import href="global_properties.xsl"/>
+    <!--<xsl:import href="global_properties.xsl"/>
     <xsl:import href="manifestation_properties.xsl"/>
-    <xsl:import href="structure_collection_properties.xsl"/>
+    <xsl:import href="structure_collection_properties.xsl"/>-->
   
   <xsl:template name="top_level_manifestation">
     <xsl:param name="cid"/>

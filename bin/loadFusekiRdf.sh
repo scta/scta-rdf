@@ -51,10 +51,20 @@
 	./s-post http://localhost:3030/ds/data default $rdfbase/names/Prosopography.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/works/workscited.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/subjects/subjectlist.rdf
-	./s-post http://localhost:3030/ds/data default $rdfbase/relations/relations.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/auctoritatesquotations.rdf
 	#./s-post http://localhost:3030/ds/data default $rdfbase/quotations/bsaquotations.rdf
 
+	# load passive relations
+	echo "begin loading relations data"
+	for f in $rdfbase/relations/*
+	do
+		filename=$(basename "$f");
+		extension="${filename##*.}";
+		filename="${filename%.*}";
+		echo "$rdfbase/relations/${filename}.rdf"
+		./s-post http://localhost:3030/ds/data default $rdfbase/relations/${filename}.rdf
+	done
+	
 	#load codices
 	echo "begin loading codices data"
 	for f in $rdfbase/codices/*
@@ -86,6 +96,7 @@
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/miscquotationslist.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/anselm_quotationslist.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/augustine_quotationslist.rdf
+	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/aristotle_quotationslist.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/lombard_quotationslist.rdf
 	./s-post http://localhost:3030/ds/data default $rdfbase/quotations/canonlaw_quotations.rdf
 
