@@ -14,6 +14,7 @@
   version="2.0">
   
   <xsl:template name="structure_collection_properties">
+    <xsl:param name="cid"/>
     <xsl:param name="level"/>
     <xsl:param name="items"/>
     <xsl:param name="itemFinisher"/>

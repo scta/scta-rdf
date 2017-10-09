@@ -13,11 +13,11 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
-  <!--
-    uncomment for tests to work 
+  
+    <!--uncomment for tests to work--> 
     <xsl:import href="global_properties.xsl"/>
-  <xsl:import href="manifestation_properties.xsl"/>
-  <xsl:import href="structure_collection_properties.xsl"/>-->
+    <xsl:import href="manifestation_properties.xsl"/>
+    <xsl:import href="structure_collection_properties.xsl"/>
   
   <xsl:template name="top_level_manifestation">
     <xsl:param name="cid"/>
@@ -50,6 +50,7 @@
     </xsl:for-each>
     <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
     <!-- TODO: this info probably needs to come from somewhere else; each manifestation will have different transcriptions and different number available -->
+    <xsl:for-each select="$top-level-witnesses[1]">
     <xsl:variable name="transcriptions">
       <transcriptions>
         <transcription name="transcription" canonical="true"/>
@@ -63,8 +64,8 @@
       <xsl:with-param name="wit-canvasbase"></xsl:with-param>
       <xsl:with-param name="wit-slug">critical</xsl:with-param>
       <xsl:with-param name="transcriptions" select="$transcriptions"/>
-      
     </xsl:call-template>
+    </xsl:for-each>
   </xsl:template>
   <xsl:template name="top_level_manifestation_entry">
     <xsl:param name="cid"/>
