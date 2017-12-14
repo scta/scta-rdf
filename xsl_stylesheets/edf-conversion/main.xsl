@@ -165,7 +165,13 @@
               </manifestation>
             </xsl:for-each>
             
-            <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la" canonical="{$canonical-manifestation-id eq 'critical'}"/>
+            <!-- this is a temporary way to include the default critical as a manifestation 
+              a critical manifestation will be included any time the file canonical file name follows the critical pattern 
+              if the canonical-filename-slug was pointed to a diplomatic transcription, but there was still a critical file this would not work 
+            -->
+            <xsl:if test="not(contains($canonical-filename-slug, '_'))">
+              <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la" canonical="{$canonical-manifestation-id eq 'critical'}"/>
+            </xsl:if>
             <xsl:for-each select="$translationManifestations">
               <xsl:variable name="translationManifestationSlug" select="./@name"/>
               <manifestation wit-slug="{$translationManifestationSlug}" wit-title="{./@title}" type="translation" lang="{./@lang}" canonical="false"/>
@@ -517,6 +523,10 @@
           <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         </xsl:call-template>
+        <xsl:call-template name="marginal_note_manifestations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+        </xsl:call-template>
         <xsl:call-template name="structure_element_quote_manifestations">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
@@ -547,6 +557,7 @@
   <xsl:include href="structure_block_expressions.xsl"/>
   <xsl:include href="structure_block_manifestations.xsl"/>
   <xsl:include href="structure_block_transcriptions.xsl"/>
+  <xsl:include href="marginal_note_manifestations.xsl"/>
   <xsl:include href="structure_element_name_expressions.xsl"/>
   <xsl:include href="structure_element_title_expressions.xsl"/>
   <xsl:include href="structure_element_quote_expressions.xsl"/>

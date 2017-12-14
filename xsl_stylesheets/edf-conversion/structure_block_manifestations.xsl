@@ -147,20 +147,7 @@
       </xsl:call-template>
       <sctap:hasSurface rdf:resource="{$paragraph-surface}"/>
       
-      <!-- create hasMarginalNote assertion-->
-      <xsl:for-each select=".//tei:note[@type='marginal-note']">
-        <xsl:variable name="marginal-note-id">
-          <xsl:choose>
-            <xsl:when test="./@xml:id">
-              <xsl:value-of select="./@xml:id"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="concat('mn-', generate-id())"/>
-            </xsl:otherwise>
-          </xsl:choose> 
-        </xsl:variable>
-        <sctap:hasMarginalNote rdf:resource="http://scta.info/resource/{$marginal-note-id}"/>
-      </xsl:for-each>
+      
       <!-- create hasStructureElement assertion -->
       <xsl:for-each select=".//tei:quote[@xml:id]">
         <xsl:variable name="this-quote-id" select="./@xml:id"/>

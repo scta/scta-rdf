@@ -102,6 +102,7 @@
       <!-- END expression properties -->
       <!-- BEGIN structure collection properties -->
       <xsl:call-template name="structure_collection_properties">
+        <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="level" select="$current-div-level"/>
         <xsl:with-param name="items" select="$current-div//item"/>
         <xsl:with-param name="itemFinisher" select="''"/>

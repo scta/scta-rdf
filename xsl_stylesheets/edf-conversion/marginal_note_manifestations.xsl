@@ -13,7 +13,7 @@
   xmlns:ldp="http://www.w3.org/ns/ldp#"
   version="2.0">
   
-  <xsl:template name="structure_element_quote_manifestations">
+  <xsl:template name="marginal_note_manifestations">
     <xsl:param name="cid"/>
     <xsl:param name="manifestations"/>
     
@@ -48,7 +48,7 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
-        <xsl:call-template name="structure_element_quote_manifestations_entry">
+        <xsl:call-template name="marginal_note_manifestations_entry">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="wit-slug" select="$wit-slug"/>
           <xsl:with-param name="pid" select="$pid"/>
@@ -59,7 +59,7 @@
       </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
-  <xsl:template name="structure_element_quote_manifestations_entry">
+  <xsl:template name="marginal_note_manifestations_entry">
     <xsl:param name="cid"/>
     <xsl:param name="wit-slug"/>
     <!-- p level params -->
@@ -67,6 +67,12 @@
     <xsl:param name="marginal-note-id"/>
     <xsl:param name="surface"/>
     
+    <!-- create hasMarginalNote for parent block --> 
+    <rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}">
+      <sctap:hasMarginalNote rdf:resource="http://scta.info/resource/{$marginal-note-id}"/>
+    </rdf:Description>
+    
+    <!-- create hasMarginalNote assertion-->
     <rdf:Description rdf:about="http://scta.info/resource/{$marginal-note-id}">
       <dc:title>Marginal Note <xsl:value-of select="$marginal-note-id"/></dc:title>
       <!--TODO: confirm: marginalNote type, is kind of a sub classs of Manifestation, similar to the way Translation is a subclass of Manifestation -->

@@ -31,6 +31,9 @@
 			<xsl:for-each select="./hasItems//item">
 				<xsl:variable name="codex-item-id" select="./shortid"/>
 				<sctap:hasCodexItem rdf:resource="http://scta.info/resource/{$codex-item-id}"/>
+			  <xsl:if test="./canonical eq 'true'">
+			    <sctap:hasCanonicalCodexItem rdf:resource="http://scta.info/resource/{$codex-item-id}"/>
+			  </xsl:if>
 			</xsl:for-each>
 			<xsl:for-each select="//surface">
 				<xsl:variable name="surfaceid" select="./shortid"/>
@@ -42,6 +45,7 @@
 			<xsl:variable name="official-manifest" select="./manifestOfficial"/>
 			<rdf:Description rdf:about="http://scta.info/resource/{$icodexid}">
 				<rdf:type rdf:resource="http://scta.info/resource/icodex"/>
+			  <dc:title><xsl:value-of select="./label"/></dc:title>
 				<sctap:hasOfficialManifest rdf:resource="{$official-manifest}"/>
 			  <sctap:canvasPagedType><xsl:value-of select="./canvasPagedType"/></sctap:canvasPagedType>
 				<sctap:isCodexItemOf rdf:resource="http://scta.info/resource/{$codexid}"/>
@@ -71,18 +75,25 @@
 				<xsl:variable name="isurfaceid" select="./shortid"/>
 				<xsl:variable name="canvasslug" select="./canvasslug"/>
 				<sctap:hasISurface rdf:resource="http://scta.info/resource/{$isurfaceid}"/>
+			  <xsl:if test="./canonical eq 'true'">
+			    <sctap:hasCanonicalISurface rdf:resource="http://scta.info/resource/{$isurfaceid}"/>
+			  </xsl:if>
 			</xsl:for-each>
 		</rdf:Description>
 		<xsl:for-each select="./hasISurfaces//ISurface">
 			<xsl:variable name="isurfaceid" select="./shortid"/>
 			<!-- TODO canvasslug should be different the isurface shortid; both should be specified in the msdescription file -->
 			<xsl:variable name="canvasslug" select="./canvasslug"/>
-			<!-- TODO this needs to be changed; this will only work as long as there is only one canvasbase -->
-			<xsl:variable name="canvasbase" select="//canvasBase"/>
-			<rdf:Description rdf:about="http://scta.info/resource/{$isurfaceid}">
+			<!-- TODO this is a little bit precarious because it depends on partial string matching. It would be better if there were a ref in each isurface pointing to the icodex -->
+		  <xsl:variable name="isurfaceslug" select="tokenize($isurfaceid, '/')[last()]"/>
+		  <xsl:variable name="canvasbase" select="/codex/head/hasItems/item[shortid/text()/contains(., $isurfaceslug)]/canvasBase"/>
+		  <xsl:variable name="icodexshortid" select="/codex/head/hasItems/item[shortid/text()/contains(., $isurfaceslug)]/shortid"/>
+		  <rdf:Description rdf:about="http://scta.info/resource/{$isurfaceid}">
+		    <dc:title><xsl:value-of select="./label"/></dc:title>
 				<rdf:type rdf:resource="http://scta.info/resource/isurface"/>
 				<xsl:variable name="canvasid" select="concat($canvasbase, $canvasslug)"/>
 				<sctap:hasCanvas rdf:resource="{$canvasid}"/>
+		    <dc:isPartOf rdf:resource="http://scta.info/resource/{$icodexshortid}"></dc:isPartOf>
 			</rdf:Description>
 
 		</xsl:for-each>

@@ -10,6 +10,13 @@ else
   builddir="/Users/jcwitt/Projects/scta/scta-builds";
 
   echo "creating $builddir/$buildname ..."
-  cp -R "$builddir/canvases-2017-09-30" "$builddir/$buildname"
+  if [[ $2 == "all" ]]
+    then
+      echo "canvas prebuild skipped; creating blank directory"
+      mkdir "$builddir/$buildname"
+    else
+      echo "copying canvas prebuild"
+      cp -R "$builddir/canvases-pre-build" "$builddir/$buildname"
+  fi
   echo "all done"
 fi

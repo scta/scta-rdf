@@ -45,7 +45,7 @@
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/uncategorized"/>
       
     	<!-- adding expressions -->
-    	<xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./sctap:expressionType/@rdf:resource = 'http://scta.info/resource/commentary']">
+      <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z]*.rdf'))/rdf:RDF/rdf:Description[./rdf:type/@rdf:resource = 'http://scta.info/resource/expression'][./sctap:level = '1']">
     		<xsl:variable name="commentaryid" select="./@rdf:about"/>
     		<sctap:hasExpression rdf:resource="{$commentaryid}"/>
     	</xsl:for-each>

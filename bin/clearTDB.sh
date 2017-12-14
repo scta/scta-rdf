@@ -12,6 +12,13 @@ else
   echo "removing $builddir/$buildname ..."
   rm -rf "$builddir/$buildname"
   echo "recreating $builddir/$buildname ..."
-  cp -R "$builddir/canvases-2017-09-30" "$builddir/$buildname"
+  if [[ $2 == "all" ]]
+    then
+      echo "canvas prebuild skipped. creating blank directory"
+      mkdir "$builddir/$buildname"
+    else
+      echo "copying canvas prebuild"
+      cp -R "$builddir/canvases-pre-build" "$builddir/$buildname"
+  fi
   echo "all done"
 fi
