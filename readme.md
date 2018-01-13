@@ -16,7 +16,7 @@ Ruby gem "thor" install with `gem install thor`
 saxon
 fuseki
 
-`git clone --recursive git@github.com:scta/scta-projectfiles.git`
+`git clone --recursive git@github.com:scta/scta-rdf.git`
 
 download scta-texts
 
