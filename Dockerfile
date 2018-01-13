@@ -1,5 +1,5 @@
 FROM alpine:3.5
-#
+#ENV variables
 ENV DOCKER=true
 # Basic Utils
 RUN apk update && apk upgrade
@@ -32,17 +32,12 @@ RUN curl -L -o /home/fuseki/apache-jena-fuseki-2.3.1.zip http://archive.apache.o
     unzip /home/fuseki/apache-jena-fuseki-2.3.1.zip -d /home/fuseki/ && \
     rm /home/fuseki/apache-jena-fuseki-2.3.1.zip
 
-# mkdir fuseki build directory
-RUN mkdir -p /home/scta-builds
-
-ADD ./build/canvases-pre-build /home/scta-builds/canvases-pre-build
+ADD . /home/scta-rdf
 
 # mkdir scta-text directory
-RUN mkdir -p /home/scta-texts
-RUN curl -L -o /home/scta-texts/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz http://gateway.ipfs.io/ipfs/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz && \
-    tar -xvzf /home/scta-texts/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz -C /home/scta-texts/
+RUN mkdir -p /home/scta-rdf/data/scta-texts
+RUN curl -L -o /home/scta-rdf/data/scta-texts/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz http://gateway.ipfs.io/ipfs/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz && \
+    tar -xvzf /home/scta-rdf/data/scta-texts/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz -C /home/scta-rdf/data/scta-texts/
 
 #install thor
 RUN gem install thor --no-ri --no-rdoc
-
-RUN cd /home && git clone -b develop --recursive https://github.com/scta/scta-rdf.git
