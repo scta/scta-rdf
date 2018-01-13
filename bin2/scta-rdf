@@ -12,9 +12,13 @@ class MyCLI < Thor
     exec("#{$base}/bin2/createTDB.sh #{buildname} #{build_directory} #{prebuild}")
   end
   desc "start_fuseki", "start fuseki"
-  def start_fuseki (tdb)
+  def start_fuseki (tdb, readonly=false)
     location = "#{$fuseki_builds}/#{tdb}"
-    exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location} --update /ds")
+    if readonly
+      exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location} /ds")
+    else
+      exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location} --update /ds")
+    end
   end
   desc "create_codex CODEX", "create codex"
   def create_codex (codex)

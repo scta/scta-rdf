@@ -4,21 +4,68 @@ This Application construct the SCTA RDF Database for its component parts.
 
 # Install
 
-Run with Docker
+`git clone --recursive git@github.com:scta/scta-rdf.git`
 
-Install from Source
+`docker build . -t scta-rdf`
+
+Cloned versions do not come with rdf-build or prebuilds, enter into the docker container to create these builds
+
+# Run With Docker
+
+Enter into container to build data or manually start fuseki
+
+`docker run -it -p 3030:3030 --entrypoint /bin/bash scta-rdf`
+
+to create builds run
+
+`/home/scta-rdf/bin2/scta-rdf extract_all`
+
+this will take time and requires a lot of memory
+
+once the rdf build is complete, you can load this into fuseki.
+
+create a empty directory for the scta build
+
+`/home/scta-rdf/bin2/scta-rdf create_TDB build-2018-01-13`
+
+then you can start fuseki. Use Tmux to switch shells.
+
+`tmux new -s fuseki`
+
+the in the new shell RUN
+
+`/home/scta-rdf/bin2/scta-rdf start_fuseki build-2018-01-13`
+
+exit tmux
+
+`ctl + b, d`
+
+now load rdf graphs into the TDB directory via Fuseki
+
+`/home/scta-rdf/bin2/scta-rdf load_all`
+
+Once you have a build, you can turn fuseki on and off without entering the container by using the -d flag
+
+To run fuseki container with default fuseki build in detach mode, run the following command
+
+`docker run -d -p 3030:3030 scta-rdf /home/scta-rdf/bin2/scta-rdf start_fuseki build-2018-01-12`
+
+#Install from Source
+
+Install Dependencies
+
+install ruby gem "thor" install with `gem install thor`
+install saxon
+install fuseki
 
 Clone repo and submodules
 
-Dependencies
-
-Ruby gem "thor" install with `gem install thor`
-saxon
-fuseki
-
 `git clone --recursive git@github.com:scta/scta-rdf.git`
 
-download scta-texts
+download and unzip scta texts
+
+curl -L -o scta-texts.tar.gz http://gateway.ipfs.io/ipfs/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz && \
+    tar -xvzf /scta-texts.tar.gz -C scta-texts/
 
 Update config
 `$base=LOCATION_OF_CLONED_REPO`
