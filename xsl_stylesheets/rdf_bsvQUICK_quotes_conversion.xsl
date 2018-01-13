@@ -4,7 +4,7 @@
 	
 	<xsl:output method="xml" indent="yes"/>
 	<xsl:param name="lbpworkname">gen</xsl:param>
-	<xsl:variable name="bibleQuotesList">/Users/jcwitt/Projects/scta/scta-quotations/bible_quotations.xml</xsl:variable>
+	<xsl:variable name="bibleQuotesList">/Users/jcwitt/Projects/scta/scta-rdf/data/scta-quotations/bible_quotations.xml</xsl:variable>
 	<xsl:template match="/">
 		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
 			xmlns:tei="http://www.tei-c.org/ns/1.0"

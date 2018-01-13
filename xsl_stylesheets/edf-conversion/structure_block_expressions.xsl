@@ -244,45 +244,49 @@
             
           </xsl:for-each>
           <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote[contains(./@source, 'http://scta.info/resource')]">
-            <xsl:variable name="commentarySectionUrl" select="./@source"></xsl:variable>
             <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
             <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
-            <sctap:quotes rdf:resource="{$commentarySectionUrl}"/>
+            <xsl:for-each select="tokenize(./@source, ' ')">
+              <xsl:variable name="commentarySectionUrl" select="."></xsl:variable>
+              <sctap:quotes rdf:resource="{$commentarySectionUrl}"/>
+            </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
           </xsl:for-each>
           <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote">
-            <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
-            <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
             <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
             <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
-            <xsl:if test="$quoteRef">
+            <xsl:for-each select="tokenize(./@ana, ' ')">
+              <xsl:variable name="quoteRef" select="."></xsl:variable>
+              <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
               <sctap:quotes rdf:resource="http://scta.info/resource/{$quoteID}"/>
-            </xsl:if>
+            </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
           </xsl:for-each>
           
           <!-- [not(ancestor::tei:bibl] excludes references made in bibl elements -->
           <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref[contains(./@target,'http://scta.info/resource')][not(ancestor::tei:bibl)]">
-            <xsl:variable name="commentarySectionUrl" select="./@target"></xsl:variable>
             <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
             <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
-            <sctap:references rdf:resource="{$commentarySectionUrl}"/>
+            <xsl:for-each select="tokenize(./@target, ' ')">
+              <xsl:variable name="commentarySectionUrl" select="."></xsl:variable>
+              <sctap:references rdf:resource="{$commentarySectionUrl}"/>
+            </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource{$objectId}"/>
           </xsl:for-each>
           
           <!-- default is ref referring to quotation resource or type="quotation" -->  
           <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref">
-            <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
-            <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
             <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
             <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
-            <xsl:if test="$quoteRef">
+            <xsl:for-each select="tokenize(./@ana, ' ')">
+              <xsl:variable name="quoteRef" select="."></xsl:variable>
+              <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
               <sctap:references rdf:resource="http://scta.info/resource/{$quoteID}"/>
-            </xsl:if>
+            </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
           </xsl:for-each>
           

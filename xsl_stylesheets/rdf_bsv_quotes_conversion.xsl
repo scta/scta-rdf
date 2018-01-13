@@ -4,7 +4,7 @@
     
     <xsl:output method="xml" indent="yes"/>
     <xsl:param name="lbpworkname">gen</xsl:param>
-    <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
+    <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/build/commentaries/</xsl:variable>
     <xsl:template match="/">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
             xmlns:tei="http://www.tei-c.org/ns/1.0"

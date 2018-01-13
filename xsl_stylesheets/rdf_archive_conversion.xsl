@@ -4,7 +4,7 @@
   
   <xsl:param name="projectfilesversion">null</xsl:param>
   <xsl:output method="xml" indent="yes"/>
-  <xsl:variable name="rdfhome">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
+  <xsl:param name="rdfhome"/>
 	
   
   <xsl:template match="/">
@@ -24,6 +24,7 @@
     	<xsl:call-template name="create-summulaelogicales-work-group"/>
       <xsl:call-template name="create-canonlaw-work-group"/>
       <xsl:call-template name="create-canonlaw-statutes-work-group"/>
+      <xsl:call-template name="create-quodlibeta-work-group"/>
       <xsl:call-template name="create-uncategorized-work-group"/>
     </rdf:RDF>
   </xsl:template>
@@ -42,6 +43,7 @@
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/summulaelogicales"/>
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/dionysiuscommentarius"/>
       <dcterms:hasPart rdf:resource="http://scta.info/resource/canonlaw"/>
+      <dcterms:hasPart rdf:resource="http://scta.info/resource/quodlibeta"/>
     	<dcterms:hasPart rdf:resource="http://scta.info/resource/uncategorized"/>
       
     	<!-- adding expressions -->
@@ -171,6 +173,21 @@
       <dcterms:isPartOf rdf:resource="http://scta.info/resource/canonlaw"/>
       <!-- This templates create the top level collection, containing all commentaries. -->
       <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./dcterms:isPartOf/@rdf:resource = 'http://scta.info/resource/statutes']">
+        <xsl:variable name="commentaryid" select="./@rdf:about"/>
+        <dcterms:hasPart rdf:resource="{$commentaryid}"/>
+        <sctap:hasExpression rdf:resource="{$commentaryid}"/>
+      </xsl:for-each>
+    </rdf:Description>
+  </xsl:template>
+  <xsl:template name="create-quodlibeta-work-group">
+    <rdf:Description rdf:about="http://scta.info/resource/quodlibeta">
+      <dc:title>Quodlibeta</dc:title>
+      <dc:description>A Work Group for Quodlibeta</dc:description>
+      <rdf:type rdf:resource="http://scta.info/resource/workGroup"/>
+      <sctap:dtsurn>urn:dts:latinLit:quodlibeta</sctap:dtsurn>
+      <sctap:shortId>quodlibeta</sctap:shortId>
+      <!-- This templates create the top level collection, containing all quodlibeta. -->
+      <xsl:for-each select="collection(concat($rdfhome, '?select=[a-zA-Z0-9]*.rdf'))/rdf:RDF/rdf:Description[./dcterms:isPartOf/@rdf:resource = 'http://scta.info/resource/quodlibeta']">
         <xsl:variable name="commentaryid" select="./@rdf:about"/>
         <dcterms:hasPart rdf:resource="{$commentaryid}"/>
         <sctap:hasExpression rdf:resource="{$commentaryid}"/>

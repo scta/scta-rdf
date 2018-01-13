@@ -8,9 +8,6 @@
 	
 	<xsl:output method="xml" indent="yes"/>
 
-	<xsl:variable name="commentary-rdf-home"
-		>/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
-
 	<xsl:template match="/">
 		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 			xmlns:sctap="http://scta.info/property/" xmlns:sctar="http://scta.info/resource/"

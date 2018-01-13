@@ -14,6 +14,7 @@
   <xsl:variable name="cid"><xsl:value-of select="//header/commentaryid"/></xsl:variable>
   <xsl:variable name="commentaryslug"><xsl:value-of select="//header/commentaryslug"/></xsl:variable>
   <xsl:variable name="author-uri"><xsl:value-of select="//header/authorUri"/></xsl:variable>
+  
   <xsl:variable name="textfilesdir"><xsl:value-of select="$textfilesbase"/><xsl:value-of select="$cid"/>/</xsl:variable>
   
   <xsl:variable name="gitRepoBase">

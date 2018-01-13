@@ -1,0 +1,158 @@
+#!/usr/bin/ruby
+require "thor"
+require_relative "config"
+
+class MyCLI < Thor
+  desc "clear_TDB", "clear TDB"
+  def clear_TDB (buildname, build_directory=$fuseki_builds, prebuild=true)
+    exec("#{$base}/bin2/clearTDB.sh #{buildname} #{build_directory} #{prebuild}")
+  end
+  desc "create_TDB BUILD_DIRECTORY", "create new build director at BUILD_DIRECTORY"
+  def create_TDB (buildname, build_directory=$fuseki_builds, prebuild=true)
+    exec("#{$base}/bin2/createTDB.sh #{buildname} #{build_directory} #{prebuild}")
+  end
+  desc "start_fuseki", "start fuseki"
+  def start_fuseki (tdb)
+    location = "#{$fuseki_builds}/#{tdb}"
+    exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location} --update /ds")
+  end
+  desc "create_codex CODEX", "create codex"
+  def create_codex (codex)
+    puts "creating codex metadata for #{codex}";
+    `saxon '-warnings:silent' '-s:#{$base}/data/scta-codices/#{codex}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_codices_conversion.xsl' '-o:#{$base}/build/codices/#{codex}.rdf'`
+  end
+  desc "create_codices", "create codices"
+  def create_codices
+    Dir.foreach("#{$base}/data/scta-codices/") do |item|
+      if item.include?(".xml")
+        codex = item.split(".xml").first
+        self.create_codex(codex)
+      end
+    end
+  end
+  desc "create_passive_relation EDF", "create passive relation"
+  def create_passive_relation (edf)
+    puts "Creating passive metadata assertion for #{edf}"
+    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}.rdf" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/#{edf}.rdf" "commentary-rdf-home=#{$base}/build/commentaries";`
+  end
+  desc "create_passive_relations", "create passive relations"
+  def create_passive_relations
+    Dir.foreach("#{$base}/build/commentaries/") do |item|
+      if item.include?(".rdf")
+        edf = item.split(".rdf").first
+        self.create_passive_relation(edf)
+      end
+    end
+  end
+  desc "create_custom_quotation", "create custom quotation"
+  def create_custom_quotation (quotation_list)
+    puts "creation list for #{quotation_list}"
+    `saxon "-warnings:silent" "-s:#{$base}/data/scta-quotations/#{quotation_list}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_customquotes_conversion.xsl" "-o:#{$base}/build/quotations/#{quotation_list}.rdf";`
+  end
+  desc "create_custom_quotations", "create custom quotations"
+  def create_custom_quotations
+    Dir.foreach("#{$base}/data/scta-quotations/") do |item|
+      if item.include?(".xml")
+        quotation_list = item.split(".xml").first
+        self.create_custom_quotation(quotation_list)
+      end
+    end
+  end
+  desc "create_bible_quotations", "create bible quotations"
+  def create_bible_quotations
+    exec("#{$base}/bin2/rdfBibleExtract.sh all")
+  end
+  desc "create_expression EDF", "create expression"
+  def create_expression (edf)
+    puts "creating expression for #{edf}"
+    `saxon -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
+  end
+  desc "create_expressions", "create expressions"
+  def create_expressions
+    Dir.foreach("#{$base}/data/scta-projectfiles/") do |item|
+      if item.include?(".xml")
+        edf = item.split(".xml").first
+        self.create_expression(edf)
+      end
+    end
+  end
+  desc "create_workgroups", "create workgroups"
+  def create_workgroups
+    #projectfilesversion= exec("cd #{$base}/data/scta-projectfiles && $( git describe --tags --always)")
+    projectfilesversion="test"
+    puts "Begin top level archive collection creation"
+    `saxon "-warnings:silent" "-s:#{$base}/xsl_stylesheets/rdf_archive_conversion.xsl" "-xsl:#{$base}/xsl_stylesheets/rdf_archive_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfilesversion=#{projectfilesversion}" "rdfhome="#{$base}/build/commentaries/`
+  end
+  desc "create_works", "create work list"
+  def create_works
+    puts "Begin Workcited Metadata extraction";
+  	`saxon "-s:#{$base}/data/lombardpress-lists/workscited.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_works_conversion.xsl" "-o:#{$base}/build/works/workscited.rdf";`
+  end
+  desc "create_names", "create names"
+  def create_names
+  	puts "Begin Nameslist Metadata extraction";
+  	`saxon "-s:#{$base}/data/lombardpress-lists/Prosopography.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf";`
+  end
+  desc "create_person_groups", "create person groups"
+  def create_person_groups
+    puts "Begin PersonGroupList Metadata extraction";
+  	`saxon "-s:#{$base}/data/lombardpress-lists/persongroups.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_persongroups_conversion.xsl" "-o:#{$base}/build/names/persongroups.rdf" ;`
+  end
+  desc "create_subject_list", "create subject list"
+  def create_subject_list
+  	puts "Begin Subjectlist Metadata extraction";
+  	`saxon "-s:#{$base}/data/lombardpress-lists/subjectlist.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_subjects_conversion.xsl" "-o:#{$base}/build/subjects/subjectlist.rdf";`
+  end
+  desc "extract_all", "extract all"
+  def extract_all
+    self.create_expressions
+    self.create_codices
+    self.create_custom_quotations
+    #self.create_bible_quotations
+    self.create_workgroups
+    self.create_works
+    self.create_names
+    self.create_person_groups
+    self.create_subject_list
+    self.create_passive_relations
+  end
+  desc "load_graph graph", "load graph"
+  def load_graph (subdirectory, graph)
+    puts "loading #{$base}/build/#{subdirectory}/#{graph}"
+    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data default #{$base}/build/#{subdirectory}/#{graph}`
+  end
+  desc "load_graphs", "load graphs"
+  def load_graphs(subdirectory)
+    Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
+      if item.include?(".rdf") || item.include?(".ttl")
+        self.load_graph(subdirectory, item)
+      end
+    end
+  end
+  desc "load_canvases", "load canvases"
+  def load_canvases
+    self.load_graphs("codices/canvases")
+  end
+  desc "load_all", "load all"
+  def load_all
+    #exec("./loadFusekiRdf.sh #{$base} #{$fuseki}")
+    self.load_graph("", "scta.rdf")
+    self.load_graphs("commentaries")
+    self.load_graphs("names")
+    self.load_graphs("works")
+    self.load_graphs("subjects")
+    self.load_graphs("quotations")
+    self.load_graphs("quotations/bsvquotations")
+    self.load_graphs("relations")
+    self.load_graphs("codices")
+    self.load_graph("", "scta-rdfs-schema.ttl")
+    self.load_graph("", "scta_expression_types.ttl")
+    #canvases should be loaded in preload
+
+  end
+
+
+
+end
+
+MyCLI.start(ARGV)

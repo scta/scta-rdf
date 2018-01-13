@@ -39,8 +39,8 @@
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="document($extraction-file)//tei:body//tei:quote">
-      <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
-      <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
+      <!--<xsl:variable name="quoteRef" select="./@ana"></xsl:variable>-->
+      <!--<xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>-->
       <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
       <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
@@ -82,8 +82,8 @@
         <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         
-        <xsl:with-param name="quoteRef" select="$quoteRef"/>
-        <xsl:with-param name="quoteID" select="$quoteID"/>
+        <!--<xsl:with-param name="quoteRef" select="$quoteRef"/>-->
+        <!--<xsl:with-param name="quoteID" select="$quoteID"/>-->
         <xsl:with-param name="quoteTitles" select="$totalQuotes"/>
         <xsl:with-param name="totalFollowingQuotes" select="$totalFollowingQuotes"></xsl:with-param>
         <xsl:with-param name="objectId" select="$objectId"/>
@@ -115,8 +115,8 @@
     <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
-    <xsl:param name="quoteRef"/>
-    <xsl:param name="quoteID"/>
+    <!--<xsl:param name="quoteRef"/>-->
+    <!--<xsl:param name="quoteID"/>-->
     <xsl:param name="quoteTitles"/>
     <xsl:param name="totalQuotes"/>
     <xsl:param name="totalFollowingQuotes"></xsl:param>
@@ -154,9 +154,12 @@
       </xsl:call-template>
       <sctap:level><xsl:value-of select="$element-level"/></sctap:level>
       <!-- END structure type properties -->
-      <xsl:if test="$quoteRef">
+      <xsl:for-each select="tokenize(./@ana, ' ')">
+        <xsl:variable name="quoteRef" select="."></xsl:variable>
+        <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
         <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
-      </xsl:if>
+      </xsl:for-each>
+      
       <xsl:if test="$source">
         <sctap:source rdf:resource="{$source}"/>
       </xsl:if>

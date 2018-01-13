@@ -4,7 +4,7 @@
     
 <xsl:output method="xml"/>
     
-    <xsl:variable name="commentary-rdf-home">/Users/jcwitt/Projects/scta/scta-rdf/commentaries/</xsl:variable>
+    <!--<xsl:param name="commentary-rdf-home"/>-->
     
     <xsl:template match="/">
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
