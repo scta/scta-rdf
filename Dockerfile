@@ -1,6 +1,6 @@
 FROM alpine:3.5
 #
-ENV DOCKER=true 
+ENV DOCKER=true
 # Basic Utils
 RUN apk update && apk upgrade
 
@@ -35,10 +35,12 @@ RUN curl -L -o /home/fuseki/apache-jena-fuseki-2.3.1.zip http://archive.apache.o
 # mkdir fuseki build directory
 RUN mkdir -p /home/scta-builds
 
+ADD ./build/canvases-pre-build /home/scta-builds/canvases-pre-build
+
 # mkdir scta-text directory
 RUN mkdir -p /home/scta-texts
-ADD /data/scta-texts/scta-texts-2018-01-13.tar.gz /home/scta-texts/scta-texts-2018-01-13
-RUN ln -s /home/scta-texts/scta-texts-2018-01-13 /home/scta-texts/current-build
+RUN curl -L -o /home/scta-texts/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz http://gateway.ipfs.io/ipfs/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz && \
+    tar -xvzf /home/scta-texts/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz -C /home/scta-texts/
 
 #install thor
 RUN gem install thor --no-ri --no-rdoc
