@@ -1,5 +1,6 @@
 FROM alpine:3.5
-
+#
+ENV DOCKER=true 
 # Basic Utils
 RUN apk update && apk upgrade
 
@@ -36,10 +37,8 @@ RUN mkdir -p /home/scta-builds
 
 # mkdir scta-text directory
 RUN mkdir -p /home/scta-texts
-ADD /data/scta-texts/scta-texts-2018-01-13.zip /home/scta-texts/scta-texts-2018-01-13.zip
-RUN unzip /home/scta-texts/scta-texts-2018-01-13.zip -d /home/scta-texts/ && \
-    rm /home/scta-texts/scta-texts-2018-01-13.zip
-
+ADD /data/scta-texts/scta-texts-2018-01-13.tar.gz /home/scta-texts/scta-texts-2018-01-13
+RUN ln -s /home/scta-texts/scta-texts-2018-01-13 /home/scta-texts/current-build
 
 #install thor
 RUN gem install thor --no-ri --no-rdoc
