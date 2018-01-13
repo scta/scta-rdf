@@ -3,7 +3,7 @@ FROM alpine:3.5
 # Basic Utils
 RUN apk update && apk upgrade
 
-RUN apk add curl nano wget bash git
+RUN apk add curl nano wget bash git tmux
 
 # Ruby
 RUN apk add ruby ruby-bundler
@@ -22,10 +22,13 @@ RUN curl -L -o /usr/share/java/saxon/saxon.zip http://downloads.sourceforge.net/
     rm -rf /usr/share/java/saxon/noticies /usr/share/java/saxon/doc \
       /usr/share/java/saxon/saxon9-test.jar /usr/share/java/saxon/saxon9-unpack.jar /usr/share/java/saxon/saxon.zip
 
+RUN printf '#!/bin/bash\nexec java  -jar /usr/share/java/saxon/saxon9he.jar "$@"' > /bin/saxon
+RUN chmod +x /bin/saxon
+
 # install fuseki
 RUN mkdir -p /home/fuseki/
-RUN curl -L -o /home/fuseki/apache-jena-fuseki-2.3.1.zip http://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-2.3.1.zip \
-    unzip /home/fuseki/apache-jena-fuseki-2.3.1.zip -d /home/fuseki/apache-jena-fuseki-2.3.1 \
+RUN curl -L -o /home/fuseki/apache-jena-fuseki-2.3.1.zip http://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-2.3.1.zip && \
+    unzip /home/fuseki/apache-jena-fuseki-2.3.1.zip -d /home/fuseki/ && \
     rm /home/fuseki/apache-jena-fuseki-2.3.1.zip
 
 # mkdir fuseki build directory
@@ -33,6 +36,10 @@ RUN mkdir -p /home/scta-builds
 
 # mkdir scta-text directory
 RUN mkdir -p /home/scta-texts
+ADD /data/scta-texts/scta-texts-2018-01-13.zip /home/scta-texts/scta-texts-2018-01-13.zip
+RUN unzip /home/scta-texts/scta-texts-2018-01-13.zip -d /home/scta-texts/ && \
+    rm /home/scta-texts/scta-texts-2018-01-13.zip
+
 
 #install thor
 RUN gem install thor --no-ri --no-rdoc
