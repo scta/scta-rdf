@@ -37,7 +37,7 @@ class MyCLI < Thor
   desc "create_passive_relation EDF", "create passive relation"
   def create_passive_relation (edf)
     puts "Creating passive metadata assertion for #{edf}"
-    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}.rdf" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/#{edf}.rdf" "commentary-rdf-home=#{$base}/build/commentaries";`
+    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}.rdf" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/#{edf}.rdf";`
   end
   desc "create_passive_relations", "create passive relations"
   def create_passive_relations
@@ -85,7 +85,7 @@ class MyCLI < Thor
     #projectfilesversion= exec("cd #{$base}/data/scta-projectfiles && $( git describe --tags --always)")
     projectfilesversion="test"
     puts "Begin top level archive collection creation"
-    `saxon "-warnings:silent" "-s:#{$base}/xsl_stylesheets/rdf_archive_conversion.xsl" "-xsl:#{$base}/xsl_stylesheets/rdf_archive_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfilesversion=#{projectfilesversion}" "rdfhome="#{$base}/build/commentaries/`
+    `saxon "-warnings:silent" "-s:#{$base}/data/workGroups.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_workgroup_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfileshome="#{$base}/data/scta-projectfiles/`
   end
   desc "create_works", "create work list"
   def create_works

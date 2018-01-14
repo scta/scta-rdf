@@ -20,7 +20,9 @@ to create builds run
 
 `/home/scta-rdf/bin2/scta-rdf extract_all`
 
-this will take time and requires a lot of memory
+this will take time and requires a lot of memory.
+
+At present, the most demanding conversion requires docker is allocated at least 6GB of memory.
 
 once the rdf build is complete, you can load this into fuseki.
 
