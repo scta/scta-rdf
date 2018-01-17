@@ -38,12 +38,13 @@
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="document($extraction-file)//tei:body//tei:ref">
-      <xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
-      <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
+      <!--<xsl:variable name="quoteRef" select="./@ana"></xsl:variable>
+      <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>-->
       <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
       <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
+      <xsl:variable name="target" select="./@target"/>
       
       <xsl:call-template name="structure_element_ref_expressions_entry">
         <xsl:with-param name="fs" select="$fs"/>
@@ -65,12 +66,13 @@
         <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         
-        <xsl:with-param name="quoteRef" select="$quoteRef"/>
-        <xsl:with-param name="quoteID" select="$quoteID"/>
+        <!--<xsl:with-param name="quoteRef" select="$quoteRef"/>
+        <xsl:with-param name="quoteID" select="$quoteID"/>-->
         <xsl:with-param name="totalRefs" select="$totalRefs"/>
         <xsl:with-param name="totalFollowingRefs" select="$totalFollowingRefs"></xsl:with-param>
         <xsl:with-param name="objectId" select="$objectId"/>
         <xsl:with-param name="paragraphParent" select="$paragraphParent"/>
+        <xsl:with-param name="target" select="$target"/>
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -94,12 +96,13 @@
     <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
-    <xsl:param name="quoteRef"/>
-    <xsl:param name="quoteID"/>
+    <!--<xsl:param name="quoteRef"/>
+    <xsl:param name="quoteID"/>-->
     <xsl:param name="totalRefs"/>
     <xsl:param name="totalFollowingRefs"></xsl:param>
     <xsl:param name="objectId"/>
     <xsl:param name="paragraphParent"/>
+    <xsl:param name="target"/>
     
     
     
@@ -127,10 +130,40 @@
           <xsl:with-param name="elementType">structureElementRef</xsl:with-param>
           <xsl:with-param name="elementText" select="."/>
         </xsl:call-template>
-        <xsl:if test="$quoteRef">
-          <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
-        </xsl:if>
         <!-- END structure type properties -->
+        <!-- BEGIN create instanceOf assertions -->
+        <xsl:for-each select="tokenize(./@ana, ' ')">
+          <xsl:variable name="refRef" select="."></xsl:variable>
+          <xsl:variable name="refID" select="substring-after($refRef, '#')"></xsl:variable>
+          <!-- isInstanceOf parallels isInstanceOf for quotations; 
+            TODO: i'm not sure if they should be named the same or different perhaps ReferenceOf -->
+          <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$refID}"/>
+        </xsl:for-each>
+        <!-- END instanceOf assertions -->
+        <!-- NOTE: Current working assumption is that Refs get "isInstanceOf" property 
+          when they do NOT have a @corresp but do have an an @ana 
+          but when, they have a @corresp, the quote is the instanceOf and the ref takes the 
+          isReferenceTo property.  
+          Likewise, when they shoudl not have a "source" assertion when they have a @corresp, 
+          for again the quote is the instanceOf and the ref the source can be found by following 
+          the "isReferenceTo" property to the quotation in question
+        -->
+        <!-- BEGIN create isReferenceTo assertions -->
+        <xsl:for-each select="tokenize(./@corresp, ' ')">
+          <xsl:variable name="correspRef" select="."></xsl:variable>
+          <xsl:variable name="correspID" select="substring-after($correspRef, '#')"></xsl:variable>
+          <sctap:isReferenceTo rdf:resource="http://scta.info/resource/{$correspID}"/>
+        </xsl:for-each>
+        <!-- END create isReferenceTo assertions -->
+        <!-- BEGIN citation -->
+        <xsl:if test="./parent::tei:cit/tei:bibl">
+          <sctap:citation><xsl:value-of select="./parent::tei:cit/tei:bibl/text()"/></sctap:citation>
+        </xsl:if>
+        <!-- END citation -->
+        <xsl:if test="$target">
+          <sctap:source rdf:resource="{$target}"/>
+        </xsl:if>
+        
       </rdf:Description>
     
     

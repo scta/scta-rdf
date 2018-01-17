@@ -154,12 +154,18 @@
       </xsl:call-template>
       <sctap:level><xsl:value-of select="$element-level"/></sctap:level>
       <!-- END structure type properties -->
+      <!-- BEGIN create instanceOf assertions -->
       <xsl:for-each select="tokenize(./@ana, ' ')">
         <xsl:variable name="quoteRef" select="."></xsl:variable>
         <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
         <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
       </xsl:for-each>
-      
+      <!-- End instanceOf assertions -->
+      <!-- BEGIN citation -->
+      <xsl:if test="./parent::tei:cit/tei:bibl">
+        <sctap:citation><xsl:value-of select="./parent::tei:cit/tei:bibl/text()"/></sctap:citation>
+      </xsl:if>
+      <!-- END citation -->
       <xsl:if test="$source">
         <sctap:source rdf:resource="{$source}"/>
       </xsl:if>
