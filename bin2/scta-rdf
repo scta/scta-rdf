@@ -133,9 +133,19 @@ class MyCLI < Thor
       end
     end
   end
+  desc "load_canvas", "load canvas"
+  def load_canvas (graph)
+    puts "loading canvas #{$base}/data/scta-codices/canvases/#{graph}"
+    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data default #{$base}/data/scta-codices/canvases/#{graph}`
+  end
   desc "load_canvases", "load canvases"
   def load_canvases
-    self.load_graphs("codices/canvases")
+    puts "loading canvases in #{$base}/data/scta-codices/canvases/"
+    Dir.foreach("#{$base}/data/scta-codices/canvases/") do |item|
+      if item.include?(".jsonld")
+        self.load_canvas(item)
+      end
+    end
   end
   desc "load_all", "load all"
   def load_all
