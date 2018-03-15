@@ -18,6 +18,7 @@
     <xsl:param name="isPartOfShortId"/>
     <xsl:param name="finisher"/>
     <xsl:param name="ancestors"/>
+    <xsl:param name="title"/>
     <sctap:structureType rdf:resource="http://scta.info/resource/structureBlock"/>
     <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$isPartOfShortId}"/>
     <sctap:isPartOfStructureItem rdf:resource="http://scta.info/resource/{$isPartOfStructureItemShortId}"/>
@@ -38,7 +39,7 @@
         </xsl:variable>
         <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$finisher}"/>
       </xsl:for-each>
-      <xsl:variable name="longtitle" select="string-join($ancestors//ancestor/head, ', ')" />
+      <xsl:variable name="longtitle" select="concat(string-join($ancestors//ancestor/head, ', '), ', ', $title)" />
       <sctap:longTitle><xsl:value-of select="$longtitle"/></sctap:longTitle>
     </xsl:if>
   </xsl:template>

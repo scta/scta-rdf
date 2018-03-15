@@ -139,6 +139,7 @@
         <xsl:with-param name="isPartOfShortId" select="$ParentId"/>
         <xsl:with-param name="finisher" select="''"/>
         <xsl:with-param name="ancestors" select="$block-ancestors"/>
+        <xsl:with-param name="title">Paragraph <xsl:value-of select="$pid"/></xsl:with-param>
       </xsl:call-template>
       
       <!-- begin level creation -->

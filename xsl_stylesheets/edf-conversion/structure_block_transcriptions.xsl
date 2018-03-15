@@ -154,7 +154,7 @@
     <rdf:Description rdf:about="http://scta.info/resource/{$pid}/{$wit-slug}/{$transcription-name}">
       <!-- BEGIN global properties -->
       <xsl:call-template name="global_properties">
-        <xsl:with-param name="title">Paragraph <xsl:value-of select="$pid"/></xsl:with-param>
+        <xsl:with-param name="title">Paragraph <xsl:value-of select="concat($pid, '/', $wit-slug, '/', $transcription-name)"/></xsl:with-param>
         <xsl:with-param name="description"/>
         <xsl:with-param name="shortId" select="concat($pid, '/', $wit-slug, '/', $transcription-name)"/>
       </xsl:call-template>

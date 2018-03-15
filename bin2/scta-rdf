@@ -14,10 +14,15 @@ class MyCLI < Thor
   desc "start_fuseki", "start fuseki"
   def start_fuseki (tdb, readonly=false)
     location = "#{$fuseki_builds}/#{tdb}"
+    # if readonly
+    #   exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location}  /ds")
+    # else
+    #   exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location}  --update /ds")
+    # end
     if readonly
-      exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location} /ds")
+      exec("cd #{$fuseki}/ && ./fuseki-server --set tdb:unionDefaultGraph=true --loc=#{location}  /ds")
     else
-      exec("cd #{$fuseki}/ && ./fuseki-server --loc=#{location} --update /ds")
+      exec("cd #{$fuseki}/ && ./fuseki-server --set tdb:unionDefaultGraph=true --loc=#{location}  --update /ds")
     end
   end
   desc "create_codex CODEX", "create codex"
@@ -109,6 +114,10 @@ class MyCLI < Thor
   end
   desc "extract_all", "extract all"
   def extract_all
+    #update data repos
+    puts "updating data repos"
+    self.update_repos
+
     self.create_expressions
     self.create_codices
     self.create_custom_quotations
@@ -123,7 +132,7 @@ class MyCLI < Thor
   desc "load_graph graph", "load graph"
   def load_graph (subdirectory, graph)
     puts "loading #{$base}/build/#{subdirectory}/#{graph}"
-    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data default #{$base}/build/#{subdirectory}/#{graph}`
+    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
   end
   desc "load_graphs", "load graphs"
   def load_graphs(subdirectory)
@@ -133,10 +142,24 @@ class MyCLI < Thor
       end
     end
   end
+  desc "update_graph graph", "update graph"
+  def update_graph (subdirectory, graph)
+    puts "loading #{$base}/build/#{subdirectory}/#{graph}"
+    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
+  end
+  desc "update_graphs", "load graphs"
+  def update_graphs(subdirectory)
+    Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
+      if item.include?(".rdf") || item.include?(".ttl")
+        self.load_graph(subdirectory, item)
+      end
+    end
+  end
+
   desc "load_canvas", "load canvas"
   def load_canvas (graph)
     puts "loading canvas #{$base}/data/scta-codices/canvases/#{graph}"
-    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data default #{$base}/data/scta-codices/canvases/#{graph}`
+    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data #{graph} #{$base}/data/scta-codices/canvases/#{graph}`
   end
   desc "load_canvases", "load canvases"
   def load_canvases
@@ -164,6 +187,21 @@ class MyCLI < Thor
     self.load_graph("", "scta_author_types.ttl")
     #canvases should be loaded in preload
 
+  end
+  desc "update all data repos", "update all"
+  def update_repos
+    Dir.foreach("#{$base}/data/") do |file|
+      next if file == '.' or file == '..'
+      if File.exist?("#{$base}/data/#{file}/.git")
+        puts file
+        self.update_repo(file)
+      end
+    end
+  end
+  desc "update a single named data repos", "update single repo"
+  def update_repo(repo)
+    puts repo
+    `cd #{$base}/data/#{repo} && git pull`
   end
 
 
