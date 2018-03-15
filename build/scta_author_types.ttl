@@ -54,5 +54,11 @@ sctar:Augustinian
   dc:title "Augustinian" ;
   dc:description "A attribute for describing a person as a member of the Augustinian Order" ;
   sctap:shortId "Augustinian" .
+  
+sctar:Victorine
+  rdf:type sctar:personType ;
+  dc:title "Victorine" ;
+  dc:description "A attribute for describing a person as a member of the Victorine tradition" ;
+  sctap:shortId "Victorine" 
 
 
