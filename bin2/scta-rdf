@@ -161,6 +161,7 @@ class MyCLI < Thor
     self.load_graphs("codices")
     self.load_graph("", "scta-rdfs-schema.ttl")
     self.load_graph("", "scta_expression_types.ttl")
+    self.load_graph("", "scta_author_types.ttl")
     #canvases should be loaded in preload
 
   end

@@ -8,7 +8,7 @@
 @prefix role: <http://www.loc.gov/loc.terms/relators/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .    
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 @prefix sctar: <http://scta.info/resource/> .
 @prefix sctap: <http://scta.info/property/> .
@@ -17,62 +17,67 @@
 # CORE CLASSES
 ######################################################
 
-sctar:workGroup 
-		rdf:type rdfs:Class ; 
-		rdfs:label "Work Group" ;    
+sctar:workGroup
+		rdf:type rdfs:Class ;
+		rdfs:label "Work Group" ;
 		dc:description "A Work Group that can contain nested WorkGroups or Works and must contain at least one Expression" .
 
-sctar:work 
-		rdf:type rdfs:Class ; 
-		rdfs:label "Work" ;    
+sctar:work
+		rdf:type rdfs:Class ;
+		rdfs:label "Work" ;
 		dc:description "A FRBR Work which is the lowest level WorkGroup; it can contain no other workGroups or Works and can only contain Expressions" .
 
-sctar:expression 
-		rdf:type rdfs:Class ; 
-		rdfs:label "Expression" ;    
+sctar:expression
+		rdf:type rdfs:Class ;
+		rdfs:label "Expression" ;
 		dc:description "a FRBR Expression of a FRBR Work" .
 
 sctar:manifestation
-		rdf:type rdfs:Class ; 
-		rdfs:label "Manifestation" ;    
+		rdf:type rdfs:Class ;
+		rdfs:label "Manifestation" ;
 		dc:description "a FRBR Manifestation of a FRBR Expression" .
 
 sctar:transcription
-		rdf:type rdfs:Class ; 
-		rdfs:label "Transcription" ;    
+		rdf:type rdfs:Class ;
+		rdfs:label "Transcription" ;
 		dc:description "a Transcription resource corresponding to FRBR Manifestation" .
 
 ######################################################
 # StructureType Classes
 ######################################################
 
-sctar:structureType  
-		rdf:type rdfs:Class ; 
+sctar:structureType
+		rdf:type rdfs:Class ;
 		rdfs:label "Structure Type" ;
 		dc:description: "The structureType property is used to divide an Expression (and subsequently a Manifestation and Item) hierarchy, no matter its actual structure, into three privileged parts. A top level expression (normally a top level structureCollection), a structureItem level, and structureBlock level. In addition to these three privileged points, there are structureCollections which contain structureItems and structureDivision which are contained by structureItems but are not structureBlocks" .
 
-		sctar:structureCollection 
-			rdfs:subClassOf sctar:structureType ; 
+		sctar:structureCollection
+			rdf:type sctar:structureType ;
+			rdfs:subClassOf sctar:structureType ;
 			rdfs:label "Structure Collection" ;
 	    dc:description "a resource with a structureType of structureCollection contains as descendants at least one structureItem" .
 
 	  sctar:structureItem
-			rdfs:subClassOf sctar:structureType ; 
+			rdf:type sctar:structureType ;
+			rdfs:subClassOf sctar:structureType ;
 			rdfs:label "Structure Item" ;
 	    dc:description "a resource with a structureType of structureDivision contains as descendants at least one structureBlock; it is normally the privileged division with the expression hierarchy" .
 
 	  sctar:structureDivision
-			rdfs:subClassOf sctar:structureType ; 
+			rdf:type sctar:structureType ;
+			rdfs:subClassOf sctar:structureType ;
 			rdfs:label "Structure Division" ;
 	    dc:description "a resource with a structureType of structureDivision contains as descendants at least one structureBlock as is contained with a structureItem" .
 
 	  sctar:structureBlock
-			rdfs:subClassOf sctar:structureType ; 
+			rdf:type sctar:structureType ;
+			rdfs:subClassOf sctar:structureType ;
 			rdfs:label "Structure Block" ;
 	    dc:description "a resource with a structureType of structureBlock is the lowest level in the nested expression hierarchy; it can only contain expressionElements but it has now direct children" .
 
 	  sctar:structureElement
-			rdfs:subClassOf sctar:structureType ; 
+			rdf:type sctar:structureType ; 	
+			rdfs:subClassOf sctar:structureType ;
 			rdfs:label "Structure Element" ;
 	    dc:description "a resource with a structureType of structureElement is an element contained with a structureBlock, but they are not part of a hierachy, thus they do not have a parentPart or childParts, they simply have a isPartOfStructureBlock property" .
 
@@ -96,7 +101,7 @@ sctar:structureType
 								rdfs:subClassOf sctar:structureElementType ;
 								rdfs:label "Structure Element Ref" .
 
-		
+
 ##############################################
 #######Begin Reference Resource Classes###########
 ##############################################
@@ -120,11 +125,11 @@ sctar:referenceType
 	dc:description "a generence class for categorizing reference types" .
 
 
-sctar:scholastic 
+sctar:scholastic
 	rdfs:subClassOf sctar:referenceType ;
 	rdfs:label "Scholastic" .
 
-sctar:classical 
+sctar:classical
 	rdfs:subClassOf sctar:referenceType ;
 	rdfs:label "Classical" .
 
@@ -144,29 +149,29 @@ sctar:workBook
 	rdf:type rdfs:Class ;
 	rdfs:subClassOf sctar:reference .
 
-sctar:workType	
+sctar:workType
 	rdf:type rdfs:Class ;
 	rdfs:subClassOf sctar:reference .
 
-	
+
 sctar:workChapter
 	rdf:type rdfs:Class ;
 	rdfs:subClassOf sctar:reference .
 
-sctar:biblicalBook	
-	rdf:type rdfs:Class ;
-	rdfs:subClassOf sctar:reference .
-	
-sctar:biblicalChapter		
+sctar:biblicalBook
 	rdf:type rdfs:Class ;
 	rdfs:subClassOf sctar:reference .
 
-	
-###############################################	
+sctar:biblicalChapter
+	rdf:type rdfs:Class ;
+	rdfs:subClassOf sctar:reference .
+
+
+###############################################
 #########Begin Property Info ##################
-###############################################	
+###############################################
 
-sctap:pubInfo	
+sctap:pubInfo
 	rdf:type rdfs:Property ;
 	rdfs:domain sctar:item .
 
@@ -176,15 +181,15 @@ sctap:pubInfo
 	sctap:status
 		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:dataType rdfs:Literal . # enumerated woudl be better: expects working draft, final draft, reviewed
-	
+
 	dc:title
 		rdfs:subPropertyOf sctap:pubInfo .
 
 	role:AUT
 		rdfs:subPropertyOf sctap:pubInfo .
 
-	role:EDT	
-		rdfs:subPropertyOf sctap:pubInfo .	
+	role:EDT
+		rdfs:subPropertyOf sctap:pubInfo .
 
 sctap:contentInfo
 	rdf:type rdfs:Property ;
@@ -193,45 +198,45 @@ sctap:contentInfo
 
   dc:description
 		rdfs:subPropertyOf sctap:contentInfo .
-	
-	sctap:questionTitle				
+
+	sctap:questionTitle
 		rdfs:subPropertyOf sctap:contentInfo .
 
 	sctap:quotes
-		rdfs:subPropertyOf sctap:contentInfo ; 
+		rdfs:subPropertyOf sctap:contentInfo ;
 		owl:inverseOf sctap:isQuotedBy .
 
-	sctap:quotedBy	
+	sctap:quotedBy
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:quotes . 
+		owl:inverseOf sctap:quotes .
 
 	sctap:mentions
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:isMentionedBy . 
+		owl:inverseOf sctap:isMentionedBy .
 
-	sctap:mentionedBy	
+	sctap:mentionedBy
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:mentions .  
+		owl:inverseOf sctap:mentions .
 
-	sctap:references	
+	sctap:references
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:isReferencedBy . 
+		owl:inverseOf sctap:isReferencedBy .
 
-	sctap:referencedBy		
+	sctap:referencedBy
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:references . 
+		owl:inverseOf sctap:references .
 
-	sctap:abbreviates	
+	sctap:abbreviates
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:isAbbreviatedBy . 
+		owl:inverseOf sctap:isAbbreviatedBy .
 
 	sctap:abbreviatedBy
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:abbreviates . 
+		owl:inverseOf sctap:abbreviates .
 
-	sctap:referencedBy		
+	sctap:referencedBy
 		rdfs:subPropertyOf sctap:contentInfo ;
-		owl:inverseOf sctap:references . 
+		owl:inverseOf sctap:references .
 
 sctap:linkingInfo
 	rdf:type rdfs:Property ;
@@ -239,14 +244,14 @@ sctap:linkingInfo
 
 	rdfs:seeAlso
 		rdfs:subPropertyOf sctap:linkingInfo .
-	
+
 	dcterms:hasPart
 		rdfs:subPropertyOf sctap:linkingInfo .
 
-	dcterms:isPartOf	
+	dcterms:isPartOf
 		rdfs:subPropertyOf sctap:linkingInfo .
 
-	sctap:isTranscriptionOf	
+	sctap:isTranscriptionOf
 		rdfs:subPropertyOf sctap:linkingInfo .
 
 	sctap:hasTranscription
@@ -254,27 +259,27 @@ sctap:linkingInfo
 
 	sctap:hasManifestation
 		rdfs:subPropertyOf sctap:linkingInfo ;
-		owl:inverseOf sctap:isManifestationOf . 
+		owl:inverseOf sctap:isManifestationOf .
 
 	sctap:isManifestationOf
 		rdfs:subPropertyOf sctap:linkingInfo ;
-		owl:inverseOf sctap:hasManifestation . 
+		owl:inverseOf sctap:hasManifestation .
 
 	sctap:hasExpression
 		rdfs:subPropertyOf sctap:linkingInfo ;
-		owl:inverseOf sctap:hasManifestation . 
+		owl:inverseOf sctap:hasManifestation .
 
 	sctap:isExpressionOf
 		rdfs:subPropertyOf sctap:linkingInfo ;
 		owl:inverseOf sctap:hasExpression .
 
-   
+
 ####################################################
 ###########Properties for Reference Types###########
 ####################################################
 ###########mostly all apart of the pubInfo data stream#######
 
-	sctap:personType		
+	sctap:personType
 	    rdfs:subPropertyOf sctap:pubInfo ;
 	    rdfs:label "Name Type" ;
 	    rdfs:domain sctar:person .
@@ -291,48 +296,48 @@ sctap:linkingInfo
 	    rdfs:dataType rdfs:Literal .
 
 	sctap:citation #not sure what the function of this is
-		rdfs:subPropertyOf sctap:pubInfo ;	
+		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation .
 
-	sctap:workType			
+	sctap:workType
 	    rdfs:subPropertyOf sctap:pubInfo ;
 	    rdfs:label "Work Type" ;
 	    rdfs:domain sctar:work .
 
-	sctap:workAuthor			
+	sctap:workAuthor
 	    rdfs:subPropertyOf sctap:pubInfo ;
 	    rdfs:label "Work Author" ;
 	    rdfs:domain sctar:work .
 
-	sctap:fromBiblicalBook	
+	sctap:fromBiblicalBook
 		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation ;
 		rdfs:range sctar:biblicalBook .
-	
-	sctap:fromBiblicalChapter		
-		rdfs:subPropertyOf sctap:pubInfo ;	
+
+	sctap:fromBiblicalChapter
+		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation ;
 		rdfs:range sctar:biblicalChapter .
 
-	sctap:fromBiblicalVerse		
-		rdfs:subPropertyOf sctap:pubInfo ;	
+	sctap:fromBiblicalVerse
+		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation ;
 		rdfs:range sctar:biblicalVerse .
 
-	sctap:fromWork			
-		rdfs:subPropertyOf sctap:pubInfo ;	
+	sctap:fromWork
+		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation ;
 		rdfs:range sctar:work .
 
-	sctap:fromWorkBook				
-		rdfs:subPropertyOf sctap:pubInfo ;	
+	sctap:fromWorkBook
+		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation ;
 		rdfs:range sctar:workBook .
 
-	sctap:fromWorkChapter					
-		rdfs:subPropertyOf sctap:pubInfo ;	
+	sctap:fromWorkChapter
+		rdfs:subPropertyOf sctap:pubInfo ;
 		rdfs:domain sctar:quotation ;
 		rdfs:range sctar:workChapter .
 
-	sctap:quotation			
+	sctap:quotation
 		rdfs:subPropertyOf sctap:pubInfo .

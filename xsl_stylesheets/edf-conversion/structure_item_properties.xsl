@@ -48,7 +48,15 @@
         </xsl:variable>
         <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$blockFinisher}"/>
       </xsl:for-each>
+      
+      <!-- create concatenated long title from ancestor titles -->
+      <xsl:variable name="longtitle" select="string-join($ancestors/head|title, ', ')" />
+      <sctap:longTitle><xsl:value-of select="$longtitle"/></sctap:longTitle>
     </xsl:if>
+    
+      
+    
+    
   </xsl:template>
   
 </xsl:stylesheet>

@@ -50,13 +50,19 @@
       <xsl:variable name="element-ancestors">
         <ancestors>
           <xsl:for-each select="$item-ancestors">
-            <ancestor id="{./@id}"/>
+            <ancestor id="{./@id}">
+              <head><xsl:value-of select="./head"/></head>
+            </ancestor>
           </xsl:for-each>
           <xsl:for-each select="ancestor::tei:div">
-            <ancestor id="{./@xml:id}"/>
+            <ancestor id="{./@xml:id}">
+              <head><xsl:value-of select="./tei:head[1]"/></head>
+            </ancestor>
           </xsl:for-each>
           <xsl:for-each select="ancestor::tei:p[1]">
-            <ancestor id="{./@xml:id}"/>
+            <ancestor id="{./@xml:id}">
+              <head><xsl:value-of select="./@xml:id"/></head>
+            </ancestor>
           </xsl:for-each>
         </ancestors>
       </xsl:variable>

@@ -46,6 +46,8 @@
         </xsl:variable>
         <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$itemFinisher}"/>
       </xsl:for-each>
+      <xsl:variable name="longtitle" select="string-join($ancestors/head, ', ')" />
+      <sctap:longTitle><xsl:value-of select="$longtitle"/></sctap:longTitle>
     </xsl:if>
     
   </xsl:template>
