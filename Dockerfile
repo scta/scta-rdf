@@ -36,8 +36,9 @@ ADD . /home/scta-rdf
 
 # mkdir scta-text directory
 RUN mkdir -p /home/scta-rdf/data/scta-texts
-RUN curl -L -o /home/scta-rdf/data/scta-texts/QmP2fEQ3gFUp3sATMeWyu5XSyz1EdvRzVG1wJBkScunden http://gateway.ipfs.io/ipfs/QmP2fEQ3gFUp3sATMeWyu5XSyz1EdvRzVG1wJBkScunden && \
-    tar -xvzf /home/scta-rdf/data/scta-texts/QmP2fEQ3gFUp3sATMeWyu5XSyz1EdvRzVG1wJBkScunden -C /home/scta-rdf/data/scta-texts/
+RUN curl -L -o /home/scta-rdf/data/scta-texts/Qmd4bwNnnx5rRJzJdTiR47tr1cPrJ7k8q4LeqaTo62LnSb http://gateway.ipfs.io/ipfs/Qmd4bwNnnx5rRJzJdTiR47tr1cPrJ7k8q4LeqaTo62LnSb && \
+    tar -xvzf /home/scta-rdf/data/scta-texts/Qmd4bwNnnx5rRJzJdTiR47tr1cPrJ7k8q4LeqaTo62LnSb -C /home/scta-rdf/data/scta-texts/
+
 
 #install thor
 RUN gem install thor --no-ri --no-rdoc

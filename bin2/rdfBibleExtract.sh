@@ -12,13 +12,13 @@ if [ "$scope" == 'all' ]; then
 		extension="${filename##*.}";
 		bookid="${filename%.*}";
 		echo "Being quotation extraction from Biblia Sacra Vulgate for $bookid";
-		saxon "-s:/$base/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:$base/xsl_stylesheets/rdf_bsvQuick_quotes_conversion.xsl" "-o:$base/build/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
+		saxon "-s:/$base/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:$base/xsl_stylesheets/rdf_bsvQUICK_quotes_conversion.xsl" "-o:$base/build/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
 	done
 else
 	echo "Begin quotation extraction from Biblia Sacra Vulgate for $scope";
 	date
 	bookid=$scope
-	saxon "-s:/$base/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:$base/xsl_stylesheets/rdf_bsvQuick_quotes_conversion.xsl" "-o:$base/build/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
+	saxon "-s:/$base/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:$base/xsl_stylesheets/rdf_bsvQUICK_quotes_conversion.xsl" "-o:$base/build/quotations/bsvquotations/$bookid.rdf" lbpworkname=$bookid;
 	date
 fi
 date
