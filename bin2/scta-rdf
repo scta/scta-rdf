@@ -155,6 +155,20 @@ class MyCLI < Thor
       end
     end
   end
+  desc "update_canvas", "load canvas"
+  def update_canvas (graph)
+    puts "loading canvas #{$base}/data/scta-codices/canvases/#{graph}"
+    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/data/scta-codices/canvases/#{graph}`
+  end
+  desc "update_canvases", "load canvases"
+  def update_canvases
+    puts "loading canvases in #{$base}/data/scta-codices/canvases/"
+    Dir.foreach("#{$base}/data/scta-codices/canvases/") do |item|
+      if item.include?(".jsonld")
+        self.load_canvas(item)
+      end
+    end
+  end
 
   desc "load_canvas", "load canvas"
   def load_canvas (graph)
@@ -188,7 +202,7 @@ class MyCLI < Thor
     #canvases should be loaded in preload
 
   end
-  desc "update all data repos", "update all"
+  desc "update_repos", "update all data repos"
   def update_repos
     Dir.foreach("#{$base}/data/") do |file|
       next if file == '.' or file == '..'
@@ -198,7 +212,7 @@ class MyCLI < Thor
       end
     end
   end
-  desc "update a single named data repos", "update single repo"
+  desc "update_repo", "update a single repo"
   def update_repo(repo)
     puts repo
     `cd #{$base}/data/#{repo} && git pull`
