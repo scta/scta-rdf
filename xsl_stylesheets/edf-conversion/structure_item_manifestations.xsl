@@ -122,7 +122,7 @@
         <xsl:variable name="folionumber" select="./text()"/>
         <!-- TODO: change here could cause break in IIIF range creation; make adjustments and then remove this comment once everything is working again -->
         <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folionumber)"/>
-        <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
+        <sctap:isOnSurface rdf:resource="{$foliosideurl}"/>
       </xsl:for-each>
       <!-- END manifestation properties -->
       

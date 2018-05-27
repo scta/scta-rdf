@@ -83,6 +83,7 @@
           <xsl:with-param name="manifestations" select="$manifestations"/>
           <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+          <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
           <!-- item manifestation level parmaters -->
           <xsl:with-param name="wit-slug" select="$wit-slug"/>
           <xsl:with-param name="wit-title" select="$wit-title"/>
@@ -90,8 +91,8 @@
           <xsl:with-param name="paragraph-surface" select="$paragraph-surface"/>
           <xsl:with-param name="lang" select="$lang"/>
           <xsl:with-param name="pid" select="$pid"/>
-          
-          
+          <xsl:with-param name="pid_ref" select="$pid_ref"/>
+         
         </xsl:call-template>
         </xsl:if>
       </xsl:for-each>
@@ -116,6 +117,7 @@
     <xsl:param name="manifestations"/>
     <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
+    <xsl:param name="transcription-text-path"/>
     <!-- manifestation params -->
     <xsl:param name="wit-slug"/>
     <xsl:param name="wit-title"/>
@@ -124,6 +126,7 @@
     <xsl:param name="paragraph-surface"/>
     <!-- p level params -->
     <xsl:param name="pid"/>
+    <xsl:param name="pid_ref"/>
     
     
     
@@ -145,7 +148,7 @@
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
         <xsl:with-param name="structureType">structureBlock</xsl:with-param>
       </xsl:call-template>
-      <sctap:hasSurface rdf:resource="{$paragraph-surface}"/>
+      <sctap:isOnSurface rdf:resource="{$paragraph-surface}"/>
       
       
       <!-- create hasStructureElement assertion -->
@@ -162,7 +165,30 @@
         <xsl:with-param name="isPartOfShortId" select="concat($ParentId, '/', $wit-slug)"/>
       </xsl:call-template>
       <!-- END structure block properties -->
-      
+      <!-- create zone reference -->
+      <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
+        <xsl:variable name="imagefilename" select="./preceding-sibling::tei:graphic/@url"/>
+        <xsl:variable name="canvasname" select="substring-before($imagefilename, '.')"/>
+        <!-- this is not a good way to do this; this whole section needs to be written -->
+        <!-- right now I'm trying to just go the folio number without the preceding sigla -->
+        <!-- not this will fail if there is Sigla that reads Ar15r; the first "r" will not be removed and the result will be r15r -->
+        <xsl:variable name="folioname" select="translate($canvasname, 'ABCDEFGHIJKLMNOPQRSTUVabcdefghijklmnopqstuwxyz', '') "/>
+        <!-- <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material', $commentaryslug, '-', $wit-slug, '/', $folioname)"/> -->
+        <!-- changed to... --> <!-- this will mess up anywhere were codex ids are identical such as "sorb" and "sorb" and "vat" and "vat" which I believe is only a problem with Wodeham and Plaoul -->
+        <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', $folioname)"/>
+        <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folioname)"/>
+        <xsl:variable name="pid" select="translate(./@start, '#', '')"/>
+        <xsl:variable name="ulx" select="./@ulx"/>
+        <xsl:variable name="uly" select="./@uly"/>
+        <xsl:variable name="lrx" select="./@lrx"/>
+        <xsl:variable name="lry" select="./@lry"/>
+        <xsl:variable name="width"><xsl:value-of select="$lrx - $ulx"/></xsl:variable>
+        <xsl:variable name="height"><xsl:value-of select="$lry - $uly"/></xsl:variable>
+        <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
+        <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
+        
+        <sctap:isOnZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$ulx}{$uly}{$lrx}{$lry}"/>
+      </xsl:for-each>
     </rdf:Description>
   </xsl:template>
 </xsl:stylesheet>

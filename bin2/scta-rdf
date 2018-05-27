@@ -154,6 +154,8 @@ class MyCLI < Thor
         self.load_graph(subdirectory, item)
       end
     end
+    self.update_graph("../data/scta-rdf-schema/src", "classes-list.ttl")
+    self.update_graph("../data/scta-rdf-schema/src", "properties-list.ttl")
   end
   desc "update_canvas", "load canvas"
   def update_canvas (graph)
@@ -196,7 +198,8 @@ class MyCLI < Thor
     self.load_graphs("quotations/bsvquotations")
     self.load_graphs("relations")
     self.load_graphs("codices")
-    self.load_graph("", "scta-rdfs-schema.ttl")
+    self.load_graph("../data/scta-rdf-schema/src", "classes-list.ttl")
+    self.load_graph("../data/scta-rdf-schema/src", "properties-list.ttl")
     self.load_graph("", "scta_expression_types.ttl")
     self.load_graph("", "scta_author_types.ttl")
     #canvases should be loaded in preload

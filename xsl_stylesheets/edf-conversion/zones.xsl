@@ -38,6 +38,7 @@
             
             <!-- <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material', $commentaryslug, '-', $wit-slug, '/', $folioname)"/> -->
             <!-- changed to... --> <!-- this will mess up anywhere were codex ids are identical such as "sorb" and "sorb" and "vat" and "vat" which I believe is only a problem with Wodeham and Plaoul -->
+            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', $folioname)"/>
             <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folioname)"/>
             
             <xsl:variable name="pid" select="translate(./@start, '#', '')"/>
@@ -80,6 +81,7 @@
           <xsl:with-param name="width" select="$width"/>
           <xsl:with-param name="height" select="$height"/>
           <xsl:with-param name="position" select="$position"/>
+          <xsl:with-param name="surfaceShortId" select="$surfaceShortId"/>
           
           
         </xsl:call-template>
@@ -90,6 +92,7 @@
   <xsl:template name="zones_entry">
     <xsl:param name="cid"/>
     <xsl:param name="wit-slug"/>
+    
     <xsl:param name="fs"/>
     <!-- p level params -->
     <xsl:param name="pid"/>
@@ -104,17 +107,20 @@
     <xsl:param name="width"/>
     <xsl:param name="height"/>
     <xsl:param name="position"/>
+    <xsl:param name="surfaceShortId"/>
     
     
         
         <!-- TODO: simplify zone url -->
-        <rdf:Description rdf:about="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/paragraph/{$pid}/{$position}">
+    <rdf:Description rdf:about="http://scta.info/resource/{$surfaceShortId}/{$ulx}{$uly}{$lrx}{$lry}">
           <dc:title>Canvas zone for <xsl:value-of select="$wit-slug"/>_<xsl:value-of select="$fs"/> paragraph <xsl:value-of select="$pid"/></dc:title>
           <rdf:type rdf:resource="http://scta.info/resource/zone"/>
+          <sctar:zoneType>general</sctar:zoneType>
           <!-- problem here with slug since iiif slug is prefaced with pg or pp etc -->
-          <sctap:isZoneOf rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>
+          <!--<sctap:isZoneOf rdf:resource="http://scta.info/resource/{$pid}/{$wit-slug}/transcription"/>-->
           <!-- to be deleted <sctap:isZoneOn rdf:resource="{$canvasid}"/> -->
-          <sctap:hasSurface rdf:resource="{$foliosideurl}"/>
+          <sctap:isPartOfSurface rdf:resource="{$foliosideurl}"/>
+          <dc:isPartOf rdf:resource="{$foliosideurl}"/>
           <sctap:ulx><xsl:value-of select="$ulx"/></sctap:ulx>
           <sctap:uly><xsl:value-of select="$uly"/></sctap:uly>
           <sctap:lrx><xsl:value-of select="$lrx"/></sctap:lrx>

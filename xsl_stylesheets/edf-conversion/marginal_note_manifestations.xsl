@@ -86,7 +86,7 @@
       <sctap:shortId><xsl:value-of select="$marginal-note-id"/></sctap:shortId>
       <!--<sctap:hasTranscription rdf:resource=""/>
        <sctap:hasCanonicalTranscription rdf:resource=""/> -->
-      <sctap:hasSurface rdf:resource="{$surface}"/>
+      <sctap:isOnSurface rdf:resource="{$surface}"/>
     </rdf:Description>
     
     

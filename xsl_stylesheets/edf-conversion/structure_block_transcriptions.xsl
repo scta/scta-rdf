@@ -181,12 +181,6 @@
       </xsl:call-template>
       <!-- END structure block properties -->
       
-      <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
-        <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
-        <!-- TODO: simplifying name scheme for has Zone -->
-        <sctap:hasZone rdf:resource="http://scta.info/text/{$cid}/zone/{$wit-slug}_{$fs}/paragraph/{$pid}/{$position}"/>
-      </xsl:for-each>
-      
     </rdf:Description>
     
   </xsl:template>
