@@ -42,7 +42,7 @@ class MyCLI < Thor
   desc "create_passive_relation EDF", "create passive relation"
   def create_passive_relation (edf)
     puts "Creating passive metadata assertion for #{edf}"
-    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}.rdf" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/#{edf}.rdf";`
+    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}.rdf" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/rel-#{edf}.rdf";`
   end
   desc "create_passive_relations", "create passive relations"
   def create_passive_relations
@@ -144,7 +144,7 @@ class MyCLI < Thor
   end
   desc "update_graph graph", "update graph"
   def update_graph (subdirectory, graph)
-    puts "loading #{$base}/build/#{subdirectory}/#{graph}"
+    puts "updating #{$base}/build/#{subdirectory}/#{graph}"
     `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
   end
   desc "update_graphs", "load graphs"
