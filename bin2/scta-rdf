@@ -100,7 +100,7 @@ class MyCLI < Thor
   desc "create_names", "create names"
   def create_names
   	puts "Begin Nameslist Metadata extraction";
-  	`saxon "-s:#{$base}/data/lombardpress-lists/Prosopography.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf";`
+  	`saxon "-s:#{$base}/data/scta-people/Prosopography.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf";`
   end
   desc "create_person_groups", "create person groups"
   def create_person_groups
@@ -147,7 +147,7 @@ class MyCLI < Thor
     puts "updating #{$base}/build/#{subdirectory}/#{graph}"
     `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
   end
-  desc "update_graphs", "load graphs"
+  desc "update_graphs", "update graphs"
   def update_graphs(subdirectory)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
       if item.include?(".rdf") || item.include?(".ttl")
@@ -198,10 +198,13 @@ class MyCLI < Thor
     self.load_graphs("quotations/bsvquotations")
     self.load_graphs("relations")
     self.load_graphs("codices")
+    # these data sources should get copied into build
+    # and then imported from build to keep things consistent
     self.load_graph("../data/scta-rdf-schema/src", "classes-list.ttl")
     self.load_graph("../data/scta-rdf-schema/src", "properties-list.ttl")
     self.load_graph("", "scta_expression_types.ttl")
     self.load_graph("", "scta_author_types.ttl")
+    self.load_graph("", "articles.ttl")
     #canvases should be loaded in preload
 
   end
