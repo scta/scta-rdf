@@ -1,5 +1,9 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 require "thor"
+require "json"
+require "nokogiri"
+require "open-uri"
+
 require_relative "config"
 
 class MyCLI < Thor
@@ -73,8 +77,34 @@ class MyCLI < Thor
   end
   desc "create_expression EDF", "create expression"
   def create_expression (edf)
+    puts "======"
     puts "creating expression for #{edf}"
-    `saxon -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
+
+    doc = Nokogiri::XML(open("#{$base}/data/scta-projectfiles/#{edf}.xml"))
+    text_dirid = doc.xpath("/listofFileNames/header[1]/commentaryid[1]").text
+    puts "text_dirid is #{text_dirid}"
+
+    edf_status = self.same_hash?("#{edf}.xml", "edf")
+    puts "edf_status #{edf_status}"
+
+    #if Dir.exist?("#{$textfilesbase}#{text_dirid})"
+    text_status = self.same_hash?(text_dirid, "text")
+    puts "text_status #{text_status}"
+    if !edf_status || !text_status
+      `saxon -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
+      if !edf_status
+        puts "updating edf hash in log"
+        self.get_hash("#{edf}.xml", "edf")
+      end
+      if !text_status
+        puts "updating text hash in log"
+        self.get_hash(text_dirid, "text")
+      end
+      puts "========="
+    else
+      puts "no changes"
+      puts "========="
+    end
   end
   desc "create_expressions", "create expressions"
   def create_expressions
@@ -145,17 +175,73 @@ class MyCLI < Thor
   desc "update_graph graph", "update graph"
   def update_graph (subdirectory, graph)
     puts "updating #{$base}/build/#{subdirectory}/#{graph}"
-    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
+
+    full_dir_path = "#{$base}/build/#{subdirectory}"
+
+    if subdirectory == "commentaries"
+      type = "texts-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "codices"
+      type = "codices-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "names"
+      type = "names-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "quotations"
+      type = "quotations-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "relations"
+      type = "relations-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "subjects"
+      type = "subjects-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "works"
+      type = "works-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    else
+      type = "misc-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    end
+    puts "status: #{status}"
+    if !status
+      `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
+      puts "updating text-rdf hash in log"
+      self.get_hash(full_dir_path, graph, type)
+    else
+      puts "no changes"
+    end
   end
   desc "update_graphs", "update graphs"
   def update_graphs(subdirectory)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
       if item.include?(".rdf") || item.include?(".ttl")
-        self.load_graph(subdirectory, item)
+        self.update_graph(subdirectory, item)
       end
     end
+
+  end
+  desc "update_graphs", "update graphs"
+  def update_all_graphs
+    self.update_graphs("codices")
+    self.update_graphs("commentaries")
+    self.update_graphs("names")
+    self.update_graphs("quotations")
+    self.update_graphs("relations")
+    self.update_graphs("subjects")
+    self.update_graphs("works")
+
+    # miscellaneous graph updates
+    self.update_graph("", "scta_expression_types.ttl")
+    self.update_graph("", "scta_author_types.ttl")
+    self.update_graph("", "articles.ttl")
+    self.update_graph("", "scta.rdf")
+
+    # these data sources should get copied into build
+    # and then imported from build to keep things consistent
     self.update_graph("../data/scta-rdf-schema/src", "classes-list.ttl")
     self.update_graph("../data/scta-rdf-schema/src", "properties-list.ttl")
+
   end
   desc "update_canvas", "load canvas"
   def update_canvas (graph)
@@ -222,6 +308,71 @@ class MyCLI < Thor
   def update_repo(repo)
     puts repo
     `cd #{$base}/data/#{repo} && git pull`
+  end
+  desc "get hash", "creates hash for target and adds to specified hash table"
+  def get_hash (directory, target, type)
+
+    if type == "text"
+      shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 shasum | shasum`
+      shasum = shasum_response.split(" ")[0]
+    else
+      shasum_response = `shasum #{directory}/#{target}`
+      shasum = shasum_response.split(" ")[0]
+    end
+
+
+    if File.exist?("#{$base}/logs/#{type}-hashes.json")
+      if !File.zero?("#{$base}/logs/#{type}-hashes.json")
+        file = File.read("#{$base}/logs/#{type}-hashes.json")
+        data_hash = JSON.parse(file)
+      else
+        data_hash = {}
+      end
+    else
+      data_hash = {}
+    end
+
+    data_hash[target] = shasum
+
+    File.open("#{$base}/logs/#{type}-hashes.json","w") do |f|
+      f.write(JSON.pretty_generate(data_hash))
+    end
+  end
+  desc "get hashes", "creates hash table for targets and adds to specified hash table"
+  def get_hashes (subdirectory, type)
+    if type == "text"
+      Dir.foreach("#{$textfilesbase}") do |dir|
+        next if dir == '.' or dir == '..'
+        puts dir
+        get_hash($textfilesbase, dir, type)
+      end
+    else
+      Dir.foreach("#{$base}/#{subdirectory}") do |file|
+        next if file == '.' or file == '..'
+        puts file
+        get_hash("#{$base}/#{subdirectory}", file, type)
+      end
+    end
+  end
+  desc "same hash?", "compares files and return true if the hashes are the same and false if they are different"
+  def same_hash? (directory, target, type)
+    if type == "text"
+      shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 shasum | shasum`
+      shasum = shasum_response.split(" ")[0]
+    else
+      shasum_response = `shasum #{directory}/#{target}`
+      shasum = shasum_response.split(" ")[0]
+    end
+    puts "new shasum #{shasum}"
+
+    file = File.read("#{$base}/logs/#{type}-hashes.json")
+    data_hash = JSON.parse(file)
+
+    puts "old shasum #{data_hash[target]}"
+    status = data_hash[target] ==  shasum
+    puts status
+    return status
+
   end
 
 
