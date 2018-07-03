@@ -84,21 +84,21 @@ class MyCLI < Thor
     text_dirid = doc.xpath("/listofFileNames/header[1]/commentaryid[1]").text
     puts "text_dirid is #{text_dirid}"
 
-    edf_status = self.same_hash?("#{edf}.xml", "edf")
+    edf_status = self.same_hash?("#{$base}/data/scta-projectfiles", "#{edf}.xml", "edf")
     puts "edf_status #{edf_status}"
 
     #if Dir.exist?("#{$textfilesbase}#{text_dirid})"
-    text_status = self.same_hash?(text_dirid, "text")
+    text_status = self.same_hash?($textfilesbase, text_dirid, "text")
     puts "text_status #{text_status}"
     if !edf_status || !text_status
       `saxon -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
       if !edf_status
         puts "updating edf hash in log"
-        self.get_hash("#{edf}.xml", "edf")
+        self.get_hash("#{$base}/data/scta-projectfiles", "#{edf}.xml", "edf")
       end
       if !text_status
         puts "updating text hash in log"
-        self.get_hash(text_dirid, "text")
+        self.get_hash($textfilesbase, text_dirid, "text")
       end
       puts "========="
     else
