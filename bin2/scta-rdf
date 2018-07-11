@@ -32,7 +32,16 @@ class MyCLI < Thor
   desc "create_codex CODEX", "create codex"
   def create_codex (codex)
     puts "creating codex metadata for #{codex}";
-    `saxon '-warnings:silent' '-s:#{$base}/data/scta-codices/#{codex}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_codices_conversion.xsl' '-o:#{$base}/build/codices/#{codex}.rdf'`
+    codex_status = self.same_hash?("#{$base}/data/scta-codices", "#{codex}.xml", "codex")
+    if !codex_status
+      puts "running codex creation for #{codex}"
+      `saxon '-warnings:silent' '-s:#{$base}/data/scta-codices/#{codex}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_codices_conversion.xsl' '-o:#{$base}/build/codices/#{codex}.rdf'`
+      puts "updating codex status hash in log"
+      self.get_hash("#{$base}/data/scta-codices", "#{codex}.xml", "codex")
+    else
+      puts "no change in codex"
+    end
+
   end
   desc "create_codices", "create codices"
   def create_codices
@@ -60,7 +69,15 @@ class MyCLI < Thor
   desc "create_custom_quotation", "create custom quotation"
   def create_custom_quotation (quotation_list)
     puts "creation list for #{quotation_list}"
-    `saxon "-warnings:silent" "-s:#{$base}/data/scta-quotations/#{quotation_list}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_customquotes_conversion.xsl" "-o:#{$base}/build/quotations/#{quotation_list}.rdf";`
+    quotations_status = self.same_hash?("#{$base}/data/scta-quotations", "#{quotation_list}.xml", "quotations")
+    if !quotations_status
+      puts "running quotations creation for #{quotation_list}"
+      `saxon "-warnings:silent" "-s:#{$base}/data/scta-quotations/#{quotation_list}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_customquotes_conversion.xsl" "-o:#{$base}/build/quotations/#{quotation_list}.rdf";`
+      puts "updating codex status hash in log"
+      self.get_hash("#{$base}/data/scta-quotations", "#{quotation_list}.xml", "quotations")
+    else
+      puts "no change in quotation list"
+    end
   end
   desc "create_custom_quotations", "create custom quotations"
   def create_custom_quotations
@@ -365,11 +382,15 @@ class MyCLI < Thor
     end
     puts "new shasum #{shasum}"
 
-    file = File.read("#{$base}/logs/#{type}-hashes.json")
-    data_hash = JSON.parse(file)
-
-    puts "old shasum #{data_hash[target]}"
-    status = data_hash[target] ==  shasum
+    if File.exist?("#{$base}/logs/#{type}-hashes.json")
+      file = File.read("#{$base}/logs/#{type}-hashes.json")
+      data_hash = JSON.parse(file)
+      puts "old shasum #{data_hash[target]}"
+      status = data_hash[target] ==  shasum
+    else
+      puts "no existing file"
+      status = false
+    end
     puts status
     return status
 

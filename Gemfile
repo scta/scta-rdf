@@ -4,3 +4,5 @@ ruby RUBY_VERSION
 gem "thor"
 gem "json"
 gem "nokogiri"
+gem 'sinatra'
+gem 'puma'
