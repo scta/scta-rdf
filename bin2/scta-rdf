@@ -351,7 +351,7 @@ class MyCLI < Thor
 
     data_hash[target] = shasum
 
-    File.open("#{$base}/logs/#{type}-hashes.json","w") do |f|
+    File.open("#{$base}/logs/#{type}-hashes.json","w+") do |f|
       f.write(JSON.pretty_generate(data_hash))
     end
   end
