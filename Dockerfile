@@ -1,16 +1,17 @@
 FROM alpine:3.5
 #ENV variables
 ENV DOCKER=true
+
+ENV BUILD_PACKAGES curl-dev ruby-dev build-base curl nano wget bash git tmux
+ENV RUBY_PACKAGES ruby ruby-io-console ruby-bundler
+ENV JAVA_PACKAGES openjdk8-jre
+
 # Basic Utils
-RUN apk update && apk upgrade
-
-RUN apk add curl nano wget bash git tmux
-
-# Ruby
-RUN apk add ruby ruby-bundler
-
-# Java
-RUN apk add openjdk8-jre
+RUN apk update && \
+    apk upgrade && \
+    apk add $BUILD_PACKAGES && \
+    apk add $RUBY_PACKAGES && \
+    apk add $JAVA_PACKAGES 
 
 # Clean APK cache
 RUN rm -rf /var/cache/apk/*
