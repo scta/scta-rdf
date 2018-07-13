@@ -10,6 +10,7 @@ end
 
 get '/' do
   puts "beginning response. Check back in a while and you can see the report"
+  puts "beginning response. Check back in a while and you can see the report"
   Thread.new do
     puts "starting script"
     `bin2/scta-rdf extract_all`
