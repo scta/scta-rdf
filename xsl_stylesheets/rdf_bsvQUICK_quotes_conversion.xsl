@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	version="2.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:sctar="http://scta.info/resource/" xmlns:sctap="http://scta.info/property/">
-	
+
 	<xsl:output method="xml" indent="yes"/>
 	<xsl:param name="lbpworkname">gen</xsl:param>
-	<xsl:variable name="bibleQuotesList">/Users/jcwitt/Projects/scta/scta-rdf/data/scta-quotations/bible_quotations.xml</xsl:variable>
+	<xsl:param name="base">gen</xsl:param>
+	<xsl:variable name="bibleQuotesList"><xsl:value-of select="$base"/>/data/scta-quotations/bible_quotations.xml</xsl:variable>
 	<xsl:template match="/">
-		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 			xmlns:tei="http://www.tei-c.org/ns/1.0"
 			xmlns:sctap="http://scta.info/property/"
 			xmlns:sctar="http://scta.info/resource/"
-			xmlns:role="http://www.loc.gov/loc.terms/relators/" 
-			xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-			xmlns:collex="http://www.collex.org/schema#" 
-			xmlns:dcterms="http://purl.org/dc/terms/" 
+			xmlns:role="http://www.loc.gov/loc.terms/relators/"
+			xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+			xmlns:collex="http://www.collex.org/schema#"
+			xmlns:dcterms="http://purl.org/dc/terms/"
 			xmlns:dc="http://purl.org/dc/elements/1.1/"
 			xmlns:owl="http://www.w3.org/2002/07/owl#">
 			<xsl:for-each select="/XMLBIBLE/BIBLEBOOK[@lbp-name=$lbpworkname]//VERS">
 				<xsl:call-template name="createQuotationEntry"/>
 			</xsl:for-each>
-		</rdf:RDF> 
+		</rdf:RDF>
 	</xsl:template>
-	
+
 	<xsl:template name="createQuotationEntry">
-		
+
 		<xsl:variable name="workid" select="./ancestor::BIBLEBOOK/@lbp-name"/> <!-- should generate abbrev -->
 		<xsl:variable name="worktitle" select="document(concat('/Users/jcwitt/Projects/scta/bible_text/nova-vulgata/', $lbpworkname, '.xml'))/romanliturgy/titulum"/> <!-- should generate title -->
 		<xsl:variable name="chapterNumber" select="./ancestor::CHAPTER/@cnumber"/>
@@ -49,6 +50,6 @@
 		</xsl:for-each>
 	</xsl:template>
 	<xsl:template match="head">
-		
+
 	</xsl:template>
 </xsl:stylesheet>

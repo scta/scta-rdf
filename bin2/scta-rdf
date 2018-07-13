@@ -90,7 +90,14 @@ class MyCLI < Thor
   end
   desc "create_bible_quotations", "create bible quotations"
   def create_bible_quotations (scope="all")
-    exec("#{$base}/bin2/rdfBibleExtract.sh #{scope} #{$base}")
+      Dir.foreach("#{$base}/data/bible-text/nova-vulgata/") do |item|
+        if item.include?(".xml")
+          id = item.split(".").first
+          puts "creating #{id}"
+          `saxon -warnings:silent "-s:#{$base}/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_bsvQUICK_quotes_conversion.xsl" "-o:#{$base}/build/quotations/bsvquotations/#{id}.rdf" lbpworkname=#{id} base=#{$base}`
+        end
+      end
+    #exec("#{$base}/bin2/rdfBibleExtract.sh #{scope} #{$base}")
   end
   desc "create_expression EDF", "create expression"
   def create_expression (edf)
