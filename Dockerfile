@@ -11,7 +11,7 @@ RUN apk update && \
     apk upgrade && \
     apk add $BUILD_PACKAGES && \
     apk add $RUBY_PACKAGES && \
-    apk add $JAVA_PACKAGES 
+    apk add $JAVA_PACKAGES
 
 # Clean APK cache
 RUN rm -rf /var/cache/apk/*
@@ -35,11 +35,15 @@ RUN curl -L -o /home/fuseki/apache-jena-fuseki-2.3.1.zip http://archive.apache.o
 
 ADD . /home/scta-rdf
 
+
 # mkdir scta-text directory
 RUN mkdir -p /home/scta-rdf/data/scta-texts
 RUN curl -L -o /home/scta-rdf/data/scta-texts/QmcmpvGBKoUgEQbygohLcLRgHiUoLFwsQD2YzSY92x3uwu http://gateway.ipfs.io/ipfs/QmcmpvGBKoUgEQbygohLcLRgHiUoLFwsQD2YzSY92x3uwu && \
     tar -xvzf /home/scta-rdf/data/scta-texts/QmcmpvGBKoUgEQbygohLcLRgHiUoLFwsQD2YzSY92x3uwu -C /home/scta-rdf/data/scta-texts/
 
 
+WORKDIR /home/scta-rdf
+RUN bundle install
+
 #install thor
-RUN gem install thor --no-ri --no-rdoc
+#RUN gem install thor --no-ri --no-rdoc
