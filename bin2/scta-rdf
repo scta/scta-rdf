@@ -337,10 +337,10 @@ class MyCLI < Thor
   def get_hash (directory, target, type)
 
     if type == "text"
-      shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 shasum | shasum`
+      shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 #{$shacommand} | #{$shacommand}`
       shasum = shasum_response.split(" ")[0]
     else
-      shasum_response = `shasum #{directory}/#{target}`
+      shasum_response = `#{$shacommand} #{directory}/#{target}`
       shasum = shasum_response.split(" ")[0]
     end
 
@@ -358,6 +358,11 @@ class MyCLI < Thor
 
     data_hash[target] = shasum
 
+    # make sure logs folder exists before writing
+    if !File.exist?("#{$base}/logs/")
+      Dir.mkdir "#{$base}/logs/"
+    end
+    # write new has to file
     File.open("#{$base}/logs/#{type}-hashes.json","w+") do |f|
       f.write(JSON.pretty_generate(data_hash))
     end
@@ -381,10 +386,10 @@ class MyCLI < Thor
   desc "same hash?", "compares files and return true if the hashes are the same and false if they are different"
   def same_hash? (directory, target, type)
     if type == "text"
-      shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 shasum | shasum`
+      shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 #{$shacommand} | #{$shacommand}`
       shasum = shasum_response.split(" ")[0]
     else
-      shasum_response = `shasum #{directory}/#{target}`
+      shasum_response = `#{$shacommand} #{directory}/#{target}`
       shasum = shasum_response.split(" ")[0]
     end
     puts "new shasum #{shasum}"
