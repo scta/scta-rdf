@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    build: .
+    image: scta-rdf
+    volumes:
+      - ./build:/home/scta-rdf/build
+      - ./fuseki-builds:/home/scta-rdf/fuseki-builds
+    ports:
+      - "3000:3000"
