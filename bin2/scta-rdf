@@ -7,12 +7,12 @@ require "open-uri"
 require_relative "config"
 
 class MyCLI < Thor
-  desc "clear_TDB", "clear TDB"
-  def clear_TDB (buildname, build_directory=$fuseki_builds, prebuild=true)
+  desc "clear_TDB", "clear TDB, set prebuild to 'all' to avoid using canvas-prebuild"
+  def clear_TDB (buildname, prebuild=true, build_directory=$fuseki_builds)
     exec("#{$base}/bin2/clearTDB.sh #{buildname} #{build_directory} #{prebuild}")
   end
   desc "create_TDB BUILD_DIRECTORY", "create new build director at BUILD_DIRECTORY"
-  def create_TDB (buildname, build_directory=$fuseki_builds, prebuild=true)
+  def create_TDB (buildname, prebuild=true, build_directory=$fuseki_builds)
     exec("#{$base}/bin2/createTDB.sh #{buildname} #{build_directory} #{prebuild}")
   end
   desc "start_fuseki", "start fuseki"

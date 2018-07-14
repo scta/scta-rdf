@@ -15,7 +15,7 @@ else
   if [[ $3 == "all" ]]
     then
       echo "canvas prebuild skipped. creating blank directory"
-      mkdir "$builddir/$buildname"
+      mkdir -p "$builddir/$buildname"
     else
       echo "copying canvas prebuild"
       cp -R "$builddir/canvases-pre-build" "$builddir/$buildname"
