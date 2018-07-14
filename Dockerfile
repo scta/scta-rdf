@@ -33,6 +33,8 @@ RUN curl -L -o /home/fuseki/apache-jena-fuseki-2.3.1.zip http://archive.apache.o
     unzip /home/fuseki/apache-jena-fuseki-2.3.1.zip -d /home/fuseki/ && \
     rm /home/fuseki/apache-jena-fuseki-2.3.1.zip
 
+RUN mkdir -p /home/fuseki-builds/build
+
 ADD . /home/scta-rdf
 
 
