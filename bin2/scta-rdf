@@ -6,6 +6,12 @@ require "open-uri"
 
 require_relative "config"
 
+# class Nokogiri::XML::Document
+#   def remove_empty_lines!
+#     self.xpath("//text()").each { |text| text.content = text.content.gsub(/\n(\s*\n)+/,"\n") }; self
+#   end
+# end
+
 class MyCLI < Thor
   desc "clear_TDB", "clear TDB, set prebuild to 'all' to avoid using canvas-prebuild"
   def clear_TDB (buildname, prebuild=true, build_directory=$fuseki_builds)
@@ -46,7 +52,7 @@ class MyCLI < Thor
   desc "create_codices", "create codices"
   def create_codices
     Dir.foreach("#{$base}/data/scta-codices/") do |item|
-      if item.include?(".xml")
+      if item.end_with?(".xml")
         codex = item.split(".xml").first
         self.create_codex(codex)
       end
@@ -55,14 +61,21 @@ class MyCLI < Thor
   desc "create_passive_relation EDF", "create passive relation"
   def create_passive_relation (edf)
     puts "Creating passive metadata assertion for #{edf}"
-    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}.rdf" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/rel-#{edf}.rdf";`
+    commentary_rel_rdf_status = self.same_hash?("#{$base}/build/commentaries", "#{edf}", "commentary-rel-rdf")
+    if !commentary_rel_rdf_status
+    puts "running passive relations creation for #{edf}"
+    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/rel-#{edf}";`
+    puts "updating passive relations status hash in log"
+    self.get_hash("#{$base}/build/commentaries", "#{edf}", "commentary-rel-rdf")
+    else
+      puts "no change in codex"
+    end
   end
   desc "create_passive_relations", "create passive relations"
   def create_passive_relations
     Dir.foreach("#{$base}/build/commentaries/") do |item|
-      if item.include?(".rdf")
-        edf = item.split(".rdf").first
-        self.create_passive_relation(edf)
+      if item.end_with?(".rdf")
+        self.create_passive_relation(item)
       end
     end
   end
@@ -82,22 +95,30 @@ class MyCLI < Thor
   desc "create_custom_quotations", "create custom quotations"
   def create_custom_quotations
     Dir.foreach("#{$base}/data/scta-quotations/") do |item|
-      if item.include?(".xml")
+      if item.end_with?(".xml")
         quotation_list = item.split(".xml").first
         self.create_custom_quotation(quotation_list)
       end
     end
   end
+
   desc "create_bible_quotations", "create bible quotations"
   def create_bible_quotations (scope="all")
+    bible_quotations_status = self.same_hash?("#{$base}/data/scta-quotations", "bible_quotations.xml", "bible-quotations")
+    if !bible_quotations_status
       Dir.foreach("#{$base}/data/bible-text/nova-vulgata/") do |item|
-        if item.include?(".xml")
+        if item.end_with?(".xml")
           id = item.split(".").first
           puts "creating #{id}"
           `saxon -warnings:silent "-s:#{$base}/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_bsvQUICK_quotes_conversion.xsl" "-o:#{$base}/build/quotations/bsvquotations/#{id}.rdf" lbpworkname=#{id} base=#{$base}`
         end
       end
-    #exec("#{$base}/bin2/rdfBibleExtract.sh #{scope} #{$base}")
+      puts "updating bible status hash in log"
+      self.get_hash("#{$base}/data/scta-quotations", "bible_quotations.xml", "bible-quotations")
+    else
+      puts "no change in bible quotation list"
+    end
+
   end
   desc "create_expression EDF", "create expression"
   def create_expression (edf)
@@ -133,7 +154,7 @@ class MyCLI < Thor
   desc "create_expressions", "create expressions"
   def create_expressions
     Dir.foreach("#{$base}/data/scta-projectfiles/") do |item|
-      if item.include?(".xml")
+      if item.end_with?(".xml")
         edf = item.split(".xml").first
         self.create_expression(edf)
       end
@@ -175,14 +196,29 @@ class MyCLI < Thor
     self.create_expressions
     self.create_codices
     self.create_custom_quotations
-    #self.create_bible_quotations
+    self.create_bible_quotations
     self.create_workgroups
     self.create_works
     self.create_names
     self.create_person_groups
     self.create_subject_list
+    self.split_large_files
     self.create_passive_relations
   end
+  desc "delete_graph graph", "delete graph"
+  def delete_graph (graph)
+    puts "deleting #{graph}"
+    `cd #{$fuseki} && ./bin/s-delete http://localhost:3030/ds/data #{graph}`
+  end
+  desc "delete_discarded_graphs graph", "delete graphs listed in log discardedgraphs.json file"
+  def delete_discarded_graphs (graph)
+    puts "deleting #{graph}"
+    data_array = JSON.parse("#{$base}/logs/discardedgraphs.json")
+    data_array.each do |graph|
+      self.delete_graph(graph)
+    end
+  end
+
   desc "load_graph graph", "load graph"
   def load_graph (subdirectory, graph)
     puts "loading #{$base}/build/#{subdirectory}/#{graph}"
@@ -191,7 +227,7 @@ class MyCLI < Thor
   desc "load_graphs", "load graphs"
   def load_graphs(subdirectory)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
-      if item.include?(".rdf") || item.include?(".ttl")
+      if item.end_with?(".rdf") || item.end_with?(".ttl")
         self.load_graph(subdirectory, item)
       end
     end
@@ -214,6 +250,9 @@ class MyCLI < Thor
     elsif subdirectory == "quotations"
       type = "quotations-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "quotations/bsvquotations"
+      type = "bible-quotations-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
     elsif subdirectory == "relations"
       type = "relations-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
@@ -229,6 +268,7 @@ class MyCLI < Thor
     end
     puts "status: #{status}"
     if !status
+      puts "updating #{graph}"
       `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
       puts "updating text-rdf hash in log"
       self.get_hash(full_dir_path, graph, type)
@@ -239,7 +279,7 @@ class MyCLI < Thor
   desc "update_graphs", "update graphs"
   def update_graphs(subdirectory)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
-      if item.include?(".rdf") || item.include?(".ttl")
+      if item.end_with?(".rdf") || item.end_with?(".ttl")
         self.update_graph(subdirectory, item)
       end
     end
@@ -251,6 +291,7 @@ class MyCLI < Thor
     self.update_graphs("commentaries")
     self.update_graphs("names")
     self.update_graphs("quotations")
+    self.update_graphs("quotations/bsvquotations")
     self.update_graphs("relations")
     self.update_graphs("subjects")
     self.update_graphs("works")
@@ -276,7 +317,7 @@ class MyCLI < Thor
   def update_canvases
     puts "loading canvases in #{$base}/data/scta-codices/canvases/"
     Dir.foreach("#{$base}/data/scta-codices/canvases/") do |item|
-      if item.include?(".jsonld")
+      if item.end_with?(".jsonld")
         self.load_canvas(item)
       end
     end
@@ -291,7 +332,7 @@ class MyCLI < Thor
   def load_canvases
     puts "loading canvases in #{$base}/data/scta-codices/canvases/"
     Dir.foreach("#{$base}/data/scta-codices/canvases/") do |item|
-      if item.include?(".jsonld")
+      if item.end_with?(".jsonld")
         self.load_canvas(item)
       end
     end
@@ -405,7 +446,67 @@ class MyCLI < Thor
     end
     puts status
     return status
+  end
+  desc "split_large_files", "splits large build files into smaller versions"
+  def split_large_files
+    large_files = true
+    while large_files
+      Dir.foreach("#{$base}/build/commentaries/") do |item|
+        if item.end_with?(".rdf")
+          size = File.size("#{$base}/build/commentaries/#{item}") / 1024000
+          #puts "#{item}: #{size}"
+          if size > 75
+            puts "size is greater than 75; beginning file split"
+            doc = Nokogiri::XML(open("#{$base}/build/commentaries/#{item}"))
+            count = doc.xpath("count(//rdf:Description)", 'rdf' => 'http://www.w3.org/1999/02/22-rdf-syntax-ns#').floor
 
+            puts "#{item} description count: #{count}"
+
+            splitSize = 4
+            splitSize.times do |index|
+              puts "index: #{index}"
+              keepStart = index * (count/splitSize).floor
+              keepStop = index == (splitSize - 1) ? count : (index + 1) * (count/splitSize).floor
+              puts "keepstart: #{keepStart}; keepstop: #{keepStop}"
+              c = doc.clone
+              (c.xpath("/rdf:RDF/rdf:Description", 'rdf' => 'http://www.w3.org/1999/02/22-rdf-syntax-ns#') - c.xpath("/rdf:RDF/rdf:Description", 'rdf' => 'http://www.w3.org/1999/02/22-rdf-syntax-ns#')[keepStart...keepStop]).remove
+
+              itemslug = item.split(".rdf").first
+              File.open("#{$base}/build/commentaries/#{itemslug}-#{index}.rdf", 'w') do |f|
+                f.write(c.to_s)
+              end
+            end
+            newfilename = "#{$base}/build/commentaries/#{item}".gsub(".rdf", ".xml")
+            File.rename("#{$base}/build/commentaries/#{item}", newfilename)
+
+            if File.exist?("#{$base}/logs/discardedgraphs.json")
+              if !File.zero?("#{$base}/logs/discardedgraphs.json")
+                file = File.read("#{$base}/logs/discardedgraphs.json")
+                data_hash = JSON.parse(file)
+              else
+                data_hash = []
+              end
+            else
+              data_hash = []
+            end
+
+            data_hash << item
+
+            # make sure logs folder exists before writing
+            if !File.exist?("#{$base}/logs/")
+              Dir.mkdir "#{$base}/logs/"
+            end
+            # write new has to file
+            File.open("#{$base}/logs/discardedgraphs.json","w+") do |f|
+              f.write(JSON.pretty_generate(data_hash))
+            end
+          else
+            large_files = false
+          end
+
+        end
+      end
+    end
   end
 
 
