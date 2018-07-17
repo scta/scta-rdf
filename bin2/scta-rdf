@@ -398,7 +398,7 @@ class MyCLI < Thor
     `rm #{$base}/data/scta-texts/#{textrepo}.tar`
 
   end
-  desc "update_text_repo", "updates a single scta-text repo from url point to tarball"
+  desc "update_text_repos", "updates all texts repos using ids from edf/projectfiles"
   def update_text_repos
 
     Dir.foreach("#{$base}/data/scta-projectfiles/") do |item|
