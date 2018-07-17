@@ -374,6 +374,45 @@ class MyCLI < Thor
     puts repo
     `cd #{$base}/data/#{repo} && git pull`
   end
+
+  desc "update_scta_texts", "updates scta_texts data folder from url pointing to tarball"
+  def update_scta_texts (url, ipfs=false)
+    if ipfs == "true"
+      url = "http://gateway.ipfs.io/ipfs/#{url}"
+    end
+    puts url
+    `mkdir -p #{$base}/data/scta-texts && \
+    curl -L -o #{$base}/data/scta-texts/tmp-scta-texts.tar #{url} && \
+    tar -xvzf #{$base}/data/scta-texts/tmp-scta-texts.tar -C #{$base}/data/scta-texts/`
+  end
+
+  desc "update_text_repo", "updates a single scta-text repo from url point to tarball"
+  def update_text_repo (textrepo)
+  `mkdir -p #{$base}/data/scta-texts && \
+      curl -L -o #{$base}/data/scta-texts/#{textrepo}.tar https://api.github.com/repos/scta-texts/#{textrepo}/tarball/master && \
+      tar -xvzf #{$base}/data/scta-texts/#{textrepo}.tar --directory #{$base}/data/scta-texts/ && \
+      rm -rf #{$base}/data/scta-texts/#{textrepo} && \
+      mv #{$base}/data/scta-texts/scta-texts-#{textrepo}* #{$base}/data/scta-texts/#{textrepo} && \
+      rm -rf #{$base}/data/scta-texts/scta-texts-#{textrepo}*`
+
+    `rm #{$base}/data/scta-texts/#{textrepo}.tar`
+
+  end
+  desc "update_text_repo", "updates a single scta-text repo from url point to tarball"
+  def update_text_repos
+
+    Dir.foreach("#{$base}/data/scta-projectfiles/") do |item|
+      if item.end_with?(".xml")
+        edf = item.split(".xml").first
+        doc = Nokogiri::XML(open("#{$base}/data/scta-projectfiles/#{edf}.xml"))
+        reponame = doc.xpath("/listofFileNames/header[1]/commentaryid[1]").text
+        puts "text_dirid is #{reponame}"
+        puts "attempting tarball retrieval for #{reponame}"
+        self.update_text_repo(reponame)
+      end
+    end
+  end
+
   desc "get hash", "creates hash for target and adds to specified hash table"
   def get_hash (directory, target, type)
 
