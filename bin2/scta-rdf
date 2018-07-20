@@ -79,6 +79,30 @@ class MyCLI < Thor
       end
     end
   end
+  desc "create_passive_relations_query", "create passive relations via SPARQL construct query"
+  def create_passive_relations_query (property)
+    if property == "quotes"
+      passive_property = "quotedBy"
+    elsif property == "copies"
+      passive_property = "copiedBy"
+    elsif property == "references"
+      passive_property = "referencedBy"
+    elsif property == "abbreviates"
+      passive_property = "abbreviatedBy"
+    elsif property == "isInstanceOf"
+      passive_property = "hasInstance"
+    elsif property == "isRelatedTo"
+      passive_property = "isRelatedTo"
+    end
+    `curl "http://sparql-staging.scta.info/ds/query?query=CONSTRUCT+++%7B+%3Fo+%3Chttp%3A%2F%2Fscta.info%2Fproperty%2F#{passive_property}%3E+%3Fs+%7D%0D%0AWHERE+++++++%7B+%3Fs+%3Chttp%3A%2F%2Fscta.info%2Fproperty%2F#{property}%3E+%3Fo+%7D&output=xml&stylesheet=" --create-dirs --output build/relquery/#{property}.rdf`
+  end
+  desc "create_all_passive_relations_query", "create passive relations via SPARQL construct query"
+  def create_all_passive_relations_query
+    active_properties = ["quotes", "copies", "references", "abbreviates", "isInstanceOf", "isRelatedTo"]
+    active_properties.each do |item|
+      self.create_passive_relations_query (item)
+    end
+  end
   desc "create_custom_quotation", "create custom quotation"
   def create_custom_quotation (quotation_list)
     puts "creation list for #{quotation_list}"
@@ -202,8 +226,8 @@ class MyCLI < Thor
     self.create_names
     self.create_person_groups
     self.create_subject_list
-    self.split_large_files
-    self.create_passive_relations
+    #self.split_large_files
+    #self.create_passive_relations
   end
   desc "delete_graph graph", "delete graph"
   def delete_graph (graph)
@@ -256,6 +280,9 @@ class MyCLI < Thor
     elsif subdirectory == "relations"
       type = "relations-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "relquery"
+      type = "relquery-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
     elsif subdirectory == "subjects"
       type = "subjects-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
@@ -292,9 +319,10 @@ class MyCLI < Thor
     self.update_graphs("names")
     self.update_graphs("quotations")
     self.update_graphs("quotations/bsvquotations")
-    self.update_graphs("relations")
+    #self.update_graphs("relations")
     self.update_graphs("subjects")
     self.update_graphs("works")
+    self.update_graphs("relquery")
 
     # miscellaneous graph updates
     self.update_graph("", "scta_expression_types.ttl")
@@ -347,7 +375,7 @@ class MyCLI < Thor
     self.load_graphs("subjects")
     self.load_graphs("quotations")
     self.load_graphs("quotations/bsvquotations")
-    self.load_graphs("relations")
+    self.load_graphs("relquery")
     self.load_graphs("codices")
     # these data sources should get copied into build
     # and then imported from build to keep things consistent
