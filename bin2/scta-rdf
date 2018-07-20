@@ -99,7 +99,7 @@ class MyCLI < Thor
     elsif property == "isRelatedTo"
       passive_property = "isRelatedTo"
     end
-    `curl "http://sparql-staging.scta.info/ds/query?query=CONSTRUCT+++%7B+%3Fo+%3Chttp%3A%2F%2Fscta.info%2Fproperty%2F#{passive_property}%3E+%3Fs+%7D%0D%0AWHERE+++++++%7B+%3Fs+%3Chttp%3A%2F%2Fscta.info%2Fproperty%2F#{property}%3E+%3Fo+%7D&output=xml&stylesheet=" --create-dirs --output build/relquery/#{property}.rdf`
+    `curl "http://localhost:3030/ds/query?query=CONSTRUCT+++%7B+%3Fo+%3Chttp%3A%2F%2Fscta.info%2Fproperty%2F#{passive_property}%3E+%3Fs+%7D%0D%0AWHERE+++++++%7B+%3Fs+%3Chttp%3A%2F%2Fscta.info%2Fproperty%2F#{property}%3E+%3Fo+%7D&output=xml&stylesheet=" --create-dirs --output build/relquery/#{property}.rdf`
   end
   desc "create_all_passive_relations_query", "create passive relations via SPARQL construct query"
   def create_all_passive_relations_query
