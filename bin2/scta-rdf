@@ -35,6 +35,11 @@ class MyCLI < Thor
       exec("cd #{$fuseki}/ && ./fuseki-server --set tdb:unionDefaultGraph=true --loc=#{location}  --update /ds")
     end
   end
+  desc "create_manual_ttls", "moves manual ttls from data to build folder"
+  def create_manual_ttls
+    puts "moving ttl files from data to build folder"
+    `cp #{$base}/data/*.ttl #{$base}/build`
+  end
   desc "create_codex CODEX", "create codex"
   def create_codex (codex)
     puts "creating codex metadata for #{codex}";
@@ -216,7 +221,7 @@ class MyCLI < Thor
     #update data repos
     puts "updating data repos"
     self.update_repos
-
+    self.create_manual_ttls
     self.create_expressions
     self.create_codices
     self.create_custom_quotations
