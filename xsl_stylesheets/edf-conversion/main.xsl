@@ -108,6 +108,21 @@
       <!-- TODO some of the DIV calls could be consolidated in this way -->
       <!-- IT's ideal to be getting the required params once and then using them in many templates rather than re-retrieving params for each template -->
       <xsl:for-each select=".//item">
+        <xsl:result-document method="xml" href="{fileName/@filestem}.rdf">
+          
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:sctar="http://scta.info/resource/"
+            xmlns:sctap="http://scta.info/property/"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:role="http://www.loc.gov/loc.terms/relators/"
+            xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+            xmlns:collex="http://www.collex.org/schema#"
+            xmlns:dcterms="http://purl.org/dc/terms/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:ldp="http://www.w3.org/ns/ldp#"
+            xmlns:utils="http://utility/functions"
+            xmlns:tei="http://www.tei-c.org/ns/1.0">
+            
         <!-- TODO go through variable and see what is being used and delete what is not being used -->
         <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>
         <xsl:variable name="title"><xsl:value-of select="title"/></xsl:variable>
@@ -537,7 +552,8 @@
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
         </xsl:call-template>
-      
+          </rdf:RDF>
+        </xsl:result-document>
       </xsl:for-each>
       <!--<xsl:apply-templates/>-->
     </rdf:RDF>

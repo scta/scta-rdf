@@ -150,7 +150,7 @@ class MyCLI < Thor
 
   end
   desc "create_expression EDF", "create expression"
-  def create_expression (edf)
+  def create_expression (edf, force=false)
     puts "======"
     puts "creating expression for #{edf}"
 
@@ -164,7 +164,7 @@ class MyCLI < Thor
     #if Dir.exist?("#{$textfilesbase}#{text_dirid})"
     text_status = self.same_hash?($textfilesbase, text_dirid, "text")
     puts "text_status #{text_status}"
-    if !edf_status || !text_status
+    if (!edf_status || !text_status) || force
       `saxon -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
       if !edf_status
         puts "updating edf hash in log"
@@ -181,11 +181,11 @@ class MyCLI < Thor
     end
   end
   desc "create_expressions", "create expressions"
-  def create_expressions
+  def create_expressions (force=false)
     Dir.foreach("#{$base}/data/scta-projectfiles/") do |item|
       if item.end_with?(".xml")
         edf = item.split(".xml").first
-        self.create_expression(edf)
+        self.create_expression(edf, force)
       end
     end
   end
@@ -231,8 +231,15 @@ class MyCLI < Thor
     self.create_names
     self.create_person_groups
     self.create_subject_list
-    #self.split_large_files
-    #self.create_passive_relations
+  end
+  desc "build_and_update", "performs full build and update pattern; assumes fuseki is running"
+  def build_and_update
+    # assumes fuseki is already running
+    self.update_text_repos
+    self.extract_all
+    self.update_all_graphs
+    self.create_all_passive_relations_query
+    self.update_graphs("relquery")
   end
   desc "delete_graph graph", "delete graph"
   def delete_graph (graph)
@@ -327,7 +334,9 @@ class MyCLI < Thor
     #self.update_graphs("relations")
     self.update_graphs("subjects")
     self.update_graphs("works")
-    self.update_graphs("relquery")
+
+    #relquery can be skipped because it is always going to be called separately after passive relation creation
+    #self.update_graphs("relquery")
 
     # miscellaneous graph updates
     self.update_graph("", "scta_expression_types.ttl")
