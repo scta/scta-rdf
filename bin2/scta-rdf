@@ -39,6 +39,15 @@ class MyCLI < Thor
   def create_manual_ttls
     puts "moving ttl files from data to build folder"
     `cp #{$base}/data/*.ttl #{$base}/build`
+    puts "moving ttl from scta-rdf-schema"
+    `cp #{$base}/data/scta-rdf-schema/src/classes-list.ttl #{$base}/build`
+    `cp #{$base}/data/scta-rdf-schema/src/properties-list.ttl #{$base}/build`
+  end
+  desc "create_canvases", "moves canvases from data to build folder"
+  def create_canvases
+    puts "moving canvas files from data to build"
+    `rm -rf #{$base}/build/canvases/`
+    `cp -R #{$base}/data/scta-codices/canvases/ #{$base}/build/canvases/`
   end
   desc "create_codex CODEX", "create codex"
   def create_codex (codex)
@@ -222,6 +231,9 @@ class MyCLI < Thor
     puts "updating data repos"
     self.update_repos
     self.create_manual_ttls
+    self.create_canvases
+    # end updates
+    # begin xslt creations
     self.create_expressions
     self.create_codices
     self.create_custom_quotations
@@ -301,6 +313,9 @@ class MyCLI < Thor
     elsif subdirectory == "works"
       type = "works-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "canvases"
+      type = "canvases-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
     else
       type = "misc-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
@@ -331,9 +346,11 @@ class MyCLI < Thor
     self.update_graphs("names")
     self.update_graphs("quotations")
     self.update_graphs("quotations/bsvquotations")
-    #self.update_graphs("relations")
     self.update_graphs("subjects")
     self.update_graphs("works")
+
+    # canvase update is manual for the moment until IIIF/jsonld problem is solved
+    #self.update_graphs("canvases")
 
     #relquery can be skipped because it is always going to be called separately after passive relation creation
     #self.update_graphs("relquery")
@@ -346,8 +363,8 @@ class MyCLI < Thor
 
     # these data sources should get copied into build
     # and then imported from build to keep things consistent
-    self.update_graph("../data/scta-rdf-schema/src", "classes-list.ttl")
-    self.update_graph("../data/scta-rdf-schema/src", "properties-list.ttl")
+    self.update_graph("", "classes-list.ttl")
+    self.update_graph("", "properties-list.ttl")
 
   end
   desc "update_canvas", "load canvas"
@@ -393,8 +410,8 @@ class MyCLI < Thor
     self.load_graphs("codices")
     # these data sources should get copied into build
     # and then imported from build to keep things consistent
-    self.load_graph("../data/scta-rdf-schema/src", "classes-list.ttl")
-    self.load_graph("../data/scta-rdf-schema/src", "properties-list.ttl")
+    self.load_graph("", "classes-list.ttl")
+    self.load_graph("", "properties-list.ttl")
     self.load_graph("", "scta_expression_types.ttl")
     self.load_graph("", "scta_author_types.ttl")
     self.load_graph("", "articles.ttl")
