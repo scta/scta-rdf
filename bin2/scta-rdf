@@ -141,9 +141,9 @@ class MyCLI < Thor
   end
 
   desc "create_bible_quotations", "create bible quotations"
-  def create_bible_quotations (scope="all")
+  def create_bible_quotations (force=false)
     bible_quotations_status = self.same_hash?("#{$base}/data/scta-quotations", "bible_quotations.xml", "bible-quotations")
-    if !bible_quotations_status
+    if !bible_quotations_status || force
       Dir.foreach("#{$base}/data/bible-text/nova-vulgata/") do |item|
         if item.end_with?(".xml")
           id = item.split(".").first

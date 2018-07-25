@@ -26,8 +26,8 @@
 	<xsl:template name="createQuotationEntry">
 
 		<xsl:variable name="workid" select="./ancestor::BIBLEBOOK/@lbp-name"/> <!-- should generate abbrev -->
-		<xsl:variable name="worktitle" select="document(concat('/Users/jcwitt/Projects/scta/bible_text/nova-vulgata/', $lbpworkname, '.xml'))/romanliturgy/titulum"/> <!-- should generate title -->
-		<xsl:variable name="chapterNumber" select="./ancestor::CHAPTER/@cnumber"/>
+	  <xsl:variable name="worktitle" select="document(concat($base, '/data/bible-text/nova-vulgata/', $lbpworkname, '.xml'))/romanliturgy/titulum"/> <!-- should generate title -->
+	  <xsl:variable name="chapterNumber" select="./ancestor::CHAPTER/@cnumber"/>
 		<xsl:variable name="versenumber" select="./@vnumber"/>
 		<xsl:variable name="verse" select="."/>
 		<xsl:variable name="verseid" select="concat($workid, $chapterNumber, '_', $versenumber)"/>
