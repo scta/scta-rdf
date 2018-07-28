@@ -260,6 +260,7 @@ class MyCLI < Thor
     self.create_codices
     self.create_custom_quotations
     self.create_bible_quotations
+    self.create_articles
     self.create_workgroups
     self.create_works
     self.create_names
@@ -338,7 +339,7 @@ class MyCLI < Thor
     elsif subdirectory == "canvases"
       type = "canvases-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
-    elsif subdirectory == "artoc;es"
+    elsif subdirectory == "articles"
       type = "articles-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
     else
@@ -371,6 +372,7 @@ class MyCLI < Thor
     self.update_graphs("names")
     self.update_graphs("quotations")
     self.update_graphs("quotations/bsvquotations")
+    self.update_graphs("articles")
     self.update_graphs("subjects")
     self.update_graphs("works")
 
