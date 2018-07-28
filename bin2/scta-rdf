@@ -215,6 +215,28 @@ class MyCLI < Thor
   	puts "Begin Nameslist Metadata extraction";
   	`saxon "-s:#{$base}/data/scta-people/Prosopography.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf";`
   end
+  desc "create_article", "create articles for specific article list"
+  def create_article (file, force=false)
+    puts "Begin Article Metadata Creation";
+    articles_status = self.same_hash?("#{$base}/data/scta-articles", "#{file}.xml", "articles")
+    if !articles_status || force
+      puts "running articles creation for #{file}"
+      `saxon "-s:#{$base}/data/scta-articles/#{file}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_article_conversion.xsl" "-o:#{$base}/build/articles/#{file}.rdf";`
+      puts "updating codex status hash in log"
+      self.get_hash("#{$base}/data/scta-articles", "#{file}.xml", "articles")
+    else
+      puts "no change in quotation list"
+    end
+  end
+  desc "create_articles", "create articles for all article lists"
+  def create_articles (force=false)
+    Dir.foreach("#{$base}/data/scta-articles/") do |item|
+      if item.end_with?(".xml")
+        filename = item.split(".xml").first
+        self.create_article(filename, force)
+      end
+    end
+  end
   desc "create_person_groups", "create person groups"
   def create_person_groups
     puts "Begin PersonGroupList Metadata extraction";
@@ -315,6 +337,9 @@ class MyCLI < Thor
       status = self.same_hash?(full_dir_path, graph, type)
     elsif subdirectory == "canvases"
       type = "canvases-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "artoc;es"
+      type = "articles-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
     else
       type = "misc-rdf"

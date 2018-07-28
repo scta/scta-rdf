@@ -22,3 +22,7 @@
 	path = data/scta-people
 	url = https://github.com/scta/scta-people
 	branch = master
+[submodule "data/scta-articles"]
+	path = data/scta-articles
+	url = https://github.com/scta/scta-articles.git
+	branch = master
