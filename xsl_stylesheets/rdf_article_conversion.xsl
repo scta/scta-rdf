@@ -13,10 +13,33 @@
       xmlns:collex="http://www.collex.org/schema#" xmlns:dcterms="http://purl.org/dc/terms/"
       xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#"
       xmlns:rcs="http://rcs.philsem.unibas.ch/resource/">
-      <xsl:apply-templates/>
+      <xsl:call-template name="article"/>
+      <xsl:call-template name="transcription"/>
+      
     </rdf:RDF>
   </xsl:template>
-  <xsl:template match="article">
+  <xsl:template name="article">
+    <xsl:for-each select="//article">
+    <xsl:variable name="title" select="./title"/>
+    <xsl:variable name="type" select="./type"/>
+    <rdf:Description rdf:about="http://scta.info/resource/{./name}">
+      <rdf:type rdf:resource="http://scta.info/resource/article"/>
+      <dc:title>
+        <xsl:value-of select="$title"/>
+      </dc:title>
+      <sctap:articleType rdf:resource="http://scta.info/resource/{$type}"/>
+      <sctap:shortId><xsl:value-of select="./name"/></sctap:shortId>
+      <xsl:variable name="hasTranscriptionShortId" select="concat(./name, '/', ./transcriptions/transcription[@versionDefault='true']/hash)"/>
+      <xsl:for-each select="./isArticleOf">
+        <sctap:isArticleOf rdf:resource="{.}"/>
+      </xsl:for-each>
+      <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$hasTranscriptionShortId}"/>
+      <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$hasTranscriptionShortId}"/>
+    </rdf:Description>
+    </xsl:for-each>
+  </xsl:template>
+  <xsl:template name="transcription">
+    <xsl:for-each select="//transcription">
     <xsl:variable name="url">
       <xsl:choose>
         <xsl:when test="not(contains(./url, 'http'))">
@@ -27,22 +50,47 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <rdf:Description rdf:about="http://scta.info/resource/{./name}">
-      <rdf:type rdf:resource="http://scta.info/resource/article"/>
+    <xsl:variable name="title" select="concat('Transcription of ', ./ancestor::article[1]/title)"/>
+    <xsl:variable name="articleName" select="./ancestor::article[1]/name"/>
+    <xsl:variable name="shortId" select="concat($articleName, '/', ./hash)"/>
+    <rdf:Description rdf:about="http://scta.info/resource/{$shortId}">
+      <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
       <dc:title>
-        <xsl:value-of select="./title"/>
+        <xsl:value-of select="$title"/>
       </dc:title>
-      <sctap:articleType rdf:resource="http://scta.info/resource/{./type}"/>
-      <sctap:shortId><xsl:value-of select="./name"/></sctap:shortId>
+      <sctap:transcriptionType rdf:resource="http://scta.info/resource/article"/>
+      <sctap:shortId><xsl:value-of select="$shortId"/></sctap:shortId>
       <sctap:hasXML rdf:resource="{$url}"/>
       <sctap:hash><xsl:value-of select="./hash"/></sctap:hash>
-      <xsl:if test="./hasSuccessor">
-        <sctap:hasSuccessor rdf:resource="{./hasSuccessor}"/>
+      <sctap:isTranscriptionOf resource="http://scta.info/resource/{$articleName}"></sctap:isTranscriptionOf>
+      
+      <xsl:if test="./@versionDefault='true'">
+        <sctap:isVersionDefault>true</sctap:isVersionDefault>
       </xsl:if>
-      <xsl:for-each select="isArticleOf">
-        <sctap:isArticleOf rdf:resource="{.}"/>
+      <xsl:for-each select="preceding-sibling::transcription[1]">
+        <sctap:hasSuccessor rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
       </xsl:for-each>
+      <xsl:for-each select="following-sibling::transcription[1]">
+        <sctap:hasPredecessor rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:for-each select="preceding-sibling::transcription">
+        <sctap:hasDescendant rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:for-each select="following-sibling::transcription">
+        <sctap:hasAncestor rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:variable name="ordernumber"><xsl:number count="transcription"/></xsl:variable>
+      <xsl:if test="$ordernumber eq '1'">
+        <sctap:isHeadTranscription>true</sctap:isHeadTranscription>
+      </xsl:if>
+      <xsl:if test="./@reviewed='true'">
+        <sctap:hasReview>true</sctap:hasReview>
+      </xsl:if>
+      <sctap:orderNumber><xsl:value-of select="format-number($ordernumber, '0000')"/></sctap:orderNumber>
     </rdf:Description>
+    </xsl:for-each>
   </xsl:template>
-  <xsl:template match="tei:teiHeader | tei:note | tei:personGrp"/>
+  
+  
+  
 </xsl:stylesheet>
