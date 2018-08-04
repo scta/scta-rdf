@@ -19,7 +19,7 @@
     </rdf:RDF>
   </xsl:template>
   <xsl:template name="article">
-    <xsl:for-each select="//article">
+    <xsl:for-each select="//manifestation">
     <xsl:variable name="title" select="./title"/>
     <xsl:variable name="type" select="./type"/>
     <rdf:Description rdf:about="http://scta.info/resource/{./name}">
@@ -29,7 +29,7 @@
       </dc:title>
       <sctap:articleType rdf:resource="http://scta.info/resource/{$type}"/>
       <sctap:shortId><xsl:value-of select="./name"/></sctap:shortId>
-      <xsl:variable name="hasTranscriptionShortId" select="concat(./name, '/', ./transcriptions/transcription[@versionDefault='true']/hash)"/>
+      <xsl:variable name="hasTranscriptionShortId" select="concat(./name, '/', ./transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/hash)"/>
       <xsl:for-each select="./isArticleOf">
         <sctap:isArticleOf rdf:resource="{.}"/>
       </xsl:for-each>
@@ -39,7 +39,7 @@
     </xsl:for-each>
   </xsl:template>
   <xsl:template name="transcription">
-    <xsl:for-each select="//transcription">
+    <xsl:for-each select="//version">
     <xsl:variable name="url">
       <xsl:choose>
         <xsl:when test="not(contains(./url, 'http'))">
@@ -50,8 +50,8 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:variable name="title" select="concat('Transcription of ', ./ancestor::article[1]/title)"/>
-    <xsl:variable name="articleName" select="./ancestor::article[1]/name"/>
+    <xsl:variable name="title" select="concat('Transcription of ', ./ancestor::manifestation[1]/title)"/>
+    <xsl:variable name="articleName" select="./ancestor::manifestation[1]/name"/>
     <xsl:variable name="shortId" select="concat($articleName, '/', ./hash)"/>
     <rdf:Description rdf:about="http://scta.info/resource/{$shortId}">
       <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
@@ -63,23 +63,25 @@
       <sctap:hasXML rdf:resource="{$url}"/>
       <sctap:hash><xsl:value-of select="./hash"/></sctap:hash>
       <sctap:isTranscriptionOf resource="http://scta.info/resource/{$articleName}"></sctap:isTranscriptionOf>
+      <sctap:versionNo><xsl:value-of select="./versionNo/@n"/></sctap:versionNo>
+      <sctap:versionLabel><xsl:value-of select="./versionNo"/></sctap:versionLabel>
       
       <xsl:if test="./@versionDefault='true'">
         <sctap:isVersionDefault>true</sctap:isVersionDefault>
       </xsl:if>
-      <xsl:for-each select="preceding-sibling::transcription[1]">
+      <xsl:for-each select="preceding-sibling::version[1]">
         <sctap:hasSuccessor rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
       </xsl:for-each>
-      <xsl:for-each select="following-sibling::transcription[1]">
+      <xsl:for-each select="following-sibling::version[1]">
         <sctap:hasPredecessor rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
       </xsl:for-each>
-      <xsl:for-each select="preceding-sibling::transcription">
+      <xsl:for-each select="preceding-sibling::version">
         <sctap:hasDescendant rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
       </xsl:for-each>
-      <xsl:for-each select="following-sibling::transcription">
+      <xsl:for-each select="following-sibling::version">
         <sctap:hasAncestor rdf:resource="http://scta.info/resource/{$articleName}/{./hash}"/>
       </xsl:for-each>
-      <xsl:variable name="ordernumber"><xsl:number count="transcription"/></xsl:variable>
+      <xsl:variable name="ordernumber"><xsl:number count="version"/></xsl:variable>
       <xsl:if test="$ordernumber eq '1'">
         <sctap:isHeadTranscription>true</sctap:isHeadTranscription>
       </xsl:if>

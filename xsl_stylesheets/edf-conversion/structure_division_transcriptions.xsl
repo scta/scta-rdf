@@ -44,7 +44,7 @@
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="surfaces" select=".//folio"/>
       
-      <xsl:for-each select="$transcriptions//transcription[@transcriptionDefault='true']/version[1]">
+      <xsl:for-each select="$transcriptions//transcription/version[@versionDefault='true']">
         <xsl:variable name="this-transcription" select="."/>
         <xsl:variable name="url" select="./url"/>
         <xsl:variable name="transcription-text-path" select="concat($repo-path, ./url)"/>

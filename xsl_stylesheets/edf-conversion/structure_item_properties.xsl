@@ -24,7 +24,7 @@
     <xsl:if test="$level">
       <sctap:level><xsl:value-of select="$level"/></sctap:level>
     </xsl:if>
-    <xsl:message select="$defaultTranscriptionAndVersion"/>
+    
     <xsl:if test="$defaultTranscriptionAndVersion eq 'true'">
       <xsl:for-each select="$blocks">
         <xsl:variable name="pid" select="./@xml:id"/>

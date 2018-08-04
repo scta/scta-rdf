@@ -17,13 +17,18 @@
     <xsl:param name="cid"/>
     <xsl:param name="manifestations"/>
     <xsl:param name="fs"/>
+    <xsl:param name="repo-path"/>
     
     <xsl:for-each select="$manifestations//manifestation">
+      <!-- only create zones for manifestations if a transcription file has been started which currently contains coordinates-->
+      <xsl:if test="./transcriptions">
       <!-- required item level manifestation params -->
       <xsl:variable name="wit-slug" select="./@wit-slug"/>
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
+      <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
+      <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
+      
       
       
         
@@ -87,6 +92,7 @@
         </xsl:call-template>
           </xsl:for-each>
         </xsl:if>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
   <xsl:template name="zones_entry">

@@ -37,65 +37,68 @@
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="$manifestations//manifestation">
-      <!-- required item level manifestation params -->
-      <xsl:variable name="wit-slug" select="./@wit-slug"/>
-      <xsl:variable name="wit-title" select="./@wit-title"/>
-      <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
-      <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
-      <xsl:variable name="lang" select="./@lang"/>
-      
-      <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
-        <xsl:variable name="this-paragraph" select="."/>
-        <!-- only creates paragraph resource if that paragraph has been assigned an id -->
-        <xsl:if test="./@xml:id">
-        <xsl:variable name="pid" select="./@xml:id"/>
-        <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
-        <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
-        <!-- TODO: paragraph-surface is only getting one surface, but a paragraph can fall on more than one surface -->
-        <xsl:variable name="paragraph-surface">
-          <xsl:choose>
-            <xsl:when test="document($transcription-text-path)//tei:pb">
-              <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n), '-', '')"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', '')), '-', '')"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
+      <!-- only create block level manifestations if a transcription file has been started -->
+      <xsl:if test="./transcriptions">
+        <!-- required item level manifestation params -->
+        <xsl:variable name="wit-slug" select="./@wit-slug"/>
+        <xsl:variable name="wit-title" select="./@wit-title"/>
+        <xsl:variable name="transcriptions" select="./transcriptions"/>
+        <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
+        <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
+        <xsl:variable name="lang" select="./@lang"/>
         
-        
-        <xsl:call-template name="structure_block_manifestations_entry">
-          <xsl:with-param name="fs" select="$fs"/>
-          <xsl:with-param name="title" select="$title"/>
-          <xsl:with-param name="item-level" select="$item-level"/>
-          <xsl:with-param name="cid" select="$cid"/>
-          <xsl:with-param name="ParentId" select="$ParentId"/>
-          <xsl:with-param name="author-uri" select="$author-uri"/>
-          <xsl:with-param name="extraction-file" select="$extraction-file"/>
-          <xsl:with-param name="expressionType" select="$expressionType"/>
-          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
-          <xsl:with-param name="totalnumber" select="$totalnumber"/>
-          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
-          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-          <xsl:with-param name="text-path" select="$text-path"/>
-          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
-          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
-          <xsl:with-param name="manifestations" select="$manifestations"/>
-          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
-          <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
-          <!-- item manifestation level parmaters -->
-          <xsl:with-param name="wit-slug" select="$wit-slug"/>
-          <xsl:with-param name="wit-title" select="$wit-title"/>
-          <xsl:with-param name="transcriptions" select="$transcriptions"/>
-          <xsl:with-param name="paragraph-surface" select="$paragraph-surface"/>
-          <xsl:with-param name="lang" select="$lang"/>
-          <xsl:with-param name="pid" select="$pid"/>
-          <xsl:with-param name="pid_ref" select="$pid_ref"/>
-         
-        </xsl:call-template>
-        </xsl:if>
-      </xsl:for-each>
+        <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
+          <xsl:variable name="this-paragraph" select="."/>
+          <!-- only creates paragraph resource if that paragraph has been assigned an id -->
+          <xsl:if test="./@xml:id">
+          <xsl:variable name="pid" select="./@xml:id"/>
+          <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
+          <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
+          <!-- TODO: paragraph-surface is only getting one surface, but a paragraph can fall on more than one surface -->
+          <xsl:variable name="paragraph-surface">
+            <xsl:choose>
+              <xsl:when test="document($transcription-text-path)//tei:pb">
+                <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n), '-', '')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', '')), '-', '')"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          
+          
+          <xsl:call-template name="structure_block_manifestations_entry">
+            <xsl:with-param name="fs" select="$fs"/>
+            <xsl:with-param name="title" select="$title"/>
+            <xsl:with-param name="item-level" select="$item-level"/>
+            <xsl:with-param name="cid" select="$cid"/>
+            <xsl:with-param name="ParentId" select="$ParentId"/>
+            <xsl:with-param name="author-uri" select="$author-uri"/>
+            <xsl:with-param name="extraction-file" select="$extraction-file"/>
+            <xsl:with-param name="expressionType" select="$expressionType"/>
+            <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+            <xsl:with-param name="totalnumber" select="$totalnumber"/>
+            <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+            <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+            <xsl:with-param name="text-path" select="$text-path"/>
+            <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+            <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+            <xsl:with-param name="manifestations" select="$manifestations"/>
+            <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+            <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
+            <!-- item manifestation level parmaters -->
+            <xsl:with-param name="wit-slug" select="$wit-slug"/>
+            <xsl:with-param name="wit-title" select="$wit-title"/>
+            <xsl:with-param name="transcriptions" select="$transcriptions"/>
+            <xsl:with-param name="paragraph-surface" select="$paragraph-surface"/>
+            <xsl:with-param name="lang" select="$lang"/>
+            <xsl:with-param name="pid" select="$pid"/>
+            <xsl:with-param name="pid_ref" select="$pid_ref"/>
+           
+          </xsl:call-template>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
   <xsl:template name="structure_block_manifestations_entry">

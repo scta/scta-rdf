@@ -43,7 +43,7 @@
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       
-      <xsl:for-each select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']">
+      <xsl:for-each select="$transcriptions//transcription/version[@versionDefault='true']">
         <xsl:variable name="this-transcription" select="."/>
         <xsl:variable name="url" select="./url"/>
         <xsl:variable name="transcription-text-path" select="concat($repo-path, ./url)"/>

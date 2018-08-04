@@ -38,52 +38,56 @@
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="$manifestations//manifestation">
-      <!-- required item level manifestation params -->
-      <xsl:variable name="wit-slug" select="./@wit-slug"/>
-      <xsl:variable name="wit-title" select="./@wit-title"/>
-      <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="surfaces" select=".//folio"/>
-      <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
-      <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
-      <xsl:variable name="lang" select="./@lang"/>
-      
-      <xsl:for-each select="document($transcription-text-path)//tei:body/tei:div//tei:div">
-        <!-- only creates division resource if that division has been assigned an id -->
-        <xsl:if test="./@xml:id">
-          <xsl:variable name="divisionId" select="./@xml:id"/>
-          <xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
-          <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
-      
-          <xsl:call-template name="structure_division_manifestations_entry">
-            <xsl:with-param name="fs" select="$fs"/>
-            <xsl:with-param name="title" select="$title"/>
-            <xsl:with-param name="item-level" select="$item-level"/>
-            <xsl:with-param name="cid" select="$cid"/>
-            <xsl:with-param name="ParentId" select="$ParentId"/>
-            <xsl:with-param name="author-uri" select="$author-uri"/>
-            <xsl:with-param name="extraction-file" select="$extraction-file"/>
-            <xsl:with-param name="expressionType" select="$expressionType"/>
-            <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
-            <xsl:with-param name="totalnumber" select="$totalnumber"/>
-            <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
-            <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-            <xsl:with-param name="text-path" select="$text-path"/>
-            <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
-            <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
-            <xsl:with-param name="manifestations" select="$manifestations"/>
-            <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
-            <!-- item manifestation level parmaters -->
-            <xsl:with-param name="wit-slug" select="$wit-slug"/>
-            <xsl:with-param name="wit-title" select="$wit-title"/>
-            <xsl:with-param name="transcriptions" select="$transcriptions"/>
-            <xsl:with-param name="surfaces" select="$surfaces"/>
-            <xsl:with-param name="lang" select="$lang"/>
-            <!-- div level params -->
-            <xsl:with-param name="divisionId" select="$divisionId"/>
-            <xsl:with-param name="divisionId_ref" select="$divisionId_ref"/>
-          </xsl:call-template>
-        </xsl:if>
-      </xsl:for-each>
+      <!-- only create structure-division manifestations if transcription files have been started -->
+        <xsl:if test="./transcriptions">
+        <!-- required item level manifestation params -->
+        <xsl:variable name="wit-slug" select="./@wit-slug"/>
+        <xsl:variable name="wit-title" select="./@wit-title"/>
+        <xsl:variable name="transcriptions" select="./transcriptions"/>
+        <xsl:variable name="surfaces" select=".//folio"/>
+        <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
+        <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
+        <xsl:variable name="lang" select="./@lang"/>
+        
+        <xsl:for-each select="document($transcription-text-path)//tei:body/tei:div//tei:div">
+          <!-- only creates division resource if that division has been assigned an id -->
+          <xsl:if test="./@xml:id">
+            <xsl:variable name="divisionId" select="./@xml:id"/>
+            <xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
+            <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
+        
+            <xsl:call-template name="structure_division_manifestations_entry">
+              <xsl:with-param name="fs" select="$fs"/>
+              <xsl:with-param name="title" select="$title"/>
+              <xsl:with-param name="item-level" select="$item-level"/>
+              <xsl:with-param name="cid" select="$cid"/>
+              <xsl:with-param name="ParentId" select="$ParentId"/>
+              <xsl:with-param name="author-uri" select="$author-uri"/>
+              <xsl:with-param name="extraction-file" select="$extraction-file"/>
+              <xsl:with-param name="expressionType" select="$expressionType"/>
+              <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+              <xsl:with-param name="totalnumber" select="$totalnumber"/>
+              <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+              <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+              <xsl:with-param name="text-path" select="$text-path"/>
+              <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+              <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+              <xsl:with-param name="manifestations" select="$manifestations"/>
+              <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+              <!-- item manifestation level parmaters -->
+              <xsl:with-param name="wit-slug" select="$wit-slug"/>
+              <xsl:with-param name="wit-title" select="$wit-title"/>
+              <xsl:with-param name="transcriptions" select="$transcriptions"/>
+              <xsl:with-param name="surfaces" select="$surfaces"/>
+              <xsl:with-param name="lang" select="$lang"/>
+              <!-- div level params -->
+              <xsl:with-param name="divisionId" select="$divisionId"/>
+              <xsl:with-param name="divisionId_ref" select="$divisionId_ref"/>
+            </xsl:call-template>
+          </xsl:if>
+        
+        </xsl:for-each>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
   <xsl:template name="structure_division_manifestations_entry">
