@@ -359,7 +359,7 @@ class MyCLI < Thor
   desc "update_graphs", "update graphs"
   def update_graphs(subdirectory)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
-      if item.end_with?(".rdf") || item.end_with?(".ttl")
+      if item.end_with?(".rdf") || item.end_with?(".ttl") || item.end_with?(".jsonld")
         self.update_graph(subdirectory, item)
       end
     end
@@ -368,6 +368,7 @@ class MyCLI < Thor
   desc "update_graphs", "update graphs"
   def update_all_graphs
     self.update_graphs("codices")
+    self.update_graphs("canvases")
     self.update_graphs("commentaries")
     self.update_graphs("names")
     self.update_graphs("quotations")
@@ -376,8 +377,6 @@ class MyCLI < Thor
     self.update_graphs("subjects")
     self.update_graphs("works")
 
-    # canvase update is manual for the moment until IIIF/jsonld problem is solved
-    #self.update_graphs("canvases")
 
     #relquery can be skipped because it is always going to be called separately after passive relation creation
     #self.update_graphs("relquery")
