@@ -28,13 +28,13 @@
     
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
+    <xsl:param name="repo-path"/>
     <xsl:param name="expressionType"/>
     <xsl:param name="sectionnumber"/>
     <xsl:param name="totalnumber"/>
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="$manifestations//manifestation">
@@ -44,13 +44,12 @@
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       <xsl:variable name="surfaces" select=".//folio"/>
       
-      <xsl:for-each select="$transcriptions//transcription">
+      <xsl:for-each select="$transcriptions//transcription[@transcriptionDefault='true']/version[1]">
         <xsl:variable name="this-transcription" select="."/>
-        <xsl:variable name="transcription-text-path" select="./@transcription-text-path"/>
-        
+        <xsl:variable name="url" select="./url"/>
+        <xsl:variable name="transcription-text-path" select="concat($repo-path, ./url)"/>
         <xsl:for-each select="document($transcription-text-path)//tei:body/tei:div//tei:div">
           <!-- only creates division resource if that division has been assigned an id -->
-        
           <xsl:if test="./@xml:id">
             <xsl:variable name="divisionId" select="./@xml:id"/>
             <xsl:variable name="divisionId_ref" select="concat('#', ./@xml:id)"/>
@@ -60,10 +59,10 @@
                 <xsl:when test="./@hash eq 'head' or not(./@hash)">
                   <xsl:choose>
                     <xsl:when test="$gitRepoStyle = 'toplevel'">
-                      <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', tokenize($transcription-text-path, '/')[last()], '#', $divisionId)"/>
+                      <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', $url, '#', $divisionId)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                      <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', tokenize($transcription-text-path, '/')[last()], '#', $divisionId)"/>
+                      <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', $url, '#', $divisionId)"/>
                     </xsl:otherwise>	
                   </xsl:choose>
                 </xsl:when>
@@ -90,7 +89,6 @@
               <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
               <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
               <xsl:with-param name="manifestations" select="$manifestations"/>
-              <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
               <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
               <!-- item manifestation level parmaters -->
               <xsl:with-param name="wit-slug" select="$wit-slug"/>
@@ -100,8 +98,8 @@
               <xsl:with-param name="divisionId_ref" select="$divisionId_ref"/>
               <!-- div level transcription params -->
               <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
-              <xsl:with-param name="transcription-name" select="$this-transcription/@name"/>
-              <xsl:with-param name="transcription-type" select="$this-transcription/@type"/>
+              <xsl:with-param name="transcription-name" select="$this-transcription/hash"/>
+              <xsl:with-param name="transcription-type" select="$this-transcription/parent::transcription/type"/>
               <xsl:with-param name="docWebLink" select="$docWebLink"/>
             </xsl:call-template>
           </xsl:if>
@@ -126,7 +124,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     <!-- manifestation params -->
     <xsl:param name="wit-slug"/>

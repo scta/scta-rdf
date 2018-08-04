@@ -26,6 +26,7 @@
     <xsl:param name="ipfsHash"/>
     <xsl:param name="hasSuccessor"/>
     <xsl:param name="transcription-text-path"/>
+    <xsl:param name="wit-slug"/>
     
     
     <rdf:type rdf:resource="http://scta.info/resource/transcription"/>
@@ -43,12 +44,12 @@
     <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$shortId}"/>
     <xsl:if test="not($structureType='structureCollection')">
       <sctap:hasDocument rdf:resource="{$docWebLink}"/>
-      <xsl:if test="$hasSuccessor">
+      <!--<xsl:if test="$hasSuccessor">
         <sctap:hasSuccessor rdf:resource="{$hasSuccessor}"></sctap:hasSuccessor>
-      </xsl:if>
-      <xsl:if test="not($ipfsHash='head')">
+      </xsl:if>-->
+      <!--<xsl:if test="not($ipfsHash='head')">
         <sctap:ipfsHash><xsl:value-of select="$ipfsHash"/></sctap:ipfsHash>
-      </xsl:if>
+      </xsl:if>-->
       <xsl:choose>
         <xsl:when test="document($transcription-text-path)//tei:revisionDesc/@status">
           <sctap:status><xsl:value-of select="document($transcription-text-path)//tei:revisionDesc/@status"></xsl:value-of></sctap:status>
@@ -59,7 +60,38 @@
         <xsl:otherwise>
           <sctap:status>Not Started</sctap:status>
         </xsl:otherwise>
-    </xsl:choose>
+      </xsl:choose>
+      
+      
+      <!-- version info -->
+      <xsl:if test="$structureType='structureItem'">
+      <sctap:hash><xsl:value-of select="./hash"/></sctap:hash>
+      <xsl:if test="./@versionDefault='true'">
+        <sctap:isVersionDefault>true</sctap:isVersionDefault>
+      </xsl:if>
+      <xsl:for-each select="preceding-sibling::version[1]">
+        <sctap:hasSuccessor rdf:resource="http://scta.info/resource/{$isTranscriptionOfShortId}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:for-each select="following-sibling::version[1]">
+        <sctap:hasPredecessor rdf:resource="http://scta.info/resource/{$isTranscriptionOfShortId}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:for-each select="preceding-sibling::version">
+        <sctap:hasDescendant rdf:resource="http://scta.info/resource/{$isTranscriptionOfShortId}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:for-each select="following-sibling::version">
+        <sctap:hasAncestor rdf:resource="http://scta.info/resource/{$isTranscriptionOfShortId}/{./hash}"/>
+      </xsl:for-each>
+      <xsl:variable name="ordernumber"><xsl:number count="version"/></xsl:variable>
+      <xsl:if test="$ordernumber eq '1'">
+        <sctap:isHeadTranscription>true</sctap:isHeadTranscription>
+      </xsl:if>
+      <xsl:if test="./@reviewed='true'">
+        <sctap:hasReview>true</sctap:hasReview>
+      </xsl:if>
+      <xsl:if test="$ordernumber">
+      <sctap:versionOrderNumber><xsl:value-of select="format-number($ordernumber, '0000')"/></sctap:versionOrderNumber>
+      </xsl:if>
+      </xsl:if>
     </xsl:if>
     
     

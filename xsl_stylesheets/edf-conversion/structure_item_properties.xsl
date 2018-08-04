@@ -18,20 +18,23 @@
     <xsl:param name="blocks"/>
     <xsl:param name="blockFinisher"/>
     <xsl:param name="ancestors"/>
+    <xsl:param name="defaultTranscriptionAndVersion"/>
     
     <sctap:structureType rdf:resource="http://scta.info/resource/structureItem"/>
     <xsl:if test="$level">
       <sctap:level><xsl:value-of select="$level"/></sctap:level>
     </xsl:if>
-    
-    <xsl:for-each select="$blocks">
-      <xsl:variable name="pid" select="./@xml:id"/>
-      <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
-      <!-- only creates paragraph resource if that paragraph has been assigned an id -->
-      <xsl:if test="./@xml:id">
-        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}{$blockFinisher}"/>
-      </xsl:if>
-    </xsl:for-each>
+    <xsl:message select="$defaultTranscriptionAndVersion"/>
+    <xsl:if test="$defaultTranscriptionAndVersion eq 'true'">
+      <xsl:for-each select="$blocks">
+        <xsl:variable name="pid" select="./@xml:id"/>
+        <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
+        <!-- only creates paragraph resource if that paragraph has been assigned an id -->
+        <xsl:if test="./@xml:id">
+          <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/{$pid}{$blockFinisher}"/>
+        </xsl:if>
+      </xsl:for-each>
+    </xsl:if>
     
     <!-- identify all ancestors as resource that current node is member of -->
     <xsl:if test="$ancestors">

@@ -35,7 +35,7 @@
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
+    
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="document($extraction-file)//tei:body//tei:quote">
@@ -85,7 +85,6 @@
         <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
         <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
         <xsl:with-param name="manifestations" select="$manifestations"/>
-        <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         
         <!--<xsl:with-param name="quoteRef" select="$quoteRef"/>-->
@@ -118,7 +117,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
     <!--<xsl:param name="quoteRef"/>-->

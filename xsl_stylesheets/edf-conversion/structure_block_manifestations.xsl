@@ -26,6 +26,7 @@
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
     <xsl:param name="extraction-file"/>
+    <xsl:param name="repo-path"/>
     <xsl:param name="info-path"/>
     <xsl:param name="expressionType"/>
     <xsl:param name="sectionnumber"/>
@@ -33,7 +34,6 @@
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="$manifestations//manifestation">
@@ -41,7 +41,8 @@
       <xsl:variable name="wit-slug" select="./@wit-slug"/>
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
+      <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
+      <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
       <xsl:variable name="lang" select="./@lang"/>
       
       <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
@@ -81,7 +82,6 @@
           <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
           <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
-          <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
           <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
           <!-- item manifestation level parmaters -->
@@ -115,7 +115,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     <xsl:param name="transcription-text-path"/>
     <!-- manifestation params -->

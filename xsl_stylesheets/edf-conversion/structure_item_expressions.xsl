@@ -37,7 +37,6 @@
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
       <xsl:call-template name="structure_item_expressions_entry">
@@ -101,12 +100,15 @@
         </xsl:call-template>
       <!-- END expression properties -->
       
+      
       <!-- BEGIN structure item properties -->
+
       <xsl:call-template name="structure_item_properties">
         <xsl:with-param name="level" select="$item-level"></xsl:with-param>
         <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
         <xsl:with-param name="blockFinisher" select="''"/>
         <xsl:with-param name="ancestors" select="$item-ancestors"/>
+        <xsl:with-param name="defaultTranscriptionAndVersion" select="'true'"/>
       </xsl:call-template>
       <role:AUT rdf:resource="{$author-uri}"/>
      

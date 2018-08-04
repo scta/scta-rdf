@@ -34,7 +34,6 @@
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="$manifestations//manifestation">
@@ -62,7 +61,6 @@
         <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
         <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
         <xsl:with-param name="manifestations" select="$manifestations"/>
-        <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
         <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         <xsl:with-param name="lang" select="$lang"/>
         <!-- item manifestation level parmaters -->
@@ -90,7 +88,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     <!-- manifestation params -->
     <xsl:param name="wit-slug"/>
@@ -131,6 +128,7 @@
         <xsl:with-param name="level" select="$item-level"></xsl:with-param>
         <xsl:with-param name="blocks" select="document($extraction-file)//tei:body//tei:p"/>
         <xsl:with-param name="blockFinisher" select="concat('/', $wit-slug)"/>
+        <xsl:with-param name="defaultTranscriptionAndVersion" select="'true'"/>
       </xsl:call-template>
       <!-- END structure item properties -->
       

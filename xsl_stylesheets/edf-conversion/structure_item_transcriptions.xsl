@@ -28,13 +28,13 @@
     <xsl:param name="expressionParentId"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="info-path"/>
+    <xsl:param name="repo-path"/>
     <xsl:param name="expressionType"/>
     <xsl:param name="sectionnumber"/>
     <xsl:param name="totalnumber"/>
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     
     <xsl:for-each select="$manifestations//manifestation">
@@ -42,24 +42,34 @@
       <xsl:variable name="wit-slug" select="./@wit-slug"/>
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="surfaces" select=".//folio"/>
-      <xsl:for-each select="$transcriptions//transcription">
+      <xsl:for-each select="$transcriptions//transcription//version">
+        <xsl:variable name="url" select="./url"/>
+        <xsl:variable name="transcription-text-path">
+          <xsl:choose>
+            <xsl:when test="not(contains($url, 'http'))">
+              <xsl:value-of select="concat($repo-path, $url)"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$url"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+      
         
-        <xsl:variable name="transcription-text-path" select="./@transcription-text-path"/>
         <xsl:variable name="docWebLink">
           <xsl:choose>
-            <xsl:when test="./@hash eq 'head' or not(./@hash)">
+            <xsl:when test="not(contains($transcription-text-path, 'http'))">
               <xsl:choose>
                 <xsl:when test="$gitRepoStyle = 'toplevel'">
-                  <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', tokenize($transcription-text-path, '/')[last()])"/>
+                  <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', $url)"/>
                 </xsl:when>
                 <xsl:otherwise>
-                  <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', tokenize($transcription-text-path, '/')[last()])"/>
+                  <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', $url)"/>
                 </xsl:otherwise>	
               </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="concat('https://gateway.ipfs.io/ipfs/', ./@hash)"/>
+              <xsl:value-of select="$transcription-text-path"/>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
@@ -81,14 +91,13 @@
          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
          <xsl:with-param name="manifestations" select="$manifestations"/>
-         <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
          <!-- item manifestation level parmaters -->
          <xsl:with-param name="wit-slug" select="$wit-slug"/>
          <xsl:with-param name="wit-title" select="$wit-title"/>
          <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
-         <xsl:with-param name="transcription-name" select="./@name"/>
-         <xsl:with-param name="transcription-type" select="./@type"/>
+         <xsl:with-param name="transcription-name" select="./hash"/>
+         <xsl:with-param name="transcription-type" select="./parent::transcription/type"/>
          <xsl:with-param name="docWebLink" select="$docWebLink"/>
        </xsl:call-template>
       </xsl:for-each>
@@ -111,7 +120,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     <!-- manifestation params -->
     <xsl:param name="wit-slug"/>
@@ -122,7 +130,7 @@
     <xsl:param name="transcription-type"/>
     <xsl:param name="docWebLink"/>
     
-    <xsl:if test="document($transcription-text-path)">
+    <!--<xsl:if test="document($transcription-text-path)">-->
       <rdf:Description rdf:about="http://scta.info/resource/{$fs}/{$wit-slug}/{$transcription-name}">
         
         <!-- BEGIN global properties -->
@@ -144,15 +152,24 @@
           <xsl:with-param name="ipfsHash" select="./@hash"/>
           <xsl:with-param name="hasSuccessor" select="./@hasSuccessor"/>
           <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
+          <xsl:with-param name="wit-slug" select="$wit-slug"/>
         </xsl:call-template>
         
         <!-- END transcription properties -->
         
         <!-- BEGIN structure item properties -->
+        <xsl:variable name="defaultTranscriptionAndVersion">
+          <xsl:choose>
+            <xsl:when test="./@versionDefault='true' and ./parent::transcription/@transcriptionDefault='true'">true</xsl:when>
+            <xsl:otherwise>false</xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
         <xsl:call-template name="structure_item_properties">
           <xsl:with-param name="level" select="$item-level"></xsl:with-param>
           <xsl:with-param name="blocks" select="document($transcription-text-path)//tei:body//tei:p"/>
           <xsl:with-param name="blockFinisher" select="concat('/', $wit-slug, '/', $transcription-name)"/>
+          <xsl:with-param name="defaultTranscriptionAndVersion" select="$defaultTranscriptionAndVersion"/>
+          
         </xsl:call-template>
         <!-- END structure item properties -->
         
@@ -171,7 +188,7 @@
           </xsl:if>
         </xsl:for-each>-->
       </rdf:Description>
-    </xsl:if>
+    <!--</xsl:if>-->
     
   </xsl:template>
   

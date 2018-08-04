@@ -46,12 +46,11 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:for-each select="$transcriptions//transcription">
-          <xsl:if test="document(./@transcription-text-path)">
-            <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$shortId}/{./@name}"/>
-            <xsl:if test="./@canonical eq 'true'">
-              <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$shortId}/{./@name}"/>
+          <xsl:variable name="versionDefault" select="./version[@versionDefault='true']"/>
+            <sctap:hasTranscription rdf:resource="http://scta.info/resource/{$shortId}/{$versionDefault/hash}"/>
+            <xsl:if test="./@transcriptionDefault='true'">
+              <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/{$shortId}/{$versionDefault/hash}"/>
             </xsl:if>
-          </xsl:if>
         </xsl:for-each>
       </xsl:otherwise>
     </xsl:choose>

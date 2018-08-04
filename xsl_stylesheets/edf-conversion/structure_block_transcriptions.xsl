@@ -20,6 +20,7 @@
     <xsl:param name="textfilesdir"/>
     <xsl:param name="gitRepoStyle"/>
     <xsl:param name="gitRepoBase"/>
+    <xsl:param name="repo-path"/>
     
     <!-- item level params -->
     <xsl:param name="fs"/>
@@ -33,8 +34,8 @@
     <xsl:param name="text-path"/>
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
+    
     
     <xsl:for-each select="$manifestations//manifestation">
       <!-- required item level manifestation params -->
@@ -42,9 +43,10 @@
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
       
-      <xsl:for-each select="$transcriptions//transcription">
+      <xsl:for-each select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']">
         <xsl:variable name="this-transcription" select="."/>
-        <xsl:variable name="transcription-text-path" select="./@transcription-text-path"/>
+        <xsl:variable name="url" select="./url"/>
+        <xsl:variable name="transcription-text-path" select="concat($repo-path, ./url)"/>
         <xsl:for-each select="document($transcription-text-path)//tei:body//tei:p">
           <xsl:variable name="this-paragraph" select="."/>
           <!-- only creates paragraph resource if that paragraph has been assigned an id -->
@@ -69,10 +71,10 @@
                 <xsl:when test="./@hash eq 'head' or not(./@hash)">
                   <xsl:choose>
                     <xsl:when test="$gitRepoStyle = 'toplevel'">
-                      <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', tokenize($transcription-text-path, '/')[last()], '#', $pid)"/>
+                      <xsl:value-of select="concat($gitRepoBase, lower-case($cid), '/raw/master/', $fs, '/', $url, '#', $pid)"/>
                     </xsl:when>
                     <xsl:otherwise>
-                      <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', tokenize($transcription-text-path, '/')[last()], '#', $pid)"/>
+                      <xsl:value-of select="concat($gitRepoBase, lower-case($fs), '/raw/master/', $url, '#', $pid)"/>
                     </xsl:otherwise>	
                   </xsl:choose>
                 </xsl:when>
@@ -99,7 +101,6 @@
             <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
             <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
             <xsl:with-param name="manifestations" select="$manifestations"/>
-            <xsl:with-param name="translationManifestations" select="$translationManifestations"/>
             <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
             <!-- item manifestation level parmaters -->
             <xsl:with-param name="wit-slug" select="$wit-slug"/>
@@ -109,8 +110,8 @@
             <xsl:with-param name="pid_ref" select="$pid_ref"/>
             <!-- transcription params -->
             <xsl:with-param name="transcription-text-path" select="$transcription-text-path"/>
-            <xsl:with-param name="transcription-name" select="$this-transcription/@name"/>
-            <xsl:with-param name="transcription-type" select="$this-transcription/@type"/>
+            <xsl:with-param name="transcription-name" select="$this-transcription/hash"/>
+            <xsl:with-param name="transcription-type" select="$this-transcription/parent::transcription/type"/>
             <xsl:with-param name="docWebLink" select="$docWebLink"/>
             
             
@@ -137,7 +138,6 @@
     <xsl:param name="itemWitnesses"/>
     <xsl:param name="textfilesdir"/>
     <xsl:param name="manifestations"/>
-    <xsl:param name="translationManifestations"/>
     <xsl:param name="canonical-manifestation-id"/>
     <!-- manifestation params -->
     <xsl:param name="wit-slug"/>
