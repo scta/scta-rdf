@@ -1,102 +1,142 @@
 # SCTA-RDF builder
 
-This Application construct the SCTA RDF Database for its component parts.
+This Application constructs the SCTA RDF Database for Raw Data structured according to SCTA Raw Data specifications (see https://scta.info/technical-details#data-creation-specifications) and outputs an RDF network graph structure according to the SCTA-RDF-Schema (see https://scta.info/technical-details#scta-rdf and http://scta.github.io/scta-rdf-schema/).
+
+In addition to building the graph, the application can also index the resulting graph in Apache Jena TDB and make that indexed graph accessible for SPARQl query via the Apache Jena Fuseki.
+
+Anyone can run the graph if they want to run an instance of the SCTA graph locally. It is also possible specify your own data sources and use the application to automate the construction of your own graph according to the SCTA-RDF-SCHEMA.
+
+# Dependencies
+
+* Ruby
+* Apache Jena Fuseki
+* Shasum
+
+We highly recommend running this via a Docker container. Install and use instructions below all presume that you are using a docker container.
 
 # Install
 
-`git clone --recursive git@github.com:scta/scta-rdf.git`
+Clone the repo
 
-`docker build . -t scta-rdf`
+`git clone --recurse-submodules git@github.com:scta/scta-rdf.git`
 
-Cloned versions do not come with rdf-build or prebuilds, enter into the docker container to create these builds
+Change directories into the new directory.
 
-# Run With Docker
+`cd scta-rdf`
 
-Enter into container to build data or manually start fuseki
+*Note:* At this point, the cloned submodules will likely be in a detached head state, which makes updating submodules difficult.
+To fix this, check each submodule out to master, or the `data/checkout-to-master.sh` script to automatically checkout each submodule to master.
 
-`docker run -it -p 3030:3030 --entrypoint /bin/bash scta-rdf`
+Build the docker image using docker-compose.
 
-to create builds run
+`docker-compose build`
 
-`/home/scta-rdf/bin2/scta-rdf extract_all`
+Before running the application for the first time,
 
-this will take time and requires a lot of memory.
+create a volume that Fuseki will use to store the indexed graph:
 
-At present, the most demanding conversion requires docker is allocated at least 6GB of memory.
+`mkdir -p ../scta-rdf-builds/fuseki-builds/build`
 
-once the rdf build is complete, you can load this into fuseki.
+Note: if you want to clear the index graph and start over, you will want to delete this directory and then recreate it.
 
-create a empty directory for the scta build
+Next create a volume for the rdf builds:
 
-`/home/scta-rdf/bin2/scta-rdf create_TDB build-2018-01-13`
+`mkdir -p ../scta-rdf-builds/build`
 
-then you can start fuseki. Use Tmux to switch shells.
+Finally create a volume for the log files:
 
-`tmux new -s fuseki`
+`mkdir -p ../scta-rdf-builds/logs`
 
-the in the new shell RUN
+You can change the location of these volumes, but the docker-compose file which mounts these volumes will need to be updated accordingly.
 
-`/home/scta-rdf/bin2/scta-rdf start_fuseki build-2018-01-13`
+Once the volumes have been created,
 
-exit tmux
+Run a detached container from the newly created docker image.
 
-`ctl + b, d`
+`docker-compose up -d`
 
-now load rdf graphs into the TDB directory via Fuseki
+You should now have a running fuseki instance
 
-`/home/scta-rdf/bin2/scta-rdf load_all`
+Run `curl localhost:3030` to see if its working.
 
-Once you have a build, you can turn fuseki on and off without entering the container by using the -d flag
+You can now run the first build.
 
-To run fuseki container with default fuseki build in detach mode, run the following command
+The first build will take a considerable amount of time.
 
-`docker run -d -p 3030:3030 scta-rdf /home/scta-rdf/bin2/scta-rdf start_fuseki build-2018-01-12`
+`docker exec -t sctardf_web_1 bin2/scta-rdf build_and_update`
 
-#Install from Source
+The `build_and_update` command, will perform a sequence of actions.
 
-Install Dependencies
+1. Update texts repositories from github
+2. Update submodules
+3. Build RDF graph from structured raw data
+4. Ingest resulting graphs into indexed database.
 
-install ruby gem "thor" install with `gem install thor`
-install saxon
-install fuseki
+Along the way, the application will be storing the hashes of the files (in the `logs` volume) it processes
+and of the graphs it ingests.
 
-Clone repo and submodules
+The next time the `build_and_update` command is running the hashes of the existing data
+will be compared these hashes stored in the `logs` volume. If the hashes match,
+processing or ingestion will skipped for these files. Thus, `build_and_update` command
+will take considerably less time as it will only process the files that needed process.
+It will still take some time however, as there will be thousands of hashes to be checked.
 
-`git clone --recursive git@github.com:scta/scta-rdf.git`
+There are many more specialized commands that can be run with the SCTA-RDF CLI.
 
-download and unzip scta texts
+To see a list of commands run:
 
-curl -L -o scta-texts.tar.gz http://gateway.ipfs.io/ipfs/QmWAt1qXzF6zRdAjs96HZLez2mSJEfjUia7Y5B8eoS3JYz && \
-    tar -xvzf /scta-texts.tar.gz -C scta-texts/
+`docker exec -it sctardf_web_1 bin2/scta-rdf help`
 
-Update config
-`$base=LOCATION_OF_CLONED_REPO`
-`$fuseki=LOCATION_OF_INSTALLED_FUSEKI_INSTANCE`
-`$fuseki_builds=DESIRED_LOCATION_OF_FUSEKI_TDB_BUILDS`
-`$textfilesbase=LOCATION_OF_DOWNLOADED_SCTA_TEXTS/` # with trailing slash
+You should see a list like the following:
 
-# How to Use
+```
+Commands:
+  scta-rdf build_and_update                    # performs full build and update pattern; assumes fuseki is running
+  scta-rdf clear_TDB                           # clear TDB, set prebuild to 'all' to avoid using canvas-prebuild
+  scta-rdf create_TDB BUILD_DIRECTORY          # create new build director at BUILD_DIRECTORY
+  scta-rdf create_all_passive_relations_query  # create passive relations via SPARQL construct query
+  scta-rdf create_article                      # create articles for specific article list
+  scta-rdf create_articles                     # create articles for all article lists
+  scta-rdf create_bible_quotations             # create bible quotations
+  scta-rdf create_canvases                     # moves canvases from data to build folder
+  scta-rdf create_codex CODEX                  # create codex
+  scta-rdf create_codices                      # create codices
+  scta-rdf create_custom_quotation             # create custom quotation
+  scta-rdf create_custom_quotations            # create custom quotations
+  scta-rdf create_expression EDF               # create expression
+  scta-rdf create_expressions                  # create expressions
+  scta-rdf create_manual_ttls                  # moves manual ttls from data to build folder
+  scta-rdf create_names                        # create names
+  scta-rdf create_passive_relation EDF         # create passive relation
+  scta-rdf create_passive_relations            # create passive relations
+  scta-rdf create_passive_relations_query      # create passive relations via SPARQL construct query
+  scta-rdf create_person_groups                # create person groups
+  scta-rdf create_subject_list                 # create subject list
+  scta-rdf create_workgroups                   # create workgroups
+  scta-rdf create_works                        # create work list
+  scta-rdf delete_discarded_graphs graph       # delete graphs listed in log discardedgraphs.json file
+  scta-rdf delete_graph graph                  # delete graph
+  scta-rdf extract_all                         # extract all
+  scta-rdf get hash                            # creates hash for target and adds to specified hash table
+  scta-rdf get hashes                          # creates hash table for targets and adds to specified hash table
+  scta-rdf help [COMMAND]                      # Describe available commands or one specific command
+  scta-rdf load_all                            # load all
+  scta-rdf load_canvas                         # load canvas
+  scta-rdf load_canvases                       # load canvases
+  scta-rdf load_graph graph                    # load graph
+  scta-rdf load_graphs                         # load graphs
+  scta-rdf same hash?                          # compares files and return true if the hashes are the same and false if they are different
+  scta-rdf split_large_files                   # splits large build files into smaller versions
+  scta-rdf start_fuseki                        # start fuseki
+  scta-rdf update_canvas                       # load canvas
+  scta-rdf update_canvases                     # load canvases
+  scta-rdf update_graph graph                  # update graph
+  scta-rdf update_graphs                       # update graphs
+  scta-rdf update_graphs                       # update graphs
+  scta-rdf update_repo                         # update a single repo
+  scta-rdf update_repos                        # update all data repos
+  scta-rdf update_scta_texts                   # updates scta_texts data folder from url pointing to tarball
+  scta-rdf update_text_repo                    # updates a single scta-text repo from url point to tarball
+  scta-rdf update_text_repos                   # updates all texts repos using ids from edf/projectfiles
 
-When in doubt you can look up commands with
-
-`bin2/scta-rdf help`
-
-To create your first RDF build run
-
-`bin2/scta-rdf extract_all`
-
-This will take some time
-
-To load this into fuseki, create a directory for the TDB build
-
-`bin2/scta-rdf create_TDB NAME_OF_BUILD_DIRECTORY`
-
-Start FUSEKI with the build directory
-
-`bin2/start_fuseki NAME_OF_BUILD_DIRECTORY`
-
-then load the existing graphs into Fuseki/tdb with
-
-`bin/load_canvases`
-and
-`bin2/load_all`
+```

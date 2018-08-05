@@ -5,8 +5,8 @@ services:
     image: scta-rdf
     command: bin2/scta-rdf start_fuseki build
     volumes:
-      - ./build:/home/scta-rdf/build
-      - ./fuseki-builds:/home/scta-rdf/fuseki-builds
-      - ./logs:/home/scta-rdf/logs
+      - ../scta-rdf-builds/build:/home/scta-rdf/build
+      - ../scta-rdf-builds/fuseki-builds:/home/scta-rdf/fuseki-builds
+      - ../scta-rdf-builds/logs:/home/scta-rdf/logs
     ports:
       - "3000:3000"
