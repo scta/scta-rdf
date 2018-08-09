@@ -88,7 +88,8 @@
       <xsl:if test="./@reviewed='true'">
         <sctap:hasReview>true</sctap:hasReview>
       </xsl:if>
-      <sctap:orderNumber><xsl:value-of select="format-number($ordernumber, '0000')"/></sctap:orderNumber>
+      <xsl:variable name="reverseOrderNumber" select="((count(./preceding-sibling::version) + count(./following-sibling::version)) + 2)  - $ordernumber"/>
+      <sctap:versionOrderNumber><xsl:value-of select="format-number($reverseOrderNumber, '0000')"/></sctap:versionOrderNumber>
     </rdf:Description>
     </xsl:for-each>
   </xsl:template>

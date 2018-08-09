@@ -81,7 +81,9 @@
       <xsl:for-each select="following-sibling::version">
         <sctap:hasAncestor rdf:resource="http://scta.info/resource/{$isTranscriptionOfShortId}/{./hash}"/>
       </xsl:for-each>
-      <xsl:variable name="ordernumber"><xsl:number count="version"/></xsl:variable>
+      <xsl:variable name="ordernumber"><xsl:number count="version" /></xsl:variable>
+      
+      
       <xsl:if test="$ordernumber eq '1'">
         <sctap:isHeadTranscription>true</sctap:isHeadTranscription>
       </xsl:if>
@@ -89,7 +91,10 @@
         <sctap:hasReview>true</sctap:hasReview>
       </xsl:if>
       <xsl:if test="$ordernumber">
-      <sctap:versionOrderNumber><xsl:value-of select="format-number($ordernumber, '0000')"/></sctap:versionOrderNumber>
+        <!-- calculates reverse order number, so that the earliest version in the version chain is 0001 
+          and the version head is the highest number in the version chain -->
+        <xsl:variable name="reverseOrderNumber" select="((count(./preceding-sibling::version) + count(./following-sibling::version)) + 2)  - $ordernumber"/>
+        <sctap:versionOrderNumber><xsl:value-of select="format-number($reverseOrderNumber, '0000')"/></sctap:versionOrderNumber>
       </xsl:if>
       </xsl:if>
     </xsl:if>
