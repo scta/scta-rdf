@@ -387,8 +387,6 @@ class MyCLI < Thor
     self.update_graph("", "articles.ttl")
     self.update_graph("", "scta.rdf")
 
-    # these data sources should get copied into build
-    # and then imported from build to keep things consistent
     self.update_graph("", "classes-list.ttl")
     self.update_graph("", "properties-list.ttl")
 

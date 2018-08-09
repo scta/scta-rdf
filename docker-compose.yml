@@ -9,4 +9,4 @@ services:
       - ../scta-rdf-builds/fuseki-builds:/home/scta-rdf/fuseki-builds
       - ../scta-rdf-builds/logs:/home/scta-rdf/logs
     ports:
-      - "3000:3000"
+      - "3030:3030"
