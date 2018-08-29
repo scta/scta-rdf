@@ -26,3 +26,7 @@
 	path = data/scta-articles
 	url = https://github.com/scta/scta-articles.git
 	branch = master
+[submodule "data/scta-misc-data"]
+	path = data/scta-misc-data
+	url = https://github.com/scta/scta-misc-data.git
+	branch = master

@@ -8,3 +8,5 @@
 (cd ./scta-projectfiles && git checkout master)
 (cd ./scta-quotations && git checkout master)
 (cd ./scta-rdf-schema && git checkout master)
+(cd ./scta-articles && git checkout master)
+(cd ./scta-misc-data && git checkout master)

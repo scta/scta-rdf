@@ -38,7 +38,7 @@ class MyCLI < Thor
   desc "create_manual_ttls", "moves manual ttls from data to build folder"
   def create_manual_ttls
     puts "moving ttl files from data to build folder"
-    `cp #{$base}/data/*.ttl #{$base}/build`
+    `cp #{$base}/data/scta-misc-data/*.ttl #{$base}/build`
     puts "moving ttl from scta-rdf-schema"
     `cp #{$base}/data/scta-rdf-schema/src/classes-list.ttl #{$base}/build`
     `cp #{$base}/data/scta-rdf-schema/src/properties-list.ttl #{$base}/build`
@@ -203,7 +203,7 @@ class MyCLI < Thor
     #projectfilesversion= exec("cd #{$base}/data/scta-projectfiles && $( git describe --tags --always)")
     projectfilesversion="test"
     puts "Begin top level archive collection creation"
-    `saxon "-warnings:silent" "-s:#{$base}/data/workGroups.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_workgroup_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfileshome="#{$base}/data/scta-projectfiles/`
+    `saxon "-warnings:silent" "-s:#{$base}/data/scta-misc-data/workGroups.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_workgroup_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfileshome="#{$base}/data/scta-projectfiles/`
   end
   desc "create_works", "create work list"
   def create_works
@@ -250,11 +250,21 @@ class MyCLI < Thor
   desc "extract_all", "extract all"
   def extract_all
     #update data repos
+      # data repos update first, especially projectfiles/edf
+      # edfs are used for pull text repos, so projectfile/edfs need to be updated first
     puts "updating data repos"
     self.update_repos
+    # updating texts
+    puts "updating data text repos"
+    self.update_text_repos
+    # copying manual ttls from scta-misc-data to build
+    puts "copying over manual ttls"
     self.create_manual_ttls
+    # copying jsonld canvases from scta-codices/canvaes to build
+    puts "copying over manual ttls"
     self.create_canvases
     # end updates
+
     # begin xslt creations
     self.create_expressions
     self.create_codices
@@ -270,23 +280,54 @@ class MyCLI < Thor
   desc "build_and_update", "performs full build and update pattern; assumes fuseki is running"
   def build_and_update
     # assumes fuseki is already running
-    self.update_text_repos
+
+    # delete discarded graphs goes first to remove no longer wanted graph names
+    # the deletion occurs before extract all, because the data has precedence over disccarded graph list
+    # if the list of discarded graphs contains the same name as a graph that results from extraction, the newly extracted graph will remain
+    # graph deletion is only meant to remove old graphs from previous build. it should not delete graphs that are made by the current "data state"
+    self.delete_discarded_graphs
+    # begin data updates and extraction
     self.extract_all
+    # begin adding data to fuseki indexed graph
     self.update_all_graphs
+    # perform query on existing indexed graph to get passive relations
     self.create_all_passive_relations_query
+    # add new passive relations to indexed graph
     self.update_graphs("relquery")
   end
   desc "delete_graph graph", "delete graph"
   def delete_graph (graph)
     puts "deleting #{graph}"
     `cd #{$fuseki} && ./bin/s-delete http://localhost:3030/ds/data #{graph}`
+    self.delete_graph_file(graph)
+    puts "removing graph entry from log"
+    self.remove_hash(graph)
+  end
+  desc "delete_graph_file", "delete any file with matching name in any directory within the build folder"
+  def delete_graph_file (filename)
+    Dir.glob("#{$base}/build/**/#{filename}").each { |f|
+      puts "deleting #{f}"
+      File.delete(f)
+    }
   end
   desc "delete_discarded_graphs graph", "delete graphs listed in log discardedgraphs.json file"
-  def delete_discarded_graphs (graph)
-    puts "deleting #{graph}"
-    data_array = JSON.parse("#{$base}/logs/discardedgraphs.json")
-    data_array.each do |graph|
-      self.delete_graph(graph)
+  def delete_discarded_graphs (force=false)
+    Dir.foreach("#{$base}/data/scta-misc-data/discarded-graphs") do |item|
+      if item.end_with?(".json")
+        discarded_graphs_status = self.same_hash?("#{$base}/data/scta-misc-data/discarded-graphs", item, "discarded-graphs")
+        puts "test #{discarded_graphs_status}"
+        if !discarded_graphs_status || force
+          fileObject = File.read("#{$base}/data/scta-misc-data/discarded-graphs/#{item}")
+          data_array = JSON.parse(fileObject)
+          data_array.each do |graph|
+            self.delete_graph(graph)
+          end
+          puts "updating discarded graphs in logs"
+          self.get_hash("#{$base}/data/scta-misc-data", "discarded-graphs.json", "discarded-graphs")
+        else
+          puts "no change discarded graphs list"
+        end
+      end
     end
   end
 
@@ -525,7 +566,7 @@ class MyCLI < Thor
     if !File.exist?("#{$base}/logs/")
       Dir.mkdir "#{$base}/logs/"
     end
-    # write new has to file
+    # write new hash to file
     File.open("#{$base}/logs/#{type}-hashes.json","w+") do |f|
       f.write(JSON.pretty_generate(data_hash))
     end
@@ -569,6 +610,23 @@ class MyCLI < Thor
     puts status
     return status
   end
+  desc "remove_hash", "remove a hash from any log file"
+  def remove_hash (hashname)
+    Dir.foreach("#{$base}/logs") do |file|
+      next if file == '.' or file == '..'
+      fileObject = File.read("#{$base}/logs/#{file}")
+      data_hash = JSON.parse(fileObject)
+      puts "removes #{hashname} from #{file}"
+      data_hash.delete(hashname) do |el|
+        puts "#{el} not found"
+      end
+      # write new hash to file
+      File.open("#{$base}/logs/#{file}","w+") do |f|
+        f.write(JSON.pretty_generate(data_hash))
+      end
+    end
+  end
+
   desc "split_large_files", "splits large build files into smaller versions"
   def split_large_files
     large_files = true
