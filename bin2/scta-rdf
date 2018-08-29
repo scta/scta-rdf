@@ -247,11 +247,11 @@ class MyCLI < Thor
   	puts "Begin Subjectlist Metadata extraction";
   	`saxon "-s:#{$base}/data/lombardpress-lists/subjectlist.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_subjects_conversion.xsl" "-o:#{$base}/build/subjects/subjectlist.rdf";`
   end
-  desc "extract_all", "extract all"
-  def extract_all
+  desc "update_all", "updates all data"
+  def update_all
     #update data repos
-      # data repos update first, especially projectfiles/edf
-      # edfs are used for pull text repos, so projectfile/edfs need to be updated first
+    # data repos update first, especially projectfiles/edf
+    # edfs are used for pull text repos, so projectfile/edfs need to be updated first
     puts "updating data repos"
     self.update_repos
     # updating texts
@@ -264,7 +264,9 @@ class MyCLI < Thor
     puts "copying over manual ttls"
     self.create_canvases
     # end updates
-
+  end
+  desc "extract_all", "extract all"
+  def extract_all
     # begin xslt creations
     self.create_expressions
     self.create_codices
@@ -279,8 +281,9 @@ class MyCLI < Thor
   end
   desc "build_and_update", "performs full build and update pattern; assumes fuseki is running"
   def build_and_update
-    # assumes fuseki is already running
-
+    # update data repos first
+    self.update_all
+    
     # delete discarded graphs goes first to remove no longer wanted graph names
     # the deletion occurs before extract all, because the data has precedence over disccarded graph list
     # if the list of discarded graphs contains the same name as a graph that results from extraction, the newly extracted graph will remain
