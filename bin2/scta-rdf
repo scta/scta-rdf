@@ -323,7 +323,7 @@ class MyCLI < Thor
             self.delete_graph(graph)
           end
           puts "updating discarded graphs in logs"
-          self.get_hash("#{$base}/data/scta-misc-data", "discarded-graphs.json", "discarded-graphs")
+          self.get_hash("#{$base}/data/scta-misc-data/discarded-graphs", item, "discarded-graphs")
         else
           puts "no change discarded graphs list"
         end
