@@ -19,46 +19,49 @@
     <xsl:param name="repo-path"/>
     
     <xsl:for-each select="$manifestations//manifestation">
-      <!-- required item level manifestation params -->
-      <xsl:variable name="wit-slug" select="./@wit-slug"/>
-      <xsl:variable name="wit-title" select="./@wit-title"/>
-      <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
-      <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
-      
-      <xsl:for-each select="document($transcription-text-path)//tei:body//tei:note[@type='marginal-note']">
-        <xsl:variable name="marginal-note-id">
-          <xsl:choose>
-            <xsl:when test="./@xml:id">
-              <xsl:value-of select="./@xml:id"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="concat('mn-', generate-id())"/>
-            </xsl:otherwise>
-          </xsl:choose> 
-        </xsl:variable>
-        <xsl:variable name="pid" select="./ancestor::tei:p[1]/@xml:id"/>
+      <!-- only create marginal note if a transcription file has been started -->
+      <xsl:if test="./transcriptions">
+        <!-- required item level manifestation params -->
+        <xsl:variable name="wit-slug" select="./@wit-slug"/>
+        <xsl:variable name="wit-title" select="./@wit-title"/>
+        <xsl:variable name="transcriptions" select="./transcriptions"/>
+        <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
+        <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
         
-        <xsl:variable name="surface">
-          <xsl:choose>
-            <xsl:when test="document($transcription-text-path)//tei:pb">
-              <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n), '-', '')"/>
-            </xsl:when>
-            <!-- TODO: as all texts become compliant with lbp-1.0.0, this otherwise condition should become obsolete, as all texts will include pb elements -->
-            <xsl:otherwise>
-              <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', '')), '-', '')"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
-        <xsl:call-template name="marginal_note_manifestations_entry">
-          <xsl:with-param name="cid" select="$cid"/>
-          <xsl:with-param name="wit-slug" select="$wit-slug"/>
-          <xsl:with-param name="pid" select="$pid"/>
-          <xsl:with-param name="marginal-note-id" select="$marginal-note-id"/>
-          <xsl:with-param name="surface" select="$surface"/>
-        </xsl:call-template>
-        
-      </xsl:for-each>
+        <xsl:for-each select="document($transcription-text-path)//tei:body//tei:note[@type='marginal-note']">
+          <xsl:variable name="marginal-note-id">
+            <xsl:choose>
+              <xsl:when test="./@xml:id">
+                <xsl:value-of select="./@xml:id"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="concat('mn-', generate-id())"/>
+              </xsl:otherwise>
+            </xsl:choose> 
+          </xsl:variable>
+          <xsl:variable name="pid" select="./ancestor::tei:p[1]/@xml:id"/>
+          
+          <xsl:variable name="surface">
+            <xsl:choose>
+              <xsl:when test="document($transcription-text-path)//tei:pb">
+                <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n), '-', '')"/>
+              </xsl:when>
+              <!-- TODO: as all texts become compliant with lbp-1.0.0, this otherwise condition should become obsolete, as all texts will include pb elements -->
+              <xsl:otherwise>
+                <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', '')), '-', '')"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:call-template name="marginal_note_manifestations_entry">
+            <xsl:with-param name="cid" select="$cid"/>
+            <xsl:with-param name="wit-slug" select="$wit-slug"/>
+            <xsl:with-param name="pid" select="$pid"/>
+            <xsl:with-param name="marginal-note-id" select="$marginal-note-id"/>
+            <xsl:with-param name="surface" select="$surface"/>
+          </xsl:call-template>
+          
+        </xsl:for-each>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
   <xsl:template name="marginal_note_manifestations_entry">
