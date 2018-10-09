@@ -16,13 +16,15 @@
   <xsl:template name="marginal_note_manifestations">
     <xsl:param name="cid"/>
     <xsl:param name="manifestations"/>
+    <xsl:param name="repo-path"/>
     
     <xsl:for-each select="$manifestations//manifestation">
       <!-- required item level manifestation params -->
       <xsl:variable name="wit-slug" select="./@wit-slug"/>
       <xsl:variable name="wit-title" select="./@wit-title"/>
       <xsl:variable name="transcriptions" select="./transcriptions"/>
-      <xsl:variable name="transcription-text-path" select="$transcriptions/transcription[@canonical='true']/@transcription-text-path"/>
+      <xsl:variable name="url" select="$transcriptions/transcription[@transcriptionDefault='true']/version[@versionDefault='true']/url"/>
+      <xsl:variable name="transcription-text-path" select="concat($repo-path, $url)"/>
       
       <xsl:for-each select="document($transcription-text-path)//tei:body//tei:note[@type='marginal-note']">
         <xsl:variable name="marginal-note-id">

@@ -473,6 +473,7 @@
         <xsl:call-template name="marginal_note_manifestations">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="repo-path" select="$repo-path"/>
         </xsl:call-template>
         <xsl:call-template name="structure_element_quote_manifestations">
           <xsl:with-param name="cid" select="$cid"/>
