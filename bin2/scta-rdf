@@ -213,7 +213,7 @@ class MyCLI < Thor
   desc "create_names", "create names"
   def create_names
   	puts "Begin Nameslist Metadata extraction";
-  	`saxon "-s:#{$base}/data/scta-people/Prosopography.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf";`
+  	`saxon "-s:#{$base}/data/scta-people/Prosopography.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf" "scta-base=#{$base}";`
   end
   desc "create_article", "create articles for specific article list"
   def create_article (file, force=false)
@@ -283,7 +283,7 @@ class MyCLI < Thor
   def build_and_update
     # update data repos first
     self.update_all
-    
+
     # delete discarded graphs goes first to remove no longer wanted graph names
     # the deletion occurs before extract all, because the data has precedence over disccarded graph list
     # if the list of discarded graphs contains the same name as a graph that results from extraction, the newly extracted graph will remain
@@ -348,7 +348,7 @@ class MyCLI < Thor
     end
   end
   desc "update_graph graph", "update graph"
-  def update_graph (subdirectory, graph)
+  def update_graph (subdirectory, graph, force=false)
     puts "updating #{$base}/build/#{subdirectory}/#{graph}"
 
     full_dir_path = "#{$base}/build/#{subdirectory}"
@@ -391,7 +391,7 @@ class MyCLI < Thor
       status = self.same_hash?(full_dir_path, graph, type)
     end
     puts "status: #{status}"
-    if !status
+    if !status || force
       puts "updating #{graph}"
       `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
       puts "updating text-rdf hash in log"
@@ -438,7 +438,7 @@ class MyCLI < Thor
   desc "update_canvas", "load canvas"
   def update_canvas (graph)
     puts "loading canvas #{$base}/data/scta-codices/canvases/#{graph}"
-    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/data/scta-codices/canvases/#{graph}`
+    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/canvases/#{graph}`
   end
   desc "update_canvases", "load canvases"
   def update_canvases
