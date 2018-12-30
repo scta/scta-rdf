@@ -72,6 +72,29 @@ class MyCLI < Thor
       end
     end
   end
+  desc "create_institution INSTITUTION", "create_institution INSTITUTION"
+  def create_institution (institution)
+    puts "creating institution metadata for #{institution}";
+    institution_status = self.same_hash?("#{$base}/data/scta-codices/institutions", "#{institution}.xml", "institution")
+    if !institution_status
+      puts "running institution creation for #{institution}"
+      `saxon '-warnings:silent' '-s:#{$base}/data/scta-codices/institutions/#{institution}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_institution_conversion.xsl' '-o:#{$base}/build/institutions/#{institution}.rdf'`
+      puts "updating institution status hash in log"
+      self.get_hash("#{$base}/data/scta-codices/institutions", "#{institution}.xml", "institution")
+    else
+      puts "no change in institution"
+    end
+
+  end
+  desc "create_institutions", "create institutions"
+  def create_institutions
+    Dir.foreach("#{$base}/data/scta-codices/institutions/") do |item|
+      if item.end_with?(".xml")
+        institution = item.split(".xml").first
+        self.create_institution(institution)
+      end
+    end
+  end
   desc "create_passive_relation EDF", "create passive relation"
   def create_passive_relation (edf)
     puts "Creating passive metadata assertion for #{edf}"
@@ -270,6 +293,7 @@ class MyCLI < Thor
     # begin xslt creations
     self.create_expressions
     self.create_codices
+    self.create_institutions
     self.create_custom_quotations
     self.create_bible_quotations
     self.create_articles
@@ -359,6 +383,9 @@ class MyCLI < Thor
     elsif subdirectory == "codices"
       type = "codices-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
+    elsif subdirectory == "institutions"
+      type = "institutions-rdf"
+      status = self.same_hash?(full_dir_path, graph, type)
     elsif subdirectory == "names"
       type = "names-rdf"
       status = self.same_hash?(full_dir_path, graph, type)
@@ -412,6 +439,7 @@ class MyCLI < Thor
   desc "update_graphs", "update graphs"
   def update_all_graphs
     self.update_graphs("codices")
+    self.update_graphs("institutions")
     self.update_graphs("canvases")
     self.update_graphs("commentaries")
     self.update_graphs("names")
@@ -476,6 +504,7 @@ class MyCLI < Thor
     self.load_graphs("quotations/bsvquotations")
     self.load_graphs("relquery")
     self.load_graphs("codices")
+    self.load_graphs("institutions")
     # these data sources should get copied into build
     # and then imported from build to keep things consistent
     self.load_graph("", "classes-list.ttl")

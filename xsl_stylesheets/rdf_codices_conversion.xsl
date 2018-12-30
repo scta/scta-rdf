@@ -25,6 +25,10 @@
 			<dc:title>
 				<xsl:value-of select="./title"/>
 			</dc:title>
+		  <xsl:if test="./place">
+		    <sctap:publicationPlace rdf:resource="{./place}"/>
+		    <sctap:publicationDate rdf:resource="{./date}"/>
+		  </xsl:if>
 			<xsl:for-each select="./hasItems//item">
 				<xsl:variable name="codex-item-id" select="./shortid"/>
 				<sctap:hasCodexItem rdf:resource="http://scta.info/resource/{$codex-item-id}"/>
@@ -46,6 +50,9 @@
 				<sctap:hasOfficialManifest rdf:resource="{$official-manifest}"/>
 			  <sctap:canvasPagedType><xsl:value-of select="./canvasPagedType"/></sctap:canvasPagedType>
 				<sctap:isCodexItemOf rdf:resource="http://scta.info/resource/{$codexid}"/>
+			  <xsl:if test="./holdingInstitution">
+			    <sctap:holdingInstitution rdf:resource="{./holdingInstitution}"/>
+			  </xsl:if>
 			</rdf:Description>
 			
 		</xsl:for-each>
