@@ -194,20 +194,32 @@
             <xsl:variable name="newRegion">A</xsl:variable>
             <xsl:variable name="newPb" select="./descendant::tei:pb[1]/@n"/>
             <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
+            <xsl:variable name="lines" select=".//tei:lb"/>
             <sctap:isOnZone>
               <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
                 <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
+            <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
+              <xsl:for-each select="$lines">
+                <sctap:hasZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$previousRegion}/lineNumber"/>
+              </xsl:for-each>
+            </rdf:Description>
             <sctap:isOnZone>
               <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf2">
                 <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
           </xsl:when>
-          
           <xsl:otherwise>
-            
+            <xsl:variable name="previousRegion">A</xsl:variable>
+            <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
+            <sctap:isOnZone>
+              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf3">
+                <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
+              </rdf:Description>
+            </sctap:isOnZone>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
