@@ -167,6 +167,52 @@
         <xsl:with-param name="isPartOfShortId" select="concat($ParentId, '/', $wit-slug)"/>
       </xsl:call-template>
       <!-- END structure block properties -->
+      
+      <!-- zone test -->
+      <xsl:for-each select="document($transcription-text-path)/tei:p[@xml:id=$pid]">
+        <xsl:choose>
+          <xsl:when test="./descendant::tei:cb">
+            <xsl:variable name="previousRegion">A</xsl:variable>
+            <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="newRegion">B</xsl:variable>
+            <xsl:variable name="newPb" select="./descendant::tei:pb[1]/@n"/>
+            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
+            <sctap:isOnZone>
+              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
+                <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
+              </rdf:Description>
+            </sctap:isOnZone>
+            <sctap:isOnZone>
+              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf2">
+                <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
+              </rdf:Description>
+            </sctap:isOnZone>
+          </xsl:when>
+          <xsl:when test="./descendant::tei:pb">
+            <xsl:variable name="previousRegion">B</xsl:variable>
+            <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="newRegion">A</xsl:variable>
+            <xsl:variable name="newPb" select="./descendant::tei:pb[1]/@n"/>
+            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
+            <sctap:isOnZone>
+              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
+                <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
+              </rdf:Description>
+            </sctap:isOnZone>
+            <sctap:isOnZone>
+              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf2">
+                <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
+              </rdf:Description>
+            </sctap:isOnZone>
+          </xsl:when>
+          
+          <xsl:otherwise>
+            
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+      <!-- end zone text -->
+      
       <!-- create zone reference -->
       <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
         <xsl:variable name="imagefilename" select="./preceding-sibling::tei:graphic/@url"/>
