@@ -332,6 +332,7 @@
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
           <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
           <xsl:with-param name="extraction-file" select="$extraction-file"/>
           <xsl:with-param name="expressionType" select="$expressionType"/>

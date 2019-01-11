@@ -26,6 +26,7 @@
     <xsl:param name="fs"/>
     <xsl:param name="title"/>
     <xsl:param name="item-level"/>
+    <xsl:param name="item-ancestors"/>
     <xsl:param name="expressionParentId"/>
     <xsl:param name="extraction-file"/>
     <xsl:param name="expressionType"/>
@@ -44,6 +45,28 @@
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
       <xsl:variable name="target" select="./@target"/>
+      
+      <xsl:variable name="element-ancestors">
+        <ancestors>
+          <xsl:for-each select="$item-ancestors">
+            <ancestor id="{./@id}">
+              <head><xsl:value-of select="./head"/></head>
+            </ancestor>
+          </xsl:for-each>
+          <xsl:for-each select="ancestor::tei:div">
+            <ancestor id="{./@xml:id}">
+              <head><xsl:value-of select="./tei:head[1]"/></head>
+            </ancestor>
+          </xsl:for-each>
+          <xsl:for-each select="ancestor::tei:p[1]">
+            <ancestor id="{./@xml:id}">
+              <head><xsl:value-of select="./@xml:id"/></head>
+            </ancestor>
+          </xsl:for-each>
+        </ancestors>
+      </xsl:variable>
+      <xsl:variable name="element-level" select="count($element-ancestors//ancestor) + 1"/>
+      
       
       <xsl:call-template name="structure_element_ref_expressions_entry">
         <xsl:with-param name="fs" select="$fs"/>
@@ -71,6 +94,10 @@
         <xsl:with-param name="objectId" select="$objectId"/>
         <xsl:with-param name="paragraphParent" select="$paragraphParent"/>
         <xsl:with-param name="target" select="$target"/>
+        
+        <xsl:with-param name="element-ancestors" select="$element-ancestors"/>
+        <xsl:with-param name="element-level" select="$element-level"/>
+        
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -101,6 +128,9 @@
     <xsl:param name="paragraphParent"/>
     <xsl:param name="target"/>
     
+    <xsl:param name="element-ancestors"/>
+    <xsl:param name="element-level"/>
+    
     
     
       <rdf:Description rdf:about="http://scta.info/resource/{$objectId}">
@@ -126,6 +156,7 @@
           <xsl:with-param name="isPartOfShortId" select="$paragraphParent"/>
           <xsl:with-param name="elementType">structureElementRef</xsl:with-param>
           <xsl:with-param name="elementText" select="."/>
+          <xsl:with-param name="ancestors" select="$element-ancestors"/>
         </xsl:call-template>
         <!-- END structure type properties -->
         <!-- BEGIN create instanceOf assertions -->
