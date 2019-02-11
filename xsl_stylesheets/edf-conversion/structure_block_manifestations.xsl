@@ -65,6 +65,7 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
+            
           
           
           <xsl:call-template name="structure_block_manifestations_entry">
