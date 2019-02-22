@@ -68,7 +68,7 @@
 				<xsl:value-of select="./label"/>
 			</dc:title>
 			
-			<sctap:order><xsl:value-of select="format-number($order-number, '000')"/></sctap:order>
+			<sctap:order><xsl:value-of select="format-number($order-number, '0000')"/></sctap:order>
 			<xsl:if test="./preceding-sibling::surface[1]">
 				<sctap:previous rdf:resource="http://scta.info/resource/{./preceding-sibling::surface[1]/shortid}"/>	
 			</xsl:if>
