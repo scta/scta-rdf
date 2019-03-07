@@ -26,8 +26,10 @@
 				<xsl:value-of select="./title"/>
 			</dc:title>
 		  <xsl:if test="./place">
-		    <sctap:publicationPlace rdf:resource="{./place}"/>
-		    <sctap:publicationDate rdf:resource="{./date}"/>
+		    <sctap:publicationPlace><xsl:value-of select="./place"/></sctap:publicationPlace>
+		  </xsl:if>
+		  <xsl:if test="./date">
+		    <sctap:publicationDate><xsl:value-of select="./date"/></sctap:publicationDate>
 		  </xsl:if>
 			<xsl:for-each select="./hasItems//item">
 				<xsl:variable name="codex-item-id" select="./shortid"/>
