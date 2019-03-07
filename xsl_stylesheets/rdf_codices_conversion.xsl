@@ -25,6 +25,7 @@
 			<dc:title>
 				<xsl:value-of select="./title"/>
 			</dc:title>
+		  <sctap:codexType rdf:resource="{concat('http://scta.info/resource/codexType', upper-case(substring(./type, 1, 1)), substring(./type, 2))}"/>
 		  <xsl:if test="./place">
 		    <sctap:publicationPlace><xsl:value-of select="./place"/></sctap:publicationPlace>
 		  </xsl:if>
