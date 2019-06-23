@@ -96,6 +96,9 @@
         <xsl:variable name="reverseOrderNumber" select="((count(./preceding-sibling::version) + count(./following-sibling::version)) + 2)  - $ordernumber"/>
         <sctap:versionOrderNumber><xsl:value-of select="format-number($reverseOrderNumber, '0000')"/></sctap:versionOrderNumber>
       </xsl:if>
+      <xsl:if test="./versionNo">
+        <sctap:versionLabel><xsl:value-of select="./versionNo"/></sctap:versionLabel>
+      </xsl:if>
       </xsl:if>
     </xsl:if>
     

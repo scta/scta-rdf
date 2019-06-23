@@ -25,9 +25,12 @@
 			<dc:title>
 				<xsl:value-of select="./title"/>
 			</dc:title>
+		  <sctap:codexType rdf:resource="{concat('http://scta.info/resource/codexType', upper-case(substring(./type, 1, 1)), substring(./type, 2))}"/>
 		  <xsl:if test="./place">
-		    <sctap:publicationPlace rdf:resource="{./place}"/>
-		    <sctap:publicationDate rdf:resource="{./date}"/>
+		    <sctap:publicationPlace><xsl:value-of select="./place"/></sctap:publicationPlace>
+		  </xsl:if>
+		  <xsl:if test="./date">
+		    <sctap:publicationDate><xsl:value-of select="./date"/></sctap:publicationDate>
 		  </xsl:if>
 			<xsl:for-each select="./hasItems//item">
 				<xsl:variable name="codex-item-id" select="./shortid"/>
@@ -68,7 +71,7 @@
 				<xsl:value-of select="./label"/>
 			</dc:title>
 			
-			<sctap:order><xsl:value-of select="format-number($order-number, '000')"/></sctap:order>
+			<sctap:order><xsl:value-of select="format-number($order-number, '0000')"/></sctap:order>
 			<xsl:if test="./preceding-sibling::surface[1]">
 				<sctap:previous rdf:resource="http://scta.info/resource/{./preceding-sibling::surface[1]/shortid}"/>	
 			</xsl:if>
