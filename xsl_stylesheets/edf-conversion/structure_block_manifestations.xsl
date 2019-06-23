@@ -170,72 +170,94 @@
       <!-- END structure block properties -->
       
       <!-- zone test -->
-      <xsl:for-each select="document($transcription-text-path)/tei:p[@xml:id=$pid]">
+      <!-- TODO: this is firing for every mannifestation including critical/born digital files which do not have line breaks or zones
+        needs a switch to exclude certain manifestations based on manifestation type -->
+      
+      <xsl:for-each select="document($transcription-text-path)//tei:p[@xml:id=$pid]">
+        <!-- creates on or two zones based on presence of column break or line break -->
+        <!-- TODO: this doesn't handle a case where three or more breaks might appear in a paragraph; (an unusual case, but it sometimes happens) -->
         <xsl:choose>
-          <xsl:when test="./descendant::tei:cb">
-            <xsl:variable name="previousRegion">A</xsl:variable>
-            <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="newRegion">B</xsl:variable>
-            <xsl:variable name="newPb" select="./descendant::tei:pb[1]/@n"/>
-            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
+          <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
+            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+            <xsl:variable name="secondPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+            <xsl:variable name="column" select="./descendant::tei:cb[1]/@n"/>
+            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+            <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+            
             <sctap:isOnZone>
-              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
+              <rdf:Description>
+                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
                 <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
+            
             <sctap:isOnZone>
-              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf2">
+              <rdf:Description>
+                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2"/>
                 <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
           </xsl:when>
           <xsl:when test="./descendant::tei:pb">
-            <xsl:variable name="previousRegion">B</xsl:variable>
-            <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="newRegion">A</xsl:variable>
-            <xsl:variable name="newPb" select="./descendant::tei:pb[1]/@n"/>
-            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
-            <xsl:variable name="lines" select=".//tei:lb"/>
+            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+            <xsl:variable name="secondPbWithDash" select="./descendant::tei:pb[1]/@n"/>
+            <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+            <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+            
             <sctap:isOnZone>
-              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
+              <rdf:Description>
+                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
                 <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
-            <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf">
-              <xsl:for-each select="$lines">
-                <sctap:hasZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$previousRegion}/lineNumber"/>
-              </xsl:for-each>
-            </rdf:Description>
+           
             <sctap:isOnZone>
-              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf2">
+              <rdf:Description>
+                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2"/>
                 <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
+            
           </xsl:when>
           <xsl:otherwise>
-            <xsl:variable name="previousRegion">A</xsl:variable>
+            
+            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+            <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)]"/>
+            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+            <!--<xsl:variable name="previousRegion">A</xsl:variable>
             <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>
+            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>-->
             <sctap:isOnZone>
-              <rdf:Description rdf:isOnZone="http://scta.info/resource/{$surfaceShortId}/dfkjdf3">
+              <rdf:Description >
+                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
                 <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
               </rdf:Description>
             </sctap:isOnZone>
+            
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
       <!-- end zone text -->
       
-      <!-- create zone reference -->
+     <!--
+       
+       old way of creation zones based on facsimile; rendered absolute by line zone creation
+       
+       <!-\- create zone reference -\->
       <xsl:for-each select="document($transcription-text-path)/tei:TEI/tei:facsimile//tei:zone[@start=$pid_ref]">
         <xsl:variable name="imagefilename" select="./preceding-sibling::tei:graphic/@url"/>
         <xsl:variable name="canvasname" select="substring-before($imagefilename, '.')"/>
-        <!-- this is not a good way to do this; this whole section needs to be written -->
-        <!-- right now I'm trying to just go the folio number without the preceding sigla -->
-        <!-- not this will fail if there is Sigla that reads Ar15r; the first "r" will not be removed and the result will be r15r -->
+        <!-\- this is not a good way to do this; this whole section needs to be written -\->
+        <!-\- right now I'm trying to just go the folio number without the preceding sigla -\->
+        <!-\- not this will fail if there is Sigla that reads Ar15r; the first "r" will not be removed and the result will be r15r -\->
         <xsl:variable name="folioname" select="translate($canvasname, 'ABCDEFGHIJKLMNOPQRSTUVabcdefghijklmnopqstuwxyz', '') "/>
-        <!-- <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material', $commentaryslug, '-', $wit-slug, '/', $folioname)"/> -->
-        <!-- changed to... --> <!-- this will mess up anywhere were codex ids are identical such as "sorb" and "sorb" and "vat" and "vat" which I believe is only a problem with Wodeham and Plaoul -->
+        <!-\- <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/material', $commentaryslug, '-', $wit-slug, '/', $folioname)"/> -\->
+        <!-\- changed to... -\-> <!-\- this will mess up anywhere were codex ids are identical such as "sorb" and "sorb" and "vat" and "vat" which I believe is only a problem with Wodeham and Plaoul -\->
         <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', $folioname)"/>
         <xsl:variable name="foliosideurl" select="concat('http://scta.info/resource/', $wit-slug, '/', $folioname)"/>
         <xsl:variable name="pid" select="translate(./@start, '#', '')"/>
@@ -249,7 +271,120 @@
         <xsl:variable name="position" select="if (./@n) then ./@n else 1"/>
         
         <sctap:isOnZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$ulx}{$uly}{$lrx}{$lry}"/>
-      </xsl:for-each>
+      </xsl:for-each>-->
     </rdf:Description>
+    
+    <!-- create zones containing lines as zones -->
+    <!-- TODO: this is firing for every mannifestation including critical/born digital files which do not have line breaks or zones
+        needs a switch to exclude certain manifestations based on manifestation type -->
+    
+    <xsl:for-each select="document($transcription-text-path)//tei:p[@xml:id=$pid]">
+      <xsl:choose>
+        <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
+          
+          <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+          <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+          <xsl:variable name="secondPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+          <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+          <xsl:variable name="column" select="./descendant::tei:cb[1]/@n"/>
+          <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+          <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+          <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)][following::tei:cb[1][@n=$column]]"/>
+          <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:cb[1][@n=$column]]"/>
+          
+          <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+            <xsl:for-each select="$zoneOnelines">
+              <xsl:call-template name="line-creation">
+                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+              </xsl:call-template>
+            </xsl:for-each>
+          </rdf:Description>
+          
+          <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
+            <xsl:for-each select="$zoneTwolines">
+              <xsl:call-template name="line-creation">
+                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                <xsl:with-param name="surfaceShortId" select="$secondSurfaceShortId"/>
+              </xsl:call-template>
+            </xsl:for-each>
+          </rdf:Description>
+        </xsl:when>
+        <xsl:when test="./descendant::tei:pb">
+          
+          <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+          <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+          <xsl:variable name="secondPbWithDash" select="./descendant::tei:pb[1]/@n"/>
+          <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+          <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+          <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+          <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)][following::tei:pb[@n=$secondPbWithDash]]"/>
+          <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:pb[@n=$secondPbWithDash]]"/>
+          
+          <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+            <xsl:for-each select="$zoneOnelines">
+              <xsl:call-template name="line-creation">
+                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+              </xsl:call-template>
+            </xsl:for-each>
+          </rdf:Description>
+          
+          <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
+            <xsl:for-each select="$zoneTwolines">
+              <xsl:call-template name="line-creation">
+                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                <xsl:with-param name="surfaceShortId" select="$secondSurfaceShortId"/>
+              </xsl:call-template>
+            </xsl:for-each>
+          </rdf:Description>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+          <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+          <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)]"/>
+          <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+          
+          <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+            <xsl:for-each select="$zoneOnelines">
+              <xsl:call-template name="line-creation">
+                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+              </xsl:call-template>
+            </xsl:for-each>
+          </rdf:Description>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+  
+  <xsl:template name="line-creation">
+    <xsl:param name="surfaceShortId"/>
+    <!-- gets lines following the current page break -->
+    <xsl:variable name="followingPageBreak" select="count(./preceding::tei:pb[1]//following::tei:lb[not(parent::tei:reg)])"/>
+    <!-- gets line following the current line break  -->
+    <xsl:variable name="followingLineBreak" select="count(.//following::tei:lb[not(parent::tei:reg)])"/>
+    <xsl:variable name="pbNumber" select="./preceding::tei:pb[1]/@n"/>
+    <xsl:variable name="lineNumber">
+      <xsl:choose>
+        <xsl:when test="not(./preceding::tei:pb[1][ancestor::tei:body])">
+          
+          <xsl:variable name="lineCount" select="$followingPageBreak - $followingLineBreak"/>
+          <xsl:variable name="startline">
+            <xsl:choose>
+              <xsl:when test="//tei:body//following::tei:lb[1]/@n">
+                <xsl:value-of select="//tei:body/tei:div//tei:p[1]//following::tei:lb[1]/@n"/>
+              </xsl:when>
+              <xsl:otherwise>1</xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="$lineCount + $startline - 1"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$followingPageBreak - $followingLineBreak"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <sctap:hasZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$lineNumber}"/>
   </xsl:template>
 </xsl:stylesheet>
