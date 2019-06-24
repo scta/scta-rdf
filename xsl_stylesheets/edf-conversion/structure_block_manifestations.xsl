@@ -293,15 +293,28 @@
           <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:cb[1][@n=$column]]"/>
           
           <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
+            <!-- 
+              test tries checks if paragraph starts on a new line by 
+              by checking for text node that is not blank that precedes the first line break -->
+            
+            <xsl:variable name="precedingLine">
+              <xsl:choose>
+                <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
+                <xsl:otherwise>false</xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
             <xsl:for-each select="$zoneOnelines">
               <xsl:call-template name="line-creation">
                 <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
                 <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+                <xsl:with-param name="precedingLine" select="$precedingLine"/>
               </xsl:call-template>
             </xsl:for-each>
           </rdf:Description>
           
           <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
+            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}"/>
             <xsl:for-each select="$zoneTwolines">
               <xsl:call-template name="line-creation">
                 <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
@@ -322,15 +335,28 @@
           <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:pb[@n=$secondPbWithDash]]"/>
           
           <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
+            <!-- 
+              test tries checks if paragraph starts on a new line by 
+              by checking for text node that is not blank that precedes the first line break -->
+            
+            <xsl:variable name="precedingLine">
+              <xsl:choose>
+                <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
+                <xsl:otherwise>false</xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
             <xsl:for-each select="$zoneOnelines">
               <xsl:call-template name="line-creation">
                 <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
                 <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+                <xsl:with-param name="precedingLine" select="$precedingLine"/>
               </xsl:call-template>
             </xsl:for-each>
           </rdf:Description>
           
           <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
+            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}"/>
             <xsl:for-each select="$zoneTwolines">
               <xsl:call-template name="line-creation">
                 <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
@@ -346,10 +372,22 @@
           <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
           
           <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
+            <!-- 
+              test tries checks if paragraph starts on a new line by 
+              by checking for text node that is not blank that precedes the first line break -->
+              
+            <xsl:variable name="precedingLine">
+              <xsl:choose>
+                <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
+                <xsl:otherwise>false</xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
             <xsl:for-each select="$zoneOnelines">
               <xsl:call-template name="line-creation">
                 <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
                 <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+                <xsl:with-param name="precedingLine" select="$precedingLine"/>
               </xsl:call-template>
             </xsl:for-each>
           </rdf:Description>
@@ -360,6 +398,8 @@
   
   <xsl:template name="line-creation">
     <xsl:param name="surfaceShortId"/>
+    <xsl:param name="precedingLine"/>
+    <xsl:message><xsl:value-of select="$surfaceShortId"/></xsl:message>
     <!-- gets lines following the current page break -->
     <xsl:variable name="followingPageBreak" select="count(./preceding::tei:pb[1]//following::tei:lb[not(parent::tei:reg)])"/>
     <!-- gets line following the current line break  -->
@@ -385,6 +425,22 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+    <xsl:if test="position() = 1">
+      <xsl:choose>
+        <xsl:when test="$precedingLine eq 'true'">
+          <sctap:hasZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$lineNumber - 1}"/>
+          <sctap:firstLine><xsl:value-of select="$lineNumber - 1"/></sctap:firstLine>
+          <sctap:hasPartialFirstLine>true</sctap:hasPartialFirstLine>
+        </xsl:when>
+        <xsl:otherwise>
+          <sctap:firstLine><xsl:value-of select="$lineNumber"/></sctap:firstLine>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:if>
     <sctap:hasZone rdf:resource="http://scta.info/resource/{$surfaceShortId}/{$lineNumber}"/>
+    
+    <xsl:if test="position() = last()">
+      <sctap:lastLine><xsl:value-of select="$lineNumber"/></sctap:lastLine>
+    </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
