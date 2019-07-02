@@ -174,73 +174,78 @@
         needs a switch to exclude certain manifestations based on manifestation type -->
       
       <xsl:for-each select="document($transcription-text-path)//tei:p[@xml:id=$pid]">
-        <!-- creates on or two zones based on presence of column break or line break -->
-        <!-- TODO: this doesn't handle a case where three or more breaks might appear in a paragraph; (an unusual case, but it sometimes happens) -->
-        <xsl:choose>
-          <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
-            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
-            <xsl:variable name="secondPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
-            <xsl:variable name="column" select="./descendant::tei:cb[1]/@n"/>
-            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
-            <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
-            
-            <sctap:isOnZone>
-              <rdf:Description>
-                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
-                <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
-              </rdf:Description>
-            </sctap:isOnZone>
-            
-            <sctap:isOnZone>
-              <rdf:Description>
-                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2"/>
-                <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
-              </rdf:Description>
-            </sctap:isOnZone>
-          </xsl:when>
-          <xsl:when test="./descendant::tei:pb">
-            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
-            <xsl:variable name="secondPbWithDash" select="./descendant::tei:pb[1]/@n"/>
-            <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
-            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
-            <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
-            
-            <sctap:isOnZone>
-              <rdf:Description>
-                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
-                <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
-              </rdf:Description>
-            </sctap:isOnZone>
-           
-            <sctap:isOnZone>
-              <rdf:Description>
-                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2"/>
-                <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
-              </rdf:Description>
-            </sctap:isOnZone>
-            
-          </xsl:when>
-          <xsl:otherwise>
-            
-            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
-            <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)]"/>
-            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
-            <!--<xsl:variable name="previousRegion">A</xsl:variable>
-            <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
-            <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>-->
-            <sctap:isOnZone>
-              <rdf:Description >
-                <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
-                <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
-              </rdf:Description>
-            </sctap:isOnZone>
-            
-          </xsl:otherwise>
-        </xsl:choose>
+        <!-- conditional texts to see if paragraph contains line breaks 
+        it assumes that a line break is present this is a diplomatic transcription 
+        this should help exclude critical and born digital transcriptions -->
+        <xsl:if test=".//tei:lb">
+          <!-- creates on or two zones based on presence of column break or line break -->
+          <!-- TODO: this doesn't handle a case where three or more breaks might appear in a paragraph; (an unusual case, but it sometimes happens) -->
+          <xsl:choose>
+            <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
+              <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+              <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+              <xsl:variable name="secondPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+              <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+              <xsl:variable name="column" select="./descendant::tei:cb[1]/@n"/>
+              <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+              <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+              
+              <sctap:isOnZone>
+                <rdf:Description>
+                  <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
+                  <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
+                </rdf:Description>
+              </sctap:isOnZone>
+              
+              <sctap:isOnZone>
+                <rdf:Description>
+                  <sctap:isOnZone rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2"/>
+                  <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
+                </rdf:Description>
+              </sctap:isOnZone>
+            </xsl:when>
+            <xsl:when test="./descendant::tei:pb">
+              <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+              <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+              <xsl:variable name="secondPbWithDash" select="./descendant::tei:pb[1]/@n"/>
+              <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+              <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+              <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+              
+              <sctap:isOnZone>
+                <rdf:Description>
+                  <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
+                  <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
+                </rdf:Description>
+              </sctap:isOnZone>
+             
+              <sctap:isOnZone>
+                <rdf:Description>
+                  <sctap:isOnZone rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2"/>
+                  <sctap:isOnZoneOrder>2</sctap:isOnZoneOrder>
+                </rdf:Description>
+              </sctap:isOnZone>
+              
+            </xsl:when>
+            <xsl:otherwise>
+              
+              <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+              <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+              <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)]"/>
+              <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+              <!--<xsl:variable name="previousRegion">A</xsl:variable>
+              <xsl:variable name="newPb" select="./preceding::tei:pb[1]/@n"/>
+              <xsl:variable name="surfaceShortId" select="concat($wit-slug, '/', 'folionameAsVariable')"/>-->
+              <sctap:isOnZone>
+                <rdf:Description >
+                  <sctap:isOnZone rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1"/>
+                  <sctap:isOnZoneOrder>1</sctap:isOnZoneOrder>
+                </rdf:Description>
+              </sctap:isOnZone>
+              
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:if>
       </xsl:for-each>
       <!-- end zone text -->
       
@@ -279,120 +284,125 @@
         needs a switch to exclude certain manifestations based on manifestation type -->
     
     <xsl:for-each select="document($transcription-text-path)//tei:p[@xml:id=$pid]">
-      <xsl:choose>
-        <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
-          
-          <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-          <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
-          <xsl:variable name="secondPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-          <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
-          <xsl:variable name="column" select="./descendant::tei:cb[1]/@n"/>
-          <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
-          <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
-          <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)][following::tei:cb[1][@n=$column]]"/>
-          <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:cb[1][@n=$column]]"/>
-          
-          <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
-            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
-            <!-- 
-              test tries checks if paragraph starts on a new line by 
-              by checking for text node that is not blank that precedes the first line break -->
+      <!-- conditional texts to see if paragraph contains line breaks 
+        it assumes that a line break is present this is a diplomatic transcription 
+        this should help exclude critical and born digital transcriptions -->
+      <xsl:if test=".//tei:lb">
+        <xsl:choose>
+          <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
             
-            <xsl:variable name="precedingLine">
-              <xsl:choose>
-                <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
-                <xsl:otherwise>false</xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:for-each select="$zoneOnelines">
-              <xsl:call-template name="line-creation">
-                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
-                <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
-                <xsl:with-param name="precedingLine" select="$precedingLine"/>
-              </xsl:call-template>
-            </xsl:for-each>
-          </rdf:Description>
-          
-          <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
-            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}"/>
-            <xsl:for-each select="$zoneTwolines">
-              <xsl:call-template name="line-creation">
-                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
-                <xsl:with-param name="surfaceShortId" select="$secondSurfaceShortId"/>
-              </xsl:call-template>
-            </xsl:for-each>
-          </rdf:Description>
-        </xsl:when>
-        <xsl:when test="./descendant::tei:pb">
-          
-          <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-          <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
-          <xsl:variable name="secondPbWithDash" select="./descendant::tei:pb[1]/@n"/>
-          <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
-          <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
-          <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
-          <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)][following::tei:pb[@n=$secondPbWithDash]]"/>
-          <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:pb[@n=$secondPbWithDash]]"/>
-          
-          <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
-            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
-            <!-- 
-              test tries checks if paragraph starts on a new line by 
-              by checking for text node that is not blank that precedes the first line break -->
+            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+            <xsl:variable name="secondPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+            <xsl:variable name="column" select="./descendant::tei:cb[1]/@n"/>
+            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+            <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+            <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)][following::tei:cb[1][@n=$column]]"/>
+            <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:cb[1][@n=$column]]"/>
             
-            <xsl:variable name="precedingLine">
-              <xsl:choose>
-                <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
-                <xsl:otherwise>false</xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:for-each select="$zoneOnelines">
-              <xsl:call-template name="line-creation">
-                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
-                <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
-                <xsl:with-param name="precedingLine" select="$precedingLine"/>
-              </xsl:call-template>
-            </xsl:for-each>
-          </rdf:Description>
-          
-          <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
-            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}"/>
-            <xsl:for-each select="$zoneTwolines">
-              <xsl:call-template name="line-creation">
-                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
-                <xsl:with-param name="surfaceShortId" select="$secondSurfaceShortId"/>
-              </xsl:call-template>
-            </xsl:for-each>
-          </rdf:Description>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
-          <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
-          <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)]"/>
-          <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
-          
-          <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
-            <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
-            <!-- 
-              test tries checks if paragraph starts on a new line by 
-              by checking for text node that is not blank that precedes the first line break -->
+            <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+              <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
+              <!-- 
+                test tries checks if paragraph starts on a new line by 
+                by checking for text node that is not blank that precedes the first line break -->
               
-            <xsl:variable name="precedingLine">
-              <xsl:choose>
-                <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
-                <xsl:otherwise>false</xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-            <xsl:for-each select="$zoneOnelines">
-              <xsl:call-template name="line-creation">
-                <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
-                <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
-                <xsl:with-param name="precedingLine" select="$precedingLine"/>
-              </xsl:call-template>
-            </xsl:for-each>
-          </rdf:Description>
-        </xsl:otherwise>
-      </xsl:choose>
+              <xsl:variable name="precedingLine">
+                <xsl:choose>
+                  <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
+                  <xsl:otherwise>false</xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:for-each select="$zoneOnelines">
+                <xsl:call-template name="line-creation">
+                  <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                  <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+                  <xsl:with-param name="precedingLine" select="$precedingLine"/>
+                </xsl:call-template>
+              </xsl:for-each>
+            </rdf:Description>
+            
+            <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
+              <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}"/>
+              <xsl:for-each select="$zoneTwolines">
+                <xsl:call-template name="line-creation">
+                  <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                  <xsl:with-param name="surfaceShortId" select="$secondSurfaceShortId"/>
+                </xsl:call-template>
+              </xsl:for-each>
+            </rdf:Description>
+          </xsl:when>
+          <xsl:when test="./descendant::tei:pb">
+            
+            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+            <xsl:variable name="secondPbWithDash" select="./descendant::tei:pb[1]/@n"/>
+            <xsl:variable name="secondPb" select="replace($secondPbWithDash, '-', '')"/>
+            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+            <xsl:variable name="secondSurfaceShortId" select="concat($wit-slug, '/', $secondPb)"/>
+            <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)][following::tei:pb[@n=$secondPbWithDash]]"/>
+            <xsl:variable name="zoneTwolines" select="./descendant::tei:lb[not(parent::tei:reg)][preceding::tei:pb[@n=$secondPbWithDash]]"/>
+            
+            <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+              <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
+              <!-- 
+                test tries checks if paragraph starts on a new line by 
+                by checking for text node that is not blank that precedes the first line break -->
+              
+              <xsl:variable name="precedingLine">
+                <xsl:choose>
+                  <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
+                  <xsl:otherwise>false</xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:for-each select="$zoneOnelines">
+                <xsl:call-template name="line-creation">
+                  <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                  <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+                  <xsl:with-param name="precedingLine" select="$precedingLine"/>
+                </xsl:call-template>
+              </xsl:for-each>
+            </rdf:Description>
+            
+            <rdf:Description rdf:about="http://scta.info/resource/{$secondSurfaceShortId}/{$pid}/2">
+              <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$secondSurfaceShortId}"/>
+              <xsl:for-each select="$zoneTwolines">
+                <xsl:call-template name="line-creation">
+                  <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                  <xsl:with-param name="surfaceShortId" select="$secondSurfaceShortId"/>
+                </xsl:call-template>
+              </xsl:for-each>
+            </rdf:Description>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:variable name="firstPbWithDash" select="./preceding::tei:pb[1]/@n"/>
+            <xsl:variable name="firstPb" select="replace($firstPbWithDash, '-', '')"/>
+            <xsl:variable name="zoneOnelines" select="./descendant::tei:lb[not(parent::tei:reg)]"/>
+            <xsl:variable name="firstSurfaceShortId" select="concat($wit-slug, '/', $firstPb)"/>
+            
+            <rdf:Description rdf:about="http://scta.info/resource/{$firstSurfaceShortId}/{$pid}/1">
+              <sctap:isPartOfSurface rdf:resource="http://scta.info/resource/{$firstSurfaceShortId}"/>
+              <!-- 
+                test tries checks if paragraph starts on a new line by 
+                by checking for text node that is not blank that precedes the first line break -->
+                
+              <xsl:variable name="precedingLine">
+                <xsl:choose>
+                  <xsl:when test="normalize-space(./descendant::tei:lb[1]/preceding-sibling::node()[1]) != ''">true</xsl:when>
+                  <xsl:otherwise>false</xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:for-each select="$zoneOnelines">
+                <xsl:call-template name="line-creation">
+                  <!--<xsl:with-param name="previousRegion" select="$previousRegion"/>-->
+                  <xsl:with-param name="surfaceShortId" select="$firstSurfaceShortId"/>
+                  <xsl:with-param name="precedingLine" select="$precedingLine"/>
+                </xsl:call-template>
+              </xsl:for-each>
+            </rdf:Description>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
   
@@ -408,13 +418,16 @@
     <xsl:variable name="lineNumber">
       <xsl:choose>
         <xsl:when test="not(./preceding::tei:pb[1][ancestor::tei:body])">
-          
           <xsl:variable name="lineCount" select="$followingPageBreak - $followingLineBreak"/>
           <xsl:variable name="startline">
             <xsl:choose>
               <xsl:when test="//tei:body//following::tei:lb[1]/@n">
-                <xsl:value-of select="//tei:body/tei:div//tei:p[1]//following::tei:lb[1]/@n"/>
+                <!-- get all line that have a number and are in the first position -->
+                <xsl:variable name="firstLineNumbers" select="//tei:body//following::tei:lb[1]/@n"/>
+                <!-- gets the first line in new list which should be the first line in the document -->
+                <xsl:value-of select="$firstLineNumbers[1]"/>
               </xsl:when>
+              <!-- if it can't find a number it defaults to first line or 1 -->
               <xsl:otherwise>1</xsl:otherwise>
             </xsl:choose>
           </xsl:variable>
