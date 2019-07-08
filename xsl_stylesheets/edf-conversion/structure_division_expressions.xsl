@@ -196,8 +196,16 @@
         </xsl:choose>
         <!-- END collect questionTitles from divisions headers -->
         
+        <!-- BEGIN structureDivision order -->
+        <xsl:variable name="totalnumber"><xsl:number count="tei:div" level="any"/></xsl:variable>
+        <xsl:variable name="sectionnumber"><xsl:number count="tei:div"/></xsl:variable>
+        
+        <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '0000')"/></sctap:totalOrderNumber>
+        <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>
+        <!-- END structureDivision order -->
+        
         <!-- BEGINS child structureDivision identifications -->
-        <xsl:for-each select="./tei:div">
+        <xsl:for-each select="./tei:div|./tei:p">
           <xsl:variable name="divisionID">
             <xsl:choose>
               <xsl:when test="./@xml:id">

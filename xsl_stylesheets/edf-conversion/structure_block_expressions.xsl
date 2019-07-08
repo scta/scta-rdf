@@ -192,7 +192,10 @@
           
           <!-- order -->
           <xsl:variable name="paragraphnumber"><xsl:value-of select="count(document($extraction-file)//tei:body//tei:p) - count(document($extraction-file)//tei:body//tei:p[preceding::tei:p[@xml:id=$pid]])"/></xsl:variable>
+          <xsl:variable name="sectionnumber"><xsl:number count="tei:p"/></xsl:variable>
           <sctap:paragraphNumber><xsl:value-of select="$paragraphnumber"/></sctap:paragraphNumber>
+          <sctap:totalOrderNumber><xsl:value-of select="format-number($paragraphnumber, '0000')"/></sctap:totalOrderNumber>
+          <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>
           <!-- next -->
           <xsl:variable name="nextpid" select="document($extraction-file)//tei:p[@xml:id=$pid]/following::tei:p[1]/@xml:id"/>
           <sctap:next rdf:resource="http://scta.info/resource/{$nextpid}"/>
