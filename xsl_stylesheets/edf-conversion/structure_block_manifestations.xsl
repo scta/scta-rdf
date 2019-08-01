@@ -58,10 +58,13 @@
           <xsl:variable name="paragraph-surface">
             <xsl:choose>
               <xsl:when test="document($transcription-text-path)//tei:pb">
-                <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', ./preceding::tei:pb[1]/@n), '-', '')"/>
+                <xsl:value-of select="concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:pb[1]/@n, '-', ''))"/>
               </xsl:when>
               <xsl:otherwise>
-                <xsl:value-of select="translate(concat('http://scta.info/resource/', $wit-slug, '/', translate(./preceding::tei:cb[1]/@n, 'ab', '')), '-', '')"/>
+                <!-- TODO: This is problematic; this is removing the "-" in IDs like "cod-dfdf"
+                  it shouldn't be necessary when everything is 1.0.0 compliant 
+                -->
+                <xsl:value-of select="concat('http://scta.info/resource/', $wit-slug, '/', translate(translate(./preceding::tei:cb[1]/@n, 'ab', ''), '-', ''))"/>
               </xsl:otherwise>
             </xsl:choose>
           </xsl:variable>

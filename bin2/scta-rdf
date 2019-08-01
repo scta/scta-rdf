@@ -428,10 +428,10 @@ class MyCLI < Thor
     end
   end
   desc "update_graphs", "update graphs"
-  def update_graphs(subdirectory)
+  def update_graphs(subdirectory, force=false)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
       if item.end_with?(".rdf") || item.end_with?(".ttl") || item.end_with?(".jsonld")
-        self.update_graph(subdirectory, item)
+        self.update_graph(subdirectory, item, force)
       end
     end
 
