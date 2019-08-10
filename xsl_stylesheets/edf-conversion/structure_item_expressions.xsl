@@ -165,8 +165,8 @@
         </xsl:choose>
         <!-- END record status -->
         
-        <!-- BEGIN identifying all child structureDivision expressions contained by structureItem -->
-        <xsl:for-each select="document($extraction-file)//tei:body/tei:div/tei:div">
+        <!-- BEGIN identifying hasPart expressions contained by structureItem , either div or paragraph-->
+      <xsl:for-each select="document($extraction-file)//tei:body/tei:div/tei:div|document($extraction-file)//tei:body/tei:div/tei:p">
           <xsl:variable name="divisionID">
             <xsl:choose>
               <xsl:when test="./@xml:id">
@@ -186,7 +186,7 @@
           <!-- TODO: this should be deleted in light of above hasPart replacement <sctap:hasStructureDivision rdf:resource="http://scta.info/resource/{$divisionID}"/> -->
           
         </xsl:for-each>
-        <!-- END structureDivision identifications -->
+        <!-- END hasPart identifications -->
       <!-- END misc properties -->
       
       
