@@ -107,7 +107,11 @@
       <!-- begin item level param retrieve and template calls -->
       <!-- TODO some of the DIV calls could be consolidated in this way -->
       <!-- IT's ideal to be getting the required params once and then using them in many templates rather than re-retrieving params for each template -->
-      <xsl:for-each select=".//item">
+      
+      <!-- short cut for testing; uncomment to test-->
+      <xsl:for-each select=".//item[fileName/@filestem='lectio1']">
+      
+      <!--<xsl:for-each select=".//item">-->
         <xsl:result-document method="xml" href="{fileName/@filestem}.rdf">
           
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -321,6 +325,17 @@
           <xsl:with-param name="manifestations" select="$manifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         </xsl:call-template>
+        <xsl:call-template name="structure_element_manifestations">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="repo-path" select="$repo-path"/>
+        </xsl:call-template>
+        <xsl:call-template name="structure_element_transcriptions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="repo-path" select="$repo-path"/>
+          <xsl:with-param name="fs" select="$fs"/>
+        </xsl:call-template>
         <xsl:call-template name="structure_element_ref_expressions">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
@@ -476,11 +491,6 @@
           <xsl:with-param name="manifestations" select="$manifestations"/>
           <xsl:with-param name="repo-path" select="$repo-path"/>
         </xsl:call-template>
-        <xsl:call-template name="structure_element_quote_manifestations">
-          <xsl:with-param name="cid" select="$cid"/>
-          <xsl:with-param name="manifestations" select="$manifestations"/>
-          <xsl:with-param name="repo-path" select="$repo-path"/>
-        </xsl:call-template>
         <xsl:call-template name="zones">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="fs" select="$fs"/>
@@ -515,7 +525,8 @@
   <xsl:include href="structure_element_title_expressions.xsl"/>
   <xsl:include href="structure_element_quote_expressions.xsl"/>
   <xsl:include href="structure_element_ref_expressions.xsl"/>
-  <xsl:include href="structure_element_quote_manifestations.xsl"/>
+  <xsl:include href="structure_element_manifestations.xsl"/>
+  <xsl:include href="structure_element_transcriptions.xsl"/>
   <xsl:include href="zones.xsl"/>
   
   

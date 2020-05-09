@@ -25,7 +25,9 @@
     <dcterms:isPartOf rdf:resource="http://scta.info/resource/{$isPartOfShortId}"/>
     <sctap:isPartOfStructureBlock rdf:resource="http://scta.info/resource/{$isPartOfStructureBlockShortId}"/>
     <sctap:structureElementType rdf:resource="http://scta.info/resource/{$elementType}"/>
-    <sctap:structureElementText><xsl:value-of select="$elementText"/></sctap:structureElementText>
+    <xsl:if test="$elementText">
+      <sctap:structureElementText><xsl:value-of select="$elementText"/></sctap:structureElementText>
+    </xsl:if>
     
     
     <!-- identify all ancestors as resource that current node is member of -->

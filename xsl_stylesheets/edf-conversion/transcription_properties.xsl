@@ -38,7 +38,7 @@
     </xsl:if>
     <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/{$isTranscriptionOfShortId}"/>
     <sctap:transcriptionType><xsl:value-of select="$transcription-type"/></sctap:transcriptionType>
-    <sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$topLevelShortId}"/>
+    <!--TO DO: DELETE because redundant <sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/{$topLevelShortId}"/>-->
     <sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/{$shortId}"/>
     
     <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/{$shortId}"/>
