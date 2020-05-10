@@ -31,7 +31,9 @@
         <xsl:variable name="lang" select="./@lang"/>
         
         <xsl:for-each select="document($transcription-text-path)//tei:body//tei:quote[@xml:id] |
-          document($transcription-text-path)//tei:body//tei:ref[@xml:id]">
+          document($transcription-text-path)//tei:body//tei:ref[@xml:id] |
+          document($transcription-text-path)//tei:body//tei:name[@xml:id] 
+          ">
           <!-- get elementname and capitalize it -->
           <xsl:variable name="elementName">
             <xsl:value-of select="concat(
