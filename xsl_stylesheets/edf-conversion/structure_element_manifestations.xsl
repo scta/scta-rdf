@@ -101,7 +101,22 @@
           <xsl:with-param name="elementText" select="."/>
         </xsl:call-template>
         <!-- END structure type properties -->
+        
+        <!-- Begin manifestation zone properties creation -->
+        <!-- TODO: this is firing for every mannifestation including critical/born digital files which do not have line breaks or zones
+        needs a switch to exclude certain manifestations based on manifestation type -->
+        <xsl:call-template name="manifestation_zone_properties">
+          <xsl:with-param name="wit-slug" select="$wit-slug"/>
+        </xsl:call-template>
+        <!-- End manifestation zone properties creation -->
       </rdf:Description>
+    <!-- BEGIN create zones containing lines as zones -->
+    <!-- TODO: this is firing for every mannifestation including critical/born digital files which do not have line breaks or zones
+        needs a switch to exclude certain manifestations based on manifestation type -->
+    <xsl:call-template name="manifestation_zones">
+      <xsl:with-param name="wit-slug" select="$wit-slug"/>
+    </xsl:call-template>
+    <!-- END create zones containing lines as zones -->
     
     
     

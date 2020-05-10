@@ -109,9 +109,9 @@
       <!-- IT's ideal to be getting the required params once and then using them in many templates rather than re-retrieving params for each template -->
       
       <!-- short cut for testing; uncomment to test-->
-      <!--<xsl:for-each select=".//item[fileName/@filestem='lectio1']">-->
+      <xsl:for-each select=".//item[fileName/@filestem='lectio1']">
       
-      <xsl:for-each select=".//item">
+      <!--<xsl:for-each select=".//item">-->
         <xsl:result-document method="xml" href="{fileName/@filestem}.rdf">
           
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -533,6 +533,8 @@
   <xsl:include href="global_properties.xsl"/>
   <xsl:include href="expression_properties.xsl"/>
   <xsl:include href="manifestation_properties.xsl"/>
+  <xsl:include href="manifestation_zones.xsl"/>
+  <xsl:include href="manifestation_zone_properties.xsl"/>
   <xsl:include href="transcription_properties.xsl"/>
   
   <xsl:include href="structure_collection_properties.xsl"/>
