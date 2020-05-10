@@ -45,7 +45,7 @@
             substring(./name(),2,string-length(./name())-1)
             )"/>
           </xsl:variable>
-          <xsl:message><xsl:value-of select="$elementName"/></xsl:message>
+          <!--<xsl:message><xsl:value-of select="$elementName"/></xsl:message>-->
           <xsl:variable name="this-quote-id" select="./@xml:id"/>
           <xsl:variable name="pid" select="./ancestor::tei:p[1]/@xml:id"/>
             <xsl:call-template name="structure_element_manifestations_entry">
