@@ -434,9 +434,18 @@ class MyCLI < Thor
         self.update_graph(subdirectory, item, force)
       end
     end
-
   end
-  desc "update_graphs", "update graphs"
+  desc "update_graph_toplevel", "update top level text graph and all sub items"
+  def update_graph_toplevel(edf, force=false)
+
+    doc = Nokogiri::XML(open("#{$base}/data/scta-projectfiles/#{edf}.xml"))
+    itemnames = doc.xpath("/listofFileNames//item/fileName/@filestem")
+    itemnames.each do |item|
+      puts "updating #{item}"
+      self.update_graph("commentaries", item.to_s + ".rdf", force)
+    end
+  end
+  desc "update_all_graphs", "update graphs"
   def update_all_graphs
     self.update_graphs("codices")
     self.update_graphs("institutions")
