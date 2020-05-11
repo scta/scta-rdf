@@ -189,7 +189,9 @@
         </xsl:if>
         <!-- END citation -->
         <xsl:if test="$target">
-          <sctap:source rdf:resource="{$target}"/>
+          <xsl:for-each select="tokenize($target, ' ')">
+            <sctap:source rdf:resource="{.}"/>
+          </xsl:for-each>
         </xsl:if>
         
       </rdf:Description>

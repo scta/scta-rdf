@@ -45,6 +45,7 @@
       <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
+      
       <xsl:variable name="source" select="./@source"/>
       
       <xsl:variable name="element-ancestors">
@@ -171,7 +172,10 @@
       </xsl:if>
       <!-- END citation -->
       <xsl:if test="$source">
-        <sctap:source rdf:resource="{$source}"/>
+        <xsl:for-each select="tokenize($source, ' ')">
+          <sctap:source rdf:resource="{.}"/>
+        </xsl:for-each>
+        
       </xsl:if>
       
     </rdf:Description>
