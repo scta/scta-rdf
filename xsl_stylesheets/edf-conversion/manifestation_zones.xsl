@@ -19,7 +19,11 @@
     <!-- conditional texts to see if document somewhere contains line breaks 
         it assumes that a line break is present this is a diplomatic transcription 
         this should help exclude critical and born digital transcriptions -->
-    <xsl:if test="//tei:lb">
+    <!-- NOTE: $wit-slug != 'critical' is designed to exclude especially summa halensis which is critical but contains line breaks --> 
+    <!-- TODO: this conditional is brittle. there could be a "critical" edition that is not "born-digital" and thus has line breaks. 
+      at present I can' think of instances and thus this conditional is clumsy way of exclusing born digital texts (even if line breaks are included
+      but if "critical" really means "born digital" then there shouldn't be any line breaks as there are currently are in "summahalensis" texts" -->
+    <xsl:if test="//tei:lb and $wit-slug != 'critical'">
       <xsl:choose>
         <xsl:when test="./descendant::tei:cb and not(./descendant::tei:pb)">
           
