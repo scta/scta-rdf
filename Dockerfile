@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.11
 #ENV variables
 ENV DOCKER=true
 
