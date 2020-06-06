@@ -26,13 +26,19 @@
     <xsl:if test="$topLevelShortId">
       <sctap:isPartOfTopLevelExpression rdf:resource="http://scta.info/resource/{$topLevelShortId}"/>
     </xsl:if>
+    <xsl:for-each select="tokenize($expressionType, ' ')">
+      <xsl:if test=".">
+        <xsl:message><xsl:value-of select="."/></xsl:message>
+        <sctap:expressionType rdf:resource="http://scta.info/resource/{.}"/>
+      </xsl:if>
+    </xsl:for-each>
+    <xsl:for-each select="tokenize($expressionSubType, ' ')">
+      <xsl:if test=".">
+        <xsl:message><xsl:value-of select="."/></xsl:message>
+        <sctap:expressionType rdf:resource="http://scta.info/resource/{.}"/>
+      </xsl:if>
+    </xsl:for-each>
     
-    <xsl:if test="$expressionType">
-      <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionType}"/>
-    </xsl:if>
-    <xsl:if test="$expressionSubType">
-      <sctap:expressionType rdf:resource="http://scta.info/resource/{$expressionSubType}"/>
-    </xsl:if>
     
     <xsl:choose>
       <xsl:when test="$structureType='structureCollection'"/>

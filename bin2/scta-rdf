@@ -654,7 +654,7 @@ class MyCLI < Thor
   desc "remove_hash", "remove a hash from any log file"
   def remove_hash (hashname)
     Dir.foreach("#{$base}/logs") do |file|
-      next if file == '.' or file == '..'
+      next if file == '.' or file == '..' or file == 'build-logs'
       fileObject = File.read("#{$base}/logs/#{file}")
       data_hash = JSON.parse(fileObject)
       puts "removes #{hashname} from #{file}"

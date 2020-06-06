@@ -140,3 +140,18 @@ Commands:
   scta-rdf update_text_repos                   # updates all texts repos using ids from edf/projectfiles
 
 ```
+
+# Logging 
+
+Improved logging is open feature request. 
+
+But a simply logging for night builds can be set as follows:
+
+First create `logs/build-logs` folder (at present it must be named "build-logs" other methods looping through log folder will not to skip it. TODO: this should be improved)
+
+Second execute command (or set Daemon command) to write stdout and stderr to timestamped log file. 
+Note: this is an append method, so builds performed on the same date will output logs for successive builds to the same file
+`docker exec -t sctardf_web_1 bin2/scta-rdf build_and_update >> logs/build-logs/$(date +'%d-%b-%Y').txt 2>> logs/build-logs/$(date +'%d-%b-%Y').txt`
+
+To also output saved log to terminal, modify the above command slightly:
+`docker exec -t sctardf_web_1 bin2/scta-rdf build_and_update >> >(tee logs/build-logs/$(date +'%d-%b-%Y').txt) 2>> >(tee logs/build-logs/$(date +'%d-%b-%Y').txt)`
