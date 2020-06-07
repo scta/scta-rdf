@@ -155,3 +155,17 @@ Note: this is an append method, so builds performed on the same date will output
 
 To also output saved log to terminal, modify the above command slightly:
 `docker exec -t sctardf_web_1 bin2/scta-rdf build_and_update >> >(tee logs/build-logs/$(date +'%d-%b-%Y').txt) 2>> >(tee logs/build-logs/$(date +'%d-%b-%Y').txt)`
+
+# Testing
+
+Improved testing is an open feature request
+
+But rough snapshot testing can be accomplished as follows, by setting the `dryrun` param (param 3) to `true` and the `logging` to false (param 4)
+
+`scta-rdf update_graph_toplevel pp-projectdata true true false`
+
+Dry run will simple check to see if a graph has changed without updating the database
+By setting loggin to false, all other logging messages will be silence, and only files that have been changed will log to output
+
+
+

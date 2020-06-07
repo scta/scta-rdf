@@ -28,13 +28,11 @@
     </xsl:if>
     <xsl:for-each select="tokenize($expressionType, ' ')">
       <xsl:if test=".">
-        <xsl:message><xsl:value-of select="."/></xsl:message>
         <sctap:expressionType rdf:resource="http://scta.info/resource/{.}"/>
       </xsl:if>
     </xsl:for-each>
     <xsl:for-each select="tokenize($expressionSubType, ' ')">
       <xsl:if test=".">
-        <xsl:message><xsl:value-of select="."/></xsl:message>
         <sctap:expressionType rdf:resource="http://scta.info/resource/{.}"/>
       </xsl:if>
     </xsl:for-each>

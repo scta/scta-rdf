@@ -371,78 +371,89 @@ class MyCLI < Thor
       end
     end
   end
+  # dry run will check changes without actually updating data base 
+  # logging will show or silence put messages. 
+  # to do snapshot testing, set dry run to true and logging to false. This will render an output for only those graphs that have changed.
   desc "update_graph graph", "update graph"
-  def update_graph (subdirectory, graph, force=false)
-    puts "updating #{$base}/build/#{subdirectory}/#{graph}"
-
+  def update_graph (subdirectory, graph, force=false, dryrun=false, logging=true)
     full_dir_path = "#{$base}/build/#{subdirectory}"
-
     if subdirectory == "commentaries"
       type = "texts-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "codices"
       type = "codices-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "institutions"
       type = "institutions-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "names"
       type = "names-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "quotations"
       type = "quotations-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "quotations/bsvquotations"
       type = "bible-quotations-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "relations"
       type = "relations-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "relquery"
       type = "relquery-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "subjects"
       type = "subjects-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "works"
       type = "works-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "canvases"
       type = "canvases-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     elsif subdirectory == "articles"
       type = "articles-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     else
       type = "misc-rdf"
-      status = self.same_hash?(full_dir_path, graph, type)
+      status = self.same_hash?(full_dir_path, graph, type, logging)
     end
-    puts "status: #{status}"
-    if !status || force
-      puts "updating #{graph}"
-      `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
-      puts "updating text-rdf hash in log"
-      self.get_hash(full_dir_path, graph, type)
+    ### setting dry run to true simple reports if there has been a change but does not update
+    if dryrun
+      if !status 
+        # no logging conditional here because the only thing this conditional does is log
+        # this if we are doing a dry run then we want to see the log
+        puts "#{graph} has changed"
+      end
     else
-      puts "no changes"
+      if (logging == true) then puts "updating #{$base}/build/#{subdirectory}/#{graph}" end
+      if (logging == true) then puts "status: #{status}" end 
+      if !status || force
+        if (logging == true) then puts "updating #{graph}" end
+        `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
+        if (logging == true) then puts "updating text-rdf hash in log" end
+        self.get_hash(full_dir_path, graph, type)
+      else
+        if (logging == true) then puts "no changes" end
+      end
     end
+    
   end
   desc "update_graphs", "update graphs"
-  def update_graphs(subdirectory, force=false)
+  def update_graphs(subdirectory, force=false, dryrun=false, logging=true)
     Dir.foreach("#{$base}/build/#{subdirectory}/") do |item|
       if item.end_with?(".rdf") || item.end_with?(".ttl") || item.end_with?(".jsonld")
-        self.update_graph(subdirectory, item, force)
+        self.update_graph(subdirectory, item, force, dryrun, logging)
       end
     end
   end
   desc "update_graph_toplevel", "update top level text graph and all sub items"
-  def update_graph_toplevel(edf, force=false)
+  def update_graph_toplevel(edf, force=false, dryrun=false, logging=true)
 
     doc = Nokogiri::XML(open("#{$base}/data/scta-projectfiles/#{edf}.xml"))
     itemnames = doc.xpath("/listofFileNames//item/fileName/@filestem")
     itemnames.each do |item|
-      puts "updating #{item}"
-      self.update_graph("commentaries", item.to_s + ".rdf", force)
+      if (logging == true) then puts "updating #{item}" end
+      self.update_graph("commentaries", item.to_s + ".rdf", force, dryrun, logging)
     end
   end
   desc "update_all_graphs", "update graphs"
@@ -629,7 +640,7 @@ class MyCLI < Thor
     end
   end
   desc "same hash?", "compares files and return true if the hashes are the same and false if they are different"
-  def same_hash? (directory, target, type)
+  def same_hash? (directory, target, type, logging=true)
     if type == "text"
       shasum_response = `cd #{$textfilesbase} && find #{target}/ -type f -print0 | sort -z | xargs -0 #{$shacommand} | #{$shacommand}`
       shasum = shasum_response.split(" ")[0]
@@ -637,18 +648,18 @@ class MyCLI < Thor
       shasum_response = `#{$shacommand} #{directory}/#{target}`
       shasum = shasum_response.split(" ")[0]
     end
-    puts "new shasum #{shasum}"
+    if (logging == true) then puts "new shasum #{shasum}" end
 
     if File.exist?("#{$base}/logs/#{type}-hashes.json")
       file = File.read("#{$base}/logs/#{type}-hashes.json")
       data_hash = JSON.parse(file)
-      puts "old shasum #{data_hash[target]}"
+      if (logging == true) then puts "old shasum #{data_hash[target]}" end
       status = data_hash[target] ==  shasum
     else
-      puts "no existing file"
+      if (logging == true) then puts "no existing file" end
       status = false
     end
-    puts status
+    if (logging == true) then puts status end
     return status
   end
   desc "remove_hash", "remove a hash from any log file"
