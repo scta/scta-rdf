@@ -376,6 +376,12 @@ class MyCLI < Thor
   # to do snapshot testing, set dry run to true and logging to false. This will render an output for only those graphs that have changed.
   desc "update_graph graph", "update graph"
   def update_graph (subdirectory, graph, force=false, dryrun=false, logging=true)
+    ## ensure that boolean parameters are booleans
+    force = force.to_s.downcase == "true"
+    dryrun = dryrun.to_s.downcase == "true"
+    logging = logging.to_s.downcase == "true"
+    ##Begin path build
+    ##TODO move this switch to a utility file
     full_dir_path = "#{$base}/build/#{subdirectory}"
     if subdirectory == "commentaries"
       type = "texts-rdf"
