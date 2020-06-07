@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  stylesheet="../../edf-conversion/main.xsl"
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:sctap="http://scta.info/property/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sctar="http://scta.info/resource/"
+  xmlns:role="http://www.loc.gov/loc.terms/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:collex="http://www.collex.org/schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:ldp="http://www.w3.org/ns/ldp#"
+  version="2.0">
+  
+  
+  
+  
+  
+  <x:scenario label="Creating top level manifestations">
+    
+    <x:call template="top_level_manifestation">
+      <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="//header/commentaryid"/>
+      <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="//header/authorUri"></x:param>
+      <x:param name="top-level-witnesses" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="/listofFileNames/header/hasWitnesses//witness"></x:param>
+    </x:call>
+    
+    <x:expect label="should return assertions for top level manifestations">
+      <rdf:Description xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:sctap="http://scta.info/property/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:sctar="http://scta.info/resource/"
+        xmlns:role="http://www.loc.gov/loc.terms/relators/"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:collex="http://www.collex.org/schema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:ldp="http://www.w3.org/ns/ldp#"
+        rdf:about="http://scta.info/resource/graciliscommentary/lon">
+        <dc:title>British Royal MS 10 A I</dc:title>
+        <sctap:shortId>graciliscommentary/lon</sctap:shortId>
+        <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/graciliscommentary/lon" />
+        <rdf:type rdf:resource="http://scta.info/resource/manifestation" />
+        <sctap:isManifestationOf rdf:resource="http://scta.info/resource/graciliscommentary" />
+        <sctap:hasTranscription rdf:resource="http://scta.info/resource/graciliscommentary/lon/transcription" />
+        <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/graciliscommentary/lon/transcription" />
+        <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
+        <sctap:level>1</sctap:level>
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium1/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q1/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q2/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q3/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q4/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q5/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q6/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q7/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q8/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q9/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q10/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q11/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q12/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q13/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q14/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q15/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q16/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q17/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q18/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q19/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q20/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q21/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q22/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q23/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q24/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q25/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q26/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q27/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q28/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q29/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q30/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q31/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q32/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q33/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q34/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q35/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q36/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q37/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q38/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q39/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q40/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium2/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q1/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q2/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q3/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q4/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q5/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q6/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q7/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q8/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q9/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q10/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium3/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q1/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q2/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q3/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q4/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium4/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q1/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q2/lon" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q3/lon" />
+        <role:AUT rdf:resource="http://scta.info/resource/PetrusGracilis" />
+        <sctap:hasSlug>lon</sctap:hasSlug>
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book1/lon" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book2/lon" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book3/lon" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book4/lon" />
+      </rdf:Description><rdf:Description xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:sctap="http://scta.info/property/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:sctar="http://scta.info/resource/"
+        xmlns:role="http://www.loc.gov/loc.terms/relators/"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:collex="http://www.collex.org/schema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:ldp="http://www.w3.org/ns/ldp#"
+        rdf:about="http://scta.info/resource/graciliscommentary/critical">
+        <dc:title>Critical Edition</dc:title>
+        <sctap:shortId>graciliscommentary/critical</sctap:shortId>
+        <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/graciliscommentary/critical" />
+        <rdf:type rdf:resource="http://scta.info/resource/manifestation" />
+        <sctap:isManifestationOf rdf:resource="http://scta.info/resource/graciliscommentary" />
+        <sctap:hasTranscription rdf:resource="http://scta.info/resource/graciliscommentary/critical/transcription" />
+        <sctap:hasCanonicalTranscription rdf:resource="http://scta.info/resource/graciliscommentary/critical/transcription" />
+        <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
+        <sctap:level>1</sctap:level>
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium1/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q1/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q2/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q3/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q4/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q5/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q6/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q7/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q8/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q9/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q10/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q11/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q12/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q13/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q14/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q15/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q16/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q17/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q18/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q19/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q20/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q21/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q22/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q23/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q24/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q25/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q26/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q27/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q28/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q29/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q30/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q31/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q32/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q33/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q34/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q35/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q36/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q37/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q38/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q39/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b1q40/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium2/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q1/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q2/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q3/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q4/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q5/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q6/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q7/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q8/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q9/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b2q10/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium3/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q1/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q2/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q3/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b3q4/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-principium4/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q1/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q2/critical" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q3/critical" />
+        <role:AUT rdf:resource="http://scta.info/resource/PetrusGracilis" />
+        <sctap:hasSlug>critical</sctap:hasSlug>
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book1/critical" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book2/critical" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book3/critical" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book4/critical" />
+      </rdf:Description>
+      
+    </x:expect>
+  </x:scenario>  
+  
+</x:description>
