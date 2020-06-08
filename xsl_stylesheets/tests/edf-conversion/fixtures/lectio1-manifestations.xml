@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifestations>
+  <manifestation wit-ref="CE" wit-slug="critical" wit-title="Critical" lang="la" canonical="critical">
+    <name>critical</name>
+    <title>Critical</title>
+    <transcriptions>
+      <transcription transcriptionDefault="true">
+        <type>critical</type>
+        <version versionDefault="true">
+          <hash>transcription</hash>
+          <versionNo n="dev">head-dev</versionNo>
+          <url>lectio1.xml</url>
+        </version>
+      </transcription>
+    </transcriptions>
+  </manifestation>
+</manifestations>
