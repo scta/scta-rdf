@@ -21,7 +21,7 @@
   
   
   <x:scenario label="Creating top level manifestations">
-    
+    <x:context href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml"/>
     <x:call template="top_level_manifestation">
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
