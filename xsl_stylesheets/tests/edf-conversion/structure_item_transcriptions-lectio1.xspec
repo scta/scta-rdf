@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  stylesheet="../../edf-conversion/main.xsl"
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:sctap="http://scta.info/property/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sctar="http://scta.info/resource/"
+  xmlns:role="http://www.loc.gov/loc.terms/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:collex="http://www.collex.org/schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:ldp="http://www.w3.org/ns/ldp#"
+  version="2.0">
+  
+  
+  
+  
+  
+  <x:scenario label="Creating structure item transcriptions">
+    
+    
+    <x:context href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//item[fileName/@filestem='lectio1']"/>
+    
+      
+      <x:call template="structure_item_transcriptions">
+        <!-- TODO: cid not getting passed dow to structure item properties, because structure item properties $cid is relying on $cid set in main -->
+        <x:param name="cid">plaoulcommentary</x:param> 
+        <x:param name="author-uri">http://scta.info/resource/peter-plaoul</x:param>
+        
+        <x:param name="textfilesdir">/Users/jcwitt/Projects/scta/scta-texts/</x:param>
+        
+        <x:param name="gitRepoBase">https://github.com/scta-texts/plaoulcommentary/</x:param>
+        
+        <x:param  name="fs" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//item[fileName/@filestem='lectio1']/fileName/@filestem"/>
+        <x:param  name="title" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//item[fileName/@filestem='lectio1']/title"/>
+        <x:param  name="info-path">/Users/jcwitt/Projects/scta/scta-texts/plaoulcommentary/lectio1/info.xml</x:param>
+        <x:param  name="item-level" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="count(//item[fileName/@filestem='lectio1']/ancestor::div) + 1"/>
+        <x:param  name="expressionParentId" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//item[fileName/@filestem='lectio1']/parent::div/@id"/>
+        <x:param  name="extraction-file">/Users/jcwitt/Projects/scta/scta-texts/plaoulcommentary/lectio1/lectio1.xml</x:param>
+        
+        <x:param  name="sectionnumber">1</x:param>
+        <x:param  name="totalnumber">1</x:param>
+        <x:param  name="text-path">/Users/jcwitt/Projects/scta/scta-texts/plaoulcommentary/lectio1/lectio1.xml</x:param>
+        <x:param  name="repo-path">/Users/jcwitt/Projects/scta/scta-texts/plaoulcommentary/lectio1/</x:param>
+        <x:param  name="itemWitnesses" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//item[fileName/@filestem='lectio1']/hasWitnesses/witness"/>
+        <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/lectio1-manifestations.xml" select="//manifestations"/>
+        <x:param  name="canonical-manifestation-id">critical</x:param>
+      </x:call>
+    
+    <x:expect label="should return assertions for lectio1 structureItem transcriptions">
+      <rdf:Description xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:sctap="http://scta.info/property/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:sctar="http://scta.info/resource/"
+        xmlns:role="http://www.loc.gov/loc.terms/relators/"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:collex="http://www.collex.org/schema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:ldp="http://www.w3.org/ns/ldp#"
+        rdf:about="http://scta.info/resource/lectio1/critical/transcription">
+        <dc:title>Lectio 1, de Fide</dc:title>
+        <sctap:shortId>lectio1/critical/transcription</sctap:shortId>
+        <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/lectio1/critical/transcription" />
+        <rdf:type rdf:resource="http://scta.info/resource/transcription" />
+        <sctap:isPartOfTopLevelTranscription rdf:resource="http://scta.info/resource/plaoulcommentary/critical/transcription" />
+        <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/lectio1/critical" />
+        <sctap:transcriptionType>critical</sctap:transcriptionType>
+        <sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/lectio1/critical/transcription" />
+        <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/lectio1/critical/transcription" />
+        <sctap:hasDocument rdf:resource="https://github.com/scta-texts/plaoulcommentary/lectio1/raw/master/lectio1.xml" />
+        <sctap:status>draft</sctap:status>
+        <sctap:hash>transcription</sctap:hash>
+        <sctap:isVersionDefault>true</sctap:isVersionDefault>
+        <sctap:isHeadTranscription>true</sctap:isHeadTranscription>
+        <sctap:versionOrderNumber>0001</sctap:versionOrderNumber>
+        <sctap:versionLabel>head-dev</sctap:versionLabel>
+        <sctap:structureType rdf:resource="http://scta.info/resource/structureItem" />
+        <sctap:level>3</sctap:level>
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-cpspfs/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-eipdlt/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-shoatd/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-usaafe/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-uaqriv/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-pveain/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-pivqep/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-eqsqre/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-eqsfss/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-ssqsdd/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-tsqnee/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-scoesi/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-chpnpn/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-qsqfrf/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-eqsosp/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-ssqper/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-osqrnr/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-ctindr/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-rahrah/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-qrpcdi/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-senpht/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-tvaaec/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-qpehio/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-qqsdai/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-spciaf/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-ssqfes/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-ivafes/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-pirfes/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-equeri/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-acfefv/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-pqeqra/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-scosec/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-airqip/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-ampeno/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-strefm/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-qailaa/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-apaeis/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-itfeii/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-eehnhf/critical/transcription" />
+        <sctap:hasStructureBlock rdf:resource="http://scta.info/resource/l1-qeeppn/critical/transcription" />
+        <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
+        <role:EDT>Jeffrey C. Witt</role:EDT>
+      </rdf:Description>
+    </x:expect>
+  </x:scenario>  
+  
+</x:description>
