@@ -30,6 +30,7 @@
       <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
       <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
       <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
+      <xsl:variable name="editor"><xsl:value-of select="./editor"/></xsl:variable>
       <!-- TODO: this info probably needs to come from somewhere else; each manifestation will have different transcriptions and different number available -->
       <xsl:variable name="transcriptions">
         <transcriptions>
@@ -44,8 +45,8 @@
         <xsl:with-param name="wit-initial" select="$wit-initial"/>
         <xsl:with-param name="wit-canvasbase" select="$wit-canvasbase"/>
         <xsl:with-param name="wit-slug" select="$wit-slug"/>
+        <xsl:with-param name="editor" select="$editor"/>
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
-        
       </xsl:call-template>
     </xsl:for-each>
     <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
@@ -63,6 +64,7 @@
       <xsl:with-param name="wit-initial">CE</xsl:with-param>
       <xsl:with-param name="wit-canvasbase"></xsl:with-param>
       <xsl:with-param name="wit-slug">critical</xsl:with-param>
+      <!--<xsl:with-param name="editor" select="$editor"/>-->
       <xsl:with-param name="transcriptions" select="$transcriptions"/>
     </xsl:call-template>
     </xsl:for-each>
@@ -74,6 +76,7 @@
     <xsl:param name="wit-initial"/>
     <xsl:param name="wit-canvasbase"/>
     <xsl:param name="wit-slug"/>
+    <xsl:param name="editor"/>
     <xsl:param name="transcriptions"/>
     <!--<xsl:param name="canonical-transcription-name"/>-->
     
@@ -87,6 +90,7 @@
       <!-- END global properties -->
       
       <!-- BEGIN manifestation properties -->
+      
       <xsl:call-template name="manifestation_properties">
         <!--<xsl:with-param name="lang" select="$lang"/>-->
         <xsl:with-param name="isManifestationOfShortId" select="$cid"/>
@@ -103,7 +107,15 @@
       </xsl:call-template>
       <!-- END structure collection properties -->
       
-      <role:AUT rdf:resource="{$author-uri}"/>
+      <!-- BEGIN role attribution -->
+        <!-- TODO; candidate for depreciation; under role improvement; AUT becomes appropriate only for expressions 
+          authors would be replaced by "editor" at the manifestation level" 
+          TODO consider removing AUT after existing queries are checked to see if they rely on this property -->
+        <role:AUT rdf:resource="{$author-uri}"/>
+        <xsl:if test="$editor != ''">
+          <sctap:editor rdf:resource="{$editor}"/>
+        </xsl:if>
+      <!-- END role attribution -->
       <sctap:hasSlug><xsl:value-of select="$wit-slug"></xsl:value-of></sctap:hasSlug>
       
       <xsl:if test="./manifestOfficial">
