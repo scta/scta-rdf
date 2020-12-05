@@ -137,8 +137,15 @@
       </xsl:for-each>
       
       <!-- get Order Number -->
+      <!--NOTE "total number at div level does not make much sense, since it is counting topLevel div and any sub divs 
+      it only really makes sense for topLevel (which is always) 1, structureItem and structure block) 
+      
+      -->
       <xsl:variable name="totalnumber"><xsl:number count="div" level="any"/></xsl:variable>
-      <xsl:variable name="sectionnumber"><xsl:number count="div"/></xsl:variable>
+      <!-- NOTE: below is old way of getting section number, but was ignoring sibling divs -->
+      <!-- TODO: DELETE <xsl:variable name="sectionnumber"><xsl:number count="div"/></xsl:variable>-->
+      <!-- NOTE: below is new way of getting section order number that includes an element that is a preceding sibling -->
+      <xsl:variable name="sectionnumber"><xsl:value-of select="count(preceding-sibling::* except preceding-sibling::head) + 1"/></xsl:variable>
       <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>
       <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '0000')"/></sctap:totalOrderNumber>
       

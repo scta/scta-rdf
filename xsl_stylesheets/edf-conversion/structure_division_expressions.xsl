@@ -197,8 +197,11 @@
         <!-- END collect questionTitles from divisions headers -->
         
         <!-- BEGIN structureDivision order -->
+        <!--NOTE: Not sure if total number makes sense for divs; since this includes preceding nested divs; 
+          it might only makes sense for toplevel (which would always 1) and item and block levels -->
         <xsl:variable name="totalnumber"><xsl:number count="tei:div" level="any"/></xsl:variable>
-        <xsl:variable name="sectionnumber"><xsl:number count="tei:div"/></xsl:variable>
+        <!--<xsl:variable name="sectionnumber"><xsl:number count="tei:div"/></xsl:variable>-->
+        <xsl:variable name="sectionnumber"><xsl:value-of select="count(preceding-sibling::* except preceding-sibling::tei:head) + 1"/></xsl:variable>
         
         <sctap:totalOrderNumber><xsl:value-of select="format-number($totalnumber, '0000')"/></sctap:totalOrderNumber>
         <sctap:sectionOrderNumber><xsl:value-of select="format-number($sectionnumber, '0000')"/></sctap:sectionOrderNumber>

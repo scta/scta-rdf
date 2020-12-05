@@ -153,7 +153,10 @@
           
         <xsl:variable name="info-path" select="concat($repo-path, 'info.xml')"/>
         <xsl:variable name="totalnumber"><xsl:number count="item" level="any"/></xsl:variable>
-        <xsl:variable name="sectionnumber"><xsl:number count="item"/></xsl:variable>
+        <!-- NOTE: below is old way of getting section number, but was ignoring sibling divs -->
+        <!--TODO: DELETE<xsl:variable name="sectionnumber"><xsl:number count="item"/></xsl:variable>-->
+        <!-- NOTE: below is new way of getting section order number that includes an element that is a preceding sibling -->
+          <xsl:variable name="sectionnumber"><xsl:value-of select="count(preceding-sibling::* except preceding-sibling::head) + 1"/></xsl:variable>
         <xsl:variable name="librum-number"><xsl:number count="div[@type='librum']"/></xsl:variable>
         <xsl:variable name="distinctio-number"><xsl:number count="div[@type='distinctio']"/></xsl:variable>
         <xsl:variable name="pars-number"><xsl:number count="div[@type='pars']"/></xsl:variable>
