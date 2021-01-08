@@ -45,6 +45,7 @@
             <xsl:variable name="pid" select="./@xml:id"/>
             <xsl:variable name="pid_ref" select="concat('#', ./@xml:id)"/>
             <xsl:variable name="ParentId" select="./parent::tei:div/@xml:id"/>
+            <xsl:variable name="pTitle" select="if (./@n) then ./@n else concat('Paragraph ', $pid)"/>
           
             <xsl:variable name="block-ancestors">
               <ancestors>
@@ -83,6 +84,7 @@
             <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
             <xsl:with-param name="info-path" select="$info-path"/>
             <xsl:with-param name="pid" select="$pid"/>
+            <xsl:with-param name="pTitle" select="$pTitle"/>
             <xsl:with-param name="block-level" select="$block-level"/>
             <xsl:with-param name="block-ancestors" select="$block-ancestors"/>
             
@@ -112,13 +114,14 @@
     <xsl:param name="canonical-manifestation-id"/>
     <xsl:param name="info-path"/>
     <xsl:param name="pid"/>
+    <xsl:param name="pTitle"/>
     <xsl:param name="block-level"/>
     <xsl:param name="block-ancestors"/>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$pid}">
       <!-- BEGIN global properties -->
       <xsl:call-template name="global_properties">
-        <xsl:with-param name="title">Paragraph <xsl:value-of select="$pid"/></xsl:with-param>
+        <xsl:with-param name="title" select="$pTitle"/>
         <xsl:with-param name="description"/>
         <xsl:with-param name="shortId" select="$pid"/>
       </xsl:call-template>
