@@ -168,7 +168,7 @@
       <!-- End instanceOf assertions -->
       <!-- BEGIN citation -->
       <xsl:if test="./parent::tei:cit/tei:bibl">
-        <sctap:citation><xsl:value-of select="./parent::tei:cit/tei:bibl/text()"/></sctap:citation>
+        <sctap:citation><xsl:value-of select="./parent::tei:cit/tei:bibl//text()"/></sctap:citation>
       </xsl:if>
       <!-- END citation -->
       <xsl:if test="$source">
