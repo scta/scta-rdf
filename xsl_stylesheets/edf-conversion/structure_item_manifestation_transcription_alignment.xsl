@@ -15,7 +15,6 @@
   
   
   
-  
   <xsl:template name="structure_item_manifestation_transcription_alignment">
     <xsl:param name="repo-path"/>
     <xsl:param name="itemWitnesses"/>
@@ -34,7 +33,9 @@
         <xsl:variable name="wit-title"><xsl:value-of select="/listofFileNames/header/hasWitnesses/witness[@id=$wit-ref]/title"/></xsl:variable>
         <xsl:if test="not($listedManifestations//name=$wit-slug)">
           <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la" canonical="{$wit-slug eq $canonical-manifestation-id}">
+            <!-- TODO: this test doesn't seem to be working; i'm getting a file not found error when the file does not exist -->
             <xsl:if test="document(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">
+            <!--<xsl:if test="unparsed-text-available(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">-->
               <transcriptions>
                 <transcription transcriptionDefault="true">
                   <type>diplomatic</type>

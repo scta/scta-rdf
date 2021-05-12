@@ -361,6 +361,28 @@
           <xsl:with-param name="manifestations" select="$manifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         </xsl:call-template>
+        <!--<xsl:call-template name="structure_element_figure_expressions">
+          <xsl:with-param name="cid" select="$cid"/>
+          <xsl:with-param name="author-uri" select="$author-uri"/>
+          <xsl:with-param name="dtsurn" select="$dtsurn"/>
+          <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
+          <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
+          <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
+          <!-\- required item level params -\->
+          <xsl:with-param name="fs" select="$fs"/>
+          <xsl:with-param name="title" select="$title"/>
+          <xsl:with-param name="item-level" select="$item-level"/>
+          <xsl:with-param name="item-ancestors" select="$item-ancestors"/>
+          <xsl:with-param name="expressionParentId" select="$expressionParentId"/>
+          <xsl:with-param name="extraction-file" select="$extraction-file"/>
+          <xsl:with-param name="expressionType" select="$expressionType"/>
+          <xsl:with-param name="sectionnumber" select="$sectionnumber"/>
+          <xsl:with-param name="totalnumber" select="$totalnumber"/>
+          <xsl:with-param name="text-path" select="$text-path"/>
+          <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
+          <xsl:with-param name="manifestations" select="$manifestations"/>
+          <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
+          </xsl:call-template>-->
         <xsl:call-template name="structure_item_manifestations">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
@@ -528,6 +550,7 @@
   <xsl:include href="structure_element_title_expressions.xsl"/>
   <xsl:include href="structure_element_quote_expressions.xsl"/>
   <xsl:include href="structure_element_ref_expressions.xsl"/>
+  <xsl:include href="structure_element_figure_expressions.xsl"/>
   <xsl:include href="structure_element_manifestations.xsl"/>
   <xsl:include href="structure_element_transcriptions.xsl"/>
   <xsl:include href="zones.xsl"/>
