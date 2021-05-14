@@ -22,10 +22,10 @@
   <xsl:template name="top_level_manifestation">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
-    <xsl:param name="top-level-witnesses"/>
+    <xsl:param name="manifestations"/>
     
     <!--<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">-->
-    <xsl:for-each select="$top-level-witnesses">
+    <xsl:for-each select="$manifestations//witness">
       <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
       <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
       <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
@@ -51,7 +51,7 @@
     </xsl:for-each>
     <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
     <!-- TODO: this info probably needs to come from somewhere else; each manifestation will have different transcriptions and different number available -->
-    <xsl:for-each select="$top-level-witnesses[1]">
+    <!--<xsl:for-each select="$top-level-witnesses[1]">
     <xsl:variable name="transcriptions">
       <transcriptions>
         <transcription name="transcription" canonical="true"/>
@@ -64,10 +64,10 @@
       <xsl:with-param name="wit-initial">CE</xsl:with-param>
       <xsl:with-param name="wit-canvasbase"></xsl:with-param>
       <xsl:with-param name="wit-slug">critical</xsl:with-param>
-      <!--<xsl:with-param name="editor" select="$editor"/>-->
+      <!-\-<xsl:with-param name="editor" select="$editor"/>-\->
       <xsl:with-param name="transcriptions" select="$transcriptions"/>
     </xsl:call-template>
-    </xsl:for-each>
+    </xsl:for-each>-->
   </xsl:template>
   <xsl:template name="top_level_manifestation_entry">
     <xsl:param name="cid"/>

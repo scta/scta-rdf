@@ -30,7 +30,8 @@
         <!--<xsl:message>Test: <xsl:value-of select="$transcription-text-path"/></xsl:message>-->
         <xsl:for-each select="document($transcription-text-path)//tei:body//tei:quote[@xml:id] | 
           document($transcription-text-path)//tei:body//tei:ref[@xml:id] |
-          document($transcription-text-path)//tei:body//tei:name[@xml:id] ">
+          document($transcription-text-path)//tei:body//tei:name[@xml:id] |
+          document($transcription-text-path)//tei:body//tei:figure[@xml:id]">
           <xsl:variable name="this-quote-id" select="./@xml:id"/>
           <xsl:variable name="pid" select="./ancestor::tei:p[1]/@xml:id"/>
           <!-- required item level manifestation params -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tei="http://www.tei-c.org/ns/1.0" 
+  xmlns:sctap="http://scta.info/property/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:sctar="http://scta.info/resource/" 
+  xmlns:role="http://www.loc.gov/loc.terms/relators/" 
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+  xmlns:collex="http://www.collex.org/schema#" 
+  xmlns:dcterms="http://purl.org/dc/terms/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:ldp="http://www.w3.org/ns/ldp#"
+  version="2.0">
+  
+  
+  
+  <xsl:template name="structure_collection_manifestation_alignment">
+    <xsl:param name="top-level-witnesses"/>
+    <xsl:param name="hasCanonical"/>
+    <manifestations>
+      <xsl:for-each select="$top-level-witnesses">
+        <xsl:copy-of select="."/>
+      </xsl:for-each>
+      <xsl:if test="not($top-level-witnesses[@canonical='true'])"> 
+        <witness id="critical" canonical="true">
+          <slug>critical</slug>
+          <title>Critical Edition (Born Digital)</title>
+          <initial>critical</initial>
+        </witness>
+      </xsl:if>
+    </manifestations>
+  </xsl:template>
+</xsl:stylesheet>

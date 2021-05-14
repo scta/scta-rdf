@@ -32,7 +32,8 @@
         
         <xsl:for-each select="document($transcription-text-path)//tei:body//tei:quote[@xml:id] |
           document($transcription-text-path)//tei:body//tei:ref[@xml:id] |
-          document($transcription-text-path)//tei:body//tei:name[@xml:id] 
+          document($transcription-text-path)//tei:body//tei:name[@xml:id] |
+          document($transcription-text-path)//tei:body//tei:figure[@xml:id]
           ">
           <!-- get elementname and capitalize it -->
           <xsl:variable name="elementName">

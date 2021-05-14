@@ -27,6 +27,7 @@
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
       <x:param name="sponsors" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/sponsors"></x:param>
+      <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/plaoulcommentary-manifestations.xml" select="//manifestations"/>
     </x:call>
     
     <x:expect label="should return assertions for top level manifestations">

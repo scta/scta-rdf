@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:description
+  stylesheet="../../edf-conversion/main.xsl"
+  xmlns:x="http://www.jenitennison.com/xslt/xspec"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:sctap="http://scta.info/property/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sctar="http://scta.info/resource/"
+  xmlns:role="http://www.loc.gov/loc.terms/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:collex="http://www.collex.org/schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:ldp="http://www.w3.org/ns/ldp#"
+  version="2.0">
+  
+  
+  
+  
+  
+  <x:scenario label="Creating top level expressions">
+    
+    <x:context href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml"/>
+    
+    <x:call template="top_level_expression">
+      <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/commentaryid"/>
+      <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/authorUri"></x:param>
+      <x:param name="sponsors" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/sponsors"></x:param>
+      <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/ArNeTH-manifestations.xml" select="//manifestations"/>
+    </x:call>
+    
+    <x:expect label="should return assertions for top level manifestations">
+      <rdf:Description xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:sctap="http://scta.info/property/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:sctar="http://scta.info/resource/"
+        xmlns:role="http://www.loc.gov/loc.terms/relators/"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:collex="http://www.collex.org/schema#"
+        xmlns:dcterms="http://purl.org/dc/terms/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:ldp="http://www.w3.org/ns/ldp#"
+        rdf:about="http://scta.info/resource/ArNeTH">
+        <dc:title />
+        <sctap:shortId>ArNeTH</sctap:shortId>
+        <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/ArNeTH" />
+        <rdf:type rdf:resource="http://scta.info/resource/expression" />
+        <sctap:hasManifestation rdf:resource="http://scta.info/resource/ArNeTH/cod-MaEth8" />
+        <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/ArNeTH/cod-MaEth8" />
+        <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
+        <sctap:level>1</sctap:level>
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e101" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e108" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e112" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e118" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e125" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e145" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e150" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e250" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e398" />
+        <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e593" />
+        <dcterms:isPartOf rdf:resource="" />
+        <role:AUT rdf:resource="http://scta.info/resource/Aristotle" />
+        <sctap:slug />
+        <sctap:dtsurn />
+        <sctap:questionListSource />
+        <sctap:questionListEditor />
+        <sctap:questionListEncoder>Jeffrey C. Witt</sctap:questionListEncoder>
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e101" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e108" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e112" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e118" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e125" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e145" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e150" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e250" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e398" />
+        <dcterms:hasPart rdf:resource="http://scta.info/resource/ArNeTH-d1e593" />
+      </rdf:Description>
+      
+    </x:expect>
+  </x:scenario>  
+  
+</x:description>

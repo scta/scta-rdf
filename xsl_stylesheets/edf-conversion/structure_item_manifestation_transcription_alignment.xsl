@@ -34,8 +34,25 @@
         <xsl:if test="not($listedManifestations//name=$wit-slug)">
           <manifestation wit-ref="{$wit-ref}" wit-slug="{$wit-slug}" wit-title="{$wit-title}" lang="la" canonical="{$wit-slug eq $canonical-manifestation-id}">
             <!-- TODO: this test doesn't seem to be working; i'm getting a file not found error when the file does not exist -->
-            <xsl:if test="document(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">
-            <!--<xsl:if test="unparsed-text-available(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">-->
+            <xsl:choose>
+              <xsl:when test="doc-available(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">
+                <transcriptions>
+                  <transcription transcriptionDefault="true">
+                    <type>diplomatic</type>
+                    <version versionDefault="true">
+                      <hash>transcription</hash>
+                      <versionNo n="dev">head-dev</versionNo>
+                      <url><xsl:value-of select="concat($wit-slug, '_', $itemid , '.xml')"/></url>
+                    </version>
+                  </transcription>
+                </transcriptions>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message>transcription file not available </xsl:message>
+              </xsl:otherwise>
+            </xsl:choose>
+            <!--<xsl:if test="doc-available(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">
+            <!-\-<xsl:if test="unparsed-text-available(concat($repo-path, $wit-slug, '_', $itemid, '.xml'))">-\->
               <transcriptions>
                 <transcription transcriptionDefault="true">
                   <type>diplomatic</type>
@@ -46,7 +63,7 @@
                   </version>
                 </transcription>
               </transcriptions>
-            </xsl:if>
+            </xsl:if>-->
             <xsl:for-each select="./folio">
               <folio><xsl:value-of select="."/></folio>
             </xsl:for-each>
@@ -64,7 +81,7 @@
               <version versionDefault="true">
                 <hash>transcription</hash>
                 <versionNo n="dev">head-dev</versionNo>
-                <url><xsl:value-of select="concat($itemid , '.xml')"/></url>                
+                <url><xsl:value-of select="concat($itemid , '.xml')"/></url>
               </version>
             </transcription>
           </transcriptions>

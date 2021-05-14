@@ -16,7 +16,8 @@
   <xsl:template name="top_level_transcription">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
-    <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+    <xsl:param name="manifestations"/>
+    <xsl:for-each select="$manifestations//witness">
       <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
       <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
       <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
@@ -28,12 +29,12 @@
         <xsl:with-param name="wit-initial" select="$wit-initial"/>
         <xsl:with-param name="wit-canvasbase" select="$wit-canvasbase"/>
         <xsl:with-param name="wit-slug" select="$wit-slug"/>
-        <xsl:with-param name="transcription-type">Diplomatic</xsl:with-param>
+        <xsl:with-param name="transcription-type"><xsl:value-of select="if ($wit-slug eq 'critial') then 'Critical' else 'Diplomatic'"/></xsl:with-param>
         <xsl:with-param name="transcription-name">transcription</xsl:with-param>
       </xsl:call-template>
     </xsl:for-each>
     <!-- call one for critical transcription even if not listed in witnesses header -->
-    <xsl:call-template name="top_level_transcription_entry">
+    <!--<xsl:call-template name="top_level_transcription_entry">
       <xsl:with-param name="cid" select="$cid"/>
       <xsl:with-param name="author-uri" select="$author-uri"/>
       <xsl:with-param name="wit-title">Critical Edition</xsl:with-param>
@@ -42,7 +43,7 @@
       <xsl:with-param name="wit-slug">critical</xsl:with-param>
       <xsl:with-param name="transcription-type">Critical</xsl:with-param>
       <xsl:with-param name="transcription-name">transcription</xsl:with-param>
-    </xsl:call-template>
+    </xsl:call-template>-->
   </xsl:template>
   <xsl:template name="top_level_transcription_entry">
     <xsl:param name="cid"/>

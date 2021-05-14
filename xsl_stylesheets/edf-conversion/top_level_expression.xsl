@@ -23,7 +23,7 @@
     <xsl:param name="description"/>
     <xsl:param name="sponsors"/>
     <xsl:param name="dtsurn"/>
-    <xsl:param name="canoncial-top-level-manifestation"/>
+    <xsl:param name="manifestations"/>
     
     <xsl:variable name="expressionType">
       <xsl:choose>
@@ -40,6 +40,7 @@
     </xsl:variable>
     
     <rdf:Description rdf:about="http://scta.info/resource/{$cid}">
+      
       <!-- BEGIN global properties -->
         <xsl:call-template name="global_properties">
           <xsl:with-param name="title" select="$commentaryname"/>
@@ -57,19 +58,13 @@
       </xsl:call-template>
       
       <!-- TODO: this should be moved into expression properties template -->
-        <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+        <xsl:for-each select="$manifestations//witness">
           <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
           <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          <xsl:if test="./@canonical='true'">
+            <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/{$wit-slug}"/>
+          </xsl:if>
         </xsl:for-each>
-        <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
-        <xsl:choose> 
-          <xsl:when test="$canoncial-top-level-manifestation">
-          </xsl:when>
-          <xsl:otherwise>
-            <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      
       <!-- END expression properties -->
       
       <!-- BEGIN structure collection properties -->

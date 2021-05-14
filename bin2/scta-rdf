@@ -55,7 +55,7 @@ class MyCLI < Thor
     codex_status = self.same_hash?("#{$base}/data/scta-codices", "#{codex}.xml", "codex")
     if !codex_status
       puts "running codex creation for #{codex}"
-      `saxon '-warnings:silent' '-s:#{$base}/data/scta-codices/#{codex}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_codices_conversion.xsl' '-o:#{$base}/build/codices/#{codex}.rdf'`
+      `#{$saxoncommand} '-warnings:silent' '-s:#{$base}/data/scta-codices/#{codex}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_codices_conversion.xsl' '-o:#{$base}/build/codices/#{codex}.rdf'`
       puts "updating codex status hash in log"
       self.get_hash("#{$base}/data/scta-codices", "#{codex}.xml", "codex")
     else
@@ -78,7 +78,7 @@ class MyCLI < Thor
     institution_status = self.same_hash?("#{$base}/data/scta-codices/institutions", "#{institution}.xml", "institution")
     if !institution_status
       puts "running institution creation for #{institution}"
-      `saxon '-warnings:silent' '-s:#{$base}/data/scta-codices/institutions/#{institution}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_institution_conversion.xsl' '-o:#{$base}/build/institutions/#{institution}.rdf'`
+      `#{$saxoncommand} '-warnings:silent' '-s:#{$base}/data/scta-codices/institutions/#{institution}.xml' '-xsl:#{$base}/xsl_stylesheets/rdf_institution_conversion.xsl' '-o:#{$base}/build/institutions/#{institution}.rdf'`
       puts "updating institution status hash in log"
       self.get_hash("#{$base}/data/scta-codices/institutions", "#{institution}.xml", "institution")
     else
@@ -101,7 +101,7 @@ class MyCLI < Thor
     commentary_rel_rdf_status = self.same_hash?("#{$base}/build/commentaries", "#{edf}", "commentary-rel-rdf")
     if !commentary_rel_rdf_status
     puts "running passive relations creation for #{edf}"
-    `saxon "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/rel-#{edf}";`
+    `#{$saxoncommand} "-warnings:silent" "-s:#{$base}/build/commentaries/#{edf}" "-xsl:#{$base}/xsl_stylesheets/rdf_relations2_conversion.xsl" "-o:#{$base}/build/relations/rel-#{edf}";`
     puts "updating passive relations status hash in log"
     self.get_hash("#{$base}/build/commentaries", "#{edf}", "commentary-rel-rdf")
     else
@@ -146,7 +146,7 @@ class MyCLI < Thor
     quotations_status = self.same_hash?("#{$base}/data/scta-quotations", "#{quotation_list}.xml", "quotations")
     if !quotations_status
       puts "running quotations creation for #{quotation_list}"
-      `saxon "-warnings:silent" "-s:#{$base}/data/scta-quotations/#{quotation_list}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_customquotes_conversion.xsl" "-o:#{$base}/build/quotations/#{quotation_list}.rdf";`
+      `#{$saxoncommand} "-warnings:silent" "-s:#{$base}/data/scta-quotations/#{quotation_list}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_customquotes_conversion.xsl" "-o:#{$base}/build/quotations/#{quotation_list}.rdf";`
       puts "updating codex status hash in log"
       self.get_hash("#{$base}/data/scta-quotations", "#{quotation_list}.xml", "quotations")
     else
@@ -171,7 +171,7 @@ class MyCLI < Thor
         if item.end_with?(".xml")
           id = item.split(".").first
           puts "creating #{id}"
-          `saxon -warnings:silent "-s:#{$base}/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_bsvQUICK_quotes_conversion.xsl" "-o:#{$base}/build/quotations/bsvquotations/#{id}.rdf" lbpworkname=#{id} base=#{$base}`
+          `#{$saxoncommand} -warnings:silent "-s:#{$base}/data/bible-text/Biblia_Sacra_Vulgata.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_bsvQUICK_quotes_conversion.xsl" "-o:#{$base}/build/quotations/bsvquotations/#{id}.rdf" lbpworkname=#{id} base=#{$base}`
         end
       end
       puts "updating bible status hash in log"
@@ -197,7 +197,7 @@ class MyCLI < Thor
     text_status = self.same_hash?($textfilesbase, text_dirid, "text")
     puts "text_status #{text_status}"
     if (!edf_status || !text_status) || force
-      `saxon -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
+      `#{$saxoncommand} -warnings:silent "-s:#{$base}/data/scta-projectfiles/#{edf}.xml" "-xsl:#{$base}/xsl_stylesheets/edf-conversion/main.xsl" "-o:#{$base}/build/commentaries/#{edf}.rdf" "textfilesbase=#{$textfilesbase}";`
       if !edf_status
         puts "updating edf hash in log"
         self.get_hash("#{$base}/data/scta-projectfiles", "#{edf}.xml", "edf")
@@ -226,17 +226,17 @@ class MyCLI < Thor
     #projectfilesversion= exec("cd #{$base}/data/scta-projectfiles && $( git describe --tags --always)")
     projectfilesversion="test"
     puts "Begin top level archive collection creation"
-    `saxon "-warnings:silent" "-s:#{$base}/data/scta-misc-data/workGroups.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_workgroup_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfileshome="#{$base}/data/scta-projectfiles/`
+    `#{$saxoncommand} "-warnings:silent" "-s:#{$base}/data/scta-misc-data/workGroups.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_workgroup_conversion.xsl" "-o:#{$base}/build/scta.rdf" "projectfileshome="#{$base}/data/scta-projectfiles/`
   end
   desc "create_works", "create work list"
   def create_works
     puts "Begin Workcited Metadata extraction";
-  	`saxon "-s:#{$base}/data/lombardpress-lists/workscited.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_works_conversion.xsl" "-o:#{$base}/build/works/workscited.rdf";`
+  	`#{$saxoncommand} "-s:#{$base}/data/lombardpress-lists/workscited.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_works_conversion.xsl" "-o:#{$base}/build/works/workscited.rdf";`
   end
   desc "create_names", "create names"
   def create_names
   	puts "Begin Nameslist Metadata extraction";
-  	`saxon "-s:#{$base}/data/scta-people/Prosopography.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf" "scta-base=#{$base}";`
+  	`#{$saxoncommand} "-s:#{$base}/data/scta-people/Prosopography.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_names_conversion.xsl" "-o:#{$base}/build/names/Prosopography.rdf" "workscitedrdf=#{$base}/build/works/workscited.rdf" "scta-base=#{$base}";`
   end
   desc "create_article", "create articles for specific article list"
   def create_article (file, force=false)
@@ -244,7 +244,7 @@ class MyCLI < Thor
     articles_status = self.same_hash?("#{$base}/data/scta-articles", "#{file}.xml", "articles")
     if !articles_status || force
       puts "running articles creation for #{file}"
-      `saxon "-s:#{$base}/data/scta-articles/#{file}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_article_conversion.xsl" "-o:#{$base}/build/articles/#{file}.rdf";`
+      `#{$saxoncommand} "-s:#{$base}/data/scta-articles/#{file}.xml" "-xsl:#{$base}/xsl_stylesheets/rdf_article_conversion.xsl" "-o:#{$base}/build/articles/#{file}.rdf";`
       puts "updating codex status hash in log"
       self.get_hash("#{$base}/data/scta-articles", "#{file}.xml", "articles")
     else
@@ -263,12 +263,12 @@ class MyCLI < Thor
   desc "create_person_groups", "create person groups"
   def create_person_groups
     puts "Begin PersonGroupList Metadata extraction";
-  	`saxon "-s:#{$base}/data/lombardpress-lists/persongroups.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_persongroups_conversion.xsl" "-o:#{$base}/build/names/persongroups.rdf" ;`
+  	`#{$saxoncommand} "-s:#{$base}/data/lombardpress-lists/persongroups.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_persongroups_conversion.xsl" "-o:#{$base}/build/names/persongroups.rdf" ;`
   end
   desc "create_subject_list", "create subject list"
   def create_subject_list
   	puts "Begin Subjectlist Metadata extraction";
-  	`saxon "-s:#{$base}/data/lombardpress-lists/subjectlist.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_subjects_conversion.xsl" "-o:#{$base}/build/subjects/subjectlist.rdf";`
+  	`#{$saxoncommand} "-s:#{$base}/data/lombardpress-lists/subjectlist.xml/" "-xsl:#{$base}/xsl_stylesheets/rdf_subjects_conversion.xsl" "-o:#{$base}/build/subjects/subjectlist.rdf";`
   end
   desc "update_all", "updates all data"
   def update_all

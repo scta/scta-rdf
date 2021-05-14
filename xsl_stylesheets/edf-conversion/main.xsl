@@ -39,9 +39,15 @@
   
   <xsl:variable name="sponsors" select="//header/sponsors"/>
   <xsl:variable name="description" select="if (//header/description) then //header/description else 'No Description Available'"/>
-  <xsl:variable name="canoncial-top-level-manifestation" select="//header/canonical-top-level-manifestation"/>
   
-  <xsl:variable name="top-level-witnesses" select="/listofFileNames/header/hasWitnesses/witness"/>
+  <!-- create list of manifestation, including defaul born digital critical if no witness has been declared as canonical -->
+  <xsl:variable name="top-level-witnesses" select="/listofFileNames/header/hasWitnesses//witness"/>
+  <xsl:variable name="collection-manifestations">
+    <xsl:call-template name="structure_collection_manifestation_alignment">
+      <xsl:with-param name="top-level-witnesses" select="$top-level-witnesses"/>
+      <xsl:with-param name="hasCanonical" select="not(/listofFileNames/header[1]/hasWitnesses[1]//witness[@canonical='true'])"/>
+    </xsl:call-template>
+  </xsl:variable>
   
   <xsl:variable name="parentWorkGroup">
     <xsl:choose>
@@ -76,16 +82,17 @@
         <xsl:with-param name="parentWorkGroup" select="$parentWorkGroup"/>
         <xsl:with-param name="description" select="$description"/>
         <xsl:with-param name="sponsors" select="$sponsors"/>
-        <xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>
+        <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="top_level_manifestation">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
-        <xsl:with-param name="top-level-witnesses" select="$top-level-witnesses"/>
+        <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="top_level_transcription">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
+        <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="sponsors">
         <xsl:with-param name="sponsors" select="$sponsors"/>
@@ -93,7 +100,7 @@
       <xsl:call-template name="structure_collection_expressions">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
-        <xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>
+        <!--<xsl:with-param name="ccm" select="$ccm"/>-->
       </xsl:call-template>
       <xsl:call-template name="structure_collection_manifestations">
         <xsl:with-param name="cid" select="$cid"/>
@@ -361,14 +368,14 @@
           <xsl:with-param name="manifestations" select="$manifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
         </xsl:call-template>
-        <!--<xsl:call-template name="structure_element_figure_expressions">
+        <xsl:call-template name="structure_element_figure_expressions">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="dtsurn" select="$dtsurn"/>
           <xsl:with-param name="textfilesdir" select="$textfilesdir"/>
           <xsl:with-param name="gitRepoStyle" select="$gitRepoStyle"/>
           <xsl:with-param name="gitRepoBase" select="$gitRepoBase"/>
-          <!-\- required item level params -\->
+          <!-- required item level params -->
           <xsl:with-param name="fs" select="$fs"/>
           <xsl:with-param name="title" select="$title"/>
           <xsl:with-param name="item-level" select="$item-level"/>
@@ -382,7 +389,7 @@
           <xsl:with-param name="itemWitnesses" select="$itemWitnesses"/>
           <xsl:with-param name="manifestations" select="$manifestations"/>
           <xsl:with-param name="canonical-manifestation-id" select="$canonical-manifestation-id"/>
-          </xsl:call-template>-->
+          </xsl:call-template>
         <xsl:call-template name="structure_item_manifestations">
           <xsl:with-param name="cid" select="$cid"/>
           <xsl:with-param name="author-uri" select="$author-uri"/>
@@ -535,6 +542,7 @@
   <xsl:include href="structure_collection_expressions.xsl"/>
   <xsl:include href="structure_collection_manifestations.xsl"/>
   <xsl:include href="structure_collection_transcriptions.xsl"/>
+  <xsl:include href="structure_collection_manifestation_alignment.xsl"/>
   <xsl:include href="structure_item_expressions.xsl"/>
   <xsl:include href="structure_item_manifestations.xsl"/>
   <xsl:include href="structure_item_manifestation_transcription_alignment.xsl"/>

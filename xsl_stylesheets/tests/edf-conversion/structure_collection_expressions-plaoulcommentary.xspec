@@ -26,6 +26,7 @@
     <x:call template="structure_collection_expressions">
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
+      
     </x:call>
     
     <x:expect label="should return assertions for structureCollection expressions">
