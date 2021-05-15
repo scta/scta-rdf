@@ -117,6 +117,7 @@
         <xsl:with-param name="items" select="$current-div//item"/>
         <xsl:with-param name="itemFinisher" select="''"/>
         <xsl:with-param name="ancestors" select="$ancestors"/>
+        <xsl:with-param name="title" select="$title"/>
       </xsl:call-template>
       <!-- END structure collection properties -->
       

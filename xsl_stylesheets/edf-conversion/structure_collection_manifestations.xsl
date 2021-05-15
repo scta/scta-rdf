@@ -118,6 +118,7 @@
         <xsl:with-param name="level" select="$current-div/count(ancestor::*)"/>
         <xsl:with-param name="items" select="$current-div//item"/>
         <xsl:with-param name="itemFinisher" select="concat('/', $wit-slug)"/>
+        <xsl:with-param name="title" select="$title"/>
       </xsl:call-template>
       <!-- END structure collection properties -->
       

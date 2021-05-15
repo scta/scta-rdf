@@ -24,6 +24,7 @@
     <x:context href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml"/>
     
     <x:call template="top_level_expression">
+      <x:param name="commentaryname" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryName"/>
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
       <x:param name="sponsors" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/sponsors"></x:param>
@@ -42,7 +43,7 @@
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:ldp="http://www.w3.org/ns/ldp#"
         rdf:about="http://scta.info/resource/plaoulcommentary">
-        <dc:title />
+        <dc:title>Sentences Commentary</dc:title>
         <sctap:shortId>plaoulcommentary</sctap:shortId>
         <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/plaoulcommentary" />
         <rdf:type rdf:resource="http://scta.info/resource/expression" />
@@ -192,6 +193,7 @@
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio132" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio133" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio134" />
+        <sctap:longTitle>Sentences Commentary</sctap:longTitle>
         <dcterms:isPartOf rdf:resource="" />
         <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
         <sctap:slug />

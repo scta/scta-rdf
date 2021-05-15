@@ -25,6 +25,7 @@
     <x:context href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml"/>
     
     <x:call template="top_level_expression">
+      <x:param name="commentaryname" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/commentaryName"/>
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/authorUri"></x:param>
       <x:param name="sponsors" href="/Users/jcwitt/Projects/scta/scta-projectfiles/ArNeTH.xml" select="//header/sponsors"></x:param>
@@ -43,7 +44,7 @@
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:ldp="http://www.w3.org/ns/ldp#"
         rdf:about="http://scta.info/resource/ArNeTH">
-        <dc:title />
+        <dc:title>N. Ethica</dc:title>
         <sctap:shortId>ArNeTH</sctap:shortId>
         <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/ArNeTH" />
         <rdf:type rdf:resource="http://scta.info/resource/expression" />
@@ -61,6 +62,7 @@
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e250" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e398" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/ArNeTH-d1e593" />
+        <sctap:longTitle>N. Ethica</sctap:longTitle>
         <dcterms:isPartOf rdf:resource="" />
         <role:AUT rdf:resource="http://scta.info/resource/Aristotle" />
         <sctap:slug />

@@ -47,6 +47,7 @@
           <xsl:with-param name="description" select="$description"/>
           <xsl:with-param name="shortId" select="$cid"/>
         </xsl:call-template>
+      
       <!-- END global properties -->
       
       <!-- BEGIN expression properties -->
@@ -72,6 +73,7 @@
         <xsl:with-param name="level">1</xsl:with-param>
         <xsl:with-param name="items" select="//div[@id='body']//item"/>
         <xsl:with-param name="itemFinisher" select="''"/>
+        <xsl:with-param name="title" select="$commentaryname"/>
       </xsl:call-template>
       <!-- END structure collection properties -->
     

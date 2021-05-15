@@ -19,6 +19,7 @@
     <xsl:param name="items"/>
     <xsl:param name="itemFinisher"/>
     <xsl:param name="ancestors"/>
+    <xsl:param name="title"/>
     
     <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection"/>
     
@@ -46,10 +47,12 @@
         </xsl:variable>
         <sctap:isMemberOf rdf:resource="http://scta.info/resource/{$ancestorid}{$itemFinisher}"/>
       </xsl:for-each>
-      <xsl:variable name="longtitle" select="string-join($ancestors/head, ', ')" />
+      <xsl:variable name="longtitle" select="concat(string-join($ancestors/head, ', '), ', ', $title)" />
       <sctap:longTitle><xsl:value-of select="$longtitle"/></sctap:longTitle>
     </xsl:if>
-    
+    <xsl:if test="$level eq '1'">
+      <sctap:longTitle><xsl:value-of select="$title"/></sctap:longTitle>
+    </xsl:if>
   </xsl:template>
   
 </xsl:stylesheet>
