@@ -50,7 +50,7 @@
       <xsl:variable name="longtitle" select="concat(string-join($ancestors/head, ', '), ', ', $title)" />
       <sctap:longTitle><xsl:value-of select="$longtitle"/></sctap:longTitle>
     </xsl:if>
-    <xsl:if test="$level eq '1'">
+    <xsl:if test="$level = 1">
       <sctap:longTitle><xsl:value-of select="$title"/></sctap:longTitle>
     </xsl:if>
   </xsl:template>

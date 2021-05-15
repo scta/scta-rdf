@@ -456,6 +456,8 @@ class MyCLI < Thor
   def update_graph_toplevel(edf, force=false, dryrun=false, logging=true)
 
     doc = Nokogiri::XML(open("#{$base}/data/scta-projectfiles/#{edf}.xml"))
+    
+    self.update_graph("commentaries", edf + ".rdf", force, dryrun, logging)
     itemnames = doc.xpath("/listofFileNames//item/fileName/@filestem")
     itemnames.each do |item|
       if (logging == true) then puts "updating #{item}" end
