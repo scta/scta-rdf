@@ -26,6 +26,7 @@
     <x:call template="structure_collection_manifestations">
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
+      <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/plaoulcommentary-manifestations.xml" select="//manifestations"/>
     </x:call>
     <!-- note: expected output is a list of <rdf:Description>'s without a root node. 
       This is giving the test reporting library difficulties.

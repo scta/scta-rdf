@@ -41,6 +41,8 @@
   <xsl:variable name="description" select="if (//header/description) then //header/description else 'No Description Available'"/>
   
   <!-- create list of manifestation, including defaul born digital critical if no witness has been declared as canonical -->
+  
+  <!-- TODO: need to apply this at NON-top level collection levels"-->
   <xsl:variable name="top-level-witnesses" select="/listofFileNames/header/hasWitnesses//witness"/>
   <xsl:variable name="collection-manifestations">
     <xsl:call-template name="structure_collection_manifestation_alignment">
@@ -100,15 +102,17 @@
       <xsl:call-template name="structure_collection_expressions">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
-        <!--<xsl:with-param name="ccm" select="$ccm"/>-->
+        <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="structure_collection_manifestations">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
+        <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="structure_collection_transcriptions">
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
+        <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       
       <!-- begin item level param retrieve and template calls -->

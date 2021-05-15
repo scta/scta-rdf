@@ -16,6 +16,7 @@
   <xsl:template name="structure_collection_manifestations">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
+    <xsl:param name="manifestations"/>
     <!-- TODO: note if edf structured info the same ways sub divisions, 
       this template could be used for top level collections and specific top level scripts could be removed 
     for each would then change to /listofFileNames//div"
@@ -29,11 +30,10 @@
       <xsl:variable name="parentExpression"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
       <xsl:variable name="divQuestionTitle"><xsl:value-of select="./questionTitle"/></xsl:variable>
       <xsl:variable name="current-div-level" select="count(ancestor::*)"/>
-      <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+      <xsl:for-each select="$manifestations//witness">
         <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
         <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
         <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
-        <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
         <!-- this variable could be replaced by a provided parameter whereever available transcriptions 
           per manifestation are listed -->
         <xsl:variable name="transcriptions">
@@ -42,7 +42,7 @@
           </transcriptions>
         </xsl:variable>
         
-        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial) or $wit-slug eq 'critical'">
           <xsl:call-template name="structure_collection_manifestations_entry">
             <xsl:with-param name="author-uri" select="$author-uri"/>
             <xsl:with-param name="cid" select="$cid"/>
@@ -57,11 +57,10 @@
             <xsl:with-param name="wit-title" select="$wit-title"/>
             <xsl:with-param name="wit-slug" select="$wit-slug"/>
             <xsl:with-param name="wit-initial" select="$wit-initial"/>
-            <xsl:with-param name="wit-canvasbase" select="$wit-canvasbase"/>
             <xsl:with-param name="transcriptions" select="$transcriptions"/>
           </xsl:call-template>
         </xsl:if>
-        <!-- a second call for a critical edition; again this would not be necessary if all manifestation were required to be declared in edf/projectdata file -->
+        <!--<!-\- a second call for a critical edition; again this would not be necessary if all manifestation were required to be declared in edf/projectdata file -\->
         <xsl:call-template name="structure_collection_manifestations_entry">
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="cid" select="$cid"/>
@@ -76,9 +75,8 @@
           <xsl:with-param name="wit-title">Critial Edition</xsl:with-param>
           <xsl:with-param name="wit-slug">critical</xsl:with-param>
           <xsl:with-param name="wit-initial">CE</xsl:with-param>
-          <xsl:with-param name="wit-canvasbase"/>
           <xsl:with-param name="transcriptions" select="$transcriptions"/>
-        </xsl:call-template>
+        </xsl:call-template>-->
       </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
@@ -96,12 +94,11 @@
     <xsl:param name="wit-title"/>
     <xsl:param name="wit-slug"/>
     <xsl:param name="wit-initial"/>
-    <xsl:param name="wit-canvasbase"/>
     <xsl:param name="transcriptions"/>
     <rdf:Description rdf:about="http://scta.info/resource/{$divid}/{$wit-slug}">
       <!-- BEGIN global properties -->
       <xsl:call-template name="global_properties">
-        <xsl:with-param name="title"><xsl:value-of select="$wit-title"/></xsl:with-param>
+        <xsl:with-param name="title"><xsl:value-of select="concat($title, ' ', $wit-title)"/></xsl:with-param>
         <xsl:with-param name="description"/>
         <xsl:with-param name="shortId" select="concat($divid, '/', $wit-slug)"/>
       </xsl:call-template>

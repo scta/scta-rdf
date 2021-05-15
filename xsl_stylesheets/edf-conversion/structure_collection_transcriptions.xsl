@@ -16,6 +16,7 @@
   <xsl:template name="structure_collection_transcriptions">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
+    <xsl:param name="manifestations"/>
     <!-- TODO: note if edf structured info the same ways sub divisions, 
       this template could be used for top level collections and specific top level scripts could be removed 
     for each would then change to /listofFileNames//div"
@@ -29,15 +30,15 @@
       <xsl:variable name="parentExpression"><xsl:value-of select="./parent::div/@id"/></xsl:variable>
       <xsl:variable name="divQuestionTitle"><xsl:value-of select="./questionTitle"/></xsl:variable>
       <xsl:variable name="current-div-level" select="count(ancestor::*)"/>
-      <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+      <xsl:for-each select="$manifestations//witness">
         <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
         <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
         <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
         <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
-        <xsl:variable name="transcription-type">Critical</xsl:variable>
+        <xsl:variable name="transcription-type" select="if ($wit-slug eq 'critical') then 'Critical' else 'Diplomatic'"/>
         <xsl:variable name="transcription-name">transcription</xsl:variable>
         
-        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial) or $wit-slug eq 'critical'">
           <xsl:call-template name="structure_collection_transcriptions_entry">
             <xsl:with-param name="author-uri" select="$author-uri"/>
             <xsl:with-param name="cid" select="$cid"/>
@@ -53,12 +54,11 @@
             <xsl:with-param name="wit-slug" select="$wit-slug"/>
             <xsl:with-param name="wit-initial" select="$wit-initial"/>
             <xsl:with-param name="wit-canvasbase" select="$wit-canvasbase"/>
-            <xsl:with-param name="transcription-type">Critical</xsl:with-param>
-            <xsl:with-param name="transcription-name">transcription</xsl:with-param>
-            
+            <xsl:with-param name="transcription-type" select="$transcription-type"/>
+            <xsl:with-param name="transcription-name" select="$transcription-name"/>
           </xsl:call-template>
         </xsl:if>
-        <!-- a second call for a critical edition; again this would not be necessary if all manifestation were required to be declared in edf/projectdata file -->
+        <!--<!-\- a second call for a critical edition; again this would not be necessary if all manifestation were required to be declared in edf/projectdata file -\->
         <xsl:call-template name="structure_collection_transcriptions_entry">
           <xsl:with-param name="author-uri" select="$author-uri"/>
           <xsl:with-param name="cid" select="$cid"/>
@@ -76,7 +76,7 @@
           <xsl:with-param name="wit-canvasbase"/>
           <xsl:with-param name="transcription-type">Critical</xsl:with-param>
           <xsl:with-param name="transcription-name">transcription</xsl:with-param>
-        </xsl:call-template>
+        </xsl:call-template>-->
       </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
@@ -99,7 +99,7 @@
     <xsl:param name="transcription-name"/>
     <rdf:Description rdf:about="http://scta.info/resource/{$divid}/{$wit-slug}/{$transcription-name}">
       <xsl:call-template name="global_properties">
-        <xsl:with-param name="title"><xsl:value-of select="$wit-title"/> transcription</xsl:with-param>
+        <xsl:with-param name="title"><xsl:value-of select="concat($title, ', ', $wit-title, ', transcription')"/></xsl:with-param>
         <xsl:with-param name="description"/>
         <xsl:with-param name="shortId" select="concat($divid, '/', $wit-slug, '/', $transcription-name)"/>
       </xsl:call-template>

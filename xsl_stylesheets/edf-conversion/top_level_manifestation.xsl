@@ -28,7 +28,6 @@
     <xsl:for-each select="$manifestations//witness">
       <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
       <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
-      <xsl:variable name="wit-canvasbase"><xsl:value-of select="./canvasBase"/></xsl:variable>
       <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
       <xsl:variable name="editor"><xsl:value-of select="./editor"/></xsl:variable>
       <!-- TODO: this info probably needs to come from somewhere else; each manifestation will have different transcriptions and different number available -->
@@ -43,7 +42,6 @@
         <xsl:with-param name="author-uri" select="$author-uri"/>
         <xsl:with-param name="wit-title" select="$wit-title"/>
         <xsl:with-param name="wit-initial" select="$wit-initial"/>
-        <xsl:with-param name="wit-canvasbase" select="$wit-canvasbase"/>
         <xsl:with-param name="wit-slug" select="$wit-slug"/>
         <xsl:with-param name="editor" select="$editor"/>
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
@@ -62,7 +60,7 @@
       <xsl:with-param name="author-uri" select="$author-uri"/>
       <xsl:with-param name="wit-title">Critical Edition</xsl:with-param>
       <xsl:with-param name="wit-initial">CE</xsl:with-param>
-      <xsl:with-param name="wit-canvasbase"></xsl:with-param>
+      
       <xsl:with-param name="wit-slug">critical</xsl:with-param>
       <!-\-<xsl:with-param name="editor" select="$editor"/>-\->
       <xsl:with-param name="transcriptions" select="$transcriptions"/>
@@ -74,7 +72,7 @@
     <xsl:param name="author-uri"/>
     <xsl:param name="wit-title"/>
     <xsl:param name="wit-initial"/>
-    <xsl:param name="wit-canvasbase"/>
+    
     <xsl:param name="wit-slug"/>
     <xsl:param name="editor"/>
     <xsl:param name="transcriptions"/>

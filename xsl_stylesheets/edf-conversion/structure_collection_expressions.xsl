@@ -19,6 +19,7 @@
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
     <xsl:param name="canoncial-top-level-manifestation"/>
+    <xsl:param name="manifestations"/>
     <!-- TODO: note if edf structured info the same ways sub divisions, 
       this template could be used for top level collections and specific top level scripts could be removed 
     for each would then change to /listofFileNames//div"
@@ -46,7 +47,8 @@
         <xsl:with-param name="divQuestionTitle" select="$divQuestionTitle"/>
         <xsl:with-param name="ancestors" select="$ancestors"/>
         <xsl:with-param name="current-div-level" select="$current-div-level"/>
-        <xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>
+        <xsl:with-param name="manifestations" select="$manifestations"/>
+        <!--<xsl:with-param name="canoncial-top-level-manifestation" select="$canoncial-top-level-manifestation"/>-->
       </xsl:call-template>
     </xsl:for-each>
   </xsl:template>
@@ -62,7 +64,8 @@
     <xsl:param name="divQuestionTitle"/>
     <xsl:param name="current-div-level" />
     <xsl:param name="ancestors" />
-    <xsl:param name="canoncial-top-level-manifestation" />
+    <xsl:param name="manifestations"/>
+    <!--<xsl:param name="canoncial-top-level-manifestation" />-->
     
     <rdf:Description rdf:about="http://scta.info/resource/{$divid}">
 <!-- BEGIN global properties -->
@@ -83,23 +86,30 @@
       </xsl:call-template>
       
       <!-- TODO: should be moved into expressions template  -->
-      <xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">
+      <xsl:for-each select="$manifestations//witness">
         <xsl:variable name="wit-slug"><xsl:value-of select="./slug"/></xsl:variable>
         <xsl:variable name="wit-initial"><xsl:value-of select="./initial"/></xsl:variable>
-        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial)">
+        <!-- extra conditional after "or" is added because critical is default and will not be named as a witness -->
+        <xsl:if test="$current-div//item/hasWitnesses/witness/@ref = concat('#', $wit-initial) or $wit-slug eq 'critical'">
           <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
+          <xsl:if test="./@canonical='true'">
+            <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
+          </xsl:if>
         </xsl:if>
       </xsl:for-each>
-      <!--TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
-      <sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/critical"/>
+      <!-- END expression properties -->
+      <!--DELETE!!!
+        
+        TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
+      <!--<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/critical"/>
       <xsl:choose> 
         <xsl:when test="$canoncial-top-level-manifestation">
         </xsl:when>
         <xsl:otherwise>
           <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
         </xsl:otherwise>
-      </xsl:choose>
-      <!-- END expression properties -->
+      </xsl:choose>-->
+      
       <!-- BEGIN structure collection properties -->
       <xsl:call-template name="structure_collection_properties">
         <xsl:with-param name="cid" select="$cid"/>

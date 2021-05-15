@@ -26,7 +26,7 @@
     <x:call template="structure_collection_expressions">
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
-      
+      <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/plaoulcommentary-manifestations.xml" select="//manifestations"/>
     </x:call>
     
     <x:expect label="should return assertions for structureCollection expressions">
@@ -52,7 +52,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-principia/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-principia/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-principia/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-principia/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/principiumI" />
@@ -93,7 +93,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deFide/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deFide/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deFide/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-deFide/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio1" />
@@ -164,7 +164,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deNotitia/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deNotitia/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deNotitia/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-deNotitia/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio20" />
@@ -225,7 +225,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deFruitione/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deFruitione/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deFruitione/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-deFruitione/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio34" />
@@ -301,7 +301,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deTrinitate/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deTrinitate/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deTrinitate/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-deTrinitate/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio56" />
@@ -382,7 +382,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deCaritate/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deCaritate/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deCaritate/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-deCaritate/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio80" />
@@ -444,7 +444,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deLibertate/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deLibertate/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/pp-deLibertate/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/pp-deLibertate/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio95" />
@@ -545,7 +545,7 @@
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/deIncarnatione/sorb" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/deIncarnatione/reims" />
    <sctap:hasManifestation rdf:resource="http://scta.info/resource/deIncarnatione/critical" />
-   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
+   <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/deIncarnatione/critical" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
    <sctap:level>2</sctap:level>
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio130" />
