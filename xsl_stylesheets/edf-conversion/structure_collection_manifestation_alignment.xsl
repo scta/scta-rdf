@@ -20,7 +20,11 @@
     <xsl:param name="hasCanonical"/>
     <manifestations>
       <xsl:for-each select="$top-level-witnesses">
-        <xsl:copy-of select="."/>
+        <witness id="{./@id}" canonical="{if (./@canonical='true') then 'true' else 'false'}">
+          <slug><xsl:value-of select="./slug"/></slug>
+          <title><xsl:value-of select="./title"/></title>
+          <initial><xsl:value-of select="./initial"/></initial>
+        </witness>
       </xsl:for-each>
       <xsl:if test="not($top-level-witnesses[@canonical='true'])"> 
         <witness id="critical" canonical="true">

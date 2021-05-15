@@ -26,7 +26,6 @@
     <xsl:if test="$level">
       <sctap:level><xsl:value-of select="$level"/></sctap:level>
     </xsl:if>
-    
     <!-- identify all resources with structureType=itemStructure -->
     <xsl:for-each select="$items">
       <xsl:variable name="fs"><xsl:value-of select="fileName/@filestem"/></xsl:variable>

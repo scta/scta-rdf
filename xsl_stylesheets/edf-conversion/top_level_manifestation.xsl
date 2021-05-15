@@ -20,10 +20,12 @@
     <xsl:import href="structure_collection_properties.xsl"/>-->
   
   <xsl:template name="top_level_manifestation">
+    <xsl:param name="commentaryname"/>
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
     <xsl:param name="manifestations"/>
     
+    <xsl:variable name="current-div" select="/listofFileNames/div[@id='body']"/>
     <!--<xsl:for-each select="/listofFileNames/header/hasWitnesses/witness">-->
     <xsl:for-each select="$manifestations//witness">
       <xsl:variable name="wit-title"><xsl:value-of select="./title"/></xsl:variable>
@@ -45,6 +47,9 @@
         <xsl:with-param name="wit-slug" select="$wit-slug"/>
         <xsl:with-param name="editor" select="$editor"/>
         <xsl:with-param name="transcriptions" select="$transcriptions"/>
+        <xsl:with-param name="commentaryname" select="$commentaryname"/>
+        <xsl:with-param name="current-div" select="$current-div"/>
+        
       </xsl:call-template>
     </xsl:for-each>
     <!-- if critical manifestations (and all manifestations were listed in edf/projectfile this second call we be unnecessary -->
@@ -70,18 +75,19 @@
   <xsl:template name="top_level_manifestation_entry">
     <xsl:param name="cid"/>
     <xsl:param name="author-uri"/>
+    <xsl:param name="current-div"/>
     <xsl:param name="wit-title"/>
     <xsl:param name="wit-initial"/>
-    
     <xsl:param name="wit-slug"/>
     <xsl:param name="editor"/>
     <xsl:param name="transcriptions"/>
-    <!--<xsl:param name="canonical-transcription-name"/>-->
+    <xsl:param name="commentaryname"/>
     
+    <xsl:variable name="fulltitle" select="concat($commentaryname, ', ', $wit-title)"/>
     <rdf:Description rdf:about="http://scta.info/resource/{$cid}/{$wit-slug}">
       <!-- BEGIN global properties -->
       <xsl:call-template name="global_properties">
-        <xsl:with-param name="title"><xsl:value-of select="$wit-title"/></xsl:with-param>
+        <xsl:with-param name="title"><xsl:value-of select="$fulltitle"/></xsl:with-param>
         <xsl:with-param name="description"/>
         <xsl:with-param name="shortId" select="concat($cid, '/', $wit-slug)"/>
       </xsl:call-template>
@@ -100,8 +106,9 @@
       <!-- BEGIN structure collection properties -->
       <xsl:call-template name="structure_collection_properties">
         <xsl:with-param name="level">1</xsl:with-param>
-        <xsl:with-param name="items" select="//div[@id='body']//item"/>
+        <xsl:with-param name="items" select="$current-div//item"/>
         <xsl:with-param name="itemFinisher" select="concat('/', $wit-slug)"/>
+        <xsl:with-param name="title" select="$fulltitle"/>
       </xsl:call-template>
       <!-- END structure collection properties -->
       
@@ -122,11 +129,11 @@
       </xsl:if>
       
       <!-- Identify direct child parts -->
-      <xsl:for-each select="//div[@id='body']/div">
+      <xsl:for-each select="$current-div/div">
         <xsl:variable name="divid"><xsl:value-of select="./@id"/></xsl:variable>
         <dcterms:hasPart rdf:resource="http://scta.info/resource/{$divid}/{$wit-slug}"/>
       </xsl:for-each>
-      <xsl:for-each select="//div[@id='body']/item">
+      <xsl:for-each select="$current-div/item">
         <xsl:variable name="direct-child-part"><xsl:value-of select="./@id"/></xsl:variable>
         <dcterms:hasPart rdf:resource="http://scta.info/resource/{$direct-child-part}/{$wit-slug}"/>
       </xsl:for-each>

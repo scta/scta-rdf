@@ -87,11 +87,13 @@
         <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="top_level_manifestation">
+        <xsl:with-param name="commentaryname" select="$commentaryname"/>
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
         <xsl:with-param name="manifestations" select="$collection-manifestations"/>
       </xsl:call-template>
       <xsl:call-template name="top_level_transcription">
+        <xsl:with-param name="commentaryname" select="$commentaryname"/>
         <xsl:with-param name="cid" select="$cid"/>
         <xsl:with-param name="author-uri" select="$author-uri"/>
         <xsl:with-param name="manifestations" select="$collection-manifestations"/>

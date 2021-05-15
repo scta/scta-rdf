@@ -98,17 +98,6 @@
         </xsl:if>
       </xsl:for-each>
       <!-- END expression properties -->
-      <!--DELETE!!!
-        
-        TODO list div manifestation for a critical editions; perhaps critical files should be listed at the top of the project file as well -->
-      <!--<sctap:hasManifestation rdf:resource="http://scta.info/resource/{$divid}/critical"/>
-      <xsl:choose> 
-        <xsl:when test="$canoncial-top-level-manifestation">
-        </xsl:when>
-        <xsl:otherwise>
-          <sctap:hasCanonicalManifestation rdf:resource="http://scta.info/resource/{$cid}/critical"/>
-        </xsl:otherwise>
-      </xsl:choose>-->
       
       <!-- BEGIN structure collection properties -->
       <xsl:call-template name="structure_collection_properties">

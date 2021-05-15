@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifestations>
-  <witness id="V">
+  <witness id="V"
+    canonical="false">
     <slug>vat</slug>
     <title>Vatican</title>
     <initial>V</initial>
   </witness>
-  <witness id="SV">
+  <witness id="SV"
+    canonical="false">
     <slug>svict</slug>
     <title>St. Victor</title>
     <initial>SV</initial>
   </witness>
-  <witness id="S">
+  <witness id="S"
+    canonical="false">
     <slug>sorb</slug>
     <title>Sorbonne</title>
     <initial>S</initial>
   </witness>
-  <witness id="R">
+  <witness id="R"
+    canonical="false">
     <slug>reims</slug>
     <title>Reims</title>
     <initial>R</initial>
   </witness>
-  <witness id="critical" canonical="true">
+  <witness id="critical"
+    canonical="true">
     <slug>critical</slug>
     <title>Critical Edition (Born Digital)</title>
     <initial>critical</initial>

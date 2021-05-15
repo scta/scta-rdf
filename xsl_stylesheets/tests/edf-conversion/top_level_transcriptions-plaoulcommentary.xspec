@@ -25,7 +25,9 @@
     
     <x:call template="top_level_transcription">
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryid"/>
+      <x:param name="commentaryname" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/commentaryName"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pp-projectdata.xml" select="//header/authorUri"></x:param>
+      <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/plaoulcommentary-manifestations.xml" select="//manifestations"/>
     </x:call>
     
     <x:expect label="should return assertions for top level manifestations">
@@ -40,7 +42,7 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:ldp="http://www.w3.org/ns/ldp#"
          rdf:about="http://scta.info/resource/plaoulcommentary/vat/transcription">
-   <dc:title>Vatican transcription</dc:title>
+   <dc:title>Sentences Commentary, Vatican, transcription</dc:title>
    <sctap:shortId>plaoulcommentary/vat/transcription</sctap:shortId>
    <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/plaoulcommentary/vat/transcription" />
    <rdf:type rdf:resource="http://scta.info/resource/transcription" />
@@ -188,6 +190,7 @@
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio132/vat/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio133/vat/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio134/vat/transcription" />
+   <sctap:longTitle>Sentences Commentary, Vatican, transcription</sctap:longTitle>
    <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-principia/vat/transcription" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-deFide/vat/transcription" />
@@ -208,7 +211,7 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:ldp="http://www.w3.org/ns/ldp#"
          rdf:about="http://scta.info/resource/plaoulcommentary/svict/transcription">
-   <dc:title>St. Victor transcription</dc:title>
+   <dc:title>Sentences Commentary, St. Victor, transcription</dc:title>
    <sctap:shortId>plaoulcommentary/svict/transcription</sctap:shortId>
    <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/plaoulcommentary/svict/transcription" />
    <rdf:type rdf:resource="http://scta.info/resource/transcription" />
@@ -356,6 +359,7 @@
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio132/svict/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio133/svict/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio134/svict/transcription" />
+   <sctap:longTitle>Sentences Commentary, St. Victor, transcription</sctap:longTitle>
    <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-principia/svict/transcription" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-deFide/svict/transcription" />
@@ -376,7 +380,7 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:ldp="http://www.w3.org/ns/ldp#"
          rdf:about="http://scta.info/resource/plaoulcommentary/sorb/transcription">
-   <dc:title>Sorbonne transcription</dc:title>
+   <dc:title>Sentences Commentary, Sorbonne, transcription</dc:title>
    <sctap:shortId>plaoulcommentary/sorb/transcription</sctap:shortId>
    <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/plaoulcommentary/sorb/transcription" />
    <rdf:type rdf:resource="http://scta.info/resource/transcription" />
@@ -524,6 +528,7 @@
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio132/sorb/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio133/sorb/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio134/sorb/transcription" />
+   <sctap:longTitle>Sentences Commentary, Sorbonne, transcription</sctap:longTitle>
    <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-principia/sorb/transcription" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-deFide/sorb/transcription" />
@@ -544,7 +549,7 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:ldp="http://www.w3.org/ns/ldp#"
          rdf:about="http://scta.info/resource/plaoulcommentary/reims/transcription">
-   <dc:title>Reims transcription</dc:title>
+   <dc:title>Sentences Commentary, Reims, transcription</dc:title>
    <sctap:shortId>plaoulcommentary/reims/transcription</sctap:shortId>
    <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/plaoulcommentary/reims/transcription" />
    <rdf:type rdf:resource="http://scta.info/resource/transcription" />
@@ -692,6 +697,7 @@
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio132/reims/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio133/reims/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio134/reims/transcription" />
+   <sctap:longTitle>Sentences Commentary, Reims, transcription</sctap:longTitle>
    <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-principia/reims/transcription" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-deFide/reims/transcription" />
@@ -712,12 +718,12 @@
          xmlns:dc="http://purl.org/dc/elements/1.1/"
          xmlns:ldp="http://www.w3.org/ns/ldp#"
          rdf:about="http://scta.info/resource/plaoulcommentary/critical/transcription">
-   <dc:title>Critical Edition transcription</dc:title>
+   <dc:title>Sentences Commentary, Critical Edition (Born Digital), transcription</dc:title>
    <sctap:shortId>plaoulcommentary/critical/transcription</sctap:shortId>
    <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/plaoulcommentary/critical/transcription" />
    <rdf:type rdf:resource="http://scta.info/resource/transcription" />
    <sctap:isTranscriptionOf rdf:resource="http://scta.info/resource/plaoulcommentary/critical" />
-   <sctap:transcriptionType>Critical</sctap:transcriptionType>
+   <sctap:transcriptionType>Diplomatic</sctap:transcriptionType>
    <sctap:hasXML rdf:resource="http://exist.scta.info/exist/apps/scta-app/document/plaoulcommentary/critical/transcription" />
    <sctap:plaintext rdf:resource="http://scta.lombardpress.org/text/plaintext/plaoulcommentary/critical/transcription" />
    <sctap:structureType rdf:resource="http://scta.info/resource/structureCollection" />
@@ -860,6 +866,7 @@
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio132/critical/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio133/critical/transcription" />
    <sctap:hasStructureItem rdf:resource="http://scta.info/resource/lectio134/critical/transcription" />
+   <sctap:longTitle>Sentences Commentary, Critical Edition (Born Digital), transcription</sctap:longTitle>
    <role:AUT rdf:resource="http://scta.info/resource/peter-plaoul" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-principia/critical/transcription" />
    <dcterms:hasPart rdf:resource="http://scta.info/resource/pp-deFide/critical/transcription" />

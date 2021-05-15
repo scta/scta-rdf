@@ -21,11 +21,12 @@
   
   
   <x:scenario label="Creating top level manifestations">
-    
+    <x:context href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml"/>
     <x:call template="top_level_manifestation">
       <x:param name="cid" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="//header/commentaryid"/>
+      <x:param name="commentaryname" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="//header/commentaryName"/>
       <x:param name="author-uri" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="//header/authorUri"></x:param>
-      <x:param name="top-level-witnesses" href="/Users/jcwitt/Projects/scta/scta-projectfiles/pg-projectdata.xml" select="/listofFileNames/header/hasWitnesses//witness"></x:param>
+      <x:param  name="manifestations" href="/Users/jcwitt/Projects/scta/scta-rdf/xsl_stylesheets/tests/edf-conversion/fixtures/graciliscommentary-manifestations.xml" select="//manifestations"/>
     </x:call>
     
     <x:expect label="should return assertions for top level manifestations">
@@ -40,7 +41,7 @@
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:ldp="http://www.w3.org/ns/ldp#"
         rdf:about="http://scta.info/resource/graciliscommentary/lon">
-        <dc:title>British Royal MS 10 A I</dc:title>
+        <dc:title>Peter Gracilis Commentary, British Royal MS 10 A I</dc:title>
         <sctap:shortId>graciliscommentary/lon</sctap:shortId>
         <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/graciliscommentary/lon" />
         <rdf:type rdf:resource="http://scta.info/resource/manifestation" />
@@ -110,6 +111,7 @@
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q1/lon" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q2/lon" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q3/lon" />
+        <sctap:longTitle>Peter Gracilis Commentary, British Royal MS 10 A I</sctap:longTitle>
         <role:AUT rdf:resource="http://scta.info/resource/PetrusGracilis" />
         <sctap:hasSlug>lon</sctap:hasSlug>
         <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book1/lon" />
@@ -127,7 +129,7 @@
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:ldp="http://www.w3.org/ns/ldp#"
         rdf:about="http://scta.info/resource/graciliscommentary/critical">
-        <dc:title>Critical Edition</dc:title>
+        <dc:title>Peter Gracilis Commentary, Critical Edition (Born Digital)</dc:title>
         <sctap:shortId>graciliscommentary/critical</sctap:shortId>
         <ldp:inbox rdf:resource="http://inbox.scta.info/notifications?resourceid=http://scta.info/resource/graciliscommentary/critical" />
         <rdf:type rdf:resource="http://scta.info/resource/manifestation" />
@@ -197,6 +199,7 @@
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q1/critical" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q2/critical" />
         <sctap:hasStructureItem rdf:resource="http://scta.info/resource/pg-b4q3/critical" />
+        <sctap:longTitle>Peter Gracilis Commentary, Critical Edition (Born Digital)</sctap:longTitle>
         <role:AUT rdf:resource="http://scta.info/resource/PetrusGracilis" />
         <sctap:hasSlug>critical</sctap:hasSlug>
         <dcterms:hasPart rdf:resource="http://scta.info/resource/pg-book1/critical" />
