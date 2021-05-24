@@ -47,7 +47,7 @@
           <xsl:value-of select="./tei:note[@type = 'wikidata-id']"/>
         </xsl:variable>
         <xsl:variable name="full-wikidata-url">http://www.wikidata.org/entity/<xsl:value-of select="$wikidata-id"/></xsl:variable>
-        <owl:sameAs rdf:resource="{full-wikidata-url}"/>
+        <owl:sameAs rdf:resource="{$full-wikidata-url}"/>
       </xsl:if>
       <xsl:if test="./tei:note[@type = 'order']">
         <xsl:variable name="order">
