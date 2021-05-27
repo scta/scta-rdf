@@ -260,12 +260,16 @@
             <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
             <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
+            <!-- TODO: the quotes property may not be obsolete given the structureElement quote that is a child of this block 
+              TODO: review its use and then consider deleting -->
             <xsl:for-each select="tokenize(./@source, ' ')">
-              <xsl:variable name="commentarySectionUrl" select="."></xsl:variable>
+              <!-- tokenize removes any trailing @word-range -->
+              <xsl:variable name="commentarySectionUrl" select="tokenize(., '@')[1]"></xsl:variable>
               <sctap:quotes rdf:resource="{$commentarySectionUrl}"/>
             </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource/{$objectId}"/>
           </xsl:for-each>
+          <!-- TODO: definitely depreciated; this can be deleted -->
           <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:quote">
             <xsl:variable name="totalQuotes" select="count(document($extraction-file)//tei:body//tei:quote)"/>
             <xsl:variable name="totalFollowingQuotes" select="count(.//following::tei:quote)"></xsl:variable>
@@ -284,13 +288,16 @@
             <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
             <xsl:for-each select="tokenize(./@target, ' ')">
-              <xsl:variable name="commentarySectionUrl" select="."></xsl:variable>
+              <!-- tokenize removes any trailing @word-range -->
+              <xsl:variable name="commentarySectionUrl" select="tokenize(., '@')"></xsl:variable>
               <sctap:references rdf:resource="{$commentarySectionUrl}"/>
             </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource{$objectId}"/>
           </xsl:for-each>
           
-          <!-- default is ref referring to quotation resource or type="quotation" -->  
+          <!-- TODO: this is depreciated and I think can be deleted 
+            default is ref referring to quotation resource or type="quotation" 
+          -->  
           <xsl:for-each select="document($extraction-file)//tei:p[@xml:id=$pid]//tei:ref">
             <xsl:variable name="totalRefs" select="count(document($extraction-file)//tei:body//tei:ref)"/>
             <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>

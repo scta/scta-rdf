@@ -46,7 +46,8 @@
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-Q-', $totalQuotes - $totalFollowingQuotes)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
       
-      <xsl:variable name="source" select="./@source"/>
+      <!-- tokenize strips and word ranges (e.g. @1-5, 6-10) from the source id -->
+      <xsl:variable name="source" select="tokenize(./@source, '@')[1]"/>
       
       <xsl:variable name="element-ancestors">
         <ancestors>

@@ -44,7 +44,9 @@
       <xsl:variable name="totalFollowingRefs" select="count(.//following::tei:ref)"></xsl:variable>
       <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
-      <xsl:variable name="target" select="./@target"/>
+      
+      <!-- tokenize strips and word ranges (e.g. @1-5, 6-10) from the source id -->
+      <xsl:variable name="target" select="tokenize(./@target, '@')[1]"/>
       
       <xsl:variable name="element-ancestors">
         <ancestors>
