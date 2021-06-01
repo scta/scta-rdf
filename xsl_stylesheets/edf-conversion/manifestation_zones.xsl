@@ -187,6 +187,10 @@
     <xsl:variable name="pbNumber" select="./preceding::tei:pb[1]/@n"/>
     <xsl:variable name="lineNumber">
       <xsl:choose>
+        <xsl:when test="./@n">
+          <xsl:value-of select="./@n"/>
+        </xsl:when>
+        <!-- if line number is not explicitly stated, compute from last pb and line numbers that are in first position -->
         <xsl:when test="not(./preceding::tei:pb[1][ancestor::tei:body])">
           <xsl:variable name="lineCount" select="$followingPageBreak - $followingLineBreak"/>
           <xsl:variable name="startline">
