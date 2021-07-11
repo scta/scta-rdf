@@ -122,7 +122,7 @@
       <!-- IT's ideal to be getting the required params once and then using them in many templates rather than re-retrieving params for each template -->
       
       <!-- short cut for testing; uncomment to test-->
-      <!--<xsl:for-each select=".//item[fileName/@filestem='lectio1']">-->
+      <!--<xsl:for-each select=".//item[fileName/@filestem='pg-b1q2']">-->
       
       <xsl:for-each select=".//item">
         <xsl:result-document method="xml" href="{fileName/@filestem}.rdf">

@@ -46,7 +46,7 @@
       <xsl:variable name="paragraphParent" select=".//ancestor::tei:p/@xml:id"/>
       
       <!-- tokenize strips and word ranges (e.g. @1-5, 6-10) from the source id -->
-      <xsl:variable name="target" select="tokenize(./@target, '@')[1]"/>
+      <xsl:variable name="target" select="./@target"/>
       
       <xsl:variable name="element-ancestors">
         <ancestors>
@@ -190,10 +190,40 @@
           <sctap:citation><xsl:value-of select="./parent::tei:cit/tei:bibl//text()"/></sctap:citation>
         </xsl:if>
         <!-- END citation -->
-        <xsl:if test="$target">
+        <!--<xsl:if test="$target">
           <xsl:for-each select="tokenize($target, ' ')">
             <sctap:source rdf:resource="{.}"/>
           </xsl:for-each>
+        </xsl:if>-->
+        
+        <xsl:if test="$target">
+          <xsl:variable name="test" select="./@ana = 'test'"/>
+          <xsl:for-each select="tokenize($target, ' ')">
+            <!-- tokenize strips and word ranges (e.g. @1-5, 6-10) from the source id -->
+            <xsl:variable name="sourceBase" select="tokenize(., '@')[1]"/>
+            <xsl:variable name="wordRange" select="tokenize(., '@')[2]"/>
+            <xsl:variable name="wordRangeStart" select="number(tokenize($wordRange, '-')[1])"/>
+            <xsl:variable name="wordRangeEnd" select="number(tokenize($wordRange, '-')[2])"/>
+            <xsl:choose>
+              <xsl:when test="$test">
+                <sctap:source>
+                  <rdf:Description>
+                    <sctap:source rdf:resource="{$sourceBase}"/>
+                    <sctap:canonicalRangeStart rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"><xsl:value-of select="$wordRangeStart"/></sctap:canonicalRangeStart>
+                    <sctap:canonicalRangeEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"><xsl:value-of select="$wordRangeEnd"/></sctap:canonicalRangeEnd>
+                    <!-- could add other blank nodes here (retrieved from a supplemental file) 
+                    with hasRange -> bn -> manifestation; bn -> wordRange 
+                  -->
+                  </rdf:Description>
+                </sctap:source>
+              </xsl:when>
+              <xsl:otherwise>
+                <sctap:source rdf:resource="{.}"/>
+              </xsl:otherwise>
+            </xsl:choose>
+            
+          </xsl:for-each>
+          
         </xsl:if>
         
       </rdf:Description>
