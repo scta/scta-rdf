@@ -162,13 +162,16 @@
         </xsl:call-template>
         <!-- END structure type properties -->
         <!-- BEGIN create instanceOf assertions -->
-        <xsl:for-each select="tokenize(./@ana, ' ')">
+        <!--
+          isInstanceOf for refs is depreciated and should be deleted 
+          <xsl:for-each select="tokenize(./@ana, ' ')">
           <xsl:variable name="refRef" select="."></xsl:variable>
           <xsl:variable name="refID" select="substring-after($refRef, '#')"></xsl:variable>
-          <!-- isInstanceOf parallels isInstanceOf for quotations; 
-            TODO: i'm not sure if they should be named the same or different perhaps ReferenceOf -->
+          <!-\- isInstanceOf parallels isInstanceOf for quotations; 
+            TODO: i'm not sure if they should be named the same or different perhaps ReferenceOf -\->
           <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$refID}"/>
         </xsl:for-each>
+        -->
         <!-- END instanceOf assertions -->
         <!-- NOTE: Current working assumption is that Refs get "isInstanceOf" property 
           when they do NOT have a @corresp but do have an an @ana 
@@ -197,7 +200,7 @@
         </xsl:if>-->
         
         <xsl:if test="$target">
-          <xsl:variable name="test" select="./@ana = 'test'"/>
+          <!--<xsl:variable name="test" select="./@ana = 'test'"/>-->
           <xsl:for-each select="tokenize($target, ' ')">
             <!-- tokenize strips and word ranges (e.g. @1-5, 6-10) from the source id -->
             <xsl:variable name="sourceBase" select="tokenize(., '@')[1]"/>
@@ -205,7 +208,7 @@
             <xsl:variable name="wordRangeStart" select="number(tokenize($wordRange, '-')[1])"/>
             <xsl:variable name="wordRangeEnd" select="number(tokenize($wordRange, '-')[2])"/>
             <xsl:choose>
-              <xsl:when test="$test">
+              <xsl:when test="$wordRange">
                 <sctap:source>
                   <rdf:Description>
                     <sctap:source rdf:resource="{$sourceBase}"/>

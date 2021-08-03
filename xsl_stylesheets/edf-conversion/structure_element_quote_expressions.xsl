@@ -161,11 +161,11 @@
       <!-- END structure type properties -->
       <!-- BEGIN create instanceOf assertions -->
       <!-- TODO: this is depreciated; should be deleted -->
-      <xsl:for-each select="tokenize(./@ana, ' ')">
+      <!--<xsl:for-each select="tokenize(./@ana, ' ')">
         <xsl:variable name="quoteRef" select="."></xsl:variable>
         <xsl:variable name="quoteID" select="substring-after($quoteRef, '#')"></xsl:variable>
         <sctap:isInstanceOf rdf:resource="http://scta.info/resource/{$quoteID}"/>
-      </xsl:for-each>
+      </xsl:for-each>-->
       <!-- End instanceOf assertions -->
       <!-- BEGIN citation -->
       <xsl:if test="./parent::tei:cit/tei:bibl">
@@ -181,7 +181,7 @@
           <xsl:variable name="wordRangeStart" select="number(tokenize($wordRange, '-')[1])"/>
           <xsl:variable name="wordRangeEnd" select="number(tokenize($wordRange, '-')[2])"/>
           <xsl:choose>
-            <xsl:when test="$test">
+            <xsl:when test="$wordRange">
               <sctap:source>
                 <rdf:Description>
                   <sctap:source rdf:resource="{$sourceBase}"/>
