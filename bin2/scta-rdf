@@ -207,7 +207,7 @@ class MyCLI < Thor
       puts "updating codex status hash in log"
       self.get_hash("#{$base}/data/scta-articles", "#{file}.xml", "articles")
     else
-      puts "no change in quotation list"
+      puts "no change in article list list"
     end
   end
   desc "create_articles", "create articles for all article lists"
@@ -522,6 +522,7 @@ class MyCLI < Thor
   `mkdir -p #{$base}/data && \
       curl -L -o #{$base}/data/#{datarepo}.tar https://api.github.com/repos/#{datarepobase}/#{datarepo}/tarball/master && \
       tar -xvzf #{$base}/data/#{datarepo}.tar --directory #{$base}/data/
+      rm -rf #{$base}/data/#{datarepo} && \
       mv #{$base}/data/#{datarepobase}-#{datarepo}* #{$base}/data/#{datarepo} && \
       rm -rf #{$base}/data/#{datarepobase}-#{datarepo}*`
 

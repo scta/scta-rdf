@@ -24,8 +24,6 @@ Change directories into the new directory.
 
 `cd scta-rdf`
 
-*Note:* At this point, the cloned submodules will likely be in a detached head state, which makes updating submodules difficult.
-To fix this, check each submodule out to master, or the `data/checkout-to-master.sh` script to automatically checkout each submodule to master.
 
 Build the docker image using docker-compose.
 
@@ -53,7 +51,7 @@ Once the volumes have been created,
 
 Run a detached container from the newly created docker image.
 
-`docker-compose up -d`
+`docker-compose up -d`git 
 
 You should now have a running fuseki instance
 
@@ -61,24 +59,23 @@ Run `curl localhost:3030` to see if its working.
 
 You can now run the first build.
 
-The first build will take a considerable amount of time.
+The first build will take a considerable amount of time (think, perhaps 24 hours).
 
 `docker exec -t sctardf_web_1 bin2/scta-rdf build_and_update`
 
 The `build_and_update` command, will perform a sequence of actions.
 
-1. Update texts repositories from github
-2. Update submodules
+1. Update texts and meta-text repositories from github
 3. Build RDF graph from structured raw data
 4. Ingest resulting graphs into indexed database.
 
 Along the way, the application will be storing the hashes of the files (in the `logs` volume) it processes
 and of the graphs it ingests.
 
-The next time the `build_and_update` command is running the hashes of the existing data
+The next time the `build_and_update` command is run, the hashes of the existing data
 will be compared these hashes stored in the `logs` volume. If the hashes match,
-processing or ingestion will skipped for these files. Thus, `build_and_update` command
-will take considerably less time as it will only process the files that needed process.
+processing or ingestion will be skipped for these files. Thus, `build_and_update` command
+will take considerably less time as it will only process the files that need process.
 It will still take some time however, as there will be thousands of hashes to be checked.
 
 There are many more specialized commands that can be run with the SCTA-RDF CLI.
@@ -97,14 +94,13 @@ Commands:
   scta-rdf create_all_passive_relations_query  # create passive relations via SPARQL construct query
   scta-rdf create_article                      # create articles for specific article list
   scta-rdf create_articles                     # create articles for all article lists
-  scta-rdf create_bible_quotations             # create bible quotations
   scta-rdf create_canvases                     # moves canvases from data to build folder
   scta-rdf create_codex CODEX                  # create codex
   scta-rdf create_codices                      # create codices
-  scta-rdf create_custom_quotation             # create custom quotation
-  scta-rdf create_custom_quotations            # create custom quotations
   scta-rdf create_expression EDF               # create expression
   scta-rdf create_expressions                  # create expressions
+  scta-rdf create_institution INSTITUTION      # create_institution INSTITUTION
+  scta-rdf create_institutions                 # create institutions
   scta-rdf create_manual_ttls                  # moves manual ttls from data to build folder
   scta-rdf create_names                        # create names
   scta-rdf create_passive_relation EDF         # create passive relation
@@ -116,6 +112,7 @@ Commands:
   scta-rdf create_works                        # create work list
   scta-rdf delete_discarded_graphs graph       # delete graphs listed in log discardedgraphs.json file
   scta-rdf delete_graph graph                  # delete graph
+  scta-rdf delete_graph_file                   # delete any file with matching name in any directory within the build folder
   scta-rdf extract_all                         # extract all
   scta-rdf get hash                            # creates hash for target and adds to specified hash table
   scta-rdf get hashes                          # creates hash table for targets and adds to specified hash table
@@ -125,13 +122,18 @@ Commands:
   scta-rdf load_canvases                       # load canvases
   scta-rdf load_graph graph                    # load graph
   scta-rdf load_graphs                         # load graphs
-  scta-rdf same hash?                          # compares files and return true if the hashes are the same and false if they are different
+  scta-rdf remove_hash                         # remove a hash from any log file
+  scta-rdf same hash?                          # compares files and return true if the hashes are the same and false if they are diff...
   scta-rdf split_large_files                   # splits large build files into smaller versions
   scta-rdf start_fuseki                        # start fuseki
+  scta-rdf update_all                          # updates all data
+  scta-rdf update_all_graphs                   # update graphs
   scta-rdf update_canvas                       # load canvas
   scta-rdf update_canvases                     # load canvases
+  scta-rdf update_data_repo                    # updates a data repo for a given github url 
+  scta-rdf update_data_repos                   # updates all data repos besides texts 
   scta-rdf update_graph graph                  # update graph
-  scta-rdf update_graphs                       # update graphs
+  scta-rdf update_graph_toplevel               # update top level text graph and all sub items
   scta-rdf update_graphs                       # update graphs
   scta-rdf update_repo                         # update a single repo
   scta-rdf update_repos                        # update all data repos
@@ -170,7 +172,7 @@ But rough snapshot testing can be accomplished as follows, by setting the `dryru
 `scta-rdf update_graph_toplevel pp-projectdata true true false`
 
 Dry run will simple check to see if a graph has changed without updating the database
-By setting loggin to false, all other logging messages will be silence, and only files that have been changed will log to output
+By setting logging to false, all other logging messages will be silence, and only files that have been changed will log to output
 
 
 
