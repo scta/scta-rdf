@@ -1,4 +1,6 @@
-FROM alpine:3.15
+# using alpine:3.13 instead of 3.15 to avoid error described here
+# https://stackoverflow.com/questions/68243042/you-dont-have-write-permissions-for-the-usr-lib-ruby-gems-2-7-0-directory-alp
+FROM alpine:3.13
 #ENV variables
 ENV DOCKER=true
 
