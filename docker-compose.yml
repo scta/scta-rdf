@@ -3,7 +3,7 @@ services:
   web:
     build: .
     image: scta-rdf
-    command: bin2/scta-rdf start_fuseki build
+    command: bin2/scta-rdf start_fuseki build-v4.3.1
     volumes:
       - ../scta-rdf-builds/build:/home/scta-rdf/build
       - ../scta-rdf-builds/fuseki-builds:/home/scta-rdf/fuseki-builds

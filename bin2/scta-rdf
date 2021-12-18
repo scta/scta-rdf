@@ -283,7 +283,7 @@ class MyCLI < Thor
   desc "delete_graph graph", "delete graph"
   def delete_graph (graph)
     puts "deleting #{graph}"
-    `cd #{$fuseki} && ./bin/s-delete http://localhost:3030/ds/data #{graph}`
+    `cd #{$fuseki} && ./bin/s-delete http://localhost:3030/ds/data http://scta.info/graph/#{graph}`
     self.delete_graph_file(graph)
     puts "removing graph entry from log"
     self.remove_hash(graph)
@@ -319,7 +319,7 @@ class MyCLI < Thor
   desc "load_graph graph", "load graph"
   def load_graph (subdirectory, graph)
     puts "loading #{$base}/build/#{subdirectory}/#{graph}"
-    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
+    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data http://scta.info/graph/#{graph} #{$base}/build/#{subdirectory}/#{graph}`
   end
   desc "load_graphs", "load graphs"
   def load_graphs(subdirectory)
@@ -393,7 +393,7 @@ class MyCLI < Thor
       if (logging == true) then puts "status: #{status}" end 
       if !status || force
         if (logging == true) then puts "updating #{graph}" end
-        `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/#{subdirectory}/#{graph}`
+        `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data http://scta.info/graph/#{graph} #{$base}/build/#{subdirectory}/#{graph}`
         if (logging == true) then puts "updating text-rdf hash in log" end
         self.get_hash(full_dir_path, graph, type)
       else
@@ -423,36 +423,36 @@ class MyCLI < Thor
     end
   end
   desc "update_all_graphs", "update graphs"
-  def update_all_graphs
-    self.update_graphs("codices")
-    self.update_graphs("institutions")
-    self.update_graphs("canvases")
-    self.update_graphs("commentaries")
-    self.update_graphs("names")
-    self.update_graphs("quotations")
-    self.update_graphs("quotations/bsvquotations")
-    self.update_graphs("articles")
-    self.update_graphs("subjects")
-    self.update_graphs("works")
+  def update_all_graphs(force=false)
+    self.update_graphs("codices", force)
+    self.update_graphs("institutions", force)
+    self.update_graphs("canvases", force)
+    self.update_graphs("commentaries", force)
+    self.update_graphs("names", force)
+    ##self.update_graphs("quotations", force) # this should be removed
+    ##self.update_graphs("quotations/bsvquotations", force) # this should be removed
+    self.update_graphs("articles", force)
+    ##self.update_graphs("subjects", force)
+    ##self.update_graphs("works", force)
 
 
     #relquery can be skipped because it is always going to be called separately after passive relation creation
     #self.update_graphs("relquery")
 
     # miscellaneous graph updates
-    self.update_graph("", "scta_expression_types.ttl")
-    self.update_graph("", "scta_author_types.ttl")
-    self.update_graph("", "articles.ttl")
-    self.update_graph("", "scta.rdf")
+    self.update_graph("", "scta_expression_types.ttl", force)
+    self.update_graph("", "scta_author_types.ttl", force)
+    self.update_graph("", "articles.ttl", force)
+    self.update_graph("", "scta.rdf", force)
 
-    self.update_graph("", "classes-list.ttl")
-    self.update_graph("", "properties-list.ttl")
+    self.update_graph("", "classes-list.ttl", force)
+    self.update_graph("", "properties-list.ttl", force)
 
   end
   desc "update_canvas", "load canvas"
   def update_canvas (graph)
     puts "loading canvas #{$base}/data/scta-codices/canvases/#{graph}"
-    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data #{graph} #{$base}/build/canvases/#{graph}`
+    `cd #{$fuseki} && ./bin/s-put http://localhost:3030/ds/data http://scta.info/graph/#{graph} #{$base}/build/canvases/#{graph}`
   end
   desc "update_canvases", "load canvases"
   def update_canvases
@@ -467,7 +467,7 @@ class MyCLI < Thor
   desc "load_canvas", "load canvas"
   def load_canvas (graph)
     puts "loading canvas #{$base}/data/scta-codices/canvases/#{graph}"
-    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data #{graph} #{$base}/data/scta-codices/canvases/#{graph}`
+    `cd #{$fuseki} && ./bin/s-post http://localhost:3030/ds/data http://scta.info/graph/#{graph} #{$base}/data/scta-codices/canvases/#{graph}`
   end
   desc "load_canvases", "load canvases"
   def load_canvases
@@ -539,7 +539,7 @@ desc "update_data_repos", "updates all data repos besides texts "
       "scta-people", 
       "scta-articles", 
       "scta-misc-data",
-      "lombardpress-lists"
+      #"lombardpress-lists"
     ]
     datarepos.each do |item|
       puts item

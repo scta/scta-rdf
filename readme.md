@@ -158,6 +158,8 @@ Note: this is an append method, so builds performed on the same date will output
 To also output saved log to terminal, modify the above command slightly:
 `docker exec -t sctardf_web_1 bin2/scta-rdf build_and_update >> >(tee logs/build-logs/$(date +'%d-%b-%Y').txt) 2>> >(tee logs/build-logs/$(date +'%d-%b-%Y').txt)`
 
+
+bin2/scta-rdf update_graphs commentaries true >> >(tee logs/build-logs/$(date +'%d-%b-%Y')-j-files.txt) 2>> >(tee logs/build-logs/$(date +'%d-%b-%Y')-j-files.txt)
 The above does not work in a crobjob because of differences in cron running environment. 
 See: https://unix.stackexchange.com/questions/52330/how-to-redirect-output-to-a-file-from-within-cron
 Instead try
@@ -172,7 +174,7 @@ But rough snapshot testing can be accomplished as follows, by setting the `dryru
 `scta-rdf update_graph_toplevel pp-projectdata true true false`
 
 Dry run will simple check to see if a graph has changed without updating the database
-By setting logging to false, all other logging messages will be silence, and only files that have been changed will log to output
+By setting logging to false, all other logging messages will be silenced, and only files that have been changed will log to output
 
 
 
