@@ -289,7 +289,7 @@
             <xsl:variable name="objectId" select="if (./@xml:id) then ./@xml:id else concat($fs, '-R-', $totalRefs - $totalFollowingRefs)"/>
             <xsl:for-each select="tokenize(./@target, ' ')">
               <!-- tokenize removes any trailing @word-range -->
-              <xsl:variable name="commentarySectionUrl" select="tokenize(., '@')"></xsl:variable>
+              <xsl:variable name="commentarySectionUrl" select="tokenize(., '@')[1]"></xsl:variable>
               <sctap:references rdf:resource="{$commentarySectionUrl}"/>
             </xsl:for-each>
             <sctap:hasStructureElement rdf:resource="http://scta.info/resource{$objectId}"/>
