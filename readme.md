@@ -177,4 +177,10 @@ Dry run will simple check to see if a graph has changed without updating the dat
 By setting logging to false, all other logging messages will be silenced, and only files that have been changed will log to output
 
 
+# Notes
 
+To compact the growing size of the database, you can run: 
+
+`curl -XPOST http://localhost:3030/$/compact/ds` on a running fuseki instance.
+
+See: https://stackoverflow.com/questions/69946946/how-to-clear-the-unused-space-in-fuseki

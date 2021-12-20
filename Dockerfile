@@ -29,9 +29,9 @@ RUN chmod +x /bin/saxon
 
 # install fuseki
 RUN mkdir -p /home/fuseki/
-RUN curl -L -o /home/fuseki/apache-jena-fuseki-4.3.1.zip http://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-4.3.1.zip && \
-    unzip /home/fuseki/apache-jena-fuseki-4.3.1.zip -d /home/fuseki/ && \
-    rm /home/fuseki/apache-jena-fuseki-4.3.1.zip
+RUN curl -L -o /home/fuseki/apache-jena-fuseki-4.3.2.zip http://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-4.3.2.zip && \
+    unzip /home/fuseki/apache-jena-fuseki-4.3.2.zip -d /home/fuseki/ && \
+    rm /home/fuseki/apache-jena-fuseki-4.3.2.zip
 
 RUN mkdir -p /home/fuseki-builds/build
 
