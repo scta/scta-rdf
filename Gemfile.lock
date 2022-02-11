@@ -4,9 +4,11 @@ GEM
     json (2.0.3)
     mini_portile2 (2.1.0)
     mustermann (1.0.0)
+    nio4r (2.5.8)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
-    puma (3.11.4)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     rack (2.0.5)
     rack-protection (2.0.0)
       rack
