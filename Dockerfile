@@ -49,3 +49,7 @@ RUN bundle install
 
 #install thor
 #RUN gem install thor --no-ri --no-rdoc
+
+CMD bin2/scta-rdf start_fuseki build
+
+EXPOSE 3030:3030
