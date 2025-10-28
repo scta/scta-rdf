@@ -33,15 +33,7 @@ RUN curl -L -o /home/fuseki/apache-jena-fuseki-4.9.0.zip http://archive.apache.o
     unzip /home/fuseki/apache-jena-fuseki-4.9.0.zip -d /home/fuseki/ && \
     rm /home/fuseki/apache-jena-fuseki-4.9.0.zip
 
-RUN mkdir -p /home/fuseki-builds/build
-
-ADD . /home/scta-rdf
-
-
-# mkdir scta-text directory
-RUN mkdir -p /home/scta-rdf/data/scta-texts
-#RUN curl -L -o /home/scta-rdf/data/scta-texts/QmcmpvGBKoUgEQbygohLcLRgHiUoLFwsQD2YzSY92x3uwu http://gateway.ipfs.io/ipfs/QmcmpvGBKoUgEQbygohLcLRgHiUoLFwsQD2YzSY92x3uwu && \
-#    tar -xvzf /home/scta-rdf/data/scta-texts/QmcmpvGBKoUgEQbygohLcLRgHiUoLFwsQD2YzSY92x3uwu -C /home/scta-rdf/data/scta-texts/
+COPY . /home/scta-rdf
 
 
 WORKDIR /home/scta-rdf
